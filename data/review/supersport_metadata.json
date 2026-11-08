@@ -1,0 +1,30 @@
+{
+  "broadcaster": "SuperSport",
+  "source_id": "supersport_media_schedules",
+  "source_url": "https://wsd.supersport.com/media/ms_schedule.asp",
+  "source_date": "2026-11-08",
+  "source_timezone": "Africa/Johannesburg",
+  "scraped_at_utc": "2026-11-08T14:46:10.138012Z",
+  "record_count": 1630,
+  "source_channel_count": 60,
+  "canonical_channel_ids_mapped": 0,
+  "duplicate_policy": "Exact source channel code, start/end instant, title and description duplicates are removed; equivalent rows on distinct channels remain distinct.",
+  "scope": "Official dated programme schedule rows; not fixture records.",
+  "validation": {
+    "live_scrape": "completed",
+    "captured_official_response_tests": 5,
+    "tests_passed": 5,
+    "bein_reuse": "not validated; existing beIN repository/package was unavailable in the local workspace",
+    "phase3_registry_mapping": "pending; registry files were not available in the workspace",
+    "shared_schema": "SuperSport JSON matches the beIN schemaVersion 1 envelope and retains per-programme source provenance"
+  },
+  "schema_version": 1,
+  "bein_repository_validation": {
+    "repository": "ayoubhaid/specta-bein-epg",
+    "commit": "1852322d60030169a4ea642d474fab99155d462a",
+    "npm_run_check": "passed",
+    "committed_feed_channels": 40,
+    "committed_feed_programmes": 2458,
+    "live_api": "40 channels returned; dated programme requests returned populated and empty channel-days"
+  }
+}

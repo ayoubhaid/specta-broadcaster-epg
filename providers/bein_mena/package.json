@@ -1,0 +1,14 @@
+{
+  "name": "specta-bein-epg-json",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generate a normalized JSON EPG feed from beIN SPORTS MENA's public TV-guide API.",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scraper.mjs",
+    "check": "node --check scraper.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
