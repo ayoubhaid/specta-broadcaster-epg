@@ -1,6 +1,6 @@
 # Specta Broadcaster EPG
 
-Provider adapters and dated programme data for Specta. Each broadcaster feed keeps its own source channel IDs; mapping to Specta's canonical playlist IDs happens in a separate reviewed mapping file.
+Provider adapters and dated programme data for Specta. Each broadcaster feed keeps its own source channel IDs; `aggregate/` resolves them to iptv-org ids automatically and publishes one XMLTV feed.
 
 ## Current feeds
 
@@ -47,28 +47,27 @@ node --test providers/sky/test_scraper.mjs providers/canalplus_fr/test_scraper.m
 
 ## Channel mapping workflow
 
-Populate `data/mapping/channel-map.csv` from the actual playlist inventory and approved Phase 3 registry. Keep one row per provider source channel. Use `permanent_linear`, `temporary_event`, or `unclassified` for `channel_class`. Never infer identity from a sports event title or a temporary stream label. Preserve collisions for human review rather than choosing a mapping silently.
+Identity is resolved automatically against the iptv-org registry, so the CSV is an override list, not a checklist. `aggregate/seed-mapping.mjs` appends every provider channel as `unclassified`; fill `canonical_channel_id` only when the automatic result is wrong or missing, and use `temporary_event` to keep a feed out of the app entirely. Never infer identity from a sports event title or a temporary stream label. Ambiguous names and collisions are reported in `docs/coverage.json` instead of being guessed.
 
 ## App-facing XMLTV feed
 
-`aggregate/build.mjs` merges the provider feeds into one XMLTV document for Specta:
+`aggregate/build.mjs` merges the provider feeds into one XMLTV document for Specta. Identity is resolved automatically: every provider channel is matched against the public iptv-org channel registry by name, with provider-specific country hints (QA for beIN, UK for Sky, FR for CANAL+, ZA for SuperSport). Nothing has to be filled in by hand.
 
 - **Input:** `data/source-feeds/*.json` and `data/review/*.json` (schedule-v1 only; files without `schemaVersion: 1` are skipped).
-- **Gate:** a source channel is published only when `data/mapping/channel-map.csv` has a matching row with a non-empty `canonical_channel_id` and `channel_class = permanent_linear`.
-- **Output:** `docs/epg.xml` (XMLTV) and `docs/coverage.json` (what was published, held back, rejected or collided).
+- **Identity:** the matching iptv-org id (`beINSports1.qa`, `SkySportsMainEvent.uk`, `SuperSportAction.za`). A row in `data/mapping/channel-map.csv` with `canonical_channel_id` overrides the automatic result. `channel_class = temporary_event` is never published.
+- **No guessing:** a name that matches several countries, or a country hint that matches none, is held back and listed with its candidates.
+- **Output:** `docs/epg.xml` (XMLTV) and `docs/coverage.json` (what was resolved, held back, rejected or collided).
 
 ```sh
-npm run seed:mapping                        # append new provider channels as unclassified rows
-# fill canonical_channel_id in data/mapping/channel-map.csv
-npm run build                               # -> docs/epg.xml + docs/coverage.json
+npm run build                               # fetch registry, resolve, write docs/
 npm run build -- --playlist=playlist.m3u    # additionally report uncovered tvg-ids
-node aggregate/build.mjs --allow-unmapped   # diagnostic only: namespaced ids, not for the app
+node aggregate/build.mjs --registry=data/iptv-channels.json   # offline registry copy
 npm test                                    # aggregation pipeline tests
 ```
 
-`docs/epg.xml` is never replaced when nothing is publishable, so a broken refresh cannot blank the feed for users. `docs/coverage.json` is the work queue: `held.unmapped` lists provider channels that still need a mapping, `held.collisions` lists two source channels claiming one tvg-id, and `rejected` counts rows the app could not display (for example programmes longer than 12 hours).
+`docs/epg.xml` is never replaced when nothing is publishable, so a broken refresh cannot blank the feed for users. `docs/coverage.json` is the work queue: `held.unresolved` lists names that need an override, with the registry candidates that were too close to choose from, and `rejected` counts rows the app could not have shown (for example programmes longer than 12 hours).
 
-Enable **GitHub Pages** for this repository (branch `main`, folder `/docs`). The feed then lives at `https://<user>.github.io/specta-broadcaster-epg/epg.xml` and is pasted into **Settings → Live → TV-Programm (EPG)** in the app. The app matches `programme@channel` against the playlist's `tvg-id`, case-insensitively.
+Enable **GitHub Pages** for this repository (branch `main`, folder `/docs`). The feed then lives at `https://<user>.github.io/specta-broadcaster-epg/epg.xml` and is pasted into **Settings → Live → TV-Programm (EPG)** in the app. The app matches `programme@channel` against the playlist's `tvg-id`, case-insensitively — the published ids are iptv-org ids, so playlists that use those ids match directly. A playlist with provider-specific ids needs an override row (or a name fallback in the app).
 
 The build applies the app's own XMLTV limits so the file contains nothing the app would discard: 36 hours ahead are used, at most 80 programmes per channel, descriptions are capped at 400 characters, and entries longer than 12 hours are rejected. This repository does not change the app; it only publishes a file the app already reads.
 

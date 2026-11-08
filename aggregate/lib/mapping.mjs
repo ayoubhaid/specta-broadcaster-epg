@@ -1,14 +1,11 @@
 /**
  * The reviewed bridge between a broadcaster's own channel IDs and the playlist's tvg-ids.
  *
- * Only rows with a canonical id AND channel_class "permanent_linear" reach the app feed.
- * Everything else stays in data/mapping/channel-map.csv for review, which is the same rule
- * the repository README already states for data/review/.
+ * A row with a canonical id overrides the automatic iptv-org resolution in lib/registry.mjs.
+ * The file is optional: the build resolves identity by name when no row exists.
  */
 
 import { readFile } from "node:fs/promises";
-
-export const PUBLISH_CLASS = "permanent_linear";
 
 /** RFC-4180-ish reader: quotes, escaped quotes, commas and newlines inside fields. */
 export function parseCsv(text) {
@@ -92,8 +89,4 @@ export async function loadMapping(file) {
     });
   }
   return rows;
-}
-
-export function isPublishable(row) {
-  return Boolean(row && row.canonicalChannelId && row.channelClass === PUBLISH_CLASS);
 }

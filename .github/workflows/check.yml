@@ -28,7 +28,7 @@ jobs:
       - name: Check aggregation pipeline syntax
         run: node --check aggregate/build.mjs
       - name: Test aggregation pipeline
-        run: node --test aggregate/test/schedule.test.mjs aggregate/test/mapping.test.mjs aggregate/test/pipeline.test.mjs aggregate/test/xmltv.test.mjs
+        run: node --test aggregate/test/schedule.test.mjs aggregate/test/mapping.test.mjs aggregate/test/registry.test.mjs aggregate/test/pipeline.test.mjs aggregate/test/xmltv.test.mjs
       - name: Build feed into a scratch directory
         run: node aggregate/build.mjs --out=tmp/epg.xml --report=tmp/coverage.json
       - name: Validate committed provider feeds

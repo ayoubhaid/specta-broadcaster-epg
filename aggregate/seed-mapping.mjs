@@ -1,7 +1,7 @@
 /**
  * Appends every provider channel that has no mapping row yet.
- * Existing rows are never modified; new rows are unclassified and unreviewed on purpose,
- * so the build keeps ignoring them until a human fills in canonical_channel_id.
+ * Existing rows are never modified. A row is only an override: the build resolves identity
+ * against the iptv-org registry on its own, so these rows are inert until you fill one in.
  *
  *   node aggregate/seed-mapping.mjs
  */

@@ -1,15 +1,18 @@
 /**
  * Merges every provider feed into one list of app-facing channels.
  *
- * Rules:
- * - a source channel publishes only when its mapping row is reviewed (canonical id + permanent_linear)
- * - two source channels claiming the same tvg-id are a collision: the first is kept, the second reported
- * - window, per-channel cap and the 12-hour limit match what the app's XMLTV reader keeps
- * - nothing is written here; the caller decides whether to publish
+ * Identity, in order of precedence:
+ * 1. a reviewed row in data/mapping/channel-map.csv (canonical_channel_id) — manual always wins
+ * 2. automatic resolution against the iptv-org registry (config.resolve)
+ * 3. diagnostic mode: namespaced id, only for smoke tests
+ *
+ * A row marked channel_class=temporary_event is never published, mapped or not.
+ * Two source channels claiming the same id are a collision: the first is kept, the second reported.
+ * Window, per-channel cap and the 12-hour limit match what the app's XMLTV reader keeps.
  */
 
 import { mergeChannel } from "./merge.mjs";
-import { PUBLISH_CLASS, isPublishable, mappingKey } from "./mapping.mjs";
+import { mappingKey } from "./mapping.mjs";
 import { normalizeProgramme } from "./schedule.mjs";
 
 export const DEFAULT_OPTIONS = {
@@ -18,8 +21,10 @@ export const DEFAULT_OPTIONS = {
   maxPerChannel: 80,
   maxDurationSeconds: 12 * 3600,
   descriptionMax: 400,
-  /** Diagnostic mode: publish unmapped channels under a namespaced id so the pipeline can be tested. */
+  /** Diagnostic mode: publish unresolved channels under a namespaced id so the pipeline can be tested. */
   allowUnmapped: false,
+  /** (feed, channel) -> { id, method } | { reason, candidates } | null */
+  resolve: null,
 };
 
 export function buildFeed({ feeds, mapping, now, options = {} }) {
@@ -46,7 +51,8 @@ export function buildFeed({ feeds, mapping, now, options = {} }) {
     },
     totals: { channels: 0, programmes: 0 },
     providers: [],
-    held: { unmapped: [], notLinear: [], collisions: [] },
+    resolved: [],
+    held: { unresolved: [], blocked: [], collisions: [] },
     rejected: { row: 0, title: 0, time: 0, range: 0, duration: 0 },
   };
 
@@ -59,6 +65,7 @@ export function buildFeed({ feeds, mapping, now, options = {} }) {
       programmes: 0,
       publishedChannels: 0,
       publishedProgrammes: 0,
+      autoResolved: 0,
       rejected: { row: 0, title: 0, time: 0, range: 0, duration: 0 },
       error: null,
     };
@@ -70,17 +77,36 @@ export function buildFeed({ feeds, mapping, now, options = {} }) {
         const row = mapping.get(key);
         stat.programmes += Array.isArray(channel.programmes) ? channel.programmes.length : 0;
 
-        let publishId = "";
-        if (row && row.canonicalChannelId) {
-          if (!config.allowUnmapped && row.channelClass !== PUBLISH_CLASS) {
-            report.held.notLinear.push({ key, name: channel.name, channelClass: row.channelClass });
+        if (row?.channelClass === "temporary_event") {
+          report.held.blocked.push({ key, name: channel.name, channelClass: row.channelClass });
+          continue;
+        }
+
+        let publishId = row?.canonicalChannelId ?? "";
+        let method = publishId ? "manual" : "";
+        if (!publishId && config.allowUnmapped) {
+          publishId = key;
+          method = "diagnostic";
+        }
+        if (!publishId && config.resolve) {
+          const result = config.resolve(feed, channel);
+          if (result?.id) {
+            publishId = result.id;
+            method = result.method ?? "registry";
+            stat.autoResolved++;
+          } else {
+            report.held.unresolved.push({
+              key,
+              provider: feed.provider,
+              name: channel.name,
+              reason: result?.reason ?? "unknown",
+              candidates: result?.candidates ?? [],
+            });
             continue;
           }
-          publishId = row.canonicalChannelId;
-        } else if (config.allowUnmapped) {
-          publishId = key;
-        } else {
-          report.held.unmapped.push({ key, provider: feed.provider, name: channel.name });
+        }
+        if (!publishId) {
+          report.held.unresolved.push({ key, provider: feed.provider, name: channel.name, reason: "unmapped", candidates: [] });
           continue;
         }
 
@@ -102,6 +128,7 @@ export function buildFeed({ feeds, mapping, now, options = {} }) {
           channels.set(publishId, target);
         }
         stat.publishedChannels++;
+        report.resolved.push({ key, name: channel.name, id: publishId, method });
 
         for (const programme of channel.programmes ?? []) {
           const normalized = normalizeProgramme(programme, limits);
@@ -129,6 +156,7 @@ export function buildFeed({ feeds, mapping, now, options = {} }) {
   }
   output.sort((a, b) => a.id.localeCompare(b.id));
 
+  report.resolved.sort((a, b) => a.id.localeCompare(b.id));
   report.totals.channels = output.length;
   report.totals.programmes = output.reduce((sum, channel) => sum + channel.programmes.length, 0);
   return { channels: output, report };

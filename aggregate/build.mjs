@@ -17,10 +17,13 @@ import { fileURLToPath } from "node:url";
 import { loadMapping } from "./lib/mapping.mjs";
 import { buildFeed } from "./lib/pipeline.mjs";
 import { tvgIdsFromM3u } from "./lib/playlist.mjs";
+import { brandPrefixes, countryHints, indexRegistry, resolveChannel } from "./lib/registry.mjs";
 import { inspectFeed } from "./lib/schedule.mjs";
 import { toXmltv } from "./lib/xmltv.mjs";
 
 const ROOT = path.resolve(fileURLToPath(new URL("..", import.meta.url)));
+const REGISTRY_URL = "https://iptv-org.github.io/api/channels.json";
+const USER_AGENT = "SpectaEPG/1.0 (broadcaster schedule ingestion)";
 
 function parseArgs(argv) {
   const args = {};
@@ -44,6 +47,25 @@ async function writeAtomic(file, data) {
   const temporary = `${file}.tmp`;
   await writeFile(temporary, data, "utf8");
   await rename(temporary, file);
+}
+
+async function loadRegistry(args, warn) {
+  if (args["no-registry"]) return null;
+  const source = String(args.registry ?? REGISTRY_URL);
+  try {
+    if (/^https?:/i.test(source)) {
+      const response = await fetch(source, {
+        headers: { accept: "application/json", "user-agent": USER_AGENT },
+        signal: AbortSignal.timeout(90_000),
+      });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return await response.json();
+    }
+    return JSON.parse(await readFile(path.resolve(ROOT, source), "utf8"));
+  } catch (error) {
+    warn(`registry unavailable (${error.message}); only manual mapping rows will publish`);
+    return null;
+  }
 }
 
 async function loadFeeds(directories, warn) {
@@ -86,7 +108,7 @@ async function loadFeeds(directories, warn) {
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   if (args.help) {
-    console.log("node aggregate/build.mjs [--allow-unmapped] [--playlist=file.m3u] [--require]");
+    console.log("node aggregate/build.mjs [--playlist=file.m3u] [--registry=file.json] [--no-registry] [--allow-unmapped] [--require]");
     return;
   }
 
@@ -107,6 +129,18 @@ async function main() {
     maxPerChannel: intOption(args.cap, 80, 1, 400),
     allowUnmapped: Boolean(args["allow-unmapped"]),
   };
+
+  const registry = await loadRegistry(args, (line) => console.warn(line));
+  if (registry) {
+    const index = indexRegistry(registry);
+    options.resolve = (feed, channel) =>
+      resolveChannel(index, {
+        name: channel.name,
+        countryHints: countryHints(feed.provider, feed.region),
+        prefixes: brandPrefixes(feed.provider),
+      });
+    console.log(`Registry: ${registry.length} iptv-org channels indexed`);
+  }
 
   const mapping = await loadMapping(mappingFile);
   const feeds = await loadFeeds(feedDirs, (line) => console.warn(line));
@@ -135,22 +169,22 @@ async function main() {
     const suffix = provider.error ? ` ERROR ${provider.error}` : "";
     console.log(
       `  ${provider.provider.padEnd(14)} ${String(provider.channels).padStart(3)} channels, ` +
-        `${String(provider.programmes).padStart(6)} rows -> ${provider.publishedChannels} published, ` +
-        `${provider.publishedProgrammes} programmes${suffix}`
+        `${String(provider.programmes).padStart(6)} rows -> ${provider.publishedChannels} published ` +
+        `(${provider.autoResolved} auto), ${provider.publishedProgrammes} programmes${suffix}`
     );
   }
 
   if (!result.channels.length) {
     console.warn("Nothing is publishable yet: docs/epg.xml was left untouched.");
-    console.warn(`Fill canonical_channel_id in ${path.relative(ROOT, mappingFile)} (see ${path.relative(ROOT, reportFile)}).`);
+    console.warn(`Unresolved source channels: ${report.held.unresolved.length} (see ${path.relative(ROOT, reportFile)}).`);
     if (args.require) process.exitCode = 1;
     return;
   }
 
   await writeAtomic(outFile, toXmltv(result.channels));
   console.log(`Feed: ${report.totals.channels} channels, ${report.totals.programmes} programmes -> ${path.relative(ROOT, outFile)}`);
-  if (report.held.unmapped.length) console.log(`Held back: ${report.held.unmapped.length} unmapped source channels (see report)`);
-  if (report.held.notLinear.length) console.log(`Held back: ${report.held.notLinear.length} non-linear source channels (see report)`);
+  if (report.held.unresolved.length) console.log(`Held back: ${report.held.unresolved.length} unresolved source channels (see report)`);
+  if (report.held.blocked.length) console.log(`Held back: ${report.held.blocked.length} temporary event channels (see report)`);
   if (report.held.collisions.length) console.warn(`Collisions: ${report.held.collisions.length} source channels claim a used tvg-id (see report)`);
   if (report.playlist) console.log(`Playlist coverage: ${report.playlist.covered}/${report.playlist.tvgIds} tvg-ids covered`);
 }

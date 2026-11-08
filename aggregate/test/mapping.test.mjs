@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { isPublishable, mappingKey, parseCsv, quoteCsv } from "../lib/mapping.mjs";
+import { mappingKey, parseCsv, quoteCsv } from "../lib/mapping.mjs";
 
 test("parseCsv keeps commas and quotes inside fields", () => {
   const rows = parseCsv('provider,notes\nbein,"a, b"\nsky,"say ""hi"""\n');
@@ -27,12 +27,4 @@ test("quoteCsv only quotes when needed", () => {
 
 test("mappingKey is case-insensitive across provider and source id", () => {
   assert.equal(mappingKey("bein_mena", "8AEA2426"), "bein_mena:8aea2426");
-});
-
-test("only reviewed permanent linear rows are publishable", () => {
-  assert.equal(isPublishable({ canonicalChannelId: "beinsports1.qa", channelClass: "permanent_linear" }), true);
-  assert.equal(isPublishable({ canonicalChannelId: "beinsports1.qa", channelClass: "temporary_event" }), false);
-  assert.equal(isPublishable({ canonicalChannelId: "beinsports1.qa", channelClass: "unclassified" }), false);
-  assert.equal(isPublishable({ canonicalChannelId: "", channelClass: "permanent_linear" }), false);
-  assert.equal(isPublishable(undefined), false);
 });

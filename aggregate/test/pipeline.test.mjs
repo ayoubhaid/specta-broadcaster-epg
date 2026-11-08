@@ -34,7 +34,7 @@ function mappingFor(...rows) {
   return new Map(rows.map(([key, canonicalChannelId, channelClass]) => [key, { canonicalChannelId, channelClass }]));
 }
 
-test("only mapped permanent linear channels reach the feed", () => {
+test("a mapped channel publishes; unmapped ones are held", () => {
   const { channels, report } = buildFeed({
     feeds: [demoFeed()],
     mapping: mappingFor(["demo:ch1", "demo.one", "permanent_linear"]),
@@ -44,10 +44,61 @@ test("only mapped permanent linear channels reach the feed", () => {
   assert.equal(channels[0].id, "demo.one");
   assert.equal(channels[0].name, "Demo One");
   assert.equal(channels[0].programmes.length, 1, "duplicate removed, long entry dropped, 41h entry outside window");
-  assert.equal(report.held.unmapped.length, 1);
-  assert.equal(report.held.unmapped[0].key, "demo:ch2");
+  assert.equal(report.held.unresolved.length, 1);
+  assert.equal(report.held.unresolved[0].key, "demo:ch2");
   assert.equal(report.rejected.duration, 1);
   assert.equal(report.rejected.title, 1);
+});
+
+test("the registry resolver publishes without any mapping row", () => {
+  const calls = [];
+  const { channels, report } = buildFeed({
+    feeds: [demoFeed()],
+    mapping: new Map(),
+    now: NOW,
+    options: {
+      resolve: (feed, channel) => {
+        calls.push(`${feed.provider}:${channel.id}`);
+        return channel.id === "ch1" ? { id: "demo.one", method: "registry" } : { reason: "unknown", candidates: [] };
+      },
+    },
+  });
+  assert.deepEqual(calls, ["demo:ch1", "demo:ch2"]);
+  assert.equal(channels.length, 1);
+  assert.equal(channels[0].id, "demo.one");
+  assert.equal(report.providers[0].autoResolved, 1);
+  assert.equal(report.resolved[0].method, "registry");
+  assert.equal(report.held.unresolved[0].reason, "unknown");
+});
+
+test("a manual mapping row wins over the resolver", () => {
+  const asked = [];
+  const feed = { provider: "demo", channels: [demoFeed().channels[0]] };
+  const { channels } = buildFeed({
+    feeds: [feed],
+    mapping: mappingFor(["demo:ch1", "manual.one", "permanent_linear"]),
+    now: NOW,
+    options: {
+      resolve: (_, channel) => {
+        asked.push(channel.id);
+        return { id: "registry.one", method: "registry" };
+      },
+    },
+  });
+  assert.deepEqual(asked, [], "the resolver is not consulted for a manually mapped channel");
+  assert.equal(channels[0].id, "manual.one");
+});
+
+test("an ambiguous registry match is reported with its candidates", () => {
+  const { channels, report } = buildFeed({
+    feeds: [demoFeed()],
+    mapping: new Map(),
+    now: NOW,
+    options: { resolve: () => ({ reason: "ambiguous", candidates: ["a.qa", "b.tr"] }) },
+  });
+  assert.equal(channels.length, 0);
+  assert.equal(report.held.unresolved.length, 2);
+  assert.deepEqual(report.held.unresolved[0].candidates, ["a.qa", "b.tr"]);
 });
 
 test("temporary event channels are held back even when mapped", () => {
@@ -57,8 +108,8 @@ test("temporary event channels are held back even when mapped", () => {
     now: NOW,
   });
   assert.equal(channels.length, 0);
-  assert.equal(report.held.notLinear.length, 1);
-  assert.equal(report.held.notLinear[0].channelClass, "temporary_event");
+  assert.equal(report.held.blocked.length, 1);
+  assert.equal(report.held.blocked[0].channelClass, "temporary_event");
 });
 
 test("two source channels claiming one tvg-id are a reported collision", () => {
@@ -112,7 +163,7 @@ test("diagnostic mode publishes unmapped channels under a namespaced id", () => 
     ["demo:ch1", "demo:ch2"]
   );
   assert.equal(report.diagnostic, true);
-  assert.equal(report.held.unmapped.length, 0);
+  assert.equal(report.held.unresolved.length, 0);
 });
 
 test("a broken provider does not stop the others", () => {
