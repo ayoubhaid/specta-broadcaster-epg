@@ -49,6 +49,29 @@ node --test providers/sky/test_scraper.mjs providers/canalplus_fr/test_scraper.m
 
 Populate `data/mapping/channel-map.csv` from the actual playlist inventory and approved Phase 3 registry. Keep one row per provider source channel. Use `permanent_linear`, `temporary_event`, or `unclassified` for `channel_class`. Never infer identity from a sports event title or a temporary stream label. Preserve collisions for human review rather than choosing a mapping silently.
 
+## App-facing XMLTV feed
+
+`aggregate/build.mjs` merges the provider feeds into one XMLTV document for Specta:
+
+- **Input:** `data/source-feeds/*.json` and `data/review/*.json` (schedule-v1 only; files without `schemaVersion: 1` are skipped).
+- **Gate:** a source channel is published only when `data/mapping/channel-map.csv` has a matching row with a non-empty `canonical_channel_id` and `channel_class = permanent_linear`.
+- **Output:** `docs/epg.xml` (XMLTV) and `docs/coverage.json` (what was published, held back, rejected or collided).
+
+```sh
+npm run seed:mapping                        # append new provider channels as unclassified rows
+# fill canonical_channel_id in data/mapping/channel-map.csv
+npm run build                               # -> docs/epg.xml + docs/coverage.json
+npm run build -- --playlist=playlist.m3u    # additionally report uncovered tvg-ids
+node aggregate/build.mjs --allow-unmapped   # diagnostic only: namespaced ids, not for the app
+npm test                                    # aggregation pipeline tests
+```
+
+`docs/epg.xml` is never replaced when nothing is publishable, so a broken refresh cannot blank the feed for users. `docs/coverage.json` is the work queue: `held.unmapped` lists provider channels that still need a mapping, `held.collisions` lists two source channels claiming one tvg-id, and `rejected` counts rows the app could not display (for example programmes longer than 12 hours).
+
+Enable **GitHub Pages** for this repository (branch `main`, folder `/docs`). The feed then lives at `https://<user>.github.io/specta-broadcaster-epg/epg.xml` and is pasted into **Settings → Live → TV-Programm (EPG)** in the app. The app matches `programme@channel` against the playlist's `tvg-id`, case-insensitively.
+
+The build applies the app's own XMLTV limits so the file contains nothing the app would discard: 36 hours ahead are used, at most 80 programmes per channel, descriptions are capped at 400 characters, and entries longer than 12 hours are rejected. This repository does not change the app; it only publishes a file the app already reads.
+
 ## Sources and limits
 
 - beIN: public MENA TV guide endpoints documented in `providers/bein_mena/README.md`; the endpoint contract may change.
