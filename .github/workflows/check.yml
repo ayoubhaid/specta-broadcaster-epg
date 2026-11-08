@@ -21,9 +21,11 @@ jobs:
       - name: Check beIN scraper syntax
         working-directory: providers/bein_mena
         run: npm run check
+      - name: Test JavaScript broadcaster adapters
+        run: node --test providers/sky/test_scraper.mjs providers/canalplus_fr/test_scraper.mjs
       - name: Test SuperSport adapter
         run: python -m unittest discover -s providers/supersport -p 'test_*.py'
       - name: Validate committed provider feeds
         run: |
-          node -e "for (const p of ['data/source-feeds/bein_mena.json','data/review/supersport_unclassified.json']) { const d=require('./'+p); if(d.schemaVersion!==1) throw Error(p+' schemaVersion'); const n=d.channels.reduce((s,c)=>s+c.programmes.length,0); if(n!==d.coverage.programmesFound) throw Error(p+' coverage count'); console.log(p+': '+d.channels.length+' channels, '+n+' programmes') }"
+          node -e "for (const p of ['data/source-feeds/bein_mena.json','data/review/supersport_unclassified.json','data/review/sky_uk_unclassified.json','data/review/canalplus_fr_unclassified.json']) { const d=require('./'+p); if(d.schemaVersion!==1) throw Error(p+' schemaVersion'); const n=d.channels.reduce((s,c)=>s+c.programmes.length,0); if(n!==d.coverage.programmesFound) throw Error(p+' coverage count'); for(const c of d.channels) for(const x of c.programmes) if(Date.parse(x.start)>=Date.parse(x.end)) throw Error(p+' invalid time range in '+c.id); console.log(p+': '+d.channels.length+' channels, '+n+' programmes') }"
 
