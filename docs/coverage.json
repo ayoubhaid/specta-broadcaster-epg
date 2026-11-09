@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-08T22:03:59.000Z",
+  "generatedAt": "2026-11-09T06:22:46.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-08T20:03:59.000Z",
-    "to": "2026-11-10T14:03:59.000Z",
+    "from": "2026-11-09T04:22:46.000Z",
+    "to": "2026-11-10T22:22:46.000Z",
     "maxPerChannel": 80
   },
   "totals": {
     "channels": 61,
-    "programmes": 1987
+    "programmes": 2220
   },
   "providers": [
     {
@@ -16,9 +16,9 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2434,
+      "programmes": 2479,
       "publishedChannels": 30,
-      "publishedProgrammes": 1566,
+      "publishedProgrammes": 1623,
       "autoResolved": 30,
       "rejected": {
         "row": 0,
@@ -34,9 +34,9 @@
       "providerName": "CANAL+ France",
       "file": "data/review/canalplus_fr_unclassified.json",
       "channels": 7,
-      "programmes": 220,
+      "programmes": 219,
       "publishedChannels": 6,
-      "publishedProgrammes": 219,
+      "publishedProgrammes": 218,
       "autoResolved": 6,
       "rejected": {
         "row": 0,
@@ -52,9 +52,9 @@
       "providerName": "Sky Sports UK",
       "file": "data/review/sky_uk_unclassified.json",
       "channels": 4,
-      "programmes": 590,
+      "programmes": 620,
       "publishedChannels": 4,
-      "publishedProgrammes": 590,
+      "publishedProgrammes": 620,
       "autoResolved": 4,
       "rejected": {
         "row": 0,
@@ -69,10 +69,10 @@
       "provider": "supersport",
       "providerName": "SuperSport",
       "file": "data/review/supersport_unclassified.json",
-      "channels": 62,
-      "programmes": 5956,
+      "channels": 61,
+      "programmes": 7294,
       "publishedChannels": 28,
-      "publishedProgrammes": 2241,
+      "publishedProgrammes": 2756,
       "autoResolved": 28,
       "rejected": {
         "row": 0,
@@ -567,9 +567,44 @@
         "candidates": []
       },
       {
-        "key": "canalplus_fr:canalplus_fr:les-sur-france-5",
+        "key": "canalplus_fr:canalplus_fr:la-piste-du-casoar-doc-decouvertes-sur-france-5",
         "provider": "canalplus_fr",
-        "name": "les ..., Sur FRANCE 5",
+        "name": "la piste du casoar, Doc. Découvertes, Sur FRANCE 5",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "supersport:afr2",
+        "provider": "supersport",
+        "name": "SuperSport Africa 2",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "supersport:afrsa",
+        "provider": "supersport",
+        "name": "SuperSport Africa SA",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "supersport:blta",
+        "provider": "supersport",
+        "name": "SuperSport Blitz Africa",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "supersport:epla",
+        "provider": "supersport",
+        "name": "SuperSport Premier League Africa",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "supersport:epln",
+        "provider": "supersport",
+        "name": "SuperSport Premier League Nigeria",
         "reason": "unknown",
         "candidates": []
       },
@@ -581,9 +616,37 @@
         "candidates": []
       },
       {
-        "key": "supersport:extr2",
+        "key": "supersport:extr",
         "provider": "supersport",
-        "name": "SuperSport Extra 2",
+        "name": "SuperSport Extra",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ftba",
+        "provider": "supersport",
+        "name": "SuperSport Football Africa",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "supersport:gaf2",
+        "provider": "supersport",
+        "name": "SuperSport GOtv Africa 2",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "supersport:gepl",
+        "provider": "supersport",
+        "name": "SuperSport GOtv Premier League",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "supersport:gftb",
+        "provider": "supersport",
+        "name": "SuperSport GOtv Football",
         "reason": "unknown",
         "candidates": []
       },
@@ -591,6 +654,13 @@
         "key": "supersport:glig",
         "provider": "supersport",
         "name": "SuperSport GOtv LaLiga",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "supersport:gsda",
+        "provider": "supersport",
+        "name": "SuperSport Grandstand Africa",
         "reason": "unknown",
         "candidates": []
       },
@@ -623,137 +693,9 @@
         "candidates": []
       },
       {
-        "key": "supersport:acta",
-        "provider": "supersport",
-        "name": "SuperSport Action Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:gola",
-        "provider": "supersport",
-        "name": "SuperSport Golf Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:gsda",
-        "provider": "supersport",
-        "name": "SuperSport Grandstand Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
         "key": "supersport:tena",
         "provider": "supersport",
         "name": "SuperSport Tennis Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:mspa",
-        "provider": "supersport",
-        "name": "SuperSport Motorsport Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:ruga",
-        "provider": "supersport",
-        "name": "SuperSport Rugby Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:wwe",
-        "provider": "supersport",
-        "name": "WWE Channel",
-        "reason": "unknown",
-        "candidates": [
-          "WWEChannel.au (AU)"
-        ]
-      },
-      {
-        "key": "supersport:afr1",
-        "provider": "supersport",
-        "name": "SuperSport Africa ROA",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:blta",
-        "provider": "supersport",
-        "name": "SuperSport Blitz Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:afrsa",
-        "provider": "supersport",
-        "name": "SuperSport Africa SA",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:cria",
-        "provider": "supersport",
-        "name": "SuperSport Cricket Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:epla",
-        "provider": "supersport",
-        "name": "SuperSport Premier League Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:epln",
-        "provider": "supersport",
-        "name": "SuperSport Premier League Nigeria",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:extr",
-        "provider": "supersport",
-        "name": "SuperSport Extra",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:ftpa",
-        "provider": "supersport",
-        "name": "SuperSport Football Plus Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:ftpn",
-        "provider": "supersport",
-        "name": "SuperSport Football Plus Nigeria",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:gepl",
-        "provider": "supersport",
-        "name": "SuperSport GOtv Premier League",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:gftp",
-        "provider": "supersport",
-        "name": "SuperSport GOtv Football Plus",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:ftpc",
-        "provider": "supersport",
-        "name": "Football Plus Canal+",
         "reason": "unknown",
         "candidates": []
       },
@@ -772,6 +714,71 @@
         "candidates": []
       },
       {
+        "key": "supersport:wwe",
+        "provider": "supersport",
+        "name": "WWE Channel",
+        "reason": "unknown",
+        "candidates": [
+          "WWEChannel.au (AU)"
+        ]
+      },
+      {
+        "key": "supersport:acta",
+        "provider": "supersport",
+        "name": "SuperSport Action Africa",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "supersport:cria",
+        "provider": "supersport",
+        "name": "SuperSport Cricket Africa",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ruga",
+        "provider": "supersport",
+        "name": "SuperSport Rugby Africa",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "supersport:afr1",
+        "provider": "supersport",
+        "name": "SuperSport Africa ROA",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ftpa",
+        "provider": "supersport",
+        "name": "SuperSport Football Plus Africa",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ftpn",
+        "provider": "supersport",
+        "name": "SuperSport Football Plus Nigeria",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "supersport:gftp",
+        "provider": "supersport",
+        "name": "SuperSport GOtv Football Plus",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ftpc",
+        "provider": "supersport",
+        "name": "Football Plus Canal+",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
         "key": "supersport:kosa",
         "provider": "supersport",
         "name": "SuperSport Kickoff SA",
@@ -779,37 +786,23 @@
         "candidates": []
       },
       {
-        "key": "supersport:ftba",
+        "key": "supersport:extr2",
         "provider": "supersport",
-        "name": "SuperSport Football Africa",
+        "name": "SuperSport Extra 2",
         "reason": "unknown",
         "candidates": []
       },
       {
-        "key": "supersport:gftb",
+        "key": "supersport:mspa",
         "provider": "supersport",
-        "name": "SuperSport GOtv Football",
+        "name": "SuperSport Motorsport Africa",
         "reason": "unknown",
         "candidates": []
       },
       {
-        "key": "supersport:sin1",
+        "key": "supersport:gola",
         "provider": "supersport",
-        "name": "SuperSport Internet 1",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:afr2",
-        "provider": "supersport",
-        "name": "SuperSport Africa 2",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:gaf2",
-        "provider": "supersport",
-        "name": "SuperSport GOtv Africa 2",
+        "name": "SuperSport Golf Africa",
         "reason": "unknown",
         "candidates": []
       }
