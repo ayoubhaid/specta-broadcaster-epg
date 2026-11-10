@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-10T19:28:24.000Z",
+  "generatedAt": "2026-11-10T19:45:03.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-10T17:28:24.000Z",
-    "to": "2026-11-12T11:28:24.000Z",
+    "from": "2026-11-10T17:45:03.000Z",
+    "to": "2026-11-12T11:45:03.000Z",
     "maxPerChannel": 80
   },
   "totals": {
     "channels": 63,
-    "programmes": 2101
+    "programmes": 2091
   },
   "providers": [
     {
@@ -16,9 +16,9 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2514,
+      "programmes": 2503,
       "publishedChannels": 30,
-      "publishedProgrammes": 1658,
+      "publishedProgrammes": 1647,
       "autoResolved": 30,
       "rejected": {
         "row": 0,

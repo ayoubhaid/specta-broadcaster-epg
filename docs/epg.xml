@@ -63,9 +63,6 @@
   <channel id="SuperSportTennis.za"><display-name>SuperSport Tennis</display-name></channel>
   <channel id="TamazightTV.ma@SD"><display-name>Tamazight</display-name></channel>
   <channel id="TF1.fr"><display-name>TF1</display-name></channel>
-  <programme start="20261110171500 +0000" stop="20261110173000 +0000" channel="AlAoula.ma@SD">
-    <title>سوبر ماركت</title>
-  </programme>
   <programme start="20261110173000 +0000" stop="20261110175000 +0000" channel="AlAoula.ma@SD">
     <title>الأخبار</title>
   </programme>
@@ -275,9 +272,6 @@
   </programme>
   <programme start="20261112112500 +0000" stop="20261112120000 +0000" channel="AlAoula.ma@SD">
     <title>آش هذا</title>
-  </programme>
-  <programme start="20261110170000 +0000" stop="20261110173100 +0000" channel="AlMaghribia.ma@SD">
-    <title>نشرات الاخبار المغربية</title>
   </programme>
   <programme start="20261110173100 +0000" stop="20261110180000 +0000" channel="AlMaghribia.ma@SD">
     <title>متاحف المغرب</title>
@@ -492,6 +486,9 @@
   <programme start="20261112110000 +0000" stop="20261112113000 +0000" channel="AlMaghribia.ma@SD">
     <title>نشرات الاخبار المغربية</title>
   </programme>
+  <programme start="20261112113000 +0000" stop="20261112120000 +0000" channel="AlMaghribia.ma@SD">
+    <title>بين البارح و اليوم</title>
+  </programme>
   <programme start="20261110160300 +0000" stop="20261110174900 +0000" channel="beIN4K.qa">
     <title>Lens vs Marseille - French Ligue 1 2026/2027</title>
     <desc>All 306 matches from the Ligue 1 2026 – 2027 season are live and exclusive only on beIN SPORTS. Paris Saint-Germain are the defending Champions having secured their historic 14th top-flight title last season.</desc>
@@ -587,10 +584,6 @@
   <programme start="20261112103000 +0000" stop="20261112121400 +0000" channel="beIN4K.qa">
     <title>Nottingham Forest vs Manchester City - English Premier League 2026/2027</title>
     <desc>All 380 fixtures from the English premier league are live and exclusive only on beIN SPORTS with a choice of Arabic or English commentary. The 2026–27 season consists of 33 weekend and five midweek rounds of matches. Arsenal are the defending Champions.</desc>
-  </programme>
-  <programme start="20261110135500 +0000" stop="20261110174500 +0000" channel="beINSports.qa">
-    <title>Athletics - 2026 Youth Olympic Games – Dakar</title>
-    <desc>The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.</desc>
   </programme>
   <programme start="20261110174500 +0000" stop="20261110183000 +0000" channel="beINSports.qa">
     <title>Germany x Tunisia - Beach Handball - Men - 2026 Youth Olympic Games – Dakar</title>
@@ -723,10 +716,6 @@
   <programme start="20261112110000 +0000" stop="20261112133000 +0000" channel="beINSports.qa">
     <title>Afganistan x Marocco - Bronze Medal - Men's Futsal - 2026 Youth Olympic Games – Dakar</title>
     <desc>The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.</desc>
-  </programme>
-  <programme start="20261110163000 +0000" stop="20261110173000 +0000" channel="beINSports1.qa">
-    <title>EPL Weekly Review - 2026/2027 - EP 10</title>
-    <desc>Each EPL Match week is condensed into a 52-minute highlights show. Every game, goal, penalty, red card and everything in between is squeezed into an action-packed hour to ensure no football fan misses a kick across the game season.</desc>
   </programme>
   <programme start="20261110173000 +0000" stop="20261110180000 +0000" channel="beINSports1.qa">
     <title>EPL Stories 2026/2027 EP.17</title>
@@ -943,6 +932,10 @@
   <programme start="20261112110000 +0000" stop="20261112113000 +0000" channel="beINSports1.qa">
     <title>Al Sadd vs Al Ahli - AFC Champions League Elite 2026/2027 - MD 4</title>
     <desc>Al-Ahli have won three of their last four AFC Champions League Elite games against Al Sadd, including each of the last two on the bounce, having been winless in their four prior games in the competition ; indeed, Al-Ahli have scored in every single game in the competition against Al Sadd, scoring at least twice in four of the last five games agains</desc>
+  </programme>
+  <programme start="20261112113000 +0000" stop="20261112120000 +0000" channel="beINSports1.qa">
+    <title>Al Gharafa vs Al Qadsiah - AFC Champions League Elite 2026/2027 - MD 4</title>
+    <desc>This will be the first AFC Champions League Elite meeting between Al Gharafa and Al-Qadsiah; the former are on an eight-game losing streak in the competition against sides from Saudi Arabia. Al Gharafa are on a five-game losing streak in the AFC Champions League Elite, conceding multiple goals in each of them; a loss in this game would equal their</desc>
   </programme>
   <programme start="20261110161500 +0000" stop="20261110180000 +0000" channel="beINSports2.qa">
     <title>Leeds United vs Tottenham Hotspur - English Premier League 2026/2027 - Week 10</title>
@@ -1248,6 +1241,10 @@
     <title>Havre AC vs Lorient - French Ligue 1 2026/2027 - Week 10</title>
     <desc>All 306 matches from the Ligue 1 2026 – 2027 season are live and exclusive only on beIN SPORTS. Paris Saint-Germain are the defending Champions having secured their historic 14th top-flight title last season.</desc>
   </programme>
+  <programme start="20261112114500 +0000" stop="20261112133000 +0000" channel="beINSports4.qa">
+    <title>Lens vs Marseille - French Ligue 1 2026/2027 - Week 10</title>
+    <desc>All 306 matches from the Ligue 1 2026 – 2027 season are live and exclusive only on beIN SPORTS. Paris Saint-Germain are the defending Champions having secured their historic 14th top-flight title last season.</desc>
+  </programme>
   <programme start="20261110163000 +0000" stop="20261110183000 +0000" channel="beINSports5.qa">
     <title>Bam Khatoon FC (IRN) vs Ayeyawady FC - Women (MYA) - AFC Women's Champions League 2026/27 - MD3</title>
     <desc>The 2026–27 AFC Women's Champions League is the third edition of the AFC Women's Champions League. North Korean Team Naegohyang are the defending champions.</desc>
@@ -1505,9 +1502,6 @@
   <programme start="20261112100000 +0000" stop="20261112120000 +0000" channel="beINSports7.qa">
     <title>M3 - ATP 250 Bybit Stockholm Open 2026</title>
   </programme>
-  <programme start="20261110150000 +0000" stop="20261110174500 +0000" channel="beINSports8.qa">
-    <title>Premier Padel - Dubai P1 2026 - Sergio Icardo (UAE) Francisco Jurado Sosa (UAE) vs Federico Mourino</title>
-  </programme>
   <programme start="20261110174500 +0000" stop="20261110191500 +0000" channel="beINSports8.qa">
     <title>Premier Padel - Dubai P1 2026 - Arnau Ayats (UAE) Emilio Sánchez Chamero (ESP) vs Andres Fernandez L</title>
   </programme>
@@ -1587,13 +1581,6 @@
   </programme>
   <programme start="20261112110000 +0000" stop="20261112123000 +0000" channel="beINSports8.qa">
     <title>Premier Padel - Dubai P1 2026 - M3</title>
-  </programme>
-  <programme start="20261110161500 +0000" stop="20261110190000 +0000" channel="beINSports9.qa">
-    <title>Gymnastics - 2026 Youth Olympic Games – Dakar</title>
-    <desc>The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.</desc>
-  </programme>
-  <programme start="20261110190000 +0000" stop="20261110214500 +0000" channel="beINSports9.qa">
-    <title>Longines Global Champions Tour - London Jumping - Against The Clock With Jump Off</title>
   </programme>
   <programme start="20261110214500 +0000" stop="20261111003000 +0000" channel="beINSports9.qa">
     <title>Longines Global Champions Tour - London Jumping - Grand Prix</title>
@@ -1814,10 +1801,6 @@
   </programme>
   <programme start="20261112110000 +0000" stop="20261112133000 +0000" channel="beINSportsEnglish1.qa">
     <title>Afganistan x Marocco - Bronze Medal - Men's Futsal - 2026 Youth Olympic Games – Dakar</title>
-    <desc>The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.</desc>
-  </programme>
-  <programme start="20261110135500 +0000" stop="20261110174500 +0000" channel="beINSportsEnglish2.qa">
-    <title>Athletics - 2026 Youth Olympic Games – Dakar</title>
     <desc>The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.</desc>
   </programme>
   <programme start="20261110174500 +0000" stop="20261110181500 +0000" channel="beINSportsEnglish2.qa">
@@ -2609,10 +2592,6 @@
     <title>beIN SPORTS MAX</title>
     <desc>beIN SPORTS MAX Channel for exclusive coverage of major sporting tournaments.</desc>
   </programme>
-  <programme start="20261110170000 +0000" stop="20261110173000 +0000" channel="beINSportsNews.qa">
-    <title>News Bulletin</title>
-    <desc>A special News Bulletin from the beIN SPORTS News Room with the addition of sign language for the hard of hearing.</desc>
-  </programme>
   <programme start="20261110173000 +0000" stop="20261110180000 +0000" channel="beINSportsNews.qa">
     <title>UEFA Nations League 2026/27 - Magazine EP2</title>
     <desc>MD5-MD6 Preview programme</desc>
@@ -2919,6 +2898,10 @@
     <title>News Bulletin</title>
     <desc>Latest news from the beIn SPORTS News room, previewing and reviewing developments and scores with contribution from around the world from beIN's reporters.</desc>
   </programme>
+  <programme start="20261112113000 +0000" stop="20261112120000 +0000" channel="beINSportsNews.qa">
+    <title>Al Hassila - 12/11/26</title>
+    <desc>&quot;Al Hassila&quot; provides a concise recap of the latest sports matches, highlighting key goals and noteworthy moments from around the world of sports.</desc>
+  </programme>
   <programme start="20261110170000 +0000" stop="20261110180000 +0000" channel="beINSportsXtra1.qa">
     <title>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <desc>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events</desc>
@@ -3086,10 +3069,6 @@
   <programme start="20261112100000 +0000" stop="20261112131000 +0000" channel="beINSportsXtra1.qa">
     <title>Beach Handball - 2026 Youth Olympic Games – Dakar</title>
     <desc>The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.</desc>
-  </programme>
-  <programme start="20261110172000 +0000" stop="20261110173500 +0000" channel="beINSportsXtra2.qa">
-    <title>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <desc>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events</desc>
   </programme>
   <programme start="20261110173500 +0000" stop="20261110193000 +0000" channel="beINSportsXtra2.qa">
     <title>Real Madrid vs Paris FC - UEFA Women’s Champions League 2026/2027 - MD4</title>
@@ -3314,10 +3293,6 @@
   <programme start="20261111044500 +0000" stop="20261111053200 +0000" channel="CanalPlus.fr">
     <title>Le cercle</title>
     <desc>Le Cercle explore Hope, Moulin, ...</desc>
-  </programme>
-  <programme start="20261110170100 +0000" stop="20261110173500 +0000" channel="France2.fr">
-    <title>Tout le monde a son mot à dire</title>
-    <desc>Emission du 10 nov. 2026</desc>
   </programme>
   <programme start="20261110173500 +0000" stop="20261110181000 +0000" channel="France2.fr">
     <title>N'oubliez pas les paroles</title>
@@ -3599,10 +3574,6 @@
     <title>Les mini-héros de la forêt - Saison 1</title>
     <desc>Episode 36 : Dans la forêt encha...</desc>
   </programme>
-  <programme start="20261110162500 +0000" stop="20261110173500 +0000" channel="M6.fr">
-    <title>La roue de la fortune</title>
-    <desc>Émission 62</desc>
-  </programme>
   <programme start="20261110173500 +0000" stop="20261110184000 +0000" channel="M6.fr">
     <title>La meilleure cuisine régionale, c'est chez moi !</title>
     <desc>Nouvelle Aquitaine</desc>
@@ -3638,14 +3609,6 @@
   <programme start="20261111003000 +0000" stop="20261111050000 +0000" channel="M6.fr">
     <title>Programmes de la nuit</title>
     <desc>Divers</desc>
-  </programme>
-  <programme start="20261110171500 +0000" stop="20261110173000 +0000" channel="SkySportsCricket.uk">
-    <title>ICC Women's WC: ENG v IND 2017</title>
-    <desc>Revisit the final of the 2017 ICC Women's Cricket World Cup, as England - hosts of the tournament - clashed with 2005 runners-up India at Lord's. England were targeting title number four.</desc>
-  </programme>
-  <programme start="20261110173000 +0000" stop="20261110174500 +0000" channel="SkySportsCricket.uk">
-    <title>ICC Women's WC: NZ v ENG 2009</title>
-    <desc>At the 2009 ICC Women's Cricket World Cup held in Australia, England met New Zealand in the final as Claire Taylor and co were targeting a third World Cup title.</desc>
   </programme>
   <programme start="20261110174500 +0000" stop="20261110180000 +0000" channel="SkySportsCricket.uk">
     <title>ICC Women's WC: AUS v ENG 2013</title>
@@ -3827,6 +3790,14 @@
     <title>ICC Women's WC: ENG v SA 2017</title>
     <desc>At the 2017 ICC Women's Cricket World Cup in England, the hosts met South Africa in the semi-final.</desc>
   </programme>
+  <programme start="20261112113000 +0000" stop="20261112114500 +0000" channel="SkySportsCricket.uk">
+    <title>ICC Women's WC: AUS v ENG 2013</title>
+    <desc>At the 2013 ICC Women's Cricket World Cup in India, revisit England's contest with Australia during the Super Six stage of the competition.</desc>
+  </programme>
+  <programme start="20261112114500 +0000" stop="20261112120000 +0000" channel="SkySportsCricket.uk">
+    <title>ICC Women's WC: WI v AUS 2013</title>
+    <desc>At the 2013 ICC Women's Cricket World Cup in India, the West Indies went toe to toe with Australia in the final. A sixth World Cup title was up for grabs for the Aussies.</desc>
+  </programme>
   <programme start="20261110170000 +0000" stop="20261110180000 +0000" channel="SkySportsMainEvent.uk">
     <title>Live: The Premier League Show</title>
     <desc>Your essential daily guide to the Premier League. With exclusive interviews, topical debate and the latest news from all 20 top-flight clubs.</desc>
@@ -3946,10 +3917,6 @@
   <programme start="20261112070000 +0000" stop="20261112130000 +0000" channel="SkySportsMainEvent.uk">
     <title>Live DP World Tour Golf</title>
     <desc>Day one of the DP World Tour Championship at Jumeirah Golf Estates - the fifth and final Rolex Series event of the year, where the top 50 in the Race to Dubai Rankings are competing.</desc>
-  </programme>
-  <programme start="20261110171500 +0000" stop="20261110173000 +0000" channel="SkySportsMix.uk">
-    <title>S/Lge Highlights</title>
-    <desc>After Challenge Cup final defeat to Wigan at Wembley, Warrington Wolves return to action as they host a Salford Red Devils side who look to build on a 34-4 win over the Broncos. (14.06)</desc>
   </programme>
   <programme start="20261110173000 +0000" stop="20261110180000 +0000" channel="SkySportsMix.uk">
     <title>NBA On Fire</title>
@@ -4499,10 +4466,6 @@
     <title>Live: Sky Sports FC</title>
     <desc>Have your say on the big talking points in this interactive show covering the major football headlines.</desc>
   </programme>
-  <programme start="20261110170000 +0000" stop="20261110173000 +0000" channel="SuperSportAction.za">
-    <title>Toyota Cadence</title>
-    <desc>Cycling — Ep 465</desc>
-  </programme>
   <programme start="20261110173000 +0000" stop="20261110193000 +0000" channel="SuperSportAction.za">
     <title>F1:</title>
     <desc>Motorsport — MSC Crusies Grand Premio De SAo Paulo</desc>
@@ -4654,6 +4617,10 @@
   <programme start="20261112091000 +0000" stop="20261112114000 +0000" channel="SuperSportAction.za">
     <title>UFC Reloaded</title>
     <desc>Mixed Martial Arts — UFC 323: Bantamweight Title Bout: Merab Dvalishvili v Petr Yan 2</desc>
+  </programme>
+  <programme start="20261112114000 +0000" stop="20261112115500 +0000" channel="SuperSportAction.za">
+    <title>FAn Central</title>
+    <desc>Variety Sport — Ep 39</desc>
   </programme>
   <programme start="20261110170000 +0000" stop="20261110180000 +0000" channel="SuperSportBlitz.za">
     <title>Sports Bulletin Around The Clock</title>
@@ -5447,10 +5414,6 @@
     <title>Ligue 1</title>
     <desc>Football — Matchday 10: Toulouse v Strasbourg</desc>
   </programme>
-  <programme start="20261110170000 +0000" stop="20261110173000 +0000" channel="SuperSportFootballPlus.za">
-    <title>UEFA Champions League Magazine</title>
-    <desc>Football — Ep 10: Matchday 4 Review</desc>
-  </programme>
   <programme start="20261110173000 +0000" stop="20261110180000 +0000" channel="SuperSportFootballPlus.za">
     <title>Premier League HL</title>
     <desc>Football — Matchday 10: Leeds United v Tottenham Hotspur</desc>
@@ -5599,10 +5562,6 @@
     <title>Premier League</title>
     <desc>Football — Matchday 10: Leeds United v Tottenham Hotspur</desc>
   </programme>
-  <programme start="20261110170000 +0000" stop="20261110173000 +0000" channel="SuperSportGolf.za">
-    <title>DP World Tour Event HL</title>
-    <desc>Golf — Abu Dhabi HSBC Championship</desc>
-  </programme>
   <programme start="20261110173000 +0000" stop="20261110180000 +0000" channel="SuperSportGolf.za">
     <title>On The Bubble</title>
     <desc>Golf — FIGhting For Their Future</desc>
@@ -5726,10 +5685,6 @@
   <programme start="20261112070000 +0000" stop="20261112130000 +0000" channel="SuperSportGolf.za">
     <title>DP World Tour</title>
     <desc>Golf — DP World Tour Championship Day 1</desc>
-  </programme>
-  <programme start="20261110170000 +0000" stop="20261110173000 +0000" channel="SuperSportGrandstand.za">
-    <title>DP World Tour Event HL</title>
-    <desc>Golf — Abu Dhabi HSBC Championship</desc>
   </programme>
   <programme start="20261110173000 +0000" stop="20261110180000 +0000" channel="SuperSportGrandstand.za">
     <title>F1 Extra: Africa Trackside</title>
@@ -6078,6 +6033,14 @@
   <programme start="20261112110000 +0000" stop="20261112113000 +0000" channel="SuperSportLaLiga.za">
     <title>LaLiga Review Show</title>
     <desc>Football — Matchday 12</desc>
+  </programme>
+  <programme start="20261112113000 +0000" stop="20261112114500 +0000" channel="SuperSportLaLiga.za">
+    <title>LaLiga Goals</title>
+    <desc>Football — Matchday 12</desc>
+  </programme>
+  <programme start="20261112114500 +0000" stop="20261112115000 +0000" channel="SuperSportLaLiga.za">
+    <title>LaLiga Blitz HL</title>
+    <desc>Football — Matchday 12: Sevilla v Alaves</desc>
   </programme>
   <programme start="20261110165000 +0000" stop="20261110185000 +0000" channel="SuperSportMaximo1.za">
     <title>Ligue 1</title>
@@ -6671,6 +6634,10 @@
     <title>Michelin Le Mans Cup</title>
     <desc>Motorsport — Portimao</desc>
   </programme>
+  <programme start="20261112113000 +0000" stop="20261112120000 +0000" channel="SuperSportMotorsport.za">
+    <title>Pushing the Limits with Toyota Gazoo Racing</title>
+    <desc>Motorsport — Ep 294</desc>
+  </programme>
   <programme start="20261110160000 +0000" stop="20261110220000 +0000" channel="SuperSportOTT2.za">
     <title>SuperSport Variety</title>
     <desc>SuperSport — PM</desc>
@@ -7091,10 +7058,6 @@
     <title>EFC HL</title>
     <desc>Mixed Martial Arts — EFC 132: Heavyweight Title Bout: Matunga Djikasa v Adama Diop</desc>
   </programme>
-  <programme start="20261110170000 +0000" stop="20261110173000 +0000" channel="SuperSportPremierLeague.za">
-    <title>Premier League HL</title>
-    <desc>Football — Matchday 10: Crystal Palace v Liverpool</desc>
-  </programme>
   <programme start="20261110173000 +0000" stop="20261110180000 +0000" channel="SuperSportPremierLeague.za">
     <title>Premier League HL</title>
     <desc>Football — Matchday 10: Nottingham Forest v Man City</desc>
@@ -7326,10 +7289,6 @@
   <programme start="20261112110000 +0000" stop="20261112120000 +0000" channel="SuperSportPremierLeague.za">
     <title>PLTV: Premier League Review</title>
     <desc>PLTV Magazine Show — Ep 10</desc>
-  </programme>
-  <programme start="20261110170000 +0000" stop="20261110173000 +0000" channel="SuperSportPSL.za">
-    <title>Carling Knockout Cup HL</title>
-    <desc>Football — Quarter-final 1: Mamelodi Sundowns v Golden Arrows</desc>
   </programme>
   <programme start="20261110173000 +0000" stop="20261110180000 +0000" channel="SuperSportPSL.za">
     <title>Carling Knockout Cup HL</title>
@@ -7627,9 +7586,9 @@
     <title>Nations Championship</title>
     <desc>Rugby — Round 4: Scotland v New Zealand</desc>
   </programme>
-  <programme start="20261110164000 +0000" stop="20261110174000 +0000" channel="SuperSportSchools.za">
-    <title>Class of 2026</title>
-    <desc>Rugby — Rugby on 216: Nominees</desc>
+  <programme start="20261112114500 +0000" stop="20261112134500 +0000" channel="SuperSportRugby.za">
+    <title>Nations Championship</title>
+    <desc>Rugby — Round 4: England v Australia</desc>
   </programme>
   <programme start="20261110174000 +0000" stop="20261110184000 +0000" channel="SuperSportSchools.za">
     <title>Class of 2026</title>
@@ -7818,6 +7777,10 @@
   <programme start="20261112100000 +0000" stop="20261112113000 +0000" channel="SuperSportSchools.za">
     <title>Gauteng Development League</title>
     <desc>Football — Ladies Final: PanoramaLadies FC v Mamelodi Sundowns Ladies FC</desc>
+  </programme>
+  <programme start="20261112113000 +0000" stop="20261112130000 +0000" channel="SuperSportSchools.za">
+    <title>Gauteng Development League</title>
+    <desc>Football — U14 Final: Tuks v Kaizer Chiefs</desc>
   </programme>
   <programme start="20261110170000 +0000" stop="20261110183000 +0000" channel="SuperSportTennis.za">
     <title>WTA Finals</title>
@@ -8159,9 +8122,8 @@
   <programme start="20261112111500 +0000" stop="20261112113000 +0000" channel="TamazightTV.ma@SD">
     <title>ڰ ايمولا ن تنمالت ن ؤ رقاس</title>
   </programme>
-  <programme start="20261110163000 +0000" stop="20261110173000 +0000" channel="TF1.fr">
-    <title>Star Academy, la quotidienne - Saison 14</title>
-    <desc>Episode 30 : Star Academy 2026 -...</desc>
+  <programme start="20261112113000 +0000" stop="20261112120000 +0000" channel="TamazightTV.ma@SD">
+    <title>النشرة الجوية</title>
   </programme>
   <programme start="20261110173000 +0000" stop="20261110181000 +0000" channel="TF1.fr">
     <title>Ici tout commence - Saison 7</title>
