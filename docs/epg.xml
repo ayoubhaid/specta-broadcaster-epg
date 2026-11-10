@@ -273,6 +273,9 @@
   <programme start="20261112105000 +0000" stop="20261112112500 +0000" channel="AlAoula.ma@SD">
     <title>مومو عينيا</title>
   </programme>
+  <programme start="20261112112500 +0000" stop="20261112120000 +0000" channel="AlAoula.ma@SD">
+    <title>آش هذا</title>
+  </programme>
   <programme start="20261110170000 +0000" stop="20261110173100 +0000" channel="AlMaghribia.ma@SD">
     <title>نشرات الاخبار المغربية</title>
   </programme>
@@ -3083,10 +3086,6 @@
   <programme start="20261112100000 +0000" stop="20261112131000 +0000" channel="beINSportsXtra1.qa">
     <title>Beach Handball - 2026 Youth Olympic Games – Dakar</title>
     <desc>The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.</desc>
-  </programme>
-  <programme start="20261110171000 +0000" stop="20261110172000 +0000" channel="beINSportsXtra2.qa">
-    <title>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <desc>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events</desc>
   </programme>
   <programme start="20261110172000 +0000" stop="20261110173500 +0000" channel="beINSportsXtra2.qa">
     <title>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
