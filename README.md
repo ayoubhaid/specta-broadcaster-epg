@@ -79,3 +79,10 @@ The build applies the app's own XMLTV limits so the file contains nothing the ap
 - CANAL+ France: [Programme TV](https://www.canalplus.com/live-tv/programme-tv/); the page embeds dated channel programme objects. This adapter covers the France guide only.
 - ESPN and other broadcasters are not yet in the refresh set: an official channel schedule source must be verified before adding a feed. Sports fixture APIs and event calendars are not substitutes for linear channel listings.
 - Public guide data availability and provider terms may change. Keep request rates conservative and validate each generated feed before publishing it for app consumption.
+
+
+## Morocco and additional broadcaster expansion
+
+Moroccan broadcaster source discovery is tracked in [providers/morocco/README.md](providers/morocco/README.md), with machine-readable candidate metadata in [providers/morocco/sources.json](providers/morocco/sources.json). The initial research covers SNRT channel discovery, Al Aoula, 2M, the Canal212 guide, and an Al Kass guide candidate.
+
+These entries are research leads, not active EPG feeds. No Morocco scraper is scheduled until a dated schedule payload, timezone behavior, channel identity, and fixture-based parser tests have been verified. Moroccan local listings must be interpreted in `Africa/Casablanca` and converted to UTC instants in the shared feed.
