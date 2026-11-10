@@ -6,6 +6,7 @@ Provider adapters and dated programme data for Specta. Each broadcaster feed kee
 
 | Provider | Path | State |
 |---|---|---|
+| SNRT Morocco | `data/source-feeds/snrt_ma.json` | Seven SNRT linear TV channels from the official SNRT programme grid; source times are converted from Africa/Casablanca to UTC and refreshed every six hours. |
 | beIN SPORTS MENA | `data/source-feeds/bein_mena.json` | Source feed snapshot from the existing [beIN scraper](https://github.com/ayoubhaid/specta-bein-epg); 40 source channels and 2,458 programmes at generation time. Source guide IDs are not Specta playlist IDs. |
 | SuperSport | `data/review/supersport_unclassified.json` | 1,630 dated programme rows from the official Media Schedules page. Held for review because source channels have not been matched to the Specta registry or classified as permanent linear versus temporary/OTT feeds. |
 | Sky Sports UK | `data/review/sky_uk_unclassified.json` | Five-day official EPG response: four linear channels and 591 programmes. Source service IDs are retained; Sky Sports+ interactive service is excluded. |
