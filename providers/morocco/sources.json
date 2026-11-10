@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "provider": "morocco_tv",
+  "providerName": "Morocco TV guide source discovery",
+  "region": "MA",
+  "timezone": "Africa/Casablanca",
+  "status": "research",
+  "sources": [
+    {
+      "id": "snrt_portfolio",
+      "name": "SNRT channel portfolio",
+      "url": "https://www.snrt.ma/fr/node/4019",
+      "operator": "SNRT",
+      "sourceType": "official_portfolio",
+      "epgVerified": false,
+      "notes": "Confirms channel family; not a dated programme schedule."
+    },
+    {
+      "id": "snrt_al_aoula",
+      "name": "Al Aoula",
+      "url": "https://www.snrt.ma/fr/al-aoula",
+      "operator": "SNRT",
+      "sourceType": "official_channel_page",
+      "epgVerified": false,
+      "notes": "A dated machine-readable schedule endpoint remains to be identified."
+    },
+    {
+      "id": "canal212_morocco",
+      "name": "Canal212 Morocco TV guide",
+      "url": "https://en.canal212.ma/programme-tv-maroc/",
+      "operator": "Canal212",
+      "sourceType": "third_party_guide",
+      "epgVerified": false,
+      "notes": "Candidate guide aggregator; verify schedule payload, timezone, terms, and stability before ingestion."
+    },
+    {
+      "id": "canal212_2m",
+      "name": "2M listing on Canal212",
+      "url": "https://en.canal212.ma/television/2m/",
+      "operator": "Canal212",
+      "sourceType": "third_party_channel_guide",
+      "epgVerified": false,
+      "notes": "Candidate channel-specific listing; not an official 2M feed."
+    },
+    {
+      "id": "alkass_tvguide",
+      "name": "Al Kass TV guide",
+      "url": "https://alkasswebsite-origin.alkass.net/tvguide",
+      "operator": "Al Kass",
+      "sourceType": "official_tv_guide_candidate",
+      "epgVerified": false,
+      "notes": "Candidate source for Qatar; dated response and exact channel identity require validation."
+    }
+  ],
+  "channelDiscoveryTargets": [
+    "Al Aoula",
+    "2M",
+    "Arryadia",
+    "Athaqafia",
+    "Assadissa",
+    "Al Maghribia",
+    "Tamazight",
+    "Laayoune TV",
+    "Medi1 TV"
+  ]
+}
