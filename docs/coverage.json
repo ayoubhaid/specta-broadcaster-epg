@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-10T07:16:29.000Z",
+  "generatedAt": "2026-11-10T19:19:15.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-10T05:16:29.000Z",
-    "to": "2026-11-11T23:16:29.000Z",
+    "from": "2026-11-10T17:19:15.000Z",
+    "to": "2026-11-12T11:19:15.000Z",
     "maxPerChannel": 80
   },
   "totals": {
-    "channels": 60,
-    "programmes": 2084
+    "channels": 63,
+    "programmes": 2101
   },
   "providers": [
     {
@@ -16,9 +16,9 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2482,
+      "programmes": 2514,
       "publishedChannels": 30,
-      "publishedProgrammes": 1626,
+      "publishedProgrammes": 1658,
       "autoResolved": 30,
       "rejected": {
         "row": 0,
@@ -30,13 +30,31 @@
       "error": null
     },
     {
+      "provider": "snrt_ma",
+      "providerName": "SNRT Morocco",
+      "file": "data/source-feeds/snrt_ma.json",
+      "channels": 7,
+      "programmes": 2021,
+      "publishedChannels": 7,
+      "publishedProgrammes": 1991,
+      "autoResolved": 0,
+      "rejected": {
+        "row": 0,
+        "title": 0,
+        "time": 0,
+        "range": 0,
+        "duration": 30
+      },
+      "error": null
+    },
+    {
       "provider": "canalplus_fr",
       "providerName": "CANAL+ France",
       "file": "data/review/canalplus_fr_unclassified.json",
       "channels": 6,
-      "programmes": 217,
+      "programmes": 218,
       "publishedChannels": 6,
-      "publishedProgrammes": 217,
+      "publishedProgrammes": 218,
       "autoResolved": 6,
       "rejected": {
         "row": 0,
@@ -70,9 +88,9 @@
       "providerName": "SuperSport",
       "file": "data/review/supersport_unclassified.json",
       "channels": 60,
-      "programmes": 6640,
+      "programmes": 6706,
       "publishedChannels": 26,
-      "publishedProgrammes": 2597,
+      "publishedProgrammes": 2626,
       "autoResolved": 26,
       "rejected": {
         "row": 0,
@@ -85,6 +103,36 @@
     }
   ],
   "resolved": [
+    {
+      "key": "snrt_ma:1208",
+      "name": "Al Aoula",
+      "id": "AlAoula.ma@SD",
+      "method": "manual"
+    },
+    {
+      "key": "snrt_ma:4072",
+      "name": "Al Maghribia",
+      "id": "AlMaghribia.ma@SD",
+      "method": "manual"
+    },
+    {
+      "key": "snrt_ma:4070",
+      "name": "Arryadia",
+      "id": "Arryadia.ma@HD",
+      "method": "manual"
+    },
+    {
+      "key": "snrt_ma:4073",
+      "name": "Assadissa",
+      "id": "Assadissa.ma@SD",
+      "method": "manual"
+    },
+    {
+      "key": "snrt_ma:4071",
+      "name": "Athaqafia",
+      "id": "Athaqafia.ma@SD",
+      "method": "manual"
+    },
     {
       "key": "bein_mena:67dd49e9-e3a2-4b3a-94b8-88c620a4dfb1",
       "name": "beIN 4K",
@@ -290,6 +338,12 @@
       "method": "registry"
     },
     {
+      "key": "snrt_ma:4069",
+      "name": "Laayoune TV",
+      "id": "LaayouneTV.ma@SD",
+      "method": "manual"
+    },
+    {
       "key": "canalplus_fr:canalplus_fr:m6",
       "name": "M6",
       "id": "M6.fr",
@@ -474,6 +528,12 @@
       "name": "SuperSport Tennis",
       "id": "SuperSportTennis.za",
       "method": "registry"
+    },
+    {
+      "key": "snrt_ma:4075",
+      "name": "Tamazight",
+      "id": "TamazightTV.ma@SD",
+      "method": "manual"
     },
     {
       "key": "canalplus_fr:canalplus_fr:tf1",
@@ -803,6 +863,6 @@
     "title": 0,
     "time": 0,
     "range": 0,
-    "duration": 4
+    "duration": 34
   }
 }
