@@ -1,6 +1,11 @@
 name: Refresh provider feeds
 
 on:
+  push:
+    paths:
+      - ".github/workflows/refresh-provider-feeds.yml"
+      - "providers/**"
+      - "data/mapping/channel-map.csv"
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
