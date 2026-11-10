@@ -43,7 +43,7 @@ function textContent(html = "") {
 
 function firstClassText(block, className) {
   const escaped = className.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const re = new RegExp('<(?:div|h[1-6]|span|p)[^>]*class=["\\'][^"\\']*\\b' + escaped + '\\b[^"\\']*["\\'][^>]*>([\\s\\S]*?)<\\/(?:div|h[1-6]|span|p)>', "i");
+  const re = new RegExp('<(?:div|h[1-6]|span|p)[^>]*class="[^"]*\\b' + escaped + '\\b[^"]*"[^>]*>([\\s\\S]*?)<\\/(?:div|h[1-6]|span|p)>', "i");
   return textContent(block.match(re)?.[1] ?? "");
 }
 
