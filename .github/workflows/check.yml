@@ -21,8 +21,10 @@ jobs:
       - name: Check beIN scraper syntax
         working-directory: providers/bein_mena
         run: npm run check
+      - name: Check SNRT scraper syntax
+        run: node --check providers/snrt_ma/scraper.mjs
       - name: Test JavaScript broadcaster adapters
-        run: node --test providers/sky/test_scraper.mjs providers/canalplus_fr/test_scraper.mjs
+        run: node --test providers/sky/test_scraper.mjs providers/canalplus_fr/test_scraper.mjs providers/snrt_ma/test_scraper.mjs
       - name: Test SuperSport adapter
         run: python -m unittest discover -s providers/supersport -p 'test_*.py'
       - name: Check aggregation pipeline syntax
