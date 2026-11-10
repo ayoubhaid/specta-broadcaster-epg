@@ -7,8 +7,8 @@
   "scripts": {
     "build": "node aggregate/build.mjs",
     "build:diagnostic": "node aggregate/build.mjs --allow-unmapped",
-    "check": "node --check aggregate/build.mjs",
-    "test": "node --test aggregate/test/schedule.test.mjs aggregate/test/mapping.test.mjs aggregate/test/registry.test.mjs aggregate/test/pipeline.test.mjs aggregate/test/xmltv.test.mjs",
+    "check": "node --check aggregate/build.mjs && node --check providers/snrt_ma/scraper.mjs",
+    "test": "node --test aggregate/test/schedule.test.mjs aggregate/test/mapping.test.mjs aggregate/test/registry.test.mjs aggregate/test/pipeline.test.mjs aggregate/test/xmltv.test.mjs providers/snrt_ma/test_scraper.mjs",
     "seed:mapping": "node aggregate/seed-mapping.mjs"
   },
   "engines": {
