@@ -6,13 +6,13 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "en-mena",
   "timezone": "UTC",
-  "generatedAt": "2026-11-10T19:44:29.722Z",
+  "generatedAt": "2026-11-10T19:53:03.438Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 40,
-    "programmesFound": 2503,
-    "successfulRequests": 199,
-    "failedRequests": 1
+    "programmesFound": 2514,
+    "successfulRequests": 200,
+    "failedRequests": 0
   },
   "channels": [
     {
@@ -12637,6 +12637,116 @@
       "name": "beIN SPORTS 9",
       "region": "en-mena",
       "programmes": [
+        {
+          "id": "5C08D9D3-C713-4F1F-947E-87C761428B9B:1794265200000:longines global champions tour - monaco jumping - round 1 competition team",
+          "title": "Longines Global Champions Tour - Monaco Jumping - Round 1 Competition Team",
+          "description": "",
+          "start": "2026-11-09T23:00:00.000Z",
+          "end": "2026-11-10T00:45:00.000Z",
+          "startEpochSeconds": 1794265200,
+          "endEpochSeconds": 1794271500,
+          "source": "bein_mena"
+        },
+        {
+          "id": "5C08D9D3-C713-4F1F-947E-87C761428B9B:1794271500000:longines global champions tour - monaco jumping - round 2 competition team",
+          "title": "Longines Global Champions Tour - Monaco Jumping - Round 2 Competition Team",
+          "description": "",
+          "start": "2026-11-10T00:45:00.000Z",
+          "end": "2026-11-10T02:00:00.000Z",
+          "startEpochSeconds": 1794271500,
+          "endEpochSeconds": 1794276000,
+          "source": "bein_mena"
+        },
+        {
+          "id": "5C08D9D3-C713-4F1F-947E-87C761428B9B:1794276000000:longines global champions tour - monaco jumping - against the clock with jump off",
+          "title": "Longines Global Champions Tour - Monaco Jumping - Against The Clock With Jump Off",
+          "description": "",
+          "start": "2026-11-10T02:00:00.000Z",
+          "end": "2026-11-10T04:15:00.000Z",
+          "startEpochSeconds": 1794276000,
+          "endEpochSeconds": 1794284100,
+          "source": "bein_mena"
+        },
+        {
+          "id": "5C08D9D3-C713-4F1F-947E-87C761428B9B:1794284100000:longines global champions tour - monaco jumping - grand prix",
+          "title": "Longines Global Champions Tour - Monaco Jumping - Grand Prix",
+          "description": "",
+          "start": "2026-11-10T04:15:00.000Z",
+          "end": "2026-11-10T06:35:00.000Z",
+          "startEpochSeconds": 1794284100,
+          "endEpochSeconds": 1794292500,
+          "source": "bein_mena"
+        },
+        {
+          "id": "5C08D9D3-C713-4F1F-947E-87C761428B9B:1794292500000:hl – csi5* - against the coolock with jump off",
+          "title": "HL – CSI5* - Against the Coolock with Jump Off",
+          "description": "Day 2 of Longines Global Champions Tour",
+          "start": "2026-11-10T06:35:00.000Z",
+          "end": "2026-11-10T07:30:00.000Z",
+          "startEpochSeconds": 1794292500,
+          "endEpochSeconds": 1794295800,
+          "source": "bein_mena"
+        },
+        {
+          "id": "5C08D9D3-C713-4F1F-947E-87C761428B9B:1794295800000:longines global champions tour - riesenbeck  jumping - class 2",
+          "title": "Longines Global Champions Tour - Riesenbeck  Jumping - Class 2",
+          "description": "",
+          "start": "2026-11-10T07:30:00.000Z",
+          "end": "2026-11-10T09:35:00.000Z",
+          "startEpochSeconds": 1794295800,
+          "endEpochSeconds": 1794303300,
+          "source": "bein_mena"
+        },
+        {
+          "id": "5C08D9D3-C713-4F1F-947E-87C761428B9B:1794303300000:longines global champions tour - riesenbeck  jumping - global champion league of riesenbeck - round",
+          "title": "Longines Global Champions Tour - Riesenbeck  Jumping - Global Champion League of Riesenbeck - Round",
+          "description": "",
+          "start": "2026-11-10T09:35:00.000Z",
+          "end": "2026-11-10T11:30:00.000Z",
+          "startEpochSeconds": 1794303300,
+          "endEpochSeconds": 1794310200,
+          "source": "bein_mena"
+        },
+        {
+          "id": "5C08D9D3-C713-4F1F-947E-87C761428B9B:1794310200000:gymnastics - 2026 youth olympic games – dakar",
+          "title": "Gymnastics - 2026 Youth Olympic Games – Dakar",
+          "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
+          "start": "2026-11-10T11:30:00.000Z",
+          "end": "2026-11-10T14:25:00.000Z",
+          "startEpochSeconds": 1794310200,
+          "endEpochSeconds": 1794320700,
+          "source": "bein_mena"
+        },
+        {
+          "id": "5C08D9D3-C713-4F1F-947E-87C761428B9B:1794320700000:longines global champions tour - london  jumping - round 1 competition team",
+          "title": "Longines Global Champions Tour - London  Jumping - Round 1 Competition Team",
+          "description": "",
+          "start": "2026-11-10T14:25:00.000Z",
+          "end": "2026-11-10T16:15:00.000Z",
+          "startEpochSeconds": 1794320700,
+          "endEpochSeconds": 1794327300,
+          "source": "bein_mena"
+        },
+        {
+          "id": "5C08D9D3-C713-4F1F-947E-87C761428B9B:1794327300000:gymnastics - 2026 youth olympic games – dakar",
+          "title": "Gymnastics - 2026 Youth Olympic Games – Dakar",
+          "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
+          "start": "2026-11-10T16:15:00.000Z",
+          "end": "2026-11-10T19:00:00.000Z",
+          "startEpochSeconds": 1794327300,
+          "endEpochSeconds": 1794337200,
+          "source": "bein_mena"
+        },
+        {
+          "id": "5C08D9D3-C713-4F1F-947E-87C761428B9B:1794337200000:longines global champions tour - london  jumping - against the clock with jump off",
+          "title": "Longines Global Champions Tour - London  Jumping - Against The Clock With Jump Off",
+          "description": "",
+          "start": "2026-11-10T19:00:00.000Z",
+          "end": "2026-11-10T21:45:00.000Z",
+          "startEpochSeconds": 1794337200,
+          "endEpochSeconds": 1794347100,
+          "source": "bein_mena"
+        },
         {
           "id": "5C08D9D3-C713-4F1F-947E-87C761428B9B:1794347100000:longines global champions tour - london  jumping - grand prix",
           "title": "Longines Global Champions Tour - London  Jumping - Grand Prix",
