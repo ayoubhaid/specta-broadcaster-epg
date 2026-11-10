@@ -6,6 +6,7 @@ Provider adapters and dated programme data for Specta. Each broadcaster feed kee
 
 | Provider | Path | State |
 |---|---|---|
+| SNRT Morocco | `data/source-feeds/snrt_ma.json` | Seven SNRT linear TV channels from the official SNRT programme grid; source times are converted from Africa/Casablanca to UTC and refreshed every six hours. |
 | beIN SPORTS MENA | `data/source-feeds/bein_mena.json` | Source feed snapshot from the existing [beIN scraper](https://github.com/ayoubhaid/specta-bein-epg); 40 source channels and 2,458 programmes at generation time. Source guide IDs are not Specta playlist IDs. |
 | SuperSport | `data/review/supersport_unclassified.json` | 1,630 dated programme rows from the official Media Schedules page. Held for review because source channels have not been matched to the Specta registry or classified as permanent linear versus temporary/OTT feeds. |
 | Sky Sports UK | `data/review/sky_uk_unclassified.json` | Five-day official EPG response: four linear channels and 591 programmes. Source service IDs are retained; Sky Sports+ interactive service is excluded. |
@@ -79,10 +80,3 @@ The build applies the app's own XMLTV limits so the file contains nothing the ap
 - CANAL+ France: [Programme TV](https://www.canalplus.com/live-tv/programme-tv/); the page embeds dated channel programme objects. This adapter covers the France guide only.
 - ESPN and other broadcasters are not yet in the refresh set: an official channel schedule source must be verified before adding a feed. Sports fixture APIs and event calendars are not substitutes for linear channel listings.
 - Public guide data availability and provider terms may change. Keep request rates conservative and validate each generated feed before publishing it for app consumption.
-
-
-## Morocco and additional broadcaster expansion
-
-Moroccan broadcaster source discovery is tracked in [providers/morocco/README.md](providers/morocco/README.md), with machine-readable candidate metadata in [providers/morocco/sources.json](providers/morocco/sources.json). The initial research covers SNRT channel discovery, Al Aoula, 2M, the Canal212 guide, and an Al Kass guide candidate.
-
-These entries are research leads, not active EPG feeds. No Morocco scraper is scheduled until a dated schedule payload, timezone behavior, channel identity, and fixture-based parser tests have been verified. Moroccan local listings must be interpreted in `Africa/Casablanca` and converted to UTC instants in the shared feed.
