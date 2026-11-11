@@ -71,5 +71,9 @@ jobs:
             echo "No provider feed changes"
           else
             git commit -m "Refresh broadcaster EPG feeds"
-            git push
+            # A human or another workflow may update this branch after checkout.
+            # Rebase our generated snapshot onto the latest remote tip before pushing.
+            git fetch origin "$GITHUB_REF_NAME"
+            git rebase "origin/$GITHUB_REF_NAME"
+            git push origin "HEAD:$GITHUB_REF_NAME"
           fi
