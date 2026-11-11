@@ -46,3 +46,8 @@ The official guide is discoverable, and community reports provide candidate API 
 4. Preserve source channel IDs and write new adapters to `data/review/` until exact playlist matches and linear-versus-event classification have been reviewed.
 5. Never invent programme ends from event duration assumptions. If the official source provides only event start times or “now/next” tiles, record it as a research/audit source, not as a complete EPG.
 6. The app-facing feed should only be expanded after channel mapping, duplicate handling, and coverage reporting confirm that the new rows improve the actual playlist.
+
+
+## Latest detailed verification
+
+See [UK / USA sports EPG source verification — 2026-11](./uk-us-source-audit-2026-11.md) for the latest source-by-source findings, confirmed official pages, current blockers, and engineering acceptance criteria. This audit reinforces that official event listings are not sufficient for a channel EPG unless explicit programme intervals, market, channel identity, and timezone are verified.
