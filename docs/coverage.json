@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-11T06:12:52.000Z",
+  "generatedAt": "2026-11-11T14:18:26.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-11T04:12:52.000Z",
-    "to": "2026-11-12T22:12:52.000Z",
+    "from": "2026-11-11T12:18:26.000Z",
+    "to": "2026-11-13T06:18:26.000Z",
     "maxPerChannel": 80
   },
   "totals": {
     "channels": 63,
-    "programmes": 2264
+    "programmes": 2187
   },
   "providers": [
     {
@@ -16,9 +16,9 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2473,
+      "programmes": 2515,
       "publishedChannels": 30,
-      "publishedProgrammes": 1619,
+      "publishedProgrammes": 1656,
       "autoResolved": 30,
       "rejected": {
         "row": 0,
@@ -70,9 +70,9 @@
       "providerName": "Sky Sports UK",
       "file": "data/review/sky_uk_unclassified.json",
       "channels": 4,
-      "programmes": 554,
+      "programmes": 555,
       "publishedChannels": 4,
-      "publishedProgrammes": 554,
+      "publishedProgrammes": 555,
       "autoResolved": 4,
       "rejected": {
         "row": 0,
@@ -88,9 +88,9 @@
       "providerName": "SuperSport",
       "file": "data/review/supersport_unclassified.json",
       "channels": 61,
-      "programmes": 6965,
+      "programmes": 6983,
       "publishedChannels": 26,
-      "publishedProgrammes": 2658,
+      "publishedProgrammes": 2667,
       "autoResolved": 26,
       "rejected": {
         "row": 0,
