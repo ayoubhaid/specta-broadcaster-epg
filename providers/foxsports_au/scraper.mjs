@@ -7,6 +7,18 @@ export const SOURCE = "foxsports_au";
 const API = "https://tvguide.foxsports.com.au/granite-api/programmes.json";
 const USER_AGENT = "Mozilla/5.0 (compatible; SpectaEPG/1.0; public programme guide)";
 
+function dateInZone(date, zone) {
+  const parts = Object.fromEntries(new Intl.DateTimeFormat("en-CA", { timeZone: zone, year: "numeric", month: "2-digit", day: "2-digit" })
+    .formatToParts(date).filter(p => p.type !== "literal").map(p => [p.type, p.value]));
+  return `${parts.year}-${parts.month}-${parts.day}`;
+}
+
+function addDays(dateText, count) {
+  const date = new Date(`${dateText}T12:00:00Z`);
+  date.setUTCDate(date.getUTCDate() + count);
+  return date.toISOString().slice(0, 10);
+}
+
 function recordId(channelId, item, start, title) {
   return createHash("sha256").update(`${SOURCE}|${channelId}|${item.programmeId ?? item.id ?? ""}|${start}|${title}`).digest("hex").slice(0, 24);
 }
@@ -72,11 +84,8 @@ export function normalizeResponse(payload, fetchedAt, sourceUrl) {
 
 export async function fetchFeed(days = 2, now = new Date()) {
   if (!Number.isInteger(days) || days < 1 || days > 5) throw new Error("days must be an integer from 1 to 5");
-  const from = new Date(now);
-  const to = new Date(now);
-  to.setUTCDate(to.getUTCDate() + days);
-  const fromDate = from.toISOString().slice(0, 10);
-  const toDate = to.toISOString().slice(0, 10);
+  const fromDate = dateInZone(new Date(now), "Australia/Sydney");
+  const toDate = addDays(fromDate, days);
   const sourceUrl = `${API}?from=${fromDate}&to=${toDate}`;
   const response = await fetch(sourceUrl, { headers: { accept: "application/json", "user-agent": USER_AGENT }, signal: AbortSignal.timeout(30000) });
   if (!response.ok) throw new Error(`Fox Sports Australia guide HTTP ${response.status}`);
