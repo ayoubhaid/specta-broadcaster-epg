@@ -61,6 +61,9 @@ jobs:
       - name: Test Dubai Sports source audit
         run: node --test providers/dubai_sports/test_scraper.mjs
       - name: Refresh Sport TV Portugal review feed
+        # This is an unclassified review-only feed, not an input to published XMLTV.
+        # A temporary upstream outage must not block aggregation of the validated feeds.
+        continue-on-error: true
         env:
           EPG_DAYS: "2"
         run: node providers/sporttv_pt/scraper.mjs data/review/sporttv_pt_unclassified.json
