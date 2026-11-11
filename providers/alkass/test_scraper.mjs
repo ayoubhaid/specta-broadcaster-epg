@@ -7,6 +7,7 @@ test("parses Alkass schedule cards and converts Qatar local time to UTC", () => 
     '<section><img alt="Alkass Two" /><p>00:00 - 00:30 News</p><p>00:30 - 01:00 Football Review</p><p>01:00 - 02:00 Qatar League</p><p>02:00 - 03:00 Sports News</p></section>';
   const doc = parseGuide(html, "2026-11-10T00:00:00.000Z", "2026-11-10");
   assert.equal(doc.coverage.channelsFound, 2);
+  assert.equal(doc.timezone, "Asia/Qatar");
   assert.equal(doc.channels[0].name, "Alkass One");
   assert.equal(doc.channels[1].name, "Alkass Two");
   assert.equal(doc.channels[0].programmes.length, 4);
