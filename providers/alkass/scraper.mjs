@@ -104,7 +104,7 @@ export function parseGuide(html, fetchedAt = new Date().toISOString(), day = new
   if (!channels.length) throw new Error("No Alkass channel schedules parsed; refusing to publish an empty feed");
   return {
     schemaVersion: 1, provider: SOURCE, providerName: "Alkass Sports Qatar",
-    sourceUrl: SOURCE_URL, region: "QA", timezone: "UTC", generatedAt: fetchedAt,
+    sourceUrl: SOURCE_URL, region: "QA", timezone: TIME_ZONE, generatedAt: fetchedAt,
     coverage: { daysRequested: 1, channelsFound: channels.length, programmesFound: channels.reduce((n, c) => n + c.programmes.length, 0), successfulRequests: 1, failedRequests: 0 },
     mapping: { canonicalChannelIdsMapped: channels.length, canonicalChannelIdsMissing: 0, note: "Channel IDs follow the beIN public channel catalogue; review before publishing to a provider playlist." },
     channels
