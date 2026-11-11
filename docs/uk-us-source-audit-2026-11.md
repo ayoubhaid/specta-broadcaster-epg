@@ -49,3 +49,22 @@ Only verified records should be normalized. Do not synthesize programme ends fro
 - FOX Sports Press Pass: https://www.foxsports.com/presspass/latest-news/weekly-schedule
 - Tennis Channel schedule: https://www.tennischannel.com/en-us/page/schedule
 - Golf Channel on-air schedule: https://www.golfchannel.com/watch/on-air-schedule
+
+
+## Verification update — 2026-11-11
+
+The official Sky channel-list page confirms UK service names and platform channel numbers, including Sky Sports Main Event, Premier League, Football, Cricket, Golf, F1, Tennis, News, Racing, Mix and Sky Sports+. These platform numbers are not the same thing as the service IDs consumed by the Sky schedule endpoint. They must not be copied into `providers/sky/channels.json` as if they were API IDs. Source: https://www.sky.com/help/articles/tv-channel-list-sky-glass
+
+The official Golf Channel on-air schedule displays dated programme names, channel labels and start times, for example on the current schedule page. The public rendering reviewed here does not establish explicit programme end timestamps or a stable machine-readable endpoint. Source: https://www.golfchannel.com/watch/on-air-schedule
+
+The official TNT Sports schedule page exposes a date selector, but the visible schedule output alone does not establish a UK-specific linear grid with explicit start/end timestamps and stable IDs. Source: https://www.tntsports.co.uk/watch/schedule.shtml
+
+ESPN Support confirms its official online listings cover ESPN networks and sports on ABC for about two weeks. This confirms the schedule's authority and coverage window, but not an accessible reusable data contract. Source: https://support.espn.com/hc/en-us/articles/360039139552-Television-Listings-for-ESPN-Networks-and-sports-on-ABC
+
+### Execution status
+
+The existing scheduled refresh workflow's last inspected run successfully refreshed the current Sky Sports UK review feed. The same overall run later failed at Sport TV Portugal because that source returned no dated programmes, so the downstream aggregation step did not run in that attempt. This is an existing workflow reliability blocker, separate from the UK/USA source audit; do not treat the run as an overall green validation.
+
+### Outcome
+
+No new UK/USA adapter has been added in this pass because the sources inspected above do not yet provide a verified, reproducible contract with explicit start/end intervals and stable channel identities. This is deliberate fail-closed behavior, not a completed broadcaster integration. The next valid step is to capture the actual official guide network response in an environment that can access it, then build and test against a redacted real fixture.
