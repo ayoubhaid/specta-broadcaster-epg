@@ -8,9 +8,15 @@ Provider adapters and dated programme data for Specta. Each broadcaster feed kee
 |---|---|---|
 | SNRT Morocco | `data/source-feeds/snrt_ma.json` | Seven SNRT linear TV channels from the official SNRT programme grid; source times are converted from Africa/Casablanca to UTC and refreshed every six hours. |
 | beIN SPORTS MENA | `data/source-feeds/bein_mena.json` | Source feed snapshot from the existing [beIN scraper](https://github.com/ayoubhaid/specta-bein-epg); 40 source channels and 2,458 programmes at generation time. Source guide IDs are not Specta playlist IDs. |
-| SuperSport | `data/review/supersport_unclassified.json` | 1,630 dated programme rows from the official Media Schedules page. Held for review because source channels have not been matched to the Specta registry or classified as permanent linear versus temporary/OTT feeds. |
-| Sky Sports UK | `data/review/sky_uk_unclassified.json` | Five-day official EPG response: four linear channels and 591 programmes. Source service IDs are retained; Sky Sports+ interactive service is excluded. |
-| CANAL+ France | `data/review/canalplus_fr_unclassified.json` | 220 dated programmes across seven channels extracted from the official France guide. This is France-only coverage, not CANAL+ Afrique. |
+| SuperSport | `data/review/supersport_unclassified.json` | Dated programme rows from the official Media Schedules page. Held for review because source channels have not been matched to the Specta registry or classified as permanent linear versus temporary/OTT feeds. |
+| Sky Sports UK | `data/review/sky_uk_unclassified.json` | Official dated EPG response; source service IDs are retained and the Sky Sports+ interactive service is excluded. |
+| CANAL+ France | `data/review/canalplus_fr_unclassified.json` | Official France guide extraction. This is France-only coverage, not CANAL+ Afrique. |
+| Al Kass Qatar | `data/review/alkass_qa_unclassified.json` | Official guide extraction held for review; verify channel completeness and exact playlist identity before promotion. |
+| Dubai Sports | `data/review/dubai_sports_observations.json` | Official today/next schedule observations are captured for audit only. The page does not expose verified programme end times, so this is not an XMLTV feed and is not counted as EPG coverage. |
+| Sport TV Portugal | `data/review/sporttv_pt_unclassified.json` | Official Sport TV channel and schedule APIs; explicit programme durations are normalized to UTC. Channel-to-playlist mapping remains under review. |
+| Fox Sports Australia | `data/review/foxsports_au_unclassified.json` | Official JSON TV guide; explicit start/end timestamps are normalized to UTC. Regional playlist identity remains under review. |
+
+See [Official EPG / TV-guide source audit](docs/official-guide-sources.md) for the first-party guide register and integration status across the UK/USA broadcaster families. A public guide page is not automatically a reusable feed/API, and all feeds remain subject to exact channel matching and programme-interval validation.
 
 The SuperSport CSV beside the JSON is a flat audit export. SuperSport and Sky schedule rows that describe matches remain programme listings; they are not imported as football fixture records. CANAL+ and Sky feeds are held for review pending channel mapping. No playlist URLs, stream credentials, or temporary event-feed inventory are included.
 
@@ -33,9 +39,13 @@ python providers/supersport/scraper.py --date 2026-11-08 --days 5 \
   --json-output data/review/supersport_unclassified.json
 node providers/sky/scraper.mjs 2026-11-08 5 data/review/sky_uk_unclassified.json
 node providers/canalplus_fr/scraper.mjs data/review/canalplus_fr_unclassified.json
+node providers/alkass/scraper.mjs data/review/alkass_qa_unclassified.json
+node providers/dubai_sports/scraper.mjs data/review/dubai_sports_observations.json
+node providers/sporttv_pt/scraper.mjs data/review/sporttv_pt_unclassified.json
+node providers/foxsports_au/scraper.mjs data/review/foxsports_au_unclassified.json
 ```
 
-SuperSport dates are broadcaster-local dates in `Africa/Johannesburg`; Sky dates are fetched from the official dated schedule API; CANAL+ guide timestamps are epoch milliseconds. Output timestamps are UTC. All feeds refresh automatically every six hours.
+SuperSport dates are broadcaster-local dates in `Africa/Johannesburg`; Sky dates are fetched from the official dated schedule API; CANAL+ guide timestamps are epoch milliseconds. Output timestamps are UTC. The scheduled refresh workflow runs every six hours.
 
 Run checks:
 
@@ -43,7 +53,7 @@ Run checks:
 cd providers/bein_mena && npm run check
 cd ../..
 python -m unittest discover -s providers/supersport -p 'test_*.py'
-node --test providers/sky/test_scraper.mjs providers/canalplus_fr/test_scraper.mjs
+node --test providers/sky/test_scraper.mjs providers/canalplus_fr/test_scraper.mjs providers/alkass/test_scraper.mjs providers/dubai_sports/test_scraper.mjs providers/sporttv_pt/test_scraper.mjs providers/foxsports_au/test_scraper.mjs
 ```
 
 ## Channel mapping workflow
@@ -76,7 +86,8 @@ The build applies the app's own XMLTV limits so the file contains nothing the ap
 
 - beIN: public MENA TV guide endpoints documented in `providers/bein_mena/README.md`; the endpoint contract may change.
 - SuperSport: [TV Guide](https://supersport.com/tv-guide) and [Media Schedules](https://wsd.supersport.com/media/ms_schedule.asp). The dated Media Schedules page returns programme listings with channel codes and local clock times.
-- Sky Sports UK: [Watch: sport on Sky](https://www.skysports.com/watch/sport-on-sky) and its public dated schedule API. Only four verified linear sports channels are currently included.
+- Sky Sports UK: [Watch: sport on Sky](https://www.skysports.com/watch/sport-on-sky) and its public dated schedule API. Only verified linear channels are included.
 - CANAL+ France: [Programme TV](https://www.canalplus.com/live-tv/programme-tv/); the page embeds dated channel programme objects. This adapter covers the France guide only.
-- ESPN and other broadcasters are not yet in the refresh set: an official channel schedule source must be verified before adding a feed. Sports fixture APIs and event calendars are not substitutes for linear channel listings.
+- Dubai Sports official source audit: [TV schedule component](https://www.dubaisports.ae/content/dubaisports/home/_jcr_content/channel-programs.home-live-schedule.html). It currently exposes a short list of cards and clock observations, not complete programme intervals; the adapter preserves this evidence without fabricating end times.
+- ESPN and other broadcasters are being assessed through first-party guide pages listed in [the official guide source audit](docs/official-guide-sources.md). Sports fixture APIs and event calendars are not substitutes for linear channel listings.
 - Public guide data availability and provider terms may change. Keep request rates conservative and validate each generated feed before publishing it for app consumption.

@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-10T19:45:03.000Z",
+  "generatedAt": "2026-11-10T19:53:44.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-10T17:45:03.000Z",
-    "to": "2026-11-12T11:45:03.000Z",
+    "from": "2026-11-10T17:53:44.000Z",
+    "to": "2026-11-12T11:53:44.000Z",
     "maxPerChannel": 80
   },
   "totals": {
-    "channels": 63,
-    "programmes": 2091
+    "channels": 64,
+    "programmes": 2100
   },
   "providers": [
     {
@@ -16,9 +16,9 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2503,
+      "programmes": 2514,
       "publishedChannels": 30,
-      "publishedProgrammes": 1647,
+      "publishedProgrammes": 1658,
       "autoResolved": 30,
       "rejected": {
         "row": 0,
@@ -44,6 +44,24 @@
         "time": 0,
         "range": 0,
         "duration": 30
+      },
+      "error": null
+    },
+    {
+      "provider": "alkass_qa",
+      "providerName": "Alkass Sports Qatar",
+      "file": "data/review/alkass_qa_unclassified.json",
+      "channels": 1,
+      "programmes": 70,
+      "publishedChannels": 1,
+      "publishedProgrammes": 70,
+      "autoResolved": 1,
+      "rejected": {
+        "row": 0,
+        "title": 0,
+        "time": 0,
+        "range": 0,
+        "duration": 0
       },
       "error": null
     },
@@ -108,6 +126,12 @@
       "name": "Al Aoula",
       "id": "AlAoula.ma@SD",
       "method": "manual"
+    },
+    {
+      "key": "alkass_qa:33",
+      "name": "Alkass One",
+      "id": "AlkassOne.qa",
+      "method": "registry"
     },
     {
       "key": "snrt_ma:4072",

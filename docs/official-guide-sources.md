@@ -1,0 +1,53 @@
+# Official EPG / TV-guide source audit
+
+Scope: the 15 broadcaster families identified in the UK- and USA-labelled groups of the Specta sports playlist inventory. This file records first-party sources only; third-party listings are not accepted as authoritative EPG input. A public guide page is not automatically a reusable feed/API, and a guide is not considered integrated until its adapter is tested, emits explicit programme start/end times, and its channel identities are matched to the playlist.
+
+## Source register
+
+| Broadcaster family | Official guide / schedule | Repo state | Integration notes |
+|---|---|---|---|
+| Sky Sports (UK) | https://www.skysports.com/watch/tv-guide | Adapter: `providers/sky/scraper.mjs`; output currently review-only at `data/review/sky_uk_unclassified.json` | Official dated schedule adapter exists. Match source service IDs to the correct UK playlist channels before promoting. |
+| ESPN (USA) | https://www.espn.com/watch/schedule/_/type/upcoming ; official confirmation: https://support.espn.com/hc/en-us/articles/360039139552-Television-Listings-for-ESPN-Networks-and-sports-on-ABC ; schedule directory: https://espnpressroom.com/espn-schedules/ ; regional directory: https://us.espnpressroom.com/program-schedules/ | Source confirmed; adapter blocked pending verified interval data | ESPN Support confirms listings for its networks and sports on ABC for about two weeks. The public Watch page mixes live/upcoming/replay sports content; do not treat an event start time as a complete linear programme interval unless explicit end times and channel identity are available. |
+| DAZN | https://www.dazn.com/ | Research / not yet integrated | DAZN is market-specific and may expose event schedules rather than a linear-channel grid. Do not treat event pages as a complete channel EPG unless stable channel IDs and explicit start/end times are available. |
+| TNT Sports (UK) | https://www.tntsports.co.uk/watch/schedule.shtml | Source confirmed; adapter blocked pending correct UK linear schedule data | The page is an official dated schedule, but the accessible page output can show international/HBO Max sports listings rather than an unambiguous UK linear channel grid. Do not map these listings to TNT Sports 1–4 without confirming the selected territory and channel IDs. |
+| Premier Sports (UK) | https://www.premiersports.com/gb/welcome-ios | Official schedule/on-upcoming page located; adapter not yet in this repo | Page exposes current and upcoming events, but full linear programme intervals and stable channel IDs still need verification. |
+| Eurosport | https://www.eurosport.fr/watch/schedule.shtml | Official guide located; adapter not yet in this repo | Public dated schedule. Locale matters: the French page is not proof of UK channel schedule coverage. Identify the playlist territory before using it. |
+| SuperSport | https://www.dstv.com/ | Existing review adapter: `providers/supersport/scraper.py`; output `data/review/supersport_unclassified.json` | Uses the official DStv/Media Schedules source in the existing adapter. Review channel mapping and regional variants; do not count ambiguous feeds as confirmed playlist matches. |
+| beIN SPORTS | https://www.bein.com/en/tv-guide/ | Existing separate source project; this repo stores snapshot at `data/source-feeds/bein_mena.json` | Guide has a territory selector. The US guide is not interchangeable with MENA/UK playlist variants; use the correct regional edition. |
+| Viaplay / Viaplay Sports | https://viaplay.com/ | Research / not yet integrated | No verified public first-party linear EPG endpoint recorded yet. Confirm country and service brand; do not use third-party schedule pages as a substitute. |
+| Fox Sports (USA) | https://www.foxsports.com/presspass/latest-news/weekly-schedule | Official first-party weekly programming schedule located; adapter not yet in this repo | Press Pass weekly schedule is not necessarily a complete channel-by-channel EPG. The separate Fox Sports Australia adapter must not be mislabelled as USA coverage. |
+| Sportsnet (Canada) | https://watch.sportsnet.ca/channels ; broadcast grid: https://assets4.sportsnet.ca/schedule/ | Research only; no adapter | The Channel Guide visibly exposes dated programme intervals, but its underlying response has not yet been captured and validated. The separate broadcast grid includes radio panels and is not proof of a TV EPG feed. Do not scrape the event-discovery API as a substitute for channel-level programme intervals. |
+| Tennis Channel (USA) | https://www.tennischannel.com/ | Official site located; schedule tab surfaced on its broadcast page | Verify whether the public schedule exposes full channel intervals and stable IDs. Streaming event tiles alone are insufficient. |
+| Fubo Sports / Fubo (USA) | https://www.fubo.tv/ | Official in-product guide documented by Fubo support: https://support.fubo.tv/hc/en-ca/articles/22283884491277-How-do-I-use-the-Fubo-channel-guide | Guide is personalized to the user's subscription and may require authentication. Do not scrape private account data or claim broad public EPG access. |
+| Golf Channel (USA) | https://www.golfchannel.com/ | Official site located; schedule page still needs endpoint/interval validation | Confirm the specific Golf Channel feed and territory; do not rely on third-party listings for production data. |
+
+## Source checks completed in this pass
+
+- ESPN Support explicitly confirms that its official online listings cover all ESPN networks and sports on ABC for roughly two weeks: https://support.espn.com/hc/en-us/articles/360039139552-Television-Listings-for-ESPN-Networks-and-sports-on-ABC. The official ESPN Press Room schedule browser is https://espnpressroom.com/espn-schedules/ (the regional directory is https://us.espnpressroom.com/program-schedules/). The pages describe browsing schedules by date and network, but retrieved page content does not expose the underlying programme payload or endpoint contract. The consumer Watch page also presents a JavaScript/anti-bot challenge to non-interactive retrieval; do not treat ESPN sports-scoreboard APIs as a channel EPG. The official schedule data contract still needs to be established.
+- TNT Sports' official schedule page is accessible, but the rendered schedule can contain international/HBO Max listings and foreign commentary. It is not yet safe to interpret that page as the UK linear channel guide.
+- Sportsnet's first-party Channel Guide (EPG) is https://watch.sportsnet.ca/channels; it visibly lists programme names with start/end clock times and dates. The separate https://assets4.sportsnet.ca/schedule/ page includes a radio schedule grid and should not be treated as the TV EPG. A WebGrab+Plus community discussion identifies candidate endpoint hosts `production-cdn.d3-rgr-diva.com/api/sportschedules` and `schedule-admin.sportsnet.ca/v1/d3/events`, and describes schedule metadata such as `ChannelIds`, `FeedType` (`home`/`away`), and `eventStartDate`. These reports are not first-party documentation. Direct retrieval of candidate endpoints failed in this research environment, so response shape, auth/headers, timezone, stable IDs, completeness, and whether event rows describe full programme intervals remain unverified. No scraper was added from a guessed schema; event availability records must not be mistaken for linear-channel EPG intervals.
+
+## Current Sportsnet blocker
+
+The official guide is discoverable, and community reports provide candidate API hostnames and useful field names, but this pass did not establish a reproducible, current response contract. The candidate endpoint URLs could not be retrieved in this environment. No Sportsnet scraper or fabricated fixture was added. To unblock implementation, capture a real response from the official Channel Guide in a browser/network session, record the exact request URL and non-secret request headers, and save a redacted response fixture. Then verify response shape, channel IDs, programme start/end semantics, timezone, pagination/date boundaries, and home/away feed handling. Keep any resulting feed in `data/review/` until playlist mapping and linear-versus-event classification are verified.
+
+## Existing adapter / review-feed paths
+
+- Sky Sports UK: `providers/sky/scraper.mjs` → `data/review/sky_uk_unclassified.json`
+- SuperSport: `providers/supersport/scraper.py` → `data/review/supersport_unclassified.json`
+- beIN SPORTS MENA: existing upstream project → `data/source-feeds/bein_mena.json`
+- ESPN, DAZN, TNT Sports, Premier Sports, Eurosport, Viaplay, Fox Sports USA, Sportsnet, Tennis Channel, Fubo, and Golf Channel still require separate adapter work or additional source validation.
+
+## Acceptance rules
+
+1. Prefer official broadcaster-owned pages and APIs. Do not silently substitute third-party guide sites.
+2. Keep each market/territory separate (for example, Fox Sports USA versus Fox Sports Australia; beIN US versus beIN MENA; Eurosport UK versus Eurosport France).
+3. Require explicit programme start and end times, a verified timezone, stable source record identity, and fail-closed parsing tests.
+4. Preserve source channel IDs and write new adapters to `data/review/` until exact playlist matches and linear-versus-event classification have been reviewed.
+5. Never invent programme ends from event duration assumptions. If the official source provides only event start times or “now/next” tiles, record it as a research/audit source, not as a complete EPG.
+6. The app-facing feed should only be expanded after channel mapping, duplicate handling, and coverage reporting confirm that the new rows improve the actual playlist.
+
+
+## Latest detailed verification
+
+See [UK / USA sports EPG source verification — 2026-11](./uk-us-source-audit-2026-11.md) for the latest source-by-source findings, confirmed official pages, current blockers, and engineering acceptance criteria. This audit reinforces that official event listings are not sufficient for a channel EPG unless explicit programme intervals, market, channel identity, and timezone are verified.

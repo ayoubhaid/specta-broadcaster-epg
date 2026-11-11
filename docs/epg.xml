@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="specta-broadcaster-epg">
   <channel id="AlAoula.ma@SD"><display-name>Al Aoula</display-name></channel>
+  <channel id="AlkassOne.qa"><display-name>Alkass One</display-name></channel>
   <channel id="AlMaghribia.ma@SD"><display-name>Al Maghribia</display-name></channel>
   <channel id="beIN4K.qa"><display-name>beIN 4K</display-name></channel>
   <channel id="beINSports.qa"><display-name>beIN SPORTS</display-name></channel>
@@ -63,9 +64,6 @@
   <channel id="SuperSportTennis.za"><display-name>SuperSport Tennis</display-name></channel>
   <channel id="TamazightTV.ma@SD"><display-name>Tamazight</display-name></channel>
   <channel id="TF1.fr"><display-name>TF1</display-name></channel>
-  <programme start="20261110173000 +0000" stop="20261110175000 +0000" channel="AlAoula.ma@SD">
-    <title>الأخبار</title>
-  </programme>
   <programme start="20261110175000 +0000" stop="20261110182500 +0000" channel="AlAoula.ma@SD">
     <title>مومو عينيا</title>
   </programme>
@@ -272,6 +270,36 @@
   </programme>
   <programme start="20261112112500 +0000" stop="20261112120000 +0000" channel="AlAoula.ma@SD">
     <title>آش هذا</title>
+  </programme>
+  <programme start="20261110173000 +0000" stop="20261110180000 +0000" channel="AlkassOne.qa">
+    <title>News</title>
+  </programme>
+  <programme start="20261110180000 +0000" stop="20261110183000 +0000" channel="AlkassOne.qa">
+    <title>90 minutes</title>
+  </programme>
+  <programme start="20261110180000 +0000" stop="20261110183000 +0000" channel="AlkassOne.qa">
+    <title>FOOTBALL REVIEW</title>
+  </programme>
+  <programme start="20261110180000 +0000" stop="20261110183000 +0000" channel="AlkassOne.qa">
+    <title>Tunisian Derby Étoile du Sahel vs. Club Sportif Sfaxien</title>
+  </programme>
+  <programme start="20261110183000 +0000" stop="20261110190000 +0000" channel="AlkassOne.qa">
+    <title>Doha Bank Stars League Al-Gharafa vs. Al-Duhail</title>
+  </programme>
+  <programme start="20261110183000 +0000" stop="20261110193000 +0000" channel="AlkassOne.qa">
+    <title>midmar</title>
+  </programme>
+  <programme start="20261110183000 +0000" stop="20261110203000 +0000" channel="AlkassOne.qa">
+    <title>QSL magazine</title>
+  </programme>
+  <programme start="20261110190000 +0000" stop="20261110210000 +0000" channel="AlkassOne.qa">
+    <title>News</title>
+  </programme>
+  <programme start="20261110193000 +0000" stop="20261110203000 +0000" channel="AlkassOne.qa">
+    <title>tawasol</title>
+  </programme>
+  <programme start="20261110203000 +0000" stop="20261110210000 +0000" channel="AlkassOne.qa">
+    <title>News</title>
   </programme>
   <programme start="20261110173100 +0000" stop="20261110180000 +0000" channel="AlMaghribia.ma@SD">
     <title>متاحف المغرب</title>
@@ -488,10 +516,6 @@
   </programme>
   <programme start="20261112113000 +0000" stop="20261112120000 +0000" channel="AlMaghribia.ma@SD">
     <title>بين البارح و اليوم</title>
-  </programme>
-  <programme start="20261110160300 +0000" stop="20261110174900 +0000" channel="beIN4K.qa">
-    <title>Lens vs Marseille - French Ligue 1 2026/2027</title>
-    <desc>All 306 matches from the Ligue 1 2026 – 2027 season are live and exclusive only on beIN SPORTS. Paris Saint-Germain are the defending Champions having secured their historic 14th top-flight title last season.</desc>
   </programme>
   <programme start="20261110174900 +0000" stop="20261110193600 +0000" channel="beIN4K.qa">
     <title>Leeds United vs Tottenham Hotspur - English Premier League 2026/2027</title>
@@ -1581,6 +1605,13 @@
   </programme>
   <programme start="20261112110000 +0000" stop="20261112123000 +0000" channel="beINSports8.qa">
     <title>Premier Padel - Dubai P1 2026 - M3</title>
+  </programme>
+  <programme start="20261110161500 +0000" stop="20261110190000 +0000" channel="beINSports9.qa">
+    <title>Gymnastics - 2026 Youth Olympic Games – Dakar</title>
+    <desc>The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.</desc>
+  </programme>
+  <programme start="20261110190000 +0000" stop="20261110214500 +0000" channel="beINSports9.qa">
+    <title>Longines Global Champions Tour - London Jumping - Against The Clock With Jump Off</title>
   </programme>
   <programme start="20261110214500 +0000" stop="20261111003000 +0000" channel="beINSports9.qa">
     <title>Longines Global Champions Tour - London Jumping - Grand Prix</title>
@@ -3238,10 +3269,6 @@
     <title>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <desc>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events</desc>
   </programme>
-  <programme start="20261110160700 +0000" stop="20261110175000 +0000" channel="CanalPlus.fr">
-    <title>Deep Water</title>
-    <desc>Film Suspense</desc>
-  </programme>
   <programme start="20261110175000 +0000" stop="20261110175500 +0000" channel="CanalPlus.fr">
     <title>La boîte à questions</title>
     <desc>Adèle Castillon toujours (re)belle</desc>
@@ -3380,10 +3407,6 @@
   </programme>
   <programme start="20261111040500 +0000" stop="20261111050000 +0000" channel="France2.fr">
     <title>Tout le monde veut prendre sa place</title>
-    <desc>Emission du 10 nov. 2026</desc>
-  </programme>
-  <programme start="20261110170000 +0000" stop="20261110175000 +0000" channel="France3.fr">
-    <title>Slam</title>
     <desc>Emission du 10 nov. 2026</desc>
   </programme>
   <programme start="20261110175000 +0000" stop="20261110180000 +0000" channel="France3.fr">
@@ -6041,6 +6064,10 @@
   <programme start="20261112114500 +0000" stop="20261112115000 +0000" channel="SuperSportLaLiga.za">
     <title>LaLiga Blitz HL</title>
     <desc>Football — Matchday 12: Sevilla v Alaves</desc>
+  </programme>
+  <programme start="20261112115000 +0000" stop="20261112115500 +0000" channel="SuperSportLaLiga.za">
+    <title>LaLiga Blitz HL</title>
+    <desc>Football — Matchday 12: Espanyol v Deportivo La Coruna</desc>
   </programme>
   <programme start="20261110165000 +0000" stop="20261110185000 +0000" channel="SuperSportMaximo1.za">
     <title>Ligue 1</title>
