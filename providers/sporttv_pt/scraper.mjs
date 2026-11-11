@@ -13,6 +13,18 @@ const HEADERS = {
   "x-device-platform": "web"
 };
 
+function dateInZone(date, zone) {
+  const parts = Object.fromEntries(new Intl.DateTimeFormat("en-CA", { timeZone: zone, year: "numeric", month: "2-digit", day: "2-digit" })
+    .formatToParts(date).filter(p => p.type !== "literal").map(p => [p.type, p.value]));
+  return `${parts.year}-${parts.month}-${parts.day}`;
+}
+
+function addDays(dateText, count) {
+  const date = new Date(`${dateText}T12:00:00Z`);
+  date.setUTCDate(date.getUTCDate() + count);
+  return date.toISOString().slice(0, 10);
+}
+
 function zonedLocalToIso(day, clock) {
   const [year, month, date] = day.split("-").map(Number);
   const [hour, minute] = clock.split(":").map(Number);
@@ -121,12 +133,10 @@ export async function fetchFeed(days = 2) {
   const fetchedAt = new Date().toISOString();
   const byChannel = new Map(channels.map(c => [String(c.id), { ...c, id: String(c.id), programmes: [] }]));
   let successfulRequests = 0;
-  const baseDay = new Date();
+  const firstLocalDate = dateInZone(new Date(), TIME_ZONE);
   for (let offset = 0; offset < days; offset++) {
-    const day = new Date(Date.UTC(baseDay.getUTCFullYear(), baseDay.getUTCMonth(), baseDay.getUTCDate() + offset));
-    const localDate = new Intl.DateTimeFormat("en-CA", { timeZone: TIME_ZONE, year:"numeric", month:"2-digit", day:"2-digit" }).format(day);
-    const next = new Date(day.getTime() + 86400000);
-    const nextDate = new Intl.DateTimeFormat("en-CA", { timeZone: TIME_ZONE, year:"numeric", month:"2-digit", day:"2-digit" }).format(next);
+    const localDate = addDays(firstLocalDate, offset);
+    const nextDate = addDays(firstLocalDate, offset + 1);
     const startParam = encodeURIComponent(`${localDate.split("-").reverse().join("/")} 00:00`);
     const endParam = encodeURIComponent(`${nextDate.split("-").reverse().join("/")} 00:00`);
     for (const channel of channels) {
