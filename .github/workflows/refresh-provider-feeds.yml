@@ -66,13 +66,19 @@ jobs:
         run: node providers/sporttv_pt/scraper.mjs data/review/sporttv_pt_unclassified.json
       - name: Test Sport TV Portugal adapter
         run: node --test providers/sporttv_pt/test_scraper.mjs
+      - name: Refresh Fox Sports Australia review feed
+        env:
+          EPG_DAYS: "3"
+        run: node providers/foxsports_au/scraper.mjs data/review/foxsports_au_unclassified.json
+      - name: Test Fox Sports Australia adapter
+        run: node --test providers/foxsports_au/test_scraper.mjs
       - name: Build app-facing XMLTV feed
         run: node aggregate/build.mjs
       - name: Commit changed provider data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/source-feeds/bein_mena.json data/source-feeds/snrt_ma.json data/review/supersport_unclassified.json data/review/supersport_unclassified.csv data/review/sky_uk_unclassified.json data/review/canalplus_fr_unclassified.json data/review/alkass_qa_unclassified.json data/review/dubai_sports_observations.json data/review/sporttv_pt_unclassified.json docs
+          git add data/source-feeds/bein_mena.json data/source-feeds/snrt_ma.json data/review/supersport_unclassified.json data/review/supersport_unclassified.csv data/review/sky_uk_unclassified.json data/review/canalplus_fr_unclassified.json data/review/alkass_qa_unclassified.json data/review/dubai_sports_observations.json data/review/sporttv_pt_unclassified.json data/review/foxsports_au_unclassified.json docs
           if git diff --staged --quiet; then
             echo "No provider feed changes"
           else
