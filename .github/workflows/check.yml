@@ -35,5 +35,48 @@ jobs:
         run: node aggregate/build.mjs --out=tmp/epg.xml --report=tmp/coverage.json
       - name: Validate committed provider feeds
         run: |
-          node -e "for (const p of ['data/source-feeds/bein_mena.json','data/review/supersport_unclassified.json','data/review/sky_uk_unclassified.json','data/review/canalplus_fr_unclassified.json']) { const d=require('./'+p); if(d.schemaVersion!==1) throw Error(p+' schemaVersion'); const n=d.channels.reduce((s,c)=>s+c.programmes.length,0); if(n!==d.coverage.programmesFound) throw Error(p+' coverage count'); for(const c of d.channels) for(const x of c.programmes) if(Date.parse(x.start)>=Date.parse(x.end)) throw Error(p+' invalid time range in '+c.id); console.log(p+': '+d.channels.length+' channels, '+n+' programmes') }"
+          node --input-type=module <<'NODE'
+          import { readFile } from 'node:fs/promises';
+          const paths = [
+            'data/source-feeds/bein_mena.json',
+            'data/source-feeds/snrt_ma.json',
+            'data/review/supersport_unclassified.json',
+            'data/review/sky_uk_unclassified.json',
+            'data/review/canalplus_fr_unclassified.json',
+            'data/review/alkass_qa_unclassified.json',
+            'data/review/sporttv_pt_unclassified.json',
+            'data/review/foxsports_au_unclassified.json'
+          ];
+          for (const path of paths) {
+            const doc = JSON.parse(await readFile(path, 'utf8'));
+            if (doc.schemaVersion !== 1) throw new Error(`${path}: unsupported schemaVersion`);
+            if (!Array.isArray(doc.channels)) throw new Error(`${path}: channels must be an array`);
+            let count = 0;
+            const channelIds = new Set();
+            for (const channel of doc.channels) {
+              if (!channel.id || !channel.name) throw new Error(`${path}: channel missing id/name`);
+              if (channelIds.has(String(channel.id))) throw new Error(`${path}: duplicate source channel id ${channel.id}`);
+              channelIds.add(String(channel.id));
+              if (!Array.isArray(channel.programmes)) throw new Error(`${path}: ${channel.id} programmes must be an array`);
+              const programmeIds = new Set();
+              for (const programme of channel.programmes) {
+                count++;
+                if (!programme.title?.trim()) throw new Error(`${path}: empty title in ${channel.id}`);
+                const start = Date.parse(programme.start);
+                const end = Date.parse(programme.end);
+                if (!Number.isFinite(start) || !Number.isFinite(end) || start >= end) {
+                  throw new Error(`${path}: invalid time range in ${channel.id}`);
+                }
+                if (programme.id && programmeIds.has(String(programme.id))) {
+                  throw new Error(`${path}: duplicate programme id ${programme.id} in ${channel.id}`);
+                }
+                if (programme.id) programmeIds.add(String(programme.id));
+              }
+            }
+            if (doc.coverage?.programmesFound !== count) {
+              throw new Error(`${path}: coverage says ${doc.coverage?.programmesFound}, actual ${count}`);
+            }
+            console.log(`${path}: ${doc.channels.length} channels, ${count} programmes`);
+          }
+          NODE
 
