@@ -68,3 +68,17 @@ The existing scheduled refresh workflow's last inspected run successfully refres
 ### Outcome
 
 No new UK/USA adapter has been added in this pass because the sources inspected above do not yet provide a verified, reproducible contract with explicit start/end intervals and stable channel identities. This is deliberate fail-closed behavior, not a completed broadcaster integration. The next valid step is to capture the actual official guide network response in an environment that can access it, then build and test against a redacted real fixture.
+
+
+## Additional source-contract check — 2026-11-11
+
+Two third-party guide APIs surfaced during follow-up research, but neither should be presented as an official broadcaster feed:
+
+- TV Schedule API documents stable channel IDs, UTC start/stop times, and XMLTV endpoints. Its published terms state that showing data in an app is allowed but republishing the data itself as a feed or API is not. It is therefore not a suitable source for committing a redistributable generated guide into this repository without separate written permission. Documentation: https://tvschedule.org/documentation and https://tvschedule.org/documentation/listings
+- EPGTalk publishes public JSON guides, including US/UK/sports endpoints, with start/stop timestamps. It is a third-party aggregated guide rather than an official broadcaster source. Its licensing/redistribution basis and exact playlist channel identity still need confirmation before any production ingestion.
+
+These services may help with research or comparison, but they do not remove the requirement to validate rights, market/territory, stable channel identity, and source timestamps. Do not copy their records into the published XMLTV merely because the endpoint is accessible.
+
+## Workflow reliability follow-up
+
+The Sport TV Portugal scraper is a review-only feed and does not supply the app-facing XMLTV aggregation. Its upstream currently returned no dated programmes in the inspected scheduled run, causing the combined workflow to stop before the validated-feed aggregation step. The workflow change on branch `fix/review-feed-failure-isolation` marks that one review-only step as non-blocking: its failure remains visible in Actions, but does not prevent XMLTV aggregation from running. This does not fix the Sport TV source itself or make its stale review output current.
