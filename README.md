@@ -12,7 +12,7 @@ Provider adapters and dated programme data for Specta. Each broadcaster feed kee
 | Sky Sports UK | `data/review/sky_uk_unclassified.json` | Five-day official EPG response: four linear channels and 591 programmes. Source service IDs are retained; Sky Sports+ interactive service is excluded. |
 | CANAL+ France | `data/review/canalplus_fr_unclassified.json` | 220 dated programmes across seven channels extracted from the official France guide. This is France-only coverage, not CANAL+ Afrique. |
 | Al Kass Qatar | `data/review/alkass_qa_unclassified.json` | Official guide extraction is held for review; verify channel completeness and exact playlist identity before promotion. |
-| Dubai Sports | `data/review/dubai_sports_observations.json` | Official today/next schedule observations are captured for audit only. The page does not expose verified programme end times, so this is not an XMLTV feed and is not counted as EPG coverage. |
+| Dubai Sports | `data/review/dubai_sports_observations.json` | Official today/next schedule observations are captured for audit only. The page does not expose verified programme end times, so this is not an XMLTV feed and is not counted as EPG coverage. |\n| Sport TV Portugal | `data/review/sporttv_pt_unclassified.json` | Official Sport TV channel and schedule APIs; explicit programme durations are normalized to UTC. Channel-to-playlist mapping remains under review. |
 
 The SuperSport CSV beside the JSON is a flat audit export. SuperSport and Sky schedule rows that describe matches remain programme listings; they are not imported as football fixture records. CANAL+ and Sky feeds are held for review pending channel mapping. No playlist URLs, stream credentials, or temporary event-feed inventory are included.
 
@@ -34,7 +34,7 @@ python providers/supersport/scraper.py --date 2026-11-08 --days 5 \
   --output data/review/supersport_unclassified.csv \
   --json-output data/review/supersport_unclassified.json
 node providers/sky/scraper.mjs 2026-11-08 5 data/review/sky_uk_unclassified.json
-node providers/canalplus_fr/scraper.mjs data/review/canalplus_fr_unclassified.json
+node providers/canalplus_fr/scraper.mjs data/review/canalplus_fr_unclassified.json\nnode providers/sporttv_pt/scraper.mjs data/review/sporttv_pt_unclassified.json
 ```
 
 SuperSport dates are broadcaster-local dates in `Africa/Johannesburg`; Sky dates are fetched from the official dated schedule API; CANAL+ guide timestamps are epoch milliseconds. Output timestamps are UTC. All feeds refresh automatically every six hours.
