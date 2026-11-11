@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-11T02:38:07.000Z",
+  "generatedAt": "2026-11-11T06:12:52.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-11T00:38:07.000Z",
-    "to": "2026-11-12T18:38:07.000Z",
+    "from": "2026-11-11T04:12:52.000Z",
+    "to": "2026-11-12T22:12:52.000Z",
     "maxPerChannel": 80
   },
   "totals": {
     "channels": 63,
-    "programmes": 2060
+    "programmes": 2264
   },
   "providers": [
     {
@@ -16,16 +16,16 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2374,
+      "programmes": 2473,
       "publishedChannels": 30,
-      "publishedProgrammes": 1518,
+      "publishedProgrammes": 1619,
       "autoResolved": 30,
       "rejected": {
         "row": 0,
         "title": 0,
         "time": 0,
         "range": 0,
-        "duration": 8
+        "duration": 6
       },
       "error": null
     },
@@ -51,10 +51,10 @@
       "provider": "canalplus_fr",
       "providerName": "CANAL+ France",
       "file": "data/review/canalplus_fr_unclassified.json",
-      "channels": 6,
-      "programmes": 218,
+      "channels": 8,
+      "programmes": 221,
       "publishedChannels": 6,
-      "publishedProgrammes": 218,
+      "publishedProgrammes": 219,
       "autoResolved": 6,
       "rejected": {
         "row": 0,
@@ -615,6 +615,20 @@
         "candidates": []
       },
       {
+        "key": "canalplus_fr:canalplus_fr:terre-saison-1-episode-2-le-renouveau-du-prin-sur-france-5",
+        "provider": "canalplus_fr",
+        "name": "Terre - Saison 1, Episode 2 : Le renouveau du prin..., Sur FRANCE 5",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
+        "key": "canalplus_fr:canalplus_fr:terre-saison-1-episode-3-l-ete-le-temps-de-l-sur-france-5",
+        "provider": "canalplus_fr",
+        "name": "Terre - Saison 1, Episode 3 : L'été, le temps de l..., Sur FRANCE 5",
+        "reason": "unknown",
+        "candidates": []
+      },
+      {
         "key": "supersport:afr2",
         "provider": "supersport",
         "name": "SuperSport Africa 2",
@@ -870,6 +884,6 @@
     "title": 0,
     "time": 0,
     "range": 0,
-    "duration": 38
+    "duration": 36
   }
 }
