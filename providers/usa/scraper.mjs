@@ -27,7 +27,7 @@ function decodeXml(value = "") {
   }).replace(/<[^>]*>/g, "").trim();
 }
 function attribute(tag, name) {
-  for (const match of tag.matchAll(/([:\\w-]+)\\s*=\\s*(?:"([^"]*)"|'([^']*)')/g)) {
+  for (const match of tag.matchAll(/([:\w-]+)\s*=\s*(?:"([^"]*)"|'([^']*)')/g)) {
     if (match[1].toLowerCase() === name.toLowerCase()) return decodeXml(match[2] ?? match[3] ?? "");
   }
   return "";
