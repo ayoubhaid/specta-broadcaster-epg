@@ -6,11 +6,11 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "en-mena",
   "timezone": "UTC",
-  "generatedAt": "2026-11-12T15:12:09.675Z",
+  "generatedAt": "2026-11-12T23:38:58.538Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 40,
-    "programmesFound": 2456,
+    "programmesFound": 2523,
     "successfulRequests": 200,
     "failedRequests": 0
   },
@@ -109,7 +109,7 @@
         {
           "id": "8AEA2426-D451-4BA5-BF48-114A1F04B1A8:1794498600000:dr congo vs sierra leone - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "DR Congo vs Sierra Leone - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-12T15:50:00.000Z",
           "end": "2026-11-12T18:00:00.000Z",
           "startEpochSeconds": 1794498600,
@@ -139,7 +139,7 @@
         {
           "id": "8AEA2426-D451-4BA5-BF48-114A1F04B1A8:1794512100000:england vs croatia - uefa nations league 2026/2027 - md5",
           "title": "England vs Croatia - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-12T19:35:00.000Z",
           "end": "2026-11-12T22:00:00.000Z",
           "startEpochSeconds": 1794512100,
@@ -149,7 +149,7 @@
         {
           "id": "8AEA2426-D451-4BA5-BF48-114A1F04B1A8:1794520800000:dr congo vs sierra leone - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "DR Congo vs Sierra Leone - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-12T22:00:00.000Z",
           "end": "2026-11-12T23:50:00.000Z",
           "startEpochSeconds": 1794520800,
@@ -159,7 +159,7 @@
         {
           "id": "8AEA2426-D451-4BA5-BF48-114A1F04B1A8:1794527400000:england vs croatia - uefa nations league 2026/2027 - md5",
           "title": "England vs Croatia - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-12T23:50:00.000Z",
           "end": "2026-11-13T01:40:00.000Z",
           "startEpochSeconds": 1794527400,
@@ -199,7 +199,7 @@
         {
           "id": "8AEA2426-D451-4BA5-BF48-114A1F04B1A8:1794554100000:dr congo vs sierra leone - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "DR Congo vs Sierra Leone - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T07:15:00.000Z",
           "end": "2026-11-13T09:05:00.000Z",
           "startEpochSeconds": 1794554100,
@@ -209,7 +209,7 @@
         {
           "id": "8AEA2426-D451-4BA5-BF48-114A1F04B1A8:1794560700000:england vs croatia - uefa nations league 2026/2027 - md5",
           "title": "England vs Croatia - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-13T09:05:00.000Z",
           "end": "2026-11-13T10:55:00.000Z",
           "startEpochSeconds": 1794560700,
@@ -229,7 +229,7 @@
         {
           "id": "8AEA2426-D451-4BA5-BF48-114A1F04B1A8:1794574200000:comoros vs congo - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Comoros vs Congo - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T12:50:00.000Z",
           "end": "2026-11-13T15:15:00.000Z",
           "startEpochSeconds": 1794574200,
@@ -249,7 +249,7 @@
         {
           "id": "8AEA2426-D451-4BA5-BF48-114A1F04B1A8:1794585000000:nigeria vs tanzania - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Nigeria vs Tanzania - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T15:50:00.000Z",
           "end": "2026-11-13T18:15:00.000Z",
           "startEpochSeconds": 1794585000,
@@ -269,7 +269,7 @@
         {
           "id": "8AEA2426-D451-4BA5-BF48-114A1F04B1A8:1794596400000:serbia vs germany - uefa nations league 2026/2027 - md5",
           "title": "Serbia vs Germany - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-13T19:00:00.000Z",
           "end": "2026-11-13T22:30:00.000Z",
           "startEpochSeconds": 1794596400,
@@ -11129,18 +11129,8 @@
           "title": "Thiago Agustin Tirante (ARG) vs Aleksandr Shevchenko (KAZ) - ATP 250 Bybit Stockholm Open 2026",
           "description": "The Bybit Stockholm Open is the 57th edition of this ATP 250 tournament, first held in 1969 and recognized as the world's oldest indoor ATP event. Staged at the Royal Tennis Hall in Stockholm, Sweden, the tournament features indoor hard-court action with a 28-player singles draw and 16 doubles teams. Past champions include Björn Borg, John McEnroe",
           "start": "2026-11-12T14:00:00.000Z",
-          "end": "2026-11-12T16:45:00.000Z",
-          "startEpochSeconds": 1794492000,
-          "endEpochSeconds": 1794501900,
-          "source": "bein_mena"
-        },
-        {
-          "id": "A892063B-A5D9-4199-95AC-6A214515FA6B:1794501900000:atp tour - magazine 2026",
-          "title": "ATP Tour - Magazine 2026",
-          "description": "ATP Tour This Week It is comprised of the various feature stories created by ATP Media and ATP Tour",
-          "start": "2026-11-12T16:45:00.000Z",
           "end": "2026-11-12T17:30:00.000Z",
-          "startEpochSeconds": 1794501900,
+          "startEpochSeconds": 1794492000,
           "endEpochSeconds": 1794504600,
           "source": "bein_mena"
         },
@@ -11159,18 +11149,28 @@
           "title": "Lorenzo Musetti (ITA) vs Ugo Humbert (FRA) - ATP 250 Bybit Stockholm Open 2026",
           "description": "The Bybit Stockholm Open is the 57th edition of this ATP 250 tournament, first held in 1969 and recognized as the world's oldest indoor ATP event. Staged at the Royal Tennis Hall in Stockholm, Sweden, the tournament features indoor hard-court action with a 28-player singles draw and 16 doubles teams. Past champions include Björn Borg, John McEnroe",
           "start": "2026-11-12T19:30:00.000Z",
-          "end": "2026-11-12T21:30:00.000Z",
+          "end": "2026-11-12T22:30:00.000Z",
           "startEpochSeconds": 1794511800,
-          "endEpochSeconds": 1794519000,
+          "endEpochSeconds": 1794522600,
           "source": "bein_mena"
         },
         {
-          "id": "A892063B-A5D9-4199-95AC-6A214515FA6B:1794519000000:alex michelsen (usa) vs alejandro tabilo (chi)- atp 250 bybit stockholm open 2026",
-          "title": "Alex Michelsen (USA) vs Alejandro Tabilo (Chi)- ATP 250 Bybit Stockholm Open 2026",
-          "description": "The Bybit Stockholm Open is the 57th edition of this ATP 250 tournament, first held in 1969 and recognized as the world's oldest indoor ATP event. Staged at the Royal Tennis Hall in Stockholm, Sweden, the tournament features indoor hard-court action with a 28-player singles draw and 16 doubles teams. Past champions include Björn Borg, John McEnroe",
-          "start": "2026-11-12T21:30:00.000Z",
+          "id": "A892063B-A5D9-4199-95AC-6A214515FA6B:1794522600000:nba action 2026/2027",
+          "title": "NBA Action 2026/2027",
+          "description": "NBA ACTION keeps pace with the competition on the court while offering viewers an inside look at teams and players from around the League, including several popular weekly segments",
+          "start": "2026-11-12T22:30:00.000Z",
+          "end": "2026-11-12T23:15:00.000Z",
+          "startEpochSeconds": 1794522600,
+          "endEpochSeconds": 1794525300,
+          "source": "bein_mena"
+        },
+        {
+          "id": "A892063B-A5D9-4199-95AC-6A214515FA6B:1794525300000:atp tour - magazine 2026",
+          "title": "ATP Tour - Magazine 2026",
+          "description": "ATP Tour This Week It is comprised of the various feature stories created by ATP Media and ATP Tour",
+          "start": "2026-11-12T23:15:00.000Z",
           "end": "2026-11-13T00:00:00.000Z",
-          "startEpochSeconds": 1794519000,
+          "startEpochSeconds": 1794525300,
           "endEpochSeconds": 1794528000,
           "source": "bein_mena"
         },
@@ -11189,18 +11189,8 @@
           "title": "Thiago Agustin Tirante (ARG) vs Aleksandr Shevchenko (KAZ) - ATP 250 Bybit Stockholm Open 2026",
           "description": "The Bybit Stockholm Open is the 57th edition of this ATP 250 tournament, first held in 1969 and recognized as the world's oldest indoor ATP event. Staged at the Royal Tennis Hall in Stockholm, Sweden, the tournament features indoor hard-court action with a 28-player singles draw and 16 doubles teams. Past champions include Björn Borg, John McEnroe",
           "start": "2026-11-13T02:30:00.000Z",
-          "end": "2026-11-13T04:30:00.000Z",
-          "startEpochSeconds": 1794537000,
-          "endEpochSeconds": 1794544200,
-          "source": "bein_mena"
-        },
-        {
-          "id": "A892063B-A5D9-4199-95AC-6A214515FA6B:1794544200000:taylor fritz (usa) vs holger rune (den) - atp 250 bybit stockholm open 2026",
-          "title": "Taylor Fritz (USA) vs Holger Rune (DEN) - ATP 250 Bybit Stockholm Open 2026",
-          "description": "The Bybit Stockholm Open is the 57th edition of this ATP 250 tournament, first held in 1969 and recognized as the world's oldest indoor ATP event. Staged at the Royal Tennis Hall in Stockholm, Sweden, the tournament features indoor hard-court action with a 28-player singles draw and 16 doubles teams. Past champions include Björn Borg, John McEnroe",
-          "start": "2026-11-13T04:30:00.000Z",
           "end": "2026-11-13T06:30:00.000Z",
-          "startEpochSeconds": 1794544200,
+          "startEpochSeconds": 1794537000,
           "endEpochSeconds": 1794551400,
           "source": "bein_mena"
         },
@@ -11257,7 +11247,7 @@
         {
           "id": "A892063B-A5D9-4199-95AC-6A214515FA6B:1794598500000:slovakia vs faroe islands - uefa nations league 2026/2027 - md5",
           "title": "Slovakia vs Faroe Islands - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-13T19:35:00.000Z",
           "end": "2026-11-13T21:45:00.000Z",
           "startEpochSeconds": 1794598500,
@@ -12121,7 +12111,7 @@
         {
           "id": "DB9361E8-B3EB-4D6F-9A82-75B5F09E2F92:1794502200000:armenia vs cyprus - uefa nations league 2026/2027 - md5",
           "title": "Armenia vs Cyprus - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-12T16:50:00.000Z",
           "end": "2026-11-12T19:00:00.000Z",
           "startEpochSeconds": 1794502200,
@@ -12141,7 +12131,7 @@
         {
           "id": "DB9361E8-B3EB-4D6F-9A82-75B5F09E2F92:1794512100000:czechia vs spain - uefa nations league 2026/2027 - md5",
           "title": "Czechia vs Spain - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-12T19:35:00.000Z",
           "end": "2026-11-12T22:00:00.000Z",
           "startEpochSeconds": 1794512100,
@@ -12151,7 +12141,7 @@
         {
           "id": "DB9361E8-B3EB-4D6F-9A82-75B5F09E2F92:1794520800000:equatorial guinea vs zimbabwe - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Equatorial Guinea vs Zimbabwe - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-12T22:00:00.000Z",
           "end": "2026-11-12T23:45:00.000Z",
           "startEpochSeconds": 1794520800,
@@ -12161,7 +12151,7 @@
         {
           "id": "DB9361E8-B3EB-4D6F-9A82-75B5F09E2F92:1794527100000:czechia vs spain - uefa nations league 2026/2027 - md5",
           "title": "Czechia vs Spain - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-12T23:45:00.000Z",
           "end": "2026-11-13T01:30:00.000Z",
           "startEpochSeconds": 1794527100,
@@ -12291,7 +12281,7 @@
         {
           "id": "DB9361E8-B3EB-4D6F-9A82-75B5F09E2F92:1794585000000:south africa vs kenya - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "South Africa vs Kenya - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T15:50:00.000Z",
           "end": "2026-11-13T18:00:00.000Z",
           "startEpochSeconds": 1794585000,
@@ -12331,7 +12321,7 @@
         {
           "id": "DB9361E8-B3EB-4D6F-9A82-75B5F09E2F92:1794598500000:netherlands vs greece - uefa nations league 2026/2027 - md5",
           "title": "Netherlands vs Greece - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-13T19:35:00.000Z",
           "end": "2026-11-13T21:45:00.000Z",
           "startEpochSeconds": 1794598500,
@@ -13070,7 +13060,7 @@
         {
           "id": "5C08D9D3-C713-4F1F-947E-87C761428B9B:1794595800000:mali vs rwanda - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Mali vs Rwanda - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T18:50:00.000Z",
           "end": "2026-11-13T21:00:00.000Z",
           "startEpochSeconds": 1794595800,
@@ -15460,24 +15450,14 @@
           "title": "Premier Padel - Dubai P1 2026 - Miguel Yanguas (ESP) Jorge Nieto Ruiz (ESP) vs Juan Ignacio de Pascu",
           "description": "The Emaar Dubai Premier Padel P1 brings together the world’s top-ranked men’s and women’s padel pairs for eight days of elite international competition. Held at Hamdan Sports Complex from 8–15 November, the tournament features the sport’s leading stars competing for the prestigious title, valuable ranking points and a share of €479,068 in prize mon",
           "start": "2026-11-12T15:00:00.000Z",
-          "end": "2026-11-12T16:30:00.000Z",
-          "startEpochSeconds": 1794495600,
-          "endEpochSeconds": 1794501000,
-          "source": "bein_mena"
-        },
-        {
-          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794501000000:premier padel - dubai p1 2026 - maximiliano sanchez blasco (arg) carlos daniel gutierrez (arg) vs fr",
-          "title": "Premier Padel - Dubai P1 2026 - Maximiliano Sanchez Blasco (ARG) Carlos Daniel Gutierrez (ARG) vs Fr",
-          "description": "The Emaar Dubai Premier Padel P1 brings together the world’s top-ranked men’s and women’s padel pairs for eight days of elite international competition. Held at Hamdan Sports Complex from 8–15 November, the tournament features the sport’s leading stars competing for the prestigious title, valuable ranking points and a share of €479,068 in prize mon",
-          "start": "2026-11-12T16:30:00.000Z",
           "end": "2026-11-12T18:00:00.000Z",
-          "startEpochSeconds": 1794501000,
+          "startEpochSeconds": 1794495600,
           "endEpochSeconds": 1794506400,
           "source": "bein_mena"
         },
         {
-          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794506400000:premier padel - dubai p1 2026 - gemma triay pons (esp) delfina brea senesi (arg) vs marta talavan (e",
-          "title": "Premier Padel - Dubai P1 2026 - Gemma Triay Pons (ESP) Delfina Brea Senesi (ARG) vs Marta Talavan (E",
+          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794506400000:premier padel - dubai p1 2026 - maximiliano sanchez blasco (arg) carlos daniel gutierrez (arg) vs fr",
+          "title": "Premier Padel - Dubai P1 2026 - Maximiliano Sanchez Blasco (ARG) Carlos Daniel Gutierrez (ARG) vs Fr",
           "description": "The Emaar Dubai Premier Padel P1 brings together the world’s top-ranked men’s and women’s padel pairs for eight days of elite international competition. Held at Hamdan Sports Complex from 8–15 November, the tournament features the sport’s leading stars competing for the prestigious title, valuable ranking points and a share of €479,068 in prize mon",
           "start": "2026-11-12T18:00:00.000Z",
           "end": "2026-11-12T19:35:00.000Z",
@@ -15488,7 +15468,7 @@
         {
           "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794512100000:montenegro vs latvia - uefa nations league 2026/2027 - md5",
           "title": "Montenegro vs Latvia - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-12T19:35:00.000Z",
           "end": "2026-11-12T21:45:00.000Z",
           "startEpochSeconds": 1794512100,
@@ -15500,54 +15480,74 @@
           "title": "Cleveland vs New York - NBA Season - 2026",
           "description": "The 2026–27 NBA season is the 81st season of the National Basketball Association. The current NBA champions are the New York Knicks. The regular season runs from October 20, 2026, to April 11, 2027.",
           "start": "2026-11-12T21:45:00.000Z",
-          "end": "2026-11-13T00:15:00.000Z",
+          "end": "2026-11-12T23:51:00.000Z",
           "startEpochSeconds": 1794519900,
+          "endEpochSeconds": 1794527460,
+          "source": "bein_mena"
+        },
+        {
+          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794527460000:nba action 2026/2027",
+          "title": "NBA Action 2026/2027",
+          "description": "NBA ACTION keeps pace with the competition on the court while offering viewers an inside look at teams and players from around the League, including several popular weekly segments",
+          "start": "2026-11-12T23:51:00.000Z",
+          "end": "2026-11-13T00:15:00.000Z",
+          "startEpochSeconds": 1794527460,
           "endEpochSeconds": 1794528900,
           "source": "bein_mena"
         },
         {
-          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794528900000:washington commanders @ new york giants2- - nfl -national footbal league  - 2026/27",
+          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794528900000:moto gp - qatar gp - main race",
+          "title": "Moto GP - Qatar GP - Main Race",
+          "description": "MotoGP is the premier class of the FIM Grand Prix World Championship, featuring the world’s fastest and most advanced prototype motorcycles. The 2026 season features 22 Grands Prix across five continents, with the world’s leading riders and manufacturers competing for the Riders’, Teams’ and Constructors’ Championships. The series combines extreme",
+          "start": "2026-11-13T00:15:00.000Z",
+          "end": "2026-11-13T01:15:00.000Z",
+          "startEpochSeconds": 1794528900,
+          "endEpochSeconds": 1794532500,
+          "source": "bein_mena"
+        },
+        {
+          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794532500000:washington commanders @ new york giants2- - nfl -national footbal league  - 2026/27",
           "title": "Washington Commanders @ New York Giants2- - NFL -National Footbal League  - 2026/27",
           "description": "The National Football League (NFL) is composed of 32 teams and it is divided equally between the American Football Conference (AFC) and the National Football Conference (NFC). The NFL season culminates in the Super Bowl which is played in early February between the winners of the AFC and NFC championship games.",
-          "start": "2026-11-13T00:15:00.000Z",
-          "end": "2026-11-13T03:15:00.000Z",
-          "startEpochSeconds": 1794528900,
-          "endEpochSeconds": 1794539700,
+          "start": "2026-11-13T01:15:00.000Z",
+          "end": "2026-11-13T04:15:00.000Z",
+          "startEpochSeconds": 1794532500,
+          "endEpochSeconds": 1794543300,
           "source": "bein_mena"
         },
         {
-          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794539700000:montenegro vs latvia - uefa nations league 2026/2027 - md5",
+          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794543300000:montenegro vs latvia - uefa nations league 2026/2027 - md5",
           "title": "Montenegro vs Latvia - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
-          "start": "2026-11-13T03:15:00.000Z",
-          "end": "2026-11-13T05:00:00.000Z",
-          "startEpochSeconds": 1794539700,
-          "endEpochSeconds": 1794546000,
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
+          "start": "2026-11-13T04:15:00.000Z",
+          "end": "2026-11-13T06:00:00.000Z",
+          "startEpochSeconds": 1794543300,
+          "endEpochSeconds": 1794549600,
           "source": "bein_mena"
         },
         {
-          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794546000000:golden state vs houston - nba season - 2026",
+          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794549600000:golden state vs houston - nba season - 2026",
           "title": "Golden State vs Houston - NBA Season - 2026",
           "description": "The 2026–27 NBA season is the 81st season of the National Basketball Association. The current NBA champions are the New York Knicks. The regular season runs from October 20, 2026, to April 11, 2027.",
-          "start": "2026-11-13T05:00:00.000Z",
-          "end": "2026-11-13T07:10:00.000Z",
-          "startEpochSeconds": 1794546000,
-          "endEpochSeconds": 1794553800,
+          "start": "2026-11-13T06:00:00.000Z",
+          "end": "2026-11-13T07:35:00.000Z",
+          "startEpochSeconds": 1794549600,
+          "endEpochSeconds": 1794555300,
           "source": "bein_mena"
         },
         {
-          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794553800000:nba action 2026/2027",
+          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794555300000:nba action 2026/2027",
           "title": "NBA Action 2026/2027",
           "description": "NBA ACTION keeps pace with the competition on the court while offering viewers an inside look at teams and players from around the League, including several popular weekly segments",
-          "start": "2026-11-13T07:10:00.000Z",
+          "start": "2026-11-13T07:35:00.000Z",
           "end": "2026-11-13T08:00:00.000Z",
-          "startEpochSeconds": 1794553800,
+          "startEpochSeconds": 1794555300,
           "endEpochSeconds": 1794556800,
           "source": "bein_mena"
         },
         {
-          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794556800000:premier padel - dubai p1 2026 - m1",
-          "title": "Premier Padel - Dubai P1 2026 - M1",
+          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794556800000:premier padel - dubai p1 2026 - gemma triay pons (esp) / delfina brea senesi (arg) vs claudia jensen",
+          "title": "Premier Padel - Dubai P1 2026 - Gemma Triay Pons (ESP) / Delfina Brea Senesi (ARG) vs Claudia Jensen",
           "description": "The Emaar Dubai Premier Padel P1 brings together the world’s top-ranked men’s and women’s padel pairs for eight days of elite international competition. Held at Hamdan Sports Complex from 8–15 November, the tournament features the sport’s leading stars competing for the prestigious title, valuable ranking points and a share of €479,068 in prize mon",
           "start": "2026-11-13T08:00:00.000Z",
           "end": "2026-11-13T09:30:00.000Z",
@@ -15556,8 +15556,8 @@
           "source": "bein_mena"
         },
         {
-          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794562200000:premier padel - dubai p1 2026 - m2",
-          "title": "Premier Padel - Dubai P1 2026 - M2",
+          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794562200000:premier padel - dubai p1 2026 - marina guinart españa (esp) / alejandra alonso de villa (esp) vs pau",
+          "title": "Premier Padel - Dubai P1 2026 - Marina Guinart España (ESP) / Alejandra Alonso De Villa (ESP) vs Pau",
           "description": "The Emaar Dubai Premier Padel P1 brings together the world’s top-ranked men’s and women’s padel pairs for eight days of elite international competition. Held at Hamdan Sports Complex from 8–15 November, the tournament features the sport’s leading stars competing for the prestigious title, valuable ranking points and a share of €479,068 in prize mon",
           "start": "2026-11-13T09:30:00.000Z",
           "end": "2026-11-13T11:00:00.000Z",
@@ -15566,8 +15566,8 @@
           "source": "bein_mena"
         },
         {
-          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794567600000:premier padel - dubai p1 2026 - m3",
-          "title": "Premier Padel - Dubai P1 2026 - M3",
+          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794567600000:premier padel - dubai p1 2026 - ariana sanchez fallada (esp) / andrea ustero prieto (esp) vs velasco",
+          "title": "Premier Padel - Dubai P1 2026 - Ariana Sanchez Fallada (ESP) / Andrea Ustero Prieto (ESP) vs Velasco",
           "description": "The Emaar Dubai Premier Padel P1 brings together the world’s top-ranked men’s and women’s padel pairs for eight days of elite international competition. Held at Hamdan Sports Complex from 8–15 November, the tournament features the sport’s leading stars competing for the prestigious title, valuable ranking points and a share of €479,068 in prize mon",
           "start": "2026-11-13T11:00:00.000Z",
           "end": "2026-11-13T12:30:00.000Z",
@@ -15576,8 +15576,8 @@
           "source": "bein_mena"
         },
         {
-          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794573000000:premier padel - dubai p1 2026 - m4",
-          "title": "Premier Padel - Dubai P1 2026 - M4",
+          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794573000000:premier padel - dubai p1 2026 - tello / arce simo or alonso / goñi lacabe vs ruiz / lopez or augsbur",
+          "title": "Premier Padel - Dubai P1 2026 - Tello / Arce Simo OR Alonso / Goñi Lacabe vs Ruiz / Lopez OR Augsbur",
           "description": "The Emaar Dubai Premier Padel P1 brings together the world’s top-ranked men’s and women’s padel pairs for eight days of elite international competition. Held at Hamdan Sports Complex from 8–15 November, the tournament features the sport’s leading stars competing for the prestigious title, valuable ranking points and a share of €479,068 in prize mon",
           "start": "2026-11-13T12:30:00.000Z",
           "end": "2026-11-13T14:00:00.000Z",
@@ -15596,8 +15596,8 @@
           "source": "bein_mena"
         },
         {
-          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794582000000:premier padel - dubai p1 2026 - m5",
-          "title": "Premier Padel - Dubai P1 2026 - M5",
+          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794582000000:premier padel - dubai p1 2026 - gonzalez blanco / garcia garcia or libaak / alfonso vs bautista / be",
+          "title": "Premier Padel - Dubai P1 2026 - Gonzalez Blanco / Garcia Garcia OR Libaak / Alfonso vs Bautista / Be",
           "description": "The Emaar Dubai Premier Padel P1 brings together the world’s top-ranked men’s and women’s padel pairs for eight days of elite international competition. Held at Hamdan Sports Complex from 8–15 November, the tournament features the sport’s leading stars competing for the prestigious title, valuable ranking points and a share of €479,068 in prize mon",
           "start": "2026-11-13T15:00:00.000Z",
           "end": "2026-11-13T16:30:00.000Z",
@@ -15606,8 +15606,8 @@
           "source": "bein_mena"
         },
         {
-          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794587400000:premier padel - dubai p1 2026 - m6",
-          "title": "Premier Padel - Dubai P1 2026 - M6",
+          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794587400000:premier padel - dubai p1 2026 - yanguas / nieto ruiz or de pascual / garrido vs sanchez blasco / gut",
+          "title": "Premier Padel - Dubai P1 2026 - Yanguas / Nieto Ruiz OR De Pascual / Garrido vs Sanchez Blasco / Gut",
           "description": "The Emaar Dubai Premier Padel P1 brings together the world’s top-ranked men’s and women’s padel pairs for eight days of elite international competition. Held at Hamdan Sports Complex from 8–15 November, the tournament features the sport’s leading stars competing for the prestigious title, valuable ranking points and a share of €479,068 in prize mon",
           "start": "2026-11-13T16:30:00.000Z",
           "end": "2026-11-13T18:00:00.000Z",
@@ -15616,8 +15616,8 @@
           "source": "bein_mena"
         },
         {
-          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794592800000:premier padel - dubai p1 2026 - m1",
-          "title": "Premier Padel - Dubai P1 2026 - M1",
+          "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794592800000:premier padel - dubai p1 2026 - gemma triay pons (esp) / delfina brea senesi (arg) vs claudia jensen",
+          "title": "Premier Padel - Dubai P1 2026 - Gemma Triay Pons (ESP) / Delfina Brea Senesi (ARG) vs Claudia Jensen",
           "description": "The Emaar Dubai Premier Padel P1 brings together the world’s top-ranked men’s and women’s padel pairs for eight days of elite international competition. Held at Hamdan Sports Complex from 8–15 November, the tournament features the sport’s leading stars competing for the prestigious title, valuable ranking points and a share of €479,068 in prize mon",
           "start": "2026-11-13T18:00:00.000Z",
           "end": "2026-11-13T19:35:00.000Z",
@@ -15628,7 +15628,7 @@
         {
           "id": "0F8D20A4-D46C-4B18-9242-8E7B3E978FF8:1794598500000:bulgaria vs iceland - uefa nations league 2026/2027 - md5",
           "title": "Bulgaria vs Iceland - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-13T19:35:00.000Z",
           "end": "2026-11-13T21:45:00.000Z",
           "startEpochSeconds": 1794598500,
@@ -18942,7 +18942,7 @@
         {
           "id": "E24D9C11-A8B4-4C7F-AD3E-B3364FB6D5A2:1794509400000:cameroon vs namibia - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Cameroon vs Namibia - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-12T18:50:00.000Z",
           "end": "2026-11-12T21:15:00.000Z",
           "startEpochSeconds": 1794509400,
@@ -18972,7 +18972,7 @@
         {
           "id": "E24D9C11-A8B4-4C7F-AD3E-B3364FB6D5A2:1794531600000:san marino vs belarus - uefa nations league 2026/2027 - md5",
           "title": "San Marino vs Belarus - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-13T01:00:00.000Z",
           "end": "2026-11-13T03:00:00.000Z",
           "startEpochSeconds": 1794531600,
@@ -19012,7 +19012,7 @@
         {
           "id": "E24D9C11-A8B4-4C7F-AD3E-B3364FB6D5A2:1794560400000:san marino vs belarus - uefa nations league 2026/2027 - md5",
           "title": "San Marino vs Belarus - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-13T09:00:00.000Z",
           "end": "2026-11-13T11:00:00.000Z",
           "startEpochSeconds": 1794560400,
@@ -19022,7 +19022,7 @@
         {
           "id": "E24D9C11-A8B4-4C7F-AD3E-B3364FB6D5A2:1794567600000:montenegro vs latvia - uefa nations league 2026/2027 - md5",
           "title": "Montenegro vs Latvia - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-13T11:00:00.000Z",
           "end": "2026-11-13T13:00:00.000Z",
           "startEpochSeconds": 1794567600,
@@ -19052,7 +19052,7 @@
         {
           "id": "E24D9C11-A8B4-4C7F-AD3E-B3364FB6D5A2:1794588600000:moldova vs kazakhstan - uefa nations league 2026/2027 - md5",
           "title": "Moldova vs Kazakhstan - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-13T16:50:00.000Z",
           "end": "2026-11-13T19:00:00.000Z",
           "startEpochSeconds": 1794588600,
@@ -19072,7 +19072,7 @@
         {
           "id": "E24D9C11-A8B4-4C7F-AD3E-B3364FB6D5A2:1794598500000:slovenia vs switzerland - uefa nations league 2026/2027 - md5",
           "title": "Slovenia vs Switzerland - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-13T19:35:00.000Z",
           "end": "2026-11-13T22:00:00.000Z",
           "startEpochSeconds": 1794598500,
@@ -19529,7 +19529,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794495600000:ghana vs somalia - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Ghana vs Somalia - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-12T15:00:00.000Z",
           "end": "2026-11-12T17:00:00.000Z",
           "startEpochSeconds": 1794495600,
@@ -19569,7 +19569,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794508200000:senegal vs sudan - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Senegal vs Sudan - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-12T18:30:00.000Z",
           "end": "2026-11-12T21:30:00.000Z",
           "startEpochSeconds": 1794508200,
@@ -19579,7 +19579,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794519000000:ghana vs somalia - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Ghana vs Somalia - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-12T21:30:00.000Z",
           "end": "2026-11-12T23:30:00.000Z",
           "startEpochSeconds": 1794519000,
@@ -19589,7 +19589,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794526200000:senegal vs sudan - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Senegal vs Sudan - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-12T23:30:00.000Z",
           "end": "2026-11-13T02:15:00.000Z",
           "startEpochSeconds": 1794526200,
@@ -19599,7 +19599,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794536100000:côte d'ivoire vs gambia - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Côte d'Ivoire vs Gambia - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T02:15:00.000Z",
           "end": "2026-11-13T04:00:00.000Z",
           "startEpochSeconds": 1794536100,
@@ -19609,7 +19609,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794542400000:cameroon vs namibia - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Cameroon vs Namibia - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T04:00:00.000Z",
           "end": "2026-11-13T05:45:00.000Z",
           "startEpochSeconds": 1794542400,
@@ -19619,7 +19619,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794548700000:ghana vs somalia - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Ghana vs Somalia - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T05:45:00.000Z",
           "end": "2026-11-13T07:30:00.000Z",
           "startEpochSeconds": 1794548700,
@@ -19629,7 +19629,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794555000000:senegal vs sudan - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Senegal vs Sudan - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T07:30:00.000Z",
           "end": "2026-11-13T09:15:00.000Z",
           "startEpochSeconds": 1794555000,
@@ -19639,7 +19639,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794561300000:côte d'ivoire vs gambia - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Côte d'Ivoire vs Gambia - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T09:15:00.000Z",
           "end": "2026-11-13T11:00:00.000Z",
           "startEpochSeconds": 1794561300,
@@ -19649,7 +19649,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794567600000:cameroon vs namibia - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Cameroon vs Namibia - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T11:00:00.000Z",
           "end": "2026-11-13T12:50:00.000Z",
           "startEpochSeconds": 1794567600,
@@ -19659,7 +19659,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794574200000:zambia vs burundi - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Zambia vs Burundi - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T12:50:00.000Z",
           "end": "2026-11-13T15:15:00.000Z",
           "startEpochSeconds": 1794574200,
@@ -19679,7 +19679,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794585000000:burkina faso vs mauritania - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Burkina Faso vs Mauritania - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T15:50:00.000Z",
           "end": "2026-11-13T18:15:00.000Z",
           "startEpochSeconds": 1794585000,
@@ -19699,7 +19699,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794595800000:egypt vs malawi - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Egypt vs Malawi - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T18:50:00.000Z",
           "end": "2026-11-13T21:00:00.000Z",
           "startEpochSeconds": 1794595800,
@@ -19709,7 +19709,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794603600000:zambia vs burundi - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Zambia vs Burundi - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T21:00:00.000Z",
           "end": "2026-11-13T22:45:00.000Z",
           "startEpochSeconds": 1794603600,
@@ -19719,7 +19719,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794609900000:burkina faso vs mauritania - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Burkina Faso vs Mauritania - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T22:45:00.000Z",
           "end": "2026-11-14T00:45:00.000Z",
           "startEpochSeconds": 1794609900,
@@ -19729,7 +19729,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794617100000:mali vs rwanda - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Mali vs Rwanda - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-14T00:45:00.000Z",
           "end": "2026-11-14T02:30:00.000Z",
           "startEpochSeconds": 1794617100,
@@ -19739,7 +19739,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794623400000:senegal vs sudan - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Senegal vs Sudan - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-14T02:30:00.000Z",
           "end": "2026-11-14T04:15:00.000Z",
           "startEpochSeconds": 1794623400,
@@ -19749,7 +19749,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794629700000:egypt vs malawi - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Egypt vs Malawi - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-14T04:15:00.000Z",
           "end": "2026-11-14T06:00:00.000Z",
           "startEpochSeconds": 1794629700,
@@ -19779,7 +19779,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794639600000:zambia vs burundi - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Zambia vs Burundi - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-14T07:00:00.000Z",
           "end": "2026-11-14T08:45:00.000Z",
           "startEpochSeconds": 1794639600,
@@ -19789,7 +19789,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794645900000:burkina faso vs mauritania - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Burkina Faso vs Mauritania - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-14T08:45:00.000Z",
           "end": "2026-11-14T10:30:00.000Z",
           "startEpochSeconds": 1794645900,
@@ -19799,7 +19799,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794652200000:egypt vs malawi - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Egypt vs Malawi - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-14T10:30:00.000Z",
           "end": "2026-11-14T12:20:00.000Z",
           "startEpochSeconds": 1794652200,
@@ -19869,7 +19869,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794702600000:portugal vs denmark - uefa nations league 2026/2027 - md5",
           "title": "Portugal vs Denmark - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-15T00:30:00.000Z",
           "end": "2026-11-15T04:15:00.000Z",
           "startEpochSeconds": 1794702600,
@@ -19879,7 +19879,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794716100000:senegal vs sudan - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Senegal vs Sudan - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-15T04:15:00.000Z",
           "end": "2026-11-15T06:00:00.000Z",
           "startEpochSeconds": 1794716100,
@@ -19889,7 +19889,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794722400000:morocco vs niger - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Morocco vs Niger - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-15T06:00:00.000Z",
           "end": "2026-11-15T08:00:00.000Z",
           "startEpochSeconds": 1794722400,
@@ -19899,27 +19899,27 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794729600000:luxembourg vs estonia - uefa nations league 2026/2027 - md5",
           "title": "Luxembourg vs Estonia - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-15T08:00:00.000Z",
-          "end": "2026-11-15T09:45:00.000Z",
+          "end": "2026-11-15T10:00:00.000Z",
           "startEpochSeconds": 1794729600,
-          "endEpochSeconds": 1794735900,
+          "endEpochSeconds": 1794736800,
           "source": "bein_mena"
         },
         {
-          "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794735900000:exeter city vs cheltenham town - efl - english football league  skybet - league two 2026/2027",
+          "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794736800000:exeter city vs cheltenham town - efl - english football league  skybet - league two 2026/2027",
           "title": "Exeter City vs Cheltenham Town - EFL - English Football League  SkyBet - League Two 2026/2027",
           "description": "",
-          "start": "2026-11-15T09:45:00.000Z",
+          "start": "2026-11-15T10:00:00.000Z",
           "end": "2026-11-15T11:45:00.000Z",
-          "startEpochSeconds": 1794735900,
+          "startEpochSeconds": 1794736800,
           "endEpochSeconds": 1794743100,
           "source": "bein_mena"
         },
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794743100000:portugal vs denmark - uefa nations league 2026/2027 - md5",
           "title": "Portugal vs Denmark - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-15T11:45:00.000Z",
           "end": "2026-11-15T13:50:00.000Z",
           "startEpochSeconds": 1794743100,
@@ -19929,7 +19929,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794750600000:cyprus vs montenegro - uefa nations league 2026/2027 - md6",
           "title": "Cyprus vs Montenegro - UEFA Nations League 2026/2027 - MD6",
-          "description": "",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-15T13:50:00.000Z",
           "end": "2026-11-15T16:15:00.000Z",
           "startEpochSeconds": 1794750600,
@@ -19949,7 +19949,7 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794761400000:belarus vs albania - uefa nations league 2026/2027 - md6",
           "title": "Belarus vs Albania - UEFA Nations League 2026/2027 - MD6",
-          "description": "",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-15T16:50:00.000Z",
           "end": "2026-11-15T19:00:00.000Z",
           "startEpochSeconds": 1794761400,
@@ -19969,41 +19969,171 @@
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794771300000:france vs türkiye - uefa nations league 2026/2027 - md6",
           "title": "France vs Türkiye - UEFA Nations League 2026/2027 - MD6",
-          "description": "",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-15T19:35:00.000Z",
-          "end": "2026-11-16T12:50:00.000Z",
+          "end": "2026-11-15T21:45:00.000Z",
           "startEpochSeconds": 1794771300,
+          "endEpochSeconds": 1794779100,
+          "source": "bein_mena"
+        },
+        {
+          "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794779100000:cyprus vs montenegro - uefa nations league 2026/2027 - md6",
+          "title": "Cyprus vs Montenegro - UEFA Nations League 2026/2027 - MD6",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
+          "start": "2026-11-15T21:45:00.000Z",
+          "end": "2026-11-15T23:30:00.000Z",
+          "startEpochSeconds": 1794779100,
+          "endEpochSeconds": 1794785400,
+          "source": "bein_mena"
+        },
+        {
+          "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794785400000:belarus vs albania - uefa nations league 2026/2027 - md6",
+          "title": "Belarus vs Albania - UEFA Nations League 2026/2027 - MD6",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
+          "start": "2026-11-15T23:30:00.000Z",
+          "end": "2026-11-16T01:30:00.000Z",
+          "startEpochSeconds": 1794785400,
+          "endEpochSeconds": 1794792600,
+          "source": "bein_mena"
+        },
+        {
+          "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794792600000:latvia vs armenia - uefa nations league 2026/2027 - md6",
+          "title": "Latvia vs Armenia - UEFA Nations League 2026/2027 - MD6",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
+          "start": "2026-11-16T01:30:00.000Z",
+          "end": "2026-11-16T03:15:00.000Z",
+          "startEpochSeconds": 1794792600,
+          "endEpochSeconds": 1794798900,
+          "source": "bein_mena"
+        },
+        {
+          "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794798900000:cyprus vs montenegro - uefa nations league 2026/2027 - md6",
+          "title": "Cyprus vs Montenegro - UEFA Nations League 2026/2027 - MD6",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
+          "start": "2026-11-16T03:15:00.000Z",
+          "end": "2026-11-16T05:00:00.000Z",
+          "startEpochSeconds": 1794798900,
+          "endEpochSeconds": 1794805200,
+          "source": "bein_mena"
+        },
+        {
+          "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794805200000:exeter city vs cheltenham town - efl - english football league  skybet - league two 2026/2027",
+          "title": "Exeter City vs Cheltenham Town - EFL - English Football League  SkyBet - League Two 2026/2027",
+          "description": "",
+          "start": "2026-11-16T05:00:00.000Z",
+          "end": "2026-11-16T07:00:00.000Z",
+          "startEpochSeconds": 1794805200,
+          "endEpochSeconds": 1794812400,
+          "source": "bein_mena"
+        },
+        {
+          "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794812400000:france vs türkiye - uefa nations league 2026/2027 - md6",
+          "title": "France vs Türkiye - UEFA Nations League 2026/2027 - MD6",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
+          "start": "2026-11-16T07:00:00.000Z",
+          "end": "2026-11-16T08:45:00.000Z",
+          "startEpochSeconds": 1794812400,
+          "endEpochSeconds": 1794818700,
+          "source": "bein_mena"
+        },
+        {
+          "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794818700000:belarus vs albania - uefa nations league 2026/2027 - md6",
+          "title": "Belarus vs Albania - UEFA Nations League 2026/2027 - MD6",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
+          "start": "2026-11-16T08:45:00.000Z",
+          "end": "2026-11-16T10:45:00.000Z",
+          "startEpochSeconds": 1794818700,
+          "endEpochSeconds": 1794825900,
+          "source": "bein_mena"
+        },
+        {
+          "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794825900000:cyprus vs montenegro - uefa nations league 2026/2027 - md6",
+          "title": "Cyprus vs Montenegro - UEFA Nations League 2026/2027 - MD6",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
+          "start": "2026-11-16T10:45:00.000Z",
+          "end": "2026-11-16T12:50:00.000Z",
+          "startEpochSeconds": 1794825900,
           "endEpochSeconds": 1794833400,
           "source": "bein_mena"
         },
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794833400000:namibia vs cameroon - africa cup of nations ( afcon ) qualification 2026/2027- md4",
           "title": "Namibia vs Cameroon - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD4",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-16T12:50:00.000Z",
-          "end": "2026-11-16T15:50:00.000Z",
+          "end": "2026-11-16T15:00:00.000Z",
           "startEpochSeconds": 1794833400,
+          "endEpochSeconds": 1794841200,
+          "source": "bein_mena"
+        },
+        {
+          "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794841200000:in the footsteps of fabian ruiz",
+          "title": "In The Footsteps Of Fabian Ruiz",
+          "description": "Fron the Sevilla suburbs to Paris, From Real Betis Balompie to Paris Saint Germain, his first game in Spain, the UEFA Champions league wins and lifting the FIFA World Cup 2026 with La Roja, beIN SPORTS takes you in the footsteps of Fabian Ruiz",
+          "start": "2026-11-16T15:00:00.000Z",
+          "end": "2026-11-16T15:50:00.000Z",
+          "startEpochSeconds": 1794841200,
           "endEpochSeconds": 1794844200,
           "source": "bein_mena"
         },
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794844200000:eritrea vs guinea - africa cup of nations ( afcon ) qualification 2026/2027- md4",
           "title": "Eritrea vs Guinea - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD4",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-16T15:50:00.000Z",
-          "end": "2026-11-16T19:35:00.000Z",
+          "end": "2026-11-16T18:30:00.000Z",
           "startEpochSeconds": 1794844200,
+          "endEpochSeconds": 1794853800,
+          "source": "bein_mena"
+        },
+        {
+          "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794853800000:epl stories  2026/2027 ep.18",
+          "title": "EPL Stories  2026/2027 EP.18",
+          "description": "All 380 fixtures from the English premier league are live and exclusive only on beIN SPORTS with a choice of Arabic or English commentary.\r\nThe 2026–27 season consists of 33 weekend and five midweek rounds of matches.\r\nArsenal are the defending Champions.",
+          "start": "2026-11-16T18:30:00.000Z",
+          "end": "2026-11-16T19:00:00.000Z",
+          "startEpochSeconds": 1794853800,
+          "endEpochSeconds": 1794855600,
+          "source": "bein_mena"
+        },
+        {
+          "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794855600000:uefa ucl  magazine2026/2027 - special",
+          "title": "UEFA UCL  Magazine2026/2027 - Special",
+          "description": "Highlights from the latest Round of UEFA Champions League fixtures.",
+          "start": "2026-11-16T19:00:00.000Z",
+          "end": "2026-11-16T19:35:00.000Z",
+          "startEpochSeconds": 1794855600,
           "endEpochSeconds": 1794857700,
           "source": "bein_mena"
         },
         {
           "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794857700000:switzerland vs scotland - uefa nations league 2026/2027 - md6",
           "title": "Switzerland vs Scotland - UEFA Nations League 2026/2027 - MD6",
-          "description": "",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-16T19:35:00.000Z",
-          "end": "2026-11-17T12:50:00.000Z",
+          "end": "2026-11-16T21:45:00.000Z",
           "startEpochSeconds": 1794857700,
-          "endEpochSeconds": 1794919800,
+          "endEpochSeconds": 1794865500,
+          "source": "bein_mena"
+        },
+        {
+          "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794865500000:namibia vs cameroon - africa cup of nations ( afcon ) qualification 2026/2027- md4",
+          "title": "Namibia vs Cameroon - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD4",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
+          "start": "2026-11-16T21:45:00.000Z",
+          "end": "2026-11-16T23:30:00.000Z",
+          "startEpochSeconds": 1794865500,
+          "endEpochSeconds": 1794871800,
+          "source": "bein_mena"
+        },
+        {
+          "id": "FD1DD7DD-1E7B-4AA2-8682-BFA17338E653:1794871800000:eritrea vs guinea - africa cup of nations ( afcon ) qualification 2026/2027- md4",
+          "title": "Eritrea vs Guinea - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD4",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
+          "start": "2026-11-16T23:30:00.000Z",
+          "end": "2026-11-17T01:15:00.000Z",
+          "startEpochSeconds": 1794871800,
+          "endEpochSeconds": 1794878100,
           "source": "bein_mena"
         }
       ]
@@ -21445,68 +21575,108 @@
           "title": "Afganistan x Marocco - Bronze Medal - Men's Futsal - 2026 Youth Olympic Games – Dakar",
           "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
           "start": "2026-11-12T21:00:00.000Z",
-          "end": "2026-11-12T23:30:00.000Z",
+          "end": "2026-11-12T22:19:00.000Z",
           "startEpochSeconds": 1794517200,
-          "endEpochSeconds": 1794526200,
+          "endEpochSeconds": 1794521940,
           "source": "bein_mena"
         },
         {
-          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794526200000:portugal x argentina - final - men's futsal - 2026 youth olympic games – dakar",
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794521940000:portugal x argentina - final - men's futsal - 2026 youth olympic games – dakar",
           "title": "Portugal x Argentina - Final - Men's Futsal - 2026 Youth Olympic Games – Dakar",
           "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
-          "start": "2026-11-12T23:30:00.000Z",
-          "end": "2026-11-13T02:00:00.000Z",
-          "startEpochSeconds": 1794526200,
-          "endEpochSeconds": 1794535200,
+          "start": "2026-11-12T22:19:00.000Z",
+          "end": "2026-11-13T00:30:00.000Z",
+          "startEpochSeconds": 1794521940,
+          "endEpochSeconds": 1794529800,
           "source": "bein_mena"
         },
         {
-          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794535200000:gymnastics - 2026 youth olympic games – dakar",
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794529800000:venezuela vs ukraine - final - women's futsal - 2026 youth olympic games – dakar",
+          "title": "Venezuela vs Ukraine - Final - Women's Futsal - 2026 Youth Olympic Games – Dakar",
+          "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
+          "start": "2026-11-13T00:30:00.000Z",
+          "end": "2026-11-13T02:45:00.000Z",
+          "startEpochSeconds": 1794529800,
+          "endEpochSeconds": 1794537900,
+          "source": "bein_mena"
+        },
+        {
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794537900000:gymnastics - 2026 youth olympic games – dakar",
           "title": "Gymnastics - 2026 Youth Olympic Games – Dakar",
           "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
-          "start": "2026-11-13T02:00:00.000Z",
-          "end": "2026-11-13T04:00:00.000Z",
-          "startEpochSeconds": 1794535200,
-          "endEpochSeconds": 1794542400,
+          "start": "2026-11-13T02:45:00.000Z",
+          "end": "2026-11-13T04:45:00.000Z",
+          "startEpochSeconds": 1794537900,
+          "endEpochSeconds": 1794545100,
           "source": "bein_mena"
         },
         {
-          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794542400000:chaumont vs toulouse - alterna volstar volleyball french league",
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794545100000:chaumont vs toulouse - alterna volstar volleyball french league",
           "title": "Chaumont vs Toulouse - Alterna Volstar Volleyball French league",
           "description": "",
-          "start": "2026-11-13T04:00:00.000Z",
-          "end": "2026-11-13T06:00:00.000Z",
-          "startEpochSeconds": 1794542400,
-          "endEpochSeconds": 1794549600,
+          "start": "2026-11-13T04:45:00.000Z",
+          "end": "2026-11-13T06:45:00.000Z",
+          "startEpochSeconds": 1794545100,
+          "endEpochSeconds": 1794552300,
           "source": "bein_mena"
         },
         {
-          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794549600000:highlights dakar 2026 summer youth olympic games",
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794552300000:highlights dakar 2026 summer youth olympic games",
           "title": "Highlights Dakar 2026 Summer Youth Olympic Games",
           "description": "the most important moments of the DAKAR 2026 Summer Youth Olympic Games (Day 12)",
-          "start": "2026-11-13T06:00:00.000Z",
-          "end": "2026-11-13T07:00:00.000Z",
-          "startEpochSeconds": 1794549600,
-          "endEpochSeconds": 1794553200,
+          "start": "2026-11-13T06:45:00.000Z",
+          "end": "2026-11-13T07:45:00.000Z",
+          "startEpochSeconds": 1794552300,
+          "endEpochSeconds": 1794555900,
           "source": "bein_mena"
         },
         {
-          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794553200000:portugal x argentina - final - men's futsal - 2026 youth olympic games – dakar",
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794555900000:portugal x argentina - final - men's futsal - 2026 youth olympic games – dakar",
           "title": "Portugal x Argentina - Final - Men's Futsal - 2026 Youth Olympic Games – Dakar",
           "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
-          "start": "2026-11-13T07:00:00.000Z",
+          "start": "2026-11-13T07:45:00.000Z",
           "end": "2026-11-13T09:30:00.000Z",
-          "startEpochSeconds": 1794553200,
+          "startEpochSeconds": 1794555900,
           "endEpochSeconds": 1794562200,
           "source": "bein_mena"
         },
         {
-          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794562200000:beach handball - 2026 youth olympic games – dakar",
-          "title": "Beach Handball - 2026 Youth Olympic Games – Dakar",
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794562200000:senegal x france - beach handball - women - bronze medal - 2026 youth olympic games – dakar",
+          "title": "Senegal x France - Beach Handball - Women - Bronze Medal - 2026 Youth Olympic Games – Dakar",
           "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
           "start": "2026-11-13T09:30:00.000Z",
-          "end": "2026-11-13T14:00:00.000Z",
+          "end": "2026-11-13T10:30:00.000Z",
           "startEpochSeconds": 1794562200,
+          "endEpochSeconds": 1794565800,
+          "source": "bein_mena"
+        },
+        {
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794565800000:senegal x hungary - beach handball - men - bronze medal - 2026 youth olympic games – dakar",
+          "title": "Senegal x Hungary - Beach Handball - Men - Bronze Medal - 2026 Youth Olympic Games – Dakar",
+          "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
+          "start": "2026-11-13T10:30:00.000Z",
+          "end": "2026-11-13T11:30:00.000Z",
+          "startEpochSeconds": 1794565800,
+          "endEpochSeconds": 1794569400,
+          "source": "bein_mena"
+        },
+        {
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794569400000:spain x uruguay - beach handball - women - gold medal - 2026 youth olympic games – dakar",
+          "title": "Spain x Uruguay - Beach Handball - Women - Gold Medal - 2026 Youth Olympic Games – Dakar",
+          "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
+          "start": "2026-11-13T11:30:00.000Z",
+          "end": "2026-11-13T12:30:00.000Z",
+          "startEpochSeconds": 1794569400,
+          "endEpochSeconds": 1794573000,
+          "source": "bein_mena"
+        },
+        {
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794573000000:germany x brazil - beach handball - men - gold medal - 2026 youth olympic games – dakar",
+          "title": "Germany x Brazil - Beach Handball - Men - Gold Medal - 2026 Youth Olympic Games – Dakar",
+          "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
+          "start": "2026-11-13T12:30:00.000Z",
+          "end": "2026-11-13T14:00:00.000Z",
+          "startEpochSeconds": 1794573000,
           "endEpochSeconds": 1794578400,
           "source": "bein_mena"
         },
@@ -21525,68 +21695,158 @@
           "title": "Chaumont vs Toulouse - Alterna Volstar Volleyball French league",
           "description": "",
           "start": "2026-11-13T15:00:00.000Z",
-          "end": "2026-11-13T17:45:00.000Z",
+          "end": "2026-11-13T16:50:00.000Z",
           "startEpochSeconds": 1794582000,
-          "endEpochSeconds": 1794591900,
+          "endEpochSeconds": 1794588600,
           "source": "bein_mena"
         },
         {
-          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794591900000:closing ceremony - 2026 youth olympic games – dakar",
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794588600000:senegal x france - beach handball - women - bronze medal - 2026 youth olympic games – dakar",
+          "title": "Senegal x France - Beach Handball - Women - Bronze Medal - 2026 Youth Olympic Games – Dakar",
+          "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
+          "start": "2026-11-13T16:50:00.000Z",
+          "end": "2026-11-13T17:55:00.000Z",
+          "startEpochSeconds": 1794588600,
+          "endEpochSeconds": 1794592500,
+          "source": "bein_mena"
+        },
+        {
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794592500000:closing ceremony - 2026 youth olympic games – dakar",
           "title": "Closing Ceremony - 2026 Youth Olympic Games – Dakar",
-          "description": "",
-          "start": "2026-11-13T17:45:00.000Z",
-          "end": "2026-11-13T19:35:00.000Z",
-          "startEpochSeconds": 1794591900,
-          "endEpochSeconds": 1794598500,
+          "description": "Studio coverage of The Dakar 2026 Youth Olympics Closing Ceremony, the first Olympic sporting event held on African soil. The Ceremony will be a 30-minute send-off, bringing the young athletes together one final time before the Youth Olympic flame is extinguished.",
+          "start": "2026-11-13T17:55:00.000Z",
+          "end": "2026-11-13T18:45:00.000Z",
+          "startEpochSeconds": 1794592500,
+          "endEpochSeconds": 1794595500,
           "source": "bein_mena"
         },
         {
-          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794598500000:portugal x argentina - final - men's futsal - 2026 youth olympic games – dakar",
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794595500000:portugal x argentina - final - men's futsal - 2026 youth olympic games – dakar",
           "title": "Portugal x Argentina - Final - Men's Futsal - 2026 Youth Olympic Games – Dakar",
           "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
-          "start": "2026-11-13T19:35:00.000Z",
-          "end": "2026-11-13T22:15:00.000Z",
-          "startEpochSeconds": 1794598500,
-          "endEpochSeconds": 1794608100,
+          "start": "2026-11-13T18:45:00.000Z",
+          "end": "2026-11-13T20:34:00.000Z",
+          "startEpochSeconds": 1794595500,
+          "endEpochSeconds": 1794602040,
           "source": "bein_mena"
         },
         {
-          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794608100000:beach handball - 2026 youth olympic games – dakar",
-          "title": "Beach Handball - 2026 Youth Olympic Games – Dakar",
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794602040000:nba action 2026/2027",
+          "title": "NBA Action 2026/2027",
+          "description": "NBA ACTION keeps pace with the competition on the court while offering viewers an inside look at teams and players from around the League, including several popular weekly segments",
+          "start": "2026-11-13T20:34:00.000Z",
+          "end": "2026-11-13T21:00:00.000Z",
+          "startEpochSeconds": 1794602040,
+          "endEpochSeconds": 1794603600,
+          "source": "bein_mena"
+        },
+        {
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794603600000:senegal x france - beach handball - women - bronze medal - 2026 youth olympic games – dakar",
+          "title": "Senegal x France - Beach Handball - Women - Bronze Medal - 2026 Youth Olympic Games – Dakar",
           "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
-          "start": "2026-11-13T22:15:00.000Z",
-          "end": "2026-11-14T02:45:00.000Z",
-          "startEpochSeconds": 1794608100,
-          "endEpochSeconds": 1794624300,
+          "start": "2026-11-13T21:00:00.000Z",
+          "end": "2026-11-13T22:00:00.000Z",
+          "startEpochSeconds": 1794603600,
+          "endEpochSeconds": 1794607200,
           "source": "bein_mena"
         },
         {
-          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794624300000:closing ceremony - 2026 youth olympic games – dakar",
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794607200000:senegal x hungary - beach handball - men - bronze medal - 2026 youth olympic games – dakar",
+          "title": "Senegal x Hungary - Beach Handball - Men - Bronze Medal - 2026 Youth Olympic Games – Dakar",
+          "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
+          "start": "2026-11-13T22:00:00.000Z",
+          "end": "2026-11-13T23:00:00.000Z",
+          "startEpochSeconds": 1794607200,
+          "endEpochSeconds": 1794610800,
+          "source": "bein_mena"
+        },
+        {
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794610800000:spain x uruguay - beach handball - women - gold medal - 2026 youth olympic games – dakar",
+          "title": "Spain x Uruguay - Beach Handball - Women - Gold Medal - 2026 Youth Olympic Games – Dakar",
+          "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
+          "start": "2026-11-13T23:00:00.000Z",
+          "end": "2026-11-14T00:00:00.000Z",
+          "startEpochSeconds": 1794610800,
+          "endEpochSeconds": 1794614400,
+          "source": "bein_mena"
+        },
+        {
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794614400000:germany x brazil - beach handball - men - gold medal - 2026 youth olympic games – dakar",
+          "title": "Germany x Brazil - Beach Handball - Men - Gold Medal - 2026 Youth Olympic Games – Dakar",
+          "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
+          "start": "2026-11-14T00:00:00.000Z",
+          "end": "2026-11-14T01:00:00.000Z",
+          "startEpochSeconds": 1794614400,
+          "endEpochSeconds": 1794618000,
+          "source": "bein_mena"
+        },
+        {
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794618000000:closing ceremony - 2026 youth olympic games – dakar",
           "title": "Closing Ceremony - 2026 Youth Olympic Games – Dakar",
-          "description": "",
-          "start": "2026-11-14T02:45:00.000Z",
-          "end": "2026-11-14T04:45:00.000Z",
-          "startEpochSeconds": 1794624300,
-          "endEpochSeconds": 1794631500,
+          "description": "Studio coverage of The Dakar 2026 Youth Olympics Closing Ceremony, the first Olympic sporting event held on African soil. The Ceremony will be a 30-minute send-off, bringing the young athletes together one final time before the Youth Olympic flame is extinguished.",
+          "start": "2026-11-14T01:00:00.000Z",
+          "end": "2026-11-14T02:00:00.000Z",
+          "startEpochSeconds": 1794618000,
+          "endEpochSeconds": 1794621600,
           "source": "bein_mena"
         },
         {
-          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794631500000:venezuela vs ukraine - final - women's futsal - 2026 youth olympic games – dakar",
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794621600000:venezuela vs ukraine - final - women's futsal - 2026 youth olympic games – dakar",
           "title": "Venezuela vs Ukraine - Final - Women's Futsal - 2026 Youth Olympic Games – Dakar",
           "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
-          "start": "2026-11-14T04:45:00.000Z",
-          "end": "2026-11-14T07:15:00.000Z",
-          "startEpochSeconds": 1794631500,
-          "endEpochSeconds": 1794640500,
+          "start": "2026-11-14T02:00:00.000Z",
+          "end": "2026-11-14T04:00:00.000Z",
+          "startEpochSeconds": 1794621600,
+          "endEpochSeconds": 1794628800,
           "source": "bein_mena"
         },
         {
-          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794640500000:portugal x argentina - final - men's futsal - 2026 youth olympic games – dakar",
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794628800000:portugal x argentina - final - men's futsal - 2026 youth olympic games – dakar",
           "title": "Portugal x Argentina - Final - Men's Futsal - 2026 Youth Olympic Games – Dakar",
           "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
-          "start": "2026-11-14T07:15:00.000Z",
+          "start": "2026-11-14T04:00:00.000Z",
+          "end": "2026-11-14T05:45:00.000Z",
+          "startEpochSeconds": 1794628800,
+          "endEpochSeconds": 1794635100,
+          "source": "bein_mena"
+        },
+        {
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794635100000:senegal x france - beach handball - women - bronze medal - 2026 youth olympic games – dakar",
+          "title": "Senegal x France - Beach Handball - Women - Bronze Medal - 2026 Youth Olympic Games – Dakar",
+          "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
+          "start": "2026-11-14T05:45:00.000Z",
+          "end": "2026-11-14T06:45:00.000Z",
+          "startEpochSeconds": 1794635100,
+          "endEpochSeconds": 1794638700,
+          "source": "bein_mena"
+        },
+        {
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794638700000:senegal x hungary - beach handball - men - bronze medal - 2026 youth olympic games – dakar",
+          "title": "Senegal x Hungary - Beach Handball - Men - Bronze Medal - 2026 Youth Olympic Games – Dakar",
+          "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
+          "start": "2026-11-14T06:45:00.000Z",
+          "end": "2026-11-14T07:45:00.000Z",
+          "startEpochSeconds": 1794638700,
+          "endEpochSeconds": 1794642300,
+          "source": "bein_mena"
+        },
+        {
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794642300000:spain x uruguay - beach handball - women - gold medal - 2026 youth olympic games – dakar",
+          "title": "Spain x Uruguay - Beach Handball - Women - Gold Medal - 2026 Youth Olympic Games – Dakar",
+          "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
+          "start": "2026-11-14T07:45:00.000Z",
+          "end": "2026-11-14T08:45:00.000Z",
+          "startEpochSeconds": 1794642300,
+          "endEpochSeconds": 1794645900,
+          "source": "bein_mena"
+        },
+        {
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794645900000:germany x brazil - beach handball - men - gold medal - 2026 youth olympic games – dakar",
+          "title": "Germany x Brazil - Beach Handball - Men - Gold Medal - 2026 Youth Olympic Games – Dakar",
+          "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
+          "start": "2026-11-14T08:45:00.000Z",
           "end": "2026-11-14T09:45:00.000Z",
-          "startEpochSeconds": 1794640500,
+          "startEpochSeconds": 1794645900,
           "endEpochSeconds": 1794649500,
           "source": "bein_mena"
         },
@@ -21611,12 +21871,42 @@
           "source": "bein_mena"
         },
         {
-          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794663600000:beach handball - 2026 youth olympic games – dakar",
-          "title": "Beach Handball - 2026 Youth Olympic Games – Dakar",
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794663600000:senegal x france - beach handball - women - bronze medal - 2026 youth olympic games – dakar",
+          "title": "Senegal x France - Beach Handball - Women - Bronze Medal - 2026 Youth Olympic Games – Dakar",
           "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
           "start": "2026-11-14T13:40:00.000Z",
-          "end": "2026-11-14T18:00:00.000Z",
+          "end": "2026-11-14T14:40:00.000Z",
           "startEpochSeconds": 1794663600,
+          "endEpochSeconds": 1794667200,
+          "source": "bein_mena"
+        },
+        {
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794667200000:senegal x hungary - beach handball - men - bronze medal - 2026 youth olympic games – dakar",
+          "title": "Senegal x Hungary - Beach Handball - Men - Bronze Medal - 2026 Youth Olympic Games – Dakar",
+          "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
+          "start": "2026-11-14T14:40:00.000Z",
+          "end": "2026-11-14T15:40:00.000Z",
+          "startEpochSeconds": 1794667200,
+          "endEpochSeconds": 1794670800,
+          "source": "bein_mena"
+        },
+        {
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794670800000:spain x uruguay - beach handball - women - gold medal - 2026 youth olympic games – dakar",
+          "title": "Spain x Uruguay - Beach Handball - Women - Gold Medal - 2026 Youth Olympic Games – Dakar",
+          "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
+          "start": "2026-11-14T15:40:00.000Z",
+          "end": "2026-11-14T16:40:00.000Z",
+          "startEpochSeconds": 1794670800,
+          "endEpochSeconds": 1794674400,
+          "source": "bein_mena"
+        },
+        {
+          "id": "84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8:1794674400000:germany x brazil - beach handball - men - gold medal - 2026 youth olympic games – dakar",
+          "title": "Germany x Brazil - Beach Handball - Men - Gold Medal - 2026 Youth Olympic Games – Dakar",
+          "description": "The Dakar 2026 Summer Youth Olympic Games take place from 31 October to 13 November 2026 in Senegal. The Dakar 2026 Summer Youth Olympic Games will be the first-ever Olympic event hosted in Africa.",
+          "start": "2026-11-14T16:40:00.000Z",
+          "end": "2026-11-14T18:00:00.000Z",
+          "startEpochSeconds": 1794674400,
           "endEpochSeconds": 1794679200,
           "source": "bein_mena"
         },
@@ -22271,12 +22561,242 @@
       "region": "en-mena",
       "programmes": [
         {
-          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794429000000:psg vs troyes - french ligue 1 2026/2027 - week 10",
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794438240000:washington vs detroit - nba season  - 2026",
+          "title": "Washington vs Detroit - NBA Season  - 2026",
+          "description": "The 2026–27 NBA season is the 81st season of the National Basketball Association. The current NBA champions are the New York Knicks. The regular season runs from October 20, 2026, to April 11, 2027.",
+          "start": "2026-11-11T23:04:00.000Z",
+          "end": "2026-11-12T01:00:00.000Z",
+          "startEpochSeconds": 1794438240,
+          "endEpochSeconds": 1794445200,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794445200000:epl stories  2026/2027 ep.17",
+          "title": "EPL Stories  2026/2027 EP.17",
+          "description": "All 380 fixtures from the English premier league are live and exclusive only on beIN SPORTS with a choice of Arabic or English commentary.\r\nThe 2026–27 season consists of 33 weekend and five midweek rounds of matches.\r\nArsenal are the defending Champions.",
+          "start": "2026-11-12T01:00:00.000Z",
+          "end": "2026-11-12T01:30:00.000Z",
+          "startEpochSeconds": 1794445200,
+          "endEpochSeconds": 1794447000,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794447000000:uefa nations league 2026/27 - magazine ep2",
+          "title": "UEFA Nations League 2026/27 - Magazine EP2",
+          "description": "MD5-MD6 Preview programme",
+          "start": "2026-11-12T01:30:00.000Z",
+          "end": "2026-11-12T02:00:00.000Z",
+          "startEpochSeconds": 1794447000,
+          "endEpochSeconds": 1794448800,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794448800000:epl weekly review - 2026/2027 - ep 10",
+          "title": "EPL Weekly Review - 2026/2027 - EP 10",
+          "description": "Each EPL Match week is condensed into a 52-minute highlights show. Every game, goal, penalty, red card and everything in between is squeezed into an action-packed hour to ensure no football fan misses a kick across the game season.",
+          "start": "2026-11-12T02:00:00.000Z",
+          "end": "2026-11-12T03:00:00.000Z",
+          "startEpochSeconds": 1794448800,
+          "endEpochSeconds": 1794452400,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794452400000:freetour la liga",
+          "title": "Freetour La Liga",
+          "description": "\"International players guide audiences through their city, stadium, favourite places, local food and matchday routine.A unique vision of the community around each LALIGA club.\"",
+          "start": "2026-11-12T03:00:00.000Z",
+          "end": "2026-11-12T03:30:00.000Z",
+          "startEpochSeconds": 1794452400,
+          "endEpochSeconds": 1794454200,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794454200000:crystal palace vs liverpool - english premier league 2026/2027 - week 10",
+          "title": "Crystal Palace vs Liverpool - English Premier League 2026/2027 - Week 10",
+          "description": "Crystal Palace ended a 10-game winless home Premier League run against Liverpool last season, winning 2-1 at Selhurst Park. They last recorded consecutive home league victories against the Reds in 1990-91 and 1991-92. Liverpool have won three of their last eight Premier League matches against Crystal Palace, having won 10 in a row beforehand. They’",
+          "start": "2026-11-12T03:30:00.000Z",
+          "end": "2026-11-12T04:00:00.000Z",
+          "startEpochSeconds": 1794454200,
+          "endEpochSeconds": 1794456000,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794456000000:manchester united vs aston villa - english premier league 2026/2027 - week 10",
+          "title": "Manchester United vs Aston Villa - English Premier League 2026/2027 - Week 10",
+          "description": "Manchester United have only lost two of their 31 Premier League home games against Aston Villa, 1-0 defeats in both 2009-10 and 2021-22. Aston Villa won their first Premier League match against Man Utd under Unai Emery in November 2022 but they’ve won just one of their seven since then.",
+          "start": "2026-11-12T04:00:00.000Z",
+          "end": "2026-11-12T04:32:00.000Z",
+          "startEpochSeconds": 1794456000,
+          "endEpochSeconds": 1794457920,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794457920000:epl netbusters - 2026/2027 ep 10",
+          "title": "EPL Netbusters - 2026/2027 EP 10",
+          "description": "Highlights of the Premier League Matchweek from an alternative angle. A look back at every goal from every game using the best ISOs and Slow Motion angles.",
+          "start": "2026-11-12T04:32:00.000Z",
+          "end": "2026-11-12T05:00:00.000Z",
+          "startEpochSeconds": 1794457920,
+          "endEpochSeconds": 1794459600,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794459600000:valencia vs real madrid - spanish laliga 2026/2027 - week 12",
+          "title": "Valencia vs Real Madrid - Spanish LaLiga 2026/2027 - Week 12",
+          "description": "The Spanish 2026–27 La Liga season is live and exclusive only on beIN SPORTS. All 380 matches across 38 matchdays are available with a choice of Arabic and English commentary.\r\nBarcelona are the two-time defending champions, having won their 29th title last season.",
+          "start": "2026-11-12T05:00:00.000Z",
+          "end": "2026-11-12T05:30:00.000Z",
+          "startEpochSeconds": 1794459600,
+          "endEpochSeconds": 1794461400,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794461400000:atletico madrid vs barcelona - spanish laliga 2026/2027 - week 12",
+          "title": "Atletico Madrid vs Barcelona - Spanish LaLiga 2026/2027 - Week 12",
+          "description": "The Spanish 2026–27 La Liga season is live and exclusive only on beIN SPORTS. All 380 matches across 38 matchdays are available with a choice of Arabic and English commentary.\r\nBarcelona are the two-time defending champions, having won their 29th title last season.",
+          "start": "2026-11-12T05:30:00.000Z",
+          "end": "2026-11-12T06:00:00.000Z",
+          "startEpochSeconds": 1794461400,
+          "endEpochSeconds": 1794463200,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794463200000:psg vs troyes - french ligue 1 2026/2027 - week 10",
           "title": "PSG vs Troyes - French Ligue 1 2026/2027 - Week 10",
           "description": "All 306 matches from the Ligue 1 2026 – 2027 season are live and exclusive only on beIN SPORTS. Paris Saint-Germain are the defending Champions having secured their historic 14th top-flight title last season.",
-          "start": "2026-11-11T20:30:00.000Z",
+          "start": "2026-11-12T06:00:00.000Z",
+          "end": "2026-11-12T06:32:00.000Z",
+          "startEpochSeconds": 1794463200,
+          "endEpochSeconds": 1794465120,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794465120000:trendyol super lig highlight 2027",
+          "title": "Trendyol Super Lig Highlight 2027",
+          "description": "Every game, goal, penalty, red card and everything in between is squeezed into this Trendyol Super Lig weekly show to ensure no football fan misses a kick across the game season.",
+          "start": "2026-11-12T06:32:00.000Z",
+          "end": "2026-11-12T08:00:00.000Z",
+          "startEpochSeconds": 1794465120,
+          "endEpochSeconds": 1794470400,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794470400000:nottingham forest vs manchester city - english premier league 2026/2027 - week 10",
+          "title": "Nottingham Forest vs Manchester City - English Premier League 2026/2027 - Week 10",
+          "description": "Nottingham Forest have won one of their last nine Premier League games against Manchester City, a 1-0 home win in the 2024-25 season. Manchester City are looking to record consecutive away top-flight wins at Nottingham Forest for the first time since January 1925.",
+          "start": "2026-11-12T08:00:00.000Z",
+          "end": "2026-11-12T08:30:00.000Z",
+          "startEpochSeconds": 1794470400,
+          "endEpochSeconds": 1794472200,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794472200000:al ittihad vs al ain - afc champions league elite 2026/2027 - md 4",
+          "title": "Al Ittihad vs Al Ain - AFC Champions League Elite 2026/2027 - MD 4",
+          "description": "Al-Ittihad have lost each of their last two AFC Champions League Elite clashes against Al Ain, after going unbeaten in the first four ; in fact, a loss in this game will equal their longest losing run against a single opponent in the competition. Al Ain have won each of their three games in the ongoing AFC Champions League Elite season, and a win h",
+          "start": "2026-11-12T08:30:00.000Z",
+          "end": "2026-11-12T09:00:00.000Z",
+          "startEpochSeconds": 1794472200,
+          "endEpochSeconds": 1794474000,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794474000000:al hilal vs shabab al ahli - afc champions league elite 2026/2027 - md 4",
+          "title": "Al Hilal vs Shabab Al Ahli - AFC Champions League Elite 2026/2027 - MD 4",
+          "description": "Following a goalless draw in their most recent AFC Champions League Elite clash, Al-Hilal will look to keep consecutive clean sheets against Shabab Al Ahli for the first time in the competition, while also trying to avoid going goalless against them in back-to-back games; in fact, they have lost just two of their 12 meetings with Shabab Al Ahli  in",
+          "start": "2026-11-12T09:00:00.000Z",
+          "end": "2026-11-12T09:32:00.000Z",
+          "startEpochSeconds": 1794474000,
+          "endEpochSeconds": 1794475920,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794475920000:uefa ucl  magazine2026/2027 -md4 review",
+          "title": "UEFA UCL  Magazine2026/2027 -MD4 Review",
+          "description": "Highlights from the latest Round of UEFA Champions League fixtures.",
+          "start": "2026-11-12T09:32:00.000Z",
+          "end": "2026-11-12T10:00:00.000Z",
+          "startEpochSeconds": 1794475920,
+          "endEpochSeconds": 1794477600,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794477600000:trendyol super lig highlight 2027",
+          "title": "Trendyol Super Lig Highlight 2027",
+          "description": "Every game, goal, penalty, red card and everything in between is squeezed into this Trendyol Super Lig weekly show to ensure no football fan misses a kick across the game season.",
+          "start": "2026-11-12T10:00:00.000Z",
+          "end": "2026-11-12T11:15:00.000Z",
+          "startEpochSeconds": 1794477600,
+          "endEpochSeconds": 1794482100,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794482100000:al sadd vs al ahli - afc champions league elite 2026/2027 - md 4",
+          "title": "Al Sadd vs Al Ahli - AFC Champions League Elite 2026/2027 - MD 4",
+          "description": "Al-Ahli have won three of their last four AFC Champions League Elite games against Al Sadd, including each of the last two on the bounce, having been winless in their four prior games in the competition ; indeed, Al-Ahli have scored in every single game in the competition against Al Sadd, scoring at least twice in four of the last five games agains",
+          "start": "2026-11-12T11:15:00.000Z",
+          "end": "2026-11-12T12:00:00.000Z",
+          "startEpochSeconds": 1794482100,
+          "endEpochSeconds": 1794484800,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794484800000:eight flags and one passion",
+          "title": "Eight Flags and one Passion",
+          "description": "This programme explores the eight Arab teams that qualified for the 2026 FIFA World Cup, examining the role football plays in everyday life across the Arab world and how fans followed and experienced the tournament. It also looks back at the defining moments and highlights of the World Cup.",
+          "start": "2026-11-12T12:00:00.000Z",
+          "end": "2026-11-12T13:00:00.000Z",
+          "startEpochSeconds": 1794484800,
+          "endEpochSeconds": 1794488400,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794488400000:la liga highlights 2026/2027 ep.12",
+          "title": "La Liga Highlights 2026/2027 EP.12",
+          "description": "\"A highlight show that include each game played on Friday, Saturday and Sunday.LALIGA includes special video presentations of the best goal, the best save and the best player of the day.\"",
+          "start": "2026-11-12T13:00:00.000Z",
+          "end": "2026-11-12T13:30:00.000Z",
+          "startEpochSeconds": 1794488400,
+          "endEpochSeconds": 1794490200,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794490200000:psg vs troyes - french ligue 1 2026/2027 - week 10",
+          "title": "PSG vs Troyes - French Ligue 1 2026/2027 - Week 10",
+          "description": "All 306 matches from the Ligue 1 2026 – 2027 season are live and exclusive only on beIN SPORTS. Paris Saint-Germain are the defending Champions having secured their historic 14th top-flight title last season.",
+          "start": "2026-11-12T13:30:00.000Z",
+          "end": "2026-11-12T14:00:00.000Z",
+          "startEpochSeconds": 1794490200,
+          "endEpochSeconds": 1794492000,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794492000000:valencia vs real madrid - spanish laliga 2026/2027 - week 12",
+          "title": "Valencia vs Real Madrid - Spanish LaLiga 2026/2027 - Week 12",
+          "description": "The Spanish 2026–27 La Liga season is live and exclusive only on beIN SPORTS. All 380 matches across 38 matchdays are available with a choice of Arabic and English commentary.\r\nBarcelona are the two-time defending champions, having won their 29th title last season.",
+          "start": "2026-11-12T14:00:00.000Z",
+          "end": "2026-11-12T14:30:00.000Z",
+          "startEpochSeconds": 1794492000,
+          "endEpochSeconds": 1794493800,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794493800000:uefa nations league 2026/27 - magazine ep2",
+          "title": "UEFA Nations League 2026/27 - Magazine EP2",
+          "description": "MD5-MD6 Preview programme",
+          "start": "2026-11-12T14:30:00.000Z",
+          "end": "2026-11-12T15:15:00.000Z",
+          "startEpochSeconds": 1794493800,
+          "endEpochSeconds": 1794496500,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794496500000:trendyol super lig highlight 2027",
+          "title": "Trendyol Super Lig Highlight 2027",
+          "description": "Every game, goal, penalty, red card and everything in between is squeezed into this Trendyol Super Lig weekly show to ensure no football fan misses a kick across the game season.",
+          "start": "2026-11-12T15:15:00.000Z",
           "end": "2026-11-12T16:30:00.000Z",
-          "startEpochSeconds": 1794429000,
+          "startEpochSeconds": 1794496500,
           "endEpochSeconds": 1794501000,
           "source": "bein_mena"
         },
@@ -22295,15 +22815,165 @@
           "title": "Italy vs France - UEFA Nations League 2026/2027 - MD5",
           "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-12T19:35:00.000Z",
-          "end": "2026-11-13T15:30:00.000Z",
+          "end": "2026-11-12T22:30:00.000Z",
           "startEpochSeconds": 1794512100,
+          "endEpochSeconds": 1794522600,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794522600000:the big interview 2026-2027",
+          "title": "The Big Interview 2026-2027",
+          "description": "While Coventry City have waited 25 years for their return to the top-flight, it’s been a lifetime’s work for Sky Blues striker Brandon Thomas-Asante. Having toiled hard in the lower leagues for a number of years, the Ghana international made his World Cup debut this summer and can now look forward to a first Premier League appearance at the home of",
+          "start": "2026-11-12T22:30:00.000Z",
+          "end": "2026-11-12T23:00:00.000Z",
+          "startEpochSeconds": 1794522600,
+          "endEpochSeconds": 1794524400,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794524400000:washington vs detroit - nba season  - 2026",
+          "title": "Washington vs Detroit - NBA Season  - 2026",
+          "description": "The 2026–27 NBA season is the 81st season of the National Basketball Association. The current NBA champions are the New York Knicks. The regular season runs from October 20, 2026, to April 11, 2027.",
+          "start": "2026-11-12T23:00:00.000Z",
+          "end": "2026-11-13T00:45:00.000Z",
+          "startEpochSeconds": 1794524400,
+          "endEpochSeconds": 1794530700,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794530700000:epl netbusters - 2026/2027 ep 10",
+          "title": "EPL Netbusters - 2026/2027 EP 10",
+          "description": "Highlights of the Premier League Matchweek from an alternative angle. A look back at every goal from every game using the best ISOs and Slow Motion angles.",
+          "start": "2026-11-13T00:45:00.000Z",
+          "end": "2026-11-13T01:15:00.000Z",
+          "startEpochSeconds": 1794530700,
+          "endEpochSeconds": 1794532500,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794532500000:eight flags and one passion",
+          "title": "Eight Flags and one Passion",
+          "description": "This programme explores the eight Arab teams that qualified for the 2026 FIFA World Cup, examining the role football plays in everyday life across the Arab world and how fans followed and experienced the tournament. It also looks back at the defining moments and highlights of the World Cup.",
+          "start": "2026-11-13T01:15:00.000Z",
+          "end": "2026-11-13T02:15:00.000Z",
+          "startEpochSeconds": 1794532500,
+          "endEpochSeconds": 1794536100,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794536100000:trendyol super lig highlight 2027",
+          "title": "Trendyol Super Lig Highlight 2027",
+          "description": "Every game, goal, penalty, red card and everything in between is squeezed into this Trendyol Super Lig weekly show to ensure no football fan misses a kick across the game season.",
+          "start": "2026-11-13T02:15:00.000Z",
+          "end": "2026-11-13T03:30:00.000Z",
+          "startEpochSeconds": 1794536100,
+          "endEpochSeconds": 1794540600,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794540600000:türkiye vs belgium - uefa nations league 2026/2027 - md5",
+          "title": "Türkiye vs Belgium - UEFA Nations League 2026/2027 - MD5",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "start": "2026-11-13T03:30:00.000Z",
+          "end": "2026-11-13T04:02:00.000Z",
+          "startEpochSeconds": 1794540600,
+          "endEpochSeconds": 1794542520,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794542520000:italy vs france - uefa nations league 2026/2027 - md5",
+          "title": "Italy vs France - UEFA Nations League 2026/2027 - MD5",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "start": "2026-11-13T04:02:00.000Z",
+          "end": "2026-11-13T04:30:00.000Z",
+          "startEpochSeconds": 1794542520,
+          "endEpochSeconds": 1794544200,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794544200000:epl netbusters - 2026/2027 ep 10",
+          "title": "EPL Netbusters - 2026/2027 EP 10",
+          "description": "Highlights of the Premier League Matchweek from an alternative angle. A look back at every goal from every game using the best ISOs and Slow Motion angles.",
+          "start": "2026-11-13T04:30:00.000Z",
+          "end": "2026-11-13T05:02:00.000Z",
+          "startEpochSeconds": 1794544200,
+          "endEpochSeconds": 1794546120,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794546120000:england vs croatia - uefa nations league 2026/2027 - md5",
+          "title": "England vs Croatia - UEFA Nations League 2026/2027 - MD5",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "start": "2026-11-13T05:02:00.000Z",
+          "end": "2026-11-13T05:30:00.000Z",
+          "startEpochSeconds": 1794546120,
+          "endEpochSeconds": 1794547800,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794547800000:the big interview 2026-2027",
+          "title": "The Big Interview 2026-2027",
+          "description": "While Coventry City have waited 25 years for their return to the top-flight, it’s been a lifetime’s work for Sky Blues striker Brandon Thomas-Asante. Having toiled hard in the lower leagues for a number of years, the Ghana international made his World Cup debut this summer and can now look forward to a first Premier League appearance at the home of",
+          "start": "2026-11-13T05:30:00.000Z",
+          "end": "2026-11-13T06:00:00.000Z",
+          "startEpochSeconds": 1794547800,
+          "endEpochSeconds": 1794549600,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794549600000:türkiye vs belgium - uefa nations league 2026/2027 - md5",
+          "title": "Türkiye vs Belgium - UEFA Nations League 2026/2027 - MD5",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
+          "start": "2026-11-13T06:00:00.000Z",
+          "end": "2026-11-13T09:13:00.000Z",
+          "startEpochSeconds": 1794549600,
+          "endEpochSeconds": 1794561180,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794561180000:italy vs france - uefa nations league 2026/2027 - md5",
+          "title": "Italy vs France - UEFA Nations League 2026/2027 - MD5",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
+          "start": "2026-11-13T09:13:00.000Z",
+          "end": "2026-11-13T12:15:00.000Z",
+          "startEpochSeconds": 1794561180,
+          "endEpochSeconds": 1794572100,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794572100000:uefa ucl  magazine2026/2027 -md4 review",
+          "title": "UEFA UCL  Magazine2026/2027 -MD4 Review",
+          "description": "Highlights from the latest Round of UEFA Champions League fixtures.",
+          "start": "2026-11-13T12:15:00.000Z",
+          "end": "2026-11-13T12:50:00.000Z",
+          "startEpochSeconds": 1794572100,
+          "endEpochSeconds": 1794574200,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794574200000:mozambique vs ethiopia - africa cup of nations ( afcon ) qualification 2026/2027- md3",
+          "title": "Mozambique vs Ethiopia - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
+          "start": "2026-11-13T12:50:00.000Z",
+          "end": "2026-11-13T15:00:00.000Z",
+          "startEpochSeconds": 1794574200,
+          "endEpochSeconds": 1794582000,
+          "source": "bein_mena"
+        },
+        {
+          "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794582000000:senegal vs sudan - africa cup of nations ( afcon ) qualification 2026/2027- md3",
+          "title": "Senegal vs Sudan - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
+          "start": "2026-11-13T15:00:00.000Z",
+          "end": "2026-11-13T15:30:00.000Z",
+          "startEpochSeconds": 1794582000,
           "endEpochSeconds": 1794583800,
           "source": "bein_mena"
         },
         {
           "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794583800000:tunisia vs libya - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Tunisia vs Libya - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T15:30:00.000Z",
           "end": "2026-11-13T19:00:00.000Z",
           "startEpochSeconds": 1794583800,
@@ -22313,7 +22983,7 @@
         {
           "id": "7836FEA9-6B39-4A1A-8352-DC5FCB97A16C:1794596400000:morocco vs niger - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Morocco vs Niger - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T19:00:00.000Z",
           "end": "2026-11-13T22:30:00.000Z",
           "startEpochSeconds": 1794596400,
@@ -22990,7 +23660,7 @@
         {
           "id": "964E6246-CA95-410B-82C4-EA75DD979435:1794498600000:equatorial guinea vs zimbabwe - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Equatorial Guinea vs Zimbabwe - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-12T15:50:00.000Z",
           "end": "2026-11-12T18:00:00.000Z",
           "startEpochSeconds": 1794498600,
@@ -23010,7 +23680,7 @@
         {
           "id": "964E6246-CA95-410B-82C4-EA75DD979435:1794509400000:côte d'ivoire vs gambia - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Côte d'Ivoire vs Gambia - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-12T18:50:00.000Z",
           "end": "2026-11-12T21:15:00.000Z",
           "startEpochSeconds": 1794509400,
@@ -23020,7 +23690,7 @@
         {
           "id": "964E6246-CA95-410B-82C4-EA75DD979435:1794518100000:armenia vs cyprus - uefa nations league 2026/2027 - md5",
           "title": "Armenia vs Cyprus - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-12T21:15:00.000Z",
           "end": "2026-11-12T23:00:00.000Z",
           "startEpochSeconds": 1794518100,
@@ -23050,7 +23720,7 @@
         {
           "id": "964E6246-CA95-410B-82C4-EA75DD979435:1794528000000:albania vs finland - uefa nations league 2026/2027 - md5",
           "title": "Albania vs Finland - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-13T00:00:00.000Z",
           "end": "2026-11-13T02:00:00.000Z",
           "startEpochSeconds": 1794528000,
@@ -23090,7 +23760,7 @@
         {
           "id": "964E6246-CA95-410B-82C4-EA75DD979435:1794556800000:armenia vs cyprus - uefa nations league 2026/2027 - md5",
           "title": "Armenia vs Cyprus - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-13T08:00:00.000Z",
           "end": "2026-11-13T10:00:00.000Z",
           "startEpochSeconds": 1794556800,
@@ -23100,7 +23770,7 @@
         {
           "id": "964E6246-CA95-410B-82C4-EA75DD979435:1794564000000:albania vs finland - uefa nations league 2026/2027 - md5",
           "title": "Albania vs Finland - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-13T10:00:00.000Z",
           "end": "2026-11-13T12:00:00.000Z",
           "startEpochSeconds": 1794564000,
@@ -23130,7 +23800,7 @@
         {
           "id": "964E6246-CA95-410B-82C4-EA75DD979435:1794585000000:cape verde vs liberia - africa cup of nations ( afcon ) qualification 2026/2027- md3",
           "title": "Cape Verde vs Liberia - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3",
-          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania June taking place 19 to July 17, 2027.",
+          "description": "The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.",
           "start": "2026-11-13T15:50:00.000Z",
           "end": "2026-11-13T18:00:00.000Z",
           "startEpochSeconds": 1794585000,
@@ -23170,7 +23840,7 @@
         {
           "id": "964E6246-CA95-410B-82C4-EA75DD979435:1794598500000:scotland vs north macedonia - uefa nations league 2026/2027 - md5",
           "title": "Scotland vs North Macedonia - UEFA Nations League 2026/2027 - MD5",
-          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.\r\nPortugal are the defending champions.",
+          "description": "The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027.",
           "start": "2026-11-13T19:35:00.000Z",
           "end": "2026-11-13T21:40:00.000Z",
           "startEpochSeconds": 1794598500,
