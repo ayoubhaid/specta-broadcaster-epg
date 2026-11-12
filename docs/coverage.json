@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-12T00:42:31.000Z",
+  "generatedAt": "2026-11-12T15:12:47.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-11T22:42:31.000Z",
-    "to": "2026-11-13T16:42:31.000Z",
+    "from": "2026-11-12T13:12:47.000Z",
+    "to": "2026-11-14T07:12:47.000Z",
     "maxPerChannel": 80
   },
   "totals": {
     "channels": 63,
-    "programmes": 2053
+    "programmes": 2211
   },
   "providers": [
     {
@@ -16,16 +16,16 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2308,
+      "programmes": 2456,
       "publishedChannels": 30,
-      "publishedProgrammes": 1443,
+      "publishedProgrammes": 1595,
       "autoResolved": 30,
       "rejected": {
         "row": 0,
         "title": 0,
         "time": 0,
         "range": 0,
-        "duration": 12
+        "duration": 9
       },
       "error": null
     },
@@ -51,10 +51,10 @@
       "provider": "canalplus_fr",
       "providerName": "CANAL+ France",
       "file": "data/review/canalplus_fr_unclassified.json",
-      "channels": 8,
-      "programmes": 221,
+      "channels": 6,
+      "programmes": 213,
       "publishedChannels": 6,
-      "publishedProgrammes": 219,
+      "publishedProgrammes": 213,
       "autoResolved": 6,
       "rejected": {
         "row": 0,
@@ -88,9 +88,9 @@
       "providerName": "SuperSport",
       "file": "data/review/supersport_unclassified.json",
       "channels": 62,
-      "programmes": 7345,
+      "programmes": 7348,
       "publishedChannels": 26,
-      "publishedProgrammes": 2798,
+      "publishedProgrammes": 2802,
       "autoResolved": 26,
       "rejected": {
         "row": 0,
@@ -615,20 +615,6 @@
         "candidates": []
       },
       {
-        "key": "canalplus_fr:canalplus_fr:terre-saison-1-episode-2-le-renouveau-du-prin-sur-france-5",
-        "provider": "canalplus_fr",
-        "name": "Terre - Saison 1, Episode 2 : Le renouveau du prin..., Sur FRANCE 5",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "canalplus_fr:canalplus_fr:terre-saison-1-episode-3-l-ete-le-temps-de-l-sur-france-5",
-        "provider": "canalplus_fr",
-        "name": "Terre - Saison 1, Episode 3 : L'été, le temps de l..., Sur FRANCE 5",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
         "key": "supersport:afr1",
         "provider": "supersport",
         "name": "SuperSport Africa ROA",
@@ -891,6 +877,6 @@
     "title": 0,
     "time": 0,
     "range": 0,
-    "duration": 42
+    "duration": 39
   }
 }
