@@ -63,9 +63,6 @@
   <channel id="SuperSportTennis.za"><display-name>SuperSport Tennis</display-name></channel>
   <channel id="TamazightTV.ma@SD"><display-name>Tamazight</display-name></channel>
   <channel id="TF1.fr"><display-name>TF1</display-name></channel>
-  <programme start="20261111220000 +0000" stop="20261111222000 +0000" channel="AlAoula.ma@SD">
-    <title>الأخبار</title>
-  </programme>
   <programme start="20261111222000 +0000" stop="20261111230000 +0000" channel="AlAoula.ma@SD">
     <title>عيون غائمة</title>
   </programme>
@@ -494,6 +491,9 @@
   </programme>
   <programme start="20261113160000 +0000" stop="20261113163200 +0000" channel="AlMaghribia.ma@SD">
     <title>نشرات الاخبار المغربية</title>
+  </programme>
+  <programme start="20261113163200 +0000" stop="20261113170000 +0000" channel="AlMaghribia.ma@SD">
+    <title>بصمات مغربية</title>
   </programme>
   <programme start="20261111231500 +0000" stop="20261112010200 +0000" channel="beIN4K.qa">
     <title>Leeds United vs Tottenham Hotspur - English Premier League 2026/2027</title>
@@ -1498,6 +1498,9 @@
   <programme start="20261113150000 +0000" stop="20261113163000 +0000" channel="beINSports8.qa">
     <title>Premier Padel - Dubai P1 2026 - M5</title>
   </programme>
+  <programme start="20261113163000 +0000" stop="20261113180000 +0000" channel="beINSports8.qa">
+    <title>Premier Padel - Dubai P1 2026 - M6</title>
+  </programme>
   <programme start="20261111231800 +0000" stop="20261112001800 +0000" channel="beINSports9.qa">
     <title>GCL R2 – Competition Team - Longines Global Champions Tour - Rabat Jumping - Round 2 Competition Te</title>
     <desc>The Longines Global Champions Tour brings together the world's leading show-jumping riders and horses for a spectacular season of elite equestrian competition across iconic destinations worldwide. Combining speed, precision, skill and exceptional horsemanship, the tour features thrilling individual and team events, as competitors battle for valuabl</desc>
@@ -1738,6 +1741,10 @@
   </programme>
   <programme start="20261113160000 +0000" stop="20261113163000 +0000" channel="beINSportsEnglish1.qa">
     <title>Türkiye vs Belgium - UEFA Nations League 2026/2027 - MD5</title>
+    <desc>The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027. Portugal are the defending champions.</desc>
+  </programme>
+  <programme start="20261113163000 +0000" stop="20261113170000 +0000" channel="beINSportsEnglish1.qa">
+    <title>Italy vs France - UEFA Nations League 2026/2027 - MD5</title>
     <desc>The 2026–27 UEFA Nations League will be the fifth season of the UEFA Nations League. The competition will be held from September 2026 through until June 2027. Portugal are the defending champions.</desc>
   </programme>
   <programme start="20261111234500 +0000" stop="20261112023000 +0000" channel="beINSportsEnglish2.qa">
@@ -3108,10 +3115,6 @@
     <title>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <desc>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events</desc>
   </programme>
-  <programme start="20261111200900 +0000" stop="20261111221800 +0000" channel="CanalPlus.fr">
-    <title>Artus - Le Show XXL</title>
-    <desc>One Man Show</desc>
-  </programme>
   <programme start="20261111221800 +0000" stop="20261111231200 +0000" channel="CanalPlus.fr">
     <title>Le sens de l'humour</title>
     <desc>Artus</desc>
@@ -4116,6 +4119,10 @@
     <title>Premier League The Big Interview</title>
     <desc>Alan Shearer reflects on a childhood where his eye for goal came naturally, and led to a career that ended with him setting a Premier League goalscoring record that remains unchallenged.</desc>
   </programme>
+  <programme start="20261113163000 +0000" stop="20261113170000 +0000" channel="SkySportsPremierLeague.uk">
+    <title>PL Stories: Mikel Arteta</title>
+    <desc>Explore Mikel Arteta's impact at Arsenal and the managerial approach behind his success, reflecting on how his upbringing and football education in the Basque region shaped his thinking.</desc>
+  </programme>
   <programme start="20261111235000 +0000" stop="20261112021500 +0000" channel="SuperSportAction.za">
     <title>PFL World Tournament</title>
     <desc>Mixed Martial Arts — Women's Flyweight World Title: Liz Carmouche v Jena Bishop 2</desc>
@@ -4352,9 +4359,9 @@
     <title>EFC FIGht Recap</title>
     <desc>Mixed Martial Arts — EFC 138: Bout 8: Matunga Djikasa v Terrence Born</desc>
   </programme>
-  <programme start="20261111220000 +0000" stop="20261111223000 +0000" channel="SuperSportBlitz.za">
-    <title>Sports Bulletin Around The Clock</title>
-    <desc>News — November 12</desc>
+  <programme start="20261113162000 +0000" stop="20261113165000 +0000" channel="SuperSportAction.za">
+    <title>Monday Maul</title>
+    <desc>Rugby — Ep 1</desc>
   </programme>
   <programme start="20261111223000 +0000" stop="20261111230000 +0000" channel="SuperSportBlitz.za">
     <title>Sports Bulletin Around The Clock</title>
@@ -4879,10 +4886,6 @@
   <programme start="20261113160000 +0000" stop="20261113170000 +0000" channel="SuperSportCSN.za">
     <title>Boks Unpacked</title>
     <desc>Rugby — Ep 27</desc>
-  </programme>
-  <programme start="20261111220000 +0000" stop="20261111223000 +0000" channel="SuperSportFootball.za">
-    <title>Serie A: - Impact</title>
-    <desc>Football Serie A — Matchday 11</desc>
   </programme>
   <programme start="20261111223000 +0000" stop="20261111230000 +0000" channel="SuperSportFootball.za">
     <title>Women's Football Weekly</title>
@@ -6040,6 +6043,10 @@
     <title>Mundo da Bola</title>
     <desc>Football — Ep 61</desc>
   </programme>
+  <programme start="20261113162000 +0000" stop="20261113165000 +0000" channel="SuperSportMaximo2.za">
+    <title>PLTV: Stories</title>
+    <desc>PLTV Magazine Show — Ep 24: Mikel Arteta</desc>
+  </programme>
   <programme start="20261111220000 +0000" stop="20261112000000 +0000" channel="SuperSportMaximo360.za">
     <title>LaLiga</title>
     <desc>Football — Matchday 12: Elche v Real Betis</desc>
@@ -6327,6 +6334,10 @@
   <programme start="20261113153000 +0000" stop="20261113163000 +0000" channel="SuperSportMotorsport.za">
     <title>MotoGP</title>
     <desc>Motorcycling — Qatar Moto3</desc>
+  </programme>
+  <programme start="20261113163000 +0000" stop="20261113173000 +0000" channel="SuperSportMotorsport.za">
+    <title>MotoGP</title>
+    <desc>Motorcycling — Qatar Moto2</desc>
   </programme>
   <programme start="20261111220000 +0000" stop="20261112040000 +0000" channel="SuperSportOTT2.za">
     <title>Next Live Event</title>
@@ -6812,9 +6823,13 @@
     <title>SA Disabled Golf</title>
     <desc>Golf — All-Abilities Tour - Johannesburg</desc>
   </programme>
-  <programme start="20261111220000 +0000" stop="20261111223000 +0000" channel="SuperSportPremierLeague.za">
-    <title>PLTV: Rewind</title>
-    <desc>PLTV Magazine Show — Ep 10: Michael Owen my Breakthrough Years</desc>
+  <programme start="20261113163000 +0000" stop="20261113164000 +0000" channel="SuperSportPlay.za">
+    <title>Nations Championship Blitz HL</title>
+    <desc>Rugby — Round 4: Italy v South Africa</desc>
+  </programme>
+  <programme start="20261113164000 +0000" stop="20261113164500 +0000" channel="SuperSportPlay.za">
+    <title>MotoGP Blitz HL</title>
+    <desc>Motorcycling — Qatar Moto3</desc>
   </programme>
   <programme start="20261111223000 +0000" stop="20261111230000 +0000" channel="SuperSportPremierLeague.za">
     <title>PLTV: Netbusters</title>
@@ -7039,6 +7054,18 @@
   <programme start="20261113143000 +0000" stop="20261113163000 +0000" channel="SuperSportPremierLeague.za">
     <title>UEFA Nations League</title>
     <desc>Football — Matchday 5: England v Croatia</desc>
+  </programme>
+  <programme start="20261113163000 +0000" stop="20261113163500 +0000" channel="SuperSportPremierLeague.za">
+    <title>UEFA Nations League Blitz HL</title>
+    <desc>Football — Matchday 5: Albania v Finland</desc>
+  </programme>
+  <programme start="20261113163500 +0000" stop="20261113164000 +0000" channel="SuperSportPremierLeague.za">
+    <title>UEFA Nations League Blitz HL</title>
+    <desc>Football — Matchday 5: Türkiye v Belgium</desc>
+  </programme>
+  <programme start="20261113164000 +0000" stop="20261113164500 +0000" channel="SuperSportPremierLeague.za">
+    <title>UEFA Nations League Blitz HL</title>
+    <desc>Football — Matchday 5: Italy v France</desc>
   </programme>
   <programme start="20261111220000 +0000" stop="20261112000000 +0000" channel="SuperSportPSL.za">
     <title>Carling Knockout Cup</title>
@@ -7548,6 +7575,10 @@
     <title>Class of 2026</title>
     <desc>Cricket — Cricket on 216: Boys Awards</desc>
   </programme>
+  <programme start="20261113163000 +0000" stop="20261113172000 +0000" channel="SuperSportSchools.za">
+    <title>Suzuki Netball Power Series</title>
+    <desc>Netball — Die Hoërskool Menlopark v Hoërskool Zwartkop</desc>
+  </programme>
   <programme start="20261111220000 +0000" stop="20261112000000 +0000" channel="SuperSportTennis.za">
     <title>WTA Finals</title>
     <desc>Tennis — Day 4: Sgl Match 2: Aryna SAbalenka v Mirra Andreeva</desc>
@@ -7987,6 +8018,9 @@
   </programme>
   <programme start="20261113160000 +0000" stop="20261113163000 +0000" channel="TamazightTV.ma@SD">
     <title>صحتي في تغديتي</title>
+  </programme>
+  <programme start="20261113163000 +0000" stop="20261113170000 +0000" channel="TamazightTV.ma@SD">
+    <title>اجيال الغد</title>
   </programme>
   <programme start="20261111220000 +0000" stop="20261111230000 +0000" channel="TF1.fr">
     <title>Esprits criminels - Saison 17</title>
