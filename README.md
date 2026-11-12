@@ -10,7 +10,7 @@ Provider adapters and dated programme data for Specta. Each broadcaster feed kee
 | beIN SPORTS MENA | `data/source-feeds/bein_mena.json` | Source feed snapshot from the existing [beIN scraper](https://github.com/ayoubhaid/specta-bein-epg); 40 source channels and 2,458 programmes at generation time. Source guide IDs are not Specta playlist IDs. |
 | SuperSport | `data/review/supersport_unclassified.json` | 1,630 dated programme rows from the official Media Schedules page. Held for review because source channels have not been matched to the Specta registry or classified as permanent linear versus temporary/OTT feeds. |
 | Sky Sports UK | `data/review/sky_uk_unclassified.json` | Five-day official EPG response: four linear channels and 591 programmes. Source service IDs are retained; Sky Sports+ interactive service is excluded. |
-| CANAL+ France | `data/review/canalplus_fr_unclassified.json` | 220 dated programmes across seven channels extracted from the official France guide. This is France-only coverage, not CANAL+ Afrique. |
+| CANAL+ France | `data/review/canalplus_fr_unclassified.json` | 220 dated programmes across seven channels extracted from the official France guide. This is France-only coverage, not CANAL+ Afrique. |\n| USA guide sources | `providers/usa/` → `data/review/usa_*_unclassified.json` | New XMLTV adapters for TVTV, TV Guide, Gato TV, On TV Tonight and DIRECTV. National guide mode by default; TVTV supports optional state/local market feeds. Kept in review pending live validation and source-term review. |
 
 The SuperSport CSV beside the JSON is a flat audit export. SuperSport and Sky schedule rows that describe matches remain programme listings; they are not imported as football fixture records. CANAL+ and Sky feeds are held for review pending channel mapping. No playlist URLs, stream credentials, or temporary event-feed inventory are included.
 
@@ -32,7 +32,7 @@ python providers/supersport/scraper.py --date 2026-11-08 --days 5 \
   --output data/review/supersport_unclassified.csv \
   --json-output data/review/supersport_unclassified.json
 node providers/sky/scraper.mjs 2026-11-08 5 data/review/sky_uk_unclassified.json
-node providers/canalplus_fr/scraper.mjs data/review/canalplus_fr_unclassified.json
+node providers/canalplus_fr/scraper.mjs data/review/canalplus_fr_unclassified.json\nnpm run scrape:usa -- --source=tvtv.us --days=5\nnode providers/usa/scraper.mjs --source=tvtv.us --markets=all --days=5
 ```
 
 SuperSport dates are broadcaster-local dates in `Africa/Johannesburg`; Sky dates are fetched from the official dated schedule API; CANAL+ guide timestamps are epoch milliseconds. Output timestamps are UTC. All feeds refresh automatically every six hours.
@@ -43,7 +43,7 @@ Run checks:
 cd providers/bein_mena && npm run check
 cd ../..
 python -m unittest discover -s providers/supersport -p 'test_*.py'
-node --test providers/sky/test_scraper.mjs providers/canalplus_fr/test_scraper.mjs
+node --test providers/sky/test_scraper.mjs providers/canalplus_fr/test_scraper.mjs providers/usa/test_scraper.mjs
 ```
 
 ## Channel mapping workflow
@@ -52,7 +52,7 @@ Identity is resolved automatically against the iptv-org registry, so the CSV is 
 
 ## App-facing XMLTV feed
 
-`aggregate/build.mjs` merges the provider feeds into one XMLTV document for Specta. Identity is resolved automatically: every provider channel is matched against the public iptv-org channel registry by name, with provider-specific country hints (QA for beIN, UK for Sky, FR for CANAL+, ZA for SuperSport). Nothing has to be filled in by hand.
+`aggregate/build.mjs` merges the provider feeds into one XMLTV document for Specta. Identity is resolved automatically: every provider channel is matched against the public iptv-org channel registry by name, with provider-specific country hints (QA for beIN, UK for Sky, FR for CANAL+, ZA for SuperSport). USA adapter feeds retain exact upstream iptv-org `.us` channel IDs. Nothing has to be filled in by hand.
 
 - **Input:** `data/source-feeds/*.json` and `data/review/*.json` (schedule-v1 only; files without `schemaVersion: 1` are skipped).
 - **Identity:** the matching iptv-org id (`beINSports1.qa`, `SkySportsMainEvent.uk`, `SuperSportAction.za`). A row in `data/mapping/channel-map.csv` with `canonical_channel_id` overrides the automatic result. `channel_class = temporary_event` is never published.
