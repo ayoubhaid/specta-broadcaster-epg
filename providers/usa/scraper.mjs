@@ -27,8 +27,10 @@ function decodeXml(value = "") {
   }).replace(/<[^>]*>/g, "").trim();
 }
 function attribute(tag, name) {
-  const match = tag.match(new RegExp("\\s" + name + "=[\\"']([^\\"']*)[\\"']", "i"));
-  return match ? decodeXml(match[1]) : "";
+  for (const match of tag.matchAll(/([:\\w-]+)\\s*=\\s*(?:"([^"]*)"|'([^']*)')/g)) {
+    if (match[1].toLowerCase() === name.toLowerCase()) return decodeXml(match[2] ?? match[3] ?? "");
+  }
+  return "";
 }
 function textTag(block, name) {
   const match = block.match(new RegExp("<" + name + "\\b[^>]*>([\\s\\S]*?)</" + name + ">", "i"));
