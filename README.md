@@ -74,9 +74,11 @@ The build applies the app's own XMLTV limits so the file contains nothing the ap
 
 ## Upstream source discovery
 
-The reviewed upstream source catalogue is maintained in [docs/source-catalog.md](docs/source-catalog.md). It documents the relevant `iptv-org/epg` site-specific grabbers, the `iptv-org/api` guide/channel metadata indexes, and EPGTalk's published guide families and reuse restrictions.
+New source research is currently limited to **English-speaking countries and English-language market editions**. Priority markets include the US, UK, Canada, Australia, New Zealand, Ireland, and verified English-language African markets. See [docs/source-catalog.md](docs/source-catalog.md) for the source list, market filters, and onboarding rules.
 
-Important: iptv-org's `guides.json` is source metadata, not a programme schedule. EPGTalk is documented as research-only here: its README restricts commercial/ad-supported redistribution and bundling without written permission, so its XMLTV files are not part of this repository's automated pipeline.
+The catalogue covers iptv-org's site-specific grabbers and API metadata, plus EPGTalk's US/UK guide candidates. EPGTalk remains research-only: its README restricts commercial/ad-supported redistribution and bundling without written permission. No EPGTalk feed is included in the automated workflow.
+
+Existing adapters outside this research scope are retained unchanged; this scope change does not delete or disable existing feeds.
 
 ## Sources and limits
 
