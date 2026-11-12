@@ -55,7 +55,11 @@ Keep each country/market in its own output during evaluation. Record country, la
 
 ## USA adapter implementation status
 
-The repository now includes `providers/usa/scraper.mjs`, a shared XMLTV parser and five US source configurations: TVTV, TV Guide, Gato TV, On TV Tonight and DIRECTV. TVTV supports the national guide and individual state markets (`us-ca`, `us-ny`, etc.), including an opt-in all-50-states mode. It accepts only channel IDs ending in `.us`, preserves those exact IDs as canonical mappings, parses XMLTV timezone offsets, deduplicates overlapping programmes, and writes one review JSON per source.\n\nRun `npm run scrape:usa` for national source candidates, or `node providers/usa/scraper.mjs --source=tvtv.us --markets=all --days=5` for the national guide plus all state markets. The scraper is deliberately not part of the six-hour production refresh workflow yet: live endpoint checks, source terms, and channel coverage must be confirmed before publishing US data to the app-facing guide.\n\n
+The repository now includes `providers/usa/scraper.mjs`, a shared XMLTV parser and five US source configurations: TVTV, TV Guide, Gato TV, On TV Tonight and DIRECTV. TVTV supports the national guide and individual state markets (`us-ca`, `us-ny`, etc.), including an opt-in all-50-states mode. It accepts only channel IDs ending in `.us`, preserves those exact IDs as canonical mappings, parses XMLTV timezone offsets, deduplicates overlapping programmes, and writes one review JSON per source.
+
+Run `npm run scrape:usa` for national source candidates, or `node providers/usa/scraper.mjs --source=tvtv.us --markets=all --days=5` for the national guide plus all state markets. The scraper is deliberately not part of the six-hour production refresh workflow yet: live endpoint checks, source terms, and channel coverage must be confirmed before publishing US data to the app-facing guide.
+
+
 ## Additional English-market candidates
 
 | Upstream provider/site | Market | Reference | Priority / notes |
