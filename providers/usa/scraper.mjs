@@ -27,15 +27,15 @@ function decodeXml(value = "") {
   }).replace(/<[^>]*>/g, "").trim();
 }
 function attribute(tag, name) {
-  const match = tag.match(new RegExp("\\\\s" + name + "=[\\\"']([^\\\"']*)[\\\"']", "i"));
+  const match = tag.match(new RegExp("\\s" + name + "=[\\"']([^\\"']*)[\\"']", "i"));
   return match ? decodeXml(match[1]) : "";
 }
 function textTag(block, name) {
-  const match = block.match(new RegExp("<" + name + "\\\\b[^>]*>([\\\\s\\\\S]*?)</" + name + ">", "i"));
+  const match = block.match(new RegExp("<" + name + "\\b[^>]*>([\\s\\S]*?)</" + name + ">", "i"));
   return match ? decodeXml(match[1]) : "";
 }
 export function parseXmltvTimestamp(value) {
-  const m = String(value || "").trim().match(/^(\\d{4})(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{2})(?:\\s*([+-])(\\d{2})(\\d{2}))?$/);
+  const m = String(value || "").trim().match(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})(?:\s*([+-])(\d{2})(\d{2}))?$/);
   if (!m) return null;
   const [, y, mo, d, h, mi, s, sign, oh = "00", om = "00"] = m;
   const local = Date.UTC(+y, +mo - 1, +d, +h, +mi, +s);
@@ -51,16 +51,16 @@ export function sourceUrl(source, market = "us") {
 }
 export function parseXmltv(xml, options) {
   const { source, sourceUrl: url, fetchedAt, market = "us", days = 5 } = options;
-  if (typeof xml !== "string" || !/<tv\\b/i.test(xml)) throw new Error("Invalid XMLTV document");
+  if (typeof xml !== "string" || !/<tv\b/i.test(xml)) throw new Error("Invalid XMLTV document");
   const channels = new Map();
-  for (const m of xml.matchAll(/<channel\\b([^>]*)>([\\s\\S]*?)<\\/channel>/gi)) {
+  for (const m of xml.matchAll(/<channel\b([^>]*)>([\s\S]*?)<\/channel>/gi)) {
     const id = attribute(m[1], "id");
-    if (!id || !/\\.us$/i.test(id)) continue;
-    const names = [...m[2].matchAll(/<display-name\\b[^>]*>([\\s\\S]*?)<\\/display-name>/gi)].map(x => decodeXml(x[1])).filter(Boolean);
+    if (!id || !/\.us$/i.test(id)) continue;
+    const names = [...m[2].matchAll(/<display-name\b[^>]*>([\s\S]*?)<\/display-name>/gi)].map(x => decodeXml(x[1])).filter(Boolean);
     channels.set(id, { id, name: names[0] || id, region: market.toUpperCase(), canonicalChannelId: id, programmes: [] });
   }
   const now = Math.floor(Date.now() / 1000);
-  for (const m of xml.matchAll(/<programme\\b([^>]*)>([\\s\\S]*?)<\\/programme>/gi)) {
+  for (const m of xml.matchAll(/<programme\b([^>]*)>([\s\S]*?)<\/programme>/gi)) {
     const channelId = attribute(m[1], "channel");
     const channel = channels.get(channelId);
     if (!channel) continue;
@@ -97,7 +97,7 @@ async function fetchMarket(source, market, days) {
   });
   if (!response.ok) throw new Error(source + " " + market + ": HTTP " + response.status);
   const xml = await response.text();
-  if (xml.length < 100 || !/<tv\\b/i.test(xml)) throw new Error(source + " " + market + ": invalid XMLTV response");
+  if (xml.length < 100 || !/<tv\b/i.test(xml)) throw new Error(source + " " + market + ": invalid XMLTV response");
   return parseXmltv(xml, { source, sourceUrl: url, fetchedAt: new Date().toISOString(), market, days });
 }
 export async function scrape({ source = "all", markets = "us", days = 5, outputDir = "data/review" } = {}) {
@@ -140,7 +140,7 @@ export async function scrape({ source = "all", markets = "us", days = 5, outputD
     };
     await mkdir(outputDir, { recursive: true });
     const output = path.join(outputDir, "usa_" + key.replace(/[^a-z0-9]+/gi, "_") + "_unclassified.json");
-    await writeFile(output, JSON.stringify(document, null, 2) + "\\n", "utf8");
+    await writeFile(output, JSON.stringify(document, null, 2) + "\n", "utf8");
     outputs.push({ source: key, output, channels: channels.length, programmes: programmesFound, successfulRequests, failedRequests, errors });
   }
   return outputs;
