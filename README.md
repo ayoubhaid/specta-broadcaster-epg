@@ -72,6 +72,12 @@ Enable **GitHub Pages** for this repository (branch `main`, folder `/docs`). The
 
 The build applies the app's own XMLTV limits so the file contains nothing the app would discard: 36 hours ahead are used, at most 80 programmes per channel, descriptions are capped at 400 characters, and entries longer than 12 hours are rejected. This repository does not change the app; it only publishes a file the app already reads.
 
+## Upstream source discovery
+
+The reviewed upstream source catalogue is maintained in [docs/source-catalog.md](docs/source-catalog.md). It documents the relevant `iptv-org/epg` site-specific grabbers, the `iptv-org/api` guide/channel metadata indexes, and EPGTalk's published guide families and reuse restrictions.
+
+Important: iptv-org's `guides.json` is source metadata, not a programme schedule. EPGTalk is documented as research-only here: its README restricts commercial/ad-supported redistribution and bundling without written permission, so its XMLTV files are not part of this repository's automated pipeline.
+
 ## Sources and limits
 
 - beIN: public MENA TV guide endpoints documented in `providers/bein_mena/README.md`; the endpoint contract may change.
