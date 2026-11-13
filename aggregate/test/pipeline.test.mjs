@@ -177,3 +177,91 @@ test("a broken provider does not stop the others", () => {
   assert.ok(report.providers[0].error, "the broken provider reports an error");
   assert.equal(report.providers[1].publishedChannels, 1);
 });
+
+test("matching channels from different providers merge programmes under one canonical ID", () => {
+  const first = {
+    provider: "provider_a",
+    channels: [{
+      id: "source-a",
+      name: "Channel One",
+      programmes: [{ title: "Morning News", startEpochSeconds: NOW, endEpochSeconds: NOW + 1800 }]
+    }]
+  };
+  const second = {
+    provider: "provider_b",
+    channels: [{
+      id: "source-b",
+      name: "Channel One",
+      programmes: [{ title: "Afternoon Show", startEpochSeconds: NOW + 1800, endEpochSeconds: NOW + 3600 }]
+    }]
+  };
+  const mapping = mappingFor(
+    ["provider_a:source-a", "channel.one", "permanent_linear"],
+    ["provider_b:source-b", "channel.one", "permanent_linear"]
+  );
+  const { channels, report } = buildFeed({ feeds: [first, second], mapping, now: NOW });
+  assert.equal(channels.length, 1);
+  assert.equal(channels[0].id, "channel.one");
+  assert.equal(channels[0].programmes.length, 2);
+  assert.equal(report.held.collisions.length, 0);
+  assert.equal(report.providers[0].publishedChannels, 1);
+  assert.equal(report.providers[1].publishedChannels, 1);
+});
+
+test("trusted upstream country IDs publish only when the suffix matches the feed market", () => {
+  const valid = {
+    provider: "market_uk_ontvtonight",
+    region: "GB",
+    channels: [{
+      id: "BBCOne.uk",
+      canonicalChannelId: "BBCOne.uk",
+      name: "BBC One",
+      programmes: [{ title: "News", startEpochSeconds: NOW, endEpochSeconds: NOW + 1800 }]
+    }]
+  };
+  const invalid = {
+    provider: "market_uk_ontvtonight",
+    region: "GB",
+    channels: [{
+      id: "France2.fr",
+      canonicalChannelId: "France2.fr",
+      name: "France 2",
+      programmes: [{ title: "News", startEpochSeconds: NOW, endEpochSeconds: NOW + 1800 }]
+    }]
+  };
+  const { channels, report } = buildFeed({
+    feeds: [valid, invalid],
+    mapping: new Map(),
+    now: NOW
+  });
+  assert.deepEqual(channels.map(channel => channel.id), ["BBCOne.uk"]);
+  assert.equal(report.resolved[0].method, "upstream-id");
+  assert.equal(report.held.unresolved.length, 1);
+});
+
+test("near-identical schedules from different providers are deduplicated within two minutes", () => {
+  const first = {
+    provider: "provider_a",
+    channels: [{
+      id: "source-a",
+      name: "Channel One",
+      programmes: [{ title: "Evening News", startEpochSeconds: NOW, endEpochSeconds: NOW + 1800 }]
+    }]
+  };
+  const second = {
+    provider: "provider_b",
+    channels: [{
+      id: "source-b",
+      name: "Channel One",
+      programmes: [{ title: "Evening News", startEpochSeconds: NOW + 60, endEpochSeconds: NOW + 1860 }]
+    }]
+  };
+  const mapping = mappingFor(
+    ["provider_a:source-a", "channel.one", "permanent_linear"],
+    ["provider_b:source-b", "channel.one", "permanent_linear"]
+  );
+  const { channels } = buildFeed({ feeds: [first, second], mapping, now: NOW });
+  assert.equal(channels.length, 1);
+  assert.equal(channels[0].programmes.length, 1);
+  assert.equal(channels[0].programmes[0].start, NOW);
+});

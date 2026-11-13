@@ -4,6 +4,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const BASE = "https://iptv-org.github.io/epg/guides";
+const RESTRICTED_CHANNEL = /\b(adult|xxx|porn|playboy|hustler|erotic|casino|gambling|sportsbook|betting|poker|lottery)\b/i;
+const RESTRICTED_CATEGORY = /\b(adult|xxx|porn|erotic|casino|gambling|sportsbook|betting|poker|lottery)\b/i;
 const STATES = "al ak az ar ca co ct de dc fl ga hi id il in ia ks ky la me md ma mi mn ms mo mt ne nv nh nj nm ny nc nd oh ok or pa ri sc sd tn tx ut vt va wa wv wi wy".split(" ");
 export const SOURCES = {
   "tvtv.us": { name: "TVTV US", stateMarkets: true },
@@ -59,7 +61,9 @@ export function parseXmltv(xml, options) {
     const id = attribute(m[1], "id");
     if (!id || !/\.us$/i.test(id)) continue;
     const names = [...m[2].matchAll(/<display-name\b[^>]*>([\s\S]*?)<\/display-name>/gi)].map(x => decodeXml(x[1])).filter(Boolean);
-    channels.set(id, { id, name: names[0] || id, region: market.toUpperCase(), canonicalChannelId: id, programmes: [] });
+    const name = names[0] || id;
+    if (RESTRICTED_CHANNEL.test(name)) continue;
+    channels.set(id, { id, name, region: market.toUpperCase(), canonicalChannelId: id, programmes: [] });
   }
   const now = Math.floor(Date.now() / 1000);
   for (const m of xml.matchAll(/<programme\b([^>]*)>([\s\S]*?)<\/programme>/gi)) {
@@ -69,7 +73,8 @@ export function parseXmltv(xml, options) {
     const start = parseXmltvTimestamp(attribute(m[1], "start"));
     const end = parseXmltvTimestamp(attribute(m[1], "stop"));
     const title = textTag(m[2], "title");
-    if (!start || !end || end <= start || !title || start < now - 43200 || start > now + days * 86400) continue;
+    const category = textTag(m[2], "category");
+    if (!start || !end || end <= start || !title || RESTRICTED_CATEGORY.test(category) || start < now - 43200 || start > now + days * 86400) continue;
     channel.programmes.push({
       id: stableId(source, channelId, start, title), title, description: textTag(m[2], "desc"),
       start: new Date(start * 1000).toISOString(), end: new Date(end * 1000).toISOString(),
@@ -108,44 +113,73 @@ export async function scrape({ source = "all", markets = "us", days = 5, outputD
   selected.forEach(key => { if (!SOURCES[key]) throw new Error("Unknown source: " + key); });
   const marketList = markets === "all" ? ["us", ...STATES.map(s => "us-" + s)] : markets.split(",").map(x => x.trim()).filter(Boolean);
   if (marketList.some(m => !/^us(?:-[a-z]{2})?$/.test(m))) throw new Error("Markets must be us or us-<state>");
+
   const outputs = [];
+  const errors = [];
   for (const key of selected) {
-    const list = SOURCES[key].stateMarkets ? marketList : ["us"];
-    const grouped = new Map();
-    let successfulRequests = 0, failedRequests = 0;
-    const errors = [];
-    for (const market of list) {
-      try {
-        const feed = await fetchMarket(key, market, days);
-        successfulRequests++;
-        for (const channel of feed.channels) {
-          const current = grouped.get(channel.id) || { ...channel, programmes: [] };
-          const seen = new Set(current.programmes.map(p => p.id));
-          for (const p of channel.programmes) if (!seen.has(p.id)) current.programmes.push(p);
-          current.programmes.sort((a, b) => a.startEpochSeconds - b.startEpochSeconds);
-          grouped.set(channel.id, current);
+    try {
+      const list = SOURCES[key].stateMarkets ? marketList : ["us"];
+      const grouped = new Map();
+      let successfulRequests = 0, failedRequests = 0;
+      const sourceErrors = [];
+      for (const market of list) {
+        try {
+          const feed = await fetchMarket(key, market, days);
+          successfulRequests++;
+          for (const channel of feed.channels) {
+            const current = grouped.get(channel.id) || { ...channel, programmes: [] };
+            const seen = new Set(current.programmes.map(p => p.id));
+            for (const programme of channel.programmes) if (!seen.has(programme.id)) current.programmes.push(programme);
+            current.programmes.sort((a, b) => a.startEpochSeconds - b.startEpochSeconds);
+            grouped.set(channel.id, current);
+          }
+        } catch (error) {
+          failedRequests++;
+          sourceErrors.push({ market, error: error.message });
         }
-      } catch (error) { failedRequests++; errors.push({ market, error: error.message }); }
-      await new Promise(resolve => setTimeout(resolve, 250));
+        await new Promise(resolve => setTimeout(resolve, 250));
+      }
+
+      const channels = [...grouped.values()];
+      const programmesFound = channels.reduce((sum, channel) => sum + channel.programmes.length, 0);
+      if (!successfulRequests || !programmesFound) {
+        errors.push({ source: key, errors: sourceErrors, message: "No usable programme data; previous output preserved." });
+        continue;
+      }
+
+      const document = {
+        schemaVersion: 1,
+        provider: "usa_" + key.replace(/[^a-z0-9]+/gi, "_"),
+        providerName: SOURCES[key].name,
+        sourcePriority: 3,
+        sourceUrl: sourceUrl(key),
+        region: "US",
+        timezone: "UTC",
+        generatedAt: new Date().toISOString(),
+        coverage: {
+          daysRequested: days,
+          channelsFound: channels.length,
+          programmesFound,
+          successfulRequests,
+          failedRequests,
+          markets: list
+        },
+        mapping: {
+          canonicalChannelIdsMapped: channels.length,
+          canonicalChannelIdsMissing: 0,
+          note: "Only upstream XMLTV IDs ending in .us are retained; IDs are preserved exactly."
+        },
+        channels: channels.sort((a, b) => a.name.localeCompare(b.name))
+      };
+      await mkdir(outputDir, { recursive: true });
+      const output = path.join(outputDir, "usa_" + key.replace(/[^a-z0-9]+/gi, "_") + "_unclassified.json");
+      await writeFile(output, JSON.stringify(document, null, 2) + "\n", "utf8");
+      outputs.push({ source: key, output, channels: channels.length, programmes: programmesFound, successfulRequests, failedRequests });
+    } catch (error) {
+      errors.push({ source: key, message: error.message });
     }
-    const channels = [...grouped.values()];
-    const programmesFound = channels.reduce((n, c) => n + c.programmes.length, 0);
-    if (!successfulRequests || !programmesFound) throw new Error(key + ": no usable programme data; output preserved. " + errors.map(x => x.error).join("; "));
-    const document = {
-      schemaVersion: 1, provider: "usa_" + key.replace(/[^a-z0-9]+/gi, "_"),
-      providerName: SOURCES[key].name, sourceUrl: sourceUrl(key), region: "US", timezone: "UTC",
-      generatedAt: new Date().toISOString(),
-      coverage: { daysRequested: days, channelsFound: channels.length, programmesFound, successfulRequests, failedRequests, markets: list },
-      mapping: { canonicalChannelIdsMapped: channels.length, canonicalChannelIdsMissing: 0,
-        note: "Upstream iptv-org XMLTV IDs are preserved as canonical IDs." },
-      channels: channels.sort((a, b) => a.name.localeCompare(b.name))
-    };
-    await mkdir(outputDir, { recursive: true });
-    const output = path.join(outputDir, "usa_" + key.replace(/[^a-z0-9]+/gi, "_") + "_unclassified.json");
-    await writeFile(output, JSON.stringify(document, null, 2) + "\n", "utf8");
-    outputs.push({ source: key, output, channels: channels.length, programmes: programmesFound, successfulRequests, failedRequests, errors });
   }
-  return outputs;
+  return { outputs, errors };
 }
 async function main() {
   const args = Object.fromEntries(process.argv.slice(2).map(arg => {
@@ -155,6 +189,7 @@ async function main() {
   const result = await scrape({ source: args.source || "all", markets: args.markets || "us",
     days: Number(args.days || 5), outputDir: args.output || "data/review" });
   console.log(JSON.stringify(result, null, 2));
+  if (!result.outputs.length) throw new Error("No US EPG source returned usable programme data.");
 }
 if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
   main().catch(error => { console.error("US EPG scrape failed: " + error.message); process.exitCode = 1; });

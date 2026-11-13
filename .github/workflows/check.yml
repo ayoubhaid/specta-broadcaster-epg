@@ -25,12 +25,14 @@ jobs:
         run: node --check providers/snrt_ma/scraper.mjs
       - name: Check USA scraper syntax
         run: node --check providers/usa/scraper.mjs
+      - name: Check market scraper syntax
+        run: node --check providers/markets/scraper.mjs
+      - name: Check aggregation pipeline syntax
+        run: node --check aggregate/build.mjs && node --check aggregate/lib/pipeline.mjs && node --check aggregate/lib/merge.mjs
       - name: Test JavaScript broadcaster adapters
-        run: node --test providers/sky/test_scraper.mjs providers/canalplus_fr/test_scraper.mjs providers/snrt_ma/test_scraper.mjs providers/usa/test_scraper.mjs
+        run: node --test providers/sky/test_scraper.mjs providers/canalplus_fr/test_scraper.mjs providers/snrt_ma/test_scraper.mjs providers/usa/test_scraper.mjs providers/markets/test_scraper.mjs
       - name: Test SuperSport adapter
         run: python -m unittest discover -s providers/supersport -p 'test_*.py'
-      - name: Check aggregation pipeline syntax
-        run: node --check aggregate/build.mjs
       - name: Test aggregation pipeline
         run: node --test aggregate/test/schedule.test.mjs aggregate/test/mapping.test.mjs aggregate/test/registry.test.mjs aggregate/test/pipeline.test.mjs aggregate/test/xmltv.test.mjs
       - name: Build feed into a scratch directory

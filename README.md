@@ -88,3 +88,24 @@ Existing adapters outside this research scope are retained unchanged; this scope
 - CANAL+ France: [Programme TV](https://www.canalplus.com/live-tv/programme-tv/); the page embeds dated channel programme objects. This adapter covers the France guide only.
 - ESPN and other broadcasters are not yet in the refresh set: an official channel schedule source must be verified before adding a feed. Sports fixture APIs and event calendars are not substitutes for linear channel listings.
 - Public guide data availability and provider terms may change. Keep request rates conservative and validate each generated feed before publishing it for app consumption.
+
+
+## Expanded English-market XMLTV imports
+
+The scheduled refresh now also evaluates the following country-specific XMLTV guide outputs from the iptv-org EPG project:
+
+| Market | Guide source |
+|---|---|
+| United Kingdom | On TV Tonight |
+| Ireland | On TV Tonight |
+| Australia | On TV Tonight |
+| Canada | TVTV |
+| South Africa, Nigeria, Ghana, Kenya, Uganda, Zambia, Zimbabwe, Botswana, Namibia | DStv |
+
+The USA adapter also refreshes its configured TVTV, TV Guide, Gato TV, On TV Tonight and DIRECTV guide outputs.
+
+Market imports are kept as separate schedule-v1 review feeds in `data/review/`. Only channels with a country-matching upstream XMLTV ID are retained by the market adapter. The aggregation pipeline can combine programmes from different providers when they resolve to the same canonical channel ID; duplicate source channels within one provider remain reported as collisions.
+
+These feeds are refreshed independently: an unavailable market source does not prevent successful sources from updating, and its last good output is preserved. The generated `docs/coverage.json` report records per-provider channel and programme counts, unresolved channels and rejected programme rows.
+
+Upstream guide outputs are community-generated from site-specific grabbers. Their availability and source-site terms can change, so review the generated coverage report and upstream source requirements before treating every imported channel as a permanent production mapping.

@@ -52,13 +52,17 @@ jobs:
         run: node providers/sky/scraper.mjs "$(date -u +%F)" 5 data/review/sky_uk_unclassified.json
       - name: Refresh CANAL+ France review feed
         run: node providers/canalplus_fr/scraper.mjs data/review/canalplus_fr_unclassified.json
+      - name: Refresh USA XMLTV sources
+        run: npm run scrape:usa -- --days=5
+      - name: Refresh English-market XMLTV sources
+        run: npm run scrape:markets -- --days=5
       - name: Build app-facing XMLTV feed
         run: node aggregate/build.mjs
       - name: Commit changed provider data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/source-feeds/bein_mena.json data/source-feeds/snrt_ma.json data/review/supersport_unclassified.json data/review/supersport_unclassified.csv data/review/sky_uk_unclassified.json data/review/canalplus_fr_unclassified.json docs
+          git add data/source-feeds/bein_mena.json data/source-feeds/snrt_ma.json data/review/supersport_unclassified.json data/review/supersport_unclassified.csv data/review/sky_uk_unclassified.json data/review/canalplus_fr_unclassified.json data/review/usa_*.json data/review/market_*_unclassified.json docs
           if git diff --staged --quiet; then
             echo "No provider feed changes"
           else
