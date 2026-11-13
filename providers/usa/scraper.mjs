@@ -146,6 +146,7 @@ export async function scrape({ source = "all", markets = "us", days = 5, outputD
         schemaVersion: 1,
         provider: "usa_" + key.replace(/[^a-z0-9]+/gi, "_"),
         providerName: SOURCES[key].name,
+        sourcePriority: 3,
         sourceUrl: sourceUrl(key),
         region: "US",
         timezone: "UTC",
