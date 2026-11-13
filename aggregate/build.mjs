@@ -102,6 +102,10 @@ async function loadFeeds(directories, warn) {
       feeds.push({ ...document, file: path.relative(ROOT, file).replaceAll("\\", "/") });
     }
   }
+  feeds.sort((a, b) =>
+    (Number(a.sourcePriority ?? 1) - Number(b.sourcePriority ?? 1)) ||
+    String(a.provider).localeCompare(String(b.provider))
+  );
   return feeds;
 }
 
