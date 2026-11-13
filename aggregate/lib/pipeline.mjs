@@ -1,14 +1,7 @@
 /**
- * Merges every provider feed into one list of app-facing channels.
- *
- * Identity, in order of precedence:
- * 1. a reviewed row in data/mapping/channel-map.csv (canonical_channel_id) — manual always wins
- * 2. automatic resolution against the iptv-org registry (config.resolve)
- * 3. diagnostic mode: namespaced id, only for smoke tests
- *
- * A row marked channel_class=temporary_event is never published, mapped or not.
- * Two source channels claiming the same id are a collision: the first is kept, the second reported.
- * Window, per-channel cap and the 12-hour limit match what the app's XMLTV reader keeps.
+ * Builds one app-facing channel per canonical ID while combining programmes
+ * from independent provider feeds. Duplicate source channels within one
+ * provider remain collisions; matching channels from different providers merge.
  */
 
 import { mergeChannel } from "./merge.mjs";
@@ -21,11 +14,34 @@ export const DEFAULT_OPTIONS = {
   maxPerChannel: 80,
   maxDurationSeconds: 12 * 3600,
   descriptionMax: 400,
-  /** Diagnostic mode: publish unresolved channels under a namespaced id so the pipeline can be tested. */
   allowUnmapped: false,
-  /** (feed, channel) -> { id, method } | { reason, candidates } | null */
   resolve: null,
 };
+
+const MARKET_SUFFIXES = {
+  US: [".us"],
+  GB: [".uk", ".gb"],
+  IE: [".ie"],
+  AU: [".au"],
+  CA: [".ca"],
+  ZA: [".za"],
+  NG: [".ng"],
+  GH: [".gh"],
+  KE: [".ke"],
+  UG: [".ug"],
+  ZM: [".zm"],
+  ZW: [".zw"],
+  BW: [".bw"],
+  NA: [".na"],
+};
+
+function trustedUpstreamId(feed, channel) {
+  if (!(feed.provider?.startsWith("usa_") || feed.provider?.startsWith("market_"))) return "";
+  const id = String(channel.canonicalChannelId ?? "");
+  if (!id || id !== channel.id) return "";
+  const suffixes = MARKET_SUFFIXES[String(feed.region ?? "").toUpperCase()] ?? [];
+  return suffixes.some(suffix => id.toLowerCase().endsWith(suffix)) ? id : "";
+}
 
 export function buildFeed({ feeds, mapping, now, options = {} }) {
   const config = { ...DEFAULT_OPTIONS, ...options };
@@ -40,6 +56,7 @@ export function buildFeed({ feeds, mapping, now, options = {} }) {
   };
 
   const channels = new Map();
+  // canonical ID (case-insensitive) -> provider -> source channel key
   const owners = new Map();
   const report = {
     generatedAt: new Date(now * 1000).toISOString(),
@@ -84,10 +101,17 @@ export function buildFeed({ feeds, mapping, now, options = {} }) {
 
         let publishId = row?.canonicalChannelId ?? "";
         let method = publishId ? "manual" : "";
+
+        if (!publishId) {
+          publishId = trustedUpstreamId(feed, channel);
+          if (publishId) method = "upstream-id";
+        }
+
         if (!publishId && config.allowUnmapped) {
           publishId = key;
           method = "diagnostic";
         }
+
         if (!publishId && config.resolve) {
           const result = config.resolve(feed, channel);
           if (result?.id) {
@@ -105,30 +129,39 @@ export function buildFeed({ feeds, mapping, now, options = {} }) {
             continue;
           }
         }
+
         if (!publishId) {
           report.held.unresolved.push({ key, provider: feed.provider, name: channel.name, reason: "unmapped", candidates: [] });
           continue;
         }
 
-        const owner = owners.get(publishId.toLowerCase());
-        if (owner && owner !== key) {
+        const canonicalKey = publishId.toLowerCase();
+        let providerOwners = owners.get(canonicalKey);
+        if (!providerOwners) {
+          providerOwners = new Map();
+          owners.set(canonicalKey, providerOwners);
+        }
+        const previousKey = providerOwners.get(feed.provider);
+        if (previousKey && previousKey !== key) {
           report.held.collisions.push({
             canonicalChannelId: publishId,
-            kept: owner,
+            kept: previousKey,
             dropped: key,
             name: channel.name,
+            provider: feed.provider,
           });
           continue;
         }
-        owners.set(publishId.toLowerCase(), key);
+        providerOwners.set(feed.provider, key);
 
-        let target = channels.get(publishId);
+        let target = channels.get(canonicalKey);
         if (!target) {
           target = { id: publishId, name: channel.name, programmes: [] };
-          channels.set(publishId, target);
+          channels.set(canonicalKey, target);
         }
+
         stat.publishedChannels++;
-        report.resolved.push({ key, name: channel.name, id: publishId, method });
+        report.resolved.push({ key, name: channel.name, id: target.id, method, provider: feed.provider });
 
         for (const programme of channel.programmes ?? []) {
           const normalized = normalizeProgramme(programme, limits);
