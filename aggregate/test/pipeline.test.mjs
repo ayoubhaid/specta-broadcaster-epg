@@ -238,3 +238,30 @@ test("trusted upstream country IDs publish only when the suffix matches the feed
   assert.equal(report.resolved[0].method, "upstream-id");
   assert.equal(report.held.unresolved.length, 1);
 });
+
+test("near-identical schedules from different providers are deduplicated within two minutes", () => {
+  const first = {
+    provider: "provider_a",
+    channels: [{
+      id: "source-a",
+      name: "Channel One",
+      programmes: [{ title: "Evening News", startEpochSeconds: NOW, endEpochSeconds: NOW + 1800 }]
+    }]
+  };
+  const second = {
+    provider: "provider_b",
+    channels: [{
+      id: "source-b",
+      name: "Channel One",
+      programmes: [{ title: "Evening News", startEpochSeconds: NOW + 60, endEpochSeconds: NOW + 1860 }]
+    }]
+  };
+  const mapping = mappingFor(
+    ["provider_a:source-a", "channel.one", "permanent_linear"],
+    ["provider_b:source-b", "channel.one", "permanent_linear"]
+  );
+  const { channels } = buildFeed({ feeds: [first, second], mapping, now: NOW });
+  assert.equal(channels.length, 1);
+  assert.equal(channels[0].programmes.length, 1);
+  assert.equal(channels[0].programmes[0].start, NOW);
+});
