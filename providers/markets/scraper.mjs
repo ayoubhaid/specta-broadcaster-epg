@@ -124,6 +124,7 @@ export function parseXmltv(xml, { sourceId, fetchedAt, days = 5 } = {}) {
     schemaVersion: 1,
     provider: "market_" + sourceId,
     providerName: source.name,
+    sourcePriority: 3,
     sourceUrl: sourceUrl(sourceId),
     region: source.region,
     timezone: "XMLTV-offset",
