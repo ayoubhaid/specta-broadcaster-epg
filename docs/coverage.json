@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-13T06:41:50.000Z",
+  "generatedAt": "2026-11-13T19:40:44.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-13T04:41:50.000Z",
-    "to": "2026-11-14T22:41:50.000Z",
+    "from": "2026-11-13T17:40:44.000Z",
+    "to": "2026-11-15T11:40:44.000Z",
     "maxPerChannel": 80
   },
   "totals": {
-    "channels": 63,
-    "programmes": 2269
+    "channels": 66,
+    "programmes": 2280
   },
   "providers": [
     {
@@ -16,16 +16,16 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2529,
+      "programmes": 2563,
       "publishedChannels": 30,
-      "publishedProgrammes": 1672,
+      "publishedProgrammes": 1705,
       "autoResolved": 30,
       "rejected": {
         "row": 0,
         "title": 0,
         "time": 0,
         "range": 0,
-        "duration": 0
+        "duration": 1
       },
       "error": null
     },
@@ -34,9 +34,9 @@
       "providerName": "SNRT Morocco",
       "file": "data/source-feeds/snrt_ma.json",
       "channels": 7,
-      "programmes": 2021,
+      "programmes": 1908,
       "publishedChannels": 7,
-      "publishedProgrammes": 1991,
+      "publishedProgrammes": 1878,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -88,9 +88,9 @@
       "providerName": "SuperSport",
       "file": "data/review/supersport_unclassified.json",
       "channels": 62,
-      "programmes": 7751,
+      "programmes": 7790,
       "publishedChannels": 26,
-      "publishedProgrammes": 2935,
+      "publishedProgrammes": 2946,
       "autoResolved": 26,
       "rejected": {
         "row": 0,
@@ -891,6 +891,6 @@
     "title": 0,
     "time": 0,
     "range": 0,
-    "duration": 30
+    "duration": 31
   }
 }
