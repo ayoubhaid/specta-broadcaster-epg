@@ -176,7 +176,7 @@ export async function scrape({ sources = "all", days = 5, outputDir = "data/revi
   for (const sourceId of selected) {
     try {
       const feed = await fetchSource(sourceId, days);
-      const output = path.join(outputDir, sourceId + "_unclassified.json");
+      const output = path.join(outputDir, "market_" + sourceId + "_unclassified.json");
       await writeFile(output, JSON.stringify(feed, null, 2) + "\n", "utf8");
       outputs.push({
         source: sourceId,
