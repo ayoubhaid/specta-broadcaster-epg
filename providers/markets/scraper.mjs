@@ -4,6 +4,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const BASE = "https://iptv-org.github.io/epg/guides";
+const RESTRICTED_CHANNEL = /\b(adult|xxx|porn|playboy|hustler|erotic|casino|gambling|sportsbook|betting|poker|lottery)\b/i;
+const RESTRICTED_CATEGORY = /\b(adult|xxx|porn|erotic|casino|gambling|sportsbook|betting|poker|lottery)\b/i;
 
 export const SOURCES = {
   uk_ontvtonight: { market: "uk", site: "ontvtonight.com", name: "On TV Tonight UK", region: "GB", suffixes: [".uk", ".gb"] },
@@ -77,9 +79,11 @@ export function parseXmltv(xml, { sourceId, fetchedAt, days = 5 } = {}) {
     if (!id || !source.suffixes.some(suffix => id.toLowerCase().endsWith(suffix))) continue;
     const names = [...match[2].matchAll(/<display-name\b[^>]*>([\s\S]*?)<\/display-name>/gi)]
       .map(item => decodeXml(item[1])).filter(Boolean);
+    const name = names[0] || id;
+    if (RESTRICTED_CHANNEL.test(name)) continue;
     channels.set(id, {
       id,
-      name: names[0] || id,
+      name,
       region: source.region,
       canonicalChannelId: id,
       programmes: []
@@ -94,7 +98,8 @@ export function parseXmltv(xml, { sourceId, fetchedAt, days = 5 } = {}) {
     const start = parseXmltvTimestamp(attribute(match[1], "start"));
     const end = parseXmltvTimestamp(attribute(match[1], "stop"));
     const title = textTag(match[2], "title");
-    if (!start || !end || end <= start || !title || start < now - 43200 || start > now + days * 86400) continue;
+    const category = textTag(match[2], "category");
+    if (!start || !end || end <= start || !title || RESTRICTED_CATEGORY.test(category) || start < now - 43200 || start > now + days * 86400) continue;
 
     channel.programmes.push({
       id: stableId(sourceId, channelId, start, title),
