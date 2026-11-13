@@ -28,7 +28,7 @@ jobs:
       - name: Check market scraper syntax
         run: node --check providers/markets/scraper.mjs
       - name: Check aggregation pipeline syntax
-        run: node --check aggregate/build.mjs && node --check aggregate/lib/pipeline.mjs
+        run: node --check aggregate/build.mjs && node --check aggregate/lib/pipeline.mjs && node --check aggregate/lib/merge.mjs
       - name: Test JavaScript broadcaster adapters
         run: node --test providers/sky/test_scraper.mjs providers/canalplus_fr/test_scraper.mjs providers/snrt_ma/test_scraper.mjs providers/usa/test_scraper.mjs providers/markets/test_scraper.mjs
       - name: Test SuperSport adapter
