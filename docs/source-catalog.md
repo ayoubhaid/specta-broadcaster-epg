@@ -97,3 +97,20 @@ Its README identifies ESPN and TVmaze as third-party data sources (TVmaze episod
 ## Important distinction
 
 The iptv-org `GUIDES.md` file is a directory of community-hosted guide servers, not the `sites/` grabber catalogue. Use the site-specific grabbers and API source metadata to discover programme-guide sources; do not treat the directory as a live XMLTV endpoint.
+
+
+## Implemented multi-market XMLTV import adapters
+
+The repository now includes `providers/markets/scraper.mjs` for country-specific XMLTV guide imports. Configured sources:
+
+- United Kingdom, Ireland and Australia: On TV Tonight.
+- Canada: TVTV.
+- South Africa, Nigeria, Ghana, Kenya, Uganda, Zambia, Zimbabwe, Botswana and Namibia: DStv.
+
+The adapter keeps only channel IDs with the configured country suffix and programmes inside the requested date window. Each market is isolated in its own schedule-v1 review feed. Unavailable sources do not overwrite their previous successful output.
+
+The USA adapter is also included in the scheduled refresh workflow. It evaluates TVTV, TV Guide, Gato TV, On TV Tonight and DIRECTV. The USA scraper now isolates failures per source so one unavailable guide does not prevent other successful sources from refreshing.
+
+The aggregation pipeline now combines programme rows from different providers when they resolve to the same canonical channel ID. Duplicate channel claims within one provider remain reported. Near-identical programme rows with matching normalized titles and start/end times within two minutes are deduplicated. Existing feeds without an explicit priority retain the default primary priority; the new community-generated market imports use secondary priority.
+
+**Validation rule:** channel counts are counted only after XMLTV programme rows are present. The app-facing coverage report remains the authority for actual published channel and programme totals; configured market sources are not counted as confirmed until a successful refresh and build.
