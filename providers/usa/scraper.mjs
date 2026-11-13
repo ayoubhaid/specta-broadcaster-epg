@@ -4,6 +4,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const BASE = "https://iptv-org.github.io/epg/guides";
+const RESTRICTED_CHANNEL = /\b(adult|xxx|porn|playboy|hustler|erotic|casino|gambling|sportsbook|betting|poker|lottery)\b/i;
+const RESTRICTED_CATEGORY = /\b(adult|xxx|porn|erotic|casino|gambling|sportsbook|betting|poker|lottery)\b/i;
 const STATES = "al ak az ar ca co ct de dc fl ga hi id il in ia ks ky la me md ma mi mn ms mo mt ne nv nh nj nm ny nc nd oh ok or pa ri sc sd tn tx ut vt va wa wv wi wy".split(" ");
 export const SOURCES = {
   "tvtv.us": { name: "TVTV US", stateMarkets: true },
@@ -59,7 +61,9 @@ export function parseXmltv(xml, options) {
     const id = attribute(m[1], "id");
     if (!id || !/\.us$/i.test(id)) continue;
     const names = [...m[2].matchAll(/<display-name\b[^>]*>([\s\S]*?)<\/display-name>/gi)].map(x => decodeXml(x[1])).filter(Boolean);
-    channels.set(id, { id, name: names[0] || id, region: market.toUpperCase(), canonicalChannelId: id, programmes: [] });
+    const name = names[0] || id;
+    if (RESTRICTED_CHANNEL.test(name)) continue;
+    channels.set(id, { id, name, region: market.toUpperCase(), canonicalChannelId: id, programmes: [] });
   }
   const now = Math.floor(Date.now() / 1000);
   for (const m of xml.matchAll(/<programme\b([^>]*)>([\s\S]*?)<\/programme>/gi)) {
@@ -69,7 +73,8 @@ export function parseXmltv(xml, options) {
     const start = parseXmltvTimestamp(attribute(m[1], "start"));
     const end = parseXmltvTimestamp(attribute(m[1], "stop"));
     const title = textTag(m[2], "title");
-    if (!start || !end || end <= start || !title || start < now - 43200 || start > now + days * 86400) continue;
+    const category = textTag(m[2], "category");
+    if (!start || !end || end <= start || !title || RESTRICTED_CATEGORY.test(category) || start < now - 43200 || start > now + days * 86400) continue;
     channel.programmes.push({
       id: stableId(source, channelId, start, title), title, description: textTag(m[2], "desc"),
       start: new Date(start * 1000).toISOString(), end: new Date(end * 1000).toISOString(),
