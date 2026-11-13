@@ -5,8 +5,10 @@ import { parseXmltv, parseXmltvTimestamp, sourceUrl, SOURCES } from "./scraper.m
 const sample = '<?xml version="1.0"?><tv>' +
   '<channel id="BBCOne.uk"><display-name lang="en">BBC One</display-name></channel>' +
   '<channel id="France2.fr"><display-name>France 2</display-name></channel>' +
+  '<channel id="AdultChannel.uk"><display-name>Adult Channel</display-name></channel>' +
   '<programme start="20261114010000 +0000" stop="20261114020000 +0000" channel="BBCOne.uk"><title>News &amp; Weather</title><desc>Daily update</desc></programme>' +
-  '<programme start="20261114020000 +0000" stop="20261114030000 +0000" channel="France2.fr"><title>Ignored</title></programme></tv>';
+  '<programme start="20261114020000 +0000" stop="20261114030000 +0000" channel="France2.fr"><title>Ignored</title></programme>' +
+  '<programme start="20261114030000 +0000" stop="20261114040000 +0000" channel="BBCOne.uk"><title>Restricted category</title><category>Adult</category></programme></tv>';
 
 test("parses XMLTV timestamps with offsets", () => {
   assert.equal(parseXmltvTimestamp("20261114010000 +0000"), Date.UTC(2026, 10, 14, 1) / 1000);
@@ -27,6 +29,7 @@ test("keeps only channel IDs belonging to the configured market", () => {
     assert.equal(feed.channels[0].id, "BBCOne.uk");
     assert.equal(feed.channels[0].canonicalChannelId, "BBCOne.uk");
     assert.equal(feed.coverage.programmesFound, 1);
+    assert.equal(feed.channels.some(channel => channel.id === "AdultChannel.uk"), false);
     assert.equal(feed.channels[0].programmes[0].title, "News & Weather");
   } finally {
     Date.now = oldNow;
