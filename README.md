@@ -1,111 +1,97 @@
-# Specta Broadcaster EPG
+# Specta EPG
 
-Provider adapters and dated programme data for Specta. Each broadcaster feed keeps its own source channel IDs; `aggregate/` resolves them to iptv-org ids automatically and publishes one XMLTV feed.
+Specta owns the complete EPG pipeline: source adapters, raw schedule collection, normalization, channel identity, validation, aggregation, XMLTV output and coverage reporting. External broadcasters and guide providers are schedule inputs only. No third-party EPG repository or channel registry is required at build time.
 
-## Current feeds
+## Current programme sources
 
-| Provider | Path | State |
-|---|---|---|
-| SNRT Morocco | `data/source-feeds/snrt_ma.json` | Seven SNRT linear TV channels from the official SNRT programme grid; source times are converted from Africa/Casablanca to UTC and refreshed every six hours. |
-| beIN SPORTS MENA | `data/source-feeds/bein_mena.json` | Source feed snapshot from the existing [beIN scraper](https://github.com/ayoubhaid/specta-bein-epg); 40 source channels and 2,458 programmes at generation time. Source guide IDs are not Specta playlist IDs. |
-| SuperSport | `data/review/supersport_unclassified.json` | 1,630 dated programme rows from the official Media Schedules page. Held for review because source channels have not been matched to the Specta registry or classified as permanent linear versus temporary/OTT feeds. |
-| Sky Sports UK | `data/review/sky_uk_unclassified.json` | Five-day official EPG response: four linear channels and 591 programmes. Source service IDs are retained; Sky Sports+ interactive service is excluded. |
-| CANAL+ France | `data/review/canalplus_fr_unclassified.json` | 220 dated programmes across seven channels extracted from the official France guide. This is France-only coverage, not CANAL+ Afrique. |\n| USA guide sources | `providers/usa/` → `data/review/usa_*_unclassified.json` | New XMLTV adapters for TVTV, TV Guide, Gato TV, On TV Tonight and DIRECTV. National guide mode by default; TVTV supports optional state/local market feeds. Kept in review pending live validation and source-term review. |
+| Source | Market | Adapter | Programme data | Publishing |
+|---|---|---|---|---|
+| beIN SPORTS | MENA English guide | `providers/bein_mena/` | Official guide API; dated channel schedules | Explicitly mapped channels |
+| SuperSport | South Africa / regional services | `providers/supersport/` | Official Media Schedules; dated channel programmes | Reviewed permanent channels only |
+| Sky Sports | UK | `providers/sky/` | Dated linear-channel EPG response | Four reviewed linear channels |
+| SNRT | Morocco | `providers/snrt_ma/` | Official SNRT programme grid | Seven reviewed channels |
+| CANAL+ | France | `providers/canalplus_fr/` | Official France programme guide | Reviewed France channels only |
 
-The SuperSport CSV beside the JSON is a flat audit export. SuperSport and Sky schedule rows that describe matches remain programme listings; they are not imported as football fixture records. CANAL+ and Sky feeds are held for review pending channel mapping. No playlist URLs, stream credentials, or temporary event-feed inventory are included.
+The SuperSport source contains regional and OTT services. OTT, event-only and ambiguous channel identities are not promoted by the Specta registry. Match programmes remain ordinary channel schedule entries; fixtures and sports-event feeds are never used as EPG programme rows.
 
-## Shared schema
+## Architecture
 
-Provider feeds use the beIN project's `schemaVersion: 1` envelope. Programme `start` and `end` are ISO-8601 UTC values; epoch fields use seconds. Rows preserve their source URL, fetch time, source timezone, source code, and stable source-record ID. `channels[].id` is the broadcaster's guide identity. `canonicalChannelId` is separate and remains empty until an exact, unique registry mapping is reviewed.
+```text
+Official broadcaster guides ─┐
+Independent TV-guide sources ├─> Provider adapters
+                             │
+                             v
+                       Raw schedule feeds
+                             |
+                             v
+                    Normalize + validate
+                             |
+                             v
+                 Specta channel registry
+                  (source ID -> Specta ID)
+                             |
+                             v
+                   Aggregate + deduplicate
+                             |
+                             v
+                  XMLTV + coverage report
+                             |
+                             v
+                 GitHub Pages / Specta app
+```
 
-The JSON Schema is in [`schema/schedule-v1.schema.json`](schema/schedule-v1.schema.json). This repository is a source-feed store, not a merged production EPG. Do not promote `data/review/` feeds to an app-facing endpoint until the mapping and channel-class review is complete.
+The registry is `data/mapping/channel-map.csv`. Each source channel must have an explicit, reviewed mapping to a stable `specta.*` ID. `playlist_aliases` retains previously used playlist `tvg-id` values for backwards compatibility. XMLTV emits the Specta ID and each approved alias, including programme rows, so existing playlists continue matching while Specta can move toward its own IDs.
 
-## Refresh and validation
+There is no name-based auto-resolution. Unknown, ambiguous, temporary and unmapped channels are held back and reported. The build never downloads a third-party channel registry.
 
-Run the provider scrapers manually with Node.js 20+ and Python 3.11+:
+## Data contract
+
+Provider adapters emit `schemaVersion: 1` JSON. Every programme must contain a title and valid start/end instants. Timestamps are normalized to UTC while the original source timezone and provenance are retained where available.
+
+The shared schema is `schema/schedule-v1.schema.json`.
+
+## Run locally
+
+Requirements: Node.js 20+ and Python 3.11+.
 
 ```sh
-cd providers/bein_mena
-EPG_DAYS=5 EPG_OUTPUT=../../data/source-feeds/bein_mena.json npm run scrape
+# Refresh each provider independently
+cd providers/bein_mena && EPG_DAYS=5 EPG_OUTPUT=../../data/source-feeds/bein_mena.json npm run scrape
 cd ../..
-python providers/supersport/scraper.py --date 2026-11-08 --days 5 \
-  --output data/review/supersport_unclassified.csv \
-  --json-output data/review/supersport_unclassified.json
-node providers/sky/scraper.mjs 2026-11-08 5 data/review/sky_uk_unclassified.json
-node providers/canalplus_fr/scraper.mjs data/review/canalplus_fr_unclassified.json\nnpm run scrape:usa -- --source=tvtv.us --days=5\nnode providers/usa/scraper.mjs --source=tvtv.us --markets=all --days=5
+python providers/supersport/scraper.py --date 2026-11-14 --days 5 --output data/review/supersport_unclassified.csv --json-output data/review/supersport_unclassified.json
+node providers/sky/scraper.mjs 2026-11-14 5 data/review/sky_uk_unclassified.json
+node providers/canalplus_fr/scraper.mjs data/review/canalplus_fr_unclassified.json
+node providers/snrt_ma/scraper.mjs
+
+# Build using only the checked-in Specta registry
+npm run build
+npm test
+npm run check
 ```
 
-SuperSport dates are broadcaster-local dates in `Africa/Johannesburg`; Sky dates are fetched from the official dated schedule API; CANAL+ guide timestamps are epoch milliseconds. Output timestamps are UTC. All feeds refresh automatically every six hours.
+`data/source-feeds/` contains production source snapshots. `data/review/` may contain feeds with more source channels than the registry approves; only exact registry mappings are published.
 
-Run checks:
+## Refresh
 
-```sh
-cd providers/bein_mena && npm run check
-cd ../..
-python -m unittest discover -s providers/supersport -p 'test_*.py'
-node --test providers/sky/test_scraper.mjs providers/canalplus_fr/test_scraper.mjs providers/usa/test_scraper.mjs
-```
+GitHub Actions refreshes supported adapters every six hours, then runs the local aggregation pipeline. Each adapter preserves its last good output if the source fails or returns no usable schedule. The workflow does not import third-party XMLTV feeds.
 
-## Channel mapping workflow
+## XMLTV endpoint
 
-Identity is resolved automatically against the iptv-org registry, so the CSV is an override list, not a checklist. `aggregate/seed-mapping.mjs` appends every provider channel as `unclassified`; fill `canonical_channel_id` only when the automatic result is wrong or missing, and use `temporary_event` to keep a feed out of the app entirely. Never infer identity from a sports event title or a temporary stream label. Ambiguous names and collisions are reported in `docs/coverage.json` instead of being guessed.
+Enable GitHub Pages for the repository using branch `main`, folder `/docs`. The published feed is:
 
-## App-facing XMLTV feed
+`https://<owner>.github.io/specta-broadcaster-epg/epg.xml`
 
-`aggregate/build.mjs` merges the provider feeds into one XMLTV document for Specta. Identity is resolved automatically: every provider channel is matched against the public iptv-org channel registry by name, with provider-specific country hints (QA for beIN, UK for Sky, FR for CANAL+, ZA for SuperSport). USA adapter feeds retain exact upstream iptv-org `.us` channel IDs. Nothing has to be filled in by hand.
+Add that URL in Specta's EPG settings. The XMLTV includes both Specta-owned IDs and reviewed playlist aliases. The app can continue using its existing playlist IDs; future playlist generation can use the `specta.*` IDs.
 
-- **Input:** `data/source-feeds/*.json` and `data/review/*.json` (schedule-v1 only; files without `schemaVersion: 1` are skipped).
-- **Identity:** the matching iptv-org id (`beINSports1.qa`, `SkySportsMainEvent.uk`, `SuperSportAction.za`). A row in `data/mapping/channel-map.csv` with `canonical_channel_id` overrides the automatic result. `channel_class = temporary_event` is never published.
-- **No guessing:** a name that matches several countries, or a country hint that matches none, is held back and listed with its candidates.
-- **Output:** `docs/epg.xml` (XMLTV) and `docs/coverage.json` (what was resolved, held back, rejected or collided).
+## Validation and safety rules
 
-```sh
-npm run build                               # fetch registry, resolve, write docs/
-npm run build -- --playlist=playlist.m3u    # additionally report uncovered tvg-ids
-node aggregate/build.mjs --registry=data/iptv-channels.json   # offline registry copy
-npm test                                    # aggregation pipeline tests
-```
+- Only dated programme schedules attached to an actual channel are EPG input.
+- Fixtures, match calendars, event listings without a channel schedule and VOD metadata are excluded.
+- Channel identity is explicit; names alone never authorize a mapping.
+- Temporary/event services and OTT-only streams are not classified as permanent linear channels.
+- Schedules outside the configured publication window, invalid intervals, empty titles and programmes longer than 12 hours are rejected.
+- Independent sources may be combined only after their channel identities have been reviewed.
+- Source terms, rate limits, caching and redistribution rights must be checked before a new adapter is automated.
+- No playlist URLs, stream credentials or private provider data belong in this repository.
 
-`docs/epg.xml` is never replaced when nothing is publishable, so a broken refresh cannot blank the feed for users. `docs/coverage.json` is the work queue: `held.unresolved` lists names that need an override, with the registry candidates that were too close to choose from, and `rejected` counts rows the app could not have shown (for example programmes longer than 12 hours).
-
-Enable **GitHub Pages** for this repository (branch `main`, folder `/docs`). The feed then lives at `https://<user>.github.io/specta-broadcaster-epg/epg.xml` and is pasted into **Settings → Live → TV-Programm (EPG)** in the app. The app matches `programme@channel` against the playlist's `tvg-id`, case-insensitively — the published ids are iptv-org ids, so playlists that use those ids match directly. A playlist with provider-specific ids needs an override row (or a name fallback in the app).
-
-The build applies the app's own XMLTV limits so the file contains nothing the app would discard: 36 hours ahead are used, at most 80 programmes per channel, descriptions are capped at 400 characters, and entries longer than 12 hours are rejected. This repository does not change the app; it only publishes a file the app already reads.
-
-## Upstream source discovery
-
-New source research is currently limited to **English-speaking countries and English-language market editions**. Priority markets include the US, UK, Canada, Australia, New Zealand, Ireland, and verified English-language African markets. See [docs/source-catalog.md](docs/source-catalog.md) for the source list, market filters, and onboarding rules.
-
-The catalogue covers iptv-org's site-specific grabbers and API metadata, plus EPGTalk's US/UK guide candidates. EPGTalk remains research-only: its README restricts commercial/ad-supported redistribution and bundling without written permission. No EPGTalk feed is included in the automated workflow.
-
-Existing adapters outside this research scope are retained unchanged; this scope change does not delete or disable existing feeds.
-
-## Sources and limits
-
-- beIN: public MENA TV guide endpoints documented in `providers/bein_mena/README.md`; the endpoint contract may change.
-- SuperSport: [TV Guide](https://supersport.com/tv-guide) and [Media Schedules](https://wsd.supersport.com/media/ms_schedule.asp). The dated Media Schedules page returns programme listings with channel codes and local clock times.
-- Sky Sports UK: [Watch: sport on Sky](https://www.skysports.com/watch/sport-on-sky) and its public dated schedule API. Only four verified linear sports channels are currently included.
-- CANAL+ France: [Programme TV](https://www.canalplus.com/live-tv/programme-tv/); the page embeds dated channel programme objects. This adapter covers the France guide only.
-- ESPN and other broadcasters are not yet in the refresh set: an official channel schedule source must be verified before adding a feed. Sports fixture APIs and event calendars are not substitutes for linear channel listings.
-- Public guide data availability and provider terms may change. Keep request rates conservative and validate each generated feed before publishing it for app consumption.
-
-
-## Expanded English-market XMLTV imports
-
-The scheduled refresh now also evaluates the following country-specific XMLTV guide outputs from the iptv-org EPG project:
-
-| Market | Guide source |
-|---|---|
-| United Kingdom | On TV Tonight |
-| Ireland | On TV Tonight |
-| Australia | On TV Tonight |
-| Canada | TVTV |
-| South Africa, Nigeria, Ghana, Kenya, Uganda, Zambia, Zimbabwe, Botswana, Namibia | DStv |
-
-The USA adapter also refreshes its configured TVTV, TV Guide, Gato TV, On TV Tonight and DIRECTV guide outputs.
-
-Market imports are kept as separate schedule-v1 review feeds in `data/review/`. Only channels with a country-matching upstream XMLTV ID are retained by the market adapter. The aggregation pipeline can combine programmes from different providers when they resolve to the same canonical channel ID; duplicate source channels within one provider remain reported as collisions.
-
-These feeds are refreshed independently: an unavailable market source does not prevent successful sources from updating, and its last good output is preserved. The generated `docs/coverage.json` report records per-provider channel and programme counts, unresolved channels and rejected programme rows.
-
-Upstream guide outputs are community-generated from site-specific grabbers. Their availability and source-site terms can change, so review the generated coverage report and upstream source requirements before treating every imported channel as a permanent production mapping.
+See `docs/source-catalog.md` for the 15 broadcaster-family source audit and onboarding status.
