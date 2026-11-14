@@ -92,6 +92,25 @@ def parse_xmltv(xml_data: bytes, fetched_at: str | None = None, source_url: str 
         "channels": channels,
     }
 
+def build_summary(document: dict[str, Any]) -> dict[str, Any]:
+    """Return a compact channel inventory without programme descriptions or schedule rows."""
+    channels = document.get("channels", [])
+    return {
+        "schemaVersion": 1,
+        "provider": document.get("provider", SOURCE),
+        "providerName": document.get("providerName", "onTVnow UK Listings"),
+        "region": document.get("region", "GB"),
+        "sourceUrl": document.get("sourceUrl", SOURCE_URL),
+        "generatedAt": document.get("generatedAt"),
+        "coverage": document.get("coverage", {}),
+        "channels": [
+            {"id": channel["id"], "name": channel["name"],
+             "programmesFound": len(channel.get("programmes", []))}
+            for channel in channels
+        ],
+        "note": "Inventory only. Channel type and playlist identity require explicit review; no automatic mapping is performed.",
+    }
+
 def fetch_xmltv(url: str = SOURCE_URL, timeout: int = 45) -> bytes:
     request = urllib.request.Request(url, headers={
         "Accept": "application/xml,text/xml;q=0.9,*/*;q=0.1", "User-Agent": USER_AGENT,
@@ -118,12 +137,13 @@ def write_atomic(path: Path, document: dict[str, Any]) -> None:
                                      prefix=path.name + ".", suffix=".tmp", delete=False) as handle:
         temporary = Path(handle.name)
         json.dump(document, handle, ensure_ascii=False, indent=2)
-        handle.write("\n")
+        handle.write("\\n")
     temporary.replace(path)
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", default="data/review/ontvnow_uk_unclassified.json")
+    parser.add_argument("--summary-output", default="data/review/ontvnow_uk_summary.json")
     parser.add_argument("--url", default=os.environ.get("ONTVNOW_XMLTV_URL", SOURCE_URL))
     args = parser.parse_args()
     try:
@@ -131,8 +151,11 @@ def main() -> int:
         if not document["coverage"]["programmesFound"]:
             raise RuntimeError("Feed contained no usable programme rows; last good output preserved")
         write_atomic(Path(args.output), document)
+        summary = build_summary(document)
+        write_atomic(Path(args.summary_output), summary)
         print(json.dumps({"provider": SOURCE, "channels": document["coverage"]["channelsFound"],
-                          "programmes": document["coverage"]["programmesFound"], "output": args.output}, indent=2))
+                          "programmes": document["coverage"]["programmesFound"],
+                          "summary": args.summary_output, "output": args.output}, indent=2))
         return 0
     except Exception as exc:
         print(f"onTVnow EPG refresh failed: {exc}", file=sys.stderr)
