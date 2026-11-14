@@ -46,10 +46,27 @@ canalplus_fr,canalplus_fr:canal,CANAL+,specta.canalplus_fr.canal,permanent_linea
 canalplus_fr,canalplus_fr:france-5,FRANCE 5,specta.canalplus_fr.france-5,permanent_linear,FR,reviewed,Specta-owned channel identity; retained playlist tvg-id alias France5.fr,France5.fr
 canalplus_fr,canalplus_fr:les-sur-france-5,"les ..., Sur FRANCE 5",,unclassified,FR,unreviewed,,
 canalplus_fr,canalplus_fr:m6,M6,specta.canalplus_fr.m6,permanent_linear,FR,reviewed,Specta-owned channel identity; retained playlist tvg-id alias M6.fr,M6.fr
-sky_uk,1301,Sky Sports Main Event,specta.sky_uk.sky-sports-main-event,permanent_linear,GB,reviewed,Specta-owned channel identity; retained playlist tvg-id alias SkySportsMainEvent.uk,SkySportsMainEvent.uk
-sky_uk,1302,Sky Sports Cricket,specta.sky_uk.sky-sports-cricket,permanent_linear,GB,reviewed,Specta-owned channel identity; retained playlist tvg-id alias SkySportsCricket.uk,SkySportsCricket.uk
-sky_uk,1303,Sky Sports Premier League,specta.sky_uk.sky-sports-premier-league,permanent_linear,GB,reviewed,Specta-owned channel identity; retained playlist tvg-id alias SkySportsPremierLeague.uk,SkySportsPremierLeague.uk
-sky_uk,4091,Sky Sports Mix,specta.sky_uk.sky-sports-mix,permanent_linear,GB,reviewed,Specta-owned channel identity; retained playlist tvg-id alias SkySportsMix.uk,SkySportsMix.uk
+sky_uk,4002,Sky Sports Main Event,specta.sky_uk.sky-sports-main-event,permanent_linear,GB,reviewed,Specta-owned channel identity; playlist alias SkySportsMainEvent.uk,SkySportsMainEvent.uk
+sky_uk,4010,Sky Sports Premier League,specta.sky_uk.sky-sports-premier-league,permanent_linear,GB,reviewed,Playlist aliases SkySportsPremiereLeague.uk and the two uk.Sky Sports Premier League feeds,SkySportsPremiereLeague.uk|uk.Sky Sports Premier League|uk.Sky Sports Premier League HD
+sky_uk,3939,Sky Sports Football,specta.sky_uk.sky-sports-football,permanent_linear,GB,reviewed,Playlist alias SkySportsFootball.uk,SkySportsFootball.uk
+sky_uk,3940,Sky Sports+,specta.sky_uk.sky-sports-plus,permanent_linear,GB,reviewed,Playlist aliases SkySportsPlus.uk and the legacy SkySportsArena.uk entry that is named SKY SPORTS+ in the playlist,SkySportsPlus.uk|SkySportsArena.uk
+sky_uk,4081,Sky Sports Cricket,specta.sky_uk.sky-sports-cricket,permanent_linear,GB,reviewed,Playlist alias SkySportsCricket.uk,SkySportsCricket.uk
+sky_uk,4026,Sky Sports Golf,specta.sky_uk.sky-sports-golf,permanent_linear,GB,reviewed,Playlist alias SkySportsGolf.uk,SkySportsGolf.uk
+sky_uk,3835,Sky Sports F1,specta.sky_uk.sky-sports-f1,permanent_linear,GB,reviewed,Playlist alias SkySportsF1.uk,SkySportsF1.uk
+sky_uk,1284,Sky Sports Tennis,specta.sky_uk.sky-sports-tennis,permanent_linear,GB,reviewed,Playlist alias SkySportsTennis.uk,SkySportsTennis.uk
+sky_uk,4049,Sky Sports News,specta.sky_uk.sky-sports-news,permanent_linear,GB,reviewed,Playlist alias SkySportsNews.uk,SkySportsNews.uk
+sky_uk,3625,TNT Sports 1,specta.sky_uk.tnt-sports-1,permanent_linear,GB,reviewed,Playlist aliases TNT.Sports.1.HD.uk and TNTSports1.uk plus the HEVC BT Sport 1 entry,TNT.Sports.1.HD.uk|TNTSports1.uk|uk.413 BT Sport 1
+sky_uk,3627,TNT Sports 2,specta.sky_uk.tnt-sports-2,permanent_linear,GB,reviewed,Playlist aliases TNT.Sports.2.HD.uk and TNTSports2.uk plus the HEVC BT Sport 2 entries,TNT.Sports.2.HD.uk|TNTSports2.uk|uk.868 BT Sport 2 HD|uk.414 BT Sport 2
+sky_uk,4022,Sky Sports NFL,specta.sky_uk.sky-sports-nfl,permanent_linear,GB,reviewed,Carried on Sky channel 412; no matching playlist tvg-id yet,
+sky_uk,3629,TNT Sports 3,specta.sky_uk.tnt-sports-3,permanent_linear,GB,reviewed,Playlist aliases TNT.Sports.3.HD.uk and TNTSports3.uk plus the HEVC BT Sport 3 entries,TNT.Sports.3.HD.uk|TNTSports3.uk|uk.869 BT Sport 3 HD|uk.417 BT Sport 3
+sky_uk,4040,TNT Sports 4,specta.sky_uk.tnt-sports-4,permanent_linear,GB,reviewed,Playlist aliases TNT.Sports.4.HD.uk and TNTSports4.uk plus the legacy BTSport4ESPN.uk entry,TNT.Sports.4.HD.uk|TNTSports4.uk|BTSport4ESPN.uk
+sky_uk,4032,Sky Sports Racing,specta.sky_uk.sky-sports-racing,permanent_linear,GB,reviewed,Playlist alias SkySportsRacing.uk,SkySportsRacing.uk
+sky_uk,4090,Sky Sports Mix,specta.sky_uk.sky-sports-mix,permanent_linear,GB,reviewed,Playlist alias SkySportsMix.uk,SkySportsMix.uk
+sky_uk,1003,MUTV,specta.sky_uk.mutv,permanent_linear,GB,reviewed,Playlist alias MUTV.uk,MUTV.uk
+sky_uk,1289,Premier Sports 1,specta.sky_uk.premier-sports-1,permanent_linear,GB,reviewed,Playlist aliases PremierSports1.uk and the legacy ViaplaySports1.uk and HEVC entries,PremierSports1.uk|ViaplaySports1.uk|uk.412 Premier 1 HD
+sky_uk,1290,Premier Sports 2,specta.sky_uk.premier-sports-2,permanent_linear,GB,reviewed,Playlist aliases PremierSports2.uk and the legacy ViaplaySports2.uk and HEVC entries,PremierSports2.uk|ViaplaySports2.uk|uk.429 Premier 2 HD
+sky_uk,3845,LFCTV,specta.sky_uk.lfc-tv,permanent_linear,GB,reviewed,Playlist aliases LiverpoolFCTV.uk and uk.425 LFCTV HD,LiverpoolFCTV.uk|uk.425 LFCTV HD
+sky_uk,5272,Racing TV,specta.sky_uk.racing-tv,permanent_linear,GB,reviewed,Playlist alias RacingUK.uk for the channel now branded Racing TV,RacingUK.uk
 supersport,ACT,SuperSport Action,specta.supersport.supersport-action,permanent_linear,multi-region,reviewed,Specta-owned channel identity; retained playlist tvg-id alias SuperSportAction.za,SuperSportAction.za
 supersport,ACTA,SuperSport Action Africa,,unclassified,multi-region,unreviewed,,
 supersport,AFR1,SuperSport Africa ROA,,unclassified,multi-region,unreviewed,,
@@ -117,3 +134,80 @@ snrt_ma,4071,Athaqafia,specta.snrt_ma.athaqafia,permanent_linear,MA,reviewed,Spe
 snrt_ma,4072,Al Maghribia,specta.snrt_ma.al-maghribia,permanent_linear,MA,reviewed,Specta-owned channel identity; retained playlist tvg-id alias AlMaghribia.ma@SD,AlMaghribia.ma@SD
 snrt_ma,4073,Assadissa,specta.snrt_ma.assadissa,permanent_linear,MA,reviewed,Specta-owned channel identity; retained playlist tvg-id alias Assadissa.ma@SD,Assadissa.ma@SD
 snrt_ma,4075,Tamazight,specta.snrt_ma.tamazight,permanent_linear,MA,reviewed,Specta-owned channel identity; retained playlist tvg-id alias TamazightTV.ma@SD,TamazightTV.ma@SD
+ontvnow_uk,5.uk,5 HD,specta.ontvnow_uk.5,permanent_linear,GB,reviewed,Playlist aliases Channel5.uk,Channel5.uk
+ontvnow_uk,5Action.uk,5ACTION,specta.ontvnow_uk.5-action,permanent_linear,GB,reviewed,Playlist aliases 5Action.uk,5Action.uk
+ontvnow_uk,5Select.uk,5SELECT,specta.ontvnow_uk.5-select,permanent_linear,GB,reviewed,Playlist aliases 5Select.uk,5Select.uk
+ontvnow_uk,5Star.uk,5STAR,specta.ontvnow_uk.5-star,permanent_linear,GB,reviewed,Playlist aliases 5star.uk,5star.uk
+ontvnow_uk,5StarPlus1.uk,5STAR+1,specta.ontvnow_uk.5-star-plus1,permanent_linear,GB,reviewed,Playlist aliases uk.5STAR +1,uk.5STAR +1
+ontvnow_uk,5USA.uk,5 USA,specta.ontvnow_uk.5-usa,permanent_linear,GB,reviewed,Playlist aliases FiveUSA.uk,FiveUSA.uk
+ontvnow_uk,5USAPlus1.uk,5USA+1,specta.ontvnow_uk.5-usa-plus1,permanent_linear,GB,reviewed,Playlist aliases uk.5 USA +1,uk.5 USA +1
+ontvnow_uk,AriseNews.uk,Arise News,specta.ontvnow_uk.arise-news,permanent_linear,GB,reviewed,Playlist aliases AriseNews.uk,AriseNews.uk
+ontvnow_uk,BBCNews.uk,BBC NEWS HD,specta.ontvnow_uk.bbc-news,permanent_linear,GB,reviewed,Playlist aliases BBCNews.uk,BBCNews.uk
+ontvnow_uk,BBCOneEastMidlands.uk,BBC One East Midlands HD,specta.ontvnow_uk.bbc-one-east-midlands,permanent_linear,GB,reviewed,Playlist aliases ukBBC1 East Midlands,ukBBC1 East Midlands
+ontvnow_uk,BBCOneLondonHD.uk,BBC One London HD,specta.ontvnow_uk.bbc-one-london,permanent_linear,GB,reviewed,Playlist aliases BBC1.uk | uk.BBC1 London,BBC1.uk|uk.BBC1 London
+ontvnow_uk,BBCOneNorthernIreland.uk,BBC One NI HD,specta.ontvnow_uk.bbc-one-ni,permanent_linear,GB,reviewed,Playlist aliases UK| BBC ONE NI,UK| BBC ONE NI
+ontvnow_uk,BBCOneNorthWest.uk,BBC One North West HD,specta.ontvnow_uk.bbc-one-north-west,permanent_linear,GB,reviewed,Playlist aliases BBCOneNorthWest.uk,BBCOneNorthWest.uk
+ontvnow_uk,BBCOneScotHD.uk,BBC One Scotland HD,specta.ontvnow_uk.bbc-one-scotland,permanent_linear,GB,reviewed,Playlist aliases BBCOneScotland.uk,BBCOneScotland.uk
+ontvnow_uk,BBCOneSouthEast.uk,BBC One South East HD,specta.ontvnow_uk.bbc-one-south-east,permanent_linear,GB,reviewed,Playlist aliases BBCOneSouthEast.uk,BBCOneSouthEast.uk
+ontvnow_uk,BBCOneWalesHD.uk,BBC One Wales HD,specta.ontvnow_uk.bbc-one-wales,permanent_linear,GB,reviewed,Playlist aliases BBCOneWales.uk,BBCOneWales.uk
+ontvnow_uk,BBCOneWest.uk,BBC One West HD,specta.ontvnow_uk.bbc-one-west,permanent_linear,GB,reviewed,Playlist aliases uk.BBC1 West,uk.BBC1 West
+ontvnow_uk,BBCOneYorkshire.uk,BBC One Yorkshire HD,specta.ontvnow_uk.bbc-one-yorkshire,permanent_linear,GB,reviewed,Playlist aliases BBC1Yorkshire.uk,BBC1Yorkshire.uk
+ontvnow_uk,BBCParliament.uk,BBC Parliament HD,specta.ontvnow_uk.bbc-parliament,permanent_linear,GB,reviewed,Playlist aliases BBCParliament.uk,BBCParliament.uk
+ontvnow_uk,BBCScotland.uk,BBC Scotland HD,specta.ontvnow_uk.bbc-scotland,permanent_linear,GB,reviewed,Playlist aliases BBCScotland.uk,BBCScotland.uk
+ontvnow_uk,BBCTwoNorthernIreland.uk,BBC Two NI HD,specta.ontvnow_uk.bbc-two-ni,permanent_linear,GB,reviewed,Playlist aliases uk.BBC2 N Ireland | BBC2NI.uk,uk.BBC2 N Ireland|BBC2NI.uk
+ontvnow_uk,BBCTwoWales.uk,BBC Two Wales HD,specta.ontvnow_uk.bbc-two-wales,permanent_linear,GB,reviewed,Playlist aliases BBCTwoWales.uk,BBCTwoWales.uk
+ontvnow_uk,BestDirect.uk,Best Direct,specta.ontvnow_uk.best-direct,permanent_linear,GB,reviewed,Playlist aliases BestDirect.uk,BestDirect.uk
+ontvnow_uk,Blaze.uk,Blaze,specta.ontvnow_uk.blaze,permanent_linear,GB,reviewed,Playlist aliases Blaze.uk,Blaze.uk
+ontvnow_uk,Challenge.uk,Challenge,specta.ontvnow_uk.challenge,permanent_linear,GB,reviewed,Playlist aliases Challenge.uk,Challenge.uk
+ontvnow_uk,Channel4London.uk,Channel 4 London HD,specta.ontvnow_uk.channel-4-london,permanent_linear,GB,reviewed,Playlist aliases Channel4.uk,Channel4.uk
+ontvnow_uk,ClublandTV.uk,Clubland TV,specta.ontvnow_uk.clubland-tv,permanent_linear,GB,reviewed,Playlist aliases ClublandTV.uk,ClublandTV.uk
+ontvnow_uk,CNBCEurope.uk,CNBC HD,specta.ontvnow_uk.cnbc,permanent_linear,GB,reviewed,Playlist aliases CNBC.uk,CNBC.uk
+ontvnow_uk,CNNInternational.uk,CNN HD,specta.ontvnow_uk.cnn,permanent_linear,GB,reviewed,Playlist aliases uk.CNN,uk.CNN
+ontvnow_uk,DMAX.uk,DMAX,specta.ontvnow_uk.dmax,permanent_linear,GB,reviewed,Playlist aliases DiscoveryDMAX.uk,DiscoveryDMAX.uk
+ontvnow_uk,E4.uk,E4,specta.ontvnow_uk.e-4,permanent_linear,GB,reviewed,Playlist aliases E4.uk,E4.uk
+ontvnow_uk,E4Plus1.uk,E4 +1,specta.ontvnow_uk.e-4-plus1,permanent_linear,GB,reviewed,Playlist aliases uk.E4+1,uk.E4+1
+ontvnow_uk,EuronewsEnglish.fr,Euronews,specta.ontvnow_uk.euronews,permanent_linear,GB,reviewed,Playlist aliases EuroNews.uk,EuroNews.uk
+ontvnow_uk,Film4.uk,Film4,specta.ontvnow_uk.film-4,permanent_linear,GB,reviewed,Playlist aliases Film4.uk,Film4.uk
+ontvnow_uk,FoodNetwork.uk,Food Network,specta.ontvnow_uk.food-network,permanent_linear,GB,reviewed,Playlist aliases FoodNetwork.uk,FoodNetwork.uk
+ontvnow_uk,GBNews.uk,GB News HD,specta.ontvnow_uk.gb-news,permanent_linear,GB,reviewed,Playlist aliases GBNews.uk,GBNews.uk
+ontvnow_uk,GreatAction.uk,GREAT! action,specta.ontvnow_uk.great-action,permanent_linear,GB,reviewed,Playlist aliases GreatAction.uk,GreatAction.uk
+ontvnow_uk,GreatMovies.uk,GREAT! Movies,specta.ontvnow_uk.great-movies,permanent_linear,GB,reviewed,Playlist aliases GreatMovies.uk,GreatMovies.uk
+ontvnow_uk,GreatTV.uk,GREAT! tv,specta.ontvnow_uk.great-tv,permanent_linear,GB,reviewed,Playlist aliases GreatTV.uk,GreatTV.uk
+ontvnow_uk,HighStreetTV1.uk,High Street TV 1,specta.ontvnow_uk.high-street-tv-1,permanent_linear,GB,reviewed,Playlist aliases HighStreet1.uk,HighStreet1.uk
+ontvnow_uk,HighStreetTV2.uk,High Street TV 2,specta.ontvnow_uk.high-street-tv-2,permanent_linear,GB,reviewed,Playlist aliases HighStreet2.uk,HighStreet2.uk
+ontvnow_uk,IdealWorld.uk,Ideal World HD,specta.ontvnow_uk.ideal-world,permanent_linear,GB,reviewed,Playlist aliases IdealWorld.uk,IdealWorld.uk
+ontvnow_uk,ITV1Granada.uk,ITV1 Granada HD,specta.ontvnow_uk.itv-1-granada,permanent_linear,GB,reviewed,Playlist aliases ITVGranada.uk,ITVGranada.uk
+ontvnow_uk,ITV1London.uk,ITV1 London HD,specta.ontvnow_uk.itv-1-london,permanent_linear,GB,reviewed,Playlist aliases ITV1.uk,ITV1.uk
+ontvnow_uk,ITV1TyneTees.uk,ITV1 Tyne Tees HD,specta.ontvnow_uk.itv-1-tyne-tees,permanent_linear,GB,reviewed,Playlist aliases LocalTVTyneAndWear.uk,LocalTVTyneAndWear.uk
+ontvnow_uk,ITV2.uk,ITV2 HD,specta.ontvnow_uk.itv-2,permanent_linear,GB,reviewed,Playlist aliases ITV2.uk,ITV2.uk
+ontvnow_uk,ITV3.uk,ITV3 HD,specta.ontvnow_uk.itv-3,permanent_linear,GB,reviewed,Playlist aliases ITV3.uk,ITV3.uk
+ontvnow_uk,ITV4.uk,ITV4 HD,specta.ontvnow_uk.itv-4,permanent_linear,GB,reviewed,Playlist aliases ITV4.uk,ITV4.uk
+ontvnow_uk,ITV1Plus1Granada.uk,ITV+1 Granada,specta.ontvnow_uk.itv-plus1-granada,permanent_linear,GB,reviewed,Playlist aliases uk.ITV Granada,uk.ITV Granada
+ontvnow_uk,ITV1Plus1London.uk,ITV+1 London,specta.ontvnow_uk.itv-plus1-london,permanent_linear,GB,reviewed,Playlist aliases uk.ITV London,uk.ITV London
+ontvnow_uk,ITVQuiz.uk,ITV Quiz,specta.ontvnow_uk.itv-quiz,permanent_linear,GB,reviewed,Playlist aliases ITVBe.uk,ITVBe.uk
+ontvnow_uk,Legend.uk,Legend,specta.ontvnow_uk.legend,permanent_linear,GB,reviewed,Playlist aliases Legend.uk,Legend.uk
+ontvnow_uk,More4.uk,More4,specta.ontvnow_uk.more-4,permanent_linear,GB,reviewed,Playlist aliases More4.uk,More4.uk
+ontvnow_uk,Movies24.uk,Movies24,specta.ontvnow_uk.movies-24,permanent_linear,GB,reviewed,Playlist aliases Movies24.uk,Movies24.uk
+ontvnow_uk,Now70s.uk,Now 70s,specta.ontvnow_uk.now-70-s,permanent_linear,GB,reviewed,Playlist aliases Now70s.uk,Now70s.uk
+ontvnow_uk,Now80s.uk,Now 80s,specta.ontvnow_uk.now-80-s,permanent_linear,GB,reviewed,Playlist aliases NOW80s.uk,NOW80s.uk
+ontvnow_uk,PBSAmerica.uk,PBS America,specta.ontvnow_uk.pbs-america,permanent_linear,GB,reviewed,Playlist aliases PBSAmerica.uk,PBSAmerica.uk
+ontvnow_uk,QuestHD.uk,Quest HD,specta.ontvnow_uk.quest,permanent_linear,GB,reviewed,Playlist aliases Quest.uk,Quest.uk
+ontvnow_uk,QuestRed.uk,Quest Red,specta.ontvnow_uk.quest-red,permanent_linear,GB,reviewed,Playlist aliases QuestRed.uk,QuestRed.uk
+ontvnow_uk,QVCBeauty.uk,QVC Beauty,specta.ontvnow_uk.qvc-beauty,permanent_linear,GB,reviewed,Playlist aliases uk.QVC Beauty,uk.QVC Beauty
+ontvnow_uk,QVCExtra.uk,QVC Extra,specta.ontvnow_uk.qvc-extra,permanent_linear,GB,reviewed,Playlist aliases uk.QVC Extra,uk.QVC Extra
+ontvnow_uk,QVCStyle.uk,QVC Style,specta.ontvnow_uk.qvc-style,permanent_linear,GB,reviewed,Playlist aliases uk.QVC Style,uk.QVC Style
+ontvnow_uk,Really.uk,Really,specta.ontvnow_uk.really,permanent_linear,GB,reviewed,Playlist aliases Really.uk,Really.uk
+ontvnow_uk,RTEOne.ie,RTÉ One HD,specta.ontvnow_uk.rte-one,permanent_linear,GB,reviewed,Playlist aliases RTEOne.ie,RTEOne.ie
+ontvnow_uk,S4C.uk,S4C,specta.ontvnow_uk.s-4-c,permanent_linear,GB,reviewed,Playlist aliases S4C.uk,S4C.uk
+ontvnow_uk,SkyArts.uk,Sky Arts,specta.ontvnow_uk.sky-arts,permanent_linear,GB,reviewed,Playlist aliases SkyArts.uk,SkyArts.uk
+ontvnow_uk,SkyMix.uk,Sky Mix HD,specta.ontvnow_uk.sky-mix,permanent_linear,GB,reviewed,Playlist aliases PickTV.uk,PickTV.uk
+ontvnow_uk,SkyNews.uk,Sky News HD,specta.ontvnow_uk.sky-news,permanent_linear,GB,reviewed,Playlist aliases SkyNews.uk | uk.Sky News,SkyNews.uk|uk.Sky News
+ontvnow_uk,TJC.uk,TJC HD,specta.ontvnow_uk.tjc,permanent_linear,GB,reviewed,Playlist aliases TheJewelryChannel.uk,TheJewelryChannel.uk
+ontvnow_uk,TLC.uk,TLC,specta.ontvnow_uk.tlc,permanent_linear,GB,reviewed,Playlist aliases TLC.uk,TLC.uk
+ontvnow_uk,TRTWorld.tr,TRT World,specta.ontvnow_uk.trt-world,permanent_linear,GB,reviewed,Playlist aliases TRTWorld.tr,TRTWorld.tr
+ontvnow_uk,TrueCrime.uk,True Crime,specta.ontvnow_uk.true-crime,permanent_linear,GB,reviewed,Playlist aliases TrueCrime.uk,TrueCrime.uk
+ontvnow_uk,TVWarehouse.uk,TV Warehouse,specta.ontvnow_uk.tv-warehouse,permanent_linear,GB,reviewed,Playlist aliases TVWarehouse.uk,TVWarehouse.uk
+ontvnow_uk,TVCNews.ng,TVC News,specta.ontvnow_uk.tvc-news,permanent_linear,GB,reviewed,Playlist aliases TVCNews.uk,TVCNews.uk
+ontvnow_uk,UAndDave.uk,U&Dave,specta.ontvnow_uk.u-dave,permanent_linear,GB,reviewed,Playlist aliases UandDave.uk,UandDave.uk
+ontvnow_uk,UAndW.uk,U&W,specta.ontvnow_uk.u-w,permanent_linear,GB,reviewed,Playlist aliases uk.W,uk.W
+ontvnow_uk,UTV.uk,UTV,specta.ontvnow_uk.utv,permanent_linear,GB,reviewed,Playlist aliases UTV.uk,UTV.uk
