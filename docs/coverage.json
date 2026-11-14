@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-14T17:54:37.000Z",
+  "generatedAt": "2026-11-14T17:57:43.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-14T15:54:37.000Z",
-    "to": "2026-11-16T09:54:37.000Z",
+    "from": "2026-11-14T15:57:43.000Z",
+    "to": "2026-11-16T09:57:43.000Z",
     "maxPerChannel": 80
   },
   "totals": {
-    "channels": 192,
-    "programmes": 7294
+    "channels": 203,
+    "programmes": 7672
   },
   "providers": [
     {
@@ -91,6 +91,24 @@
       "programmes": 229,
       "publishedChannels": 6,
       "publishedProgrammes": 228,
+      "autoResolved": 0,
+      "rejected": {
+        "row": 0,
+        "title": 0,
+        "time": 0,
+        "range": 0,
+        "duration": 0
+      },
+      "error": null
+    },
+    {
+      "provider": "dazn",
+      "providerName": "DAZN",
+      "file": "data/review/dazn_unclassified.json",
+      "channels": 61,
+      "programmes": 2885,
+      "publishedChannels": 11,
+      "publishedProgrammes": 519,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -588,6 +606,83 @@
       "id": "specta.canalplus_fr.tf1",
       "method": "specta-registry",
       "provider": "canalplus_fr"
+    },
+    {
+      "key": "dazn:de:bj5o60qt6uoe1clfdsev239pr",
+      "name": "DAZN 1",
+      "id": "specta.dazn.de-dazn-1",
+      "method": "specta-registry",
+      "provider": "dazn"
+    },
+    {
+      "key": "dazn:de:1v9s3d9dmt4ph1q4simfgo7ih4",
+      "name": "DAZN 2",
+      "id": "specta.dazn.de-dazn-2",
+      "method": "specta-registry",
+      "provider": "dazn"
+    },
+    {
+      "key": "dazn:es:g4xuuh9i2y2b13yamobxm8men",
+      "name": "DAZN 1",
+      "id": "specta.dazn.es-dazn-1",
+      "method": "specta-registry",
+      "provider": "dazn"
+    },
+    {
+      "key": "dazn:es:7kz6de1zs0wq13yx0rdsszp4t",
+      "name": "DAZN 2",
+      "id": "specta.dazn.es-dazn-2",
+      "method": "specta-registry",
+      "provider": "dazn"
+    },
+    {
+      "key": "dazn:es:q994m1myq9ps1dyhicv16xn9m",
+      "name": "DAZN LALIGA",
+      "id": "specta.dazn.es-dazn-laliga",
+      "method": "specta-registry",
+      "provider": "dazn"
+    },
+    {
+      "key": "dazn:it:4hqcjx5zv91f1bdx71io4bnrl",
+      "name": "DAZN 1",
+      "id": "specta.dazn.it-dazn-1",
+      "method": "specta-registry",
+      "provider": "dazn"
+    },
+    {
+      "key": "dazn:pt:1o4twnocva6uwz9121szkcqly",
+      "name": "DAZN 2",
+      "id": "specta.dazn.pt-dazn-2",
+      "method": "specta-registry",
+      "provider": "dazn"
+    },
+    {
+      "key": "dazn:pt:29l8c8txra9q1gmicmku13nhw",
+      "name": "DAZN 3",
+      "id": "specta.dazn.pt-dazn-3",
+      "method": "specta-registry",
+      "provider": "dazn"
+    },
+    {
+      "key": "dazn:pt:gpg12e28xrnbz5mmgjrjnu99",
+      "name": "DAZN 4",
+      "id": "specta.dazn.pt-dazn-4",
+      "method": "specta-registry",
+      "provider": "dazn"
+    },
+    {
+      "key": "dazn:pt:1xi1dh83i1tl018kl25a3phsr2",
+      "name": "DAZN 5",
+      "id": "specta.dazn.pt-dazn-5",
+      "method": "specta-registry",
+      "provider": "dazn"
+    },
+    {
+      "key": "dazn:us:ta9r7upeuzb1koxdxu1g5br3",
+      "name": "Fubo Sports",
+      "id": "specta.dazn.us-fubo-sports",
+      "method": "specta-registry",
+      "provider": "dazn"
     },
     {
       "key": "elcinema:1169",
@@ -1744,6 +1839,356 @@
         "key": "canalplus_fr:canalplus_fr:la-piste-du-nasi-sur-france-3",
         "provider": "canalplus_fr",
         "name": "la piste du nasi..., Sur FRANCE 3",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:de:1xx7lone8fvv21a2rpc5cji3jx",
+        "provider": "dazn",
+        "name": "DAZN RISE",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:de:1vi4p39obt24i1dtsmthi921tl",
+        "provider": "dazn",
+        "name": "DAZN FAST+",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:de:1l82wc10vjal91887wfmdhvcsp",
+        "provider": "dazn",
+        "name": "Eurosport 1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:de:893cxtl671ey1jf0o6na51es0",
+        "provider": "dazn",
+        "name": "Eurosport 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:de:r0kudpubxdhq1pg22sywrz2w3",
+        "provider": "dazn",
+        "name": "NFL Network",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:de:zcibmuh516p01lduzfsnbw2pj",
+        "provider": "dazn",
+        "name": "SPORTDIGITAL FUSSBALL",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:de:jr0lzor3xjhq1e2rotqdu3zhh",
+        "provider": "dazn",
+        "name": "Red Bull TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:de:db90fd73f6cv14nn9ux8jf6n9",
+        "provider": "dazn",
+        "name": "MLB Network",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:de:ldgvd50szvjt1tmrfualvy0f8",
+        "provider": "dazn",
+        "name": "Unbeaten",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:de:8c9m11qfurai1ffixac9ytscp",
+        "provider": "dazn",
+        "name": "NHL FAST Channel",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:de:mai2qbz2nmw21xjmvjj0rj6ez",
+        "provider": "dazn",
+        "name": "DFB.TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:gb:fv3mmn3nd7w21fxow6nc1pflv",
+        "provider": "dazn",
+        "name": "NFL Network: Live 24/7 Coverage",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:gb:vsz8lglomdep1o9juz8ixwrpc",
+        "provider": "dazn",
+        "name": "Unbeaten: 24/7 Global Sports Channel",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:gb:1uk4wqa9cpm91cy40uybfda5t",
+        "provider": "dazn",
+        "name": "Red Bull TV: Extreme Sports Channel",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:gb:elvgbgwma3ao1846p9xztc5rn",
+        "provider": "dazn",
+        "name": "NHL FAST Channel",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:us:1owzb99m9mnzy15hjxolpukwul",
+        "provider": "dazn",
+        "name": "DAZN 1 USA",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:us:1ih2kvxmspk7k1hkjs4ae7me4p",
+        "provider": "dazn",
+        "name": "Red Bull TV: Extreme Sports Channel",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:us:uul1uco8wdwp1kxf14f6sa44q",
+        "provider": "dazn",
+        "name": "Unbeaten: 24/7 Global Sports Channel",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:it:1sehhy7rge0ld1jdgp57rl9aa5",
+        "provider": "dazn",
+        "name": "Eurosport 1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:it:qcgkqrz3nkse16cntem7yxced",
+        "provider": "dazn",
+        "name": "Eurosport 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:it:dj5y80tag2lz1wwquvj5fg7y9",
+        "provider": "dazn",
+        "name": "Eurosport 3",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:it:1k5xsn9kwz6b816w3j9ec7snxo",
+        "provider": "dazn",
+        "name": "Eurosport 4",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:it:acc08vkaas1k1v8b0chty5832",
+        "provider": "dazn",
+        "name": "Eurosport 5",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:it:gp2utgzli2gn1dyk6egoy3hnc",
+        "provider": "dazn",
+        "name": "Eurosport 6",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:it:1jdysh48i12eb1cdny7b2dgma5",
+        "provider": "dazn",
+        "name": "Inter TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:it:xkl4tjojz1s7zrvhrly6sy2n",
+        "provider": "dazn",
+        "name": "Milan TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:it:5o2uk7e63jrd1fqkp9vuymala",
+        "provider": "dazn",
+        "name": "NFL Network",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:it:vowt32ah7gwx1pz824i5ntrwz",
+        "provider": "dazn",
+        "name": "Red Bull TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:it:5lbyyp00eydx1s3p14vrmvq8v",
+        "provider": "dazn",
+        "name": "DMAX",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:it:lpiewbig674yzgowgerwnm7n",
+        "provider": "dazn",
+        "name": "NOVE",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:it:l8t7xdnvthfi1g2y52cnvnyv2",
+        "provider": "dazn",
+        "name": "Discovery",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:it:1nbcnzjh562xz1hh787eo0je8e",
+        "provider": "dazn",
+        "name": "Real Time",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:it:19oeo2wgzq1vj1rpi9oh86yhbh",
+        "provider": "dazn",
+        "name": "Unbeaten",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:es:1kaqhtrr0kcl11563aff0431p8",
+        "provider": "dazn",
+        "name": "Eurosport 1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:es:1ga4f7hq0t8lu19ptfdbnne7v0",
+        "provider": "dazn",
+        "name": "Eurosport 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:es:11cfwz95fsl161bmgx3yuk3z2e",
+        "provider": "dazn",
+        "name": "NFL Network",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:es:ng4ei1s4tvvk182ndxjeaj08p",
+        "provider": "dazn",
+        "name": "DAZN F1®",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:es:1drhnrh91tkv1fwzqxaj1tbrc",
+        "provider": "dazn",
+        "name": "Red Bull TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:es:uzmhisztf6ek1k1d4wuu25qas",
+        "provider": "dazn",
+        "name": "Unbeaten",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:es:1ih4or13ou3x41uwy4lhaa2mtf",
+        "provider": "dazn",
+        "name": "Primera Federación",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:fr:ndozfjboh3z617ww4zdvm4f3h",
+        "provider": "dazn",
+        "name": "Ligue 1+ : Émissions et Matches en Direct",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:fr:1bddkrl7dvnv9199nnhur7wkjq",
+        "provider": "dazn",
+        "name": "NFL Network",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:fr:ooup628zl1991khow1mzdv7n9",
+        "provider": "dazn",
+        "name": "Red Bull TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:fr:z91t462joue110eoj5zbe14sy",
+        "provider": "dazn",
+        "name": "Unbeaten",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:fr:1n05pq2v5wgex1u1s5zw89sx71",
+        "provider": "dazn",
+        "name": "NHL FAST Channel",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:pt:192nxdhuxe0xb1nxzvjrm68ho8",
+        "provider": "dazn",
+        "name": "DAZN 1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:pt:dkczmujpfh1n1sf8vlz8mrhw7",
+        "provider": "dazn",
+        "name": "NFL Network",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:pt:42fli1z19e3m12fk3u2o3vj5d",
+        "provider": "dazn",
+        "name": "Red Bull TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:pt:oizotzyiys3a1xhzlttbuho89",
+        "provider": "dazn",
+        "name": "Unbeaten",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:pt:1imsf8jlq38wx17kzban3zmuh1",
+        "provider": "dazn",
+        "name": "NHL FAST Channel",
         "reason": "unmapped",
         "candidates": []
       },

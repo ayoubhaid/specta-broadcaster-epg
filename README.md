@@ -12,6 +12,7 @@ Specta owns the complete EPG pipeline: source adapters, raw schedule collection,
 | onTVnow | UK | `providers/ontvnow/` | Public unfiltered XMLTV listings export, normalized to the shared feed schema | Full catalogue retained for review; only explicitly mapped linear TV channels publish |
 | elCinema | Arabic / MENA | `providers/elcinema/` | English TV guide; dated channel schedules for 101 Arabic channels | Explicitly mapped channels only |
 | Golf Channel | US | `providers/golfchannel/` | On-air schedule page; dated programmes | Explicitly mapped channels only |
+| DAZN | Multi-region (ES/DE/PT/IT/US) | `providers/dazn/` | Public rail schedule; 3-day programme window | Explicitly mapped channels only |
 | SNRT | Morocco | `providers/snrt_ma/` | Official SNRT programme grid | Seven reviewed channels |
 | CANAL+ | France | `providers/canalplus_fr/` | Official France programme guide | Reviewed France channels only |
 
