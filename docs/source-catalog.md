@@ -15,6 +15,7 @@ Specta's sports-channel inventory contains 15 broadcaster families. A family may
 | Sky Sports | United Kingdom | [Sky Sports schedule](https://www.skysports.com/watch/sport-on-sky) | Dated schedule response for 21 UK sports channels discovered from the Sky services endpoint | Existing adapter; 21 channels mapped, including TNT Sports and Premier Sports |
 | elCinema | Arabic / MENA | [elCinema TV guide](https://elcinema.com/en/tvguide) | Dated English schedules for 101 Arabic channels; today plus tomorrow, and up to four days on some OSN channels | Existing adapter; explicit mapping only |
 | Golf Channel | United States | [Golf Channel on-air schedule](https://www.golfchannel.com/watch/on-air-schedule) | Dated programme rows with Eastern times; today and tomorrow | Existing adapter; explicit mapping only |
+| DAZN | Spain / Germany / Portugal / Italy / US | [DAZN](https://www.dazn.com/) | Public rail schedule with a three-day programme window | Existing adapter; explicit mapping only; terms require review |
 | SNRT | Morocco | [SNRT](https://www.snrt.ma/) | Official dated programme grid | Existing adapter; separate general broadcaster feed |
 | CANAL+ | France | [Programme TV](https://www.canalplus.com/live-tv/programme-tv/) | Dated channel programme objects in the France guide | Existing adapter; France-only, not CANAL+ Afrique |
 
