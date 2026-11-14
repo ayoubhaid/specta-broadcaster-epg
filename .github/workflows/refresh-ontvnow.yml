@@ -1,0 +1,55 @@
+name: Refresh onTVnow UK Sports EPG
+
+on:
+  push:
+    paths:
+      - ".github/workflows/refresh-ontvnow.yml"
+      - "providers/ontvnow/**"
+  schedule:
+    - cron: "41 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-ontvnow-epg
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test onTVnow adapter
+        run: python -m unittest discover -s providers/ontvnow -p 'test_*.py'
+      - name: Refresh onTVnow UK sports XMLTV
+        run: python providers/ontvnow/scraper.py --output data/review/ontvnow_uk_unclassified.json
+      - name: Validate refreshed feed
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          feed = json.loads(Path("data/review/ontvnow_uk_unclassified.json").read_text(encoding="utf-8"))
+          assert feed["schemaVersion"] == 1
+          assert feed["provider"] == "ontvnow_uk"
+          assert feed["coverage"]["channelsFound"] == len(feed["channels"])
+          assert feed["coverage"]["programmesFound"] == sum(len(c["programmes"]) for c in feed["channels"])
+          assert feed["coverage"]["programmesFound"] > 0
+          print(f"Validated {feed['coverage']['channelsFound']} channels / {feed['coverage']['programmesFound']} programmes")
+          PY
+      - name: Commit refreshed review feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/review/ontvnow_uk_unclassified.json
+          if git diff --staged --quiet; then
+            echo "No onTVnow feed changes"
+          else
+            git commit -m "Refresh onTVnow UK sports EPG"
+            git push
+          fi
