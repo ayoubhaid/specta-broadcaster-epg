@@ -1,7 +1,7 @@
 /**
  * The reviewed bridge between a broadcaster's own channel IDs and the playlist's tvg-ids.
  *
- * A row with a canonical id overrides the automatic iptv-org resolution in lib/registry.mjs.
+ * A row with a Specta ID is the only authority for publishing a source channel.
  * The file is optional: the build resolves identity by name when no row exists.
  */
 
