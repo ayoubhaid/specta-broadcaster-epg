@@ -94,4 +94,4 @@ Add that URL in Specta's EPG settings. The XMLTV includes both Specta-owned IDs 
 - Source terms, rate limits, caching and redistribution rights must be checked before a new adapter is automated.
 - No playlist URLs, stream credentials or private provider data belong in this repository.
 
-See `docs/source-catalog.md` for the 15 broadcaster-family source audit and onboarding status.
+See `docs/source-catalog.md` for the 15 broadcaster-family source audit and onboarding status. Independent guide adapters are supported by the shared feed contract, but none is enabled until its terms explicitly permit automated collection, caching and redistribution for Specta. The currently reviewed independent guide candidates either restrict those activities or do not yet demonstrate coverage of the target sports channels.
