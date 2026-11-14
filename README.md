@@ -11,6 +11,7 @@ Specta owns the complete EPG pipeline: source adapters, raw schedule collection,
 | Sky Sports | UK | `providers/sky/` | Dated linear-channel EPG response | 21 UK sports channels carried on Sky, including TNT Sports and Premier Sports |
 | onTVnow | UK | `providers/ontvnow/` | Public unfiltered XMLTV listings export, normalized to the shared feed schema | Full catalogue retained for review; only explicitly mapped linear TV channels publish |
 | elCinema | Arabic / MENA | `providers/elcinema/` | English TV guide; dated channel schedules for 101 Arabic channels | Explicitly mapped channels only |
+| Golf Channel | US | `providers/golfchannel/` | On-air schedule page; dated programmes | Explicitly mapped channels only |
 | SNRT | Morocco | `providers/snrt_ma/` | Official SNRT programme grid | Seven reviewed channels |
 | CANAL+ | France | `providers/canalplus_fr/` | Official France programme guide | Reviewed France channels only |
 

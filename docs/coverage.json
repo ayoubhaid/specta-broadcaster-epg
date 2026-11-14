@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-14T17:45:14.000Z",
+  "generatedAt": "2026-11-14T17:54:37.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-14T15:45:14.000Z",
-    "to": "2026-11-16T09:45:14.000Z",
+    "from": "2026-11-14T15:54:37.000Z",
+    "to": "2026-11-16T09:54:37.000Z",
     "maxPerChannel": 80
   },
   "totals": {
-    "channels": 191,
-    "programmes": 7279
+    "channels": 192,
+    "programmes": 7294
   },
   "providers": [
     {
@@ -109,6 +109,24 @@
       "programmes": 2834,
       "publishedChannels": 22,
       "publishedProgrammes": 633,
+      "autoResolved": 0,
+      "rejected": {
+        "row": 0,
+        "title": 0,
+        "time": 0,
+        "range": 0,
+        "duration": 0
+      },
+      "error": null
+    },
+    {
+      "provider": "golfchannel",
+      "providerName": "Golf Channel US",
+      "file": "data/review/golfchannel_us_unclassified.json",
+      "channels": 1,
+      "programmes": 19,
+      "publishedChannels": 1,
+      "publishedProgrammes": 19,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -724,6 +742,13 @@
       "id": "specta.elcinema.sama-dubai",
       "method": "specta-registry",
       "provider": "elcinema"
+    },
+    {
+      "key": "golfchannel:golfchannel",
+      "name": "Golf Channel",
+      "id": "specta.golfchannel.golf-channel",
+      "method": "specta-registry",
+      "provider": "golfchannel"
     },
     {
       "key": "ontvnow_uk:5.uk",
