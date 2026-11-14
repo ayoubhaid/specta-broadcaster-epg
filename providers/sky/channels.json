@@ -1,6 +1,23 @@
 [
-  { "id": "1301", "name": "Sky Sports Main Event", "region": "GB" },
-  { "id": "1302", "name": "Sky Sports Cricket", "region": "GB" },
-  { "id": "1303", "name": "Sky Sports Premier League", "region": "GB" },
-  { "id": "4091", "name": "Sky Sports Mix", "region": "GB" }
+  { "id": "4002", "name": "Sky Sports Main Event", "channelNumber": "401", "region": "GB" },
+  { "id": "4010", "name": "Sky Sports Premier League", "channelNumber": "402", "region": "GB" },
+  { "id": "3939", "name": "Sky Sports Football", "channelNumber": "403", "region": "GB" },
+  { "id": "3940", "name": "Sky Sports+", "channelNumber": "404", "region": "GB" },
+  { "id": "4081", "name": "Sky Sports Cricket", "channelNumber": "405", "region": "GB" },
+  { "id": "4026", "name": "Sky Sports Golf", "channelNumber": "406", "region": "GB" },
+  { "id": "3835", "name": "Sky Sports F1", "channelNumber": "407", "region": "GB" },
+  { "id": "1284", "name": "Sky Sports Tennis", "channelNumber": "408", "region": "GB" },
+  { "id": "4049", "name": "Sky Sports News", "channelNumber": "409", "region": "GB" },
+  { "id": "3625", "name": "TNT Sports 1", "channelNumber": "410", "region": "GB" },
+  { "id": "3627", "name": "TNT Sports 2", "channelNumber": "411", "region": "GB" },
+  { "id": "4022", "name": "Sky Sports NFL", "channelNumber": "412", "region": "GB" },
+  { "id": "3629", "name": "TNT Sports 3", "channelNumber": "413", "region": "GB" },
+  { "id": "4040", "name": "TNT Sports 4", "channelNumber": "414", "region": "GB" },
+  { "id": "4032", "name": "Sky Sports Racing", "channelNumber": "415", "region": "GB" },
+  { "id": "4090", "name": "Sky Sports Mix", "channelNumber": "416", "region": "GB" },
+  { "id": "1003", "name": "MUTV", "channelNumber": "418", "region": "GB" },
+  { "id": "1289", "name": "Premier Sports 1", "channelNumber": "419", "region": "GB" },
+  { "id": "1290", "name": "Premier Sports 2", "channelNumber": "420", "region": "GB" },
+  { "id": "3845", "name": "LFCTV", "channelNumber": "423", "region": "GB" },
+  { "id": "5272", "name": "Racing TV", "channelNumber": "424", "region": "GB" }
 ]

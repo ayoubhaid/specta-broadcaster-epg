@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-14T17:09:07.000Z",
+  "generatedAt": "2026-11-14T17:29:49.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-14T15:09:07.000Z",
-    "to": "2026-11-16T09:09:07.000Z",
+    "from": "2026-11-14T15:29:49.000Z",
+    "to": "2026-11-16T09:29:49.000Z",
     "maxPerChannel": 80
   },
   "totals": {
-    "channels": 57,
-    "programmes": 2178
+    "channels": 151,
+    "programmes": 6593
   },
   "providers": [
     {
@@ -48,13 +48,31 @@
       "error": null
     },
     {
+      "provider": "ontvnow_uk",
+      "providerName": "onTVnow UK Listings",
+      "file": "data/review/ontvnow_uk_unclassified.json",
+      "channels": 286,
+      "programmes": 49331,
+      "publishedChannels": 77,
+      "publishedProgrammes": 15318,
+      "autoResolved": 0,
+      "rejected": {
+        "row": 0,
+        "title": 0,
+        "time": 0,
+        "range": 0,
+        "duration": 1
+      },
+      "error": null
+    },
+    {
       "provider": "sky_uk",
       "providerName": "Sky Sports UK",
       "file": "data/review/sky_uk_unclassified.json",
-      "channels": 4,
-      "programmes": 571,
-      "publishedChannels": 4,
-      "publishedProgrammes": 571,
+      "channels": 21,
+      "programmes": 2804,
+      "publishedChannels": 21,
+      "publishedProgrammes": 2804,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -356,30 +374,688 @@
       "provider": "canalplus_fr"
     },
     {
-      "key": "sky_uk:1302",
+      "key": "ontvnow_uk:5.uk",
+      "name": "5 HD",
+      "id": "specta.ontvnow_uk.5",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:5action.uk",
+      "name": "5ACTION",
+      "id": "specta.ontvnow_uk.5-action",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:5select.uk",
+      "name": "5SELECT",
+      "id": "specta.ontvnow_uk.5-select",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:5star.uk",
+      "name": "5STAR",
+      "id": "specta.ontvnow_uk.5-star",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:5starplus1.uk",
+      "name": "5STAR+1",
+      "id": "specta.ontvnow_uk.5-star-plus1",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:5usa.uk",
+      "name": "5 USA",
+      "id": "specta.ontvnow_uk.5-usa",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:5usaplus1.uk",
+      "name": "5USA+1",
+      "id": "specta.ontvnow_uk.5-usa-plus1",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:arisenews.uk",
+      "name": "Arise News",
+      "id": "specta.ontvnow_uk.arise-news",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:bbcnews.uk",
+      "name": "BBC NEWS HD",
+      "id": "specta.ontvnow_uk.bbc-news",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:bbconeeastmidlands.uk",
+      "name": "BBC One East Midlands HD",
+      "id": "specta.ontvnow_uk.bbc-one-east-midlands",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:bbconelondonhd.uk",
+      "name": "BBC One London HD",
+      "id": "specta.ontvnow_uk.bbc-one-london",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:bbconenorthernireland.uk",
+      "name": "BBC One NI HD",
+      "id": "specta.ontvnow_uk.bbc-one-ni",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:bbconenorthwest.uk",
+      "name": "BBC One North West HD",
+      "id": "specta.ontvnow_uk.bbc-one-north-west",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:bbconescothd.uk",
+      "name": "BBC One Scotland HD",
+      "id": "specta.ontvnow_uk.bbc-one-scotland",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:bbconesoutheast.uk",
+      "name": "BBC One South East HD",
+      "id": "specta.ontvnow_uk.bbc-one-south-east",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:bbconewaleshd.uk",
+      "name": "BBC One Wales HD",
+      "id": "specta.ontvnow_uk.bbc-one-wales",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:bbconewest.uk",
+      "name": "BBC One West HD",
+      "id": "specta.ontvnow_uk.bbc-one-west",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:bbconeyorkshire.uk",
+      "name": "BBC One Yorkshire HD",
+      "id": "specta.ontvnow_uk.bbc-one-yorkshire",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:bbcparliament.uk",
+      "name": "BBC Parliament HD",
+      "id": "specta.ontvnow_uk.bbc-parliament",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:bbcscotland.uk",
+      "name": "BBC Scotland HD",
+      "id": "specta.ontvnow_uk.bbc-scotland",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:bbctwonorthernireland.uk",
+      "name": "BBC Two NI HD",
+      "id": "specta.ontvnow_uk.bbc-two-ni",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:bbctwowales.uk",
+      "name": "BBC Two Wales HD",
+      "id": "specta.ontvnow_uk.bbc-two-wales",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:bestdirect.uk",
+      "name": "Best Direct",
+      "id": "specta.ontvnow_uk.best-direct",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:blaze.uk",
+      "name": "Blaze",
+      "id": "specta.ontvnow_uk.blaze",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:challenge.uk",
+      "name": "Challenge",
+      "id": "specta.ontvnow_uk.challenge",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:channel4london.uk",
+      "name": "Channel 4 London HD",
+      "id": "specta.ontvnow_uk.channel-4-london",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:clublandtv.uk",
+      "name": "Clubland TV",
+      "id": "specta.ontvnow_uk.clubland-tv",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:cnbceurope.uk",
+      "name": "CNBC HD",
+      "id": "specta.ontvnow_uk.cnbc",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:cnninternational.uk",
+      "name": "CNN HD",
+      "id": "specta.ontvnow_uk.cnn",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:dmax.uk",
+      "name": "DMAX",
+      "id": "specta.ontvnow_uk.dmax",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:e4.uk",
+      "name": "E4",
+      "id": "specta.ontvnow_uk.e-4",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:e4plus1.uk",
+      "name": "E4 +1",
+      "id": "specta.ontvnow_uk.e-4-plus1",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:euronewsenglish.fr",
+      "name": "Euronews",
+      "id": "specta.ontvnow_uk.euronews",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:film4.uk",
+      "name": "Film4",
+      "id": "specta.ontvnow_uk.film-4",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:foodnetwork.uk",
+      "name": "Food Network",
+      "id": "specta.ontvnow_uk.food-network",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:gbnews.uk",
+      "name": "GB News HD",
+      "id": "specta.ontvnow_uk.gb-news",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:greataction.uk",
+      "name": "GREAT! action",
+      "id": "specta.ontvnow_uk.great-action",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:greatmovies.uk",
+      "name": "GREAT! Movies",
+      "id": "specta.ontvnow_uk.great-movies",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:greattv.uk",
+      "name": "GREAT! tv",
+      "id": "specta.ontvnow_uk.great-tv",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:highstreettv1.uk",
+      "name": "High Street TV 1",
+      "id": "specta.ontvnow_uk.high-street-tv-1",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:highstreettv2.uk",
+      "name": "High Street TV 2",
+      "id": "specta.ontvnow_uk.high-street-tv-2",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:idealworld.uk",
+      "name": "Ideal World HD",
+      "id": "specta.ontvnow_uk.ideal-world",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:itv1granada.uk",
+      "name": "ITV1 Granada HD",
+      "id": "specta.ontvnow_uk.itv-1-granada",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:itv1london.uk",
+      "name": "ITV1 London HD",
+      "id": "specta.ontvnow_uk.itv-1-london",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:itv1tynetees.uk",
+      "name": "ITV1 Tyne Tees HD",
+      "id": "specta.ontvnow_uk.itv-1-tyne-tees",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:itv2.uk",
+      "name": "ITV2 HD",
+      "id": "specta.ontvnow_uk.itv-2",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:itv3.uk",
+      "name": "ITV3 HD",
+      "id": "specta.ontvnow_uk.itv-3",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:itv4.uk",
+      "name": "ITV4 HD",
+      "id": "specta.ontvnow_uk.itv-4",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:itv1plus1granada.uk",
+      "name": "ITV+1 Granada",
+      "id": "specta.ontvnow_uk.itv-plus1-granada",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:itv1plus1london.uk",
+      "name": "ITV+1 London",
+      "id": "specta.ontvnow_uk.itv-plus1-london",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:itvquiz.uk",
+      "name": "ITV Quiz",
+      "id": "specta.ontvnow_uk.itv-quiz",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:legend.uk",
+      "name": "Legend",
+      "id": "specta.ontvnow_uk.legend",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:more4.uk",
+      "name": "More4",
+      "id": "specta.ontvnow_uk.more-4",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:movies24.uk",
+      "name": "Movies24",
+      "id": "specta.ontvnow_uk.movies-24",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:now70s.uk",
+      "name": "Now 70s",
+      "id": "specta.ontvnow_uk.now-70-s",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:now80s.uk",
+      "name": "Now 80s",
+      "id": "specta.ontvnow_uk.now-80-s",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:pbsamerica.uk",
+      "name": "PBS America",
+      "id": "specta.ontvnow_uk.pbs-america",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:questhd.uk",
+      "name": "Quest HD",
+      "id": "specta.ontvnow_uk.quest",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:questred.uk",
+      "name": "Quest Red",
+      "id": "specta.ontvnow_uk.quest-red",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:qvcbeauty.uk",
+      "name": "QVC Beauty",
+      "id": "specta.ontvnow_uk.qvc-beauty",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:qvcextra.uk",
+      "name": "QVC Extra",
+      "id": "specta.ontvnow_uk.qvc-extra",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:qvcstyle.uk",
+      "name": "QVC Style",
+      "id": "specta.ontvnow_uk.qvc-style",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:really.uk",
+      "name": "Really",
+      "id": "specta.ontvnow_uk.really",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:rteone.ie",
+      "name": "RTÉ One HD",
+      "id": "specta.ontvnow_uk.rte-one",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:s4c.uk",
+      "name": "S4C",
+      "id": "specta.ontvnow_uk.s-4-c",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:skyarts.uk",
+      "name": "Sky Arts",
+      "id": "specta.ontvnow_uk.sky-arts",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:skymix.uk",
+      "name": "Sky Mix HD",
+      "id": "specta.ontvnow_uk.sky-mix",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:skynews.uk",
+      "name": "Sky News HD",
+      "id": "specta.ontvnow_uk.sky-news",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:tjc.uk",
+      "name": "TJC HD",
+      "id": "specta.ontvnow_uk.tjc",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:tlc.uk",
+      "name": "TLC",
+      "id": "specta.ontvnow_uk.tlc",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:trtworld.tr",
+      "name": "TRT World",
+      "id": "specta.ontvnow_uk.trt-world",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:truecrime.uk",
+      "name": "True Crime",
+      "id": "specta.ontvnow_uk.true-crime",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:tvwarehouse.uk",
+      "name": "TV Warehouse",
+      "id": "specta.ontvnow_uk.tv-warehouse",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:tvcnews.ng",
+      "name": "TVC News",
+      "id": "specta.ontvnow_uk.tvc-news",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:uanddave.uk",
+      "name": "U&Dave",
+      "id": "specta.ontvnow_uk.u-dave",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:uandw.uk",
+      "name": "U&W",
+      "id": "specta.ontvnow_uk.u-w",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "ontvnow_uk:utv.uk",
+      "name": "UTV",
+      "id": "specta.ontvnow_uk.utv",
+      "method": "specta-registry",
+      "provider": "ontvnow_uk"
+    },
+    {
+      "key": "sky_uk:3845",
+      "name": "LFCTV",
+      "id": "specta.sky_uk.lfc-tv",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:1003",
+      "name": "MUTV",
+      "id": "specta.sky_uk.mutv",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:1289",
+      "name": "Premier Sports 1",
+      "id": "specta.sky_uk.premier-sports-1",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:1290",
+      "name": "Premier Sports 2",
+      "id": "specta.sky_uk.premier-sports-2",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:5272",
+      "name": "Racing TV",
+      "id": "specta.sky_uk.racing-tv",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:4081",
       "name": "Sky Sports Cricket",
       "id": "specta.sky_uk.sky-sports-cricket",
       "method": "specta-registry",
       "provider": "sky_uk"
     },
     {
-      "key": "sky_uk:1301",
+      "key": "sky_uk:3835",
+      "name": "Sky Sports F1",
+      "id": "specta.sky_uk.sky-sports-f1",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:3939",
+      "name": "Sky Sports Football",
+      "id": "specta.sky_uk.sky-sports-football",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:4026",
+      "name": "Sky Sports Golf",
+      "id": "specta.sky_uk.sky-sports-golf",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:4002",
       "name": "Sky Sports Main Event",
       "id": "specta.sky_uk.sky-sports-main-event",
       "method": "specta-registry",
       "provider": "sky_uk"
     },
     {
-      "key": "sky_uk:4091",
+      "key": "sky_uk:4090",
       "name": "Sky Sports Mix",
       "id": "specta.sky_uk.sky-sports-mix",
       "method": "specta-registry",
       "provider": "sky_uk"
     },
     {
-      "key": "sky_uk:1303",
+      "key": "sky_uk:4049",
+      "name": "Sky Sports News",
+      "id": "specta.sky_uk.sky-sports-news",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:4022",
+      "name": "Sky Sports NFL",
+      "id": "specta.sky_uk.sky-sports-nfl",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:3940",
+      "name": "Sky Sports+",
+      "id": "specta.sky_uk.sky-sports-plus",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:4010",
       "name": "Sky Sports Premier League",
       "id": "specta.sky_uk.sky-sports-premier-league",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:4032",
+      "name": "Sky Sports Racing",
+      "id": "specta.sky_uk.sky-sports-racing",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:1284",
+      "name": "Sky Sports Tennis",
+      "id": "specta.sky_uk.sky-sports-tennis",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:3625",
+      "name": "TNT Sports 1",
+      "id": "specta.sky_uk.tnt-sports-1",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:3627",
+      "name": "TNT Sports 2",
+      "id": "specta.sky_uk.tnt-sports-2",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:3629",
+      "name": "TNT Sports 3",
+      "id": "specta.sky_uk.tnt-sports-3",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:4040",
+      "name": "TNT Sports 4",
+      "id": "specta.sky_uk.tnt-sports-4",
       "method": "specta-registry",
       "provider": "sky_uk"
     },
@@ -628,6 +1304,1469 @@
         "key": "canalplus_fr:canalplus_fr:la-piste-du-nasi-sur-france-3",
         "provider": "canalplus_fr",
         "name": "la piste du nasi..., Sur FRANCE 3",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:4seven.uk",
+        "provider": "ontvnow_uk",
+        "name": "4Seven",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:5plus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "5+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:aljazeeraarabic.qa",
+        "provider": "ontvnow_uk",
+        "name": "Al Jazeera Arabic",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:aljazeeraenglish.qa",
+        "provider": "ontvnow_uk",
+        "name": "Al Jazeera HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:arirangtv.kr",
+        "provider": "ontvnow_uk",
+        "name": "Arirang TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcalba.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC ALBA HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcfourhd.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Four HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbconechannelislands.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC One CI HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbconeeast.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC One East HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbconenortheastcumbria.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC One North East HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbconesouth.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC One South HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbconesouthwest.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC One South West HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbconewestmidlands.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC One West Midlands HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbconeyorkslincs.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC One Yorks & Lincs HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcr1.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio 1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcr1x.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio 1 Xtra",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcr2.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcr3.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio 3",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcr4ex.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio 4 Extra",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcr4fm.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio 4 FM",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcr4lw.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio 4 LW",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcr5l.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio 5 Live",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcr5sx.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio 5 Sports Xtra",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcr6m.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio 6 Music",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcrasiannetwork.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Asian Network",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcrscotland.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Scotland",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcrulster.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Ulster",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcrwales.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Wales",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradioberkshire.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Berkshire",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiobristol.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Bristol",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiocambridgeshire.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Cambridgeshire",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiocornwall.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Cornwall",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiocumbria.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Cumbria",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiocymru.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Cymru",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiocymru2.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Cymru 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradioderby.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Derby",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiodevon.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Devon",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiofoyle.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Foyle",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiogaidhael.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio nan Gaidhael",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiogloucestershire.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Gloucestershire",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiohumberside.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Humberside",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiojersey.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Jersey",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiokent.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Kent",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiolancashire.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Lancashire",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradioleeds.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Leeds",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradioleicester.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Leicester",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiolincolnshire.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Lincolnshire",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiolondon.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio London",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiomanchester.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Manchester",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiomerseyside.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Merseyside",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradionewcastle.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Newcastle",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradionorfolk.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Norfolk",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradionorthampton.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Northampton",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradionottingham.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Nottingham",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradioorkney.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Orkney",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiosheffield.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Sheffield",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradioshetland.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Shetland",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradioshropshire.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Shropshire",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiosurrey.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Surrey",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiotees.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Tees",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradiothreecounties.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio Three Counties",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcradioyork.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio York",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcredbutton1.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Red Button 1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcthreehd.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Three HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbctwohd.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Two HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bbcworldservice.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC World Service",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bfbsradio.uk",
+        "provider": "ontvnow_uk",
+        "name": "BFBS Radio",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:bloombergtveurope.uk",
+        "provider": "ontvnow_uk",
+        "name": "Bloomberg HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:cbbc.uk",
+        "provider": "ontvnow_uk",
+        "name": "CBBC",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:cbeebies.uk",
+        "provider": "ontvnow_uk",
+        "name": "CBeebies",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:cnainternational.sg",
+        "provider": "ontvnow_uk",
+        "name": "CNA",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:capitalradio.uk",
+        "provider": "ontvnow_uk",
+        "name": "Capital",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:capitalxtra.uk",
+        "provider": "ontvnow_uk",
+        "name": "Capital Xtra",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:challenge.ie",
+        "provider": "ontvnow_uk",
+        "name": "Challenge ROI",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:channel4midlands.uk",
+        "provider": "ontvnow_uk",
+        "name": "Channel 4 Midlands HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:channel4north.uk",
+        "provider": "ontvnow_uk",
+        "name": "Channel 4 North HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:channel4plus1london.uk",
+        "provider": "ontvnow_uk",
+        "name": "Channel 4+1 London",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:channel4plus1north.uk",
+        "provider": "ontvnow_uk",
+        "name": "Channel 4+1 North",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:channel4plus1roi.uk",
+        "provider": "ontvnow_uk",
+        "name": "Channel 4+1 ROI",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:channel4plus1scotland.uk",
+        "provider": "ontvnow_uk",
+        "name": "Channel 4+1 Scotland",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:channel4plus1south.uk",
+        "provider": "ontvnow_uk",
+        "name": "Channel 4+1 South",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:channel4roi.uk",
+        "provider": "ontvnow_uk",
+        "name": "Channel 4 ROI HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:channel4scotland.uk",
+        "provider": "ontvnow_uk",
+        "name": "Channel 4 Scotland HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:channel4south.uk",
+        "provider": "ontvnow_uk",
+        "name": "Channel 4 South HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:channel4ulster.uk",
+        "provider": "ontvnow_uk",
+        "name": "Channel 4 Ulster HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:channels24.ng",
+        "provider": "ontvnow_uk",
+        "name": "Channels 24",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:classicfm.uk",
+        "provider": "ontvnow_uk",
+        "name": "Classic FM",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:dmax.ie",
+        "provider": "ontvnow_uk",
+        "name": "DMAX ROI",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:dmaxukplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "DMAX+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:dmnewsenglish.uk",
+        "provider": "ontvnow_uk",
+        "name": "DM News English",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:e4.ie",
+        "provider": "ontvnow_uk",
+        "name": "E4 ROI",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:e4extra.uk",
+        "provider": "ontvnow_uk",
+        "name": "E4 Extra",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:e4hd.uk",
+        "provider": "ontvnow_uk",
+        "name": "E4 HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:film4.ie",
+        "provider": "ontvnow_uk",
+        "name": "Film4 ROI",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:film4hd.uk",
+        "provider": "ontvnow_uk",
+        "name": "Film4 HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:film4plus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "Film 4+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:foodnetwork.ie",
+        "provider": "ontvnow_uk",
+        "name": "Food Network ROI",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:foodnetworkplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "Food Network+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:france24english.fr",
+        "provider": "ontvnow_uk",
+        "name": "France 24 HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:gigs.uk",
+        "provider": "ontvnow_uk",
+        "name": "GIGS",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:gemstv.uk",
+        "provider": "ontvnow_uk",
+        "name": "Gemporia TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:goldradio.uk",
+        "provider": "ontvnow_uk",
+        "name": "Gold",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:greatactionplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "GREAT! action+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:greatchristmas.uk",
+        "provider": "ontvnow_uk",
+        "name": "GREAT! Christmas",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:greatchristmasplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "GREAT! Christmas +1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:greatmystery.uk",
+        "provider": "ontvnow_uk",
+        "name": "GREAT! Mystery",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:greatmysteryplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "GREAT! Mystery +1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:greattvplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "GREAT! tv+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:heart80s.uk",
+        "provider": "ontvnow_uk",
+        "name": "Heart 80s",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:heart90s.uk",
+        "provider": "ontvnow_uk",
+        "name": "Heart 90s",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:heartdance.uk",
+        "provider": "ontvnow_uk",
+        "name": "Heart Dance",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:heartradio.uk",
+        "provider": "ontvnow_uk",
+        "name": "Heart Radio",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:hobbymaker.uk",
+        "provider": "ontvnow_uk",
+        "name": "Hobby Maker HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv1anglia.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV1 Anglia HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv1angliawest.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV1 Anglia (West) HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv1border.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV1 Border HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv1centrale.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV1 Central (East) HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv1centralw.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV1 Central (West) HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv1meridiane.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV1 Meridian (East) HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv1meridiann.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV1 Meridian (North) HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv1meridians.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV1 Meridian (South) HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv1north.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV1 North HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv1plus1meridian.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV+1 Meridian",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv1plus1midlands.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV+1 Midlands",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv1wales.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV1 Wales HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv1west.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV1 West HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv1westcountry.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV1 West Country HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv1yorkshireeast.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV1 Yorkshire (East) HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv1yorkshirewest.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV1 Yorkshire HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv2plus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV2+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv3plus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV3+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:itv4plus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "ITV4+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:jewellerymaker.uk",
+        "provider": "ontvnow_uk",
+        "name": "Jewellery Maker",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:lbcnews.uk",
+        "provider": "ontvnow_uk",
+        "name": "LBC News",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:lbcradio.uk",
+        "provider": "ontvnow_uk",
+        "name": "LBC",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:legendxtra.uk",
+        "provider": "ontvnow_uk",
+        "name": "Legend Xtra",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:legendxtraplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "Legend Xtra+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:londontv.uk",
+        "provider": "ontvnow_uk",
+        "name": "London TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:more4.ie",
+        "provider": "ontvnow_uk",
+        "name": "More4 ROI",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:more4hd.uk",
+        "provider": "ontvnow_uk",
+        "name": "More4 HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:more4plus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "More4+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:movies24plus.uk",
+        "provider": "ontvnow_uk",
+        "name": "Movies24+",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:musthaveideas.uk",
+        "provider": "ontvnow_uk",
+        "name": "Must Have Ideas",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:ndtvworld.in",
+        "provider": "ontvnow_uk",
+        "name": "NDTV World",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:nhkworldjapan.jp",
+        "provider": "ontvnow_uk",
+        "name": "NHK World HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:newsmaxtv.uk",
+        "provider": "ontvnow_uk",
+        "name": "Newsmax",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:now90s.uk",
+        "provider": "ontvnow_uk",
+        "name": "Now 90s & 00s",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:nowrock.uk",
+        "provider": "ontvnow_uk",
+        "name": "Now Rock",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:panjabradio.uk",
+        "provider": "ontvnow_uk",
+        "name": "Panjab Radio",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:planetrock.uk",
+        "provider": "ontvnow_uk",
+        "name": "Planet Rock",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:premierradio.uk",
+        "provider": "ontvnow_uk",
+        "name": "Premier Radio",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:qvc.uk",
+        "provider": "ontvnow_uk",
+        "name": "QVC",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:qvc2.uk",
+        "provider": "ontvnow_uk",
+        "name": "QVC 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:questhd.ie",
+        "provider": "ontvnow_uk",
+        "name": "Quest HD ROI",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:questplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "QUEST+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:questred.ie",
+        "provider": "ontvnow_uk",
+        "name": "Quest Red ROI",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:questredplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "Quest Red+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:rnibconnectradio.uk",
+        "provider": "ontvnow_uk",
+        "name": "RNIB Connect",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:rte2.ie",
+        "provider": "ontvnow_uk",
+        "name": "RTÉ2 HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:rte2fm.ie",
+        "provider": "ontvnow_uk",
+        "name": "RTÉ 2FM",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:rte2plus1.ie",
+        "provider": "ontvnow_uk",
+        "name": "RTÉ2 +1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:rtekidsjr.ie",
+        "provider": "ontvnow_uk",
+        "name": "RTÉ KIDSjr",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:rtelyricfm.ie",
+        "provider": "ontvnow_uk",
+        "name": "RTÉ Lyric FM",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:rtenews.ie",
+        "provider": "ontvnow_uk",
+        "name": "RTÉ News",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:rteoneplus1.ie",
+        "provider": "ontvnow_uk",
+        "name": "RTÉ One +1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:rteradio1.ie",
+        "provider": "ontvnow_uk",
+        "name": "RTÉ Radio 1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:rternag.ie",
+        "provider": "ontvnow_uk",
+        "name": "RTÉ Raidió na Gaeltachta",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:radiox.uk",
+        "provider": "ontvnow_uk",
+        "name": "Radio X",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:really.ie",
+        "provider": "ontvnow_uk",
+        "name": "Really ROI",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:reallyplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "Really +1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:rewindtv.uk",
+        "provider": "ontvnow_uk",
+        "name": "Rewind TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:stvcentral.uk",
+        "provider": "ontvnow_uk",
+        "name": "STV Central HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:stvcentralplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "STV Central +1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:stvnorth.uk",
+        "provider": "ontvnow_uk",
+        "name": "STV North HD",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:stvnorthplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "STV North +1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:shopunlimited.uk",
+        "provider": "ontvnow_uk",
+        "name": "Shop Unlimited",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:skyarts.ie",
+        "provider": "ontvnow_uk",
+        "name": "Sky Arts ROI",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:skymix.ie",
+        "provider": "ontvnow_uk",
+        "name": "Sky Mix HD ROI",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:smoothradio.uk",
+        "provider": "ontvnow_uk",
+        "name": "Smooth Radio",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:tbn.uk",
+        "provider": "ontvnow_uk",
+        "name": "TBN UK",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:tg4.ie",
+        "provider": "ontvnow_uk",
+        "name": "TG4",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:tlcplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "TLC+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:talksport.uk",
+        "provider": "ontvnow_uk",
+        "name": "talkSPORT",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:talkingpicturestv.uk",
+        "provider": "ontvnow_uk",
+        "name": "Talking Pictures TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:thats20thcentury.uk",
+        "provider": "ontvnow_uk",
+        "name": "That's 20th Century",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:thats60s.uk",
+        "provider": "ontvnow_uk",
+        "name": "That's 60s",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:thats70s.uk",
+        "provider": "ontvnow_uk",
+        "name": "That's 70s",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:thatstv.uk",
+        "provider": "ontvnow_uk",
+        "name": "That's TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:thatstv2.uk",
+        "provider": "ontvnow_uk",
+        "name": "That's TV 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:togethertv.uk",
+        "provider": "ontvnow_uk",
+        "name": "Together TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:togethertvplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "Together TV +1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:travelxp.in",
+        "provider": "ontvnow_uk",
+        "name": "Travelxp",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:truecrimeplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "True Crime+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:truecrimextra.uk",
+        "provider": "ontvnow_uk",
+        "name": "True Crime Xtra",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:uanddavejavu.uk",
+        "provider": "ontvnow_uk",
+        "name": "U&Dave ja vu",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:uanddrama.uk",
+        "provider": "ontvnow_uk",
+        "name": "U&Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:uanddramaplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "U&Drama+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:uandeden.uk",
+        "provider": "ontvnow_uk",
+        "name": "U&Eden",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:uandedenplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "U&Eden+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:uandwplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "U&W+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:uandyesterday.uk",
+        "provider": "ontvnow_uk",
+        "name": "U&Yesterday",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:uandyesterdayplus1.uk",
+        "provider": "ontvnow_uk",
+        "name": "U&Yesterday+1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:virginmediafour.ie",
+        "provider": "ontvnow_uk",
+        "name": "Virgin Media Four",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:virginmediaone.ie",
+        "provider": "ontvnow_uk",
+        "name": "Virgin Media One",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:virginmediaoneplus1.ie",
+        "provider": "ontvnow_uk",
+        "name": "Virgin Media One +1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:virginmediathree.ie",
+        "provider": "ontvnow_uk",
+        "name": "Virgin Media Three",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:virginmediatwo.ie",
+        "provider": "ontvnow_uk",
+        "name": "Virgin Media Two",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:virginradio.uk",
+        "provider": "ontvnow_uk",
+        "name": "Virgin Radio",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:wedotvmovies.uk",
+        "provider": "ontvnow_uk",
+        "name": "wedotv Movies UK",
         "reason": "unmapped",
         "candidates": []
       },
@@ -955,6 +3094,6 @@
     "title": 0,
     "time": 0,
     "range": 0,
-    "duration": 31
+    "duration": 32
   }
 }

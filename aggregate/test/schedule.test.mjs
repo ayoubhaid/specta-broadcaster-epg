@@ -60,4 +60,5 @@ test("inspectFeed only accepts the shared schedule-v1 envelope", () => {
   assert.equal(inspectFeed({ schemaVersion: 2, provider: "x", channels: [] }).ok, false);
   assert.equal(inspectFeed({ schemaVersion: 1, provider: "", channels: [] }).ok, false);
   assert.equal(inspectFeed({ schemaVersion: 1, provider: "x" }).ok, false);
+  assert.equal(inspectFeed({ schemaVersion: 1, provider: "ontvnow_uk", channels: [{ id: "x", name: "X", programmesFound: 0 }] }).ok, false);
 });

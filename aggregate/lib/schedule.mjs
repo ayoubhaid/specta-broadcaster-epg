@@ -30,6 +30,11 @@ export function inspectFeed(document) {
   if (document.schemaVersion !== 1) return { ok: false, reason: "schemaVersion" };
   if (typeof document.provider !== "string" || !document.provider.trim()) return { ok: false, reason: "provider" };
   if (!Array.isArray(document.channels)) return { ok: false, reason: "channels" };
+  // A compact inventory (channels with programmesFound but no programmes arrays)
+  // must not shadow the real feed for the same provider.
+  if (document.channels.length && !document.channels.some(channel => channel && Array.isArray(channel.programmes))) {
+    return { ok: false, reason: "channels.programmes" };
+  }
   return { ok: true, reason: null };
 }
 

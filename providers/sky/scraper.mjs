@@ -80,16 +80,27 @@ export function normalizeResponse(payload, fetchedAt, sourceUrl) {
   };
 }
 
+/** The Sky endpoint rejects long SID lists, so ask for at most this many at once. */
+const CHUNK_SIZE = 10;
+
 export async function fetchDate(date) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) throw new Error("date must be YYYY-MM-DD");
   const yyyymmdd = date.replaceAll("-", "");
-  const sids = CHANNELS.map(channel => channel.id).join(",");
-  const sourceUrl = `${API}/${yyyymmdd}/${sids}`;
-  const response = await fetch(sourceUrl, { headers: { accept: "application/json", "user-agent": "SpectaEPG/1.0 public schedule ingestion" }, signal: AbortSignal.timeout(30000) });
-  if (!response.ok) throw new Error(`Sky schedule HTTP ${response.status}`);
-  const payload = await response.json();
-  if (String(payload.date) !== yyyymmdd) throw new Error(`Sky returned date ${payload.date}, expected ${yyyymmdd}`);
-  return normalizeResponse(payload, new Date().toISOString(), sourceUrl);
+  const schedules = [];
+  for (let index = 0; index < CHANNELS.length; index += CHUNK_SIZE) {
+    const sids = CHANNELS.slice(index, index + CHUNK_SIZE).map(channel => channel.id).join(",");
+    const sourceUrl = `${API}/${yyyymmdd}/${sids}`;
+    const response = await fetch(sourceUrl, { headers: { accept: "application/json", "user-agent": "SpectaEPG/1.0 public schedule ingestion" }, signal: AbortSignal.timeout(30000) });
+    if (!response.ok) throw new Error(`Sky schedule HTTP ${response.status}`);
+    const payload = await response.json();
+    if (String(payload.date) !== yyyymmdd) throw new Error(`Sky returned date ${payload.date}, expected ${yyyymmdd}`);
+    if (Array.isArray(payload.schedule)) schedules.push(...payload.schedule);
+  }
+  return normalizeResponse(
+    { date: yyyymmdd, schedule: schedules },
+    new Date().toISOString(),
+    "https://www.skysports.com/watch/sport-on-sky"
+  );
 }
 
 export async function fetchDays(firstDate, days = 1) {
