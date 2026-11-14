@@ -15,7 +15,6 @@ export const DEFAULT_OPTIONS = {
   maxDurationSeconds: 12 * 3600,
   descriptionMax: 400,
   allowUnmapped: false,
-  resolve: null,
 };
 
 export function buildFeed({ feeds, mapping, now, options = {} }) {
@@ -75,29 +74,11 @@ export function buildFeed({ feeds, mapping, now, options = {} }) {
         }
 
         let publishId = row?.canonicalChannelId ?? "";
-        let method = publishId ? "manual" : "";
+        let method = publishId ? "specta-registry" : "";
 
         if (!publishId && config.allowUnmapped) {
           publishId = key;
           method = "diagnostic";
-        }
-
-        if (!publishId && config.resolve) {
-          const result = config.resolve(feed, channel);
-          if (result?.id) {
-            publishId = result.id;
-            method = result.method ?? "registry";
-            stat.autoResolved++;
-          } else {
-            report.held.unresolved.push({
-              key,
-              provider: feed.provider,
-              name: channel.name,
-              reason: result?.reason ?? "unknown",
-              candidates: result?.candidates ?? [],
-            });
-            continue;
-          }
         }
 
         if (!publishId) {
