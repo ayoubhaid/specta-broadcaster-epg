@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: refresh-ontvnow-epg
+  group: refresh-ontvnow-uk-listings
   cancel-in-progress: false
 
 jobs:
