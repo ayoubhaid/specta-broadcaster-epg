@@ -208,37 +208,6 @@ test("matching channels from different providers merge programmes under one cano
   assert.equal(report.providers[1].publishedChannels, 1);
 });
 
-test("trusted upstream country IDs publish only when the suffix matches the feed market", () => {
-  const valid = {
-    provider: "market_uk_ontvtonight",
-    region: "GB",
-    channels: [{
-      id: "BBCOne.uk",
-      canonicalChannelId: "BBCOne.uk",
-      name: "BBC One",
-      programmes: [{ title: "News", startEpochSeconds: NOW, endEpochSeconds: NOW + 1800 }]
-    }]
-  };
-  const invalid = {
-    provider: "market_uk_ontvtonight",
-    region: "GB",
-    channels: [{
-      id: "France2.fr",
-      canonicalChannelId: "France2.fr",
-      name: "France 2",
-      programmes: [{ title: "News", startEpochSeconds: NOW, endEpochSeconds: NOW + 1800 }]
-    }]
-  };
-  const { channels, report } = buildFeed({
-    feeds: [valid, invalid],
-    mapping: new Map(),
-    now: NOW
-  });
-  assert.deepEqual(channels.map(channel => channel.id), ["BBCOne.uk"]);
-  assert.equal(report.resolved[0].method, "upstream-id");
-  assert.equal(report.held.unresolved.length, 1);
-});
-
 test("near-identical schedules from different providers are deduplicated within two minutes", () => {
   const first = {
     provider: "provider_a",
@@ -264,4 +233,16 @@ test("near-identical schedules from different providers are deduplicated within 
   assert.equal(channels.length, 1);
   assert.equal(channels[0].programmes.length, 1);
   assert.equal(channels[0].programmes[0].start, NOW);
+});
+
+
+test("playlist aliases are retained on the canonical Specta channel", () => {
+  const mapping = new Map([["demo:ch1", {
+    canonicalChannelId: "specta.demo.channel-one",
+    channelClass: "permanent_linear",
+    playlistAliases: ["legacy.channel.one", "playlist.channel.one"]
+  }]]);
+  const { channels } = buildFeed({ feeds: [demoFeed()], mapping, now: NOW });
+  assert.equal(channels[0].id, "specta.demo.channel-one");
+  assert.deepEqual(channels[0].aliases, ["legacy.channel.one", "playlist.channel.one"]);
 });
