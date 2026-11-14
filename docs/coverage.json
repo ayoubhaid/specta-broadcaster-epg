@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-14T02:09:56.000Z",
+  "generatedAt": "2026-11-14T06:19:25.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-14T00:09:56.000Z",
-    "to": "2026-11-15T18:09:56.000Z",
+    "from": "2026-11-14T04:19:25.000Z",
+    "to": "2026-11-15T22:19:25.000Z",
     "maxPerChannel": 80
   },
   "totals": {
     "channels": 57,
-    "programmes": 2022
+    "programmes": 2203
   },
   "providers": [
     {
@@ -16,9 +16,9 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2456,
+      "programmes": 2492,
       "publishedChannels": 30,
-      "publishedProgrammes": 1604,
+      "publishedProgrammes": 1640,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -33,10 +33,28 @@
       "provider": "canalplus_fr",
       "providerName": "CANAL+ France",
       "file": "data/review/canalplus_fr_unclassified.json",
-      "channels": 8,
-      "programmes": 207,
+      "channels": 7,
+      "programmes": 229,
       "publishedChannels": 6,
-      "publishedProgrammes": 205,
+      "publishedProgrammes": 228,
+      "autoResolved": 0,
+      "rejected": {
+        "row": 0,
+        "title": 0,
+        "time": 0,
+        "range": 0,
+        "duration": 0
+      },
+      "error": null
+    },
+    {
+      "provider": "ontvnow_uk",
+      "providerName": "onTVnow UK Sports Listings",
+      "file": "data/review/ontvnow_uk_unclassified.json",
+      "channels": 2,
+      "programmes": 85,
+      "publishedChannels": 0,
+      "publishedProgrammes": 0,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -88,9 +106,9 @@
       "providerName": "SuperSport",
       "file": "data/review/supersport_unclassified.json",
       "channels": 62,
-      "programmes": 7693,
+      "programmes": 7686,
       "publishedChannels": 17,
-      "publishedProgrammes": 2479,
+      "publishedProgrammes": 2476,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -625,16 +643,23 @@
         "candidates": []
       },
       {
-        "key": "canalplus_fr:canalplus_fr:la-pente-glissante-sur-france-3",
+        "key": "canalplus_fr:canalplus_fr:la-piste-du-nasi-sur-france-3",
         "provider": "canalplus_fr",
-        "name": "la pente glissante, Sur FRANCE 3",
+        "name": "la piste du nasi..., Sur FRANCE 3",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "canalplus_fr:canalplus_fr:terre-saison-1-episode-4-les-metamorphoses-de-sur-france-5",
-        "provider": "canalplus_fr",
-        "name": "Terre - Saison 1, Episode 4 : Les métamorphoses de..., Sur FRANCE 5",
+        "key": "ontvnow_uk:bbcr5sx.uk",
+        "provider": "ontvnow_uk",
+        "name": "BBC Radio 5 Sports Xtra",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "ontvnow_uk:talksport.uk",
+        "provider": "ontvnow_uk",
+        "name": "talkSPORT",
         "reason": "unmapped",
         "candidates": []
       },
