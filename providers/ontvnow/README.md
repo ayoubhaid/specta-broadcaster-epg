@@ -1,11 +1,13 @@
-# onTVnow UK sports adapter
+# onTVnow UK listings adapter
 
 This adapter downloads the public XMLTV export documented at
-https://ontvnow.co.uk/data-access and requests the sports group feed.
+https://ontvnow.co.uk/data-access and requests the unfiltered UK listings feed, rather than the sports-only group.
 
 The source documents public JSON/XMLTV feeds without an account or token,
-a seven-day default window, and a 60-request-per-minute limit. Specta uses
-one XMLTV request per refresh. The feed is normalized to schemaVersion 1
+with a seven-day default window, optional filters for terrestrial, entertainment
+and sport groups, and a 60-request-per-minute limit. Specta uses one unfiltered
+XMLTV request per refresh so the review feed can include linear TV channels
+outside the sports group. The feed is normalized to schemaVersion 1
 and written to data/review/ontvnow_uk_unclassified.json.
 
 ## Run
@@ -30,4 +32,4 @@ subscription content is accessed.
 
 ## First live refresh result
 
-The first successful live refresh returned two radio services (BBC Radio 5 Sports Xtra and talkSPORT) with 85 programme rows. This confirms the fetcher and XMLTV parser work, but it does not add TV-channel coverage for Specta. Keep these IDs unclassified; do not map them to TV channels. Reassess if the source later exposes relevant linear TV sports channels or if Specta adds radio support.
+The earlier sports-only request returned two radio services (BBC Radio 5 Sports Xtra and talkSPORT) with 85 programme rows. The adapter now requests the complete public listings export. Review the refreshed output before mapping: keep radio, temporary/event, ambiguous and non-linear services unclassified. Only verified permanent TV channels may be mapped into Specta.
