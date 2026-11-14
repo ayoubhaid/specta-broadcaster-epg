@@ -137,7 +137,7 @@ def write_atomic(path: Path, document: dict[str, Any]) -> None:
                                      prefix=path.name + ".", suffix=".tmp", delete=False) as handle:
         temporary = Path(handle.name)
         json.dump(document, handle, ensure_ascii=False, indent=2)
-        handle.write("\\n")
+        handle.write("\n")
     temporary.replace(path)
 
 def main() -> int:
