@@ -1,4 +1,4 @@
-name: Refresh onTVnow UK Sports EPG
+name: Refresh onTVnow UK TV Listings
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
           python-version: "3.12"
       - name: Test onTVnow adapter
         run: python -m unittest discover -s providers/ontvnow -p 'test_*.py'
-      - name: Refresh onTVnow UK sports XMLTV
+      - name: Refresh onTVnow UK XMLTV listings
         run: python providers/ontvnow/scraper.py --output data/review/ontvnow_uk_unclassified.json
       - name: Validate refreshed feed
         run: |
@@ -50,6 +50,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No onTVnow feed changes"
           else
-            git commit -m "Refresh onTVnow UK sports EPG"
+            git commit -m "Refresh onTVnow UK TV listings"
             git push
           fi
