@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-14T13:38:40.000Z",
+  "generatedAt": "2026-11-14T17:09:07.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-14T11:38:40.000Z",
-    "to": "2026-11-16T05:38:40.000Z",
+    "from": "2026-11-14T15:09:07.000Z",
+    "to": "2026-11-16T09:09:07.000Z",
     "maxPerChannel": 80
   },
   "totals": {
     "channels": 57,
-    "programmes": 2191
+    "programmes": 2178
   },
   "providers": [
     {
@@ -37,24 +37,6 @@
       "programmes": 229,
       "publishedChannels": 6,
       "publishedProgrammes": 228,
-      "autoResolved": 0,
-      "rejected": {
-        "row": 0,
-        "title": 0,
-        "time": 0,
-        "range": 0,
-        "duration": 0
-      },
-      "error": null
-    },
-    {
-      "provider": "ontvnow_uk",
-      "providerName": "onTVnow UK Sports Listings",
-      "file": "data/review/ontvnow_uk_unclassified.json",
-      "channels": 2,
-      "programmes": 85,
-      "publishedChannels": 0,
-      "publishedProgrammes": 0,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -106,9 +88,9 @@
       "providerName": "SuperSport",
       "file": "data/review/supersport_unclassified.json",
       "channels": 62,
-      "programmes": 7690,
+      "programmes": 7689,
       "publishedChannels": 17,
-      "publishedProgrammes": 2478,
+      "publishedProgrammes": 2476,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -646,20 +628,6 @@
         "key": "canalplus_fr:canalplus_fr:la-piste-du-nasi-sur-france-3",
         "provider": "canalplus_fr",
         "name": "la piste du nasi..., Sur FRANCE 3",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "ontvnow_uk:bbcr5sx.uk",
-        "provider": "ontvnow_uk",
-        "name": "BBC Radio 5 Sports Xtra",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "ontvnow_uk:talksport.uk",
-        "provider": "ontvnow_uk",
-        "name": "talkSPORT",
         "reason": "unmapped",
         "candidates": []
       },
