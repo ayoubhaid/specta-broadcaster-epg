@@ -82,8 +82,7 @@ function dayWindow(dayOffset) {
   const end = new Date(start);
   end.setUTCDate(end.getUTCDate() + 1);
 
-  // The source endpoint accepts ISO-like UTC values without the trailing Z
-  // in the timestamp, followed by a literal Z (matching iptv-org/epg).
+  // The source endpoint accepts UTC timestamps without an offset, followed by a literal Z.
   const format = date => date.toISOString().replace("Z", "");
   return { start, end, startParam: `${format(start)}Z`, endParam: `${format(end)}Z` };
 }
