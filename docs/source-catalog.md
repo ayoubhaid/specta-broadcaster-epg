@@ -21,7 +21,7 @@ Specta's sports-channel inventory contains 15 broadcaster families. A family may
 | Family | Exact market/edition targets in inventory | Candidate first-party guide | Independent guide candidates | Current decision |
 |---|---|---|---|---|
 | DAZN | UK, Canada, Belgium, Germany, Spain, Italy, Portugal and other listed editions | DAZN help / channel guide varies by territory; no stable public linear schedule endpoint verified | TV Guide market listings; local platform guides | Research only; distinguish DAZN app events from linear channels |
-| ESPN | US, Australia, New Zealand, South Africa, Latin America and other listed editions | [ESPN TV listings](https://www.espn.com/watch/schedule/) | TV Guide US; StarTimes where the actual ESPN edition is carried | Research only; US listings cannot be assigned to other editions |
+| ESPN | US, Australia, New Zealand, South Africa, Latin America and other listed editions | [ESPN TV listings](https://www.espn.com/watch/schedule/_/type/upcoming) | TV Guide US; StarTimes where the actual ESPN edition is carried | Research only; US listings cannot be assigned to other editions |
 | Eurosport | UK, France, Germany and other European editions | [Eurosport TV guide](https://www.eurosport.com/tvschedule.shtml) | Local operator TV guides | Research only; market and language must match |
 | Fox Sports | US, Australia, Latin America and other listed editions | [FOX Sports TV schedule](https://www.foxsports.com/live) | TV Guide US; local operator guides | Research only; live-event pages alone are insufficient |
 | Fubo Sports | US | [Fubo channel guide](https://www.fubo.tv/welcome/channels) | TV Guide US / local listings | Research only; verify actual dated programme grid rather than lineup |
@@ -42,13 +42,14 @@ Specta's sports-channel inventory contains 15 broadcaster families. A family may
 
 | Candidate | Potential markets | Useful evidence required before integration | Status |
 |---|---|---|---|
-| [TV Guide](https://www.tvguide.com/listings/) | US | Dated channel schedule, stable channel identity, pagination/timezone behavior and acceptable collection terms | Candidate |
-| [TV Passport](https://www.tvpassport.com/) | US and Canada | Local provider/channel schedules, not only market-level TV listings | Candidate |
-| [StarTimes TV Guide](https://www.official.startimestv.com/tv_guide) | African markets where the relevant broadcaster is carried | Exact channel edition, dated programme rows, local timezone and access terms | Candidate |
-| [TV Guide UK](https://www.tvguide.co.uk/) | UK | Channel-specific programme listings and automation terms | Candidate |
-| [TV Guide API](https://tvguideapi.com/data) | Broad international coverage claimed by provider | Commercial pricing, licensing, redistribution rights, provenance and actual channel coverage | Not approved; do not add without written rights review |
+| [TV Guide](https://www.tvguide.com/listings/) | US | Dated channel schedule, stable channel identity, pagination/timezone behavior and acceptable collection terms | Candidate only; no automated ingestion until rights are confirmed |
+| [TV Passport](https://www.tvpassport.com/) | US and Canada | Dated channel listings are visible, but its terms prohibit scraping, extraction, caching, republishing and redistribution | Blocked without prior written permission |
+| [On TV Tonight](https://www.ontvtonight.com/) | UK, Canada and Australia listings | Its legal notice limits programme listings to personal viewing/printing and prohibits copying, republishing, distribution and exploitation | Blocked without a separate written licence |
+| [onTVnow data feeds](https://ontvnow.co.uk/data-access) | UK | Public JSON/XMLTV API with channel filtering and dated listings; current directory does not establish coverage of the target sports TV channels | Research only; verify channel coverage and reuse terms before use |
+| [StarTimes TV Guide](https://www.official.startimestv.com/tv_guide) | African markets where the relevant broadcaster is carried | Exact channel edition, dated programme rows, local timezone and access terms | Candidate only; no automated ingestion until rights are confirmed |
+| [TV Guide API](https://tvguideapi.com/data) | Broad international coverage claimed by provider | API terms permit display in apps but restrict bulk republishing/rebuilding a listings database and competing-product use | Not approved for Specta's feed without a separate agreement |
 
-No independent candidate is ingested automatically. A provider's channel lineup, schedule landing page, sports event calendar or fixtures API is not sufficient evidence by itself.
+No independent candidate is currently approved for automated ingestion. Several visible guide sites explicitly restrict scraping or redistribution; API alternatives require a licence compatible with a downstream IPTV EPG feed. A provider's channel lineup, schedule landing page, sports event calendar or fixtures API is not sufficient evidence by itself.
 
 ## Adapter acceptance checklist
 
