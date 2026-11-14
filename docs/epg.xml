@@ -151,6 +151,10 @@
   <channel id="RotanaKhalijiah.eg"><display-name>Rotana Khalejia</display-name></channel>
   <channel id="specta.elcinema.sama-dubai"><display-name>Sama Dubai</display-name></channel>
   <channel id="samadubai.ae"><display-name>Sama Dubai</display-name></channel>
+  <channel id="specta.golfchannel.golf-channel"><display-name>Golf Channel</display-name></channel>
+  <channel id="GolfChannel.us"><display-name>Golf Channel</display-name></channel>
+  <channel id="Golf Channel"><display-name>Golf Channel</display-name></channel>
+  <channel id="GolfChannel.pl"><display-name>Golf Channel</display-name></channel>
   <channel id="specta.ontvnow_uk.5"><display-name>5 HD</display-name></channel>
   <channel id="Channel5.uk"><display-name>5 HD</display-name></channel>
   <channel id="specta.ontvnow_uk.5-action"><display-name>5ACTION</display-name></channel>
@@ -1114,6 +1118,10 @@
     <title>Belgium vs Italy</title>
     <desc>The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 …</desc>
   </programme>
+  <programme start="20261116095000 +0000" stop="20261116114000 +0000" channel="specta.bein_au.bein-sports-3">
+    <title>Spain vs England</title>
+    <desc>The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 …</desc>
+  </programme>
   <programme start="20261114135000 +0000" stop="20261114161500 +0000" channel="beINSports3.au">
     <title>Kosovo vs Israel</title>
     <desc>The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 …</desc>
@@ -1256,6 +1264,10 @@
   </programme>
   <programme start="20261116080000 +0000" stop="20261116095000 +0000" channel="beINSports3.au">
     <title>Belgium vs Italy</title>
+    <desc>The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 …</desc>
+  </programme>
+  <programme start="20261116095000 +0000" stop="20261116114000 +0000" channel="beINSports3.au">
+    <title>Spain vs England</title>
     <desc>The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 …</desc>
   </programme>
   <programme start="20261114150000 +0000" stop="20261114170000 +0000" channel="specta.bein_fr.bein-sports-2">
@@ -2168,10 +2180,6 @@
   <programme start="20261116080000 +0000" stop="20261116120000 +0000" channel="Bein9Max.fr">
     <title>beIN SPORTS, le plus grand des spectacles</title>
   </programme>
-  <programme start="20261114140700 +0000" stop="20261114155100 +0000" channel="specta.bein_mena.bein-4k">
-    <title>Nottingham Forest vs Manchester City - English Premier League 2026/2027</title>
-    <desc>All 380 fixtures from the English premier league are live and exclusive only on beIN SPORTS with a choice of Arabic or English commentary. The 2026–27 season consists of 33 weekend and five midweek rounds of matches. Arsenal are the defending Champions.</desc>
-  </programme>
   <programme start="20261114155100 +0000" stop="20261114173700 +0000" channel="specta.bein_mena.bein-4k">
     <title>Lens vs Marseille - French Ligue 1 2026/2027</title>
     <desc>All 306 matches from the Ligue 1 2026 – 2027 season are live and exclusive only on beIN SPORTS. Paris Saint-Germain are the defending Champions having secured their historic 14th top-flight title last season.</desc>
@@ -2263,10 +2271,6 @@
   <programme start="20261116081500 +0000" stop="20261116102000 +0000" channel="specta.bein_mena.bein-4k">
     <title>F1 Sao Paolo Grand Prix - 2026 - Main Race - FIA Formula 1 World Championship 2026</title>
     <desc>24 Grand Prix from the Formula 1 Season are live and exclusive only on beIN. All Practices, Qualifiers and Races are available live with a choice of Arabic or English commentary. The 2026 season will consist of 6 Sprint Races within the 24 weekends. For the first time 11 Teams and 22 Drivers will compete to win the World Formula 1 Championships for</desc>
-  </programme>
-  <programme start="20261114140700 +0000" stop="20261114155100 +0000" channel="beIN4K.qa">
-    <title>Nottingham Forest vs Manchester City - English Premier League 2026/2027</title>
-    <desc>All 380 fixtures from the English premier league are live and exclusive only on beIN SPORTS with a choice of Arabic or English commentary. The 2026–27 season consists of 33 weekend and five midweek rounds of matches. Arsenal are the defending Champions.</desc>
   </programme>
   <programme start="20261114155100 +0000" stop="20261114173700 +0000" channel="beIN4K.qa">
     <title>Lens vs Marseille - French Ligue 1 2026/2027</title>
@@ -8398,10 +8402,6 @@
     <title>Al Hassad</title>
     <desc>Al Hassad is a nighltly studio from beIN Sports News that looks at the stories that have made the headlines in the world of sport and those stories that will be making the headlines tomorrow morning.</desc>
   </programme>
-  <programme start="20261114153000 +0000" stop="20261114155000 +0000" channel="specta.bein_mena.bein-sports-xtra-1">
-    <title>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <desc>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events</desc>
-  </programme>
   <programme start="20261114155000 +0000" stop="20261114180000 +0000" channel="specta.bein_mena.bein-sports-xtra-1">
     <title>Uganda vs Botswana - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3</title>
     <desc>The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.</desc>
@@ -8566,10 +8566,6 @@
     <title>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <desc>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events</desc>
   </programme>
-  <programme start="20261114153000 +0000" stop="20261114155000 +0000" channel="beINSportsXtra1.qa">
-    <title>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <desc>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events</desc>
-  </programme>
   <programme start="20261114155000 +0000" stop="20261114180000 +0000" channel="beINSportsXtra1.qa">
     <title>Uganda vs Botswana - Africa Cup of Nations ( AFCON ) Qualification 2026/2027- MD3</title>
     <desc>The 2027 Africa Cup of Nations qualification group stage kicks off in September 2026 to decide the 24 teams for the tournament in Kenya, Uganda, and Tanzania taking place June 19 to July 17, 2027.</desc>
@@ -8731,10 +8727,6 @@
     <desc>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events</desc>
   </programme>
   <programme start="20261116090000 +0000" stop="20261116100000 +0000" channel="beINSportsXtra1.qa">
-    <title>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <desc>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events</desc>
-  </programme>
-  <programme start="20261114153000 +0000" stop="20261114155000 +0000" channel="BeinSportsExtra1.qa">
     <title>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <desc>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events</desc>
   </programme>
@@ -9418,9 +9410,6 @@
     <title>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <desc>beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events</desc>
   </programme>
-  <programme start="20261114153000 +0000" stop="20261114155000 +0000" channel="specta.bein_us.bein-sports">
-    <title>Best of beIN Sports</title>
-  </programme>
   <programme start="20261114155000 +0000" stop="20261114180000 +0000" channel="specta.bein_us.bein-sports">
     <title>2027 Africa Cup of Nations Qualifiers</title>
     <desc>Botswana vs. Uganda</desc>
@@ -9553,9 +9542,6 @@
   </programme>
   <programme start="20261116093000 +0000" stop="20261116100000 +0000" channel="specta.bein_us.bein-sports">
     <title>Programa pagado</title>
-  </programme>
-  <programme start="20261114153000 +0000" stop="20261114155000 +0000" channel="beINSports.us">
-    <title>Best of beIN Sports</title>
   </programme>
   <programme start="20261114155000 +0000" stop="20261114180000 +0000" channel="beINSports.us">
     <title>2027 Africa Cup of Nations Qualifiers</title>
@@ -13688,6 +13674,250 @@
     <title>Banat Abdul Ghany</title>
     <desc>Series - Normal (2026)</desc>
   </programme>
+  <programme start="20261114180000 +0000" stop="20261114183000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>Golf Central Pregame</title>
+  </programme>
+  <programme start="20261114183000 +0000" stop="20261114190000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>Golf Central Pregame</title>
+  </programme>
+  <programme start="20261114190000 +0000" stop="20261114220000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>Austin Championship, Third Round</title>
+    <desc>PGA TOUR</desc>
+  </programme>
+  <programme start="20261114220000 +0000" stop="20261115000000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>Charles Schwab Cup Championship, Third Round</title>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261115003000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>Golf Central</title>
+  </programme>
+  <programme start="20261115003000 +0000" stop="20261115010000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>Golf Central</title>
+  </programme>
+  <programme start="20261115010000 +0000" stop="20261115040000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>Austin Championship, Third Round</title>
+    <desc>PGA TOUR</desc>
+  </programme>
+  <programme start="20261115040000 +0000" stop="20261115063000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>The Annika, Third Round</title>
+  </programme>
+  <programme start="20261115063000 +0000" stop="20261115123000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>DP World Tour Championship, Final Round</title>
+  </programme>
+  <programme start="20261115123000 +0000" stop="20261115133000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>Austin Championship, Third Round</title>
+    <desc>PGA TOUR</desc>
+  </programme>
+  <programme start="20261115123000 +0000" stop="20261115143000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>Charles Schwab Cup Championship, Third Round</title>
+  </programme>
+  <programme start="20261115143000 +0000" stop="20261115153000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>DP World Tour Championship, Final Round</title>
+  </programme>
+  <programme start="20261115153000 +0000" stop="20261115180000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>Charles Schwab Cup Championship, Third Round</title>
+  </programme>
+  <programme start="20261115180000 +0000" stop="20261115183000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>Golf Central Pregame</title>
+  </programme>
+  <programme start="20261115183000 +0000" stop="20261115190000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>Golf Central Pregame</title>
+  </programme>
+  <programme start="20261115190000 +0000" stop="20261115220000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>Austin Championship, Final Round</title>
+    <desc>PGA TOUR</desc>
+  </programme>
+  <programme start="20261115220000 +0000" stop="20261116000000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>Charles Schwab Cup Championship, Final Round</title>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261116003000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>Golf Central</title>
+  </programme>
+  <programme start="20261116003000 +0000" stop="20261116013000 +0000" channel="specta.golfchannel.golf-channel">
+    <title>Eamon Lynch Has Questions</title>
+  </programme>
+  <programme start="20261114180000 +0000" stop="20261114183000 +0000" channel="GolfChannel.us">
+    <title>Golf Central Pregame</title>
+  </programme>
+  <programme start="20261114183000 +0000" stop="20261114190000 +0000" channel="GolfChannel.us">
+    <title>Golf Central Pregame</title>
+  </programme>
+  <programme start="20261114190000 +0000" stop="20261114220000 +0000" channel="GolfChannel.us">
+    <title>Austin Championship, Third Round</title>
+    <desc>PGA TOUR</desc>
+  </programme>
+  <programme start="20261114220000 +0000" stop="20261115000000 +0000" channel="GolfChannel.us">
+    <title>Charles Schwab Cup Championship, Third Round</title>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261115003000 +0000" channel="GolfChannel.us">
+    <title>Golf Central</title>
+  </programme>
+  <programme start="20261115003000 +0000" stop="20261115010000 +0000" channel="GolfChannel.us">
+    <title>Golf Central</title>
+  </programme>
+  <programme start="20261115010000 +0000" stop="20261115040000 +0000" channel="GolfChannel.us">
+    <title>Austin Championship, Third Round</title>
+    <desc>PGA TOUR</desc>
+  </programme>
+  <programme start="20261115040000 +0000" stop="20261115063000 +0000" channel="GolfChannel.us">
+    <title>The Annika, Third Round</title>
+  </programme>
+  <programme start="20261115063000 +0000" stop="20261115123000 +0000" channel="GolfChannel.us">
+    <title>DP World Tour Championship, Final Round</title>
+  </programme>
+  <programme start="20261115123000 +0000" stop="20261115133000 +0000" channel="GolfChannel.us">
+    <title>Austin Championship, Third Round</title>
+    <desc>PGA TOUR</desc>
+  </programme>
+  <programme start="20261115123000 +0000" stop="20261115143000 +0000" channel="GolfChannel.us">
+    <title>Charles Schwab Cup Championship, Third Round</title>
+  </programme>
+  <programme start="20261115143000 +0000" stop="20261115153000 +0000" channel="GolfChannel.us">
+    <title>DP World Tour Championship, Final Round</title>
+  </programme>
+  <programme start="20261115153000 +0000" stop="20261115180000 +0000" channel="GolfChannel.us">
+    <title>Charles Schwab Cup Championship, Third Round</title>
+  </programme>
+  <programme start="20261115180000 +0000" stop="20261115183000 +0000" channel="GolfChannel.us">
+    <title>Golf Central Pregame</title>
+  </programme>
+  <programme start="20261115183000 +0000" stop="20261115190000 +0000" channel="GolfChannel.us">
+    <title>Golf Central Pregame</title>
+  </programme>
+  <programme start="20261115190000 +0000" stop="20261115220000 +0000" channel="GolfChannel.us">
+    <title>Austin Championship, Final Round</title>
+    <desc>PGA TOUR</desc>
+  </programme>
+  <programme start="20261115220000 +0000" stop="20261116000000 +0000" channel="GolfChannel.us">
+    <title>Charles Schwab Cup Championship, Final Round</title>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261116003000 +0000" channel="GolfChannel.us">
+    <title>Golf Central</title>
+  </programme>
+  <programme start="20261116003000 +0000" stop="20261116013000 +0000" channel="GolfChannel.us">
+    <title>Eamon Lynch Has Questions</title>
+  </programme>
+  <programme start="20261114180000 +0000" stop="20261114183000 +0000" channel="Golf Channel">
+    <title>Golf Central Pregame</title>
+  </programme>
+  <programme start="20261114183000 +0000" stop="20261114190000 +0000" channel="Golf Channel">
+    <title>Golf Central Pregame</title>
+  </programme>
+  <programme start="20261114190000 +0000" stop="20261114220000 +0000" channel="Golf Channel">
+    <title>Austin Championship, Third Round</title>
+    <desc>PGA TOUR</desc>
+  </programme>
+  <programme start="20261114220000 +0000" stop="20261115000000 +0000" channel="Golf Channel">
+    <title>Charles Schwab Cup Championship, Third Round</title>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261115003000 +0000" channel="Golf Channel">
+    <title>Golf Central</title>
+  </programme>
+  <programme start="20261115003000 +0000" stop="20261115010000 +0000" channel="Golf Channel">
+    <title>Golf Central</title>
+  </programme>
+  <programme start="20261115010000 +0000" stop="20261115040000 +0000" channel="Golf Channel">
+    <title>Austin Championship, Third Round</title>
+    <desc>PGA TOUR</desc>
+  </programme>
+  <programme start="20261115040000 +0000" stop="20261115063000 +0000" channel="Golf Channel">
+    <title>The Annika, Third Round</title>
+  </programme>
+  <programme start="20261115063000 +0000" stop="20261115123000 +0000" channel="Golf Channel">
+    <title>DP World Tour Championship, Final Round</title>
+  </programme>
+  <programme start="20261115123000 +0000" stop="20261115133000 +0000" channel="Golf Channel">
+    <title>Austin Championship, Third Round</title>
+    <desc>PGA TOUR</desc>
+  </programme>
+  <programme start="20261115123000 +0000" stop="20261115143000 +0000" channel="Golf Channel">
+    <title>Charles Schwab Cup Championship, Third Round</title>
+  </programme>
+  <programme start="20261115143000 +0000" stop="20261115153000 +0000" channel="Golf Channel">
+    <title>DP World Tour Championship, Final Round</title>
+  </programme>
+  <programme start="20261115153000 +0000" stop="20261115180000 +0000" channel="Golf Channel">
+    <title>Charles Schwab Cup Championship, Third Round</title>
+  </programme>
+  <programme start="20261115180000 +0000" stop="20261115183000 +0000" channel="Golf Channel">
+    <title>Golf Central Pregame</title>
+  </programme>
+  <programme start="20261115183000 +0000" stop="20261115190000 +0000" channel="Golf Channel">
+    <title>Golf Central Pregame</title>
+  </programme>
+  <programme start="20261115190000 +0000" stop="20261115220000 +0000" channel="Golf Channel">
+    <title>Austin Championship, Final Round</title>
+    <desc>PGA TOUR</desc>
+  </programme>
+  <programme start="20261115220000 +0000" stop="20261116000000 +0000" channel="Golf Channel">
+    <title>Charles Schwab Cup Championship, Final Round</title>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261116003000 +0000" channel="Golf Channel">
+    <title>Golf Central</title>
+  </programme>
+  <programme start="20261116003000 +0000" stop="20261116013000 +0000" channel="Golf Channel">
+    <title>Eamon Lynch Has Questions</title>
+  </programme>
+  <programme start="20261114180000 +0000" stop="20261114183000 +0000" channel="GolfChannel.pl">
+    <title>Golf Central Pregame</title>
+  </programme>
+  <programme start="20261114183000 +0000" stop="20261114190000 +0000" channel="GolfChannel.pl">
+    <title>Golf Central Pregame</title>
+  </programme>
+  <programme start="20261114190000 +0000" stop="20261114220000 +0000" channel="GolfChannel.pl">
+    <title>Austin Championship, Third Round</title>
+    <desc>PGA TOUR</desc>
+  </programme>
+  <programme start="20261114220000 +0000" stop="20261115000000 +0000" channel="GolfChannel.pl">
+    <title>Charles Schwab Cup Championship, Third Round</title>
+  </programme>
+  <programme start="20261115000000 +0000" stop="20261115003000 +0000" channel="GolfChannel.pl">
+    <title>Golf Central</title>
+  </programme>
+  <programme start="20261115003000 +0000" stop="20261115010000 +0000" channel="GolfChannel.pl">
+    <title>Golf Central</title>
+  </programme>
+  <programme start="20261115010000 +0000" stop="20261115040000 +0000" channel="GolfChannel.pl">
+    <title>Austin Championship, Third Round</title>
+    <desc>PGA TOUR</desc>
+  </programme>
+  <programme start="20261115040000 +0000" stop="20261115063000 +0000" channel="GolfChannel.pl">
+    <title>The Annika, Third Round</title>
+  </programme>
+  <programme start="20261115063000 +0000" stop="20261115123000 +0000" channel="GolfChannel.pl">
+    <title>DP World Tour Championship, Final Round</title>
+  </programme>
+  <programme start="20261115123000 +0000" stop="20261115133000 +0000" channel="GolfChannel.pl">
+    <title>Austin Championship, Third Round</title>
+    <desc>PGA TOUR</desc>
+  </programme>
+  <programme start="20261115123000 +0000" stop="20261115143000 +0000" channel="GolfChannel.pl">
+    <title>Charles Schwab Cup Championship, Third Round</title>
+  </programme>
+  <programme start="20261115143000 +0000" stop="20261115153000 +0000" channel="GolfChannel.pl">
+    <title>DP World Tour Championship, Final Round</title>
+  </programme>
+  <programme start="20261115153000 +0000" stop="20261115180000 +0000" channel="GolfChannel.pl">
+    <title>Charles Schwab Cup Championship, Third Round</title>
+  </programme>
+  <programme start="20261115180000 +0000" stop="20261115183000 +0000" channel="GolfChannel.pl">
+    <title>Golf Central Pregame</title>
+  </programme>
+  <programme start="20261115183000 +0000" stop="20261115190000 +0000" channel="GolfChannel.pl">
+    <title>Golf Central Pregame</title>
+  </programme>
+  <programme start="20261115190000 +0000" stop="20261115220000 +0000" channel="GolfChannel.pl">
+    <title>Austin Championship, Final Round</title>
+    <desc>PGA TOUR</desc>
+  </programme>
+  <programme start="20261115220000 +0000" stop="20261116000000 +0000" channel="GolfChannel.pl">
+    <title>Charles Schwab Cup Championship, Final Round</title>
+  </programme>
+  <programme start="20261116000000 +0000" stop="20261116003000 +0000" channel="GolfChannel.pl">
+    <title>Golf Central</title>
+  </programme>
+  <programme start="20261116003000 +0000" stop="20261116013000 +0000" channel="GolfChannel.pl">
+    <title>Eamon Lynch Has Questions</title>
+  </programme>
   <programme start="20261114145500 +0000" stop="20261114155500 +0000" channel="specta.ontvnow_uk.5">
     <title>Haul Out the Holly</title>
     <desc>Emily hoped to spend Christmas with her parents, but they've gone on a trip. While she stays at their house for the holidays, she gets involved in neighbourhood festivities. (2023)</desc>
@@ -16284,6 +16514,10 @@
     <title>Cops</title>
     <desc>A high-stakes car chase in Vegas involves tyre spikes, shredded rubber, and crashed gates. Suspects accused of burglary state they only steal to pay rent.</desc>
   </programme>
+  <programme start="20261116095000 +0000" stop="20261116101000 +0000" channel="specta.ontvnow_uk.5-usa">
+    <title>Cops</title>
+    <desc>A suspect tries to feel the law by bike but can't out pedal cops. A deputy goes undercover to investigate stolen baseballs. A K-9 unit discovers hidden contraband hidden intimately.</desc>
+  </programme>
   <programme start="20261114150500 +0000" stop="20261114160500 +0000" channel="FiveUSA.uk">
     <title>NCIS</title>
     <desc>McGee's personal and professional lives intersect when a dad from his children's school is linked to a break-in at a government storage bunker.</desc>
@@ -16423,6 +16657,10 @@
   <programme start="20261116092000 +0000" stop="20261116095000 +0000" channel="FiveUSA.uk">
     <title>Cops</title>
     <desc>A high-stakes car chase in Vegas involves tyre spikes, shredded rubber, and crashed gates. Suspects accused of burglary state they only steal to pay rent.</desc>
+  </programme>
+  <programme start="20261116095000 +0000" stop="20261116101000 +0000" channel="FiveUSA.uk">
+    <title>Cops</title>
+    <desc>A suspect tries to feel the law by bike but can't out pedal cops. A deputy goes undercover to investigate stolen baseballs. A K-9 unit discovers hidden contraband hidden intimately.</desc>
   </programme>
   <programme start="20261114150500 +0000" stop="20261114160500 +0000" channel="specta.ontvnow_uk.5-usa-plus1">
     <title>NCIS</title>
@@ -19988,10 +20226,6 @@
     <title>Morning Live</title>
     <desc>Conversation, advice and tips to make your day that little bit easier.</desc>
   </programme>
-  <programme start="20261114154000 +0000" stop="20261114155000 +0000" channel="specta.ontvnow_uk.bbc-one-wales">
-    <title>Best of Weatherman Walking: Surprises of the South</title>
-    <desc>4/10. Derek the weatherman reflects on some of his favourite walks from south Wales. In the Vale of Glamorgan, Derek is joined by Olympian Colin Jackson.</desc>
-  </programme>
   <programme start="20261114155000 +0000" stop="20261114165000 +0000" channel="specta.ontvnow_uk.bbc-one-wales">
     <title>Sian Eleri's BBC Children in Need Road Trip</title>
     <desc>Radio 1's Sian Eleri takes to the road visiting BBC Children in Need projects in Wales.</desc>
@@ -20171,10 +20405,6 @@
   <programme start="20261116093000 +0000" stop="20261116104500 +0000" channel="specta.ontvnow_uk.bbc-one-wales">
     <title>Morning Live</title>
     <desc>Conversation, advice and tips to make your day that little bit easier.</desc>
-  </programme>
-  <programme start="20261114154000 +0000" stop="20261114155000 +0000" channel="BBCOneWales.uk">
-    <title>Best of Weatherman Walking: Surprises of the South</title>
-    <desc>4/10. Derek the weatherman reflects on some of his favourite walks from south Wales. In the Vale of Glamorgan, Derek is joined by Olympian Colin Jackson.</desc>
   </programme>
   <programme start="20261114155000 +0000" stop="20261114165000 +0000" channel="BBCOneWales.uk">
     <title>Sian Eleri's BBC Children in Need Road Trip</title>
@@ -21044,10 +21274,6 @@
     <title>Morning Live</title>
     <desc>Conversation, advice and tips to make your day that little bit easier.</desc>
   </programme>
-  <programme start="20261114150500 +0000" stop="20261114155000 +0000" channel="specta.ontvnow_uk.bbc-parliament">
-    <title>House of Lords</title>
-    <desc>Coverage of a debate in the House of Lords.</desc>
-  </programme>
   <programme start="20261114153000 +0000" stop="20261114165000 +0000" channel="specta.ontvnow_uk.bbc-parliament">
     <title>Scottish Parliament - BBC and...</title>
     <desc>...Public Service Broadcasting. The debate on the BBC and public service broadcasting in Scotland, on Tuesday 10 November.</desc>
@@ -21315,10 +21541,6 @@
   <programme start="20261116092500 +0000" stop="20261116102500 +0000" channel="specta.ontvnow_uk.bbc-parliament">
     <title>Welsh First Minister's Questions</title>
     <desc>Questions in the Senedd, the Welsh Parliament, to the first minister, Rhun ap Iorwerth, on Tuesday 10 November.</desc>
-  </programme>
-  <programme start="20261114150500 +0000" stop="20261114155000 +0000" channel="BBCParliament.uk">
-    <title>House of Lords</title>
-    <desc>Coverage of a debate in the House of Lords.</desc>
   </programme>
   <programme start="20261114153000 +0000" stop="20261114165000 +0000" channel="BBCParliament.uk">
     <title>Scottish Parliament - BBC and...</title>
@@ -31502,10 +31724,6 @@
     <title>Lorraine</title>
     <desc>Lorraine Kelly presents a topical mix of entertainment, discussion and showbiz glamour as well as the latest fashion, food and celebrity gossip.</desc>
   </programme>
-  <programme start="20261114145000 +0000" stop="20261114155000 +0000" channel="specta.ontvnow_uk.itv-2">
-    <title>Rio 2</title>
-    <desc>Animated adventure comedy film sequel featuring the voices of Jesse Eisenberg and Anne Hathaway, 2014. Blu, Jewel and their children are hurtled into the wilds of the Amazon.</desc>
-  </programme>
   <programme start="20261114155000 +0000" stop="20261114155500 +0000" channel="specta.ontvnow_uk.itv-2">
     <title>FYI Daily</title>
     <desc>Latest news from the world of entertainment.</desc>
@@ -31713,10 +31931,6 @@
   <programme start="20261116091500 +0000" stop="20261116101500 +0000" channel="specta.ontvnow_uk.itv-2">
     <title>The Only Way Is Essex</title>
     <desc>Love is in the air in Essex as it's Junaid and Joe's one-year anniversary, Saff, Ella, Elma and Wills play padel, and Amy and Jordan host an intervention for Harry and Saff.</desc>
-  </programme>
-  <programme start="20261114145000 +0000" stop="20261114155000 +0000" channel="ITV2.uk">
-    <title>Rio 2</title>
-    <desc>Animated adventure comedy film sequel featuring the voices of Jesse Eisenberg and Anne Hathaway, 2014. Blu, Jewel and their children are hurtled into the wilds of the Amazon.</desc>
   </programme>
   <programme start="20261114155000 +0000" stop="20261114155500 +0000" channel="ITV2.uk">
     <title>FYI Daily</title>
@@ -37922,6 +38136,10 @@
     <title>Annibendod</title>
     <desc>Mae Gwyneth wedi gweu siwmper i Maldwyn ond ma'r plant yn credu ei fod yn siwtio bwgan brain yn well. Gwyneth has knitted a jumper for Maldwyn but the kids think it better suits scarecrow.</desc>
   </programme>
+  <programme start="20261116095000 +0000" stop="20261116100000 +0000" channel="specta.ontvnow_uk.s-4-c">
+    <title>Annibendod</title>
+    <desc>Mae Gwyneth wedi gweu siwmper i Maldwyn ond ma'r plant yn credu ei fod yn siwtio bwgan brain yn well. Gwyneth has knitted a jumper for Maldwyn but the kids think it better suits scarecrow.</desc>
+  </programme>
   <programme start="20261114133000 +0000" stop="20261114163000 +0000" channel="S4C.uk">
     <title>Clwb Rygbi: Cymru v Seland Newydd</title>
     <desc>S4C Welsh language broadcast of Wales v New Zealand as part of the new Nations Championship. K/O 14.10. Cymru v Seland Newydd fel rhan o'r Pencampwriaeth Cenhedloedd newydd. C/G 14.10.</desc>
@@ -38203,6 +38421,10 @@
     <desc>Mae pont Swopdre Fawr ar fin dymchwel - a fydd Mojo a Bo yn gallu helpu Nori ei thrwsio mewn pryd? Swoppiton Bridge is falling down, can Mojo and Bo help Nori fix a girder in time?</desc>
   </programme>
   <programme start="20261116094000 +0000" stop="20261116100000 +0000" channel="S4C.uk">
+    <title>Annibendod</title>
+    <desc>Mae Gwyneth wedi gweu siwmper i Maldwyn ond ma'r plant yn credu ei fod yn siwtio bwgan brain yn well. Gwyneth has knitted a jumper for Maldwyn but the kids think it better suits scarecrow.</desc>
+  </programme>
+  <programme start="20261116095000 +0000" stop="20261116100000 +0000" channel="S4C.uk">
     <title>Annibendod</title>
     <desc>Mae Gwyneth wedi gweu siwmper i Maldwyn ond ma'r plant yn credu ei fod yn siwtio bwgan brain yn well. Gwyneth has knitted a jumper for Maldwyn but the kids think it better suits scarecrow.</desc>
   </programme>
@@ -41535,6 +41757,10 @@
     <title>Judge Judy</title>
     <desc>A mother sues the father of five of her children for an unpaid ambulance bill after one of their teenagers is in an accident. S22, Ep62</desc>
   </programme>
+  <programme start="20261116095000 +0000" stop="20261116101500 +0000" channel="specta.ontvnow_uk.true-crime">
+    <title>Judge Judy</title>
+    <desc>A woman defends her actions after charges she filed against an ex-lover cause him to be removed from his own home. S22, Ep63</desc>
+  </programme>
   <programme start="20261114153000 +0000" stop="20261114155500 +0000" channel="TrueCrime.uk">
     <title>Judge Judy</title>
     <desc>A woman demands that the alleged father of her child pay her back for a loan, and a man denies shooting out the window of a car with his BB gun. S17, Ep116</desc>
@@ -41773,6 +41999,10 @@
   <programme start="20261116092500 +0000" stop="20261116095000 +0000" channel="TrueCrime.uk">
     <title>Judge Judy</title>
     <desc>A mother sues the father of five of her children for an unpaid ambulance bill after one of their teenagers is in an accident. S22, Ep62</desc>
+  </programme>
+  <programme start="20261116095000 +0000" stop="20261116101500 +0000" channel="TrueCrime.uk">
+    <title>Judge Judy</title>
+    <desc>A woman defends her actions after charges she filed against an ex-lover cause him to be removed from his own home. S22, Ep63</desc>
   </programme>
   <programme start="20261114153000 +0000" stop="20261114160000 +0000" channel="specta.ontvnow_uk.tv-warehouse">
     <title>Operation Smile</title>
@@ -54410,9 +54640,6 @@
     <title>Exeter Chiefs v Gloucester Rugby</title>
     <desc>Action from the Gallagher PREM clash between Exeter Chiefs and Gloucester Rugby at Sandy Park. Gloucester edged a 34-31 thriller when these sides last met in the league.</desc>
   </programme>
-  <programme start="20261114151500 +0000" stop="20261114155000 +0000" channel="specta.snrt_ma.al-aoula">
-    <title>بين البارح و اليوم</title>
-  </programme>
   <programme start="20261114155000 +0000" stop="20261114164500 +0000" channel="specta.snrt_ma.al-aoula">
     <title>حميمو</title>
   </programme>
@@ -54626,8 +54853,8 @@
   <programme start="20261116085000 +0000" stop="20261116095000 +0000" channel="specta.snrt_ma.al-aoula">
     <title>قلوب تائهة</title>
   </programme>
-  <programme start="20261114151500 +0000" stop="20261114155000 +0000" channel="AlAoula.ma@SD">
-    <title>بين البارح و اليوم</title>
+  <programme start="20261116095000 +0000" stop="20261116105500 +0000" channel="specta.snrt_ma.al-aoula">
+    <title>أسرتي</title>
   </programme>
   <programme start="20261114155000 +0000" stop="20261114164500 +0000" channel="AlAoula.ma@SD">
     <title>حميمو</title>
@@ -54842,8 +55069,8 @@
   <programme start="20261116085000 +0000" stop="20261116095000 +0000" channel="AlAoula.ma@SD">
     <title>قلوب تائهة</title>
   </programme>
-  <programme start="20261114151500 +0000" stop="20261114155000 +0000" channel="AlAoula.ma">
-    <title>بين البارح و اليوم</title>
+  <programme start="20261116095000 +0000" stop="20261116105500 +0000" channel="AlAoula.ma@SD">
+    <title>أسرتي</title>
   </programme>
   <programme start="20261114155000 +0000" stop="20261114164500 +0000" channel="AlAoula.ma">
     <title>حميمو</title>
@@ -55057,6 +55284,9 @@
   </programme>
   <programme start="20261116085000 +0000" stop="20261116095000 +0000" channel="AlAoula.ma">
     <title>قلوب تائهة</title>
+  </programme>
+  <programme start="20261116095000 +0000" stop="20261116105500 +0000" channel="AlAoula.ma">
+    <title>أسرتي</title>
   </programme>
   <programme start="20261114153000 +0000" stop="20261114160000 +0000" channel="specta.snrt_ma.al-maghribia">
     <title>متاحف المغرب</title>
@@ -55724,9 +55954,6 @@
   <programme start="20261116090000 +0000" stop="20261116100200 +0000" channel="AlMaghribia.ma">
     <title>أسرتي 2024</title>
   </programme>
-  <programme start="20261114153500 +0000" stop="20261114155000 +0000" channel="specta.snrt_ma.assadissa">
-    <title>كبسولة السيـرة النبوية</title>
-  </programme>
   <programme start="20261114155000 +0000" stop="20261114160500 +0000" channel="specta.snrt_ma.assadissa">
     <title>أمداح نبوية</title>
   </programme>
@@ -55964,8 +56191,8 @@
   <programme start="20261116061500 +0000" stop="20261116063000 +0000" channel="specta.snrt_ma.assadissa">
     <title>أمداح نبوية</title>
   </programme>
-  <programme start="20261114153500 +0000" stop="20261114155000 +0000" channel="Assadissa.ma@SD">
-    <title>كبسولة السيـرة النبوية</title>
+  <programme start="20261116063000 +0000" stop="20261116073000 +0000" channel="specta.snrt_ma.assadissa">
+    <title>المسيرة القرانية / حزبين</title>
   </programme>
   <programme start="20261114155000 +0000" stop="20261114160500 +0000" channel="Assadissa.ma@SD">
     <title>أمداح نبوية</title>
@@ -56204,8 +56431,8 @@
   <programme start="20261116061500 +0000" stop="20261116063000 +0000" channel="Assadissa.ma@SD">
     <title>أمداح نبوية</title>
   </programme>
-  <programme start="20261114153500 +0000" stop="20261114155000 +0000" channel="Assadissa.ma">
-    <title>كبسولة السيـرة النبوية</title>
+  <programme start="20261116063000 +0000" stop="20261116073000 +0000" channel="Assadissa.ma@SD">
+    <title>المسيرة القرانية / حزبين</title>
   </programme>
   <programme start="20261114155000 +0000" stop="20261114160500 +0000" channel="Assadissa.ma">
     <title>أمداح نبوية</title>
@@ -56444,8 +56671,8 @@
   <programme start="20261116061500 +0000" stop="20261116063000 +0000" channel="Assadissa.ma">
     <title>أمداح نبوية</title>
   </programme>
-  <programme start="20261114145000 +0000" stop="20261114155000 +0000" channel="specta.snrt_ma.athaqafia">
-    <title>حوار في الثقافة</title>
+  <programme start="20261116063000 +0000" stop="20261116073000 +0000" channel="Assadissa.ma">
+    <title>المسيرة القرانية / حزبين</title>
   </programme>
   <programme start="20261114155000 +0000" stop="20261114162000 +0000" channel="specta.snrt_ma.athaqafia">
     <title>زمن الثقافة</title>
@@ -56524,9 +56751,6 @@
   </programme>
   <programme start="20261115225500 +0000" stop="20261115230000 +0000" channel="specta.snrt_ma.athaqafia">
     <title>حصة من الذكر الحكيم</title>
-  </programme>
-  <programme start="20261114145000 +0000" stop="20261114155000 +0000" channel="Athaqafia.ma@SD">
-    <title>حوار في الثقافة</title>
   </programme>
   <programme start="20261114155000 +0000" stop="20261114162000 +0000" channel="Athaqafia.ma@SD">
     <title>زمن الثقافة</title>
@@ -58527,10 +58751,6 @@
     <title>Sports Bulletin Around The Clock</title>
     <desc>News — November 16</desc>
   </programme>
-  <programme start="20261114154500 +0000" stop="20261114155000 +0000" channel="specta.supersport.supersport-cricket">
-    <title>SA Cricket - Pro20 Cup Features</title>
-    <desc>Cricket — Raeeq Daniels</desc>
-  </programme>
   <programme start="20261114155000 +0000" stop="20261114155500 +0000" channel="specta.supersport.supersport-cricket">
     <title>SA Cricket - Pro20 Cup Features</title>
     <desc>Cricket — JJ Basson</desc>
@@ -58698,10 +58918,6 @@
   <programme start="20261116075000 +0000" stop="20261116160000 +0000" channel="specta.supersport.supersport-cricket">
     <title>SA Cricket - Test Series</title>
     <desc>Cricket — South Africa v Bangladesh 1st Test Day 2</desc>
-  </programme>
-  <programme start="20261114154500 +0000" stop="20261114155000 +0000" channel="SuperSportCricket.za">
-    <title>SA Cricket - Pro20 Cup Features</title>
-    <desc>Cricket — Raeeq Daniels</desc>
   </programme>
   <programme start="20261114155000 +0000" stop="20261114155500 +0000" channel="SuperSportCricket.za">
     <title>SA Cricket - Pro20 Cup Features</title>
