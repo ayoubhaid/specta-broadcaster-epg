@@ -1,5 +1,5 @@
 import unittest
-from scraper import parse_xmltv, parse_xmltv_time
+from scraper import build_summary, parse_xmltv, parse_xmltv_time
 
 SAMPLE = b"""<?xml version="1.0" encoding="UTF-8"?>
 <tv>
@@ -29,6 +29,17 @@ class OnTVNowScraperTests(unittest.TestCase):
         self.assertEqual(channel["programmes"][0]["categories"], ["Sports"])
         self.assertEqual(channel["programmes"][0]["start"], "2026-11-14T09:00:00Z")
         self.assertEqual(len(channel["programmes"][0]["id"]), 24)
+
+    def test_compact_summary_keeps_channel_counts_not_schedule_rows(self):
+        feed = parse_xmltv(SAMPLE, fetched_at="2026-11-14T00:00:00Z")
+        summary = build_summary(feed)
+        self.assertEqual(summary["coverage"]["channelsFound"], 1)
+        self.assertEqual(summary["coverage"]["programmesFound"], 2)
+        self.assertEqual(summary["channels"], [
+            {"id": "sport.one", "name": "Sport One", "programmesFound": 2}
+        ])
+        self.assertNotIn("description", summary["channels"][0])
+        self.assertNotIn("programmes", summary["channels"][0])
 
     def test_ignores_invalid_rows_and_empty_titles(self):
         xml = b"""<tv><channel id="x"><display-name>X</display-name></channel>
