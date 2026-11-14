@@ -25,6 +25,12 @@ jobs:
           req = Request(URL, headers={"User-Agent": "SpectaEPG/1.0 public schedule research"})
           html = urlopen(req, timeout=30).read(8_000_000).decode("utf-8", "replace")
           print("HTML_BYTES", len(html.encode("utf-8")))
+          print("ANCHOR_TAGS", html.lower().count("<a "))
+          print("HREF_ATTRS", html.lower().count("href="))
+          print("SCRIPT_TAGS", html.lower().count("<script"))
+          print("SKY_SPORTS_LITERAL", "sky sports" in html.lower())
+          print("BOT_CHALLENGE_MARKERS", {k: k in html.lower() for k in ("captcha", "cloudflare", "access denied", "verify you are human")})
+          print("TITLE_SNIPPET", html[html.lower().find("<title"):html.lower().find("</title>")+8][:400])
           class Inspector(HTMLParser):
               def __init__(self):
                   super().__init__()
