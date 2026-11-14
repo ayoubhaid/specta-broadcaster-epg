@@ -6,8 +6,8 @@ export const SOURCE_URL = "https://www.snrt.ma/ar/node/";
 export const TIME_ZONE = "Africa/Casablanca";
 export const DEFAULT_DAYS = 2;
 
-// Site node IDs and XMLTV identities are taken from the public iptv-org/epg
-// SNRT channel list. Radio services are intentionally excluded from this TV feed.
+// SNRT source node IDs are maintained directly in Specta's adapter.
+// Radio services are intentionally excluded from this TV feed.
 export const CHANNELS = [
   { id: "1208", name: "Al Aoula", canonicalChannelId: "AlAoula.ma@SD" },
   { id: "4069", name: "Laayoune TV", canonicalChannelId: "LaayouneTV.ma@SD" },
