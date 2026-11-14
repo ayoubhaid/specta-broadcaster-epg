@@ -9,7 +9,7 @@ Specta owns the complete EPG pipeline: source adapters, raw schedule collection,
 | beIN SPORTS | MENA English guide | `providers/bein_mena/` | Official guide API; dated channel schedules | Explicitly mapped channels |
 | SuperSport | South Africa / regional services | `providers/supersport/` | Official Media Schedules; dated channel programmes | Reviewed permanent channels only |
 | Sky Sports | UK | `providers/sky/` | Dated linear-channel EPG response | Four reviewed linear channels |
-| onTVnow | UK sports-group listings | `providers/ontvnow/` | Public XMLTV sports-group export, normalized to the shared feed schema | Current live feed returned two radio services; review-only, not TV-channel coverage |
+| onTVnow | UK | `providers/ontvnow/` | Public unfiltered XMLTV listings export, normalized to the shared feed schema | Full catalogue retained for review; only explicitly mapped linear TV channels publish |
 | SNRT | Morocco | `providers/snrt_ma/` | Official SNRT programme grid | Seven reviewed channels |
 | CANAL+ | France | `providers/canalplus_fr/` | Official France programme guide | Reviewed France channels only |
 
@@ -95,4 +95,4 @@ Add that URL in Specta's EPG settings. The XMLTV includes both Specta-owned IDs 
 - Source terms, rate limits, caching and redistribution rights must be checked before a new adapter is automated.
 - No playlist URLs, stream credentials or private provider data belong in this repository.
 
-See `docs/source-catalog.md` for the 15 broadcaster-family source audit and onboarding status. Independent guide adapters are added only when a usable schedule endpoint and an authorized collection path are established. The onTVnow adapter refreshes a seven-day public XMLTV sports feed into the review area; the first live result contained radio services only, so it does not yet add TV-channel coverage. See `providers/ontvnow/README.md`.
+See `docs/source-catalog.md` for the 15 broadcaster-family source audit and onboarding status. Independent guide adapters are added only when a usable schedule endpoint and an authorized collection path are established. The onTVnow adapter refreshes the documented public seven-day XMLTV listings export into the review area. Its earlier sports-only query returned radio services; the adapter now requests the unfiltered catalogue so TV-channel coverage can be assessed. See `providers/ontvnow/README.md`.

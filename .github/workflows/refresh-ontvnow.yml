@@ -1,4 +1,4 @@
-name: Refresh onTVnow UK Sports EPG
+name: Refresh onTVnow UK TV Listings
 
 on:
   push:
@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: refresh-ontvnow-epg
+  group: refresh-ontvnow-uk-listings
   cancel-in-progress: false
 
 jobs:
@@ -27,29 +27,43 @@ jobs:
           python-version: "3.12"
       - name: Test onTVnow adapter
         run: python -m unittest discover -s providers/ontvnow -p 'test_*.py'
-      - name: Refresh onTVnow UK sports XMLTV
-        run: python providers/ontvnow/scraper.py --output data/review/ontvnow_uk_unclassified.json
-      - name: Validate refreshed feed
+      - name: Refresh onTVnow UK XMLTV listings
+        run: |
+          python providers/ontvnow/scraper.py \
+            --output data/review/ontvnow_uk_unclassified.json \
+            --summary-output data/review/ontvnow_uk_summary.json
+      - name: Validate refreshed feed and compact inventory
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
           feed = json.loads(Path("data/review/ontvnow_uk_unclassified.json").read_text(encoding="utf-8"))
+          summary = json.loads(Path("data/review/ontvnow_uk_summary.json").read_text(encoding="utf-8"))
           assert feed["schemaVersion"] == 1
           assert feed["provider"] == "ontvnow_uk"
           assert feed["coverage"]["channelsFound"] == len(feed["channels"])
           assert feed["coverage"]["programmesFound"] == sum(len(c["programmes"]) for c in feed["channels"])
+          assert summary["coverage"] == feed["coverage"]
+          assert len(summary["channels"]) == len(feed["channels"])
           assert feed["coverage"]["programmesFound"] > 0
           print(f"Validated {feed['coverage']['channelsFound']} channels / {feed['coverage']['programmesFound']} programmes")
           PY
-      - name: Commit refreshed review feed
+      - name: Preserve full review feed as a short-lived artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ontvnow-uk-full-review-feed
+          path: data/review/ontvnow_uk_unclassified.json
+          if-no-files-found: error
+          retention-days: 7
+      - name: Commit compact inventory only
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/review/ontvnow_uk_unclassified.json
+          git rm --cached -f data/review/ontvnow_uk_unclassified.json || true
+          git add data/review/ontvnow_uk_summary.json
           if git diff --staged --quiet; then
-            echo "No onTVnow feed changes"
+            echo "No onTVnow inventory changes"
           else
-            git commit -m "Refresh onTVnow UK sports EPG"
+            git commit -m "Refresh onTVnow UK channel inventory"
             git push
           fi

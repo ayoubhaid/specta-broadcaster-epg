@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch the public onTVnow UK sports XMLTV feed and normalize it for Specta."""
+"""Fetch the public onTVnow UK XMLTV listings feed and normalize it for Specta."""
 from __future__ import annotations
 import argparse, hashlib, json, os, sys, tempfile, urllib.error, urllib.request
 import xml.etree.ElementTree as ET
@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Any
 
 SOURCE = "ontvnow_uk"
-SOURCE_URL = "https://ontvnow.co.uk/api/v1/listings.xml?group=sport"
+SOURCE_URL = "https://ontvnow.co.uk/api/v1/listings.xml"
 USER_AGENT = "SpectaEPG/1.0 (+https://github.com/ayoubhaid/specta-broadcaster-epg)"
 MAX_BYTES = 50 * 1024 * 1024
 
@@ -82,7 +82,7 @@ def parse_xmltv(xml_data: bytes, fetched_at: str | None = None, source_url: str 
         })
     total = sum(len(channel["programmes"]) for channel in channels)
     return {
-        "schemaVersion": 1, "provider": SOURCE, "providerName": "onTVnow UK Sports Listings",
+        "schemaVersion": 1, "provider": SOURCE, "providerName": "onTVnow UK Listings",
         "sourceUrl": source_url, "region": "GB", "timezone": "UTC",
         "generatedAt": fetched_at or datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "coverage": {"daysRequested": 7, "channelsFound": len(channels), "programmesFound": total,
@@ -90,6 +90,25 @@ def parse_xmltv(xml_data: bytes, fetched_at: str | None = None, source_url: str 
         "mapping": {"canonicalChannelIdsMapped": 0, "canonicalChannelIdsMissing": len(channels),
                     "note": "Source channel IDs require explicit review in data/mapping/channel-map.csv"},
         "channels": channels,
+    }
+
+def build_summary(document: dict[str, Any]) -> dict[str, Any]:
+    """Return a compact channel inventory without programme descriptions or schedule rows."""
+    channels = document.get("channels", [])
+    return {
+        "schemaVersion": 1,
+        "provider": document.get("provider", SOURCE),
+        "providerName": document.get("providerName", "onTVnow UK Listings"),
+        "region": document.get("region", "GB"),
+        "sourceUrl": document.get("sourceUrl", SOURCE_URL),
+        "generatedAt": document.get("generatedAt"),
+        "coverage": document.get("coverage", {}),
+        "channels": [
+            {"id": channel["id"], "name": channel["name"],
+             "programmesFound": len(channel.get("programmes", []))}
+            for channel in channels
+        ],
+        "note": "Inventory only. Channel type and playlist identity require explicit review; no automatic mapping is performed.",
     }
 
 def fetch_xmltv(url: str = SOURCE_URL, timeout: int = 45) -> bytes:
@@ -124,6 +143,7 @@ def write_atomic(path: Path, document: dict[str, Any]) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", default="data/review/ontvnow_uk_unclassified.json")
+    parser.add_argument("--summary-output", default="data/review/ontvnow_uk_summary.json")
     parser.add_argument("--url", default=os.environ.get("ONTVNOW_XMLTV_URL", SOURCE_URL))
     args = parser.parse_args()
     try:
@@ -131,8 +151,11 @@ def main() -> int:
         if not document["coverage"]["programmesFound"]:
             raise RuntimeError("Feed contained no usable programme rows; last good output preserved")
         write_atomic(Path(args.output), document)
+        summary = build_summary(document)
+        write_atomic(Path(args.summary_output), summary)
         print(json.dumps({"provider": SOURCE, "channels": document["coverage"]["channelsFound"],
-                          "programmes": document["coverage"]["programmesFound"], "output": args.output}, indent=2))
+                          "programmes": document["coverage"]["programmesFound"],
+                          "summary": args.summary_output, "output": args.output}, indent=2))
         return 0
     except Exception as exc:
         print(f"onTVnow EPG refresh failed: {exc}", file=sys.stderr)
