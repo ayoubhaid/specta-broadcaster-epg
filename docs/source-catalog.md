@@ -13,6 +13,7 @@ Specta's sports-channel inventory contains 15 broadcaster families. A family may
 | beIN SPORTS | MENA English | [Official beIN TV guide](https://www.beinsports.com/en-mena/tv-guide) | Dated programme rows associated with beIN channel IDs; current adapter uses the guide's channel and programme endpoints | Existing adapter; source contract and terms require periodic revalidation |
 | SuperSport | South Africa / regional | [Media Schedules](https://wsd.supersport.com/media/ms_schedule.asp) | Dated schedule rows include programme title, start/end and source channel code | Existing adapter; publish only explicitly approved linear channels |
 | Sky Sports | United Kingdom | [Sky Sports schedule](https://www.skysports.com/watch/sport-on-sky) | Dated schedule response for 21 UK sports channels discovered from the Sky services endpoint | Existing adapter; 21 channels mapped, including TNT Sports and Premier Sports |
+| elCinema | Arabic / MENA | [elCinema TV guide](https://elcinema.com/en/tvguide) | Dated English schedules for 101 Arabic channels; today plus tomorrow, and up to four days on some OSN channels | Existing adapter; explicit mapping only |
 | SNRT | Morocco | [SNRT](https://www.snrt.ma/) | Official dated programme grid | Existing adapter; separate general broadcaster feed |
 | CANAL+ | France | [Programme TV](https://www.canalplus.com/live-tv/programme-tv/) | Dated channel programme objects in the France guide | Existing adapter; France-only, not CANAL+ Afrique |
 

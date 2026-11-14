@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-14T17:29:49.000Z",
+  "generatedAt": "2026-11-14T17:39:17.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-14T15:29:49.000Z",
-    "to": "2026-11-16T09:29:49.000Z",
+    "from": "2026-11-14T15:39:17.000Z",
+    "to": "2026-11-16T09:39:17.000Z",
     "maxPerChannel": 80
   },
   "totals": {
-    "channels": 151,
-    "programmes": 6593
+    "channels": 173,
+    "programmes": 6942
   },
   "providers": [
     {
@@ -37,6 +37,24 @@
       "programmes": 229,
       "publishedChannels": 6,
       "publishedProgrammes": 228,
+      "autoResolved": 0,
+      "rejected": {
+        "row": 0,
+        "title": 0,
+        "time": 0,
+        "range": 0,
+        "duration": 0
+      },
+      "error": null
+    },
+    {
+      "provider": "elcinema",
+      "providerName": "elCinema Arabic TV Guide",
+      "file": "data/review/elcinema_ar_unclassified.json",
+      "channels": 101,
+      "programmes": 2834,
+      "publishedChannels": 22,
+      "publishedProgrammes": 633,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -372,6 +390,160 @@
       "id": "specta.canalplus_fr.tf1",
       "method": "specta-registry",
       "provider": "canalplus_fr"
+    },
+    {
+      "key": "elcinema:1169",
+      "name": "Dubai TV",
+      "id": "specta.elcinema.dubai-tv",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1341",
+      "name": "LBC",
+      "id": "specta.elcinema.lbc",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1128",
+      "name": "MBC 2",
+      "id": "specta.elcinema.mbc-2",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1241",
+      "name": "MBC 3",
+      "id": "specta.elcinema.mbc-3",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1129",
+      "name": "MBC 4",
+      "id": "specta.elcinema.mbc-4",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1354",
+      "name": "MBC 5",
+      "id": "specta.elcinema.mbc-5",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1130",
+      "name": "MBC Action",
+      "id": "specta.elcinema.mbc-action",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1259",
+      "name": "MBC Bollywood",
+      "id": "specta.elcinema.mbc-bollywood",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1194",
+      "name": "MBC Drama",
+      "id": "specta.elcinema.mbc-drama",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1131",
+      "name": "MBC Drama +",
+      "id": "specta.elcinema.mbc-drama-plus",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1239",
+      "name": "MBC Egypt",
+      "id": "specta.elcinema.mbc-egypt",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1340",
+      "name": "MBC Iraq",
+      "id": "specta.elcinema.mbc-iraq",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1278",
+      "name": "MBC MASR 2",
+      "id": "specta.elcinema.mbc-masr-2",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1132",
+      "name": "MBC MAX",
+      "id": "specta.elcinema.mbc-max",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1205",
+      "name": "OSN Ya Hala",
+      "id": "specta.elcinema.osn-ya-hala",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1285",
+      "name": "Osn Ya Hala Aflam",
+      "id": "specta.elcinema.osn-ya-hala-aflam",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1289",
+      "name": "Rotana Cinema",
+      "id": "specta.elcinema.rotana-cinema",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1217",
+      "name": "Rotana Classic",
+      "id": "specta.elcinema.rotana-classic",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1358",
+      "name": "Rotana Comedy",
+      "id": "specta.elcinema.rotana-comedy",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1147",
+      "name": "Rotana Drama",
+      "id": "specta.elcinema.rotana-drama",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1149",
+      "name": "Rotana Khalejia",
+      "id": "specta.elcinema.rotana-khalejia",
+      "method": "specta-registry",
+      "provider": "elcinema"
+    },
+    {
+      "key": "elcinema:1177",
+      "name": "Sama Dubai",
+      "id": "specta.elcinema.sama-dubai",
+      "method": "specta-registry",
+      "provider": "elcinema"
     },
     {
       "key": "ontvnow_uk:5.uk",
@@ -1304,6 +1476,559 @@
         "key": "canalplus_fr:canalplus_fr:la-piste-du-nasi-sur-france-3",
         "provider": "canalplus_fr",
         "name": "la piste du nasi..., Sur FRANCE 3",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1323",
+        "provider": "elcinema",
+        "name": "BEIN MOVIES ACTION",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1390",
+        "provider": "elcinema",
+        "name": "OSN TV Yahala Bil Arabi",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1395",
+        "provider": "elcinema",
+        "name": "OSN TV Crime",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1325",
+        "provider": "elcinema",
+        "name": "BEIN MOVIES FAMILY",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1405",
+        "provider": "elcinema",
+        "name": "One Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1366",
+        "provider": "elcinema",
+        "name": "Thikrayat Tv",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1193",
+        "provider": "elcinema",
+        "name": "Al Nahar TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1145",
+        "provider": "elcinema",
+        "name": "Mehwar",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1269",
+        "provider": "elcinema",
+        "name": "AlSharqiya",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1226",
+        "provider": "elcinema",
+        "name": "Sada El Balad",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1136",
+        "provider": "elcinema",
+        "name": "Abu Dhabi TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1317",
+        "provider": "elcinema",
+        "name": "Oman",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1373",
+        "provider": "elcinema",
+        "name": "Mix ONE",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1204",
+        "provider": "elcinema",
+        "name": "iFILM TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1301",
+        "provider": "elcinema",
+        "name": "Alsumaria",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1252",
+        "provider": "elcinema",
+        "name": "Al Kahera Wal Nas TV 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1322",
+        "provider": "elcinema",
+        "name": "BEIN MOVIES PREMIERE",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1328",
+        "provider": "elcinema",
+        "name": "beIN Series HD 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1313",
+        "provider": "elcinema",
+        "name": "LTV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1367",
+        "provider": "elcinema",
+        "name": "Utv",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1119",
+        "provider": "elcinema",
+        "name": "Egyptian TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1312",
+        "provider": "elcinema",
+        "name": "Al Aoula Morocco",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1261",
+        "provider": "elcinema",
+        "name": "Zee alwan",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1314",
+        "provider": "elcinema",
+        "name": "Jordan TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1148",
+        "provider": "elcinema",
+        "name": "Rotana Cinema Masr",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1391",
+        "provider": "elcinema",
+        "name": "OSN TV Movies Hollywood",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1383",
+        "provider": "elcinema",
+        "name": "WTV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1199",
+        "provider": "elcinema",
+        "name": "CBC Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1213",
+        "provider": "elcinema",
+        "name": "OSN TV Movies Premiere",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1134",
+        "provider": "elcinema",
+        "name": "ON Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1137",
+        "provider": "elcinema",
+        "name": "Alhayat TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1374",
+        "provider": "elcinema",
+        "name": "Hadhramaut TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1264",
+        "provider": "elcinema",
+        "name": "Al Dafrah",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1309",
+        "provider": "elcinema",
+        "name": "beIN Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1216",
+        "provider": "elcinema",
+        "name": "Al Jadeed TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1279",
+        "provider": "elcinema",
+        "name": "Sada El Balad 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1324",
+        "provider": "elcinema",
+        "name": "BEIN MOVIES DRAMA",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1399",
+        "provider": "elcinema",
+        "name": "MBC Masr Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1394",
+        "provider": "elcinema",
+        "name": "OSN TV Showcase",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1246",
+        "provider": "elcinema",
+        "name": "LDC",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1382",
+        "provider": "elcinema",
+        "name": "Alaraby TV 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1231",
+        "provider": "elcinema",
+        "name": "OSN TV Movies Comedy",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1392",
+        "provider": "elcinema",
+        "name": "OSN TV Movies Family",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1315",
+        "provider": "elcinema",
+        "name": "Echorouk TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1135",
+        "provider": "elcinema",
+        "name": "Emirates",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1156",
+        "provider": "elcinema",
+        "name": "Nile Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1198",
+        "provider": "elcinema",
+        "name": "CBC",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1349",
+        "provider": "elcinema",
+        "name": "Iraqia TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1174",
+        "provider": "elcinema",
+        "name": "Al Kahera Wal Nas TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1242",
+        "provider": "elcinema",
+        "name": "Network Arabic",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1299",
+        "provider": "elcinema",
+        "name": "Roya",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1398",
+        "provider": "elcinema",
+        "name": "Althania",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1396",
+        "provider": "elcinema",
+        "name": "OSN TV Now",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1336",
+        "provider": "elcinema",
+        "name": "Maspero Zaman",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1159",
+        "provider": "elcinema",
+        "name": "Nile Life",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1168",
+        "provider": "elcinema",
+        "name": "LBCI",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1371",
+        "provider": "elcinema",
+        "name": "Mix Bel Araby",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1203",
+        "provider": "elcinema",
+        "name": "ON E",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1176",
+        "provider": "elcinema",
+        "name": "Cima",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1290",
+        "provider": "elcinema",
+        "name": "DMC",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1227",
+        "provider": "elcinema",
+        "name": "Sada El Balad Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1280",
+        "provider": "elcinema",
+        "name": "TeN",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1298",
+        "provider": "elcinema",
+        "name": "Amman",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1211",
+        "provider": "elcinema",
+        "name": "OSN TV Movies Action",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1393",
+        "provider": "elcinema",
+        "name": "OSN TV One",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1127",
+        "provider": "elcinema",
+        "name": "MBC",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1304",
+        "provider": "elcinema",
+        "name": "Nessma",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1302",
+        "provider": "elcinema",
+        "name": "Fujairah",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1292",
+        "provider": "elcinema",
+        "name": "DMC DRAMA",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1352",
+        "provider": "elcinema",
+        "name": "Saudiya TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1101",
+        "provider": "elcinema",
+        "name": "Aloula",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1327",
+        "provider": "elcinema",
+        "name": "BeIn Series HD 1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1223",
+        "provider": "elcinema",
+        "name": "Al Nahar Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1296",
+        "provider": "elcinema",
+        "name": "MTV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1257",
+        "provider": "elcinema",
+        "name": "OSN TV Comedy",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1283",
+        "provider": "elcinema",
+        "name": "Dubai Zaman",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1188",
+        "provider": "elcinema",
+        "name": "Sharjah TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1306",
+        "provider": "elcinema",
+        "name": "Alrasheed",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1339",
+        "provider": "elcinema",
+        "name": "AlSaeedah",
         "reason": "unmapped",
         "candidates": []
       },

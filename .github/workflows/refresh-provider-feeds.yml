@@ -57,13 +57,15 @@ jobs:
           python providers/ontvnow/scraper.py \
             --output data/review/ontvnow_uk_unclassified.json \
             --summary-output data/review/ontvnow_uk_summary.json
+      - name: Refresh elCinema Arabic guide
+        run: python providers/elcinema/scraper.py --output data/review/elcinema_ar_unclassified.json
       - name: Build app-facing XMLTV from Specta registry
         run: node aggregate/build.mjs --require
       - name: Commit refreshed feeds and reports
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/source-feeds/bein_mena.json data/source-feeds/snrt_ma.json data/review/supersport_unclassified.json data/review/supersport_unclassified.csv data/review/sky_uk_unclassified.json data/review/canalplus_fr_unclassified.json data/review/ontvnow_uk_summary.json docs
+          git add data/source-feeds/bein_mena.json data/source-feeds/snrt_ma.json data/review/supersport_unclassified.json data/review/supersport_unclassified.csv data/review/sky_uk_unclassified.json data/review/canalplus_fr_unclassified.json data/review/ontvnow_uk_summary.json data/review/elcinema_ar_unclassified.json docs
           if git diff --staged --quiet; then
             echo "No provider feed changes"
           else
