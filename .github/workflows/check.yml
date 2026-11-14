@@ -27,8 +27,10 @@ jobs:
         run: npm test
       - name: Test SuperSport adapter
         run: python -m unittest discover -s providers/supersport -p 'test_*.py'
+      - name: Test onTVnow adapter
+        run: python -m unittest discover -s providers/ontvnow -p 'test_*.py'
       - name: Build feed into a scratch directory
         run: node aggregate/build.mjs --out=tmp/epg.xml --report=tmp/coverage.json --require
       - name: Validate committed source feeds
         run: |
-          node --input-type=module -e "import {readFile} from 'node:fs/promises'; for (const p of ['data/source-feeds/bein_mena.json','data/source-feeds/snrt_ma.json','data/review/supersport_unclassified.json','data/review/sky_uk_unclassified.json','data/review/canalplus_fr_unclassified.json']) { const d=JSON.parse(await readFile(p,'utf8')); if(d.schemaVersion!==1) throw Error(p+' schemaVersion'); const n=d.channels.reduce((s,c)=>s+c.programmes.length,0); if(n!==d.coverage.programmesFound) throw Error(p+' coverage count'); for(const c of d.channels) for(const x of c.programmes) if(Date.parse(x.start)>=Date.parse(x.end)) throw Error(p+' invalid time range in '+c.id); console.log(p+': '+d.channels.length+' channels, '+n+' programmes') }"
+          node --input-type=module -e "import {readFile} from 'node:fs/promises'; for (const p of ['data/source-feeds/bein_mena.json','data/source-feeds/snrt_ma.json','data/review/supersport_unclassified.json','data/review/sky_uk_unclassified.json','data/review/canalplus_fr_unclassified.json','data/review/ontvnow_uk_unclassified.json']) { const d=JSON.parse(await readFile(p,'utf8')); if(d.schemaVersion!==1) throw Error(p+' schemaVersion'); const n=d.channels.reduce((s,c)=>s+c.programmes.length,0); if(n!==d.coverage.programmesFound) throw Error(p+' coverage count'); for(const c of d.channels) for(const x of c.programmes) if(Date.parse(x.start)>=Date.parse(x.end)) throw Error(p+' invalid time range in '+c.id); console.log(p+': '+d.channels.length+' channels, '+n+' programmes') }"
