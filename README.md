@@ -6,7 +6,7 @@ Specta owns the complete EPG pipeline: source adapters, raw schedule collection,
 
 | Source | Market | Adapter | Programme data | Publishing |
 |---|---|---|---|---|
-| beIN SPORTS | MENA English guide | `providers/bein_mena/` | Official guide API; dated channel schedules | Explicitly mapped channels |
+| beIN SPORTS | MENA / France / US / Australia | `providers/bein_mena/` | Official guide API; regional channel schedules | Explicitly mapped channels |
 | SuperSport | South Africa / regional services | `providers/supersport/` | Official Media Schedules; dated channel programmes | Reviewed permanent channels only |
 | Sky Sports | UK | `providers/sky/` | Dated linear-channel EPG response | 21 UK sports channels carried on Sky, including TNT Sports and Premier Sports |
 | onTVnow | UK | `providers/ontvnow/` | Public unfiltered XMLTV listings export, normalized to the shared feed schema | Full catalogue retained for review; only explicitly mapped linear TV channels publish |

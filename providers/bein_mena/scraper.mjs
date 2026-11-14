@@ -3,6 +3,9 @@ import path from "node:path";
 
 const API_BASE = "https://www.beinsports.com/api/opta";
 const REGION = process.env.BEIN_REGION ?? "en-mena";
+const PROVIDER = process.env.BEIN_PROVIDER ?? "bein_mena";
+const PROVIDER_NAME = process.env.BEIN_PROVIDER_NAME ?? "beIN SPORTS MENA";
+const SOURCE_URL = process.env.BEIN_SOURCE_URL ?? "https://www.beinsports.com/en-mena/tv-guide";
 const DAYS = clampInt(process.env.EPG_DAYS, 5, 1, 14);
 const DELAY_MS = clampInt(process.env.REQUEST_DELAY_MS, 300, 100, 5000);
 const OUT = process.env.EPG_OUTPUT ?? "docs/bein-epg.json";
@@ -53,7 +56,7 @@ function normalizeProgramme(row, channel) {
     end,
     startEpochSeconds: Math.floor(Date.parse(start) / 1000),
     endEpochSeconds: Math.floor(Date.parse(end) / 1000),
-    source: "bein_mena"
+    source: PROVIDER
   };
 }
 
@@ -143,9 +146,9 @@ async function main() {
 
   const output = {
     schemaVersion: 1,
-    provider: "bein_mena",
-    providerName: "beIN SPORTS MENA",
-    sourceUrl: "https://www.beinsports.com/en-mena/tv-guide",
+    provider: PROVIDER,
+    providerName: PROVIDER_NAME,
+    sourceUrl: SOURCE_URL,
     apiBase: API_BASE,
     region: REGION,
     timezone: "UTC",

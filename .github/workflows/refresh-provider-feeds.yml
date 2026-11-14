@@ -36,6 +36,39 @@ jobs:
           REQUEST_DELAY_MS: "500"
           EPG_OUTPUT: "../../data/source-feeds/bein_mena.json"
         run: npm run scrape
+      - name: Refresh beIN France
+        working-directory: providers/bein_mena
+        env:
+          BEIN_PROVIDER: bein_fr
+          BEIN_PROVIDER_NAME: beIN SPORTS France
+          BEIN_REGION: fr-fr
+          BEIN_SOURCE_URL: https://www.beinsports.com/fr-fr/tv-guide
+          EPG_DAYS: "5"
+          REQUEST_DELAY_MS: "500"
+          EPG_OUTPUT: "../../data/source-feeds/bein_fr.json"
+        run: npm run scrape
+      - name: Refresh beIN US
+        working-directory: providers/bein_mena
+        env:
+          BEIN_PROVIDER: bein_us
+          BEIN_PROVIDER_NAME: beIN SPORTS US
+          BEIN_REGION: en-us
+          BEIN_SOURCE_URL: https://www.beinsports.com/en-us/tv-guide
+          EPG_DAYS: "5"
+          REQUEST_DELAY_MS: "500"
+          EPG_OUTPUT: "../../data/source-feeds/bein_us.json"
+        run: npm run scrape
+      - name: Refresh beIN Australia
+        working-directory: providers/bein_mena
+        env:
+          BEIN_PROVIDER: bein_au
+          BEIN_PROVIDER_NAME: beIN SPORTS Australia
+          BEIN_REGION: en-au
+          BEIN_SOURCE_URL: https://www.beinsports.com/en-au/tv-guide
+          EPG_DAYS: "5"
+          REQUEST_DELAY_MS: "500"
+          EPG_OUTPUT: "../../data/source-feeds/bein_au.json"
+        run: npm run scrape
       - name: Refresh SNRT official guide
         env:
           REQUEST_DELAY_MS: "350"
@@ -65,7 +98,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/source-feeds/bein_mena.json data/source-feeds/snrt_ma.json data/review/supersport_unclassified.json data/review/supersport_unclassified.csv data/review/sky_uk_unclassified.json data/review/canalplus_fr_unclassified.json data/review/ontvnow_uk_summary.json data/review/elcinema_ar_unclassified.json docs
+          git add data/source-feeds/bein_mena.json data/source-feeds/bein_fr.json data/source-feeds/bein_us.json data/source-feeds/bein_au.json data/source-feeds/snrt_ma.json data/review/supersport_unclassified.json data/review/supersport_unclassified.csv data/review/sky_uk_unclassified.json data/review/canalplus_fr_unclassified.json data/review/ontvnow_uk_summary.json data/review/elcinema_ar_unclassified.json docs
           if git diff --staged --quiet; then
             echo "No provider feed changes"
           else

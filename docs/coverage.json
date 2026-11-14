@@ -1,16 +1,52 @@
 {
-  "generatedAt": "2026-11-14T17:39:17.000Z",
+  "generatedAt": "2026-11-14T17:45:14.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-14T15:39:17.000Z",
-    "to": "2026-11-16T09:39:17.000Z",
+    "from": "2026-11-14T15:45:14.000Z",
+    "to": "2026-11-16T09:45:14.000Z",
     "maxPerChannel": 80
   },
   "totals": {
-    "channels": 173,
-    "programmes": 6942
+    "channels": 191,
+    "programmes": 7279
   },
   "providers": [
+    {
+      "provider": "bein_au",
+      "providerName": "beIN SPORTS Australia",
+      "file": "data/source-feeds/bein_au.json",
+      "channels": 4,
+      "programmes": 381,
+      "publishedChannels": 3,
+      "publishedProgrammes": 274,
+      "autoResolved": 0,
+      "rejected": {
+        "row": 0,
+        "title": 0,
+        "time": 0,
+        "range": 0,
+        "duration": 0
+      },
+      "error": null
+    },
+    {
+      "provider": "bein_fr",
+      "providerName": "beIN SPORTS France",
+      "file": "data/source-feeds/bein_fr.json",
+      "channels": 10,
+      "programmes": 501,
+      "publishedChannels": 9,
+      "publishedProgrammes": 389,
+      "autoResolved": 0,
+      "rejected": {
+        "row": 0,
+        "title": 0,
+        "time": 0,
+        "range": 0,
+        "duration": 0
+      },
+      "error": null
+    },
     {
       "provider": "bein_mena",
       "providerName": "beIN SPORTS MENA",
@@ -26,6 +62,24 @@
         "time": 0,
         "range": 0,
         "duration": 1
+      },
+      "error": null
+    },
+    {
+      "provider": "bein_us",
+      "providerName": "beIN SPORTS US",
+      "file": "data/source-feeds/bein_us.json",
+      "channels": 13,
+      "programmes": 1003,
+      "publishedChannels": 6,
+      "publishedProgrammes": 324,
+      "autoResolved": 0,
+      "rejected": {
+        "row": 0,
+        "title": 0,
+        "time": 0,
+        "range": 0,
+        "duration": 0
       },
       "error": null
     },
@@ -139,6 +193,90 @@
     }
   ],
   "resolved": [
+    {
+      "key": "bein_au:164c0eda-ebce-4aa6-9dda-d603e0948b9f",
+      "name": "beIN SPORTS 1",
+      "id": "specta.bein_au.bein-sports-1",
+      "method": "specta-registry",
+      "provider": "bein_au"
+    },
+    {
+      "key": "bein_au:63a30d9c-609d-4a30-8730-2ca391df287a",
+      "name": "beIN SPORTS 2",
+      "id": "specta.bein_au.bein-sports-2",
+      "method": "specta-registry",
+      "provider": "bein_au"
+    },
+    {
+      "key": "bein_au:2e8a6222-8d90-4291-81e3-af2f72557746",
+      "name": "beIN SPORTS 3",
+      "id": "specta.bein_au.bein-sports-3",
+      "method": "specta-registry",
+      "provider": "bein_au"
+    },
+    {
+      "key": "bein_fr:1e886e98-3104-4d8e-a97f-734b23108e8a",
+      "name": "beIN SPORTS 2",
+      "id": "specta.bein_fr.bein-sports-2",
+      "method": "specta-registry",
+      "provider": "bein_fr"
+    },
+    {
+      "key": "bein_fr:6db008b8-66da-423e-805d-616211d4b174",
+      "name": "beIN SPORTS 3",
+      "id": "specta.bein_fr.bein-sports-3",
+      "method": "specta-registry",
+      "provider": "bein_fr"
+    },
+    {
+      "key": "bein_fr:6f425028-14f0-4e38-b776-71a9db3f3493",
+      "name": "beIN SPORTS MAX 10",
+      "id": "specta.bein_fr.bein-sports-max-10",
+      "method": "specta-registry",
+      "provider": "bein_fr"
+    },
+    {
+      "key": "bein_fr:ef7e0369-cfd9-4607-9238-ec483e6d58a3",
+      "name": "beIN SPORTS MAX 4",
+      "id": "specta.bein_fr.bein-sports-max-4",
+      "method": "specta-registry",
+      "provider": "bein_fr"
+    },
+    {
+      "key": "bein_fr:a4425e44-b004-4137-acb4-458ba4d710f8",
+      "name": "beIN SPORTS MAX 5",
+      "id": "specta.bein_fr.bein-sports-max-5",
+      "method": "specta-registry",
+      "provider": "bein_fr"
+    },
+    {
+      "key": "bein_fr:bbd26d71-897d-4799-87a1-a87120130d48",
+      "name": "beIN SPORTS MAX 6",
+      "id": "specta.bein_fr.bein-sports-max-6",
+      "method": "specta-registry",
+      "provider": "bein_fr"
+    },
+    {
+      "key": "bein_fr:9b4708c5-f5f0-452a-8157-4661c30fae6a",
+      "name": "beIN SPORTS MAX 7",
+      "id": "specta.bein_fr.bein-sports-max-7",
+      "method": "specta-registry",
+      "provider": "bein_fr"
+    },
+    {
+      "key": "bein_fr:76d2430c-8bcb-41bd-a1de-fba0d58c5e8a",
+      "name": "beIN SPORTS MAX 8",
+      "id": "specta.bein_fr.bein-sports-max-8",
+      "method": "specta-registry",
+      "provider": "bein_fr"
+    },
+    {
+      "key": "bein_fr:fb208953-1c70-4d1e-b918-103ab02ab181",
+      "name": "beIN SPORTS MAX 9",
+      "id": "specta.bein_fr.bein-sports-max-9",
+      "method": "specta-registry",
+      "provider": "bein_fr"
+    },
     {
       "key": "bein_mena:67dd49e9-e3a2-4b3a-94b8-88c620a4dfb1",
       "name": "beIN 4K",
@@ -348,6 +486,48 @@
       "id": "specta.bein_mena.bein-sports-xtra-2",
       "method": "specta-registry",
       "provider": "bein_mena"
+    },
+    {
+      "key": "bein_us:c244c48d-3b54-406a-94c9-d63b16318267",
+      "name": "beIN SPORTS",
+      "id": "specta.bein_us.bein-sports",
+      "method": "specta-registry",
+      "provider": "bein_us"
+    },
+    {
+      "key": "bein_us:d0546ed7-9db2-4924-9e32-c4f077e7bfc7",
+      "name": "beIN SPORTS 4",
+      "id": "specta.bein_us.bein-sports-4",
+      "method": "specta-registry",
+      "provider": "bein_us"
+    },
+    {
+      "key": "bein_us:a5a48db1-c00b-4db9-9fc6-5e5f25c18830",
+      "name": "beIN SPORTS 5",
+      "id": "specta.bein_us.bein-sports-5",
+      "method": "specta-registry",
+      "provider": "bein_us"
+    },
+    {
+      "key": "bein_us:e56b0905-f99f-4db1-931e-e6002b530867",
+      "name": "beIN SPORTS 6",
+      "id": "specta.bein_us.bein-sports-6",
+      "method": "specta-registry",
+      "provider": "bein_us"
+    },
+    {
+      "key": "bein_us:831591c8-da65-4528-b837-0e5a147887fb",
+      "name": "beIN SPORTS 7",
+      "id": "specta.bein_us.bein-sports-7",
+      "method": "specta-registry",
+      "provider": "bein_us"
+    },
+    {
+      "key": "bein_us:9a424246-ec89-43c3-9239-aa3a40540f94",
+      "name": "beIN SPORTS 8",
+      "id": "specta.bein_us.bein-sports-8",
+      "method": "specta-registry",
+      "provider": "bein_us"
     },
     {
       "key": "canalplus_fr:canalplus_fr:canal",
@@ -1403,6 +1583,20 @@
   "held": {
     "unresolved": [
       {
+        "key": "bein_au:c938a2d0-375a-4876-b05d-08ee29d33b07",
+        "provider": "bein_au",
+        "name": "beIN SPORTS XTRA",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "bein_fr:66265dd1-d2aa-4a89-9412-2455186e90ed",
+        "provider": "bein_fr",
+        "name": "beIN SPORTS 1",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "bein_mena:42680c3c-580f-43da-bdd8-02651bd10f32",
         "provider": "bein_mena",
         "name": "beIN SPORTS 4 AFC",
@@ -1469,6 +1663,55 @@
         "key": "bein_mena:cdf1a4c8-26dd-4c33-a239-f729a3b09295",
         "provider": "bein_mena",
         "name": "beIN SPORTS XTRA 3",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "bein_us:520d107a-71d4-4cb7-b141-1c6b089a7ffc",
+        "provider": "bein_us",
+        "name": "BEINS8C",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "bein_us:5ed9e1c4-bef4-4ac2-8f90-28b3dca26375",
+        "provider": "bein_us",
+        "name": "BEINC",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "bein_us:5824c394-7211-4004-ac46-35bd58b9d1ee",
+        "provider": "bein_us",
+        "name": "BEINSSC",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "bein_us:1acadcf1-dfac-480b-872c-53d51fe1b45d",
+        "provider": "bein_us",
+        "name": "beIN SPORTS XTRA",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "bein_us:4083661e-f588-4700-943c-8fdf65f1b5eb",
+        "provider": "bein_us",
+        "name": "beIN SPORTS Español",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "bein_us:5223e3d7-fb4e-4155-885a-9165996b22fa",
+        "provider": "bein_us",
+        "name": "beIN SPORTS XTRA ñ",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "bein_us:90e69fc7-aa8c-40f2-b35f-ebd174495f76",
+        "provider": "bein_us",
+        "name": "beIN SPORTS 3",
         "reason": "unmapped",
         "candidates": []
       },
