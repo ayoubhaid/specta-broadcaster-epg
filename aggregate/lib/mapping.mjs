@@ -86,6 +86,7 @@ export async function loadMapping(file) {
       canonicalChannelId: read(values, "canonical_channel_id"),
       channelClass: read(values, "channel_class"),
       status: read(values, "status"),
+      playlistAliases: read(values, "playlist_aliases").split("|").map(value => value.trim()).filter(Boolean),
     });
   }
   return rows;
