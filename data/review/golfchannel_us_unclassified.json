@@ -5,11 +5,11 @@
   "sourceUrl": "https://www.golfchannel.com/watch/on-air-schedule",
   "region": "US",
   "timezone": "America/New_York",
-  "generatedAt": "2026-11-14T17:51:46.924Z",
+  "generatedAt": "2026-11-14T18:25:24.686Z",
   "coverage": {
     "daysRequested": 2,
     "channelsFound": 1,
-    "programmesFound": 19,
+    "programmesFound": 17,
     "successfulRequests": 1,
     "failedRequests": 0
   },
@@ -20,32 +20,6 @@
       "region": "US",
       "canonicalChannelId": "",
       "programmes": [
-        {
-          "id": "1189b245e3d36de371ec777d",
-          "title": "Golf Central Pregame",
-          "description": "",
-          "start": "2026-11-14T18:00:00.000Z",
-          "end": "2026-11-14T18:30:00.000Z",
-          "startEpochSeconds": 1794679200,
-          "endEpochSeconds": 1794681000,
-          "source": "golfchannel",
-          "sourceChannelId": "golfchannel",
-          "sourceUrl": "https://www.golfchannel.com/watch/on-air-schedule",
-          "sourceTimezone": "America/New_York"
-        },
-        {
-          "id": "2d31067d1fdb686c58182f0e",
-          "title": "Golf Central Pregame",
-          "description": "",
-          "start": "2026-11-14T18:30:00.000Z",
-          "end": "2026-11-14T19:00:00.000Z",
-          "startEpochSeconds": 1794681000,
-          "endEpochSeconds": 1794682800,
-          "source": "golfchannel",
-          "sourceChannelId": "golfchannel",
-          "sourceUrl": "https://www.golfchannel.com/watch/on-air-schedule",
-          "sourceTimezone": "America/New_York"
-        },
         {
           "id": "53ba42508108aab18af9c6d9",
           "title": "Austin Championship, Third Round",

@@ -5,11 +5,11 @@
   "sourceUrl": "https://www.dazn.com/",
   "region": "multi-region",
   "timezone": "UTC",
-  "generatedAt": "2026-11-14T17:57:07.923Z",
+  "generatedAt": "2026-11-14T18:25:27.257Z",
   "coverage": {
     "daysRequested": 3,
     "channelsFound": 61,
-    "programmesFound": 2885,
+    "programmesFound": 2869,
     "successfulRequests": 7,
     "failedRequests": 0
   },
@@ -877,96 +877,96 @@
       "canonicalChannelId": "",
       "programmes": [
         {
-          "id": "1015af18b486e95aa9d527b4",
+          "id": "14ff3a9c8b28e223fab025f1",
           "title": "Serie A Women - Inter Mailand - Lazio Rom",
           "description": "Aus der Arena Civica in Mailand, Italien.",
-          "start": "2026-11-14T17:23:00.000Z",
-          "end": "2026-11-14T19:31:00.000Z",
-          "startEpochSeconds": 1794676980,
-          "endEpochSeconds": 1794684660,
+          "start": "2026-11-14T17:21:00.000Z",
+          "end": "2026-11-14T19:28:00.000Z",
+          "startEpochSeconds": 1794676860,
+          "endEpochSeconds": 1794684480,
           "source": "dazn",
           "sourceChannelId": "DE:1xx7lone8fvv21a2rpc5cji3jx",
           "sourceTimezone": "UTC"
         },
         {
-          "id": "b65db638a9e48440f43fe51e",
+          "id": "9c21f07023aeeb4ad89aee7a",
           "title": "Google Pixel Frauen Bundesliga Show - 9. Spieltag",
           "description": "Präsentiert wird die höchste deutsche Spielklasse im Frauenfußball.",
-          "start": "2026-11-14T19:31:00.000Z",
-          "end": "2026-11-14T20:08:00.000Z",
-          "startEpochSeconds": 1794684660,
-          "endEpochSeconds": 1794686880,
+          "start": "2026-11-14T19:28:00.000Z",
+          "end": "2026-11-14T20:05:00.000Z",
+          "startEpochSeconds": 1794684480,
+          "endEpochSeconds": 1794686700,
           "source": "dazn",
           "sourceChannelId": "DE:1xx7lone8fvv21a2rpc5cji3jx",
           "sourceTimezone": "UTC"
         },
         {
-          "id": "b6fc53999f6b52153ee09692",
+          "id": "7d8de4241003986d3ca952d9",
           "title": "Doku: Drive Me Crazy ----- Episode 3 (Staffel 1)",
           "description": "Die Schwestern Addie und Deb müssen sich plötzlich das Wohnmobil mit drei Männern teilen.",
-          "start": "2026-11-14T20:08:00.000Z",
-          "end": "2026-11-14T20:40:00.000Z",
-          "startEpochSeconds": 1794686880,
-          "endEpochSeconds": 1794688800,
+          "start": "2026-11-14T20:05:00.000Z",
+          "end": "2026-11-14T20:37:00.000Z",
+          "startEpochSeconds": 1794686700,
+          "endEpochSeconds": 1794688620,
           "source": "dazn",
           "sourceChannelId": "DE:1xx7lone8fvv21a2rpc5cji3jx",
           "sourceTimezone": "UTC"
         },
         {
-          "id": "d8da75d3f9a2018ee95b5684",
+          "id": "5e389c1b62db28372eef4527",
           "title": "Serie A Women - Lazio Rom - SSC Neapel",
           "description": "From Centro sportivo di Formello in Formello, Italy.",
-          "start": "2026-11-14T20:40:00.000Z",
-          "end": "2026-11-14T22:50:00.000Z",
-          "startEpochSeconds": 1794688800,
-          "endEpochSeconds": 1794696600,
+          "start": "2026-11-14T20:37:00.000Z",
+          "end": "2026-11-14T22:48:00.000Z",
+          "startEpochSeconds": 1794688620,
+          "endEpochSeconds": 1794696480,
           "source": "dazn",
           "sourceChannelId": "DE:1xx7lone8fvv21a2rpc5cji3jx",
           "sourceTimezone": "UTC"
         },
         {
-          "id": "1cb2be153d7bad964fe37f53",
+          "id": "fae7640c258b0fecf3ffb321",
           "title": "Serie A Women - Inter Mailand - Lazio Rom",
           "description": "Aus der Arena Civica in Mailand, Italien.",
-          "start": "2026-11-14T22:50:00.000Z",
-          "end": "2026-11-15T00:59:00.000Z",
-          "startEpochSeconds": 1794696600,
-          "endEpochSeconds": 1794704340,
+          "start": "2026-11-14T22:48:00.000Z",
+          "end": "2026-11-15T00:56:00.000Z",
+          "startEpochSeconds": 1794696480,
+          "endEpochSeconds": 1794704160,
           "source": "dazn",
           "sourceChannelId": "DE:1xx7lone8fvv21a2rpc5cji3jx",
           "sourceTimezone": "UTC"
         },
         {
-          "id": "6f3fcdf3a21c70e258423f6b",
+          "id": "8a2279989d7a3207d6c1f0f2",
           "title": "Google Pixel Frauen Bundesliga Show - 9. Spieltag",
           "description": "Präsentiert wird die höchste deutsche Spielklasse im Frauenfußball.",
-          "start": "2026-11-15T00:59:00.000Z",
-          "end": "2026-11-15T01:41:00.000Z",
-          "startEpochSeconds": 1794704340,
-          "endEpochSeconds": 1794706860,
+          "start": "2026-11-15T00:56:00.000Z",
+          "end": "2026-11-15T01:38:00.000Z",
+          "startEpochSeconds": 1794704160,
+          "endEpochSeconds": 1794706680,
           "source": "dazn",
           "sourceChannelId": "DE:1xx7lone8fvv21a2rpc5cji3jx",
           "sourceTimezone": "UTC"
         },
         {
-          "id": "a5a003202df5ce3d259b2112",
+          "id": "00a335484df75e372c6b594e",
           "title": "Serie A Women - Lazio Rom - SSC Neapel",
           "description": "From Centro sportivo di Formello in Formello, Italy.",
-          "start": "2026-11-15T01:41:00.000Z",
-          "end": "2026-11-15T03:55:00.000Z",
-          "startEpochSeconds": 1794706860,
-          "endEpochSeconds": 1794714900,
+          "start": "2026-11-15T01:38:00.000Z",
+          "end": "2026-11-15T03:53:00.000Z",
+          "startEpochSeconds": 1794706680,
+          "endEpochSeconds": 1794714780,
           "source": "dazn",
           "sourceChannelId": "DE:1xx7lone8fvv21a2rpc5cji3jx",
           "sourceTimezone": "UTC"
         },
         {
-          "id": "c4a5d4edc8ea22a553da48ed",
+          "id": "0c82f54b0b5941d76fa9d44e",
           "title": "Serie A Women - Inter Mailand - Lazio Rom",
           "description": "Aus der Arena Civica in Mailand, Italien.",
-          "start": "2026-11-15T03:55:00.000Z",
+          "start": "2026-11-15T03:53:00.000Z",
           "end": "2026-11-15T06:00:00.000Z",
-          "startEpochSeconds": 1794714900,
+          "startEpochSeconds": 1794714780,
           "endEpochSeconds": 1794722400,
           "source": "dazn",
           "sourceChannelId": "DE:1xx7lone8fvv21a2rpc5cji3jx",
@@ -1424,18 +1424,6 @@
       "region": "DE",
       "canonicalChannelId": "",
       "programmes": [
-        {
-          "id": "c98c5fd1bbfe99a4b760bcd4",
-          "title": "Spanish Primera Division Soccer - Racing Santander - Real Madrid",
-          "description": "Gezeigt werden Spiele der spanischen Primera Divison.",
-          "start": "2026-11-14T17:34:00.000Z",
-          "end": "2026-11-14T18:05:00.000Z",
-          "startEpochSeconds": 1794677640,
-          "endEpochSeconds": 1794679500,
-          "source": "dazn",
-          "sourceChannelId": "DE:1vi4p39obt24i1dtsmthi921tl",
-          "sourceTimezone": "UTC"
-        },
         {
           "id": "3576f0728dd65a483268eb8f",
           "title": "Spanish Primera Division Soccer - FC Villarreal - RC Deportivo",
@@ -1912,18 +1900,6 @@
       "region": "DE",
       "canonicalChannelId": "",
       "programmes": [
-        {
-          "id": "af364f686e47988382aa07da",
-          "title": "FIS Ski Alpin Weltcup - Levi: Slalom Frauen, 1. Lauf",
-          "description": "Übertragungen von internationalen FIS Ski Alpin Weltcup Rennen.",
-          "start": "2026-11-14T17:24:00.000Z",
-          "end": "2026-11-14T18:12:00.000Z",
-          "startEpochSeconds": 1794677040,
-          "endEpochSeconds": 1794679920,
-          "source": "dazn",
-          "sourceChannelId": "DE:1l82wc10vjal91887wfmdhvcsp",
-          "sourceTimezone": "UTC"
-        },
         {
           "id": "0d0ca3d6d263f70943c28828",
           "title": "FIS Ski Alpin Weltcup - Levi: Slalom Frauen, 2. Lauf",
@@ -5037,18 +5013,6 @@
       "canonicalChannelId": "",
       "programmes": [
         {
-          "id": "7127489ef3efd15f16343bb7",
-          "title": "MLB Awards - 2026 BBWAA Manager of the Year",
-          "description": "Major League Baseball honors the top players from the 2026 season.",
-          "start": "2026-11-14T17:00:00.000Z",
-          "end": "2026-11-14T18:00:00.000Z",
-          "startEpochSeconds": 1794675600,
-          "endEpochSeconds": 1794679200,
-          "source": "dazn",
-          "sourceChannelId": "DE:db90fd73f6cv14nn9ux8jf6n9",
-          "sourceTimezone": "UTC"
-        },
-        {
           "id": "09d77478345e8a3193889429",
           "title": "MLB Awards - 2026 BBWAA Cy Young Award",
           "description": "Major League Baseball honors the top players from the 2026 season.",
@@ -5784,18 +5748,6 @@
       "region": "DE",
       "canonicalChannelId": "",
       "programmes": [
-        {
-          "id": "cb68187bf2785e8d3786e77c",
-          "title": "NHL Game Highlights",
-          "description": "Big goals, big hits, big moments! See all the best action from last night's NHL games.",
-          "start": "2026-11-14T17:00:00.000Z",
-          "end": "2026-11-14T18:00:00.000Z",
-          "startEpochSeconds": 1794675600,
-          "endEpochSeconds": 1794679200,
-          "source": "dazn",
-          "sourceChannelId": "DE:8c9m11qfurai1ffixac9ytscp",
-          "sourceTimezone": "UTC"
-        },
         {
           "id": "17ad776fec0211e1fab39532",
           "title": "Games of the Year - Hurricanes vs Panthers",
@@ -9112,18 +9064,6 @@
       "region": "GB",
       "canonicalChannelId": "",
       "programmes": [
-        {
-          "id": "fcfab0245f7e0b8ea0bddbb4",
-          "title": "NHL Game Highlights",
-          "description": "Big goals, big hits, big moments! See all the best action from last night's NHL games.",
-          "start": "2026-11-14T17:00:00.000Z",
-          "end": "2026-11-14T18:00:00.000Z",
-          "startEpochSeconds": 1794675600,
-          "endEpochSeconds": 1794679200,
-          "source": "dazn",
-          "sourceChannelId": "GB:elvgbgwma3ao1846p9xztc5rn",
-          "sourceTimezone": "UTC"
-        },
         {
           "id": "75d00f2ee17b462a02031804",
           "title": "Games of the Year - Hurricanes vs Panthers",
@@ -13073,18 +13013,6 @@
       "canonicalChannelId": "",
       "programmes": [
         {
-          "id": "770ac964f85173b35c7f303f",
-          "title": "FIS Sci alpino Coppa del Mondo - Levi, Donne, Slalom: 1a manche",
-          "description": "Le gare del circuito internazionale di Coppa del Mondo FIS di sci alpino.",
-          "start": "2026-11-14T17:30:00.000Z",
-          "end": "2026-11-14T18:15:00.000Z",
-          "startEpochSeconds": 1794677400,
-          "endEpochSeconds": 1794680100,
-          "source": "dazn",
-          "sourceChannelId": "IT:1sehhy7rge0ld1jdgp57rl9aa5",
-          "sourceTimezone": "UTC"
-        },
-        {
           "id": "9aad7e307936bf1708823e36",
           "title": "FIS Sci alpino Coppa del Mondo - Levi, Donne, Slalom: 2a manche",
           "description": "Le gare del circuito internazionale di Coppa del Mondo FIS di sci alpino.",
@@ -14545,18 +14473,6 @@
       "canonicalChannelId": "",
       "programmes": [
         {
-          "id": "31704b9e23c6a475f08717cf",
-          "title": "Eurosport",
-          "description": "",
-          "start": "2026-11-14T14:00:00.000Z",
-          "end": "2026-11-14T18:00:00.000Z",
-          "startEpochSeconds": 1794664800,
-          "endEpochSeconds": 1794679200,
-          "source": "dazn",
-          "sourceChannelId": "IT:acc08vkaas1k1v8b0chty5832",
-          "sourceTimezone": "UTC"
-        },
-        {
           "id": "c1e2e8ae5b8a8fe784ec0e25",
           "title": "Eurosport",
           "description": "",
@@ -14756,18 +14672,6 @@
       "region": "IT",
       "canonicalChannelId": "",
       "programmes": [
-        {
-          "id": "86e0d819806eb2660166ff53",
-          "title": "Eurosport",
-          "description": "",
-          "start": "2026-11-14T14:00:00.000Z",
-          "end": "2026-11-14T18:00:00.000Z",
-          "startEpochSeconds": 1794664800,
-          "endEpochSeconds": 1794679200,
-          "source": "dazn",
-          "sourceChannelId": "IT:gp2utgzli2gn1dyk6egoy3hnc",
-          "sourceTimezone": "UTC"
-        },
         {
           "id": "235578078048f8fc3f0af60f",
           "title": "Eurosport",
@@ -18281,18 +18185,6 @@
       "canonicalChannelId": "",
       "programmes": [
         {
-          "id": "56bd33e2a58374416513b8b2",
-          "title": "Ed Stafford: Duro a morire - Borneo",
-          "description": "Ed Stafford arriva nelle giungle del Borneo. L'uomo non ha nulla con sé. Niente cibo, niente acqua, nemmeno un coltello. In più viene colpito da un'ulcera tropicale al piede.",
-          "start": "2026-11-14T17:15:00.000Z",
-          "end": "2026-11-14T18:15:00.000Z",
-          "startEpochSeconds": 1794676500,
-          "endEpochSeconds": 1794680100,
-          "source": "dazn",
-          "sourceChannelId": "IT:l8t7xdnvthfi1g2y52cnvnyv2",
-          "sourceTimezone": "UTC"
-        },
-        {
           "id": "ff436f503b2b16bcb03cdede",
           "title": "Ed Stafford: Duro a morire - Romania",
           "description": "E viene abbandonato sui Carpazi. L'uomo non ha nulla con sé, niente cibo, acqua e nemmeno un coltello. Deve sopravvivere in questo luogo estremo per ben 10 giorni.",
@@ -18996,18 +18888,6 @@
       "region": "IT",
       "canonicalChannelId": "",
       "programmes": [
-        {
-          "id": "db240f9c90e744daa5f06f95",
-          "title": "Casa a prima vista - Eugenio e Maria Antonietta",
-          "description": "Ida, Mariana e Lorenzo sono alla ricerca di un trilocale nella città di Milano, per un budget di 450.000 euro.",
-          "start": "2026-11-14T17:10:00.000Z",
-          "end": "2026-11-14T18:15:00.000Z",
-          "startEpochSeconds": 1794676200,
-          "endEpochSeconds": 1794680100,
-          "source": "dazn",
-          "sourceChannelId": "IT:1nbcnzjh562xz1hh787eo0je8e",
-          "sourceTimezone": "UTC"
-        },
         {
           "id": "3fb2091abd9c18b1664b6f21",
           "title": "Casa a prima vista",
@@ -19876,18 +19756,6 @@
       "region": "ES",
       "canonicalChannelId": "",
       "programmes": [
-        {
-          "id": "c4efd8a35444b33ba32d57da",
-          "title": "FIS Copa del Mundo de Esquí Alpino - Levi : Eslálon Femenino - 1ª manga",
-          "description": "Cobertura de las competiciones internacionales de esquí alpino.",
-          "start": "2026-11-14T17:30:00.000Z",
-          "end": "2026-11-14T18:15:00.000Z",
-          "startEpochSeconds": 1794677400,
-          "endEpochSeconds": 1794680100,
-          "source": "dazn",
-          "sourceChannelId": "ES:1kaqhtrr0kcl11563aff0431p8",
-          "sourceTimezone": "UTC"
-        },
         {
           "id": "2012e950ff48a81159ed48cd",
           "title": "FIS Copa del Mundo de Esquí Alpino - Levi : Eslálon Femenino - 2ª manga",
@@ -24345,24 +24213,24 @@
           "sourceTimezone": "UTC"
         },
         {
-          "id": "96455b9c58554c90ca8c4e82",
+          "id": "f99f004bfedfdcc68e3e2178",
           "title": "MASL Soccer - 2025-26: Baltimore Blast at Empire Strykers",
           "description": "From Feb. 19, 2026.",
           "start": "2026-11-15T11:12:00.000Z",
-          "end": "2026-11-15T14:02:00.000Z",
+          "end": "2026-11-15T14:30:00.000Z",
           "startEpochSeconds": 1794741120,
-          "endEpochSeconds": 1794751320,
+          "endEpochSeconds": 1794753000,
           "source": "dazn",
           "sourceChannelId": "ES:uzmhisztf6ek1k1d4wuu25qas",
           "sourceTimezone": "UTC"
         },
         {
-          "id": "d15303c19c52ddb1a4870d7c",
+          "id": "d9e15fe51688e5d2abd24d13",
           "title": "MASL Soccer - 2025-26: San Diego Sockers vs. Tacoma Stars",
           "description": "From Feb. 21, 2026.",
-          "start": "2026-11-15T14:02:00.000Z",
+          "start": "2026-11-15T14:30:00.000Z",
           "end": "2026-11-15T15:11:00.000Z",
-          "startEpochSeconds": 1794751320,
+          "startEpochSeconds": 1794753000,
           "endEpochSeconds": 1794755460,
           "source": "dazn",
           "sourceChannelId": "ES:uzmhisztf6ek1k1d4wuu25qas",
@@ -27885,18 +27753,6 @@
       "canonicalChannelId": "",
       "programmes": [
         {
-          "id": "bf85f6f9e0193c8ba44ded41",
-          "title": "NHL Game Highlights",
-          "description": "Big goals, big hits, big moments! See all the best action from last night's NHL games.",
-          "start": "2026-11-14T17:00:00.000Z",
-          "end": "2026-11-14T18:00:00.000Z",
-          "startEpochSeconds": 1794675600,
-          "endEpochSeconds": 1794679200,
-          "source": "dazn",
-          "sourceChannelId": "FR:1n05pq2v5wgex1u1s5zw89sx71",
-          "sourceTimezone": "UTC"
-        },
-        {
           "id": "0d89c9fcaf12c873854de156",
           "title": "Games of the Year - Hurricanes vs Panthers",
           "description": "Panthers surge late to beat Hurricanes.",
@@ -29541,18 +29397,6 @@
       "canonicalChannelId": "",
       "programmes": [
         {
-          "id": "1ad1e1c44f5c9bc945629566",
-          "title": "Campeonato Inglês - Chelsea x Manchester United",
-          "description": "Do Estádio de Stamford Bridge, em Londres, Inglaterra.",
-          "start": "2026-11-14T16:00:00.000Z",
-          "end": "2026-11-14T18:00:00.000Z",
-          "startEpochSeconds": 1794672000,
-          "endEpochSeconds": 1794679200,
-          "source": "dazn",
-          "sourceChannelId": "PT:29l8c8txra9q1gmicmku13nhw",
-          "sourceTimezone": "UTC"
-        },
-        {
           "id": "71418d2affae1c0427e6e097",
           "title": "Liga Europa - SCU Torreense x Sunderland",
           "description": "Estádio Manuel Marques",
@@ -30172,18 +30016,6 @@
       "region": "PT",
       "canonicalChannelId": "",
       "programmes": [
-        {
-          "id": "7be08dde1e44960b259e58b1",
-          "title": "Best of DAZN",
-          "description": "Acompanhe os melhores momentos e muito mais no DAZN.",
-          "start": "2026-11-14T17:20:00.000Z",
-          "end": "2026-11-14T17:55:00.000Z",
-          "startEpochSeconds": 1794676800,
-          "endEpochSeconds": 1794678900,
-          "source": "dazn",
-          "sourceChannelId": "PT:gpg12e28xrnbz5mmgjrjnu99",
-          "sourceTimezone": "UTC"
-        },
         {
           "id": "fe12a18a0c26ad8a1c0e7f5b",
           "title": "Best of DAZN",
@@ -31404,18 +31236,6 @@
       "region": "PT",
       "canonicalChannelId": "",
       "programmes": [
-        {
-          "id": "78432bf089b191a364f7ea5e",
-          "title": "DTM - Hockenheimring - Corrida 2",
-          "description": "Toda a ação da categoria de corrida de carros de turismo baseada na Alemanha.",
-          "start": "2026-11-14T16:00:00.000Z",
-          "end": "2026-11-14T18:20:00.000Z",
-          "startEpochSeconds": 1794672000,
-          "endEpochSeconds": 1794680400,
-          "source": "dazn",
-          "sourceChannelId": "PT:1xi1dh83i1tl018kl25a3phsr2",
-          "sourceTimezone": "UTC"
-        },
         {
           "id": "9ce58f111c66cbff0c36f681",
           "title": "Fórmula 4 Espanhola - Etapa de Montmelo - Corrida 2",
@@ -34376,18 +34196,6 @@
       "region": "PT",
       "canonicalChannelId": "",
       "programmes": [
-        {
-          "id": "6c5ff5a9fc90d6b5fc90b231",
-          "title": "NHL Game Highlights",
-          "description": "Big goals, big hits, big moments! See all the best action from last night's NHL games.",
-          "start": "2026-11-14T17:00:00.000Z",
-          "end": "2026-11-14T18:00:00.000Z",
-          "startEpochSeconds": 1794675600,
-          "endEpochSeconds": 1794679200,
-          "source": "dazn",
-          "sourceChannelId": "PT:1imsf8jlq38wx17kzban3zmuh1",
-          "sourceTimezone": "UTC"
-        },
         {
           "id": "8b5570507c031a840952366a",
           "title": "Games of the Year - Hurricanes vs Panthers",

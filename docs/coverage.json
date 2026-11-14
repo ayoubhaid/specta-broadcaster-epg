@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-14T17:57:43.000Z",
+  "generatedAt": "2026-11-14T18:25:27.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-14T15:57:43.000Z",
-    "to": "2026-11-16T09:57:43.000Z",
+    "from": "2026-11-14T16:25:27.000Z",
+    "to": "2026-11-16T10:25:27.000Z",
     "maxPerChannel": 80
   },
   "totals": {
     "channels": 203,
-    "programmes": 7672
+    "programmes": 7581
   },
   "providers": [
     {
@@ -106,9 +106,9 @@
       "providerName": "DAZN",
       "file": "data/review/dazn_unclassified.json",
       "channels": 61,
-      "programmes": 2885,
+      "programmes": 2869,
       "publishedChannels": 11,
-      "publishedProgrammes": 519,
+      "publishedProgrammes": 516,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -124,9 +124,9 @@
       "providerName": "elCinema Arabic TV Guide",
       "file": "data/review/elcinema_ar_unclassified.json",
       "channels": 101,
-      "programmes": 2834,
+      "programmes": 2797,
       "publishedChannels": 22,
-      "publishedProgrammes": 633,
+      "publishedProgrammes": 625,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -142,9 +142,9 @@
       "providerName": "Golf Channel US",
       "file": "data/review/golfchannel_us_unclassified.json",
       "channels": 1,
-      "programmes": 19,
+      "programmes": 17,
       "publishedChannels": 1,
-      "publishedProgrammes": 19,
+      "publishedProgrammes": 17,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -178,9 +178,9 @@
       "providerName": "Sky Sports UK",
       "file": "data/review/sky_uk_unclassified.json",
       "channels": 21,
-      "programmes": 2804,
+      "programmes": 2803,
       "publishedChannels": 21,
-      "publishedProgrammes": 2804,
+      "publishedProgrammes": 2803,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
