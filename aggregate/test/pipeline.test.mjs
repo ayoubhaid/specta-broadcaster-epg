@@ -50,57 +50,6 @@ test("a mapped channel publishes; unmapped ones are held", () => {
   assert.equal(report.rejected.title, 1);
 });
 
-test("the registry resolver publishes without any mapping row", () => {
-  const calls = [];
-  const { channels, report } = buildFeed({
-    feeds: [demoFeed()],
-    mapping: new Map(),
-    now: NOW,
-    options: {
-      resolve: (feed, channel) => {
-        calls.push(`${feed.provider}:${channel.id}`);
-        return channel.id === "ch1" ? { id: "demo.one", method: "registry" } : { reason: "unknown", candidates: [] };
-      },
-    },
-  });
-  assert.deepEqual(calls, ["demo:ch1", "demo:ch2"]);
-  assert.equal(channels.length, 1);
-  assert.equal(channels[0].id, "demo.one");
-  assert.equal(report.providers[0].autoResolved, 1);
-  assert.equal(report.resolved[0].method, "registry");
-  assert.equal(report.held.unresolved[0].reason, "unknown");
-});
-
-test("a manual mapping row wins over the resolver", () => {
-  const asked = [];
-  const feed = { provider: "demo", channels: [demoFeed().channels[0]] };
-  const { channels } = buildFeed({
-    feeds: [feed],
-    mapping: mappingFor(["demo:ch1", "manual.one", "permanent_linear"]),
-    now: NOW,
-    options: {
-      resolve: (_, channel) => {
-        asked.push(channel.id);
-        return { id: "registry.one", method: "registry" };
-      },
-    },
-  });
-  assert.deepEqual(asked, [], "the resolver is not consulted for a manually mapped channel");
-  assert.equal(channels[0].id, "manual.one");
-});
-
-test("an ambiguous registry match is reported with its candidates", () => {
-  const { channels, report } = buildFeed({
-    feeds: [demoFeed()],
-    mapping: new Map(),
-    now: NOW,
-    options: { resolve: () => ({ reason: "ambiguous", candidates: ["a.qa", "b.tr"] }) },
-  });
-  assert.equal(channels.length, 0);
-  assert.equal(report.held.unresolved.length, 2);
-  assert.deepEqual(report.held.unresolved[0].candidates, ["a.qa", "b.tr"]);
-});
-
 test("temporary event channels are held back even when mapped", () => {
   const { channels, report } = buildFeed({
     feeds: [demoFeed()],
@@ -208,37 +157,6 @@ test("matching channels from different providers merge programmes under one cano
   assert.equal(report.providers[1].publishedChannels, 1);
 });
 
-test("trusted upstream country IDs publish only when the suffix matches the feed market", () => {
-  const valid = {
-    provider: "market_uk_ontvtonight",
-    region: "GB",
-    channels: [{
-      id: "BBCOne.uk",
-      canonicalChannelId: "BBCOne.uk",
-      name: "BBC One",
-      programmes: [{ title: "News", startEpochSeconds: NOW, endEpochSeconds: NOW + 1800 }]
-    }]
-  };
-  const invalid = {
-    provider: "market_uk_ontvtonight",
-    region: "GB",
-    channels: [{
-      id: "France2.fr",
-      canonicalChannelId: "France2.fr",
-      name: "France 2",
-      programmes: [{ title: "News", startEpochSeconds: NOW, endEpochSeconds: NOW + 1800 }]
-    }]
-  };
-  const { channels, report } = buildFeed({
-    feeds: [valid, invalid],
-    mapping: new Map(),
-    now: NOW
-  });
-  assert.deepEqual(channels.map(channel => channel.id), ["BBCOne.uk"]);
-  assert.equal(report.resolved[0].method, "upstream-id");
-  assert.equal(report.held.unresolved.length, 1);
-});
-
 test("near-identical schedules from different providers are deduplicated within two minutes", () => {
   const first = {
     provider: "provider_a",
@@ -264,4 +182,16 @@ test("near-identical schedules from different providers are deduplicated within 
   assert.equal(channels.length, 1);
   assert.equal(channels[0].programmes.length, 1);
   assert.equal(channels[0].programmes[0].start, NOW);
+});
+
+
+test("playlist aliases are retained on the canonical Specta channel", () => {
+  const mapping = new Map([["demo:ch1", {
+    canonicalChannelId: "specta.demo.channel-one",
+    channelClass: "permanent_linear",
+    playlistAliases: ["legacy.channel.one", "playlist.channel.one"]
+  }]]);
+  const { channels } = buildFeed({ feeds: [demoFeed()], mapping, now: NOW });
+  assert.equal(channels[0].id, "specta.demo.channel-one");
+  assert.deepEqual(channels[0].aliases, ["legacy.channel.one", "playlist.channel.one"]);
 });

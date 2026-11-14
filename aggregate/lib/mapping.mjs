@@ -1,7 +1,7 @@
 /**
  * The reviewed bridge between a broadcaster's own channel IDs and the playlist's tvg-ids.
  *
- * A row with a canonical id overrides the automatic iptv-org resolution in lib/registry.mjs.
+ * A row with a Specta ID is the only authority for publishing a source channel.
  * The file is optional: the build resolves identity by name when no row exists.
  */
 
@@ -86,6 +86,7 @@ export async function loadMapping(file) {
       canonicalChannelId: read(values, "canonical_channel_id"),
       channelClass: read(values, "channel_class"),
       status: read(values, "status"),
+      playlistAliases: read(values, "playlist_aliases").split("|").map(value => value.trim()).filter(Boolean),
     });
   }
   return rows;

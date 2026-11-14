@@ -15,33 +15,7 @@ export const DEFAULT_OPTIONS = {
   maxDurationSeconds: 12 * 3600,
   descriptionMax: 400,
   allowUnmapped: false,
-  resolve: null,
 };
-
-const MARKET_SUFFIXES = {
-  US: [".us"],
-  GB: [".uk", ".gb"],
-  IE: [".ie"],
-  AU: [".au"],
-  CA: [".ca"],
-  ZA: [".za"],
-  NG: [".ng"],
-  GH: [".gh"],
-  KE: [".ke"],
-  UG: [".ug"],
-  ZM: [".zm"],
-  ZW: [".zw"],
-  BW: [".bw"],
-  NA: [".na"],
-};
-
-function trustedUpstreamId(feed, channel) {
-  if (!(feed.provider?.startsWith("usa_") || feed.provider?.startsWith("market_"))) return "";
-  const id = String(channel.canonicalChannelId ?? "");
-  if (!id || id !== channel.id) return "";
-  const suffixes = MARKET_SUFFIXES[String(feed.region ?? "").toUpperCase()] ?? [];
-  return suffixes.some(suffix => id.toLowerCase().endsWith(suffix)) ? id : "";
-}
 
 export function buildFeed({ feeds, mapping, now, options = {} }) {
   const config = { ...DEFAULT_OPTIONS, ...options };
@@ -100,34 +74,11 @@ export function buildFeed({ feeds, mapping, now, options = {} }) {
         }
 
         let publishId = row?.canonicalChannelId ?? "";
-        let method = publishId ? "manual" : "";
-
-        if (!publishId) {
-          publishId = trustedUpstreamId(feed, channel);
-          if (publishId) method = "upstream-id";
-        }
+        let method = publishId ? "specta-registry" : "";
 
         if (!publishId && config.allowUnmapped) {
           publishId = key;
           method = "diagnostic";
-        }
-
-        if (!publishId && config.resolve) {
-          const result = config.resolve(feed, channel);
-          if (result?.id) {
-            publishId = result.id;
-            method = result.method ?? "registry";
-            stat.autoResolved++;
-          } else {
-            report.held.unresolved.push({
-              key,
-              provider: feed.provider,
-              name: channel.name,
-              reason: result?.reason ?? "unknown",
-              candidates: result?.candidates ?? [],
-            });
-            continue;
-          }
         }
 
         if (!publishId) {
@@ -156,8 +107,12 @@ export function buildFeed({ feeds, mapping, now, options = {} }) {
 
         let target = channels.get(canonicalKey);
         if (!target) {
-          target = { id: publishId, name: channel.name, programmes: [] };
+          target = { id: publishId, name: channel.name, aliases: [...(row?.playlistAliases ?? [])], programmes: [] };
           channels.set(canonicalKey, target);
+        } else {
+          for (const alias of row?.playlistAliases ?? []) {
+            if (!target.aliases.includes(alias)) target.aliases.push(alias);
+          }
         }
 
         stat.publishedChannels++;

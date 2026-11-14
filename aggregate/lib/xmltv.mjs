@@ -43,14 +43,19 @@ export function xmltvTime(seconds) {
 }
 
 export function toXmltv(channels) {
-  const lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<tv generator-info-name="specta-broadcaster-epg">'];
+  const lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<tv generator-info-name="specta-epg">'];
+  const outputs = [];
   for (const channel of channels) {
-    lines.push(`  <channel id="${xmlEscape(channel.id)}"><display-name>${xmlEscape(channel.name)}</display-name></channel>`);
+    const ids = [...new Set([channel.id, ...(channel.aliases ?? [])].filter(Boolean))];
+    for (const id of ids) {
+      outputs.push({ ...channel, outputId: id });
+      lines.push(`  <channel id="${xmlEscape(id)}"><display-name>${xmlEscape(channel.name)}</display-name></channel>`);
+    }
   }
-  for (const channel of channels) {
+  for (const channel of outputs) {
     for (const programme of channel.programmes) {
       lines.push(
-        `  <programme start="${xmltvTime(programme.start)}" stop="${xmltvTime(programme.stop)}" channel="${xmlEscape(channel.id)}">`
+        `  <programme start="${xmltvTime(programme.start)}" stop="${xmltvTime(programme.stop)}" channel="${xmlEscape(channel.outputId)}">`
       );
       lines.push(`    <title>${xmlEscape(programme.title)}</title>`);
       if (programme.description) lines.push(`    <desc>${xmlEscape(programme.description)}</desc>`);

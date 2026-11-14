@@ -1,4 +1,4 @@
-name: Validate provider feeds
+name: Validate Specta EPG
 
 on:
   push:
@@ -18,26 +18,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Check beIN scraper syntax
+      - name: Check JavaScript adapters and aggregation
+        run: npm run check
+      - name: Check beIN scraper
         working-directory: providers/bein_mena
         run: npm run check
-      - name: Check SNRT scraper syntax
-        run: node --check providers/snrt_ma/scraper.mjs
-      - name: Check USA scraper syntax
-        run: node --check providers/usa/scraper.mjs
-      - name: Check market scraper syntax
-        run: node --check providers/markets/scraper.mjs
-      - name: Check aggregation pipeline syntax
-        run: node --check aggregate/build.mjs && node --check aggregate/lib/pipeline.mjs && node --check aggregate/lib/merge.mjs
-      - name: Test JavaScript broadcaster adapters
-        run: node --test providers/sky/test_scraper.mjs providers/canalplus_fr/test_scraper.mjs providers/snrt_ma/test_scraper.mjs providers/usa/test_scraper.mjs providers/markets/test_scraper.mjs
+      - name: Test JavaScript adapters and aggregation
+        run: npm test
       - name: Test SuperSport adapter
         run: python -m unittest discover -s providers/supersport -p 'test_*.py'
-      - name: Test aggregation pipeline
-        run: node --test aggregate/test/schedule.test.mjs aggregate/test/mapping.test.mjs aggregate/test/registry.test.mjs aggregate/test/pipeline.test.mjs aggregate/test/xmltv.test.mjs
       - name: Build feed into a scratch directory
-        run: node aggregate/build.mjs --out=tmp/epg.xml --report=tmp/coverage.json
-      - name: Validate committed provider feeds
+        run: node aggregate/build.mjs --out=tmp/epg.xml --report=tmp/coverage.json --require
+      - name: Validate committed source feeds
         run: |
-          node -e "for (const p of ['data/source-feeds/bein_mena.json','data/review/supersport_unclassified.json','data/review/sky_uk_unclassified.json','data/review/canalplus_fr_unclassified.json']) { const d=require('./'+p); if(d.schemaVersion!==1) throw Error(p+' schemaVersion'); const n=d.channels.reduce((s,c)=>s+c.programmes.length,0); if(n!==d.coverage.programmesFound) throw Error(p+' coverage count'); for(const c of d.channels) for(const x of c.programmes) if(Date.parse(x.start)>=Date.parse(x.end)) throw Error(p+' invalid time range in '+c.id); console.log(p+': '+d.channels.length+' channels, '+n+' programmes') }"
-
+          node --input-type=module -e "import {readFile} from 'node:fs/promises'; for (const p of ['data/source-feeds/bein_mena.json','data/source-feeds/snrt_ma.json','data/review/supersport_unclassified.json','data/review/sky_uk_unclassified.json','data/review/canalplus_fr_unclassified.json']) { const d=JSON.parse(await readFile(p,'utf8')); if(d.schemaVersion!==1) throw Error(p+' schemaVersion'); const n=d.channels.reduce((s,c)=>s+c.programmes.length,0); if(n!==d.coverage.programmesFound) throw Error(p+' coverage count'); for(const c of d.channels) for(const x of c.programmes) if(Date.parse(x.start)>=Date.parse(x.end)) throw Error(p+' invalid time range in '+c.id); console.log(p+': '+d.channels.length+' channels, '+n+' programmes') }"
