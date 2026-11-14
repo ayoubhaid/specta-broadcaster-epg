@@ -26,3 +26,8 @@ infer playlist identity from channel names.
 Times are converted from XMLTV offsets to UTC instants. The feed supplies
 programme metadata only; no video, stream URL, account session or
 subscription content is accessed.
+
+
+## First live refresh result
+
+The first successful live refresh returned two radio services (BBC Radio 5 Sports Xtra and talkSPORT) with 85 programme rows. This confirms the fetcher and XMLTV parser work, but it does not add TV-channel coverage for Specta. Keep these IDs unclassified; do not map them to TV channels. Reassess if the source later exposes relevant linear TV sports channels or if Specta adds radio support.
