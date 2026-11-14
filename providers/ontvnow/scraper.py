@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch the public onTVnow UK sports XMLTV feed and normalize it for Specta."""
+"""Fetch the public onTVnow UK XMLTV listings feed and normalize it for Specta."""
 from __future__ import annotations
 import argparse, hashlib, json, os, sys, tempfile, urllib.error, urllib.request
 import xml.etree.ElementTree as ET
@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Any
 
 SOURCE = "ontvnow_uk"
-SOURCE_URL = "https://ontvnow.co.uk/api/v1/listings.xml?group=sport"
+SOURCE_URL = "https://ontvnow.co.uk/api/v1/listings.xml"
 USER_AGENT = "SpectaEPG/1.0 (+https://github.com/ayoubhaid/specta-broadcaster-epg)"
 MAX_BYTES = 50 * 1024 * 1024
 
@@ -82,7 +82,7 @@ def parse_xmltv(xml_data: bytes, fetched_at: str | None = None, source_url: str 
         })
     total = sum(len(channel["programmes"]) for channel in channels)
     return {
-        "schemaVersion": 1, "provider": SOURCE, "providerName": "onTVnow UK Sports Listings",
+        "schemaVersion": 1, "provider": SOURCE, "providerName": "onTVnow UK Listings",
         "sourceUrl": source_url, "region": "GB", "timezone": "UTC",
         "generatedAt": fetched_at or datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "coverage": {"daysRequested": 7, "channelsFound": len(channels), "programmesFound": total,
