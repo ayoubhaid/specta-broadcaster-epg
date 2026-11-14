@@ -18,31 +18,6 @@ export const DEFAULT_OPTIONS = {
   resolve: null,
 };
 
-const MARKET_SUFFIXES = {
-  US: [".us"],
-  GB: [".uk", ".gb"],
-  IE: [".ie"],
-  AU: [".au"],
-  CA: [".ca"],
-  ZA: [".za"],
-  NG: [".ng"],
-  GH: [".gh"],
-  KE: [".ke"],
-  UG: [".ug"],
-  ZM: [".zm"],
-  ZW: [".zw"],
-  BW: [".bw"],
-  NA: [".na"],
-};
-
-function trustedUpstreamId(feed, channel) {
-  if (!(feed.provider?.startsWith("usa_") || feed.provider?.startsWith("market_"))) return "";
-  const id = String(channel.canonicalChannelId ?? "");
-  if (!id || id !== channel.id) return "";
-  const suffixes = MARKET_SUFFIXES[String(feed.region ?? "").toUpperCase()] ?? [];
-  return suffixes.some(suffix => id.toLowerCase().endsWith(suffix)) ? id : "";
-}
-
 export function buildFeed({ feeds, mapping, now, options = {} }) {
   const config = { ...DEFAULT_OPTIONS, ...options };
   const window = {
@@ -102,11 +77,6 @@ export function buildFeed({ feeds, mapping, now, options = {} }) {
         let publishId = row?.canonicalChannelId ?? "";
         let method = publishId ? "manual" : "";
 
-        if (!publishId) {
-          publishId = trustedUpstreamId(feed, channel);
-          if (publishId) method = "upstream-id";
-        }
-
         if (!publishId && config.allowUnmapped) {
           publishId = key;
           method = "diagnostic";
@@ -156,8 +126,12 @@ export function buildFeed({ feeds, mapping, now, options = {} }) {
 
         let target = channels.get(canonicalKey);
         if (!target) {
-          target = { id: publishId, name: channel.name, programmes: [] };
+          target = { id: publishId, name: channel.name, aliases: [...(row?.playlistAliases ?? [])], programmes: [] };
           channels.set(canonicalKey, target);
+        } else {
+          for (const alias of row?.playlistAliases ?? []) {
+            if (!target.aliases.includes(alias)) target.aliases.push(alias);
+          }
         }
 
         stat.publishedChannels++;
