@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-13T19:40:44.000Z",
+  "generatedAt": "2026-11-14T02:09:56.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-13T17:40:44.000Z",
-    "to": "2026-11-15T11:40:44.000Z",
+    "from": "2026-11-14T00:09:56.000Z",
+    "to": "2026-11-15T18:09:56.000Z",
     "maxPerChannel": 80
   },
   "totals": {
-    "channels": 66,
-    "programmes": 2280
+    "channels": 57,
+    "programmes": 2022
   },
   "providers": [
     {
@@ -16,16 +16,52 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2563,
+      "programmes": 2456,
       "publishedChannels": 30,
-      "publishedProgrammes": 1705,
-      "autoResolved": 30,
+      "publishedProgrammes": 1604,
+      "autoResolved": 0,
       "rejected": {
         "row": 0,
         "title": 0,
         "time": 0,
         "range": 0,
         "duration": 1
+      },
+      "error": null
+    },
+    {
+      "provider": "canalplus_fr",
+      "providerName": "CANAL+ France",
+      "file": "data/review/canalplus_fr_unclassified.json",
+      "channels": 8,
+      "programmes": 207,
+      "publishedChannels": 6,
+      "publishedProgrammes": 205,
+      "autoResolved": 0,
+      "rejected": {
+        "row": 0,
+        "title": 0,
+        "time": 0,
+        "range": 0,
+        "duration": 0
+      },
+      "error": null
+    },
+    {
+      "provider": "sky_uk",
+      "providerName": "Sky Sports UK",
+      "file": "data/review/sky_uk_unclassified.json",
+      "channels": 4,
+      "programmes": 571,
+      "publishedChannels": 4,
+      "publishedProgrammes": 571,
+      "autoResolved": 0,
+      "rejected": {
+        "row": 0,
+        "title": 0,
+        "time": 0,
+        "range": 0,
+        "duration": 0
       },
       "error": null
     },
@@ -48,50 +84,14 @@
       "error": null
     },
     {
-      "provider": "canalplus_fr",
-      "providerName": "CANAL+ France",
-      "file": "data/review/canalplus_fr_unclassified.json",
-      "channels": 8,
-      "programmes": 207,
-      "publishedChannels": 6,
-      "publishedProgrammes": 205,
-      "autoResolved": 6,
-      "rejected": {
-        "row": 0,
-        "title": 0,
-        "time": 0,
-        "range": 0,
-        "duration": 0
-      },
-      "error": null
-    },
-    {
-      "provider": "sky_uk",
-      "providerName": "Sky Sports UK",
-      "file": "data/review/sky_uk_unclassified.json",
-      "channels": 4,
-      "programmes": 558,
-      "publishedChannels": 4,
-      "publishedProgrammes": 558,
-      "autoResolved": 4,
-      "rejected": {
-        "row": 0,
-        "title": 0,
-        "time": 0,
-        "range": 0,
-        "duration": 0
-      },
-      "error": null
-    },
-    {
       "provider": "supersport",
       "providerName": "SuperSport",
       "file": "data/review/supersport_unclassified.json",
       "channels": 62,
-      "programmes": 7790,
-      "publishedChannels": 26,
-      "publishedProgrammes": 2946,
-      "autoResolved": 26,
+      "programmes": 7693,
+      "publishedChannels": 17,
+      "publishedProgrammes": 2479,
+      "autoResolved": 0,
       "rejected": {
         "row": 0,
         "title": 0,
@@ -104,442 +104,452 @@
   ],
   "resolved": [
     {
-      "key": "snrt_ma:1208",
-      "name": "Al Aoula",
-      "id": "AlAoula.ma@SD",
-      "method": "manual"
-    },
-    {
-      "key": "snrt_ma:4072",
-      "name": "Al Maghribia",
-      "id": "AlMaghribia.ma@SD",
-      "method": "manual"
-    },
-    {
-      "key": "snrt_ma:4070",
-      "name": "Arryadia",
-      "id": "Arryadia.ma@HD",
-      "method": "manual"
-    },
-    {
-      "key": "snrt_ma:4073",
-      "name": "Assadissa",
-      "id": "Assadissa.ma@SD",
-      "method": "manual"
-    },
-    {
-      "key": "snrt_ma:4071",
-      "name": "Athaqafia",
-      "id": "Athaqafia.ma@SD",
-      "method": "manual"
-    },
-    {
       "key": "bein_mena:67dd49e9-e3a2-4b3a-94b8-88c620a4dfb1",
       "name": "beIN 4K",
-      "id": "beIN4K.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-4k",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:84f7e0c1-d47a-4444-bba8-c50bb8d2c5a8",
       "name": "beIN SPORTS",
-      "id": "beINSports.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:7836fea9-6b39-4a1a-8352-dc5fcb97a16c",
       "name": "beIN SPORTS 1",
-      "id": "beINSports1.qa",
-      "method": "registry"
-    },
-    {
-      "key": "bein_mena:fd1dd7dd-1e7b-4aa2-8682-bfa17338e653",
-      "name": "beIN SPORTS 2",
-      "id": "beINSports2.qa",
-      "method": "registry"
-    },
-    {
-      "key": "bein_mena:8aea2426-d451-4ba5-bf48-114a1f04b1a8",
-      "name": "beIN SPORTS 3",
-      "id": "beINSports3.qa",
-      "method": "registry"
-    },
-    {
-      "key": "bein_mena:db9361e8-b3eb-4d6f-9a82-75b5f09e2f92",
-      "name": "beIN SPORTS 4",
-      "id": "beINSports4.qa",
-      "method": "registry"
-    },
-    {
-      "key": "bein_mena:0fdfd504-8b55-493e-843a-1bbb3877842c",
-      "name": "beIN SPORTS 4K HDR",
-      "id": "beINSports4KHDR.qa",
-      "method": "registry"
-    },
-    {
-      "key": "bein_mena:964e6246-ca95-410b-82c4-ea75dd979435",
-      "name": "beIN SPORTS 5",
-      "id": "beINSports5.qa",
-      "method": "registry"
-    },
-    {
-      "key": "bein_mena:e24d9c11-a8b4-4c7f-ad3e-b3364fb6d5a2",
-      "name": "beIN SPORTS 6",
-      "id": "beINSports6.qa",
-      "method": "registry"
-    },
-    {
-      "key": "bein_mena:a892063b-a5d9-4199-95ac-6a214515fa6b",
-      "name": "beIN SPORTS 7",
-      "id": "beINSports7.qa",
-      "method": "registry"
-    },
-    {
-      "key": "bein_mena:0f8d20a4-d46c-4b18-9242-8e7b3e978ff8",
-      "name": "beIN SPORTS 8",
-      "id": "beINSports8.qa",
-      "method": "registry"
-    },
-    {
-      "key": "bein_mena:5c08d9d3-c713-4f1f-947e-87c761428b9b",
-      "name": "beIN SPORTS 9",
-      "id": "beINSports9.qa",
-      "method": "registry"
-    },
-    {
-      "key": "bein_mena:10a2a142-f98c-4706-9fd0-2d3c36045d63",
-      "name": "beIN SPORTS AFC",
-      "id": "beINSportsAFC.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-1",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:0cb3e227-4376-4545-ab64-d6c390f644d8",
       "name": "beIN SPORTS 1 AFC",
-      "id": "beINSportsAFC1.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-1-afc",
+      "method": "specta-registry",
+      "provider": "bein_mena"
+    },
+    {
+      "key": "bein_mena:fd1dd7dd-1e7b-4aa2-8682-bfa17338e653",
+      "name": "beIN SPORTS 2",
+      "id": "specta.bein_mena.bein-sports-2",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:eeb3e4e8-0f9d-4735-943c-aea3e39c87de",
       "name": "beIN SPORTS 2 AFC",
-      "id": "beINSportsAFC2.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-2-afc",
+      "method": "specta-registry",
+      "provider": "bein_mena"
+    },
+    {
+      "key": "bein_mena:8aea2426-d451-4ba5-bf48-114a1f04b1a8",
+      "name": "beIN SPORTS 3",
+      "id": "specta.bein_mena.bein-sports-3",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:a2d36a21-00d5-4001-a443-81cf2c06553f",
       "name": "beIN SPORTS 3 AFC",
-      "id": "beINSportsAFC3.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-3-afc",
+      "method": "specta-registry",
+      "provider": "bein_mena"
+    },
+    {
+      "key": "bein_mena:db9361e8-b3eb-4d6f-9a82-75b5f09e2f92",
+      "name": "beIN SPORTS 4",
+      "id": "specta.bein_mena.bein-sports-4",
+      "method": "specta-registry",
+      "provider": "bein_mena"
+    },
+    {
+      "key": "bein_mena:0fdfd504-8b55-493e-843a-1bbb3877842c",
+      "name": "beIN SPORTS 4K HDR",
+      "id": "specta.bein_mena.bein-sports-4k-hdr",
+      "method": "specta-registry",
+      "provider": "bein_mena"
+    },
+    {
+      "key": "bein_mena:964e6246-ca95-410b-82c4-ea75dd979435",
+      "name": "beIN SPORTS 5",
+      "id": "specta.bein_mena.bein-sports-5",
+      "method": "specta-registry",
+      "provider": "bein_mena"
+    },
+    {
+      "key": "bein_mena:e24d9c11-a8b4-4c7f-ad3e-b3364fb6d5a2",
+      "name": "beIN SPORTS 6",
+      "id": "specta.bein_mena.bein-sports-6",
+      "method": "specta-registry",
+      "provider": "bein_mena"
+    },
+    {
+      "key": "bein_mena:a892063b-a5d9-4199-95ac-6a214515fa6b",
+      "name": "beIN SPORTS 7",
+      "id": "specta.bein_mena.bein-sports-7",
+      "method": "specta-registry",
+      "provider": "bein_mena"
+    },
+    {
+      "key": "bein_mena:0f8d20a4-d46c-4b18-9242-8e7b3e978ff8",
+      "name": "beIN SPORTS 8",
+      "id": "specta.bein_mena.bein-sports-8",
+      "method": "specta-registry",
+      "provider": "bein_mena"
+    },
+    {
+      "key": "bein_mena:5c08d9d3-c713-4f1f-947e-87c761428b9b",
+      "name": "beIN SPORTS 9",
+      "id": "specta.bein_mena.bein-sports-9",
+      "method": "specta-registry",
+      "provider": "bein_mena"
+    },
+    {
+      "key": "bein_mena:10a2a142-f98c-4706-9fd0-2d3c36045d63",
+      "name": "beIN SPORTS AFC",
+      "id": "specta.bein_mena.bein-sports-afc",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:8c1ec4fc-35e6-4866-a75d-37fcfae18839",
       "name": "beIN SPORTS EN 1",
-      "id": "beINSportsEnglish1.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-en-1",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:846c79d6-18f8-4a4d-acfa-2c18dccb6398",
       "name": "beIN SPORTS EN 2",
-      "id": "beINSportsEnglish2.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-en-2",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:93000494-0df8-4107-af0e-1c99d3dbb2ec",
       "name": "beIN SPORTS FR 1",
-      "id": "beINSportsFrench1.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-fr-1",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:9b969275-e59c-4dd1-8fca-8b01eae04909",
       "name": "beIN SPORTS FR 2",
-      "id": "beINSportsFrench2.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-fr-2",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:2fb43094-3598-43c1-a3ba-44bfb40092e0",
       "name": "beIN SPORTS MAX 1",
-      "id": "beINSportsMax1.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-max-1",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:008f0ea9-fcd9-4e8c-849a-913979e7450a",
       "name": "beIN SPORTS MAX 2",
-      "id": "beINSportsMax2.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-max-2",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:7783dc02-4527-4094-9ee3-cda8e093e4eb",
       "name": "beIN SPORTS MAX 3",
-      "id": "beINSportsMax3.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-max-3",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:5b15611a-5f9d-4ef0-89a6-677c9ca2bd5d",
       "name": "beIN SPORTS MAX 4",
-      "id": "beINSportsMax4.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-max-4",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:f7215920-ccf9-4dbb-8b9d-152e232fa549",
       "name": "beIN SPORTS MAX 5",
-      "id": "beINSportsMax5.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-max-5",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:dc04009d-7e18-4d1c-ba7f-7269b8f8d065",
       "name": "beIN SPORTS MAX 6",
-      "id": "beINSportsMax6.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-max-6",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:2f518547-2269-4c07-93d5-2733397472bd",
       "name": "beIN SPORTS NBA",
-      "id": "beINSportsNBA.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-nba",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:7b558284-f996-4123-9584-1e5d01844270",
       "name": "beIN SPORTS NEWS",
-      "id": "beINSportsNews.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-news",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:e3b37fa0-e582-45b2-bb8e-516e1a714ef6",
       "name": "beIN SPORTS XTRA 1",
-      "id": "beINSportsXtra1.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-xtra-1",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "bein_mena:27e67022-b943-4913-9af3-afd3dac9854b",
       "name": "beIN SPORTS XTRA 2",
-      "id": "beINSportsXtra2.qa",
-      "method": "registry"
+      "id": "specta.bein_mena.bein-sports-xtra-2",
+      "method": "specta-registry",
+      "provider": "bein_mena"
     },
     {
       "key": "canalplus_fr:canalplus_fr:canal",
       "name": "CANAL+",
-      "id": "CanalPlus.fr",
-      "method": "registry"
+      "id": "specta.canalplus_fr.canal",
+      "method": "specta-registry",
+      "provider": "canalplus_fr"
     },
     {
       "key": "canalplus_fr:canalplus_fr:france-2",
       "name": "FRANCE 2",
-      "id": "France2.fr",
-      "method": "registry"
+      "id": "specta.canalplus_fr.france-2",
+      "method": "specta-registry",
+      "provider": "canalplus_fr"
     },
     {
       "key": "canalplus_fr:canalplus_fr:france-3",
       "name": "FRANCE 3",
-      "id": "France3.fr",
-      "method": "registry"
+      "id": "specta.canalplus_fr.france-3",
+      "method": "specta-registry",
+      "provider": "canalplus_fr"
     },
     {
       "key": "canalplus_fr:canalplus_fr:france-5",
       "name": "FRANCE 5",
-      "id": "France5.fr",
-      "method": "registry"
-    },
-    {
-      "key": "snrt_ma:4069",
-      "name": "Laayoune TV",
-      "id": "LaayouneTV.ma@SD",
-      "method": "manual"
+      "id": "specta.canalplus_fr.france-5",
+      "method": "specta-registry",
+      "provider": "canalplus_fr"
     },
     {
       "key": "canalplus_fr:canalplus_fr:m6",
       "name": "M6",
-      "id": "M6.fr",
-      "method": "registry"
-    },
-    {
-      "key": "sky_uk:1302",
-      "name": "Sky Sports Cricket",
-      "id": "SkySportsCricket.uk",
-      "method": "registry"
-    },
-    {
-      "key": "sky_uk:1301",
-      "name": "Sky Sports Main Event",
-      "id": "SkySportsMainEvent.uk",
-      "method": "registry"
-    },
-    {
-      "key": "sky_uk:4091",
-      "name": "Sky Sports Mix",
-      "id": "SkySportsMix.uk",
-      "method": "registry"
-    },
-    {
-      "key": "sky_uk:1303",
-      "name": "Sky Sports Premier League",
-      "id": "SkySportsPremierLeague.uk",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:act",
-      "name": "SuperSport Action",
-      "id": "SuperSportAction.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:ssb",
-      "name": "SuperSport Blitz",
-      "id": "SuperSportBlitz.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:cri",
-      "name": "SuperSport Cricket",
-      "id": "SuperSportCricket.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:csn",
-      "name": "SuperSport CSN",
-      "id": "SuperSportCSN.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:ftb",
-      "name": "SuperSport Football",
-      "id": "SuperSportFootball.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:ftps",
-      "name": "SuperSport Football Plus",
-      "id": "SuperSportFootballPlus.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:gol",
-      "name": "SuperSport Golf",
-      "id": "SuperSportGolf.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:gsd",
-      "name": "SuperSport Grandstand",
-      "id": "SuperSportGrandstand.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:lig",
-      "name": "SuperSport LaLiga",
-      "id": "SuperSportLaLiga.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:ssm",
-      "name": "Maximo 1",
-      "id": "SuperSportMaximo1.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:ssm2",
-      "name": "Maximo 2",
-      "id": "SuperSportMaximo2.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:ssme",
-      "name": "Maximo 360",
-      "id": "SuperSportMaximo360.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:msp",
-      "name": "SuperSport Motorsport",
-      "id": "SuperSportMotorsport.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:ott2",
-      "name": "SuperSport OTT Two",
-      "id": "SuperSportOTT2.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:ott3",
-      "name": "SuperSport OTT Three",
-      "id": "SuperSportOTT3.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:ott4",
-      "name": "SuperSport OTT Four",
-      "id": "SuperSportOTT4.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:ott5",
-      "name": "SuperSport OTT Five",
-      "id": "SuperSportOTT5.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:ott6",
-      "name": "SuperSport OTT Six",
-      "id": "SuperSportOTT6.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:ott7",
-      "name": "SuperSport OTT Seven",
-      "id": "SuperSportOTT7.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:ott8",
-      "name": "SuperSport OTT Eight",
-      "id": "SuperSportOTT8.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:ssp1",
-      "name": "SuperSport Play",
-      "id": "SuperSportPlay.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:epl",
-      "name": "SuperSport Premier League",
-      "id": "SuperSportPremierLeague.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:psl",
-      "name": "SuperSport PSL",
-      "id": "SuperSportPSL.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:rug",
-      "name": "SuperSport Rugby",
-      "id": "SuperSportRugby.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:sch",
-      "name": "SuperSport Schools",
-      "id": "SuperSportSchools.za",
-      "method": "registry"
-    },
-    {
-      "key": "supersport:ten",
-      "name": "SuperSport Tennis",
-      "id": "SuperSportTennis.za",
-      "method": "registry"
-    },
-    {
-      "key": "snrt_ma:4075",
-      "name": "Tamazight",
-      "id": "TamazightTV.ma@SD",
-      "method": "manual"
+      "id": "specta.canalplus_fr.m6",
+      "method": "specta-registry",
+      "provider": "canalplus_fr"
     },
     {
       "key": "canalplus_fr:canalplus_fr:tf1",
       "name": "TF1",
-      "id": "TF1.fr",
-      "method": "registry"
+      "id": "specta.canalplus_fr.tf1",
+      "method": "specta-registry",
+      "provider": "canalplus_fr"
+    },
+    {
+      "key": "sky_uk:1302",
+      "name": "Sky Sports Cricket",
+      "id": "specta.sky_uk.sky-sports-cricket",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:1301",
+      "name": "Sky Sports Main Event",
+      "id": "specta.sky_uk.sky-sports-main-event",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:4091",
+      "name": "Sky Sports Mix",
+      "id": "specta.sky_uk.sky-sports-mix",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "sky_uk:1303",
+      "name": "Sky Sports Premier League",
+      "id": "specta.sky_uk.sky-sports-premier-league",
+      "method": "specta-registry",
+      "provider": "sky_uk"
+    },
+    {
+      "key": "snrt_ma:1208",
+      "name": "Al Aoula",
+      "id": "specta.snrt_ma.al-aoula",
+      "method": "specta-registry",
+      "provider": "snrt_ma"
+    },
+    {
+      "key": "snrt_ma:4072",
+      "name": "Al Maghribia",
+      "id": "specta.snrt_ma.al-maghribia",
+      "method": "specta-registry",
+      "provider": "snrt_ma"
+    },
+    {
+      "key": "snrt_ma:4070",
+      "name": "Arryadia",
+      "id": "specta.snrt_ma.arryadia",
+      "method": "specta-registry",
+      "provider": "snrt_ma"
+    },
+    {
+      "key": "snrt_ma:4073",
+      "name": "Assadissa",
+      "id": "specta.snrt_ma.assadissa",
+      "method": "specta-registry",
+      "provider": "snrt_ma"
+    },
+    {
+      "key": "snrt_ma:4071",
+      "name": "Athaqafia",
+      "id": "specta.snrt_ma.athaqafia",
+      "method": "specta-registry",
+      "provider": "snrt_ma"
+    },
+    {
+      "key": "snrt_ma:4069",
+      "name": "Laayoune TV",
+      "id": "specta.snrt_ma.laayoune-tv",
+      "method": "specta-registry",
+      "provider": "snrt_ma"
+    },
+    {
+      "key": "snrt_ma:4075",
+      "name": "Tamazight",
+      "id": "specta.snrt_ma.tamazight",
+      "method": "specta-registry",
+      "provider": "snrt_ma"
+    },
+    {
+      "key": "supersport:ssm",
+      "name": "Maximo 1",
+      "id": "specta.supersport.maximo-1",
+      "method": "specta-registry",
+      "provider": "supersport"
+    },
+    {
+      "key": "supersport:ssm2",
+      "name": "Maximo 2",
+      "id": "specta.supersport.maximo-2",
+      "method": "specta-registry",
+      "provider": "supersport"
+    },
+    {
+      "key": "supersport:ssme",
+      "name": "Maximo 360",
+      "id": "specta.supersport.maximo-360",
+      "method": "specta-registry",
+      "provider": "supersport"
+    },
+    {
+      "key": "supersport:act",
+      "name": "SuperSport Action",
+      "id": "specta.supersport.supersport-action",
+      "method": "specta-registry",
+      "provider": "supersport"
+    },
+    {
+      "key": "supersport:ssb",
+      "name": "SuperSport Blitz",
+      "id": "specta.supersport.supersport-blitz",
+      "method": "specta-registry",
+      "provider": "supersport"
+    },
+    {
+      "key": "supersport:cri",
+      "name": "SuperSport Cricket",
+      "id": "specta.supersport.supersport-cricket",
+      "method": "specta-registry",
+      "provider": "supersport"
+    },
+    {
+      "key": "supersport:csn",
+      "name": "SuperSport CSN",
+      "id": "specta.supersport.supersport-csn",
+      "method": "specta-registry",
+      "provider": "supersport"
+    },
+    {
+      "key": "supersport:ftb",
+      "name": "SuperSport Football",
+      "id": "specta.supersport.supersport-football",
+      "method": "specta-registry",
+      "provider": "supersport"
+    },
+    {
+      "key": "supersport:ftps",
+      "name": "SuperSport Football Plus",
+      "id": "specta.supersport.supersport-football-plus",
+      "method": "specta-registry",
+      "provider": "supersport"
+    },
+    {
+      "key": "supersport:gol",
+      "name": "SuperSport Golf",
+      "id": "specta.supersport.supersport-golf",
+      "method": "specta-registry",
+      "provider": "supersport"
+    },
+    {
+      "key": "supersport:gsd",
+      "name": "SuperSport Grandstand",
+      "id": "specta.supersport.supersport-grandstand",
+      "method": "specta-registry",
+      "provider": "supersport"
+    },
+    {
+      "key": "supersport:lig",
+      "name": "SuperSport LaLiga",
+      "id": "specta.supersport.supersport-laliga",
+      "method": "specta-registry",
+      "provider": "supersport"
+    },
+    {
+      "key": "supersport:msp",
+      "name": "SuperSport Motorsport",
+      "id": "specta.supersport.supersport-motorsport",
+      "method": "specta-registry",
+      "provider": "supersport"
+    },
+    {
+      "key": "supersport:epl",
+      "name": "SuperSport Premier League",
+      "id": "specta.supersport.supersport-premier-league",
+      "method": "specta-registry",
+      "provider": "supersport"
+    },
+    {
+      "key": "supersport:psl",
+      "name": "SuperSport PSL",
+      "id": "specta.supersport.supersport-psl",
+      "method": "specta-registry",
+      "provider": "supersport"
+    },
+    {
+      "key": "supersport:rug",
+      "name": "SuperSport Rugby",
+      "id": "specta.supersport.supersport-rugby",
+      "method": "specta-registry",
+      "provider": "supersport"
+    },
+    {
+      "key": "supersport:ten",
+      "name": "SuperSport Tennis",
+      "id": "specta.supersport.supersport-tennis",
+      "method": "specta-registry",
+      "provider": "supersport"
     }
   ],
   "held": {
@@ -548,338 +558,399 @@
         "key": "bein_mena:42680c3c-580f-43da-bdd8-02651bd10f32",
         "provider": "bein_mena",
         "name": "beIN SPORTS 4 AFC",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "bein_mena:b0dbd19a-9f44-4197-bd09-2b6a5f315f3b",
         "provider": "bein_mena",
         "name": "beIN SPORTS 5 AFC",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "bein_mena:9abd32f9-c6d9-4dd5-b936-2c7e6546292e",
         "provider": "bein_mena",
         "name": "beIN SPORTS XTRA 6",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "bein_mena:522050ce-ebd3-43ea-b636-42b034fdc05c",
         "provider": "bein_mena",
         "name": "beIN SPORTS XTRA 9",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "bein_mena:1752f091-a114-4629-bed4-46e0bb488a24",
         "provider": "bein_mena",
         "name": "beIN SPORTS XTRA 7",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "bein_mena:2bf668df-1b76-4199-88ce-8691fd86ad8c",
         "provider": "bein_mena",
         "name": "beIN SPORTS 6 AFC",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "bein_mena:7a8040d9-7baf-477e-b9f7-8bab88f677e8",
         "provider": "bein_mena",
         "name": "beIN SPORTS XTRA 4",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "bein_mena:cd634732-20d1-4137-94e7-939de93d056d",
         "provider": "bein_mena",
         "name": "beIN SPORTS XTRA 8",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "bein_mena:51d28c47-7b79-4007-81a3-bfdf9bc65a3b",
         "provider": "bein_mena",
         "name": "beIN SPORTS XTRA 5",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "bein_mena:cdf1a4c8-26dd-4c33-a239-f729a3b09295",
         "provider": "bein_mena",
         "name": "beIN SPORTS XTRA 3",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "canalplus_fr:canalplus_fr:la-pente-glissante-sur-france-3",
         "provider": "canalplus_fr",
         "name": "la pente glissante, Sur FRANCE 3",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "canalplus_fr:canalplus_fr:terre-saison-1-episode-4-les-metamorphoses-de-sur-france-5",
         "provider": "canalplus_fr",
         "name": "Terre - Saison 1, Episode 4 : Les métamorphoses de..., Sur FRANCE 5",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "supersport:acta",
         "provider": "supersport",
         "name": "SuperSport Action Africa",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "supersport:afr2",
         "provider": "supersport",
         "name": "SuperSport Africa 2",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "supersport:blta",
         "provider": "supersport",
         "name": "SuperSport Blitz Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:epla",
-        "provider": "supersport",
-        "name": "SuperSport Premier League Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:epln",
-        "provider": "supersport",
-        "name": "SuperSport Premier League Nigeria",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:evsa",
-        "provider": "supersport",
-        "name": "SuperSport Events SA",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:ftba",
-        "provider": "supersport",
-        "name": "SuperSport Football Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:ftpa",
-        "provider": "supersport",
-        "name": "SuperSport Football Plus Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:ftpc",
-        "provider": "supersport",
-        "name": "Football Plus Canal+",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:ftpn",
-        "provider": "supersport",
-        "name": "SuperSport Football Plus Nigeria",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:gaf2",
-        "provider": "supersport",
-        "name": "SuperSport GOtv Africa 2",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:gepl",
-        "provider": "supersport",
-        "name": "SuperSport GOtv Premier League",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:gftb",
-        "provider": "supersport",
-        "name": "SuperSport GOtv Football",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:gftp",
-        "provider": "supersport",
-        "name": "SuperSport GOtv Football Plus",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:glig",
-        "provider": "supersport",
-        "name": "SuperSport GOtv LaLiga",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:gola",
-        "provider": "supersport",
-        "name": "SuperSport Golf Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:gsda",
-        "provider": "supersport",
-        "name": "SuperSport Grandstand Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:liga",
-        "provider": "supersport",
-        "name": "SuperSport LaLiga Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:lign",
-        "provider": "supersport",
-        "name": "SuperSport LaLiga Nigeria",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:mspa",
-        "provider": "supersport",
-        "name": "SuperSport Motorsport Africa",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:ssm3",
-        "provider": "supersport",
-        "name": "Maximo 3",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:sswa",
-        "provider": "supersport",
-        "name": "SuperSport Swahili",
-        "reason": "unknown",
-        "candidates": []
-      },
-      {
-        "key": "supersport:tena",
-        "provider": "supersport",
-        "name": "SuperSport Tennis Africa",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "supersport:cria",
         "provider": "supersport",
         "name": "SuperSport Cricket Africa",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "supersport:afr1",
+        "key": "supersport:epla",
         "provider": "supersport",
-        "name": "SuperSport Africa ROA",
-        "reason": "unknown",
+        "name": "SuperSport Premier League Africa",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:epln",
+        "provider": "supersport",
+        "name": "SuperSport Premier League Nigeria",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:evsa",
+        "provider": "supersport",
+        "name": "SuperSport Events SA",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "supersport:extr",
         "provider": "supersport",
         "name": "SuperSport Extra",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "supersport:ruga",
+        "key": "supersport:ftba",
         "provider": "supersport",
-        "name": "SuperSport Rugby Africa",
-        "reason": "unknown",
+        "name": "SuperSport Football Africa",
+        "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "supersport:afrsa",
+        "key": "supersport:ftpa",
         "provider": "supersport",
-        "name": "SuperSport Africa SA",
-        "reason": "unknown",
+        "name": "SuperSport Football Plus Africa",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ftpc",
+        "provider": "supersport",
+        "name": "Football Plus Canal+",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ftpn",
+        "provider": "supersport",
+        "name": "SuperSport Football Plus Nigeria",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:gaf2",
+        "provider": "supersport",
+        "name": "SuperSport GOtv Africa 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:gepl",
+        "provider": "supersport",
+        "name": "SuperSport GOtv Premier League",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:gftb",
+        "provider": "supersport",
+        "name": "SuperSport GOtv Football",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:gftp",
+        "provider": "supersport",
+        "name": "SuperSport GOtv Football Plus",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:glig",
+        "provider": "supersport",
+        "name": "SuperSport GOtv LaLiga",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "supersport:goko",
         "provider": "supersport",
         "name": "SuperSport GOtv Kickoff",
-        "reason": "unknown",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:gola",
+        "provider": "supersport",
+        "name": "SuperSport Golf Africa",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "supersport:koa",
         "provider": "supersport",
         "name": "SuperSport Kickoff Africa",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "supersport:kosa",
         "provider": "supersport",
         "name": "SuperSport Kickoff SA",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "supersport:extr2",
+        "key": "supersport:liga",
         "provider": "supersport",
-        "name": "SuperSport Extra 2",
-        "reason": "unknown",
+        "name": "SuperSport LaLiga Africa",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:lign",
+        "provider": "supersport",
+        "name": "SuperSport LaLiga Nigeria",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:mspa",
+        "provider": "supersport",
+        "name": "SuperSport Motorsport Africa",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ott2",
+        "provider": "supersport",
+        "name": "SuperSport OTT Two",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ott3",
+        "provider": "supersport",
+        "name": "SuperSport OTT Three",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ott4",
+        "provider": "supersport",
+        "name": "SuperSport OTT Four",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ott5",
+        "provider": "supersport",
+        "name": "SuperSport OTT Five",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ott6",
+        "provider": "supersport",
+        "name": "SuperSport OTT Six",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ott7",
+        "provider": "supersport",
+        "name": "SuperSport OTT Seven",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ott8",
+        "provider": "supersport",
+        "name": "SuperSport OTT Eight",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ssm3",
+        "provider": "supersport",
+        "name": "Maximo 3",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ssp1",
+        "provider": "supersport",
+        "name": "SuperSport Play",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:sswa",
+        "provider": "supersport",
+        "name": "SuperSport Swahili",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:tena",
+        "provider": "supersport",
+        "name": "SuperSport Tennis Africa",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:gsda",
+        "provider": "supersport",
+        "name": "SuperSport Grandstand Africa",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ruga",
+        "provider": "supersport",
+        "name": "SuperSport Rugby Africa",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "supersport:wwe",
         "provider": "supersport",
         "name": "WWE Channel",
-        "reason": "unknown",
-        "candidates": [
-          "WWEChannel.au (AU)"
-        ]
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:afrsa",
+        "provider": "supersport",
+        "name": "SuperSport Africa SA",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:sch",
+        "provider": "supersport",
+        "name": "SuperSport Schools",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:afr1",
+        "provider": "supersport",
+        "name": "SuperSport Africa ROA",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:extr2",
+        "provider": "supersport",
+        "name": "SuperSport Extra 2",
+        "reason": "unmapped",
+        "candidates": []
       },
       {
         "key": "supersport:sin1",
         "provider": "supersport",
         "name": "SuperSport Internet 1",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "supersport:futs",
         "provider": "supersport",
         "name": "Future SuperSport",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       },
       {
         "key": "supersport:dock",
         "provider": "supersport",
         "name": "DOCKSTAR",
-        "reason": "unknown",
+        "reason": "unmapped",
         "candidates": []
       }
     ],
