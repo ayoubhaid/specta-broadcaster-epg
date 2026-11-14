@@ -7,8 +7,11 @@ The source documents public JSON/XMLTV feeds without an account or token,
 with a seven-day default window, optional filters for terrestrial, entertainment
 and sport groups, and a 60-request-per-minute limit. Specta uses one unfiltered
 XMLTV request per refresh so the review feed can include linear TV channels
-outside the sports group. The feed is normalized to schemaVersion 1
-and written to data/review/ontvnow_uk_unclassified.json.
+outside the sports group.
+
+The adapter writes two outputs:
+- `data/review/ontvnow_uk_summary.json`: compact, committed inventory with source channel IDs, names and per-channel programme counts.
+- `data/review/ontvnow_uk_unclassified.json`: full programme-level review feed, retained as a seven-day GitHub Actions artifact rather than committed to Git history.
 
 ## Run
 
@@ -29,7 +32,6 @@ Times are converted from XMLTV offsets to UTC instants. The feed supplies
 programme metadata only; no video, stream URL, account session or
 subscription content is accessed.
 
-
 ## First live refresh result
 
-The earlier sports-only request returned two radio services (BBC Radio 5 Sports Xtra and talkSPORT) with 85 programme rows. The adapter now requests the complete public listings export. Review the refreshed output before mapping: keep radio, temporary/event, ambiguous and non-linear services unclassified. Only verified permanent TV channels may be mapped into Specta.
+The earlier sports-only request returned two radio services (BBC Radio 5 Sports Xtra and talkSPORT) with 85 programme rows. The adapter now requests the complete public listings export. The compact inventory is the durable review surface; the full schedule payload is available as a short-lived workflow artifact. Keep radio, temporary/event, ambiguous and non-linear services unclassified. Only verified permanent TV channels may be mapped into Specta.
