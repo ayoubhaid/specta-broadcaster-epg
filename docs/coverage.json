@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-14T17:29:49.000Z",
+  "generatedAt": "2026-11-14T17:38:12.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-14T15:29:49.000Z",
-    "to": "2026-11-16T09:29:49.000Z",
+    "from": "2026-11-14T15:38:12.000Z",
+    "to": "2026-11-16T09:38:12.000Z",
     "maxPerChannel": 80
   },
   "totals": {
     "channels": 151,
-    "programmes": 6593
+    "programmes": 6595
   },
   "providers": [
     {
