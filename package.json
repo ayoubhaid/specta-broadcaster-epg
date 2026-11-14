@@ -7,11 +7,9 @@
   "scripts": {
     "build": "node aggregate/build.mjs",
     "build:diagnostic": "node aggregate/build.mjs --allow-unmapped",
-    "check": "node --check aggregate/build.mjs && node --check aggregate/lib/pipeline.mjs && node --check aggregate/lib/merge.mjs && node --check providers/snrt_ma/scraper.mjs && node --check providers/usa/scraper.mjs && node --check providers/markets/scraper.mjs",
-    "test": "node --test aggregate/test/schedule.test.mjs aggregate/test/mapping.test.mjs aggregate/test/registry.test.mjs aggregate/test/pipeline.test.mjs aggregate/test/xmltv.test.mjs providers/snrt_ma/test_scraper.mjs providers/usa/test_scraper.mjs providers/markets/test_scraper.mjs",
-    "seed:mapping": "node aggregate/seed-mapping.mjs",
-    "scrape:usa": "node providers/usa/scraper.mjs",
-    "scrape:markets": "node providers/markets/scraper.mjs"
+    "check": "node --check aggregate/build.mjs && node --check aggregate/lib/pipeline.mjs && node --check aggregate/lib/mapping.mjs && node --check aggregate/lib/xmltv.mjs && node --check providers/snrt_ma/scraper.mjs && node --check providers/sky/scraper.mjs && node --check providers/canalplus_fr/scraper.mjs && node --check providers/bein_mena/scraper.mjs",
+    "test": "node --test aggregate/test/schedule.test.mjs aggregate/test/mapping.test.mjs aggregate/test/pipeline.test.mjs aggregate/test/xmltv.test.mjs providers/snrt_ma/test_scraper.mjs providers/sky/test_scraper.mjs providers/canalplus_fr/test_scraper.mjs",
+    "seed:mapping": "node aggregate/seed-mapping.mjs"
   },
   "engines": {
     "node": ">=20"
