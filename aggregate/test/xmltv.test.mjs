@@ -41,3 +41,18 @@ test("the document contains channel, programme, title and description", () => {
   assert.equal((xml.match(/<desc>/g) ?? []).length, 1, "empty descriptions are omitted");
   assert.ok(xml.endsWith("</tv>\n"));
 });
+
+
+test("XMLTV fans out programme rows to reviewed playlist aliases", () => {
+  const xml = toXmltv([{
+    id: "specta.sky_uk.sky-sports-main-event",
+    name: "Sky Sports Main Event",
+    aliases: ["SkySportsMainEvent.uk", "legacy.sky.main"],
+    programmes: [{ title: "Live Sport", description: "", start: 1794139200, stop: 1794139500 }]
+  }]);
+  assert.match(xml, /<channel id="specta\.sky_uk\.sky-sports-main-event">/);
+  assert.match(xml, /<channel id="SkySportsMainEvent\.uk">/);
+  assert.match(xml, /<channel id="legacy\.sky\.main">/);
+  assert.equal((xml.match(/<programme /g) ?? []).length, 3);
+  assert.match(xml, /channel="legacy\.sky\.main"/);
+});
