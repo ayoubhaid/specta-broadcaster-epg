@@ -1,7 +1,7 @@
 /**
  * Appends every provider channel that has no mapping row yet.
- * Existing rows are never modified. A row is only an override: the build resolves identity
- * against the iptv-org registry on its own, so these rows are inert until you fill one in.
+ * Existing rows are never modified. The build publishes only rows with an explicit Specta ID
+ * and a reviewed permanent-linear or approved channel class.
  *
  *   node aggregate/seed-mapping.mjs
  */
@@ -14,7 +14,7 @@ import { inspectFeed } from "./lib/schedule.mjs";
 
 const ROOT = path.resolve(fileURLToPath(new URL("..", import.meta.url)));
 const MAPPING = path.join(ROOT, "data/mapping/channel-map.csv");
-const HEADER = "provider,source_channel_id,source_channel_name,canonical_channel_id,channel_class,territory,status,notes";
+const HEADER = "provider,source_channel_id,source_channel_name,canonical_channel_id,channel_class,territory,status,notes,playlist_aliases";
 
 const feeds = [];
 for (const directory of ["data/source-feeds", "data/review"]) {
@@ -46,6 +46,7 @@ for (const feed of feeds) {
         "unclassified",
         channel.region ?? feed.region ?? "",
         "unreviewed",
+        "",
         "",
       ]
         .map(quoteCsv)
