@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-14T06:19:25.000Z",
+  "generatedAt": "2026-11-14T13:38:40.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-14T04:19:25.000Z",
-    "to": "2026-11-15T22:19:25.000Z",
+    "from": "2026-11-14T11:38:40.000Z",
+    "to": "2026-11-16T05:38:40.000Z",
     "maxPerChannel": 80
   },
   "totals": {
     "channels": 57,
-    "programmes": 2203
+    "programmes": 2191
   },
   "providers": [
     {
@@ -16,9 +16,9 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2492,
+      "programmes": 2581,
       "publishedChannels": 30,
-      "publishedProgrammes": 1640,
+      "publishedProgrammes": 1729,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -106,9 +106,9 @@
       "providerName": "SuperSport",
       "file": "data/review/supersport_unclassified.json",
       "channels": 62,
-      "programmes": 7686,
+      "programmes": 7690,
       "publishedChannels": 17,
-      "publishedProgrammes": 2476,
+      "publishedProgrammes": 2478,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
