@@ -3,7 +3,7 @@
 Scrapes the dated programme grid from SNRT's public channel pages and writes the Specta provider schedule v1 format.
 
 - Official source: https://www.snrt.ma/ar/node/1208
-- Upstream channel IDs and XMLTV identities were cross-checked against the public `iptv-org/epg` SNRT channel list: https://github.com/iptv-org/epg/tree/master/sites/snrt.ma
+- SNRT source node IDs and Specta XMLTV identities are maintained in this repository's own adapter and channel registry.
 - Source timezone: `Africa/Casablanca`; programme instants are normalized to UTC.
 - TV channels included: Al Aoula, Laayoune TV, Arryadia, Athaqafia, Al Maghribia, Assadissa, and Tamazight.
 - Radio services are excluded.
