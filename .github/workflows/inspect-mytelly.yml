@@ -1,0 +1,62 @@
+name: Inspect MyTelly public schedule markup
+
+on:
+  push:
+    paths:
+      - ".github/workflows/inspect-mytelly.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Inspect public Sky guide structure
+        run: |
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from urllib.request import Request, urlopen
+          URL = "https://www.mytelly.co.uk/tv-guide/listings/SkyNight.html"
+          req = Request(URL, headers={"User-Agent": "SpectaEPG/1.0 public schedule research"})
+          html = urlopen(req, timeout=30).read(8_000_000).decode("utf-8", "replace")
+          print("HTML_BYTES", len(html.encode("utf-8")))
+          class Inspector(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.stack, self.anchor, self.anchors, self.matches = [], None, [], []
+              def handle_starttag(self, tag, attrs):
+                  attrs = dict(attrs)
+                  self.stack.append((tag, attrs))
+                  classes, ident = attrs.get("class", ""), attrs.get("id", "")
+                  if any(k in (classes + " " + ident).lower() for k in ("channel", "programme", "program", "schedule", "listing", "grid", "event")):
+                      self.matches.append((tag, ident, classes[:120], attrs.get("data-id"), attrs.get("data-channel"), attrs.get("data-start"), attrs.get("data-end")))
+                  if tag == "a":
+                      self.anchor = {"href": attrs.get("href", ""), "text": "", "parents": [(t, a.get("class","")[:60], a.get("id","")) for t,a in self.stack[-5:-1]]}
+              def handle_data(self, data):
+                  if self.anchor is not None:
+                      self.anchor["text"] += data
+              def handle_endtag(self, tag):
+                  if tag == "a" and self.anchor is not None:
+                      item = self.anchor
+                      item["text"] = " ".join(item["text"].split())
+                      if item["text"] and ("/tv-guide/listings/" in item["href"] or any(x in item["text"].lower() for x in ("sky sports", "tnt sports", "premier sports"))):
+                          self.anchors.append(item)
+                      self.anchor = None
+                  for i in range(len(self.stack)-1, -1, -1):
+                      if self.stack[i][0] == tag:
+                          self.stack = self.stack[:i]
+                          break
+          parser = Inspector()
+          parser.feed(html)
+          print("ANCHORS", len(parser.anchors))
+          for item in parser.anchors[:120]:
+              print("A", item["href"], "|", item["text"][:100], "|", item["parents"])
+          print("STRUCTURE_MATCHES", len(parser.matches))
+          for item in parser.matches[:100]:
+              print("E", item)
+          PY
