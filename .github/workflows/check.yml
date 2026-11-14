@@ -27,6 +27,8 @@ jobs:
         run: npm test
       - name: Test SuperSport adapter
         run: python -m unittest discover -s providers/supersport -p 'test_*.py'
+      - name: Test onTVnow adapter
+        run: python -m unittest discover -s providers/ontvnow -p 'test_*.py'
       - name: Build feed into a scratch directory
         run: node aggregate/build.mjs --out=tmp/epg.xml --report=tmp/coverage.json --require
       - name: Validate committed source feeds

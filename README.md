@@ -9,6 +9,7 @@ Specta owns the complete EPG pipeline: source adapters, raw schedule collection,
 | beIN SPORTS | MENA English guide | `providers/bein_mena/` | Official guide API; dated channel schedules | Explicitly mapped channels |
 | SuperSport | South Africa / regional services | `providers/supersport/` | Official Media Schedules; dated channel programmes | Reviewed permanent channels only |
 | Sky Sports | UK | `providers/sky/` | Dated linear-channel EPG response | Four reviewed linear channels |
+| onTVnow | UK sports listings | `providers/ontvnow/` | Public XMLTV sports-group export, normalized to the shared feed schema | Adapter refreshes an unclassified review feed; exact channel mappings are still required |
 | SNRT | Morocco | `providers/snrt_ma/` | Official SNRT programme grid | Seven reviewed channels |
 | CANAL+ | France | `providers/canalplus_fr/` | Official France programme guide | Reviewed France channels only |
 
@@ -94,4 +95,4 @@ Add that URL in Specta's EPG settings. The XMLTV includes both Specta-owned IDs 
 - Source terms, rate limits, caching and redistribution rights must be checked before a new adapter is automated.
 - No playlist URLs, stream credentials or private provider data belong in this repository.
 
-See `docs/source-catalog.md` for the 15 broadcaster-family source audit and onboarding status. Independent guide adapters are supported by the shared feed contract, but none is enabled until its terms explicitly permit automated collection, caching and redistribution for Specta. The currently reviewed independent guide candidates either restrict those activities or do not yet demonstrate coverage of the target sports channels.
+See `docs/source-catalog.md` for the 15 broadcaster-family source audit and onboarding status. Independent guide adapters are added only when a usable schedule endpoint and an authorized collection path are established. The onTVnow adapter refreshes a seven-day public XMLTV sports feed into the review area; its channel IDs remain unpublished until exact playlist editions are reviewed and mapped. See `providers/ontvnow/README.md`.
