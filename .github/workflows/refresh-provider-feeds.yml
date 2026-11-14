@@ -1,4 +1,4 @@
-name: Refresh provider feeds
+name: Refresh Specta EPG
 
 on:
   push:
@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: refresh-provider-feeds
+  group: refresh-specta-epg
   cancel-in-progress: false
 
 jobs:
@@ -29,43 +29,39 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Refresh beIN MENA
+      - name: Refresh beIN MENA official guide
         working-directory: providers/bein_mena
         env:
           EPG_DAYS: "5"
           REQUEST_DELAY_MS: "500"
           EPG_OUTPUT: "../../data/source-feeds/bein_mena.json"
         run: npm run scrape
-      - name: Refresh SNRT Morocco
+      - name: Refresh SNRT official guide
         env:
           REQUEST_DELAY_MS: "350"
           EPG_OUTPUT: "data/source-feeds/snrt_ma.json"
         run: node providers/snrt_ma/scraper.mjs
-      - name: Refresh SuperSport review feed
+      - name: Refresh SuperSport official schedule
         run: |
           python providers/supersport/scraper.py \
             --date "$(date -u +%F)" \
             --days 5 \
             --output data/review/supersport_unclassified.csv \
             --json-output data/review/supersport_unclassified.json
-      - name: Refresh Sky Sports UK review feed
+      - name: Refresh Sky Sports UK schedule
         run: node providers/sky/scraper.mjs "$(date -u +%F)" 5 data/review/sky_uk_unclassified.json
-      - name: Refresh CANAL+ France review feed
+      - name: Refresh CANAL+ France guide
         run: node providers/canalplus_fr/scraper.mjs data/review/canalplus_fr_unclassified.json
-      - name: Refresh USA XMLTV sources
-        run: npm run scrape:usa -- --days=5
-      - name: Refresh English-market XMLTV sources
-        run: npm run scrape:markets -- --days=5
-      - name: Build app-facing XMLTV feed
-        run: node aggregate/build.mjs
-      - name: Commit changed provider data
+      - name: Build app-facing XMLTV from Specta registry
+        run: node aggregate/build.mjs --require
+      - name: Commit refreshed feeds and reports
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/source-feeds/bein_mena.json data/source-feeds/snrt_ma.json data/review/supersport_unclassified.json data/review/supersport_unclassified.csv data/review/sky_uk_unclassified.json data/review/canalplus_fr_unclassified.json data/review/usa_*.json data/review/market_*_unclassified.json docs
+          git add data/source-feeds/bein_mena.json data/source-feeds/snrt_ma.json data/review/supersport_unclassified.json data/review/supersport_unclassified.csv data/review/sky_uk_unclassified.json data/review/canalplus_fr_unclassified.json docs
           if git diff --staged --quiet; then
             echo "No provider feed changes"
           else
-            git commit -m "Refresh broadcaster EPG feeds"
+            git commit -m "Refresh Specta EPG schedules"
             git push
           fi
