@@ -6,7 +6,7 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "en-us",
   "timezone": "UTC",
-  "generatedAt": "2026-11-16T06:27:54.255Z",
+  "generatedAt": "2026-11-16T22:03:19.564Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 13,
@@ -1825,8 +1825,8 @@
           "source": "bein_us"
         },
         {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795203000000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795203000000:ligue 1 show",
+          "title": "Ligue 1 Show",
           "description": "",
           "start": "2026-11-20T19:30:00.000Z",
           "end": "2026-11-20T20:00:00.000Z",
@@ -1835,8 +1835,8 @@
           "source": "bein_us"
         },
         {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795204800000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795204800000:ligue 1 show",
+          "title": "Ligue 1 Show",
           "description": "",
           "start": "2026-11-20T20:00:00.000Z",
           "end": "2026-11-20T20:30:00.000Z",
@@ -1885,8 +1885,8 @@
           "source": "bein_us"
         },
         {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795217400000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795217400000:ligue 1 show",
+          "title": "Ligue 1 Show",
           "description": "",
           "start": "2026-11-20T23:30:00.000Z",
           "end": "2026-11-21T00:00:00.000Z",
@@ -9671,8 +9671,8 @@
           "source": "bein_us"
         },
         {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795203000000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795203000000:ligue 1 show",
+          "title": "Ligue 1 Show",
           "description": "",
           "start": "2026-11-20T19:30:00.000Z",
           "end": "2026-11-20T20:00:00.000Z",
@@ -9681,8 +9681,8 @@
           "source": "bein_us"
         },
         {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795204800000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795204800000:ligue 1 show",
+          "title": "Ligue 1 Show",
           "description": "",
           "start": "2026-11-20T20:00:00.000Z",
           "end": "2026-11-20T20:30:00.000Z",
@@ -9731,8 +9731,8 @@
           "source": "bein_us"
         },
         {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795217400000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795217400000:ligue 1 show",
+          "title": "Ligue 1 Show",
           "description": "",
           "start": "2026-11-20T23:30:00.000Z",
           "end": "2026-11-21T00:00:00.000Z",

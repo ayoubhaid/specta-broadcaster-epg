@@ -6,11 +6,11 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "fr-fr",
   "timezone": "UTC",
-  "generatedAt": "2026-11-16T06:26:42.268Z",
+  "generatedAt": "2026-11-16T22:02:19.610Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 10,
-    "programmesFound": 501,
+    "programmesFound": 503,
     "successfulRequests": 50,
     "failedRequests": 0
   },
@@ -688,12 +688,52 @@
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1794938400000:basket-ball : euroligue masculine - lyon-villeurbanne / besiktas",
-          "title": "Basket-ball : Euroligue masculine - Lyon-Villeurbanne / Besiktas",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1794938400000:le graal d'amélie",
+          "title": "Le Graal d'Amélie",
           "description": "",
           "start": "2026-11-17T18:00:00.000Z",
-          "end": "2026-11-17T19:45:00.000Z",
+          "end": "2026-11-17T18:45:00.000Z",
           "startEpochSeconds": 1794938400,
+          "endEpochSeconds": 1794941100,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1794941100000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-11-17T18:45:00.000Z",
+          "end": "2026-11-17T19:00:00.000Z",
+          "startEpochSeconds": 1794941100,
+          "endEpochSeconds": 1794942000,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1794942000000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-11-17T19:00:00.000Z",
+          "end": "2026-11-17T19:15:00.000Z",
+          "startEpochSeconds": 1794942000,
+          "endEpochSeconds": 1794942900,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1794942900000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-11-17T19:15:00.000Z",
+          "end": "2026-11-17T19:30:00.000Z",
+          "startEpochSeconds": 1794942900,
+          "endEpochSeconds": 1794943800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1794943800000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-11-17T19:30:00.000Z",
+          "end": "2026-11-17T19:45:00.000Z",
+          "startEpochSeconds": 1794943800,
           "endEpochSeconds": 1794944700,
           "source": "bein_fr"
         },
@@ -1018,8 +1058,8 @@
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795055400000:basket-ball : nba - dallas mavericks / golden state warriors",
-          "title": "Basket-ball : NBA - Dallas Mavericks / Golden State Warriors",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795055400000:basket-ball : nba - denver nuggets / boston celtics",
+          "title": "Basket-ball : NBA - Denver Nuggets / Boston Celtics",
           "description": "",
           "start": "2026-11-19T02:30:00.000Z",
           "end": "2026-11-19T05:00:00.000Z",
@@ -1068,8 +1108,8 @@
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795082400000:basket-ball : nba - dallas mavericks / golden state warriors",
-          "title": "Basket-ball : NBA - Dallas Mavericks / Golden State Warriors",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795082400000:basket-ball : nba - denver nuggets / boston celtics",
+          "title": "Basket-ball : NBA - Denver Nuggets / Boston Celtics",
           "description": "",
           "start": "2026-11-19T10:00:00.000Z",
           "end": "2026-11-19T11:45:00.000Z",
@@ -2159,8 +2199,8 @@
           "source": "bein_fr"
         },
         {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1794852900000:tennis : wta finals",
-          "title": "Tennis : WTA Finals",
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1794852900000:tennis : wta finals - wta finals",
+          "title": "Tennis : WTA Finals - WTA Finals",
           "description": "",
           "start": "2026-11-16T18:15:00.000Z",
           "end": "2026-11-16T19:45:00.000Z",
@@ -2239,22 +2279,12 @@
           "source": "bein_fr"
         },
         {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1794910500000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1794910500000:tennis : wta finals - wta finals",
+          "title": "Tennis : WTA Finals - WTA Finals",
           "description": "",
           "start": "2026-11-17T10:15:00.000Z",
-          "end": "2026-11-17T10:30:00.000Z",
-          "startEpochSeconds": 1794910500,
-          "endEpochSeconds": 1794911400,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1794911400000:tennis : wta finals",
-          "title": "Tennis : WTA Finals",
-          "description": "",
-          "start": "2026-11-17T10:30:00.000Z",
           "end": "2026-11-17T12:00:00.000Z",
-          "startEpochSeconds": 1794911400,
+          "startEpochSeconds": 1794910500,
           "endEpochSeconds": 1794916800,
           "source": "bein_fr"
         },
@@ -2399,42 +2429,32 @@
           "source": "bein_fr"
         },
         {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1794985200000:tennis : wta finals",
-          "title": "Tennis : WTA Finals",
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1794985200000:tennis : wta finals - wta finals",
+          "title": "Tennis : WTA Finals - WTA Finals",
           "description": "",
           "start": "2026-11-18T07:00:00.000Z",
-          "end": "2026-11-18T08:30:00.000Z",
+          "end": "2026-11-18T08:45:00.000Z",
           "startEpochSeconds": 1794985200,
-          "endEpochSeconds": 1794990600,
+          "endEpochSeconds": 1794991500,
           "source": "bein_fr"
         },
         {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1794990600000:le graal d'amélie",
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1794991500000:le graal d'amélie",
           "title": "Le Graal d'Amélie",
           "description": "",
-          "start": "2026-11-18T08:30:00.000Z",
-          "end": "2026-11-18T09:15:00.000Z",
-          "startEpochSeconds": 1794990600,
-          "endEpochSeconds": 1794993300,
+          "start": "2026-11-18T08:45:00.000Z",
+          "end": "2026-11-18T09:30:00.000Z",
+          "startEpochSeconds": 1794991500,
+          "endEpochSeconds": 1794994200,
           "source": "bein_fr"
         },
         {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1794993300000:au-delà des sommets",
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1794994200000:au-delà des sommets",
           "title": "Au-delà des sommets",
           "description": "",
-          "start": "2026-11-18T09:15:00.000Z",
-          "end": "2026-11-18T10:00:00.000Z",
-          "startEpochSeconds": 1794993300,
-          "endEpochSeconds": 1794996000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1794996000000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-18T10:00:00.000Z",
+          "start": "2026-11-18T09:30:00.000Z",
           "end": "2026-11-18T10:15:00.000Z",
-          "startEpochSeconds": 1794996000,
+          "startEpochSeconds": 1794994200,
           "endEpochSeconds": 1794996900,
           "source": "bein_fr"
         },
@@ -2639,8 +2659,8 @@
           "source": "bein_fr"
         },
         {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795102200000:basket-ball : nba - dallas mavericks / golden state warriors",
-          "title": "Basket-ball : NBA - Dallas Mavericks / Golden State Warriors",
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795102200000:basket-ball : nba - denver nuggets / boston celtics",
+          "title": "Basket-ball : NBA - Denver Nuggets / Boston Celtics",
           "description": "",
           "start": "2026-11-19T15:30:00.000Z",
           "end": "2026-11-19T17:15:00.000Z",
@@ -2709,22 +2729,22 @@
           "source": "bein_fr"
         },
         {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795130100000:tennis : wta finals",
-          "title": "Tennis : WTA Finals",
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795130100000:tennis : wta finals - wta finals",
+          "title": "Tennis : WTA Finals - WTA Finals",
           "description": "",
           "start": "2026-11-19T23:15:00.000Z",
-          "end": "2026-11-20T00:45:00.000Z",
+          "end": "2026-11-20T01:00:00.000Z",
           "startEpochSeconds": 1795130100,
-          "endEpochSeconds": 1795135500,
+          "endEpochSeconds": 1795136400,
           "source": "bein_fr"
         },
         {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795135500000:ça se passe sur bein sports",
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795136400000:ça se passe sur bein sports",
           "title": "Ça se passe sur beIN SPORTS",
           "description": "",
-          "start": "2026-11-20T00:45:00.000Z",
+          "start": "2026-11-20T01:00:00.000Z",
           "end": "2026-11-20T05:00:00.000Z",
-          "startEpochSeconds": 1795135500,
+          "startEpochSeconds": 1795136400,
           "endEpochSeconds": 1795150800,
           "source": "bein_fr"
         },
@@ -4461,28 +4481,28 @@
           "title": "beIN SPORTS, le plus grand des spectacles",
           "description": "",
           "start": "2026-11-16T22:00:00.000Z",
-          "end": "2026-11-17T00:30:00.000Z",
+          "end": "2026-11-17T00:47:00.000Z",
           "startEpochSeconds": 1794866400,
-          "endEpochSeconds": 1794875400,
+          "endEpochSeconds": 1794876420,
           "source": "bein_fr"
         },
         {
-          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1794875400000:hockey sur glace : nhl - new york rangers / montréal canadiens",
+          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1794876420000:hockey sur glace : nhl - new york rangers / montréal canadiens",
           "title": "Hockey sur glace : NHL - New York Rangers / Montréal Canadiens",
           "description": "",
-          "start": "2026-11-17T00:30:00.000Z",
-          "end": "2026-11-17T03:30:00.000Z",
-          "startEpochSeconds": 1794875400,
-          "endEpochSeconds": 1794886200,
+          "start": "2026-11-17T00:47:00.000Z",
+          "end": "2026-11-17T03:47:00.000Z",
+          "startEpochSeconds": 1794876420,
+          "endEpochSeconds": 1794887220,
           "source": "bein_fr"
         },
         {
-          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1794886200000:bein sports, le plus grand des spectacles",
+          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1794887220000:bein sports, le plus grand des spectacles",
           "title": "beIN SPORTS, le plus grand des spectacles",
           "description": "",
-          "start": "2026-11-17T03:30:00.000Z",
+          "start": "2026-11-17T03:47:00.000Z",
           "end": "2026-11-17T08:00:00.000Z",
-          "startEpochSeconds": 1794886200,
+          "startEpochSeconds": 1794887220,
           "endEpochSeconds": 1794902400,
           "source": "bein_fr"
         },
