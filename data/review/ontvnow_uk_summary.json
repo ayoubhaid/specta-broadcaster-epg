@@ -4,11 +4,11 @@
   "providerName": "onTVnow UK Listings",
   "region": "GB",
   "sourceUrl": "https://ontvnow.co.uk/api/v1/listings.xml",
-  "generatedAt": "2026-11-15T19:10:50.318628Z",
+  "generatedAt": "2026-11-16T06:29:59.936589Z",
   "coverage": {
     "daysRequested": 7,
     "channelsFound": 286,
-    "programmesFound": 49266,
+    "programmesFound": 48882,
     "successfulRequests": 1,
     "failedRequests": 0
   },
@@ -16,27 +16,27 @@
     {
       "id": "4seven.uk",
       "name": "4Seven",
-      "programmesFound": 173
+      "programmesFound": 175
     },
     {
       "id": "5.uk",
       "name": "5 HD",
-      "programmesFound": 304
+      "programmesFound": 308
     },
     {
       "id": "5Action.uk",
       "name": "5ACTION",
-      "programmesFound": 183
+      "programmesFound": 146
     },
     {
       "id": "5Plus1.uk",
       "name": "5+1",
-      "programmesFound": 306
+      "programmesFound": 309
     },
     {
       "id": "5Select.uk",
       "name": "5SELECT",
-      "programmesFound": 207
+      "programmesFound": 183
     },
     {
       "id": "5Star.uk",
@@ -71,7 +71,7 @@
     {
       "id": "ArirangTV.kr",
       "name": "Arirang TV",
-      "programmesFound": 359
+      "programmesFound": 360
     },
     {
       "id": "AriseNews.uk",
@@ -86,12 +86,12 @@
     {
       "id": "BBCFourHD.uk",
       "name": "BBC Four HD",
-      "programmesFound": 108
+      "programmesFound": 110
     },
     {
       "id": "BBCNews.uk",
       "name": "BBC NEWS HD",
-      "programmesFound": 349
+      "programmesFound": 348
     },
     {
       "id": "BBCOneChannelIslands.uk",
@@ -131,7 +131,7 @@
     {
       "id": "BBCOneScotHD.uk",
       "name": "BBC One Scotland HD",
-      "programmesFound": 177
+      "programmesFound": 178
     },
     {
       "id": "BBCOneSouth.uk",
@@ -151,7 +151,7 @@
     {
       "id": "BBCOneWalesHD.uk",
       "name": "BBC One Wales HD",
-      "programmesFound": 177
+      "programmesFound": 179
     },
     {
       "id": "BBCOneWest.uk",
@@ -176,22 +176,22 @@
     {
       "id": "BBCParliament.uk",
       "name": "BBC Parliament HD",
-      "programmesFound": 128
+      "programmesFound": 111
     },
     {
       "id": "BBCR1.uk",
       "name": "BBC Radio 1",
-      "programmesFound": 122
+      "programmesFound": 124
     },
     {
       "id": "BBCR1X.uk",
       "name": "BBC Radio 1 Xtra",
-      "programmesFound": 122
+      "programmesFound": 121
     },
     {
       "id": "BBCR2.uk",
       "name": "BBC Radio 2",
-      "programmesFound": 91
+      "programmesFound": 92
     },
     {
       "id": "BBCR3.uk",
@@ -201,7 +201,7 @@
     {
       "id": "BBCR4EX.uk",
       "name": "BBC Radio 4 Extra",
-      "programmesFound": 326
+      "programmesFound": 333
     },
     {
       "id": "BBCR4FM.uk",
@@ -216,37 +216,37 @@
     {
       "id": "BBCR5L.uk",
       "name": "BBC Radio 5 Live",
-      "programmesFound": 85
+      "programmesFound": 86
     },
     {
       "id": "BBCR5SX.uk",
       "name": "BBC Radio 5 Sports Xtra",
-      "programmesFound": 48
+      "programmesFound": 47
     },
     {
       "id": "BBCR6M.uk",
       "name": "BBC Radio 6 Music",
-      "programmesFound": 90
+      "programmesFound": 89
     },
     {
       "id": "BBCRAsianNetwork.uk",
       "name": "BBC Asian Network",
-      "programmesFound": 132
+      "programmesFound": 130
     },
     {
       "id": "BBCRScotland.uk",
       "name": "BBC Radio Scotland",
-      "programmesFound": 69
+      "programmesFound": 70
     },
     {
       "id": "BBCRUlster.uk",
       "name": "BBC Radio Ulster",
-      "programmesFound": 152
+      "programmesFound": 153
     },
     {
       "id": "BBCRWales.uk",
       "name": "BBC Radio Wales",
-      "programmesFound": 92
+      "programmesFound": 93
     },
     {
       "id": "BBCRadioBerkshire.uk",
@@ -276,7 +276,7 @@
     {
       "id": "BBCRadioCymru.uk",
       "name": "BBC Radio Cymru",
-      "programmesFound": 86
+      "programmesFound": 88
     },
     {
       "id": "BBCRadioCymru2.uk",
@@ -296,7 +296,7 @@
     {
       "id": "BBCRadioFoyle.uk",
       "name": "BBC Radio Foyle",
-      "programmesFound": 171
+      "programmesFound": 172
     },
     {
       "id": "BBCRadioGaidhael.uk",
@@ -311,7 +311,7 @@
     {
       "id": "BBCRadioHumberside.uk",
       "name": "BBC Radio Humberside",
-      "programmesFound": 53
+      "programmesFound": 55
     },
     {
       "id": "BBCRadioJersey.uk",
@@ -401,7 +401,7 @@
     {
       "id": "BBCRadioSurrey.uk",
       "name": "BBC Radio Surrey",
-      "programmesFound": 48
+      "programmesFound": 49
     },
     {
       "id": "BBCRadioTees.uk",
@@ -426,32 +426,32 @@
     {
       "id": "BBCScotland.uk",
       "name": "BBC Scotland HD",
-      "programmesFound": 82
+      "programmesFound": 83
     },
     {
       "id": "BBCThreeHD.uk",
       "name": "BBC Three HD",
-      "programmesFound": 120
+      "programmesFound": 118
     },
     {
       "id": "BBCTwoHD.uk",
       "name": "BBC Two HD",
-      "programmesFound": 176
+      "programmesFound": 175
     },
     {
       "id": "BBCTwoNorthernIreland.uk",
       "name": "BBC Two NI HD",
-      "programmesFound": 182
+      "programmesFound": 181
     },
     {
       "id": "BBCTwoWales.uk",
       "name": "BBC Two Wales HD",
-      "programmesFound": 178
+      "programmesFound": 177
     },
     {
       "id": "BBCWorldService.uk",
       "name": "BBC World Service",
-      "programmesFound": 524
+      "programmesFound": 522
     },
     {
       "id": "BFBSRadio.uk",
@@ -471,12 +471,12 @@
     {
       "id": "BloombergTVEurope.uk",
       "name": "Bloomberg HD",
-      "programmesFound": 165
+      "programmesFound": 160
     },
     {
       "id": "CBBC.uk",
       "name": "CBBC",
-      "programmesFound": 334
+      "programmesFound": 335
     },
     {
       "id": "CBeebies.uk",
@@ -486,7 +486,7 @@
     {
       "id": "CNAInternational.sg",
       "name": "CNA",
-      "programmesFound": 200
+      "programmesFound": 198
     },
     {
       "id": "CNBCEurope.uk",
@@ -521,62 +521,62 @@
     {
       "id": "Channel4London.uk",
       "name": "Channel 4 London HD",
-      "programmesFound": 234
+      "programmesFound": 231
     },
     {
       "id": "Channel4Midlands.uk",
       "name": "Channel 4 Midlands HD",
-      "programmesFound": 234
+      "programmesFound": 231
     },
     {
       "id": "Channel4North.uk",
       "name": "Channel 4 North HD",
-      "programmesFound": 234
+      "programmesFound": 231
     },
     {
       "id": "Channel4Plus1London.uk",
       "name": "Channel 4+1 London",
-      "programmesFound": 233
+      "programmesFound": 230
     },
     {
       "id": "Channel4Plus1North.uk",
       "name": "Channel 4+1 North",
-      "programmesFound": 233
+      "programmesFound": 230
     },
     {
       "id": "Channel4Plus1ROI.uk",
       "name": "Channel 4+1 ROI",
-      "programmesFound": 233
+      "programmesFound": 230
     },
     {
       "id": "Channel4Plus1Scotland.uk",
       "name": "Channel 4+1 Scotland",
-      "programmesFound": 233
+      "programmesFound": 230
     },
     {
       "id": "Channel4Plus1South.uk",
       "name": "Channel 4+1 South",
-      "programmesFound": 233
+      "programmesFound": 230
     },
     {
       "id": "Channel4ROI.uk",
       "name": "Channel 4 ROI HD",
-      "programmesFound": 234
+      "programmesFound": 231
     },
     {
       "id": "Channel4Scotland.uk",
       "name": "Channel 4 Scotland HD",
-      "programmesFound": 234
+      "programmesFound": 231
     },
     {
       "id": "Channel4South.uk",
       "name": "Channel 4 South HD",
-      "programmesFound": 234
+      "programmesFound": 231
     },
     {
       "id": "Channel4Ulster.uk",
       "name": "Channel 4 Ulster HD",
-      "programmesFound": 234
+      "programmesFound": 231
     },
     {
       "id": "Channels24.ng",
@@ -586,27 +586,27 @@
     {
       "id": "ClassicFM.uk",
       "name": "Classic FM",
-      "programmesFound": 69
+      "programmesFound": 70
     },
     {
       "id": "ClublandTV.uk",
       "name": "Clubland TV",
-      "programmesFound": 121
+      "programmesFound": 111
     },
     {
       "id": "DMAX.ie",
       "name": "DMAX ROI",
-      "programmesFound": 193
+      "programmesFound": 195
     },
     {
       "id": "DMAX.uk",
       "name": "DMAX",
-      "programmesFound": 193
+      "programmesFound": 195
     },
     {
       "id": "DMAXUKPlus1.uk",
       "name": "DMAX+1",
-      "programmesFound": 193
+      "programmesFound": 195
     },
     {
       "id": "DMNewsEnglish.uk",
@@ -616,67 +616,67 @@
     {
       "id": "E4.ie",
       "name": "E4 ROI",
-      "programmesFound": 255
+      "programmesFound": 251
     },
     {
       "id": "E4.uk",
       "name": "E4",
-      "programmesFound": 255
+      "programmesFound": 251
     },
     {
       "id": "E4Extra.uk",
       "name": "E4 Extra",
-      "programmesFound": 165
+      "programmesFound": 164
     },
     {
       "id": "E4HD.uk",
       "name": "E4 HD",
-      "programmesFound": 255
+      "programmesFound": 251
     },
     {
       "id": "E4Plus1.uk",
       "name": "E4 +1",
-      "programmesFound": 255
+      "programmesFound": 251
     },
     {
       "id": "EuronewsEnglish.fr",
       "name": "Euronews",
-      "programmesFound": 691
+      "programmesFound": 688
     },
     {
       "id": "Film4.ie",
       "name": "Film4 ROI",
-      "programmesFound": 72
+      "programmesFound": 70
     },
     {
       "id": "Film4.uk",
       "name": "Film4",
-      "programmesFound": 72
+      "programmesFound": 70
     },
     {
       "id": "Film4HD.uk",
       "name": "Film4 HD",
-      "programmesFound": 72
+      "programmesFound": 70
     },
     {
       "id": "Film4Plus1.uk",
       "name": "Film 4+1",
-      "programmesFound": 72
+      "programmesFound": 71
     },
     {
       "id": "FoodNetwork.ie",
       "name": "Food Network ROI",
-      "programmesFound": 196
+      "programmesFound": 198
     },
     {
       "id": "FoodNetwork.uk",
       "name": "Food Network",
-      "programmesFound": 196
+      "programmesFound": 198
     },
     {
       "id": "FoodNetworkPlus1.uk",
       "name": "Food Network+1",
-      "programmesFound": 196
+      "programmesFound": 198
     },
     {
       "id": "France24English.fr",
@@ -691,7 +691,7 @@
     {
       "id": "GIGS.uk",
       "name": "GIGS",
-      "programmesFound": 234
+      "programmesFound": 208
     },
     {
       "id": "GemsTV.uk",
@@ -711,42 +711,42 @@
     {
       "id": "GreatActionPlus1.uk",
       "name": "GREAT! action+1",
-      "programmesFound": 231
+      "programmesFound": 230
     },
     {
       "id": "GreatChristmas.uk",
       "name": "GREAT! Christmas",
-      "programmesFound": 254
+      "programmesFound": 252
     },
     {
       "id": "GreatChristmasPlus1.uk",
       "name": "GREAT! Christmas +1",
-      "programmesFound": 253
+      "programmesFound": 250
     },
     {
       "id": "GreatMovies.uk",
       "name": "GREAT! Movies",
-      "programmesFound": 141
+      "programmesFound": 140
     },
     {
       "id": "GreatMystery.uk",
       "name": "GREAT! Mystery",
-      "programmesFound": 238
+      "programmesFound": 233
     },
     {
       "id": "GreatMysteryPlus1.uk",
       "name": "GREAT! Mystery +1",
-      "programmesFound": 239
+      "programmesFound": 233
     },
     {
       "id": "GreatTV.uk",
       "name": "GREAT! tv",
-      "programmesFound": 215
+      "programmesFound": 213
     },
     {
       "id": "GreatTVPlus1.uk",
       "name": "GREAT! tv+1",
-      "programmesFound": 216
+      "programmesFound": 215
     },
     {
       "id": "Heart80s.uk",
@@ -781,112 +781,112 @@
     {
       "id": "HobbyMaker.uk",
       "name": "Hobby Maker HD",
-      "programmesFound": 137
+      "programmesFound": 131
     },
     {
       "id": "ITV1Anglia.uk",
       "name": "ITV1 Anglia HD",
-      "programmesFound": 162
+      "programmesFound": 158
     },
     {
       "id": "ITV1AngliaWest.uk",
       "name": "ITV1 Anglia (West) HD",
-      "programmesFound": 162
+      "programmesFound": 158
     },
     {
       "id": "ITV1Border.uk",
       "name": "ITV1 Border HD",
-      "programmesFound": 162
+      "programmesFound": 158
     },
     {
       "id": "ITV1CentralE.uk",
       "name": "ITV1 Central (East) HD",
-      "programmesFound": 162
+      "programmesFound": 158
     },
     {
       "id": "ITV1CentralW.uk",
       "name": "ITV1 Central (West) HD",
-      "programmesFound": 162
+      "programmesFound": 158
     },
     {
       "id": "ITV1Granada.uk",
       "name": "ITV1 Granada HD",
-      "programmesFound": 162
+      "programmesFound": 156
     },
     {
       "id": "ITV1London.uk",
       "name": "ITV1 London HD",
-      "programmesFound": 162
+      "programmesFound": 158
     },
     {
       "id": "ITV1MeridianE.uk",
       "name": "ITV1 Meridian (East) HD",
-      "programmesFound": 162
+      "programmesFound": 158
     },
     {
       "id": "ITV1MeridianN.uk",
       "name": "ITV1 Meridian (North) HD",
-      "programmesFound": 162
+      "programmesFound": 158
     },
     {
       "id": "ITV1MeridianS.uk",
       "name": "ITV1 Meridian (South) HD",
-      "programmesFound": 162
+      "programmesFound": 158
     },
     {
       "id": "ITV1North.uk",
       "name": "ITV1 North HD",
-      "programmesFound": 162
+      "programmesFound": 158
     },
     {
       "id": "ITV1Plus1Granada.uk",
       "name": "ITV+1 Granada",
-      "programmesFound": 161
+      "programmesFound": 159
     },
     {
       "id": "ITV1Plus1London.uk",
       "name": "ITV+1 London",
-      "programmesFound": 161
+      "programmesFound": 159
     },
     {
       "id": "ITV1Plus1Meridian.uk",
       "name": "ITV+1 Meridian",
-      "programmesFound": 161
+      "programmesFound": 159
     },
     {
       "id": "ITV1Plus1Midlands.uk",
       "name": "ITV+1 Midlands",
-      "programmesFound": 161
+      "programmesFound": 159
     },
     {
       "id": "ITV1TyneTees.uk",
       "name": "ITV1 Tyne Tees HD",
-      "programmesFound": 162
+      "programmesFound": 158
     },
     {
       "id": "ITV1Wales.uk",
       "name": "ITV1 Wales HD",
-      "programmesFound": 162
+      "programmesFound": 158
     },
     {
       "id": "ITV1West.uk",
       "name": "ITV1 West HD",
-      "programmesFound": 162
+      "programmesFound": 158
     },
     {
       "id": "ITV1WestCountry.uk",
       "name": "ITV1 West Country HD",
-      "programmesFound": 162
+      "programmesFound": 158
     },
     {
       "id": "ITV1YorkshireEast.uk",
       "name": "ITV1 Yorkshire (East) HD",
-      "programmesFound": 162
+      "programmesFound": 158
     },
     {
       "id": "ITV1YorkshireWest.uk",
       "name": "ITV1 Yorkshire HD",
-      "programmesFound": 162
+      "programmesFound": 158
     },
     {
       "id": "ITV2.uk",
@@ -896,27 +896,27 @@
     {
       "id": "ITV2Plus1.uk",
       "name": "ITV2+1",
-      "programmesFound": 198
+      "programmesFound": 199
     },
     {
       "id": "ITV3.uk",
       "name": "ITV3 HD",
-      "programmesFound": 134
+      "programmesFound": 133
     },
     {
       "id": "ITV3Plus1.uk",
       "name": "ITV3+1",
-      "programmesFound": 135
+      "programmesFound": 133
     },
     {
       "id": "ITV4.uk",
       "name": "ITV4 HD",
-      "programmesFound": 151
+      "programmesFound": 152
     },
     {
       "id": "ITV4Plus1.uk",
       "name": "ITV4+1",
-      "programmesFound": 153
+      "programmesFound": 152
     },
     {
       "id": "ITVQuiz.uk",
@@ -931,7 +931,7 @@
     {
       "id": "JewelleryMaker.uk",
       "name": "Jewellery Maker",
-      "programmesFound": 142
+      "programmesFound": 141
     },
     {
       "id": "LBCNews.uk",
@@ -946,17 +946,17 @@
     {
       "id": "Legend.uk",
       "name": "Legend",
-      "programmesFound": 122
+      "programmesFound": 123
     },
     {
       "id": "LegendXtra.uk",
       "name": "Legend Xtra",
-      "programmesFound": 128
+      "programmesFound": 127
     },
     {
       "id": "LegendXtraPlus1.uk",
       "name": "Legend Xtra+1",
-      "programmesFound": 128
+      "programmesFound": 126
     },
     {
       "id": "LondonTV.uk",
@@ -981,7 +981,7 @@
     {
       "id": "More4Plus1.uk",
       "name": "More4+1",
-      "programmesFound": 195
+      "programmesFound": 194
     },
     {
       "id": "Movies24.uk",
@@ -1006,47 +1006,47 @@
     {
       "id": "NHKWorldJapan.jp",
       "name": "NHK World HD",
-      "programmesFound": 486
+      "programmesFound": 478
     },
     {
       "id": "NewsmaxTV.uk",
       "name": "Newsmax",
-      "programmesFound": 107
+      "programmesFound": 92
     },
     {
       "id": "Now70s.uk",
       "name": "Now 70s",
-      "programmesFound": 100
+      "programmesFound": 78
     },
     {
       "id": "Now80s.uk",
       "name": "Now 80s",
-      "programmesFound": 96
+      "programmesFound": 84
     },
     {
       "id": "Now90s.uk",
       "name": "Now 90s & 00s",
-      "programmesFound": 168
+      "programmesFound": 154
     },
     {
       "id": "NowRock.uk",
       "name": "Now Rock",
-      "programmesFound": 146
+      "programmesFound": 144
     },
     {
       "id": "PBSAmerica.uk",
       "name": "PBS America",
-      "programmesFound": 132
+      "programmesFound": 134
     },
     {
       "id": "PanjabRadio.uk",
       "name": "Panjab Radio",
-      "programmesFound": 84
+      "programmesFound": 111
     },
     {
       "id": "PlanetRock.uk",
       "name": "Planet Rock",
-      "programmesFound": 67
+      "programmesFound": 68
     },
     {
       "id": "PremierRadio.uk",
@@ -1056,7 +1056,7 @@
     {
       "id": "QVC.uk",
       "name": "QVC",
-      "programmesFound": 160
+      "programmesFound": 157
     },
     {
       "id": "QVC2.uk",
@@ -1096,12 +1096,12 @@
     {
       "id": "QuestRed.ie",
       "name": "Quest Red ROI",
-      "programmesFound": 202
+      "programmesFound": 203
     },
     {
       "id": "QuestRed.uk",
       "name": "Quest Red",
-      "programmesFound": 202
+      "programmesFound": 203
     },
     {
       "id": "QuestRedPlus1.uk",
@@ -1116,12 +1116,12 @@
     {
       "id": "RTE2.ie",
       "name": "RTÉ2 HD",
-      "programmesFound": 280
+      "programmesFound": 279
     },
     {
       "id": "RTE2FM.ie",
       "name": "RTÉ 2FM",
-      "programmesFound": 60
+      "programmesFound": 61
     },
     {
       "id": "RTE2Plus1.ie",
@@ -1136,27 +1136,27 @@
     {
       "id": "RTELyricFM.ie",
       "name": "RTÉ Lyric FM",
-      "programmesFound": 56
+      "programmesFound": 55
     },
     {
       "id": "RTENews.ie",
       "name": "RTÉ News",
-      "programmesFound": 172
+      "programmesFound": 174
     },
     {
       "id": "RTEOne.ie",
       "name": "RTÉ One HD",
-      "programmesFound": 192
+      "programmesFound": 193
     },
     {
       "id": "RTEOnePlus1.ie",
       "name": "RTÉ One +1",
-      "programmesFound": 191
+      "programmesFound": 193
     },
     {
       "id": "RTERadio1.ie",
       "name": "RTÉ Radio 1",
-      "programmesFound": 108
+      "programmesFound": 107
     },
     {
       "id": "RTERnaG.ie",
@@ -1186,32 +1186,32 @@
     {
       "id": "RewindTV.uk",
       "name": "Rewind TV",
-      "programmesFound": 240
+      "programmesFound": 242
     },
     {
       "id": "S4C.uk",
       "name": "S4C",
-      "programmesFound": 389
+      "programmesFound": 384
     },
     {
       "id": "STVCentral.uk",
       "name": "STV Central HD",
-      "programmesFound": 179
+      "programmesFound": 172
     },
     {
       "id": "STVCentralPlus1.uk",
       "name": "STV Central +1",
-      "programmesFound": 178
+      "programmesFound": 171
     },
     {
       "id": "STVNorth.uk",
       "name": "STV North HD",
-      "programmesFound": 179
+      "programmesFound": 172
     },
     {
       "id": "STVNorthPlus1.uk",
       "name": "STV North +1",
-      "programmesFound": 178
+      "programmesFound": 171
     },
     {
       "id": "ShopUnlimited.uk",
@@ -1221,12 +1221,12 @@
     {
       "id": "SkyArts.ie",
       "name": "Sky Arts ROI",
-      "programmesFound": 176
+      "programmesFound": 177
     },
     {
       "id": "SkyArts.uk",
       "name": "Sky Arts",
-      "programmesFound": 176
+      "programmesFound": 177
     },
     {
       "id": "SkyMix.ie",
@@ -1251,12 +1251,12 @@
     {
       "id": "TBN.uk",
       "name": "TBN UK",
-      "programmesFound": 290
+      "programmesFound": 291
     },
     {
       "id": "TG4.ie",
       "name": "TG4",
-      "programmesFound": 439
+      "programmesFound": 440
     },
     {
       "id": "TJC.uk",
@@ -1276,7 +1276,7 @@
     {
       "id": "TRTWorld.tr",
       "name": "TRT World",
-      "programmesFound": 339
+      "programmesFound": 337
     },
     {
       "id": "TVCNews.ng",
@@ -1296,7 +1296,7 @@
     {
       "id": "TalkingPicturesTV.uk",
       "name": "Talking Pictures TV",
-      "programmesFound": 151
+      "programmesFound": 150
     },
     {
       "id": "Thats20thCentury.uk",
@@ -1316,27 +1316,27 @@
     {
       "id": "ThatsTV.uk",
       "name": "That's TV",
-      "programmesFound": 359
+      "programmesFound": 332
     },
     {
       "id": "ThatsTV2.uk",
       "name": "That's TV 2",
-      "programmesFound": 296
+      "programmesFound": 276
     },
     {
       "id": "TogetherTV.uk",
       "name": "Together TV",
-      "programmesFound": 181
+      "programmesFound": 180
     },
     {
       "id": "TogetherTVPlus1.uk",
       "name": "Together TV +1",
-      "programmesFound": 183
+      "programmesFound": 181
     },
     {
       "id": "Travelxp.in",
       "name": "Travelxp",
-      "programmesFound": 344
+      "programmesFound": 342
     },
     {
       "id": "TrueCrime.uk",
@@ -1356,22 +1356,22 @@
     {
       "id": "UAndDave.uk",
       "name": "U&Dave",
-      "programmesFound": 194
+      "programmesFound": 193
     },
     {
       "id": "UAndDavejavu.uk",
       "name": "U&Dave ja vu",
-      "programmesFound": 193
+      "programmesFound": 194
     },
     {
       "id": "UAndDrama.uk",
       "name": "U&Drama",
-      "programmesFound": 159
+      "programmesFound": 161
     },
     {
       "id": "UAndDramaPlus1.uk",
       "name": "U&Drama+1",
-      "programmesFound": 158
+      "programmesFound": 161
     },
     {
       "id": "UAndEden.uk",
@@ -1386,12 +1386,12 @@
     {
       "id": "UAndW.uk",
       "name": "U&W",
-      "programmesFound": 154
+      "programmesFound": 153
     },
     {
       "id": "UAndWPlus1.uk",
       "name": "U&W+1",
-      "programmesFound": 154
+      "programmesFound": 153
     },
     {
       "id": "UAndYesterday.uk",
@@ -1401,12 +1401,12 @@
     {
       "id": "UAndYesterdayPlus1.uk",
       "name": "U&Yesterday+1",
-      "programmesFound": 180
+      "programmesFound": 179
     },
     {
       "id": "UTV.uk",
       "name": "UTV",
-      "programmesFound": 169
+      "programmesFound": 165
     },
     {
       "id": "VirginMediaFour.ie",
@@ -1416,7 +1416,7 @@
     {
       "id": "VirginMediaOne.ie",
       "name": "Virgin Media One",
-      "programmesFound": 157
+      "programmesFound": 158
     },
     {
       "id": "VirginMediaOnePlus1.ie",
@@ -1431,7 +1431,7 @@
     {
       "id": "VirginMediaTwo.ie",
       "name": "Virgin Media Two",
-      "programmesFound": 183
+      "programmesFound": 181
     },
     {
       "id": "VirginRadio.uk",
