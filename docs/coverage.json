@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-17T08:02:51.000Z",
+  "generatedAt": "2026-11-17T21:03:15.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-17T06:02:51.000Z",
-    "to": "2026-11-19T00:02:51.000Z",
+    "from": "2026-11-17T19:03:15.000Z",
+    "to": "2026-11-19T13:03:15.000Z",
     "maxPerChannel": 80
   },
   "totals": {
     "channels": 202,
-    "programmes": 7941
+    "programmes": 7664
   },
   "providers": [
     {
@@ -34,9 +34,9 @@
       "providerName": "beIN SPORTS France",
       "file": "data/source-feeds/bein_fr.json",
       "channels": 10,
-      "programmes": 513,
+      "programmes": 515,
       "publishedChannels": 9,
-      "publishedProgrammes": 401,
+      "publishedProgrammes": 403,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -52,9 +52,9 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2469,
+      "programmes": 2504,
       "publishedChannels": 30,
-      "publishedProgrammes": 1622,
+      "publishedProgrammes": 1659,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -70,9 +70,9 @@
       "providerName": "beIN SPORTS US",
       "file": "data/source-feeds/bein_us.json",
       "channels": 13,
-      "programmes": 1064,
+      "programmes": 1068,
       "publishedChannels": 6,
-      "publishedProgrammes": 342,
+      "publishedProgrammes": 344,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -88,9 +88,9 @@
       "providerName": "CANAL+ France",
       "file": "data/review/canalplus_fr_unclassified.json",
       "channels": 6,
-      "programmes": 213,
+      "programmes": 211,
       "publishedChannels": 6,
-      "publishedProgrammes": 213,
+      "publishedProgrammes": 211,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -106,9 +106,9 @@
       "providerName": "DAZN",
       "file": "data/review/dazn_unclassified.json",
       "channels": 75,
-      "programmes": 5800,
+      "programmes": 4872,
       "publishedChannels": 11,
-      "publishedProgrammes": 593,
+      "publishedProgrammes": 468,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -123,10 +123,10 @@
       "provider": "elcinema",
       "providerName": "elCinema Arabic TV Guide",
       "file": "data/review/elcinema_ar_unclassified.json",
-      "channels": 101,
-      "programmes": 3186,
+      "channels": 108,
+      "programmes": 3821,
       "publishedChannels": 21,
-      "publishedProgrammes": 898,
+      "publishedProgrammes": 1031,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -142,9 +142,9 @@
       "providerName": "Golf Channel US",
       "file": "data/review/golfchannel_us_unclassified.json",
       "channels": 1,
-      "programmes": 19,
+      "programmes": 18,
       "publishedChannels": 1,
-      "publishedProgrammes": 19,
+      "publishedProgrammes": 18,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -196,9 +196,9 @@
       "providerName": "SNRT Morocco",
       "file": "data/source-feeds/snrt_ma.json",
       "channels": 7,
-      "programmes": 1908,
+      "programmes": 1784,
       "publishedChannels": 7,
-      "publishedProgrammes": 1878,
+      "publishedProgrammes": 1754,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -214,9 +214,9 @@
       "providerName": "SuperSport",
       "file": "data/review/supersport_unclassified.json",
       "channels": 63,
-      "programmes": 7231,
+      "programmes": 7279,
       "publishedChannels": 17,
-      "publishedProgrammes": 2372,
+      "publishedProgrammes": 2376,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -2277,6 +2277,41 @@
         "candidates": []
       },
       {
+        "key": "elcinema:1355",
+        "provider": "elcinema",
+        "name": "Mix",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1322",
+        "provider": "elcinema",
+        "name": "BEIN MOVIES PREMIERE",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1391",
+        "provider": "elcinema",
+        "name": "OSN TV Movies Hollywood",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1330",
+        "provider": "elcinema",
+        "name": "Star Action",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1213",
+        "provider": "elcinema",
+        "name": "OSN TV Movies Premiere",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "elcinema:1399",
         "provider": "elcinema",
         "name": "MBC Masr Drama",
@@ -2284,37 +2319,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1393",
+        "key": "elcinema:1336",
         "provider": "elcinema",
-        "name": "OSN TV One",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1304",
-        "provider": "elcinema",
-        "name": "Nessma",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1395",
-        "provider": "elcinema",
-        "name": "OSN TV Crime",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1127",
-        "provider": "elcinema",
-        "name": "MBC",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1324",
-        "provider": "elcinema",
-        "name": "BEIN MOVIES DRAMA",
+        "name": "Maspero Zaman",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2396,9 +2403,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1322",
+        "key": "elcinema:1308",
         "provider": "elcinema",
-        "name": "BEIN MOVIES PREMIERE",
+        "name": "Watania1",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2480,13 +2487,6 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1213",
-        "provider": "elcinema",
-        "name": "OSN TV Movies Premiere",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "elcinema:1134",
         "provider": "elcinema",
         "name": "ON Drama",
@@ -2543,6 +2543,13 @@
         "candidates": []
       },
       {
+        "key": "elcinema:1324",
+        "provider": "elcinema",
+        "name": "BEIN MOVIES DRAMA",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "elcinema:1325",
         "provider": "elcinema",
         "name": "BEIN MOVIES FAMILY",
@@ -2585,6 +2592,13 @@
         "candidates": []
       },
       {
+        "key": "elcinema:1392",
+        "provider": "elcinema",
+        "name": "OSN TV Movies Family",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "elcinema:1315",
         "provider": "elcinema",
         "name": "Echorouk TV",
@@ -2609,6 +2623,13 @@
         "key": "elcinema:1198",
         "provider": "elcinema",
         "name": "CBC",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1395",
+        "provider": "elcinema",
+        "name": "OSN TV Crime",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2648,16 +2669,16 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1398",
+        "key": "elcinema:1329",
         "provider": "elcinema",
-        "name": "Althania",
+        "name": "Star World",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1336",
+        "key": "elcinema:1398",
         "provider": "elcinema",
-        "name": "Maspero Zaman",
+        "name": "Althania",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2711,6 +2732,20 @@
         "candidates": []
       },
       {
+        "key": "elcinema:1334",
+        "provider": "elcinema",
+        "name": "Watania 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1227",
+        "provider": "elcinema",
+        "name": "Sada El Balad Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "elcinema:1385",
         "provider": "elcinema",
         "name": "Dijlah TV",
@@ -2739,9 +2774,30 @@
         "candidates": []
       },
       {
+        "key": "elcinema:1393",
+        "provider": "elcinema",
+        "name": "OSN TV One",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1127",
+        "provider": "elcinema",
+        "name": "MBC",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "elcinema:1297",
         "provider": "elcinema",
         "name": "SBC",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1304",
+        "provider": "elcinema",
+        "name": "Nessma",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2791,13 +2847,6 @@
         "key": "elcinema:1296",
         "provider": "elcinema",
         "name": "MTV",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1355",
-        "provider": "elcinema",
-        "name": "Mix",
         "reason": "unmapped",
         "candidates": []
       },
@@ -4608,16 +4657,16 @@
         "candidates": []
       },
       {
-        "key": "supersport:futs",
+        "key": "supersport:sin1",
         "provider": "supersport",
-        "name": "Future SuperSport",
+        "name": "SuperSport Internet 1",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "supersport:sin1",
+        "key": "supersport:futs",
         "provider": "supersport",
-        "name": "SuperSport Internet 1",
+        "name": "Future SuperSport",
         "reason": "unmapped",
         "candidates": []
       }
