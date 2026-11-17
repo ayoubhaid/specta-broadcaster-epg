@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-16T22:07:11.000Z",
+  "generatedAt": "2026-11-17T08:02:51.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-16T20:07:11.000Z",
-    "to": "2026-11-18T14:07:11.000Z",
+    "from": "2026-11-17T06:02:51.000Z",
+    "to": "2026-11-19T00:02:51.000Z",
     "maxPerChannel": 80
   },
   "totals": {
     "channels": 202,
-    "programmes": 7767
+    "programmes": 7941
   },
   "providers": [
     {
@@ -16,9 +16,9 @@
       "providerName": "beIN SPORTS Australia",
       "file": "data/source-feeds/bein_au.json",
       "channels": 4,
-      "programmes": 393,
+      "programmes": 404,
       "publishedChannels": 3,
-      "publishedProgrammes": 281,
+      "publishedProgrammes": 289,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -34,9 +34,9 @@
       "providerName": "beIN SPORTS France",
       "file": "data/source-feeds/bein_fr.json",
       "channels": 10,
-      "programmes": 503,
+      "programmes": 513,
       "publishedChannels": 9,
-      "publishedProgrammes": 392,
+      "publishedProgrammes": 401,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -52,16 +52,16 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2591,
+      "programmes": 2469,
       "publishedChannels": 30,
-      "publishedProgrammes": 1739,
+      "publishedProgrammes": 1622,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
         "title": 0,
         "time": 0,
         "range": 0,
-        "duration": 4
+        "duration": 5
       },
       "error": null
     },
@@ -70,9 +70,9 @@
       "providerName": "beIN SPORTS US",
       "file": "data/source-feeds/bein_us.json",
       "channels": 13,
-      "programmes": 1039,
+      "programmes": 1064,
       "publishedChannels": 6,
-      "publishedProgrammes": 335,
+      "publishedProgrammes": 342,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -87,10 +87,10 @@
       "provider": "canalplus_fr",
       "providerName": "CANAL+ France",
       "file": "data/review/canalplus_fr_unclassified.json",
-      "channels": 8,
-      "programmes": 217,
+      "channels": 6,
+      "programmes": 213,
       "publishedChannels": 6,
-      "publishedProgrammes": 215,
+      "publishedProgrammes": 213,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -105,10 +105,10 @@
       "provider": "dazn",
       "providerName": "DAZN",
       "file": "data/review/dazn_unclassified.json",
-      "channels": 61,
-      "programmes": 2760,
+      "channels": 75,
+      "programmes": 5800,
       "publishedChannels": 11,
-      "publishedProgrammes": 480,
+      "publishedProgrammes": 593,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -123,10 +123,10 @@
       "provider": "elcinema",
       "providerName": "elCinema Arabic TV Guide",
       "file": "data/review/elcinema_ar_unclassified.json",
-      "channels": 104,
-      "programmes": 3373,
+      "channels": 101,
+      "programmes": 3186,
       "publishedChannels": 21,
-      "publishedProgrammes": 940,
+      "publishedProgrammes": 898,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -160,9 +160,9 @@
       "providerName": "onTVnow UK Listings",
       "file": "data/review/ontvnow_uk_unclassified.json",
       "channels": 286,
-      "programmes": 48882,
+      "programmes": 48985,
       "publishedChannels": 77,
-      "publishedProgrammes": 15076,
+      "publishedProgrammes": 15112,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -178,9 +178,9 @@
       "providerName": "Sky Sports UK",
       "file": "data/review/sky_uk_unclassified.json",
       "channels": 21,
-      "programmes": 2935,
+      "programmes": 2807,
       "publishedChannels": 21,
-      "publishedProgrammes": 2935,
+      "publishedProgrammes": 2807,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -213,10 +213,10 @@
       "provider": "supersport",
       "providerName": "SuperSport",
       "file": "data/review/supersport_unclassified.json",
-      "channels": 61,
-      "programmes": 5994,
+      "channels": 63,
+      "programmes": 7231,
       "publishedChannels": 17,
-      "publishedProgrammes": 1987,
+      "publishedProgrammes": 2372,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -1829,20 +1829,6 @@
         "candidates": []
       },
       {
-        "key": "canalplus_fr:canalplus_fr:le-campus-sur-france-2",
-        "provider": "canalplus_fr",
-        "name": "le campus, Sur FRANCE 2",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "canalplus_fr:canalplus_fr:terre-saison-1-episode-5-la-revolution-de-la-sur-france-5",
-        "provider": "canalplus_fr",
-        "name": "Terre - Saison 1, Episode 5 : La révolution de la ..., Sur FRANCE 5",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "dazn:de:1xx7lone8fvv21a2rpc5cji3jx",
         "provider": "dazn",
         "name": "DAZN RISE",
@@ -1920,6 +1906,20 @@
         "candidates": []
       },
       {
+        "key": "dazn:de:1h1mvs2qacxxd1eixd08z0cnrj",
+        "provider": "dazn",
+        "name": "Fox League",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:de:733sow17ftp51rz2y6k49kvrc",
+        "provider": "dazn",
+        "name": "Fox Footy",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "dazn:gb:fv3mmn3nd7w21fxow6nc1pflv",
         "provider": "dazn",
         "name": "NFL Network: Live 24/7 Coverage",
@@ -1937,6 +1937,20 @@
         "key": "dazn:gb:1uk4wqa9cpm91cy40uybfda5t",
         "provider": "dazn",
         "name": "Red Bull TV: Extreme Sports Channel",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:gb:wqyagpgi4ejb1n0m21bv6lga2",
+        "provider": "dazn",
+        "name": "Fox Footy",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:gb:97c45h0fx2zv1fxixszue3uap",
+        "provider": "dazn",
+        "name": "Fox League",
         "reason": "unmapped",
         "candidates": []
       },
@@ -1965,6 +1979,20 @@
         "key": "dazn:us:uul1uco8wdwp1kxf14f6sa44q",
         "provider": "dazn",
         "name": "Unbeaten: 24/7 Global Sports Channel",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:us:13g3w5u6vccom19e9slzf5zcjt",
+        "provider": "dazn",
+        "name": "Fox Footy",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:us:1mll0n84tsek413fsdvqo5dgjw",
+        "provider": "dazn",
+        "name": "Fox League",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2074,6 +2102,20 @@
         "candidates": []
       },
       {
+        "key": "dazn:it:1pqknpbwzuo4g1n21wi8gnile4",
+        "provider": "dazn",
+        "name": "Fox League",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:it:1hsvv68ojdyo1191vcd4dpc7lp",
+        "provider": "dazn",
+        "name": "Fox Footy",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "dazn:es:1kaqhtrr0kcl11563aff0431p8",
         "provider": "dazn",
         "name": "Eurosport 1",
@@ -2123,6 +2165,20 @@
         "candidates": []
       },
       {
+        "key": "dazn:es:1x9sg48lwym6j1qc6f0kutzf5b",
+        "provider": "dazn",
+        "name": "Fox Footy",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:es:fwgsn8lxh8ep1nzmefzwpsrpo",
+        "provider": "dazn",
+        "name": "Fox League",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "dazn:fr:ndozfjboh3z617ww4zdvm4f3h",
         "provider": "dazn",
         "name": "Ligue 1+ : Émissions et Matches en Direct",
@@ -2154,6 +2210,20 @@
         "key": "dazn:fr:1n05pq2v5wgex1u1s5zw89sx71",
         "provider": "dazn",
         "name": "NHL FAST Channel",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:fr:1p4rmjufk7ped1w1xm3d57135u",
+        "provider": "dazn",
+        "name": "Fox League",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:fr:1ekbp3ejkb2na1afo6ludhqd6v",
+        "provider": "dazn",
+        "name": "Fox Footy",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2193,30 +2263,51 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1317",
-        "provider": "elcinema",
-        "name": "Oman",
+        "key": "dazn:pt:1xoipyj9o8ogv16lg58v7hrw1x",
+        "provider": "dazn",
+        "name": "Fox Footy",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1315",
-        "provider": "elcinema",
-        "name": "Echorouk TV",
+        "key": "dazn:pt:1jbbv3ee291ej1vuejq6juxj7f",
+        "provider": "dazn",
+        "name": "Fox League",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1334",
+        "key": "elcinema:1399",
         "provider": "elcinema",
-        "name": "Watania 2",
+        "name": "MBC Masr Drama",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1212",
+        "key": "elcinema:1393",
         "provider": "elcinema",
-        "name": "Star Movies",
+        "name": "OSN TV One",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1304",
+        "provider": "elcinema",
+        "name": "Nessma",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1395",
+        "provider": "elcinema",
+        "name": "OSN TV Crime",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1127",
+        "provider": "elcinema",
+        "name": "MBC",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2224,34 +2315,6 @@
         "key": "elcinema:1324",
         "provider": "elcinema",
         "name": "BEIN MOVIES DRAMA",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1198",
-        "provider": "elcinema",
-        "name": "CBC",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1405",
-        "provider": "elcinema",
-        "name": "One Drama",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1301",
-        "provider": "elcinema",
-        "name": "Alsumaria",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1299",
-        "provider": "elcinema",
-        "name": "Roya",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2284,6 +2347,13 @@
         "candidates": []
       },
       {
+        "key": "elcinema:1317",
+        "provider": "elcinema",
+        "name": "Oman",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "elcinema:1366",
         "provider": "elcinema",
         "name": "Thikrayat Tv",
@@ -2312,16 +2382,16 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1252",
+        "key": "elcinema:1301",
         "provider": "elcinema",
-        "name": "Al Kahera Wal Nas TV 2",
+        "name": "Alsumaria",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1308",
+        "key": "elcinema:1252",
         "provider": "elcinema",
-        "name": "Watania1",
+        "name": "Al Kahera Wal Nas TV 2",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2480,9 +2550,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1399",
+        "key": "elcinema:1212",
         "provider": "elcinema",
-        "name": "MBC Masr Drama",
+        "name": "Star Movies",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2508,9 +2578,16 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1392",
+        "key": "elcinema:1405",
         "provider": "elcinema",
-        "name": "OSN TV Movies Family",
+        "name": "One Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1315",
+        "provider": "elcinema",
+        "name": "Echorouk TV",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2529,9 +2606,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1395",
+        "key": "elcinema:1198",
         "provider": "elcinema",
-        "name": "OSN TV Crime",
+        "name": "CBC",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2553,6 +2630,13 @@
         "key": "elcinema:1242",
         "provider": "elcinema",
         "name": "Network Arabic",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1299",
+        "provider": "elcinema",
+        "name": "Roya",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2655,30 +2739,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1393",
-        "provider": "elcinema",
-        "name": "OSN TV One",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1127",
-        "provider": "elcinema",
-        "name": "MBC",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "elcinema:1297",
         "provider": "elcinema",
         "name": "SBC",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1304",
-        "provider": "elcinema",
-        "name": "Nessma",
         "reason": "unmapped",
         "candidates": []
       },
@@ -4237,6 +4300,41 @@
         "candidates": []
       },
       {
+        "key": "supersport:afr2",
+        "provider": "supersport",
+        "name": "SuperSport Africa 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:blta",
+        "provider": "supersport",
+        "name": "SuperSport Blitz Africa",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:cria",
+        "provider": "supersport",
+        "name": "SuperSport Cricket Africa",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:epla",
+        "provider": "supersport",
+        "name": "SuperSport Premier League Africa",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:epln",
+        "provider": "supersport",
+        "name": "SuperSport Premier League Nigeria",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "supersport:evsa",
         "provider": "supersport",
         "name": "SuperSport Events SA",
@@ -4247,6 +4345,69 @@
         "key": "supersport:extr2",
         "provider": "supersport",
         "name": "SuperSport Extra 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ftba",
+        "provider": "supersport",
+        "name": "SuperSport Football Africa",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ftpa",
+        "provider": "supersport",
+        "name": "SuperSport Football Plus Africa",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ftpc",
+        "provider": "supersport",
+        "name": "Football Plus Canal+",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:ftpn",
+        "provider": "supersport",
+        "name": "SuperSport Football Plus Nigeria",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:gaf2",
+        "provider": "supersport",
+        "name": "SuperSport GOtv Africa 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:gepl",
+        "provider": "supersport",
+        "name": "SuperSport GOtv Premier League",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:gftb",
+        "provider": "supersport",
+        "name": "SuperSport GOtv Football",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:gftp",
+        "provider": "supersport",
+        "name": "SuperSport GOtv Football Plus",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:gola",
+        "provider": "supersport",
+        "name": "SuperSport Golf Africa",
         "reason": "unmapped",
         "candidates": []
       },
@@ -4272,6 +4433,13 @@
         "candidates": []
       },
       {
+        "key": "supersport:ott5",
+        "provider": "supersport",
+        "name": "SuperSport OTT Five",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "supersport:ott6",
         "provider": "supersport",
         "name": "SuperSport OTT Six",
@@ -4293,34 +4461,6 @@
         "candidates": []
       },
       {
-        "key": "supersport:afr1",
-        "provider": "supersport",
-        "name": "SuperSport Africa ROA",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:ftpa",
-        "provider": "supersport",
-        "name": "SuperSport Football Plus Africa",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:ftpn",
-        "provider": "supersport",
-        "name": "SuperSport Football Plus Nigeria",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:gftp",
-        "provider": "supersport",
-        "name": "SuperSport GOtv Football Plus",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "supersport:ruga",
         "provider": "supersport",
         "name": "SuperSport Rugby Africa",
@@ -4328,44 +4468,9 @@
         "candidates": []
       },
       {
-        "key": "supersport:wwe",
+        "key": "supersport:ssm3",
         "provider": "supersport",
-        "name": "WWE Channel",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:mspa",
-        "provider": "supersport",
-        "name": "SuperSport Motorsport Africa",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:sch",
-        "provider": "supersport",
-        "name": "SuperSport Schools",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:acta",
-        "provider": "supersport",
-        "name": "SuperSport Action Africa",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:blta",
-        "provider": "supersport",
-        "name": "SuperSport Blitz Africa",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:gola",
-        "provider": "supersport",
-        "name": "SuperSport Golf Africa",
+        "name": "Maximo 3",
         "reason": "unmapped",
         "candidates": []
       },
@@ -4377,9 +4482,16 @@
         "candidates": []
       },
       {
-        "key": "supersport:extr",
+        "key": "supersport:sswa",
         "provider": "supersport",
-        "name": "SuperSport Extra",
+        "name": "SuperSport Swahili",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:mspa",
+        "provider": "supersport",
+        "name": "SuperSport Motorsport Africa",
         "reason": "unmapped",
         "candidates": []
       },
@@ -4391,6 +4503,34 @@
         "candidates": []
       },
       {
+        "key": "supersport:afr1",
+        "provider": "supersport",
+        "name": "SuperSport Africa ROA",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:sch",
+        "provider": "supersport",
+        "name": "SuperSport Schools",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:lign",
+        "provider": "supersport",
+        "name": "SuperSport LaLiga Nigeria",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:extr",
+        "provider": "supersport",
+        "name": "SuperSport Extra",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "supersport:tena",
         "provider": "supersport",
         "name": "SuperSport Tennis Africa",
@@ -4398,16 +4538,9 @@
         "candidates": []
       },
       {
-        "key": "supersport:afrsa",
+        "key": "supersport:wwe",
         "provider": "supersport",
-        "name": "SuperSport Africa SA",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:cria",
-        "provider": "supersport",
-        "name": "SuperSport Cricket Africa",
+        "name": "WWE Channel",
         "reason": "unmapped",
         "candidates": []
       },
@@ -4447,86 +4580,16 @@
         "candidates": []
       },
       {
-        "key": "supersport:lign",
+        "key": "supersport:acta",
         "provider": "supersport",
-        "name": "SuperSport LaLiga Nigeria",
+        "name": "SuperSport Action Africa",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "supersport:ott5",
+        "key": "supersport:afrsa",
         "provider": "supersport",
-        "name": "SuperSport OTT Five",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:epla",
-        "provider": "supersport",
-        "name": "SuperSport Premier League Africa",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:epln",
-        "provider": "supersport",
-        "name": "SuperSport Premier League Nigeria",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:ftba",
-        "provider": "supersport",
-        "name": "SuperSport Football Africa",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:ftpc",
-        "provider": "supersport",
-        "name": "Football Plus Canal+",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:gepl",
-        "provider": "supersport",
-        "name": "SuperSport GOtv Premier League",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:gftb",
-        "provider": "supersport",
-        "name": "SuperSport GOtv Football",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:ssm3",
-        "provider": "supersport",
-        "name": "Maximo 3",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:sswa",
-        "provider": "supersport",
-        "name": "SuperSport Swahili",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:afr2",
-        "provider": "supersport",
-        "name": "SuperSport Africa 2",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:gaf2",
-        "provider": "supersport",
-        "name": "SuperSport GOtv Africa 2",
+        "name": "SuperSport Africa SA",
         "reason": "unmapped",
         "candidates": []
       },
@@ -4543,6 +4606,20 @@
         "name": "SuperSport Variety 2",
         "reason": "unmapped",
         "candidates": []
+      },
+      {
+        "key": "supersport:futs",
+        "provider": "supersport",
+        "name": "Future SuperSport",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:sin1",
+        "provider": "supersport",
+        "name": "SuperSport Internet 1",
+        "reason": "unmapped",
+        "candidates": []
       }
     ],
     "blocked": [],
@@ -4553,6 +4630,6 @@
     "title": 0,
     "time": 0,
     "range": 0,
-    "duration": 34
+    "duration": 35
   }
 }
