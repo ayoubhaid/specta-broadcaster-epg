@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-17T21:03:15.000Z",
+  "generatedAt": "2026-11-18T07:33:16.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-17T19:03:15.000Z",
-    "to": "2026-11-19T13:03:15.000Z",
+    "from": "2026-11-18T05:33:16.000Z",
+    "to": "2026-11-19T23:33:16.000Z",
     "maxPerChannel": 80
   },
   "totals": {
     "channels": 202,
-    "programmes": 7664
+    "programmes": 7935
   },
   "providers": [
     {
@@ -18,7 +18,7 @@
       "channels": 4,
       "programmes": 404,
       "publishedChannels": 3,
-      "publishedProgrammes": 289,
+      "publishedProgrammes": 291,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -34,9 +34,9 @@
       "providerName": "beIN SPORTS France",
       "file": "data/source-feeds/bein_fr.json",
       "channels": 10,
-      "programmes": 515,
+      "programmes": 500,
       "publishedChannels": 9,
-      "publishedProgrammes": 403,
+      "publishedProgrammes": 392,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -52,16 +52,16 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2504,
+      "programmes": 2423,
       "publishedChannels": 30,
-      "publishedProgrammes": 1659,
+      "publishedProgrammes": 1585,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
         "title": 0,
         "time": 0,
         "range": 0,
-        "duration": 5
+        "duration": 4
       },
       "error": null
     },
@@ -70,9 +70,9 @@
       "providerName": "beIN SPORTS US",
       "file": "data/source-feeds/bein_us.json",
       "channels": 13,
-      "programmes": 1068,
+      "programmes": 1045,
       "publishedChannels": 6,
-      "publishedProgrammes": 344,
+      "publishedProgrammes": 334,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -88,9 +88,9 @@
       "providerName": "CANAL+ France",
       "file": "data/review/canalplus_fr_unclassified.json",
       "channels": 6,
-      "programmes": 211,
+      "programmes": 216,
       "publishedChannels": 6,
-      "publishedProgrammes": 211,
+      "publishedProgrammes": 216,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -106,9 +106,9 @@
       "providerName": "DAZN",
       "file": "data/review/dazn_unclassified.json",
       "channels": 75,
-      "programmes": 4872,
+      "programmes": 5622,
       "publishedChannels": 11,
-      "publishedProgrammes": 468,
+      "publishedProgrammes": 571,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -123,10 +123,10 @@
       "provider": "elcinema",
       "providerName": "elCinema Arabic TV Guide",
       "file": "data/review/elcinema_ar_unclassified.json",
-      "channels": 108,
-      "programmes": 3821,
+      "channels": 102,
+      "programmes": 3596,
       "publishedChannels": 21,
-      "publishedProgrammes": 1031,
+      "publishedProgrammes": 923,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -142,9 +142,9 @@
       "providerName": "Golf Channel US",
       "file": "data/review/golfchannel_us_unclassified.json",
       "channels": 1,
-      "programmes": 18,
+      "programmes": 19,
       "publishedChannels": 1,
-      "publishedProgrammes": 18,
+      "publishedProgrammes": 19,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -160,9 +160,9 @@
       "providerName": "onTVnow UK Listings",
       "file": "data/review/ontvnow_uk_unclassified.json",
       "channels": 286,
-      "programmes": 48985,
+      "programmes": 49194,
       "publishedChannels": 77,
-      "publishedProgrammes": 15112,
+      "publishedProgrammes": 15197,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -178,9 +178,9 @@
       "providerName": "Sky Sports UK",
       "file": "data/review/sky_uk_unclassified.json",
       "channels": 21,
-      "programmes": 2807,
+      "programmes": 2716,
       "publishedChannels": 21,
-      "publishedProgrammes": 2807,
+      "publishedProgrammes": 2716,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -214,9 +214,9 @@
       "providerName": "SuperSport",
       "file": "data/review/supersport_unclassified.json",
       "channels": 63,
-      "programmes": 7279,
+      "programmes": 7251,
       "publishedChannels": 17,
-      "publishedProgrammes": 2376,
+      "publishedProgrammes": 2313,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -2277,51 +2277,58 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1355",
+        "key": "elcinema:1301",
         "provider": "elcinema",
-        "name": "Mix",
+        "name": "Alsumaria",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1322",
+        "key": "elcinema:1392",
         "provider": "elcinema",
-        "name": "BEIN MOVIES PREMIERE",
+        "name": "OSN TV Movies Family",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1391",
+        "key": "elcinema:1324",
         "provider": "elcinema",
-        "name": "OSN TV Movies Hollywood",
+        "name": "BEIN MOVIES DRAMA",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1330",
+        "key": "elcinema:1394",
         "provider": "elcinema",
-        "name": "Star Action",
+        "name": "OSN TV Showcase",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1213",
+        "key": "elcinema:1176",
         "provider": "elcinema",
-        "name": "OSN TV Movies Premiere",
+        "name": "Cima",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1399",
+        "key": "elcinema:1404",
         "provider": "elcinema",
-        "name": "MBC Masr Drama",
+        "name": "One Movies",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1336",
+        "key": "elcinema:1148",
         "provider": "elcinema",
-        "name": "Maspero Zaman",
+        "name": "Rotana Cinema Masr",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1264",
+        "provider": "elcinema",
+        "name": "Al Dafrah",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2389,13 +2396,6 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1301",
-        "provider": "elcinema",
-        "name": "Alsumaria",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "elcinema:1252",
         "provider": "elcinema",
         "name": "Al Kahera Wal Nas TV 2",
@@ -2403,9 +2403,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1308",
+        "key": "elcinema:1322",
         "provider": "elcinema",
-        "name": "Watania1",
+        "name": "BEIN MOVIES PREMIERE",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2459,16 +2459,16 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1148",
+        "key": "elcinema:1401",
         "provider": "elcinema",
-        "name": "Rotana Cinema Masr",
+        "name": "Masah",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1401",
+        "key": "elcinema:1391",
         "provider": "elcinema",
-        "name": "Masah",
+        "name": "OSN TV Movies Hollywood",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2483,6 +2483,13 @@
         "key": "elcinema:1199",
         "provider": "elcinema",
         "name": "CBC Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1213",
+        "provider": "elcinema",
+        "name": "OSN TV Movies Premiere",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2515,13 +2522,6 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1264",
-        "provider": "elcinema",
-        "name": "Al Dafrah",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "elcinema:1309",
         "provider": "elcinema",
         "name": "beIN Drama",
@@ -2543,13 +2543,6 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1324",
-        "provider": "elcinema",
-        "name": "BEIN MOVIES DRAMA",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "elcinema:1325",
         "provider": "elcinema",
         "name": "BEIN MOVIES FAMILY",
@@ -2557,16 +2550,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1212",
+        "key": "elcinema:1399",
         "provider": "elcinema",
-        "name": "Star Movies",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1394",
-        "provider": "elcinema",
-        "name": "OSN TV Showcase",
+        "name": "MBC Masr Drama",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2588,13 +2574,6 @@
         "key": "elcinema:1405",
         "provider": "elcinema",
         "name": "One Drama",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1392",
-        "provider": "elcinema",
-        "name": "OSN TV Movies Family",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2662,20 +2641,6 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1404",
-        "provider": "elcinema",
-        "name": "One Movies",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1329",
-        "provider": "elcinema",
-        "name": "Star World",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "elcinema:1398",
         "provider": "elcinema",
         "name": "Althania",
@@ -2683,9 +2648,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1371",
+        "key": "elcinema:1336",
         "provider": "elcinema",
-        "name": "Mix Bel Araby",
+        "name": "Maspero Zaman",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2704,6 +2669,13 @@
         "candidates": []
       },
       {
+        "key": "elcinema:1371",
+        "provider": "elcinema",
+        "name": "Mix Bel Araby",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "elcinema:1390",
         "provider": "elcinema",
         "name": "OSN TV Yahala Bil Arabi",
@@ -2718,23 +2690,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1176",
-        "provider": "elcinema",
-        "name": "Cima",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "elcinema:1290",
         "provider": "elcinema",
         "name": "DMC",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1334",
-        "provider": "elcinema",
-        "name": "Watania 2",
         "reason": "unmapped",
         "candidates": []
       },
@@ -4363,13 +4321,6 @@
         "candidates": []
       },
       {
-        "key": "supersport:cria",
-        "provider": "supersport",
-        "name": "SuperSport Cricket Africa",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "supersport:epla",
         "provider": "supersport",
         "name": "SuperSport Premier League Africa",
@@ -4384,9 +4335,9 @@
         "candidates": []
       },
       {
-        "key": "supersport:evsa",
+        "key": "supersport:extr",
         "provider": "supersport",
-        "name": "SuperSport Events SA",
+        "name": "SuperSport Extra",
         "reason": "unmapped",
         "candidates": []
       },
@@ -4454,9 +4405,9 @@
         "candidates": []
       },
       {
-        "key": "supersport:gola",
+        "key": "supersport:gsda",
         "provider": "supersport",
-        "name": "SuperSport Golf Africa",
+        "name": "SuperSport Grandstand Africa",
         "reason": "unmapped",
         "candidates": []
       },
@@ -4510,13 +4461,6 @@
         "candidates": []
       },
       {
-        "key": "supersport:ruga",
-        "provider": "supersport",
-        "name": "SuperSport Rugby Africa",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "supersport:ssm3",
         "provider": "supersport",
         "name": "Maximo 3",
@@ -4531,30 +4475,16 @@
         "candidates": []
       },
       {
-        "key": "supersport:sswa",
+        "key": "supersport:wwe",
         "provider": "supersport",
-        "name": "SuperSport Swahili",
+        "name": "WWE Channel",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "supersport:mspa",
+        "key": "supersport:ruga",
         "provider": "supersport",
-        "name": "SuperSport Motorsport Africa",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:gsda",
-        "provider": "supersport",
-        "name": "SuperSport Grandstand Africa",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:afr1",
-        "provider": "supersport",
-        "name": "SuperSport Africa ROA",
+        "name": "SuperSport Rugby Africa",
         "reason": "unmapped",
         "candidates": []
       },
@@ -4566,37 +4496,23 @@
         "candidates": []
       },
       {
-        "key": "supersport:lign",
+        "key": "supersport:cria",
         "provider": "supersport",
-        "name": "SuperSport LaLiga Nigeria",
+        "name": "SuperSport Cricket Africa",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "supersport:extr",
+        "key": "supersport:afr1",
         "provider": "supersport",
-        "name": "SuperSport Extra",
+        "name": "SuperSport Africa ROA",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "supersport:tena",
+        "key": "supersport:afrsa",
         "provider": "supersport",
-        "name": "SuperSport Tennis Africa",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:wwe",
-        "provider": "supersport",
-        "name": "WWE Channel",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "supersport:glig",
-        "provider": "supersport",
-        "name": "SuperSport GOtv LaLiga",
+        "name": "SuperSport Africa SA",
         "reason": "unmapped",
         "candidates": []
       },
@@ -4622,9 +4538,51 @@
         "candidates": []
       },
       {
+        "key": "supersport:sswa",
+        "provider": "supersport",
+        "name": "SuperSport Swahili",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:gola",
+        "provider": "supersport",
+        "name": "SuperSport Golf Africa",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:mspa",
+        "provider": "supersport",
+        "name": "SuperSport Motorsport Africa",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:tena",
+        "provider": "supersport",
+        "name": "SuperSport Tennis Africa",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:glig",
+        "provider": "supersport",
+        "name": "SuperSport GOtv LaLiga",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "supersport:liga",
         "provider": "supersport",
         "name": "SuperSport LaLiga Africa",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "supersport:lign",
+        "provider": "supersport",
+        "name": "SuperSport LaLiga Nigeria",
         "reason": "unmapped",
         "candidates": []
       },
@@ -4636,9 +4594,9 @@
         "candidates": []
       },
       {
-        "key": "supersport:afrsa",
+        "key": "supersport:evsa",
         "provider": "supersport",
-        "name": "SuperSport Africa SA",
+        "name": "SuperSport Events SA",
         "reason": "unmapped",
         "candidates": []
       },
@@ -4679,6 +4637,6 @@
     "title": 0,
     "time": 0,
     "range": 0,
-    "duration": 35
+    "duration": 34
   }
 }

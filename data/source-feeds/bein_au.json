@@ -6,7 +6,7 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "en-au",
   "timezone": "UTC",
-  "generatedAt": "2026-11-17T20:58:46.308Z",
+  "generatedAt": "2026-11-18T07:27:04.554Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 4,
@@ -20,246 +20,6 @@
       "name": "beIN SPORTS XTRA",
       "region": "en-au",
       "programmes": [
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794873600000:semi final - 1st leg",
-          "title": "Semi Final - 1st Leg",
-          "description": "All the highlights from every round of the 2026 Copa Libertadores. South America's premier club football tournament.All the highlights from every round of the 2026 Copa Libertadores. South America's premier club football tournament.",
-          "start": "2026-11-17T00:00:00.000Z",
-          "end": "2026-11-17T00:30:00.000Z",
-          "startEpochSeconds": 1794873600,
-          "endEpochSeconds": 1794875400,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794875400000:semi final - 2nd leg",
-          "title": "Semi Final - 2nd Leg",
-          "description": "All the highlights from every round of the 2026 Copa Libertadores. South America's premier club football tournament.All the highlights from every round of the 2026 Copa Libertadores. South America's premier club football tournament.",
-          "start": "2026-11-17T00:30:00.000Z",
-          "end": "2026-11-17T01:00:00.000Z",
-          "startEpochSeconds": 1794875400,
-          "endEpochSeconds": 1794877200,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794877200000:md5 & md6",
-          "title": "MD5 & MD6",
-          "description": "Take a look with us at the preview of the upcoming UEFA Nations League matches.Take a look with us at the preview of the upcoming UEFA Nations League matches.",
-          "start": "2026-11-17T01:00:00.000Z",
-          "end": "2026-11-17T01:30:00.000Z",
-          "startEpochSeconds": 1794877200,
-          "endEpochSeconds": 1794879000,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794879000000:matchday 1",
-          "title": "Matchday 1",
-          "description": "Don’t miss any of the action with the official UEFA Nations League matchday highlights show.Don’t miss any of the action with the official UEFA Nations League matchday highlights show.",
-          "start": "2026-11-17T01:30:00.000Z",
-          "end": "2026-11-17T02:30:00.000Z",
-          "startEpochSeconds": 1794879000,
-          "endEpochSeconds": 1794882600,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794882600000:matchday 2",
-          "title": "Matchday 2",
-          "description": "Don’t miss any of the action with the official UEFA Nations League matchday highlights show.Don’t miss any of the action with the official UEFA Nations League matchday highlights show.",
-          "start": "2026-11-17T02:30:00.000Z",
-          "end": "2026-11-17T03:30:00.000Z",
-          "startEpochSeconds": 1794882600,
-          "endEpochSeconds": 1794886200,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794886200000:matchday 3",
-          "title": "Matchday 3",
-          "description": "Don’t miss any of the action with the official UEFA Nations League matchday highlights show.Don’t miss any of the action with the official UEFA Nations League matchday highlights show.",
-          "start": "2026-11-17T03:30:00.000Z",
-          "end": "2026-11-17T04:30:00.000Z",
-          "startEpochSeconds": 1794886200,
-          "endEpochSeconds": 1794889800,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794889800000:matchday 4",
-          "title": "Matchday 4",
-          "description": "Don’t miss any of the action with the official UEFA Nations League matchday highlights show.Don’t miss any of the action with the official UEFA Nations League matchday highlights show.",
-          "start": "2026-11-17T04:30:00.000Z",
-          "end": "2026-11-17T05:30:00.000Z",
-          "startEpochSeconds": 1794889800,
-          "endEpochSeconds": 1794893400,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794893400000:md5 & md6",
-          "title": "MD5 & MD6",
-          "description": "Take a look with us at the preview of the upcoming UEFA Nations League matches.Take a look with us at the preview of the upcoming UEFA Nations League matches.",
-          "start": "2026-11-17T05:30:00.000Z",
-          "end": "2026-11-17T06:00:00.000Z",
-          "startEpochSeconds": 1794893400,
-          "endEpochSeconds": 1794895200,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794895200000:germany vs france",
-          "title": "Germany vs France",
-          "description": "We look back at some of the classic UEFA Nations League matches.",
-          "start": "2026-11-17T06:00:00.000Z",
-          "end": "2026-11-17T06:30:00.000Z",
-          "startEpochSeconds": 1794895200,
-          "endEpochSeconds": 1794897000,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794897000000:spain vs portugal",
-          "title": "Spain vs Portugal",
-          "description": "We look back at some of the classic UEFA Nations League matches.",
-          "start": "2026-11-17T06:30:00.000Z",
-          "end": "2026-11-17T07:00:00.000Z",
-          "startEpochSeconds": 1794897000,
-          "endEpochSeconds": 1794898800,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794898800000:villarreal vs barcelona - 2013/14",
-          "title": "Villarreal vs Barcelona - 2013/14",
-          "description": "Relive the best and memorable LaLiga matches over the years in this series of classics.Relive the best and memorable LaLiga matches over the years in this series of classics.",
-          "start": "2026-11-17T07:00:00.000Z",
-          "end": "2026-11-17T08:50:00.000Z",
-          "startEpochSeconds": 1794898800,
-          "endEpochSeconds": 1794905400,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794905400000:real madrid vs granada - 2014/15",
-          "title": "Real Madrid vs Granada - 2014/15",
-          "description": "Relive the best and memorable LaLiga matches over the years in this series of classics.Relive the best and memorable LaLiga matches over the years in this series of classics.",
-          "start": "2026-11-17T08:50:00.000Z",
-          "end": "2026-11-17T10:40:00.000Z",
-          "startEpochSeconds": 1794905400,
-          "endEpochSeconds": 1794912000,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794912000000:sevilla vs real betis - 2015/16",
-          "title": "Sevilla vs Real Betis - 2015/16",
-          "description": "Relive the best and memorable LaLiga matches over the years in this series of classics.Relive the best and memorable LaLiga matches over the years in this series of classics.",
-          "start": "2026-11-17T10:40:00.000Z",
-          "end": "2026-11-17T12:30:00.000Z",
-          "startEpochSeconds": 1794912000,
-          "endEpochSeconds": 1794918600,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794918600000:jesus navas",
-          "title": "Jesus Navas",
-          "description": "Narrates in detail the huge contribution of six outstanding players have made to Spanish football.Narrates in detail the huge contribution of six outstanding players have made to Spanish football.",
-          "start": "2026-11-17T12:30:00.000Z",
-          "end": "2026-11-17T13:00:00.000Z",
-          "startEpochSeconds": 1794918600,
-          "endEpochSeconds": 1794920400,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794920400000:md5 & md6",
-          "title": "MD5 & MD6",
-          "description": "Take a look with us at the preview of the upcoming UEFA Nations League matches.Take a look with us at the preview of the upcoming UEFA Nations League matches.",
-          "start": "2026-11-17T13:00:00.000Z",
-          "end": "2026-11-17T13:30:00.000Z",
-          "startEpochSeconds": 1794920400,
-          "endEpochSeconds": 1794922200,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794922200000:matchday 1",
-          "title": "Matchday 1",
-          "description": "Don’t miss any of the action with the official UEFA Nations League matchday highlights show.Don’t miss any of the action with the official UEFA Nations League matchday highlights show.",
-          "start": "2026-11-17T13:30:00.000Z",
-          "end": "2026-11-17T14:30:00.000Z",
-          "startEpochSeconds": 1794922200,
-          "endEpochSeconds": 1794925800,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794925800000:matchday 2",
-          "title": "Matchday 2",
-          "description": "Don’t miss any of the action with the official UEFA Nations League matchday highlights show.Don’t miss any of the action with the official UEFA Nations League matchday highlights show.",
-          "start": "2026-11-17T14:30:00.000Z",
-          "end": "2026-11-17T15:30:00.000Z",
-          "startEpochSeconds": 1794925800,
-          "endEpochSeconds": 1794929400,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794929400000:matchday 3",
-          "title": "Matchday 3",
-          "description": "Don’t miss any of the action with the official UEFA Nations League matchday highlights show.Don’t miss any of the action with the official UEFA Nations League matchday highlights show.",
-          "start": "2026-11-17T15:30:00.000Z",
-          "end": "2026-11-17T16:30:00.000Z",
-          "startEpochSeconds": 1794929400,
-          "endEpochSeconds": 1794933000,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794933000000:matchday 4",
-          "title": "Matchday 4",
-          "description": "Don’t miss any of the action with the official UEFA Nations League matchday highlights show.Don’t miss any of the action with the official UEFA Nations League matchday highlights show.",
-          "start": "2026-11-17T16:30:00.000Z",
-          "end": "2026-11-17T17:30:00.000Z",
-          "startEpochSeconds": 1794933000,
-          "endEpochSeconds": 1794936600,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794936600000:md5 & md6",
-          "title": "MD5 & MD6",
-          "description": "Take a look with us at the preview of the upcoming UEFA Nations League matches.Take a look with us at the preview of the upcoming UEFA Nations League matches.",
-          "start": "2026-11-17T17:30:00.000Z",
-          "end": "2026-11-17T18:00:00.000Z",
-          "startEpochSeconds": 1794936600,
-          "endEpochSeconds": 1794938400,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794938400000:germany vs france",
-          "title": "Germany vs France",
-          "description": "We look back at some of the classic UEFA Nations League matches.",
-          "start": "2026-11-17T18:00:00.000Z",
-          "end": "2026-11-17T18:30:00.000Z",
-          "startEpochSeconds": 1794938400,
-          "endEpochSeconds": 1794940200,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794940200000:spain vs portugal",
-          "title": "Spain vs Portugal",
-          "description": "We look back at some of the classic UEFA Nations League matches.",
-          "start": "2026-11-17T18:30:00.000Z",
-          "end": "2026-11-17T19:00:00.000Z",
-          "startEpochSeconds": 1794940200,
-          "endEpochSeconds": 1794942000,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794942000000:villarreal vs barcelona - 2013/14",
-          "title": "Villarreal vs Barcelona - 2013/14",
-          "description": "Relive the best and memorable LaLiga matches over the years in this series of classics.Relive the best and memorable LaLiga matches over the years in this series of classics.",
-          "start": "2026-11-17T19:00:00.000Z",
-          "end": "2026-11-17T20:50:00.000Z",
-          "startEpochSeconds": 1794942000,
-          "endEpochSeconds": 1794948600,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794948600000:real madrid vs granada - 2014/15",
-          "title": "Real Madrid vs Granada - 2014/15",
-          "description": "Relive the best and memorable LaLiga matches over the years in this series of classics.Relive the best and memorable LaLiga matches over the years in this series of classics.",
-          "start": "2026-11-17T20:50:00.000Z",
-          "end": "2026-11-17T22:40:00.000Z",
-          "startEpochSeconds": 1794948600,
-          "endEpochSeconds": 1794955200,
-          "source": "bein_au"
-        },
         {
           "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1794955200000:sevilla vs real betis - 2015/16",
           "title": "Sevilla vs Real Betis - 2015/16",
@@ -1169,6 +929,226 @@
           "startEpochSeconds": 1795303800,
           "endEpochSeconds": 1795305600,
           "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795305600000:episode number 13",
+          "title": "Episode Number 13",
+          "description": "Weekly preview show with all relevant information on upcoming matches and the latest news from the BundesligaWeekly preview show with all relevant information on upcoming matches and the latest news from the Bundesliga",
+          "start": "2026-11-22T00:00:00.000Z",
+          "end": "2026-11-22T00:30:00.000Z",
+          "startEpochSeconds": 1795305600,
+          "endEpochSeconds": 1795307400,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795307400000:roots – kane, maza & romulo",
+          "title": "Roots – Kane, Maza & Romulo",
+          "description": "Unique insights and behind the scenes stories about Bundesliga clubs and players.Unique insights and behind the scenes stories about Bundesliga clubs and players.",
+          "start": "2026-11-22T00:30:00.000Z",
+          "end": "2026-11-22T01:00:00.000Z",
+          "startEpochSeconds": 1795307400,
+          "endEpochSeconds": 1795309200,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795309200000:made in brazil",
+          "title": "Made In Brazil",
+          "description": "Get your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN SportsGet your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN Sports",
+          "start": "2026-11-22T01:00:00.000Z",
+          "end": "2026-11-22T02:00:00.000Z",
+          "startEpochSeconds": 1795309200,
+          "endEpochSeconds": 1795312800,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795312800000:goals on film: 1998/99",
+          "title": "Goals On Film: 1998/99",
+          "description": "Get your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN SportsGet your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN Sports",
+          "start": "2026-11-22T02:00:00.000Z",
+          "end": "2026-11-22T03:00:00.000Z",
+          "startEpochSeconds": 1795312800,
+          "endEpochSeconds": 1795316400,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795316400000:legends tonight - denis irwin",
+          "title": "Legends Tonight - Denis Irwin",
+          "description": "Get your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN SportsGet your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN Sports",
+          "start": "2026-11-22T03:00:00.000Z",
+          "end": "2026-11-22T04:00:00.000Z",
+          "startEpochSeconds": 1795316400,
+          "endEpochSeconds": 1795320000,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795320000000:eric harrison's class of '92",
+          "title": "Eric Harrison's Class of '92",
+          "description": "Get your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN SportsGet your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN Sports",
+          "start": "2026-11-22T04:00:00.000Z",
+          "end": "2026-11-22T05:30:00.000Z",
+          "startEpochSeconds": 1795320000,
+          "endEpochSeconds": 1795325400,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795325400000:leadership: sir alex ferguson",
+          "title": "Leadership: Sir Alex Ferguson",
+          "description": "Get your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN SportsGet your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN Sports",
+          "start": "2026-11-22T05:30:00.000Z",
+          "end": "2026-11-22T06:00:00.000Z",
+          "startEpochSeconds": 1795325400,
+          "endEpochSeconds": 1795327200,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795327200000:ronaldo",
+          "title": "Ronaldo",
+          "description": "In this MUTV special, enjoy every goal from this United legend, from 1 yard tap-ins to 30 yard screamers and everything in between.In this MUTV special, enjoy every goal from this United legend, from 1 yard tap-ins to 30 yard screamers and everything in between.",
+          "start": "2026-11-22T06:00:00.000Z",
+          "end": "2026-11-22T07:00:00.000Z",
+          "startEpochSeconds": 1795327200,
+          "endEpochSeconds": 1795330800,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795330800000:exeter vs cheltenham",
+          "title": "Exeter vs Cheltenham",
+          "description": "Catch the best of the action from EFL League Two 2026/27, the thrilling third tier of English Football League.Catch the best of the action from EFL League Two 2026/27, the thrilling third tier of English Football League.",
+          "start": "2026-11-22T07:00:00.000Z",
+          "end": "2026-11-22T08:50:00.000Z",
+          "startEpochSeconds": 1795330800,
+          "endEpochSeconds": 1795337400,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795337400000:fleetwood town vs tranmere",
+          "title": "Fleetwood Town vs Tranmere",
+          "description": "Catch the best of the action from EFL League Two 2026/27, the thrilling third tier of English Football League.Catch the best of the action from EFL League Two 2026/27, the thrilling third tier of English Football League.",
+          "start": "2026-11-22T08:50:00.000Z",
+          "end": "2026-11-22T10:40:00.000Z",
+          "startEpochSeconds": 1795337400,
+          "endEpochSeconds": 1795344000,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795344000000:matchday 15",
+          "title": "Matchday 15",
+          "description": "Don't miss out on the thrilling action and highlights from the latest games in the 2026/27 season of the EFL Championship, League One, and League Two.Don't miss out on the thrilling action and highlights from the latest games in the 2026/27 season of the EFL Championship, League One, and League Two.",
+          "start": "2026-11-22T10:40:00.000Z",
+          "end": "2026-11-22T11:10:00.000Z",
+          "startEpochSeconds": 1795344000,
+          "endEpochSeconds": 1795345800,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795345800000:everton vs newcastle - rd 4",
+          "title": "Everton vs Newcastle - RD 4",
+          "description": "Get ready for the 2025/26 Carabao Cup, the EFL knockout cup, where teams from the EFL and Premier League compete fiercely for a coveted spot at the iconic Wembley Stadium.Get ready for the 2026/27 Carabao Cup, the EFL knockout cup, where teams from the EFL and Premier League compete fiercely for a coveted spot at the iconic Wembley Stadium.",
+          "start": "2026-11-22T11:10:00.000Z",
+          "end": "2026-11-22T13:00:00.000Z",
+          "startEpochSeconds": 1795345800,
+          "endEpochSeconds": 1795352400,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795352400000:made in brazil",
+          "title": "Made In Brazil",
+          "description": "Get your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN SportsGet your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN Sports",
+          "start": "2026-11-22T13:00:00.000Z",
+          "end": "2026-11-22T14:00:00.000Z",
+          "startEpochSeconds": 1795352400,
+          "endEpochSeconds": 1795356000,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795356000000:goals on film: 1998/99",
+          "title": "Goals On Film: 1998/99",
+          "description": "Get your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN SportsGet your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN Sports",
+          "start": "2026-11-22T14:00:00.000Z",
+          "end": "2026-11-22T15:00:00.000Z",
+          "startEpochSeconds": 1795356000,
+          "endEpochSeconds": 1795359600,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795359600000:legends tonight - denis irwin",
+          "title": "Legends Tonight - Denis Irwin",
+          "description": "Get your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN SportsGet your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN Sports",
+          "start": "2026-11-22T15:00:00.000Z",
+          "end": "2026-11-22T16:00:00.000Z",
+          "startEpochSeconds": 1795359600,
+          "endEpochSeconds": 1795363200,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795363200000:eric harrison's class of '92",
+          "title": "Eric Harrison's Class of '92",
+          "description": "Get your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN SportsGet your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN Sports",
+          "start": "2026-11-22T16:00:00.000Z",
+          "end": "2026-11-22T17:30:00.000Z",
+          "startEpochSeconds": 1795363200,
+          "endEpochSeconds": 1795368600,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795368600000:leadership: sir alex ferguson",
+          "title": "Leadership: Sir Alex Ferguson",
+          "description": "Get your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN SportsGet your fix of award winning films, documentaries & original programming related to the Red Devils as part of MUTV, only on beIN Sports",
+          "start": "2026-11-22T17:30:00.000Z",
+          "end": "2026-11-22T18:00:00.000Z",
+          "startEpochSeconds": 1795368600,
+          "endEpochSeconds": 1795370400,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795370400000:ronaldo",
+          "title": "Ronaldo",
+          "description": "In this MUTV special, enjoy every goal from this United legend, from 1 yard tap-ins to 30 yard screamers and everything in between.In this MUTV special, enjoy every goal from this United legend, from 1 yard tap-ins to 30 yard screamers and everything in between.",
+          "start": "2026-11-22T18:00:00.000Z",
+          "end": "2026-11-22T19:00:00.000Z",
+          "startEpochSeconds": 1795370400,
+          "endEpochSeconds": 1795374000,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795374000000:exeter vs cheltenham",
+          "title": "Exeter vs Cheltenham",
+          "description": "Catch the best of the action from EFL League Two 2026/27, the thrilling third tier of English Football League.Catch the best of the action from EFL League Two 2026/27, the thrilling third tier of English Football League.",
+          "start": "2026-11-22T19:00:00.000Z",
+          "end": "2026-11-22T20:50:00.000Z",
+          "startEpochSeconds": 1795374000,
+          "endEpochSeconds": 1795380600,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795380600000:fleetwood town vs tranmere",
+          "title": "Fleetwood Town vs Tranmere",
+          "description": "Catch the best of the action from EFL League Two 2026/27, the thrilling third tier of English Football League.Catch the best of the action from EFL League Two 2026/27, the thrilling third tier of English Football League.",
+          "start": "2026-11-22T20:50:00.000Z",
+          "end": "2026-11-22T22:40:00.000Z",
+          "startEpochSeconds": 1795380600,
+          "endEpochSeconds": 1795387200,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795387200000:matchday 15",
+          "title": "Matchday 15",
+          "description": "Don't miss out on the thrilling action and highlights from the latest games in the 2026/27 season of the EFL Championship, League One, and League Two.Don't miss out on the thrilling action and highlights from the latest games in the 2026/27 season of the EFL Championship, League One, and League Two.",
+          "start": "2026-11-22T22:40:00.000Z",
+          "end": "2026-11-22T23:10:00.000Z",
+          "startEpochSeconds": 1795387200,
+          "endEpochSeconds": 1795389000,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795389000000:everton vs newcastle - rd 4",
+          "title": "Everton vs Newcastle - RD 4",
+          "description": "Get ready for the 2025/26 Carabao Cup, the EFL knockout cup, where teams from the EFL and Premier League compete fiercely for a coveted spot at the iconic Wembley Stadium.Get ready for the 2026/27 Carabao Cup, the EFL knockout cup, where teams from the EFL and Premier League compete fiercely for a coveted spot at the iconic Wembley Stadium.",
+          "start": "2026-11-22T23:10:00.000Z",
+          "end": "2026-11-23T01:00:00.000Z",
+          "startEpochSeconds": 1795389000,
+          "endEpochSeconds": 1795395600,
+          "source": "bein_au"
         }
       ]
     },
@@ -1177,216 +1157,6 @@
       "name": "beIN SPORTS 2",
       "region": "en-au",
       "programmes": [
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794868200000:sudan vs senegal",
-          "title": "Sudan vs Senegal",
-          "description": "Catch all the action as the teams view for a spot in the 2027 Africa Cup of Nations, which will be jointly hosted by Kenya, Tanzania, and Uganda.Catch all the action as the teams view for a spot in the 2027 Africa Cup of Nations, which will be jointly hosted by Kenya, Tanzania, and Uganda.",
-          "start": "2026-11-16T22:30:00.000Z",
-          "end": "2026-11-17T00:20:00.000Z",
-          "startEpochSeconds": 1794868200,
-          "endEpochSeconds": 1794874800,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794874800000:namibia vs cameroon",
-          "title": "Namibia vs Cameroon",
-          "description": "Catch all the action as the teams view for a spot in the 2027 Africa Cup of Nations, which will be jointly hosted by Kenya, Tanzania, and Uganda.Catch all the action as the teams view for a spot in the 2027 Africa Cup of Nations, which will be jointly hosted by Kenya, Tanzania, and Uganda.",
-          "start": "2026-11-17T00:20:00.000Z",
-          "end": "2026-11-17T02:10:00.000Z",
-          "startEpochSeconds": 1794874800,
-          "endEpochSeconds": 1794881400,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794881400000:juventus vs atalanta - 2022/23",
-          "title": "Juventus vs Atalanta - 2022/23",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A",
-          "start": "2026-11-17T02:10:00.000Z",
-          "end": "2026-11-17T02:20:00.000Z",
-          "startEpochSeconds": 1794881400,
-          "endEpochSeconds": 1794882000,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794882000000:germany vs netherlands",
-          "title": "Germany vs Netherlands",
-          "description": "The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027",
-          "start": "2026-11-17T02:20:00.000Z",
-          "end": "2026-11-17T04:10:00.000Z",
-          "startEpochSeconds": 1794882000,
-          "endEpochSeconds": 1794888600,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794888600000:switzerland vs scotland",
-          "title": "Switzerland vs Scotland",
-          "description": "The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027",
-          "start": "2026-11-17T04:10:00.000Z",
-          "end": "2026-11-17T06:00:00.000Z",
-          "startEpochSeconds": 1794888600,
-          "endEpochSeconds": 1794895200,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794895200000:belgium vs italy",
-          "title": "Belgium vs Italy",
-          "description": "The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027",
-          "start": "2026-11-17T06:00:00.000Z",
-          "end": "2026-11-17T07:50:00.000Z",
-          "startEpochSeconds": 1794895200,
-          "endEpochSeconds": 1794901800,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794901800000:germany vs portugal",
-          "title": "Germany vs Portugal",
-          "description": "We look back at some of the classic UEFA Nations League matches.",
-          "start": "2026-11-17T07:50:00.000Z",
-          "end": "2026-11-17T08:20:00.000Z",
-          "startEpochSeconds": 1794901800,
-          "endEpochSeconds": 1794903600,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794903600000:spain vs france",
-          "title": "Spain vs France",
-          "description": "We look back at some of the classic UEFA Nations League matches.",
-          "start": "2026-11-17T08:20:00.000Z",
-          "end": "2026-11-17T08:50:00.000Z",
-          "startEpochSeconds": 1794903600,
-          "endEpochSeconds": 1794905400,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794905400000:sudan vs senegal",
-          "title": "Sudan vs Senegal",
-          "description": "Catch all the action as the teams view for a spot in the 2027 Africa Cup of Nations, which will be jointly hosted by Kenya, Tanzania, and Uganda.Catch all the action as the teams view for a spot in the 2027 Africa Cup of Nations, which will be jointly hosted by Kenya, Tanzania, and Uganda.",
-          "start": "2026-11-17T08:50:00.000Z",
-          "end": "2026-11-17T10:40:00.000Z",
-          "startEpochSeconds": 1794905400,
-          "endEpochSeconds": 1794912000,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794912000000:namibia vs cameroon",
-          "title": "Namibia vs Cameroon",
-          "description": "Catch all the action as the teams view for a spot in the 2027 Africa Cup of Nations, which will be jointly hosted by Kenya, Tanzania, and Uganda.Catch all the action as the teams view for a spot in the 2027 Africa Cup of Nations, which will be jointly hosted by Kenya, Tanzania, and Uganda.",
-          "start": "2026-11-17T10:40:00.000Z",
-          "end": "2026-11-17T12:30:00.000Z",
-          "startEpochSeconds": 1794912000,
-          "endEpochSeconds": 1794918600,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794918600000:lazio",
-          "title": "Lazio",
-          "description": "Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.",
-          "start": "2026-11-17T12:30:00.000Z",
-          "end": "2026-11-17T12:45:00.000Z",
-          "startEpochSeconds": 1794918600,
-          "endEpochSeconds": 1794919500,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794919500000:tanzania vs nigeria",
-          "title": "Tanzania vs Nigeria",
-          "description": "Catch all the action as the teams view for a spot in the 2027 Africa Cup of Nations, which will be jointly hosted by Kenya, Tanzania, and Uganda.Catch all the action as the teams view for a spot in the 2027 Africa Cup of Nations, which will be jointly hosted by Kenya, Tanzania, and Uganda.",
-          "start": "2026-11-17T12:45:00.000Z",
-          "end": "2026-11-17T15:00:00.000Z",
-          "startEpochSeconds": 1794919500,
-          "endEpochSeconds": 1794927600,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794927600000:milan vs atalanta 2025/26",
-          "title": "Milan vs Atalanta 2025/26",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-17T15:00:00.000Z",
-          "end": "2026-11-17T15:30:00.000Z",
-          "startEpochSeconds": 1794927600,
-          "endEpochSeconds": 1794929400,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794929400000:milan vs inter - 2023/24",
-          "title": "Milan vs Inter - 2023/24",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A",
-          "start": "2026-11-17T15:30:00.000Z",
-          "end": "2026-11-17T15:45:00.000Z",
-          "startEpochSeconds": 1794929400,
-          "endEpochSeconds": 1794930300,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794930300000:togo vs algeria",
-          "title": "Togo vs Algeria",
-          "description": "Catch all the action as the teams view for a spot in the 2027 Africa Cup of Nations, which will be jointly hosted by Kenya, Tanzania, and Uganda.Catch all the action as the teams view for a spot in the 2027 Africa Cup of Nations, which will be jointly hosted by Kenya, Tanzania, and Uganda.",
-          "start": "2026-11-17T15:45:00.000Z",
-          "end": "2026-11-17T18:00:00.000Z",
-          "startEpochSeconds": 1794930300,
-          "endEpochSeconds": 1794938400,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794938400000:milan vs torino 2025/26",
-          "title": "Milan vs Torino 2025/26",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-17T18:00:00.000Z",
-          "end": "2026-11-17T18:30:00.000Z",
-          "startEpochSeconds": 1794938400,
-          "endEpochSeconds": 1794940200,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794940200000:napoli vs bologna 2025/26",
-          "title": "Napoli vs Bologna 2025/26",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-17T18:30:00.000Z",
-          "end": "2026-11-17T19:00:00.000Z",
-          "startEpochSeconds": 1794940200,
-          "endEpochSeconds": 1794942000,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794942000000:napoli vs inter 2025/26",
-          "title": "Napoli vs Inter 2025/26",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-17T19:00:00.000Z",
-          "end": "2026-11-17T19:30:00.000Z",
-          "startEpochSeconds": 1794942000,
-          "endEpochSeconds": 1794943800,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794943800000:penalty goal",
-          "title": "Penalty Goal",
-          "description": "Bundesliga Goals features how to score the perfect goal and sublime moments of the game that has captivated audiences around the world.What does the perfect goal look like? We show you how Bundesliga teams manage to score the perfect goals.",
-          "start": "2026-11-17T19:30:00.000Z",
-          "end": "2026-11-17T19:35:00.000Z",
-          "startEpochSeconds": 1794943800,
-          "endEpochSeconds": 1794944100,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794944100000:denmark vs norway",
-          "title": "Denmark vs Norway",
-          "description": "The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027",
-          "start": "2026-11-17T19:35:00.000Z",
-          "end": "2026-11-17T22:00:00.000Z",
-          "startEpochSeconds": 1794944100,
-          "endEpochSeconds": 1794952800,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794952800000:roma vs inter - 2017/18",
-          "title": "Roma vs Inter - 2017/18",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-17T22:00:00.000Z",
-          "end": "2026-11-17T22:30:00.000Z",
-          "startEpochSeconds": 1794952800,
-          "endEpochSeconds": 1794954600,
-          "source": "bein_au"
-        },
         {
           "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1794954600000:malawi vs egypt",
           "title": "Malawi vs Egypt",
@@ -2346,6 +2116,206 @@
           "startEpochSeconds": 1795305000,
           "endEpochSeconds": 1795311600,
           "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795311600000:napoli vs juventus - 2022/23",
+          "title": "Napoli vs Juventus - 2022/23",
+          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A",
+          "start": "2026-11-22T01:40:00.000Z",
+          "end": "2026-11-22T01:50:00.000Z",
+          "startEpochSeconds": 1795311600,
+          "endEpochSeconds": 1795312200,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795312200000:leverkusen vs paderborn",
+          "title": "Leverkusen vs Paderborn",
+          "description": "Watch every game of the season live as the top German football clubs battle it out in the Bundesliga, Germany's top division of football.Watch every game of the season live as the top German football clubs battle it out in the Bundesliga, Germany's top division of football.",
+          "start": "2026-11-22T01:50:00.000Z",
+          "end": "2026-11-22T03:40:00.000Z",
+          "startEpochSeconds": 1795312200,
+          "endEpochSeconds": 1795318800,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795318800000:monchengladbach vs dortmund",
+          "title": "Monchengladbach vs Dortmund",
+          "description": "Watch every game of the season live as the top German football clubs battle it out in the Bundesliga, Germany's top division of football.Watch every game of the season live as the top German football clubs battle it out in the Bundesliga, Germany's top division of football.",
+          "start": "2026-11-22T03:40:00.000Z",
+          "end": "2026-11-22T05:30:00.000Z",
+          "startEpochSeconds": 1795318800,
+          "endEpochSeconds": 1795325400,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795325400000:roma vs inter - 2023/24",
+          "title": "Roma vs Inter - 2023/24",
+          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A",
+          "start": "2026-11-22T05:30:00.000Z",
+          "end": "2026-11-22T05:40:00.000Z",
+          "startEpochSeconds": 1795325400,
+          "endEpochSeconds": 1795326000,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795326000000:parma vs roma",
+          "title": "Parma vs Roma",
+          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
+          "start": "2026-11-22T05:40:00.000Z",
+          "end": "2026-11-22T07:30:00.000Z",
+          "startEpochSeconds": 1795326000,
+          "endEpochSeconds": 1795332600,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795332600000:napoli vs torino",
+          "title": "Napoli vs Torino",
+          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
+          "start": "2026-11-22T07:30:00.000Z",
+          "end": "2026-11-22T09:20:00.000Z",
+          "startEpochSeconds": 1795332600,
+          "endEpochSeconds": 1795339200,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795339200000:monchengladbach vs dortmund",
+          "title": "Monchengladbach vs Dortmund",
+          "description": "Watch every game of the season live as the top German football clubs battle it out in the Bundesliga, Germany's top division of football.Watch every game of the season live as the top German football clubs battle it out in the Bundesliga, Germany's top division of football.",
+          "start": "2026-11-22T09:20:00.000Z",
+          "end": "2026-11-22T11:10:00.000Z",
+          "startEpochSeconds": 1795339200,
+          "endEpochSeconds": 1795345800,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795345800000:best ever backheel goals",
+          "title": "Best Ever Backheel Goals",
+          "description": "Bundesliga Goals features how to score the perfect goal and sublime moments of the game that has captivated audiences around the world.What does the perfect goal look like? We show you how Bundesliga teams manage to score the perfect goals.",
+          "start": "2026-11-22T11:10:00.000Z",
+          "end": "2026-11-22T11:23:00.000Z",
+          "startEpochSeconds": 1795345800,
+          "endEpochSeconds": 1795346580,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795346580000:juventus vs venezia",
+          "title": "Juventus vs Venezia",
+          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
+          "start": "2026-11-22T11:23:00.000Z",
+          "end": "2026-11-22T13:35:00.000Z",
+          "startEpochSeconds": 1795346580,
+          "endEpochSeconds": 1795354500,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795354500000:juventus",
+          "title": "Juventus",
+          "description": "Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.",
+          "start": "2026-11-22T13:35:00.000Z",
+          "end": "2026-11-22T13:53:00.000Z",
+          "startEpochSeconds": 1795354500,
+          "endEpochSeconds": 1795355580,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795355580000:bologna vs udinese",
+          "title": "Bologna vs Udinese",
+          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
+          "start": "2026-11-22T13:53:00.000Z",
+          "end": "2026-11-22T16:05:00.000Z",
+          "startEpochSeconds": 1795355580,
+          "endEpochSeconds": 1795363500,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795363500000:napoli vs atalanta - 2021/22",
+          "title": "Napoli vs Atalanta - 2021/22",
+          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
+          "start": "2026-11-22T16:05:00.000Z",
+          "end": "2026-11-22T16:35:00.000Z",
+          "startEpochSeconds": 1795363500,
+          "endEpochSeconds": 1795365300,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795365300000:juventus vs atalanta - 2022/23",
+          "title": "Juventus vs Atalanta - 2022/23",
+          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A",
+          "start": "2026-11-22T16:35:00.000Z",
+          "end": "2026-11-22T16:53:00.000Z",
+          "startEpochSeconds": 1795365300,
+          "endEpochSeconds": 1795366380,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795366380000:milan vs frosinone",
+          "title": "Milan vs Frosinone",
+          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
+          "start": "2026-11-22T16:53:00.000Z",
+          "end": "2026-11-22T19:05:00.000Z",
+          "startEpochSeconds": 1795366380,
+          "endEpochSeconds": 1795374300,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795374300000:ac milan",
+          "title": "AC Milan",
+          "description": "Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.",
+          "start": "2026-11-22T19:05:00.000Z",
+          "end": "2026-11-22T19:20:00.000Z",
+          "startEpochSeconds": 1795374300,
+          "endEpochSeconds": 1795375200,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795375200000:atalanta",
+          "title": "Atalanta",
+          "description": "Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.",
+          "start": "2026-11-22T19:20:00.000Z",
+          "end": "2026-11-22T19:38:00.000Z",
+          "startEpochSeconds": 1795375200,
+          "endEpochSeconds": 1795376280,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795376280000:atalanta vs inter",
+          "title": "Atalanta vs Inter",
+          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
+          "start": "2026-11-22T19:38:00.000Z",
+          "end": "2026-11-22T21:45:00.000Z",
+          "startEpochSeconds": 1795376280,
+          "endEpochSeconds": 1795383900,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795383900000:inter",
+          "title": "Inter",
+          "description": "Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.",
+          "start": "2026-11-22T21:45:00.000Z",
+          "end": "2026-11-22T22:00:00.000Z",
+          "startEpochSeconds": 1795383900,
+          "endEpochSeconds": 1795384800,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795384800000:juventus vs venezia",
+          "title": "Juventus vs Venezia",
+          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
+          "start": "2026-11-22T22:00:00.000Z",
+          "end": "2026-11-22T23:50:00.000Z",
+          "startEpochSeconds": 1795384800,
+          "endEpochSeconds": 1795391400,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795391400000:milan vs frosinone",
+          "title": "Milan vs Frosinone",
+          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
+          "start": "2026-11-22T23:50:00.000Z",
+          "end": "2026-11-23T01:40:00.000Z",
+          "startEpochSeconds": 1795391400,
+          "endEpochSeconds": 1795398000,
+          "source": "bein_au"
         }
       ]
     },
@@ -2354,186 +2324,6 @@
       "name": "beIN SPORTS 3",
       "region": "en-au",
       "programmes": [
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794870000000:germany vs netherlands",
-          "title": "Germany vs Netherlands",
-          "description": "The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027",
-          "start": "2026-11-16T23:00:00.000Z",
-          "end": "2026-11-17T00:50:00.000Z",
-          "startEpochSeconds": 1794870000,
-          "endEpochSeconds": 1794876600,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794876600000:switzerland vs scotland",
-          "title": "Switzerland vs Scotland",
-          "description": "The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027",
-          "start": "2026-11-17T00:50:00.000Z",
-          "end": "2026-11-17T02:40:00.000Z",
-          "startEpochSeconds": 1794876600,
-          "endEpochSeconds": 1794883200,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794883200000:javi puado",
-          "title": "Javi Puado",
-          "description": "Relive every goal from the best players in 2024/25 season.Relive every goal from the best players in 2024/25 season.",
-          "start": "2026-11-17T02:40:00.000Z",
-          "end": "2026-11-17T02:50:00.000Z",
-          "startEpochSeconds": 1794883200,
-          "endEpochSeconds": 1794883800,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794883800000:spain vs england",
-          "title": "Spain vs England",
-          "description": "The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027",
-          "start": "2026-11-17T02:50:00.000Z",
-          "end": "2026-11-17T04:40:00.000Z",
-          "startEpochSeconds": 1794883800,
-          "endEpochSeconds": 1794890400,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794890400000:germany vs netherlands",
-          "title": "Germany vs Netherlands",
-          "description": "The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027",
-          "start": "2026-11-17T04:40:00.000Z",
-          "end": "2026-11-17T06:30:00.000Z",
-          "startEpochSeconds": 1794890400,
-          "endEpochSeconds": 1794897000,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794897000000:spain vs portugal",
-          "title": "Spain vs Portugal",
-          "description": "We look back at some of the classic UEFA Nations League matches.",
-          "start": "2026-11-17T06:30:00.000Z",
-          "end": "2026-11-17T07:00:00.000Z",
-          "startEpochSeconds": 1794897000,
-          "endEpochSeconds": 1794898800,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794898800000:md6 - matchnight 2",
-          "title": "MD6 - Matchnight 2",
-          "description": "Don’t miss any of the action with the official UEFA Nations League matchnight highlights show.Don’t miss any of the action with the official UEFA Nations League matchnight highlights show.",
-          "start": "2026-11-17T07:00:00.000Z",
-          "end": "2026-11-17T08:00:00.000Z",
-          "startEpochSeconds": 1794898800,
-          "endEpochSeconds": 1794902400,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794902400000:switzerland vs scotland",
-          "title": "Switzerland vs Scotland",
-          "description": "The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027",
-          "start": "2026-11-17T08:00:00.000Z",
-          "end": "2026-11-17T09:50:00.000Z",
-          "startEpochSeconds": 1794902400,
-          "endEpochSeconds": 1794909000,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794909000000:germany vs netherlands",
-          "title": "Germany vs Netherlands",
-          "description": "The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027",
-          "start": "2026-11-17T09:50:00.000Z",
-          "end": "2026-11-17T11:40:00.000Z",
-          "startEpochSeconds": 1794909000,
-          "endEpochSeconds": 1794915600,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794915600000:md6 - matchnight 2",
-          "title": "MD6 - Matchnight 2",
-          "description": "Don’t miss any of the action with the official UEFA Nations League matchnight highlights show.Don’t miss any of the action with the official UEFA Nations League matchnight highlights show.",
-          "start": "2026-11-17T11:40:00.000Z",
-          "end": "2026-11-17T12:45:00.000Z",
-          "startEpochSeconds": 1794915600,
-          "endEpochSeconds": 1794919500,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794919500000:malawi vs egypt",
-          "title": "Malawi vs Egypt",
-          "description": "Catch all the action as the teams view for a spot in the 2027 Africa Cup of Nations, which will be jointly hosted by Kenya, Tanzania, and Uganda.Catch all the action as the teams view for a spot in the 2027 Africa Cup of Nations, which will be jointly hosted by Kenya, Tanzania, and Uganda.",
-          "start": "2026-11-17T12:45:00.000Z",
-          "end": "2026-11-17T15:00:00.000Z",
-          "startEpochSeconds": 1794919500,
-          "endEpochSeconds": 1794927600,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794927600000:julian alvarez",
-          "title": "Julian Alvarez",
-          "description": "Relive every goal from the best players in 2024/25 season.Relive every goal from the best players in 2024/25 season.",
-          "start": "2026-11-17T15:00:00.000Z",
-          "end": "2026-11-17T15:15:00.000Z",
-          "startEpochSeconds": 1794927600,
-          "endEpochSeconds": 1794928500,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794928500000:spain vs portugal",
-          "title": "Spain vs Portugal",
-          "description": "We look back at some of the classic UEFA Nations League matches.",
-          "start": "2026-11-17T15:15:00.000Z",
-          "end": "2026-11-17T15:45:00.000Z",
-          "startEpochSeconds": 1794928500,
-          "endEpochSeconds": 1794930300,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794930300000:gambia vs ivory coast",
-          "title": "Gambia vs Ivory Coast",
-          "description": "Catch all the action as the teams view for a spot in the 2027 Africa Cup of Nations, which will be jointly hosted by Kenya, Tanzania, and Uganda.Catch all the action as the teams view for a spot in the 2027 Africa Cup of Nations, which will be jointly hosted by Kenya, Tanzania, and Uganda.",
-          "start": "2026-11-17T15:45:00.000Z",
-          "end": "2026-11-17T18:00:00.000Z",
-          "startEpochSeconds": 1794930300,
-          "endEpochSeconds": 1794938400,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794938400000:md6 - matchnight 2",
-          "title": "MD6 - Matchnight 2",
-          "description": "Don’t miss any of the action with the official UEFA Nations League matchnight highlights show.Don’t miss any of the action with the official UEFA Nations League matchnight highlights show.",
-          "start": "2026-11-17T18:00:00.000Z",
-          "end": "2026-11-17T19:00:00.000Z",
-          "startEpochSeconds": 1794938400,
-          "endEpochSeconds": 1794942000,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794942000000:wales vs portugal",
-          "title": "Wales vs Portugal",
-          "description": "The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027",
-          "start": "2026-11-17T19:00:00.000Z",
-          "end": "2026-11-17T22:15:00.000Z",
-          "startEpochSeconds": 1794942000,
-          "endEpochSeconds": 1794953700,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794954600000:spain vs portugal",
-          "title": "Spain vs Portugal",
-          "description": "We look back at some of the classic UEFA Nations League matches.",
-          "start": "2026-11-17T22:30:00.000Z",
-          "end": "2026-11-17T23:00:00.000Z",
-          "startEpochSeconds": 1794954600,
-          "endEpochSeconds": 1794956400,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794956400000:vini jr",
-          "title": "Vini Jr",
-          "description": "Relive every goal from the best players in 2024/25 season.Relive every goal from the best players in 2024/25 season.",
-          "start": "2026-11-17T23:00:00.000Z",
-          "end": "2026-11-17T23:10:00.000Z",
-          "startEpochSeconds": 1794956400,
-          "endEpochSeconds": 1794957000,
-          "source": "bein_au"
-        },
         {
           "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1794957000000:denmark vs norway",
           "title": "Denmark vs Norway",
@@ -3413,6 +3203,206 @@
           "startEpochSeconds": 1795299600,
           "endEpochSeconds": 1795309200,
           "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795309200000:barcelona vs real madrid - 2018/19",
+          "title": "Barcelona vs Real Madrid - 2018/19",
+          "description": "Rewind the clock and witness LaLiga's greatest moments.Rewind the clock and witness LaLiga's greatest moments.",
+          "start": "2026-11-22T01:00:00.000Z",
+          "end": "2026-11-22T01:15:00.000Z",
+          "startEpochSeconds": 1795309200,
+          "endEpochSeconds": 1795310100,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795310100000:barcelona vs real madrid - 2022/23",
+          "title": "Barcelona vs Real Madrid - 2022/23",
+          "description": "Rewind the clock and witness LaLiga's greatest moments.Rewind the clock and witness LaLiga's greatest moments.",
+          "start": "2026-11-22T01:15:00.000Z",
+          "end": "2026-11-22T01:30:00.000Z",
+          "startEpochSeconds": 1795310100,
+          "endEpochSeconds": 1795311000,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795311000000:millwall vs qpr",
+          "title": "Millwall vs QPR",
+          "description": "The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.",
+          "start": "2026-11-22T01:30:00.000Z",
+          "end": "2026-11-22T03:20:00.000Z",
+          "startEpochSeconds": 1795311000,
+          "endEpochSeconds": 1795317600,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795317600000:real madrid vs celta vigo",
+          "title": "Real Madrid vs Celta Vigo",
+          "description": "Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.",
+          "start": "2026-11-22T03:20:00.000Z",
+          "end": "2026-11-22T05:10:00.000Z",
+          "startEpochSeconds": 1795317600,
+          "endEpochSeconds": 1795324200,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795324200000:wolves vs charlton",
+          "title": "Wolves vs Charlton",
+          "description": "The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.",
+          "start": "2026-11-22T05:10:00.000Z",
+          "end": "2026-11-22T07:00:00.000Z",
+          "startEpochSeconds": 1795324200,
+          "endEpochSeconds": 1795330800,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795330800000:sevilla vs real betis",
+          "title": "Sevilla vs Real Betis",
+          "description": "Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.",
+          "start": "2026-11-22T07:00:00.000Z",
+          "end": "2026-11-22T08:50:00.000Z",
+          "startEpochSeconds": 1795330800,
+          "endEpochSeconds": 1795337400,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795337400000:javi puado",
+          "title": "Javi Puado",
+          "description": "Relive every goal from the best players in 2024/25 season.Relive every goal from the best players in 2024/25 season.",
+          "start": "2026-11-22T08:50:00.000Z",
+          "end": "2026-11-22T09:00:00.000Z",
+          "startEpochSeconds": 1795337400,
+          "endEpochSeconds": 1795338000,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795338000000:real madrid vs celta vigo",
+          "title": "Real Madrid vs Celta Vigo",
+          "description": "Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.",
+          "start": "2026-11-22T09:00:00.000Z",
+          "end": "2026-11-22T10:50:00.000Z",
+          "startEpochSeconds": 1795338000,
+          "endEpochSeconds": 1795344600,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795344600000:athletic bilbao vs espanyol",
+          "title": "Athletic Bilbao vs Espanyol",
+          "description": "Exclusive coverage from the Spanish LaLiga, Spain's top division of football, with the world's biggest teams and best players.Exclusive coverage from the Spanish LaLiga, Spain's top division of football, with the world's biggest teams and best players.",
+          "start": "2026-11-22T10:50:00.000Z",
+          "end": "2026-11-22T11:20:00.000Z",
+          "startEpochSeconds": 1795344600,
+          "endEpochSeconds": 1795346400,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795346400000:sevilla vs real betis",
+          "title": "Sevilla vs Real Betis",
+          "description": "Exclusive coverage from the Spanish LaLiga, Spain's top division of football, with the world's biggest teams and best players.Exclusive coverage from the Spanish LaLiga, Spain's top division of football, with the world's biggest teams and best players.",
+          "start": "2026-11-22T11:20:00.000Z",
+          "end": "2026-11-22T11:52:00.000Z",
+          "startEpochSeconds": 1795346400,
+          "endEpochSeconds": 1795348320,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795348320000:burnley vs blackburn",
+          "title": "Burnley vs Blackburn",
+          "description": "The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.",
+          "start": "2026-11-22T11:52:00.000Z",
+          "end": "2026-11-22T14:10:00.000Z",
+          "startEpochSeconds": 1795348320,
+          "endEpochSeconds": 1795356600,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795356600000:diego pablo simeone",
+          "title": "Diego Pablo Simeone",
+          "description": "Narrates in detail the huge contribution of six outstanding players have made to Spanish football.Narrates in detail the huge contribution of six outstanding players have made to Spanish football.",
+          "start": "2026-11-22T14:10:00.000Z",
+          "end": "2026-11-22T14:40:00.000Z",
+          "startEpochSeconds": 1795356600,
+          "endEpochSeconds": 1795358400,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795358400000:roberto carlos",
+          "title": "Roberto Carlos",
+          "description": "Narrates in detail the huge contribution of six outstanding players have made to Spanish football.Narrates in detail the huge contribution of six outstanding players have made to Spanish football.",
+          "start": "2026-11-22T14:40:00.000Z",
+          "end": "2026-11-22T15:10:00.000Z",
+          "startEpochSeconds": 1795358400,
+          "endEpochSeconds": 1795360200,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795360200000:racing de santander vs real sociedad",
+          "title": "Racing de Santander vs Real Sociedad",
+          "description": "Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.",
+          "start": "2026-11-22T15:10:00.000Z",
+          "end": "2026-11-22T17:25:00.000Z",
+          "startEpochSeconds": 1795360200,
+          "endEpochSeconds": 1795368300,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795368300000:osasuna vs malaga",
+          "title": "Osasuna vs Malaga",
+          "description": "Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.",
+          "start": "2026-11-22T17:25:00.000Z",
+          "end": "2026-11-22T19:30:00.000Z",
+          "startEpochSeconds": 1795368300,
+          "endEpochSeconds": 1795375800,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795375800000:lukebakio",
+          "title": "Lukebakio",
+          "description": "Relive every goal from the best players in 2024/25 season.Relive every goal from the best players in 2024/25 season.",
+          "start": "2026-11-22T19:30:00.000Z",
+          "end": "2026-11-22T19:45:00.000Z",
+          "startEpochSeconds": 1795375800,
+          "endEpochSeconds": 1795376700,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795376700000:javi puado",
+          "title": "Javi Puado",
+          "description": "Relive every goal from the best players in 2024/25 season.Relive every goal from the best players in 2024/25 season.",
+          "start": "2026-11-22T19:45:00.000Z",
+          "end": "2026-11-22T19:55:00.000Z",
+          "startEpochSeconds": 1795376700,
+          "endEpochSeconds": 1795377300,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795377300000:getafe vs atletico madrid",
+          "title": "Getafe vs Atletico Madrid",
+          "description": "Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.",
+          "start": "2026-11-22T19:55:00.000Z",
+          "end": "2026-11-22T22:00:00.000Z",
+          "startEpochSeconds": 1795377300,
+          "endEpochSeconds": 1795384800,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795384800000:javi puado",
+          "title": "Javi Puado",
+          "description": "Relive every goal from the best players in 2024/25 season.Relive every goal from the best players in 2024/25 season.",
+          "start": "2026-11-22T22:00:00.000Z",
+          "end": "2026-11-22T22:10:00.000Z",
+          "startEpochSeconds": 1795384800,
+          "endEpochSeconds": 1795385400,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795385400000:burnley vs blackburn",
+          "title": "Burnley vs Blackburn",
+          "description": "The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.",
+          "start": "2026-11-22T22:10:00.000Z",
+          "end": "2026-11-23T00:00:00.000Z",
+          "startEpochSeconds": 1795385400,
+          "endEpochSeconds": 1795392000,
+          "source": "bein_au"
         }
       ]
     },
@@ -3421,136 +3411,6 @@
       "name": "beIN SPORTS 1",
       "region": "en-au",
       "programmes": [
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1794873600000:evening 2 doubles",
-          "title": "Evening 2 Doubles",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-17T00:00:00.000Z",
-          "end": "2026-11-17T01:30:00.000Z",
-          "startEpochSeconds": 1794873600,
-          "endEpochSeconds": 1794879000,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1794879000000:day 2 singles",
-          "title": "Day 2 Singles",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-17T01:30:00.000Z",
-          "end": "2026-11-17T03:00:00.000Z",
-          "startEpochSeconds": 1794879000,
-          "endEpochSeconds": 1794884400,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1794884400000:evening 2 singles",
-          "title": "Evening 2 Singles",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-17T03:00:00.000Z",
-          "end": "2026-11-17T04:30:00.000Z",
-          "startEpochSeconds": 1794884400,
-          "endEpochSeconds": 1794889800,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1794889800000:day 2 doubles",
-          "title": "Day 2 Doubles",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-17T04:30:00.000Z",
-          "end": "2026-11-17T06:00:00.000Z",
-          "startEpochSeconds": 1794889800,
-          "endEpochSeconds": 1794895200,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1794895200000:evening 2 doubles",
-          "title": "Evening 2 Doubles",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-17T06:00:00.000Z",
-          "end": "2026-11-17T07:30:00.000Z",
-          "startEpochSeconds": 1794895200,
-          "endEpochSeconds": 1794900600,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1794900600000:day 2 singles",
-          "title": "Day 2 Singles",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-17T07:30:00.000Z",
-          "end": "2026-11-17T09:00:00.000Z",
-          "startEpochSeconds": 1794900600,
-          "endEpochSeconds": 1794906000,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1794906000000:evening 2 singles",
-          "title": "Evening 2 Singles",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-17T09:00:00.000Z",
-          "end": "2026-11-17T10:30:00.000Z",
-          "startEpochSeconds": 1794906000,
-          "endEpochSeconds": 1794911400,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1794911400000:day 3 doubles",
-          "title": "Day 3 Doubles",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-17T10:30:00.000Z",
-          "end": "2026-11-17T13:00:00.000Z",
-          "startEpochSeconds": 1794911400,
-          "endEpochSeconds": 1794920400,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1794920400000:day 3 singles",
-          "title": "Day 3 Singles",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-17T13:00:00.000Z",
-          "end": "2026-11-17T16:00:00.000Z",
-          "startEpochSeconds": 1794920400,
-          "endEpochSeconds": 1794931200,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1794931200000:nadal v agassi 2005",
-          "title": "Nadal v Agassi 2005",
-          "description": "We delve into the ATP archives for another classic encounter when Rafael Nadal met Andre Agassi in the final at Montreal in 2005.Watch classic matches, moment and highlights of ATP Tour from tournaments around the world.",
-          "start": "2026-11-17T16:00:00.000Z",
-          "end": "2026-11-17T17:00:00.000Z",
-          "startEpochSeconds": 1794931200,
-          "endEpochSeconds": 1794934800,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1794934800000:evening 3 doubles",
-          "title": "Evening 3 Doubles",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-17T17:00:00.000Z",
-          "end": "2026-11-17T19:30:00.000Z",
-          "startEpochSeconds": 1794934800,
-          "endEpochSeconds": 1794943800,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1794943800000:evening 3 singles",
-          "title": "Evening 3 Singles",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-17T19:30:00.000Z",
-          "end": "2026-11-17T22:30:00.000Z",
-          "startEpochSeconds": 1794943800,
-          "endEpochSeconds": 1794954600,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1794954600000:day 3 doubles",
-          "title": "Day 3 Doubles",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-17T22:30:00.000Z",
-          "end": "2026-11-18T00:00:00.000Z",
-          "startEpochSeconds": 1794954600,
-          "endEpochSeconds": 1794960000,
-          "source": "bein_au"
-        },
         {
           "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1794960000000:evening 3 doubles",
           "title": "Evening 3 Doubles",
@@ -4079,6 +3939,146 @@
           "end": "2026-11-22T00:30:00.000Z",
           "startEpochSeconds": 1795302000,
           "endEpochSeconds": 1795307400,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795307400000:singles sf 2",
+          "title": "Singles SF 2",
+          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
+          "start": "2026-11-22T00:30:00.000Z",
+          "end": "2026-11-22T02:00:00.000Z",
+          "startEpochSeconds": 1795307400,
+          "endEpochSeconds": 1795312800,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795312800000:japan vs argentina",
+          "title": "Japan vs Argentina",
+          "description": "The very best women's tennis players from across the globe come together to represent their nations in the Billie Jean King Cup.The very best women's tennis players from across the globe come together to represent their nations in the Billie Jean King Cup.",
+          "start": "2026-11-22T02:00:00.000Z",
+          "end": "2026-11-22T09:00:00.000Z",
+          "startEpochSeconds": 1795312800,
+          "endEpochSeconds": 1795338000,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795338000000:episode number 45",
+          "title": "Episode Number 45",
+          "description": "Catch behind the scenes, interviews, tournament recaps, highlights of the ATP Tour on this weekly show.Catch behind the scenes, interviews, tournament recaps, highlights of the ATP Tour on this weekly show.",
+          "start": "2026-11-22T09:00:00.000Z",
+          "end": "2026-11-22T09:30:00.000Z",
+          "startEpochSeconds": 1795338000,
+          "endEpochSeconds": 1795339800,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795339800000:singles sf 1",
+          "title": "Singles SF 1",
+          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
+          "start": "2026-11-22T09:30:00.000Z",
+          "end": "2026-11-22T11:00:00.000Z",
+          "startEpochSeconds": 1795339800,
+          "endEpochSeconds": 1795345200,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795345200000:singles sf 2",
+          "title": "Singles SF 2",
+          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
+          "start": "2026-11-22T11:00:00.000Z",
+          "end": "2026-11-22T12:30:00.000Z",
+          "startEpochSeconds": 1795345200,
+          "endEpochSeconds": 1795350600,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795350600000:nadal number 1 story",
+          "title": "Nadal Number 1 Story",
+          "description": "In this series of features, we look back at some of the most memorable moments, rivalries, achievements and special features at ATP Masters events.In this series of features, we look back at some of the most memorable moments, rivalries, achievements and special features at ATP Masters events.",
+          "start": "2026-11-22T12:30:00.000Z",
+          "end": "2026-11-22T12:55:00.000Z",
+          "startEpochSeconds": 1795350600,
+          "endEpochSeconds": 1795352100,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795352100000:barcelona vs villarreal",
+          "title": "Barcelona vs Villarreal",
+          "description": "Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.",
+          "start": "2026-11-22T12:55:00.000Z",
+          "end": "2026-11-22T15:00:00.000Z",
+          "startEpochSeconds": 1795352100,
+          "endEpochSeconds": 1795359600,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795359600000:shanghai",
+          "title": "Shanghai",
+          "description": "A look back at the best of the action from the tournament.A look back at the best of the action from the tournament.",
+          "start": "2026-11-22T15:00:00.000Z",
+          "end": "2026-11-22T16:00:00.000Z",
+          "startEpochSeconds": 1795359600,
+          "endEpochSeconds": 1795363200,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795363200000:paris",
+          "title": "Paris",
+          "description": "A look back at the best of the action from the tournament.A look back at the best of the action from the tournament.",
+          "start": "2026-11-22T16:00:00.000Z",
+          "end": "2026-11-22T17:00:00.000Z",
+          "startEpochSeconds": 1795363200,
+          "endEpochSeconds": 1795366800,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795366800000:singles final",
+          "title": "Singles Final",
+          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
+          "start": "2026-11-22T17:00:00.000Z",
+          "end": "2026-11-22T20:00:00.000Z",
+          "startEpochSeconds": 1795366800,
+          "endEpochSeconds": 1795377600,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795377600000:episode number 45",
+          "title": "Episode Number 45",
+          "description": "Catch behind the scenes, interviews, tournament recaps, highlights of the ATP Tour on this weekly show.Catch behind the scenes, interviews, tournament recaps, highlights of the ATP Tour on this weekly show.",
+          "start": "2026-11-22T20:00:00.000Z",
+          "end": "2026-11-22T20:30:00.000Z",
+          "startEpochSeconds": 1795377600,
+          "endEpochSeconds": 1795379400,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795379400000:doubles final",
+          "title": "Doubles Final",
+          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
+          "start": "2026-11-22T20:30:00.000Z",
+          "end": "2026-11-22T22:00:00.000Z",
+          "startEpochSeconds": 1795379400,
+          "endEpochSeconds": 1795384800,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795384800000:singles final",
+          "title": "Singles Final",
+          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
+          "start": "2026-11-22T22:00:00.000Z",
+          "end": "2026-11-22T23:30:00.000Z",
+          "startEpochSeconds": 1795384800,
+          "endEpochSeconds": 1795390200,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795390200000:paris",
+          "title": "Paris",
+          "description": "A look back at the best of the action from the tournament.A look back at the best of the action from the tournament.",
+          "start": "2026-11-22T23:30:00.000Z",
+          "end": "2026-11-23T00:30:00.000Z",
+          "startEpochSeconds": 1795390200,
+          "endEpochSeconds": 1795393800,
           "source": "bein_au"
         }
       ]
