@@ -6,7 +6,7 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "fr-fr",
   "timezone": "UTC",
-  "generatedAt": "2026-11-18T07:25:51.408Z",
+  "generatedAt": "2026-11-18T20:32:20.955Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 10,
@@ -348,52 +348,52 @@
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1794978000000:nfl extra",
-          "title": "NFL Extra",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1794978000000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
           "description": "",
           "start": "2026-11-18T05:00:00.000Z",
-          "end": "2026-11-18T05:45:00.000Z",
+          "end": "2026-11-18T05:15:00.000Z",
           "startEpochSeconds": 1794978000,
+          "endEpochSeconds": 1794978900,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1794978900000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-11-18T05:15:00.000Z",
+          "end": "2026-11-18T05:30:00.000Z",
+          "startEpochSeconds": 1794978900,
+          "endEpochSeconds": 1794979800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1794979800000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-11-18T05:30:00.000Z",
+          "end": "2026-11-18T05:45:00.000Z",
+          "startEpochSeconds": 1794979800,
           "endEpochSeconds": 1794980700,
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1794980700000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "NBA",
-          "start": "2026-11-18T05:45:00.000Z",
-          "end": "2026-11-18T06:00:00.000Z",
-          "startEpochSeconds": 1794980700,
-          "endEpochSeconds": 1794981600,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1794981600000:basket-ball : euroligue masculine - fc barcelone / paris basketball",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1794980700000:basket-ball : euroligue masculine - fc barcelone / paris basketball",
           "title": "Basket-ball : Euroligue masculine - FC Barcelone / Paris Basketball",
           "description": "",
-          "start": "2026-11-18T06:00:00.000Z",
+          "start": "2026-11-18T05:45:00.000Z",
           "end": "2026-11-18T07:45:00.000Z",
-          "startEpochSeconds": 1794981600,
+          "startEpochSeconds": 1794980700,
           "endEpochSeconds": 1794987900,
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1794987900000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "NBA",
-          "start": "2026-11-18T07:45:00.000Z",
-          "end": "2026-11-18T08:00:00.000Z",
-          "startEpochSeconds": 1794987900,
-          "endEpochSeconds": 1794988800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1794988800000:basket-ball : euroligue masculine - fenerbahçe / lyon-villeurbanne",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1794987900000:basket-ball : euroligue masculine - fenerbahçe / lyon-villeurbanne",
           "title": "Basket-ball : Euroligue masculine - Fenerbahçe / Lyon-Villeurbanne",
           "description": "",
-          "start": "2026-11-18T08:00:00.000Z",
+          "start": "2026-11-18T07:45:00.000Z",
           "end": "2026-11-18T09:45:00.000Z",
-          "startEpochSeconds": 1794988800,
+          "startEpochSeconds": 1794987900,
           "endEpochSeconds": 1794995100,
           "source": "bein_fr"
         },
@@ -438,8 +438,8 @@
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795006800000:basket-ball : ncaa - kansas / unlv",
-          "title": "Basket-ball : NCAA - Kansas / UNLV",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795006800000:basket-ball : ncaa - duke blue devils / michigan state",
+          "title": "Basket-ball : NCAA - Duke Blue Devils / Michigan State",
           "description": "",
           "start": "2026-11-18T13:00:00.000Z",
           "end": "2026-11-18T14:45:00.000Z",
@@ -458,12 +458,22 @@
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795014000000:basket-ball : euroligue masculine - fc barcelone / paris basketball",
-          "title": "Basket-ball : Euroligue masculine - FC Barcelone / Paris Basketball",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795014000000:handball : ligue des champions féminine ehf - odense / metz",
+          "title": "Handball : Ligue des champions féminine EHF - Odense / Metz",
           "description": "",
           "start": "2026-11-18T15:00:00.000Z",
-          "end": "2026-11-18T16:45:00.000Z",
+          "end": "2026-11-18T16:30:00.000Z",
           "startEpochSeconds": 1795014000,
+          "endEpochSeconds": 1795019400,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795019400000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-11-18T16:30:00.000Z",
+          "end": "2026-11-18T16:45:00.000Z",
+          "startEpochSeconds": 1795019400,
           "endEpochSeconds": 1795020300,
           "source": "bein_fr"
         },
@@ -492,28 +502,18 @@
           "title": "Basket-ball : NBA - San Antonio Spurs / Detroit Pistons",
           "description": "",
           "start": "2026-11-18T19:00:00.000Z",
-          "end": "2026-11-18T20:45:00.000Z",
+          "end": "2026-11-18T21:00:00.000Z",
           "startEpochSeconds": 1795028400,
-          "endEpochSeconds": 1795034700,
+          "endEpochSeconds": 1795035600,
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795034700000:this is paris",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795035600000:this is paris",
           "title": "This is Paris",
           "description": "",
-          "start": "2026-11-18T20:45:00.000Z",
-          "end": "2026-11-18T21:15:00.000Z",
-          "startEpochSeconds": 1795034700,
-          "endEpochSeconds": 1795036500,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795036500000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-18T21:15:00.000Z",
+          "start": "2026-11-18T21:00:00.000Z",
           "end": "2026-11-18T21:30:00.000Z",
-          "startEpochSeconds": 1795036500,
+          "startEpochSeconds": 1795035600,
           "endEpochSeconds": 1795037400,
           "source": "bein_fr"
         },
@@ -528,12 +528,22 @@
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795041000000:bein zap",
-          "title": "beIN Zap",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795041000000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
           "description": "",
           "start": "2026-11-18T22:30:00.000Z",
-          "end": "2026-11-18T23:00:00.000Z",
+          "end": "2026-11-18T22:45:00.000Z",
           "startEpochSeconds": 1795041000,
+          "endEpochSeconds": 1795041900,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795041900000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-11-18T22:45:00.000Z",
+          "end": "2026-11-18T23:00:00.000Z",
+          "startEpochSeconds": 1795041900,
           "endEpochSeconds": 1795042800,
           "source": "bein_fr"
         },
@@ -652,28 +662,18 @@
           "title": "Basket-ball : Euroligue masculine - Fenerbahçe / Lyon-Villeurbanne",
           "description": "",
           "start": "2026-11-19T13:30:00.000Z",
-          "end": "2026-11-19T15:15:00.000Z",
+          "end": "2026-11-19T15:30:00.000Z",
           "startEpochSeconds": 1795095000,
-          "endEpochSeconds": 1795101300,
+          "endEpochSeconds": 1795102200,
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795101300000:salon vip",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795102200000:salon vip",
           "title": "Salon VIP",
           "description": "",
-          "start": "2026-11-19T15:15:00.000Z",
-          "end": "2026-11-19T15:45:00.000Z",
-          "startEpochSeconds": 1795101300,
-          "endEpochSeconds": 1795103100,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795103100000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-19T15:45:00.000Z",
+          "start": "2026-11-19T15:30:00.000Z",
           "end": "2026-11-19T16:00:00.000Z",
-          "startEpochSeconds": 1795103100,
+          "startEpochSeconds": 1795102200,
           "endEpochSeconds": 1795104000,
           "source": "bein_fr"
         },
@@ -1088,8 +1088,8 @@
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795273200000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795273200000:football : après-match ligue 2",
+          "title": "Football : après-match Ligue 2",
           "description": "",
           "start": "2026-11-21T15:00:00.000Z",
           "end": "2026-11-21T15:15:00.000Z",
@@ -2399,8 +2399,8 @@
           "source": "bein_fr"
         },
         {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795123800000:basket-ball : ncaa - kansas / unlv",
-          "title": "Basket-ball : NCAA - Kansas / UNLV",
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795123800000:basket-ball : nba - miami heat / milwaukee bucks",
+          "title": "Basket-ball : NBA - Miami Heat / Milwaukee Bucks",
           "description": "",
           "start": "2026-11-19T21:30:00.000Z",
           "end": "2026-11-19T23:15:00.000Z",
@@ -4421,28 +4421,28 @@
           "title": "beIN SPORTS, le plus grand des spectacles",
           "description": "",
           "start": "2026-11-18T22:00:00.000Z",
-          "end": "2026-11-19T00:30:00.000Z",
+          "end": "2026-11-19T00:45:00.000Z",
           "startEpochSeconds": 1795039200,
-          "endEpochSeconds": 1795048200,
+          "endEpochSeconds": 1795049100,
           "source": "bein_fr"
         },
         {
-          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1795048200000:hockey sur glace : nhl - new jersey devils / montréal canadiens",
+          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1795049100000:hockey sur glace : nhl - new jersey devils / montréal canadiens",
           "title": "Hockey sur glace : NHL - New Jersey Devils / Montréal Canadiens",
           "description": "",
-          "start": "2026-11-19T00:30:00.000Z",
-          "end": "2026-11-19T03:30:00.000Z",
-          "startEpochSeconds": 1795048200,
-          "endEpochSeconds": 1795059000,
+          "start": "2026-11-19T00:45:00.000Z",
+          "end": "2026-11-19T03:45:00.000Z",
+          "startEpochSeconds": 1795049100,
+          "endEpochSeconds": 1795059900,
           "source": "bein_fr"
         },
         {
-          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1795059000000:bein sports, le plus grand des spectacles",
+          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1795059900000:bein sports, le plus grand des spectacles",
           "title": "beIN SPORTS, le plus grand des spectacles",
           "description": "",
-          "start": "2026-11-19T03:30:00.000Z",
+          "start": "2026-11-19T03:45:00.000Z",
           "end": "2026-11-19T08:00:00.000Z",
-          "startEpochSeconds": 1795059000,
+          "startEpochSeconds": 1795059900,
           "endEpochSeconds": 1795075200,
           "source": "bein_fr"
         },

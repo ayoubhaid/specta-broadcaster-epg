@@ -6,7 +6,7 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "en-us",
   "timezone": "UTC",
-  "generatedAt": "2026-11-18T07:26:47.271Z",
+  "generatedAt": "2026-11-18T20:33:36.817Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 13,
@@ -4289,8 +4289,8 @@
           "source": "bein_us"
         },
         {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795305600000:turkish super lig soccer",
-          "title": "Turkish Super Lig Soccer",
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795305600000:fútbol turco superliga",
+          "title": "Fútbol Turco Superliga",
           "description": "Galatasaray vs. Amed SFK",
           "start": "2026-11-22T00:00:00.000Z",
           "end": "2026-11-22T02:00:00.000Z",
@@ -4329,8 +4329,8 @@
           "source": "bein_us"
         },
         {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795323600000:turkish super lig soccer",
-          "title": "Turkish Super Lig Soccer",
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795323600000:fútbol turco superliga",
+          "title": "Fútbol Turco Superliga",
           "description": "Galatasaray vs. Amed SFK",
           "start": "2026-11-22T05:00:00.000Z",
           "end": "2026-11-22T07:00:00.000Z",
@@ -8126,7 +8126,7 @@
         {
           "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795283700000:taça de portugal",
           "title": "Taça de Portugal",
-          "description": "",
+          "description": "Sporting Lisbon vs. Uniao D Serra",
           "start": "2026-11-21T17:55:00.000Z",
           "end": "2026-11-21T20:00:00.000Z",
           "startEpochSeconds": 1795283700,
@@ -8146,7 +8146,7 @@
         {
           "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795292700000:taça de portugal",
           "title": "Taça de Portugal",
-          "description": "",
+          "description": "Vitória Guimarães vs. SC Braga",
           "start": "2026-11-21T20:25:00.000Z",
           "end": "2026-11-21T22:30:00.000Z",
           "startEpochSeconds": 1795292700,
@@ -10345,9 +10345,9 @@
           "source": "bein_us"
         },
         {
-          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795207200000:taça de portugal",
-          "title": "Taça de Portugal",
-          "description": "",
+          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795207200000:fútbol copa de portugal",
+          "title": "Fútbol Copa de Portugal",
+          "description": "Porto vs. Paredes",
           "start": "2026-11-20T20:40:00.000Z",
           "end": "2026-11-20T22:45:00.000Z",
           "startEpochSeconds": 1795207200,
@@ -10535,9 +10535,9 @@
           "source": "bein_us"
         },
         {
-          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795376100000:taça de portugal",
-          "title": "Taça de Portugal",
-          "description": "",
+          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795376100000:fútbol copa de portugal",
+          "title": "Fútbol Copa de Portugal",
+          "description": "SCU Torreense vs. Benfica",
           "start": "2026-11-22T19:35:00.000Z",
           "end": "2026-11-22T21:45:00.000Z",
           "startEpochSeconds": 1795376100,
