@@ -6,11 +6,11 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "en-au",
   "timezone": "UTC",
-  "generatedAt": "2026-11-19T07:26:21.233Z",
+  "generatedAt": "2026-11-19T20:37:27.847Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 4,
-    "programmesFound": 437,
+    "programmesFound": 436,
     "successfulRequests": 20,
     "failedRequests": 0
   },
@@ -1992,18 +1992,8 @@
           "title": "Episode Number 13",
           "description": "The official LFCTV weekly magazine program featuring news, stories, videos and social media highlights from across Liverpool football club, its players and supportersThe official LFCTV weekly magazine program featuring news, stories, videos and social media highlights from across Liverpool football club, its players and supporters",
           "start": "2026-11-21T09:00:00.000Z",
-          "end": "2026-11-21T09:30:00.000Z",
-          "startEpochSeconds": 1795251600,
-          "endEpochSeconds": 1795253400,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795253400000:fenerbahce vs liverpool - ucl",
-          "title": "Fenerbahce vs Liverpool - UCL",
-          "description": "Enjoy match highlights from Liverpool's Premier League, FA Cup, Carabao Cup and UEFA Champions League games from LFCTV on beIN SPORTSEnjoy match highlights from Liverpool's Premier League, FA Cup, Carabao Cup and UEFA Champions League games from LFCTV on beIN SPORTS",
-          "start": "2026-11-21T09:30:00.000Z",
           "end": "2026-11-21T10:00:00.000Z",
-          "startEpochSeconds": 1795253400,
+          "startEpochSeconds": 1795251600,
           "endEpochSeconds": 1795255200,
           "source": "bein_au"
         },

@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-19T07:35:43.000Z",
+  "generatedAt": "2026-11-19T20:46:38.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-19T05:35:43.000Z",
-    "to": "2026-11-20T23:35:43.000Z",
+    "from": "2026-11-19T18:46:38.000Z",
+    "to": "2026-11-21T12:46:38.000Z",
     "maxPerChannel": 80
   },
   "totals": {
     "channels": 202,
-    "programmes": 8063
+    "programmes": 7810
   },
   "providers": [
     {
@@ -16,9 +16,9 @@
       "providerName": "beIN SPORTS Australia",
       "file": "data/source-feeds/bein_au.json",
       "channels": 4,
-      "programmes": 437,
+      "programmes": 436,
       "publishedChannels": 3,
-      "publishedProgrammes": 302,
+      "publishedProgrammes": 301,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -34,9 +34,9 @@
       "providerName": "beIN SPORTS France",
       "file": "data/source-feeds/bein_fr.json",
       "channels": 10,
-      "programmes": 499,
+      "programmes": 502,
       "publishedChannels": 9,
-      "publishedProgrammes": 394,
+      "publishedProgrammes": 399,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -52,9 +52,9 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2583,
+      "programmes": 2601,
       "publishedChannels": 30,
-      "publishedProgrammes": 1745,
+      "publishedProgrammes": 1763,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -70,9 +70,9 @@
       "providerName": "beIN SPORTS US",
       "file": "data/source-feeds/bein_us.json",
       "channels": 13,
-      "programmes": 1027,
+      "programmes": 1035,
       "publishedChannels": 6,
-      "publishedProgrammes": 328,
+      "publishedProgrammes": 335,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -106,9 +106,9 @@
       "providerName": "DAZN",
       "file": "data/review/dazn_unclassified.json",
       "channels": 75,
-      "programmes": 5445,
+      "programmes": 4577,
       "publishedChannels": 11,
-      "publishedProgrammes": 569,
+      "publishedProgrammes": 437,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -123,10 +123,10 @@
       "provider": "elcinema",
       "providerName": "elCinema Arabic TV Guide",
       "file": "data/review/elcinema_ar_unclassified.json",
-      "channels": 104,
-      "programmes": 3542,
+      "channels": 107,
+      "programmes": 3726,
       "publishedChannels": 21,
-      "publishedProgrammes": 844,
+      "publishedProgrammes": 1010,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -178,9 +178,9 @@
       "providerName": "Sky Sports UK",
       "file": "data/review/sky_uk_unclassified.json",
       "channels": 21,
-      "programmes": 2709,
+      "programmes": 2715,
       "publishedChannels": 21,
-      "publishedProgrammes": 2709,
+      "publishedProgrammes": 2715,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -214,9 +214,9 @@
       "providerName": "SuperSport",
       "file": "data/review/supersport_unclassified.json",
       "channels": 64,
-      "programmes": 7657,
+      "programmes": 7739,
       "publishedChannels": 17,
-      "publishedProgrammes": 2401,
+      "publishedProgrammes": 2431,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -2291,65 +2291,65 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1393",
+        "key": "elcinema:1213",
         "provider": "elcinema",
-        "name": "OSN TV One",
+        "name": "OSN TV Movies Premiere",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1390",
+        "key": "elcinema:1391",
         "provider": "elcinema",
-        "name": "OSN TV Yahala Bil Arabi",
+        "name": "OSN TV Movies Hollywood",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1252",
+        "key": "elcinema:1322",
         "provider": "elcinema",
-        "name": "Al Kahera Wal Nas TV 2",
+        "name": "BEIN MOVIES PREMIERE",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1405",
+        "key": "elcinema:1330",
         "provider": "elcinema",
-        "name": "One Drama",
+        "name": "Star Action",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1135",
+        "key": "elcinema:1242",
         "provider": "elcinema",
-        "name": "Emirates",
+        "name": "Network Arabic",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1352",
+        "key": "elcinema:1398",
         "provider": "elcinema",
-        "name": "Saudiya TV",
+        "name": "Althania",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1383",
+        "key": "elcinema:1199",
         "provider": "elcinema",
-        "name": "WTV",
+        "name": "CBC Drama",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1394",
+        "key": "elcinema:1198",
         "provider": "elcinema",
-        "name": "OSN TV Showcase",
+        "name": "CBC",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1257",
+        "key": "elcinema:1292",
         "provider": "elcinema",
-        "name": "OSN TV Comedy",
+        "name": "DMC DRAMA",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2424,9 +2424,16 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1322",
+        "key": "elcinema:1252",
         "provider": "elcinema",
-        "name": "BEIN MOVIES PREMIERE",
+        "name": "Al Kahera Wal Nas TV 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1308",
+        "provider": "elcinema",
+        "name": "Watania1",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2494,23 +2501,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1391",
+        "key": "elcinema:1383",
         "provider": "elcinema",
-        "name": "OSN TV Movies Hollywood",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1199",
-        "provider": "elcinema",
-        "name": "CBC Drama",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1213",
-        "provider": "elcinema",
-        "name": "OSN TV Movies Premiere",
+        "name": "WTV",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2585,9 +2578,23 @@
         "candidates": []
       },
       {
+        "key": "elcinema:1212",
+        "provider": "elcinema",
+        "name": "Star Movies",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "elcinema:1399",
         "provider": "elcinema",
         "name": "MBC Masr Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1394",
+        "provider": "elcinema",
+        "name": "OSN TV Showcase",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2606,6 +2613,13 @@
         "candidates": []
       },
       {
+        "key": "elcinema:1405",
+        "provider": "elcinema",
+        "name": "One Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "elcinema:1392",
         "provider": "elcinema",
         "name": "OSN TV Movies Family",
@@ -2620,16 +2634,16 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1156",
+        "key": "elcinema:1135",
         "provider": "elcinema",
-        "name": "Nile Drama",
+        "name": "Emirates",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1198",
+        "key": "elcinema:1156",
         "provider": "elcinema",
-        "name": "CBC",
+        "name": "Nile Drama",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2655,13 +2669,6 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1242",
-        "provider": "elcinema",
-        "name": "Network Arabic",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "elcinema:1299",
         "provider": "elcinema",
         "name": "Roya",
@@ -2679,13 +2686,6 @@
         "key": "elcinema:1329",
         "provider": "elcinema",
         "name": "Star World",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1398",
-        "provider": "elcinema",
-        "name": "Althania",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2714,6 +2714,13 @@
         "key": "elcinema:1371",
         "provider": "elcinema",
         "name": "Mix Bel Araby",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1390",
+        "provider": "elcinema",
+        "name": "OSN TV Yahala Bil Arabi",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2774,6 +2781,13 @@
         "candidates": []
       },
       {
+        "key": "elcinema:1393",
+        "provider": "elcinema",
+        "name": "OSN TV One",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "elcinema:1127",
         "provider": "elcinema",
         "name": "MBC",
@@ -2802,9 +2816,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1292",
+        "key": "elcinema:1352",
         "provider": "elcinema",
-        "name": "DMC DRAMA",
+        "name": "Saudiya TV",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2840,6 +2854,13 @@
         "key": "elcinema:1355",
         "provider": "elcinema",
         "name": "Mix",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1257",
+        "provider": "elcinema",
+        "name": "OSN TV Comedy",
         "reason": "unmapped",
         "candidates": []
       },

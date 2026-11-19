@@ -6,11 +6,11 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "en-us",
   "timezone": "UTC",
-  "generatedAt": "2026-11-19T07:25:59.418Z",
+  "generatedAt": "2026-11-19T20:37:07.143Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 13,
-    "programmesFound": 1027,
+    "programmesFound": 1035,
     "successfulRequests": 65,
     "failedRequests": 0
   },
@@ -253,7 +253,7 @@
         {
           "id": "831591C8-DA65-4528-B837-0E5A147887FB:1795320900000:fia f4 world cup",
           "title": "FIA F4 World Cup",
-          "description": "Main Race",
+          "description": "Macau Grand Prix",
           "start": "2026-11-22T04:15:00.000Z",
           "end": "2026-11-22T06:00:00.000Z",
           "startEpochSeconds": 1795320900,
@@ -1135,8 +1135,8 @@
           "source": "bein_us"
         },
         {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795203000000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795203000000:ligue 1 preview show",
+          "title": "Ligue 1 Preview Show",
           "description": "",
           "start": "2026-11-20T19:30:00.000Z",
           "end": "2026-11-20T20:00:00.000Z",
@@ -1145,8 +1145,8 @@
           "source": "bein_us"
         },
         {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795204800000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795204800000:ligue 1 preview show",
+          "title": "Ligue 1 Preview Show",
           "description": "",
           "start": "2026-11-20T20:00:00.000Z",
           "end": "2026-11-20T20:30:00.000Z",
@@ -1195,8 +1195,8 @@
           "source": "bein_us"
         },
         {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795217400000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795217400000:ligue 1 preview show",
+          "title": "Ligue 1 Preview Show",
           "description": "",
           "start": "2026-11-20T23:30:00.000Z",
           "end": "2026-11-21T00:00:00.000Z",
@@ -1637,7 +1637,7 @@
         {
           "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795399200000:fútbol copa de portugal",
           "title": "Fútbol Copa de Portugal",
-          "description": "SCU Torreense vs. Benfica",
+          "description": "Torreense vs. Benfica",
           "start": "2026-11-23T02:00:00.000Z",
           "end": "2026-11-23T04:00:00.000Z",
           "startEpochSeconds": 1795399200,
@@ -2042,8 +2042,8 @@
           "source": "bein_us"
         },
         {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795111200000:copa sudamericana soccer",
-          "title": "Copa Sudamericana Soccer",
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795111200000:fútbol conmebol copa sudamericana",
+          "title": "Fútbol CONMEBOL Copa Sudamericana",
           "description": "Vasco da Gama vs. Boca Juniors",
           "start": "2026-11-19T18:00:00.000Z",
           "end": "2026-11-19T20:00:00.000Z",
@@ -2392,8 +2392,8 @@
           "source": "bein_us"
         },
         {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795222800000:copa sudamericana soccer",
-          "title": "Copa Sudamericana Soccer",
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795222800000:fútbol conmebol copa sudamericana",
+          "title": "Fútbol CONMEBOL Copa Sudamericana",
           "description": "Vasco da Gama vs. Boca Juniors",
           "start": "2026-11-21T01:00:00.000Z",
           "end": "2026-11-21T03:00:00.000Z",
@@ -2944,7 +2944,7 @@
         {
           "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795399200000:fútbol copa de portugal",
           "title": "Fútbol Copa de Portugal",
-          "description": "SCU Torreense vs. Benfica",
+          "description": "Torreense vs. Benfica",
           "start": "2026-11-23T02:00:00.000Z",
           "end": "2026-11-23T04:00:00.000Z",
           "startEpochSeconds": 1795399200,
@@ -4181,7 +4181,7 @@
         {
           "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795380000000:fútbol copa de portugal",
           "title": "Fútbol Copa de Portugal",
-          "description": "SCU Torreense vs. Benfica",
+          "description": "Torreense vs. Benfica",
           "start": "2026-11-22T20:40:00.000Z",
           "end": "2026-11-22T22:45:00.000Z",
           "startEpochSeconds": 1795380000,
@@ -4510,8 +4510,28 @@
           "title": "SIGN OFF",
           "description": "",
           "start": "2026-11-19T07:00:00.000Z",
-          "end": "2026-11-19T11:00:00.000Z",
+          "end": "2026-11-19T07:50:00.000Z",
           "startEpochSeconds": 1795071600,
+          "endEpochSeconds": 1795074600,
+          "source": "bein_us"
+        },
+        {
+          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795074600000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-19T07:50:00.000Z",
+          "end": "2026-11-19T09:00:00.000Z",
+          "startEpochSeconds": 1795074600,
+          "endEpochSeconds": 1795078800,
+          "source": "bein_us"
+        },
+        {
+          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795078800000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-19T09:00:00.000Z",
+          "end": "2026-11-19T11:00:00.000Z",
+          "startEpochSeconds": 1795078800,
           "endEpochSeconds": 1795086000,
           "source": "bein_us"
         },
@@ -4630,8 +4650,28 @@
           "title": "SIGN OFF",
           "description": "",
           "start": "2026-11-21T03:00:00.000Z",
-          "end": "2026-11-21T07:00:00.000Z",
+          "end": "2026-11-21T03:25:00.000Z",
           "startEpochSeconds": 1795230000,
+          "endEpochSeconds": 1795231500,
+          "source": "bein_us"
+        },
+        {
+          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795231500000:fia f4 world cup",
+          "title": "FIA F4 World Cup",
+          "description": "Macau Grand Prix",
+          "start": "2026-11-21T03:25:00.000Z",
+          "end": "2026-11-21T05:00:00.000Z",
+          "startEpochSeconds": 1795231500,
+          "endEpochSeconds": 1795237200,
+          "source": "bein_us"
+        },
+        {
+          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795237200000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-21T05:00:00.000Z",
+          "end": "2026-11-21T07:00:00.000Z",
+          "startEpochSeconds": 1795237200,
           "endEpochSeconds": 1795244400,
           "source": "bein_us"
         },
@@ -4728,7 +4768,7 @@
         {
           "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795344900000:sailgp",
           "title": "SailGP",
-          "description": "",
+          "description": "Dubai, Day 1",
           "start": "2026-11-22T10:55:00.000Z",
           "end": "2026-11-22T12:30:00.000Z",
           "startEpochSeconds": 1795344900,
@@ -5063,8 +5103,8 @@
           "source": "bein_us"
         },
         {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795111200000:copa sudamericana soccer",
-          "title": "Copa Sudamericana Soccer",
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795111200000:fútbol conmebol copa sudamericana",
+          "title": "Fútbol CONMEBOL Copa Sudamericana",
           "description": "Vasco da Gama vs. Boca Juniors",
           "start": "2026-11-19T18:00:00.000Z",
           "end": "2026-11-19T20:00:00.000Z",
@@ -5413,8 +5453,8 @@
           "source": "bein_us"
         },
         {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795222800000:copa sudamericana soccer",
-          "title": "Copa Sudamericana Soccer",
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795222800000:fútbol conmebol copa sudamericana",
+          "title": "Fútbol CONMEBOL Copa Sudamericana",
           "description": "Vasco da Gama vs. Boca Juniors",
           "start": "2026-11-21T01:00:00.000Z",
           "end": "2026-11-21T03:00:00.000Z",
@@ -5965,7 +6005,7 @@
         {
           "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795399200000:fútbol copa de portugal",
           "title": "Fútbol Copa de Portugal",
-          "description": "SCU Torreense vs. Benfica",
+          "description": "Torreense vs. Benfica",
           "start": "2026-11-23T02:00:00.000Z",
           "end": "2026-11-23T04:00:00.000Z",
           "startEpochSeconds": 1795399200,
@@ -7132,7 +7172,7 @@
         {
           "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795380000000:fútbol copa de portugal",
           "title": "Fútbol Copa de Portugal",
-          "description": "SCU Torreense vs. Benfica",
+          "description": "Torreense vs. Benfica",
           "start": "2026-11-22T20:40:00.000Z",
           "end": "2026-11-22T22:45:00.000Z",
           "startEpochSeconds": 1795380000,
@@ -7788,18 +7828,28 @@
           "title": "SIGN OFF",
           "description": "",
           "start": "2026-11-19T15:00:00.000Z",
-          "end": "2026-11-19T19:00:00.000Z",
+          "end": "2026-11-19T18:40:00.000Z",
           "startEpochSeconds": 1795100400,
-          "endEpochSeconds": 1795114800,
+          "endEpochSeconds": 1795113600,
           "source": "bein_us"
         },
         {
-          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795114800000:sign off",
+          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795113600000:equestrian",
+          "title": "Equestrian",
+          "description": "Global Champions League, Verona Quarterfinal",
+          "start": "2026-11-19T18:40:00.000Z",
+          "end": "2026-11-19T21:15:00.000Z",
+          "startEpochSeconds": 1795113600,
+          "endEpochSeconds": 1795122900,
+          "source": "bein_us"
+        },
+        {
+          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795122900000:sign off",
           "title": "SIGN OFF",
           "description": "",
-          "start": "2026-11-19T19:00:00.000Z",
+          "start": "2026-11-19T21:15:00.000Z",
           "end": "2026-11-19T23:00:00.000Z",
-          "startEpochSeconds": 1795114800,
+          "startEpochSeconds": 1795122900,
           "endEpochSeconds": 1795129200,
           "source": "bein_us"
         },
@@ -8361,9 +8411,9 @@
           "source": "bein_us"
         },
         {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795104000000:fei western european league show",
-          "title": "FEI Western European League Show",
-          "description": "Lyon",
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795104000000:motorsports highlights",
+          "title": "Motorsports Highlights",
+          "description": "GT World Challenge America: Circuit of the Americas Pt. 1",
           "start": "2026-11-19T16:00:00.000Z",
           "end": "2026-11-19T17:00:00.000Z",
           "startEpochSeconds": 1795104000,
@@ -8681,8 +8731,8 @@
           "source": "bein_us"
         },
         {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795203000000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795203000000:ligue 1 preview show",
+          "title": "Ligue 1 Preview Show",
           "description": "",
           "start": "2026-11-20T19:30:00.000Z",
           "end": "2026-11-20T20:00:00.000Z",
@@ -8691,8 +8741,8 @@
           "source": "bein_us"
         },
         {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795204800000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795204800000:ligue 1 preview show",
+          "title": "Ligue 1 Preview Show",
           "description": "",
           "start": "2026-11-20T20:00:00.000Z",
           "end": "2026-11-20T20:30:00.000Z",
@@ -8741,8 +8791,8 @@
           "source": "bein_us"
         },
         {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795217400000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795217400000:ligue 1 preview show",
+          "title": "Ligue 1 Preview Show",
           "description": "",
           "start": "2026-11-20T23:30:00.000Z",
           "end": "2026-11-21T00:00:00.000Z",
@@ -8901,8 +8951,8 @@
           "source": "bein_us"
         },
         {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795264200000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795264200000:ligue 1 preview show",
+          "title": "Ligue 1 Preview Show",
           "description": "",
           "start": "2026-11-21T12:30:00.000Z",
           "end": "2026-11-21T12:55:00.000Z",
@@ -8921,8 +8971,8 @@
           "source": "bein_us"
         },
         {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795273200000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795273200000:ligue 1 preview show",
+          "title": "Ligue 1 Preview Show",
           "description": "",
           "start": "2026-11-21T15:00:00.000Z",
           "end": "2026-11-21T15:30:00.000Z",
@@ -9303,7 +9353,7 @@
         {
           "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795399200000:fútbol copa de portugal",
           "title": "Fútbol Copa de Portugal",
-          "description": "SCU Torreense vs. Benfica",
+          "description": "Torreense vs. Benfica",
           "start": "2026-11-23T02:00:00.000Z",
           "end": "2026-11-23T04:00:00.000Z",
           "startEpochSeconds": 1795399200,
@@ -9331,9 +9381,9 @@
           "source": "bein_us"
         },
         {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795410000000:naiza diamond fight night, part 2",
-          "title": "Naiza Diamond Fight Night, Part 2",
-          "description": "",
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795410000000:mma",
+          "title": "MMA",
+          "description": "Naiza Fighting Championship 86",
           "start": "2026-11-23T05:00:00.000Z",
           "end": "2026-11-23T06:30:00.000Z",
           "startEpochSeconds": 1795410000,
@@ -9551,8 +9601,8 @@
           "source": "bein_us"
         },
         {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795464000000:fiba 3x3 basketball world tour",
-          "title": "FIBA 3x3 Basketball World Tour",
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795464000000:tour mundial de baloncesto 3x3 de la fiba",
+          "title": "Tour Mundial de Baloncesto 3x3 de la FIBA",
           "description": "Zaisan Masters, Quaterfinals: Ub vs. Ulaanbaatar MMC Energy",
           "start": "2026-11-23T20:00:00.000Z",
           "end": "2026-11-23T20:30:00.000Z",
@@ -9561,8 +9611,8 @@
           "source": "bein_us"
         },
         {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795465800000:fiba 3x3 basketball world tour",
-          "title": "FIBA 3x3 Basketball World Tour",
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795465800000:tour mundial de baloncesto 3x3 de la fiba",
+          "title": "Tour Mundial de Baloncesto 3x3 de la FIBA",
           "description": "Zaisan Masters, Quaterfinals: Shanghai vs. DeQing",
           "start": "2026-11-23T20:30:00.000Z",
           "end": "2026-11-23T21:00:00.000Z",
@@ -9750,7 +9800,7 @@
         {
           "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795241700000:fia f4 world cup",
           "title": "FIA F4 World Cup",
-          "description": "Qualifiication Race",
+          "description": "Macau Grand Prix",
           "start": "2026-11-21T06:15:00.000Z",
           "end": "2026-11-21T09:35:00.000Z",
           "startEpochSeconds": 1795241700,
@@ -9780,7 +9830,7 @@
         {
           "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795269300000:taça de portugal",
           "title": "Taça de Portugal",
-          "description": "",
+          "description": "CD Mafra vs. FC Arouca",
           "start": "2026-11-21T13:55:00.000Z",
           "end": "2026-11-21T16:00:00.000Z",
           "startEpochSeconds": 1795269300,
@@ -9832,28 +9882,48 @@
           "title": "SIGN OFF",
           "description": "",
           "start": "2026-11-21T21:45:00.000Z",
-          "end": "2026-11-22T03:00:00.000Z",
+          "end": "2026-11-22T00:55:00.000Z",
           "startEpochSeconds": 1795297500,
-          "endEpochSeconds": 1795316400,
+          "endEpochSeconds": 1795308900,
           "source": "bein_us"
         },
         {
-          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795316400000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-22T03:00:00.000Z",
-          "end": "2026-11-22T07:00:00.000Z",
-          "startEpochSeconds": 1795316400,
-          "endEpochSeconds": 1795330800,
+          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795308900000:fia f4 world cup",
+          "title": "FIA F4 World Cup",
+          "description": "Macau Grand Prix",
+          "start": "2026-11-22T00:55:00.000Z",
+          "end": "2026-11-22T02:30:00.000Z",
+          "startEpochSeconds": 1795308900,
+          "endEpochSeconds": 1795314600,
           "source": "bein_us"
         },
         {
-          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795330800000:sign off",
+          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795314600000:sign off",
           "title": "SIGN OFF",
           "description": "",
-          "start": "2026-11-22T07:00:00.000Z",
+          "start": "2026-11-22T02:30:00.000Z",
+          "end": "2026-11-22T06:55:00.000Z",
+          "startEpochSeconds": 1795314600,
+          "endEpochSeconds": 1795330500,
+          "source": "bein_us"
+        },
+        {
+          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795330500000:fia f4 world cup",
+          "title": "FIA F4 World Cup",
+          "description": "Macau Grand Prix",
+          "start": "2026-11-22T06:55:00.000Z",
+          "end": "2026-11-22T09:00:00.000Z",
+          "startEpochSeconds": 1795330500,
+          "endEpochSeconds": 1795338000,
+          "source": "bein_us"
+        },
+        {
+          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795338000000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-22T09:00:00.000Z",
           "end": "2026-11-22T11:00:00.000Z",
-          "startEpochSeconds": 1795330800,
+          "startEpochSeconds": 1795338000,
           "endEpochSeconds": 1795345200,
           "source": "bein_us"
         },
@@ -10049,18 +10119,28 @@
           "title": "SIGN OFF",
           "description": "",
           "start": "2026-11-20T03:00:00.000Z",
-          "end": "2026-11-20T07:30:00.000Z",
+          "end": "2026-11-20T05:30:00.000Z",
           "startEpochSeconds": 1795143600,
-          "endEpochSeconds": 1795159800,
+          "endEpochSeconds": 1795152600,
           "source": "bein_us"
         },
         {
-          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795159800000:sign off",
+          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795152600000:sign off",
           "title": "SIGN OFF",
           "description": "",
-          "start": "2026-11-20T07:30:00.000Z",
+          "start": "2026-11-20T05:30:00.000Z",
+          "end": "2026-11-20T09:20:00.000Z",
+          "startEpochSeconds": 1795152600,
+          "endEpochSeconds": 1795166400,
+          "source": "bein_us"
+        },
+        {
+          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795166400000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-20T09:20:00.000Z",
           "end": "2026-11-20T11:00:00.000Z",
-          "startEpochSeconds": 1795159800,
+          "startEpochSeconds": 1795166400,
           "endEpochSeconds": 1795172400,
           "source": "bein_us"
         },
@@ -10297,7 +10377,7 @@
         {
           "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795376100000:fútbol copa de portugal",
           "title": "Fútbol Copa de Portugal",
-          "description": "SCU Torreense vs. Benfica",
+          "description": "Torreense vs. Benfica",
           "start": "2026-11-22T19:35:00.000Z",
           "end": "2026-11-22T21:45:00.000Z",
           "startEpochSeconds": 1795376100,
