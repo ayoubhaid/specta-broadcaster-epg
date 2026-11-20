@@ -6,11 +6,11 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "fr-fr",
   "timezone": "UTC",
-  "generatedAt": "2026-11-20T07:13:12.152Z",
+  "generatedAt": "2026-11-20T20:13:21.937Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 10,
-    "programmesFound": 500,
+    "programmesFound": 498,
     "successfulRequests": 50,
     "failedRequests": 0
   },
@@ -2523,58 +2523,48 @@
           "title": "Basket-ball : Euroligue masculine - Paris Basketball / Hapoel Tel-Aviv",
           "description": "",
           "start": "2026-11-23T13:00:00.000Z",
-          "end": "2026-11-23T14:45:00.000Z",
-          "startEpochSeconds": 1795438800,
-          "endEpochSeconds": 1795445100,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795445100000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-23T14:45:00.000Z",
           "end": "2026-11-23T15:00:00.000Z",
-          "startEpochSeconds": 1795445100,
+          "startEpochSeconds": 1795438800,
           "endEpochSeconds": 1795446000,
           "source": "bein_fr"
         },
         {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795446000000:basket-ball : nba - miami heat / oklahoma city thunder",
-          "title": "Basket-ball : NBA - Miami Heat / Oklahoma City Thunder",
-          "description": "",
-          "start": "2026-11-23T15:00:00.000Z",
-          "end": "2026-11-23T17:00:00.000Z",
-          "startEpochSeconds": 1795446000,
-          "endEpochSeconds": 1795453200,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795453200000:nba extra",
-          "title": "NBA Extra",
-          "description": "",
-          "start": "2026-11-23T17:00:00.000Z",
-          "end": "2026-11-23T17:45:00.000Z",
-          "startEpochSeconds": 1795453200,
-          "endEpochSeconds": 1795455900,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795455900000:football américain : nfl - kansas city chiefs / arizona cardinals",
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795446000000:football américain : nfl - kansas city chiefs / arizona cardinals",
           "title": "Football américain : NFL - Kansas City Chiefs / Arizona Cardinals",
           "description": "",
-          "start": "2026-11-23T17:45:00.000Z",
-          "end": "2026-11-23T20:15:00.000Z",
-          "startEpochSeconds": 1795455900,
-          "endEpochSeconds": 1795464900,
+          "start": "2026-11-23T15:00:00.000Z",
+          "end": "2026-11-23T17:30:00.000Z",
+          "startEpochSeconds": 1795446000,
+          "endEpochSeconds": 1795455000,
           "source": "bein_fr"
         },
         {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795464900000:football américain : nfl - new york giants / jacksonville jaguars",
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795455000000:football américain : nfl - new york giants / jacksonville jaguars",
           "title": "Football américain : NFL - New York Giants / Jacksonville Jaguars",
           "description": "",
-          "start": "2026-11-23T20:15:00.000Z",
+          "start": "2026-11-23T17:30:00.000Z",
+          "end": "2026-11-23T20:00:00.000Z",
+          "startEpochSeconds": 1795455000,
+          "endEpochSeconds": 1795464000,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795464000000:football américain : nfl - san francisco 49ers / minnesota vikings",
+          "title": "Football américain : NFL - San Francisco 49ers / Minnesota Vikings",
+          "description": "",
+          "start": "2026-11-23T20:00:00.000Z",
+          "end": "2026-11-23T22:30:00.000Z",
+          "startEpochSeconds": 1795464000,
+          "endEpochSeconds": 1795473000,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795473000000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-11-23T22:30:00.000Z",
           "end": "2026-11-23T22:45:00.000Z",
-          "startEpochSeconds": 1795464900,
+          "startEpochSeconds": 1795473000,
           "endEpochSeconds": 1795473900,
           "source": "bein_fr"
         },
@@ -2653,18 +2643,8 @@
           "title": "Basket-ball : Euroligue masculine - Anadolu Efes Istanbul / Lyon-Villeurbanne",
           "description": "",
           "start": "2026-11-24T08:30:00.000Z",
-          "end": "2026-11-24T10:15:00.000Z",
-          "startEpochSeconds": 1795509000,
-          "endEpochSeconds": 1795515300,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795515300000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-24T10:15:00.000Z",
           "end": "2026-11-24T10:30:00.000Z",
-          "startEpochSeconds": 1795515300,
+          "startEpochSeconds": 1795509000,
           "endEpochSeconds": 1795516200,
           "source": "bein_fr"
         },
@@ -3983,8 +3963,8 @@
           "source": "bein_fr"
         },
         {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795532400000:football : ligue 2 bkt - sochaux / dunkerque",
-          "title": "Football : Ligue 2 BKT - Sochaux / Dunkerque",
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795532400000:football : ligue 2 bkt - nantes / grenoble",
+          "title": "Football : Ligue 2 BKT - Nantes / Grenoble",
           "description": "",
           "start": "2026-11-24T15:00:00.000Z",
           "end": "2026-11-24T17:00:00.000Z",

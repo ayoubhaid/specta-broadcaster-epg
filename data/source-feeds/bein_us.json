@@ -6,11 +6,11 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "en-us",
   "timezone": "UTC",
-  "generatedAt": "2026-11-20T07:14:12.388Z",
+  "generatedAt": "2026-11-20T20:14:19.343Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 13,
-    "programmesFound": 1027,
+    "programmesFound": 1030,
     "successfulRequests": 65,
     "failedRequests": 0
   },
@@ -1577,7 +1577,7 @@
         {
           "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795467600000:footvolley",
           "title": "Footvolley",
-          "description": "Pro Tour: From Hollywood Beach, Fl.",
+          "description": "Pro Tour: From Hollywood Beach, Fla.",
           "start": "2026-11-23T21:00:00.000Z",
           "end": "2026-11-23T22:00:00.000Z",
           "startEpochSeconds": 1795467600,
@@ -3901,7 +3901,7 @@
         {
           "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795388400000:footvolley",
           "title": "Footvolley",
-          "description": "Pro Tour: From Hollywood Beach, Fl.",
+          "description": "Pro Tour: From Hollywood Beach, Fla.",
           "start": "2026-11-22T23:00:00.000Z",
           "end": "2026-11-23T00:00:00.000Z",
           "startEpochSeconds": 1795388400,
@@ -3981,7 +3981,7 @@
         {
           "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795420800000:footvolley",
           "title": "Footvolley",
-          "description": "Pro Tour: From Hollywood Beach, Fl.",
+          "description": "Pro Tour: From Hollywood Beach, Fla.",
           "start": "2026-11-23T08:00:00.000Z",
           "end": "2026-11-23T09:00:00.000Z",
           "startEpochSeconds": 1795420800,
@@ -4081,7 +4081,7 @@
         {
           "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795453200000:footvolley",
           "title": "Footvolley",
-          "description": "Pro Tour: From Hollywood Beach, Fl.",
+          "description": "Pro Tour: From Hollywood Beach, Fla.",
           "start": "2026-11-23T17:00:00.000Z",
           "end": "2026-11-23T18:00:00.000Z",
           "startEpochSeconds": 1795453200,
@@ -4211,7 +4211,7 @@
         {
           "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795489200000:footvolley",
           "title": "Footvolley",
-          "description": "Pro Tour: From Hollywood Beach, Fl.",
+          "description": "Pro Tour: From Hollywood Beach, Fla.",
           "start": "2026-11-24T03:00:00.000Z",
           "end": "2026-11-24T04:00:00.000Z",
           "startEpochSeconds": 1795489200,
@@ -4301,7 +4301,7 @@
         {
           "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795518000000:footvolley",
           "title": "Footvolley",
-          "description": "Pro Tour: From Hollywood Beach, Fl.",
+          "description": "Pro Tour: From Hollywood Beach, Fla.",
           "start": "2026-11-24T11:00:00.000Z",
           "end": "2026-11-24T12:00:00.000Z",
           "startEpochSeconds": 1795518000,
@@ -6952,7 +6952,7 @@
         {
           "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795402800000:fútbol ligue 1",
           "title": "Fútbol Ligue 1",
-          "description": "Stade Rennais vs. RC Strasbourg Alsace",
+          "description": "Paris Saint-Germain vs. Olympique Lyonnais",
           "start": "2026-11-23T03:00:00.000Z",
           "end": "2026-11-23T05:00:00.000Z",
           "startEpochSeconds": 1795402800,
@@ -8058,18 +8058,28 @@
           "title": "SIGN OFF",
           "description": "",
           "start": "2026-11-23T23:00:00.000Z",
-          "end": "2026-11-24T03:00:00.000Z",
+          "end": "2026-11-24T00:55:00.000Z",
           "startEpochSeconds": 1795474800,
-          "endEpochSeconds": 1795489200,
+          "endEpochSeconds": 1795481700,
           "source": "bein_us"
         },
         {
-          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795489200000:sign off",
+          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795481700000:premier padel tennis",
+          "title": "Premier Padel Tennis",
+          "description": "Mexico, Men's & Women's First Round (Secondary Court)",
+          "start": "2026-11-24T00:55:00.000Z",
+          "end": "2026-11-24T04:00:00.000Z",
+          "startEpochSeconds": 1795481700,
+          "endEpochSeconds": 1795492800,
+          "source": "bein_us"
+        },
+        {
+          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795492800000:sign off",
           "title": "SIGN OFF",
           "description": "",
-          "start": "2026-11-24T03:00:00.000Z",
+          "start": "2026-11-24T04:00:00.000Z",
           "end": "2026-11-24T07:00:00.000Z",
-          "startEpochSeconds": 1795489200,
+          "startEpochSeconds": 1795492800,
           "endEpochSeconds": 1795503600,
           "source": "bein_us"
         },
@@ -8108,19 +8118,19 @@
           "title": "SIGN OFF",
           "description": "",
           "start": "2026-11-24T19:00:00.000Z",
-          "end": "2026-11-24T23:00:00.000Z",
+          "end": "2026-11-24T21:55:00.000Z",
           "startEpochSeconds": 1795546800,
-          "endEpochSeconds": 1795561200,
+          "endEpochSeconds": 1795557300,
           "source": "bein_us"
         },
         {
-          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795561200000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-24T23:00:00.000Z",
-          "end": "2026-11-25T03:00:00.000Z",
-          "startEpochSeconds": 1795561200,
-          "endEpochSeconds": 1795575600,
+          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795557300000:premier padel tennis",
+          "title": "Premier Padel Tennis",
+          "description": "Mexico, Men's & Women's First Round (Secondary Court)",
+          "start": "2026-11-24T21:55:00.000Z",
+          "end": "2026-11-25T04:00:00.000Z",
+          "startEpochSeconds": 1795557300,
+          "endEpochSeconds": 1795579200,
           "source": "bein_us"
         }
       ]
@@ -9243,7 +9253,7 @@
         {
           "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795467600000:footvolley",
           "title": "Footvolley",
-          "description": "Pro Tour: From Hollywood Beach, Fl.",
+          "description": "Pro Tour: From Hollywood Beach, Fla.",
           "start": "2026-11-23T21:00:00.000Z",
           "end": "2026-11-23T22:00:00.000Z",
           "startEpochSeconds": 1795467600,
@@ -9511,8 +9521,8 @@
           "source": "bein_us"
         },
         {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795550400000:fiba 3x3 basketball world tour",
-          "title": "FIBA 3x3 Basketball World Tour",
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795550400000:tour mundial de baloncesto 3x3 de la fiba",
+          "title": "Tour Mundial de Baloncesto 3x3 de la FIBA",
           "description": "Zaisan Masters, Quaterfinals: Amsterdam RABOBANK vs. Baskets Bonn",
           "start": "2026-11-24T20:00:00.000Z",
           "end": "2026-11-24T20:30:00.000Z",
@@ -9521,8 +9531,8 @@
           "source": "bein_us"
         },
         {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795552200000:fiba 3x3 basketball world tour",
-          "title": "FIBA 3x3 Basketball World Tour",
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795552200000:tour mundial de baloncesto 3x3 de la fiba",
+          "title": "Tour Mundial de Baloncesto 3x3 de la FIBA",
           "description": "Zaisan Masters, Quaterfinals: Liman vs. Cibona Ph.Classic",
           "start": "2026-11-24T20:30:00.000Z",
           "end": "2026-11-24T21:00:00.000Z",
@@ -10289,18 +10299,28 @@
           "title": "SIGN OFF",
           "description": "",
           "start": "2026-11-23T15:00:00.000Z",
-          "end": "2026-11-23T19:00:00.000Z",
+          "end": "2026-11-23T17:55:00.000Z",
           "startEpochSeconds": 1795446000,
-          "endEpochSeconds": 1795460400,
+          "endEpochSeconds": 1795456500,
           "source": "bein_us"
         },
         {
-          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795460400000:sign off",
+          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795456500000:fútbol polaco primera división",
+          "title": "Fútbol Polaco Primera División",
+          "description": "Wieczysta Kraków vs. Motor Lublin",
+          "start": "2026-11-23T17:55:00.000Z",
+          "end": "2026-11-23T20:00:00.000Z",
+          "startEpochSeconds": 1795456500,
+          "endEpochSeconds": 1795464000,
+          "source": "bein_us"
+        },
+        {
+          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795464000000:sign off",
           "title": "SIGN OFF",
           "description": "",
-          "start": "2026-11-23T19:00:00.000Z",
+          "start": "2026-11-23T20:00:00.000Z",
           "end": "2026-11-23T23:00:00.000Z",
-          "startEpochSeconds": 1795460400,
+          "startEpochSeconds": 1795464000,
           "endEpochSeconds": 1795474800,
           "source": "bein_us"
         },
@@ -10309,18 +10329,28 @@
           "title": "SIGN OFF",
           "description": "",
           "start": "2026-11-23T23:00:00.000Z",
-          "end": "2026-11-24T03:00:00.000Z",
+          "end": "2026-11-24T00:55:00.000Z",
           "startEpochSeconds": 1795474800,
-          "endEpochSeconds": 1795489200,
+          "endEpochSeconds": 1795481700,
           "source": "bein_us"
         },
         {
-          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795489200000:sign off",
+          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795481700000:premier padel tennis",
+          "title": "Premier Padel Tennis",
+          "description": "Mexico, Men's & Women's First Round (Center Court)",
+          "start": "2026-11-24T00:55:00.000Z",
+          "end": "2026-11-24T04:00:00.000Z",
+          "startEpochSeconds": 1795481700,
+          "endEpochSeconds": 1795492800,
+          "source": "bein_us"
+        },
+        {
+          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795492800000:sign off",
           "title": "SIGN OFF",
           "description": "",
-          "start": "2026-11-24T03:00:00.000Z",
+          "start": "2026-11-24T04:00:00.000Z",
           "end": "2026-11-24T07:30:00.000Z",
-          "startEpochSeconds": 1795489200,
+          "startEpochSeconds": 1795492800,
           "endEpochSeconds": 1795505400,
           "source": "bein_us"
         },
@@ -10359,19 +10389,19 @@
           "title": "SIGN OFF",
           "description": "",
           "start": "2026-11-24T19:00:00.000Z",
-          "end": "2026-11-24T23:00:00.000Z",
+          "end": "2026-11-24T21:55:00.000Z",
           "startEpochSeconds": 1795546800,
-          "endEpochSeconds": 1795561200,
+          "endEpochSeconds": 1795557300,
           "source": "bein_us"
         },
         {
-          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795561200000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-24T23:00:00.000Z",
-          "end": "2026-11-25T03:00:00.000Z",
-          "startEpochSeconds": 1795561200,
-          "endEpochSeconds": 1795575600,
+          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795557300000:premier padel tennis",
+          "title": "Premier Padel Tennis",
+          "description": "Mexico, Men's & Women's First Round (Center Court)",
+          "start": "2026-11-24T21:55:00.000Z",
+          "end": "2026-11-25T04:00:00.000Z",
+          "startEpochSeconds": 1795557300,
+          "endEpochSeconds": 1795579200,
           "source": "bein_us"
         }
       ]
