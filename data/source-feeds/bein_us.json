@@ -6,7 +6,7 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "en-us",
   "timezone": "UTC",
-  "generatedAt": "2026-11-21T07:06:28.426Z",
+  "generatedAt": "2026-11-21T19:15:47.063Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 13,
@@ -755,8 +755,8 @@
           "source": "bein_us"
         },
         {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795226400000:fútbol ligue 1",
-          "title": "Fútbol Ligue 1",
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795226400000:french ligue 1 soccer",
+          "title": "French Ligue 1 Soccer",
           "description": "ESTAC Troyes vs. Le Havre AC",
           "start": "2026-11-21T02:00:00.000Z",
           "end": "2026-11-21T04:00:00.000Z",
@@ -795,8 +795,8 @@
           "source": "bein_us"
         },
         {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795249800000:fútbol polaco primera división",
-          "title": "Fútbol Polaco Primera División",
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795249800000:ekstraklasa soccer",
+          "title": "Ekstraklasa Soccer",
           "description": "Piast Gliwice vs. Korona Kielce",
           "start": "2026-11-21T08:30:00.000Z",
           "end": "2026-11-21T10:30:00.000Z",
@@ -7891,8 +7891,8 @@
           "source": "bein_us"
         },
         {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795226400000:fútbol ligue 1",
-          "title": "Fútbol Ligue 1",
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795226400000:french ligue 1 soccer",
+          "title": "French Ligue 1 Soccer",
           "description": "ESTAC Troyes vs. Le Havre AC",
           "start": "2026-11-21T02:00:00.000Z",
           "end": "2026-11-21T04:00:00.000Z",
@@ -9261,8 +9261,8 @@
           "source": "bein_us"
         },
         {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795638600000:fiba 3x3 basketball world tour",
-          "title": "FIBA 3x3 Basketball World Tour",
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795638600000:tour mundial de baloncesto 3x3 de la fiba",
+          "title": "Tour Mundial de Baloncesto 3x3 de la FIBA",
           "description": "Zaisan Masters, Second Semifinal: Amsterdam RABOBANK vs. Liman",
           "start": "2026-11-25T20:30:00.000Z",
           "end": "2026-11-25T21:00:00.000Z",
