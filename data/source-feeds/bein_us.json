@@ -6,7 +6,7 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "en-us",
   "timezone": "UTC",
-  "generatedAt": "2026-11-22T06:47:27.063Z",
+  "generatedAt": "2026-11-22T19:38:00.231Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 13,
@@ -4029,8 +4029,8 @@
           "source": "bein_us"
         },
         {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795694400000:tour mundial de baloncesto 3x3 de la fiba",
-          "title": "Tour Mundial de Baloncesto 3x3 de la FIBA",
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795694400000:fiba 3x3 basketball world tour",
+          "title": "FIBA 3x3 Basketball World Tour",
           "description": "Deqing, Final: Ub vs. Antwerp",
           "start": "2026-11-26T12:00:00.000Z",
           "end": "2026-11-26T12:30:00.000Z",

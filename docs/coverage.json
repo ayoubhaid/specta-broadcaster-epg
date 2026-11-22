@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-22T06:51:48.000Z",
+  "generatedAt": "2026-11-22T19:41:56.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-22T04:51:48.000Z",
-    "to": "2026-11-23T22:51:48.000Z",
+    "from": "2026-11-22T17:41:56.000Z",
+    "to": "2026-11-24T11:41:56.000Z",
     "maxPerChannel": 80
   },
   "totals": {
-    "channels": 201,
-    "programmes": 7855
+    "channels": 202,
+    "programmes": 7714
   },
   "providers": [
     {
@@ -52,16 +52,16 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2471,
+      "programmes": 2451,
       "publishedChannels": 30,
-      "publishedProgrammes": 1638,
+      "publishedProgrammes": 1619,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
         "title": 0,
         "time": 0,
         "range": 0,
-        "duration": 5
+        "duration": 6
       },
       "error": null
     },
@@ -106,9 +106,9 @@
       "providerName": "DAZN",
       "file": "data/review/dazn_unclassified.json",
       "channels": 75,
-      "programmes": 5374,
+      "programmes": 4557,
       "publishedChannels": 11,
-      "publishedProgrammes": 606,
+      "publishedProgrammes": 491,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -123,10 +123,10 @@
       "provider": "elcinema",
       "providerName": "elCinema Arabic TV Guide",
       "file": "data/review/elcinema_ar_unclassified.json",
-      "channels": 102,
-      "programmes": 2772,
+      "channels": 106,
+      "programmes": 3547,
       "publishedChannels": 21,
-      "publishedProgrammes": 720,
+      "publishedProgrammes": 1049,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -142,9 +142,9 @@
       "providerName": "Golf Channel US",
       "file": "data/review/golfchannel_us_unclassified.json",
       "channels": 1,
-      "programmes": 18,
+      "programmes": 19,
       "publishedChannels": 1,
-      "publishedProgrammes": 18,
+      "publishedProgrammes": 19,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -178,9 +178,9 @@
       "providerName": "Sky Sports UK",
       "file": "data/review/sky_uk_unclassified.json",
       "channels": 21,
-      "programmes": 2842,
+      "programmes": 2838,
       "publishedChannels": 21,
-      "publishedProgrammes": 2842,
+      "publishedProgrammes": 2838,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -214,9 +214,9 @@
       "providerName": "SuperSport",
       "file": "data/review/supersport_unclassified.json",
       "channels": 63,
-      "programmes": 7779,
+      "programmes": 7767,
       "publishedChannels": 17,
-      "publishedProgrammes": 2407,
+      "publishedProgrammes": 2399,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -2291,23 +2291,16 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1323",
+        "key": "elcinema:1212",
         "provider": "elcinema",
-        "name": "BEIN MOVIES ACTION",
+        "name": "Star Movies",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1322",
+        "key": "elcinema:1366",
         "provider": "elcinema",
-        "name": "BEIN MOVIES PREMIERE",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1393",
-        "provider": "elcinema",
-        "name": "OSN TV One",
+        "name": "Thikrayat Tv",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2319,9 +2312,16 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1394",
+        "key": "elcinema:1393",
         "provider": "elcinema",
-        "name": "OSN TV Showcase",
+        "name": "OSN TV One",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1323",
+        "provider": "elcinema",
+        "name": "BEIN MOVIES ACTION",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2329,6 +2329,27 @@
         "key": "elcinema:1176",
         "provider": "elcinema",
         "name": "Cima",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1148",
+        "provider": "elcinema",
+        "name": "Rotana Cinema Masr",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1404",
+        "provider": "elcinema",
+        "name": "One Movies",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1325",
+        "provider": "elcinema",
+        "name": "BEIN MOVIES FAMILY",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2368,13 +2389,6 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1366",
-        "provider": "elcinema",
-        "name": "Thikrayat Tv",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "elcinema:1373",
         "provider": "elcinema",
         "name": "Mix ONE",
@@ -2406,6 +2420,13 @@
         "key": "elcinema:1252",
         "provider": "elcinema",
         "name": "Al Kahera Wal Nas TV 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1322",
+        "provider": "elcinema",
+        "name": "BEIN MOVIES PREMIERE",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2459,9 +2480,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1148",
+        "key": "elcinema:1401",
         "provider": "elcinema",
-        "name": "Rotana Cinema Masr",
+        "name": "Masah",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2550,23 +2571,16 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1325",
-        "provider": "elcinema",
-        "name": "BEIN MOVIES FAMILY",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1212",
-        "provider": "elcinema",
-        "name": "Star Movies",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "elcinema:1399",
         "provider": "elcinema",
         "name": "MBC Masr Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1394",
+        "provider": "elcinema",
+        "name": "OSN TV Showcase",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2725,9 +2739,23 @@
         "candidates": []
       },
       {
+        "key": "elcinema:1334",
+        "provider": "elcinema",
+        "name": "Watania 2",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "elcinema:1227",
         "provider": "elcinema",
         "name": "Sada El Balad Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1385",
+        "provider": "elcinema",
+        "name": "Dijlah TV",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2816,9 +2844,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1296",
+        "key": "elcinema:1355",
         "provider": "elcinema",
-        "name": "MTV",
+        "name": "Mix",
         "reason": "unmapped",
         "candidates": []
       },
@@ -4651,6 +4679,6 @@
     "title": 0,
     "time": 0,
     "range": 0,
-    "duration": 35
+    "duration": 36
   }
 }
