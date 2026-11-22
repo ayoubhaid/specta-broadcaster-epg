@@ -6,11 +6,11 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "en-us",
   "timezone": "UTC",
-  "generatedAt": "2026-11-21T19:15:47.063Z",
+  "generatedAt": "2026-11-22T06:47:27.063Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 13,
-    "programmesFound": 997,
+    "programmesFound": 961,
     "successfulRequests": 65,
     "failedRequests": 0
   },
@@ -20,96 +20,6 @@
       "name": "beIN SPORTS 7",
       "region": "en-us",
       "programmes": [
-        {
-          "id": "831591C8-DA65-4528-B837-0E5A147887FB:1795215600000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-20T23:00:00.000Z",
-          "end": "2026-11-21T03:00:00.000Z",
-          "startEpochSeconds": 1795215600,
-          "endEpochSeconds": 1795230000,
-          "source": "bein_us"
-        },
-        {
-          "id": "831591C8-DA65-4528-B837-0E5A147887FB:1795230000000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T03:00:00.000Z",
-          "end": "2026-11-21T07:00:00.000Z",
-          "startEpochSeconds": 1795230000,
-          "endEpochSeconds": 1795244400,
-          "source": "bein_us"
-        },
-        {
-          "id": "831591C8-DA65-4528-B837-0E5A147887FB:1795244400000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T07:00:00.000Z",
-          "end": "2026-11-21T10:55:00.000Z",
-          "startEpochSeconds": 1795244400,
-          "endEpochSeconds": 1795258500,
-          "source": "bein_us"
-        },
-        {
-          "id": "831591C8-DA65-4528-B837-0E5A147887FB:1795258500000:sailgp",
-          "title": "SailGP",
-          "description": "Dubai, Day 1",
-          "start": "2026-11-21T10:55:00.000Z",
-          "end": "2026-11-21T12:30:00.000Z",
-          "startEpochSeconds": 1795258500,
-          "endEpochSeconds": 1795264200,
-          "source": "bein_us"
-        },
-        {
-          "id": "831591C8-DA65-4528-B837-0E5A147887FB:1795264200000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T12:30:00.000Z",
-          "end": "2026-11-21T15:00:00.000Z",
-          "startEpochSeconds": 1795264200,
-          "endEpochSeconds": 1795273200,
-          "source": "bein_us"
-        },
-        {
-          "id": "831591C8-DA65-4528-B837-0E5A147887FB:1795273200000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T15:00:00.000Z",
-          "end": "2026-11-21T15:55:00.000Z",
-          "startEpochSeconds": 1795273200,
-          "endEpochSeconds": 1795276500,
-          "source": "bein_us"
-        },
-        {
-          "id": "831591C8-DA65-4528-B837-0E5A147887FB:1795276500000:fútbol turco superliga",
-          "title": "Fútbol Turco Superliga",
-          "description": "Kocaelispor vs. Fenerbahçe",
-          "start": "2026-11-21T15:55:00.000Z",
-          "end": "2026-11-21T18:00:00.000Z",
-          "startEpochSeconds": 1795276500,
-          "endEpochSeconds": 1795284000,
-          "source": "bein_us"
-        },
-        {
-          "id": "831591C8-DA65-4528-B837-0E5A147887FB:1795284000000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T18:00:00.000Z",
-          "end": "2026-11-21T19:35:00.000Z",
-          "startEpochSeconds": 1795284000,
-          "endEpochSeconds": 1795289700,
-          "source": "bein_us"
-        },
-        {
-          "id": "831591C8-DA65-4528-B837-0E5A147887FB:1795289700000:french ligue 1 soccer",
-          "title": "French Ligue 1 Soccer",
-          "description": "RC Strasbourg Alsace vs. Stade Brestois",
-          "start": "2026-11-21T19:35:00.000Z",
-          "end": "2026-11-21T21:45:00.000Z",
-          "startEpochSeconds": 1795289700,
-          "endEpochSeconds": 1795297500,
-          "source": "bein_us"
-        },
         {
           "id": "831591C8-DA65-4528-B837-0E5A147887FB:1795297500000:sign off",
           "title": "SIGN OFF",
@@ -379,6 +289,66 @@
           "startEpochSeconds": 1795647600,
           "endEpochSeconds": 1795662000,
           "source": "bein_us"
+        },
+        {
+          "id": "831591C8-DA65-4528-B837-0E5A147887FB:1795662000000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T03:00:00.000Z",
+          "end": "2026-11-26T07:00:00.000Z",
+          "startEpochSeconds": 1795662000,
+          "endEpochSeconds": 1795676400,
+          "source": "bein_us"
+        },
+        {
+          "id": "831591C8-DA65-4528-B837-0E5A147887FB:1795676400000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T07:00:00.000Z",
+          "end": "2026-11-26T11:00:00.000Z",
+          "startEpochSeconds": 1795676400,
+          "endEpochSeconds": 1795690800,
+          "source": "bein_us"
+        },
+        {
+          "id": "831591C8-DA65-4528-B837-0E5A147887FB:1795690800000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T11:00:00.000Z",
+          "end": "2026-11-26T15:00:00.000Z",
+          "startEpochSeconds": 1795690800,
+          "endEpochSeconds": 1795705200,
+          "source": "bein_us"
+        },
+        {
+          "id": "831591C8-DA65-4528-B837-0E5A147887FB:1795705200000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T15:00:00.000Z",
+          "end": "2026-11-26T19:00:00.000Z",
+          "startEpochSeconds": 1795705200,
+          "endEpochSeconds": 1795719600,
+          "source": "bein_us"
+        },
+        {
+          "id": "831591C8-DA65-4528-B837-0E5A147887FB:1795719600000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T19:00:00.000Z",
+          "end": "2026-11-26T23:00:00.000Z",
+          "startEpochSeconds": 1795719600,
+          "endEpochSeconds": 1795734000,
+          "source": "bein_us"
+        },
+        {
+          "id": "831591C8-DA65-4528-B837-0E5A147887FB:1795734000000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T23:00:00.000Z",
+          "end": "2026-11-27T03:00:00.000Z",
+          "startEpochSeconds": 1795734000,
+          "endEpochSeconds": 1795748400,
+          "source": "bein_us"
         }
       ]
     },
@@ -387,86 +357,6 @@
       "name": "BEINS8C",
       "region": "en-us",
       "programmes": [
-        {
-          "id": "520D107A-71D4-4CB7-B141-1C6B089A7FFC:1795215600000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-20T23:00:00.000Z",
-          "end": "2026-11-21T03:00:00.000Z",
-          "startEpochSeconds": 1795215600,
-          "endEpochSeconds": 1795230000,
-          "source": "bein_us"
-        },
-        {
-          "id": "520D107A-71D4-4CB7-B141-1C6B089A7FFC:1795230000000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T03:00:00.000Z",
-          "end": "2026-11-21T07:00:00.000Z",
-          "startEpochSeconds": 1795230000,
-          "endEpochSeconds": 1795244400,
-          "source": "bein_us"
-        },
-        {
-          "id": "520D107A-71D4-4CB7-B141-1C6B089A7FFC:1795244400000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T07:00:00.000Z",
-          "end": "2026-11-21T11:00:00.000Z",
-          "startEpochSeconds": 1795244400,
-          "endEpochSeconds": 1795258800,
-          "source": "bein_us"
-        },
-        {
-          "id": "520D107A-71D4-4CB7-B141-1C6B089A7FFC:1795258800000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T11:00:00.000Z",
-          "end": "2026-11-21T13:15:00.000Z",
-          "startEpochSeconds": 1795258800,
-          "endEpochSeconds": 1795266900,
-          "source": "bein_us"
-        },
-        {
-          "id": "520D107A-71D4-4CB7-B141-1C6B089A7FFC:1795266900000:fiba 3x3 basketball world tour",
-          "title": "FIBA 3x3 Basketball World Tour",
-          "description": "Manama",
-          "start": "2026-11-21T13:15:00.000Z",
-          "end": "2026-11-21T18:00:00.000Z",
-          "startEpochSeconds": 1795266900,
-          "endEpochSeconds": 1795284000,
-          "source": "bein_us"
-        },
-        {
-          "id": "520D107A-71D4-4CB7-B141-1C6B089A7FFC:1795284000000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T18:00:00.000Z",
-          "end": "2026-11-21T19:00:00.000Z",
-          "startEpochSeconds": 1795284000,
-          "endEpochSeconds": 1795287600,
-          "source": "bein_us"
-        },
-        {
-          "id": "520D107A-71D4-4CB7-B141-1C6B089A7FFC:1795287600000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T19:00:00.000Z",
-          "end": "2026-11-21T19:35:00.000Z",
-          "startEpochSeconds": 1795287600,
-          "endEpochSeconds": 1795289700,
-          "source": "bein_us"
-        },
-        {
-          "id": "520D107A-71D4-4CB7-B141-1C6B089A7FFC:1795289700000:fútbol ligue 1",
-          "title": "Fútbol Ligue 1",
-          "description": "Lille OSC vs. Olympique Lyonnais",
-          "start": "2026-11-21T19:35:00.000Z",
-          "end": "2026-11-21T21:45:00.000Z",
-          "startEpochSeconds": 1795289700,
-          "endEpochSeconds": 1795297500,
-          "source": "bein_us"
-        },
         {
           "id": "520D107A-71D4-4CB7-B141-1C6B089A7FFC:1795297500000:sign off",
           "title": "SIGN OFF",
@@ -726,6 +616,66 @@
           "startEpochSeconds": 1795647600,
           "endEpochSeconds": 1795662000,
           "source": "bein_us"
+        },
+        {
+          "id": "520D107A-71D4-4CB7-B141-1C6B089A7FFC:1795662000000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T03:00:00.000Z",
+          "end": "2026-11-26T07:00:00.000Z",
+          "startEpochSeconds": 1795662000,
+          "endEpochSeconds": 1795676400,
+          "source": "bein_us"
+        },
+        {
+          "id": "520D107A-71D4-4CB7-B141-1C6B089A7FFC:1795676400000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T07:00:00.000Z",
+          "end": "2026-11-26T11:00:00.000Z",
+          "startEpochSeconds": 1795676400,
+          "endEpochSeconds": 1795690800,
+          "source": "bein_us"
+        },
+        {
+          "id": "520D107A-71D4-4CB7-B141-1C6B089A7FFC:1795690800000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T11:00:00.000Z",
+          "end": "2026-11-26T15:00:00.000Z",
+          "startEpochSeconds": 1795690800,
+          "endEpochSeconds": 1795705200,
+          "source": "bein_us"
+        },
+        {
+          "id": "520D107A-71D4-4CB7-B141-1C6B089A7FFC:1795705200000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T15:00:00.000Z",
+          "end": "2026-11-26T19:00:00.000Z",
+          "startEpochSeconds": 1795705200,
+          "endEpochSeconds": 1795719600,
+          "source": "bein_us"
+        },
+        {
+          "id": "520D107A-71D4-4CB7-B141-1C6B089A7FFC:1795719600000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T19:00:00.000Z",
+          "end": "2026-11-26T23:00:00.000Z",
+          "startEpochSeconds": 1795719600,
+          "endEpochSeconds": 1795734000,
+          "source": "bein_us"
+        },
+        {
+          "id": "520D107A-71D4-4CB7-B141-1C6B089A7FFC:1795734000000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T23:00:00.000Z",
+          "end": "2026-11-27T03:00:00.000Z",
+          "startEpochSeconds": 1795734000,
+          "endEpochSeconds": 1795748400,
+          "source": "bein_us"
         }
       ]
     },
@@ -734,206 +684,6 @@
       "name": "BEINC",
       "region": "en-us",
       "programmes": [
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795219200000:boundless",
-          "title": "Boundless",
-          "description": "",
-          "start": "2026-11-21T00:00:00.000Z",
-          "end": "2026-11-21T01:00:00.000Z",
-          "startEpochSeconds": 1795219200,
-          "endEpochSeconds": 1795222800,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795222800000:2026 commonwealth games",
-          "title": "2026 Commonwealth Games",
-          "description": "Women's Judo 70kg",
-          "start": "2026-11-21T01:00:00.000Z",
-          "end": "2026-11-21T02:00:00.000Z",
-          "startEpochSeconds": 1795222800,
-          "endEpochSeconds": 1795226400,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795226400000:french ligue 1 soccer",
-          "title": "French Ligue 1 Soccer",
-          "description": "ESTAC Troyes vs. Le Havre AC",
-          "start": "2026-11-21T02:00:00.000Z",
-          "end": "2026-11-21T04:00:00.000Z",
-          "startEpochSeconds": 1795226400,
-          "endEpochSeconds": 1795233600,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795233600000:one friday fights 178",
-          "title": "ONE Friday Fights 178",
-          "description": "",
-          "start": "2026-11-21T04:00:00.000Z",
-          "end": "2026-11-21T07:00:00.000Z",
-          "startEpochSeconds": 1795233600,
-          "endEpochSeconds": 1795244400,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795244400000:one vault",
-          "title": "ONE Vault",
-          "description": "Volume 43",
-          "start": "2026-11-21T07:00:00.000Z",
-          "end": "2026-11-21T08:00:00.000Z",
-          "startEpochSeconds": 1795244400,
-          "endEpochSeconds": 1795248000,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795248000000:one weekly",
-          "title": "One Weekly",
-          "description": "",
-          "start": "2026-11-21T08:00:00.000Z",
-          "end": "2026-11-21T08:30:00.000Z",
-          "startEpochSeconds": 1795248000,
-          "endEpochSeconds": 1795249800,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795249800000:ekstraklasa soccer",
-          "title": "Ekstraklasa Soccer",
-          "description": "Piast Gliwice vs. Korona Kielce",
-          "start": "2026-11-21T08:30:00.000Z",
-          "end": "2026-11-21T10:30:00.000Z",
-          "startEpochSeconds": 1795249800,
-          "endEpochSeconds": 1795257000,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795257000000:the knockout room",
-          "title": "The Knockout Room",
-          "description": "",
-          "start": "2026-11-21T10:30:00.000Z",
-          "end": "2026-11-21T11:00:00.000Z",
-          "startEpochSeconds": 1795257000,
-          "endEpochSeconds": 1795258800,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795258800000:boundless",
-          "title": "Boundless",
-          "description": "",
-          "start": "2026-11-21T11:00:00.000Z",
-          "end": "2026-11-21T12:00:00.000Z",
-          "startEpochSeconds": 1795258800,
-          "endEpochSeconds": 1795262400,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795262400000:boundless",
-          "title": "Boundless",
-          "description": "",
-          "start": "2026-11-21T12:00:00.000Z",
-          "end": "2026-11-21T12:55:00.000Z",
-          "startEpochSeconds": 1795262400,
-          "endEpochSeconds": 1795265700,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795265700000:turkish super lig soccer",
-          "title": "Turkish Super Lig Soccer",
-          "description": "Galatasaray vs. Samsunspor",
-          "start": "2026-11-21T12:55:00.000Z",
-          "end": "2026-11-21T15:00:00.000Z",
-          "startEpochSeconds": 1795265700,
-          "endEpochSeconds": 1795273200,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795273200000:boundless",
-          "title": "Boundless",
-          "description": "",
-          "start": "2026-11-21T15:00:00.000Z",
-          "end": "2026-11-21T16:00:00.000Z",
-          "startEpochSeconds": 1795273200,
-          "endEpochSeconds": 1795276800,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795276800000:the express preview",
-          "title": "The Express Preview",
-          "description": "",
-          "start": "2026-11-21T16:00:00.000Z",
-          "end": "2026-11-21T16:05:00.000Z",
-          "startEpochSeconds": 1795276800,
-          "endEpochSeconds": 1795277100,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795277100000:fútbol ligue 1",
-          "title": "Fútbol Ligue 1",
-          "description": "OGC Nice vs. Paris Saint-Germain",
-          "start": "2026-11-21T16:05:00.000Z",
-          "end": "2026-11-21T18:15:00.000Z",
-          "startEpochSeconds": 1795277100,
-          "endEpochSeconds": 1795284900,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795284900000:best of bein sports",
-          "title": "Best of beIN Sports",
-          "description": "",
-          "start": "2026-11-21T18:15:00.000Z",
-          "end": "2026-11-21T18:30:00.000Z",
-          "startEpochSeconds": 1795284900,
-          "endEpochSeconds": 1795285800,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795285800000:90 in 30",
-          "title": "90 in 30",
-          "description": "Copa Sudamericana 2025: Lanús vs. Atletico Mineiro",
-          "start": "2026-11-21T18:30:00.000Z",
-          "end": "2026-11-21T19:00:00.000Z",
-          "startEpochSeconds": 1795285800,
-          "endEpochSeconds": 1795287600,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795287600000:copa sudamericana: highlights",
-          "title": "Copa Sudamericana: Highlights",
-          "description": "Road to the Final",
-          "start": "2026-11-21T19:00:00.000Z",
-          "end": "2026-11-21T19:30:00.000Z",
-          "startEpochSeconds": 1795287600,
-          "endEpochSeconds": 1795289400,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795289400000:the express preview",
-          "title": "The Express Preview",
-          "description": "",
-          "start": "2026-11-21T19:30:00.000Z",
-          "end": "2026-11-21T19:35:00.000Z",
-          "startEpochSeconds": 1795289400,
-          "endEpochSeconds": 1795289700,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795289700000:french ligue 1 soccer",
-          "title": "French Ligue 1 Soccer",
-          "description": "AS Monaco vs. AJ Auxerre",
-          "start": "2026-11-21T19:35:00.000Z",
-          "end": "2026-11-21T21:45:00.000Z",
-          "startEpochSeconds": 1795289700,
-          "endEpochSeconds": 1795297500,
-          "source": "bein_us"
-        },
-        {
-          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795297500000:the express preview",
-          "title": "The Express Preview",
-          "description": "",
-          "start": "2026-11-21T21:45:00.000Z",
-          "end": "2026-11-21T22:20:00.000Z",
-          "startEpochSeconds": 1795297500,
-          "endEpochSeconds": 1795299600,
-          "source": "bein_us"
-        },
         {
           "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795299600000:copa sudamericana soccer",
           "title": "Copa Sudamericana Soccer",
@@ -1723,6 +1473,186 @@
           "startEpochSeconds": 1795640400,
           "endEpochSeconds": 1795667400,
           "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795667400000:boundless",
+          "title": "Boundless",
+          "description": "",
+          "start": "2026-11-26T04:30:00.000Z",
+          "end": "2026-11-26T05:30:00.000Z",
+          "startEpochSeconds": 1795667400,
+          "endEpochSeconds": 1795671000,
+          "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795671000000:one friday fights 158",
+          "title": "ONE Friday Fights 158",
+          "description": "",
+          "start": "2026-11-26T05:30:00.000Z",
+          "end": "2026-11-26T08:30:00.000Z",
+          "startEpochSeconds": 1795671000,
+          "endEpochSeconds": 1795681800,
+          "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795681800000:premier padel tennis",
+          "title": "Premier Padel Tennis",
+          "description": "FIP World Cup, Men's Final",
+          "start": "2026-11-26T08:30:00.000Z",
+          "end": "2026-11-26T10:30:00.000Z",
+          "startEpochSeconds": 1795681800,
+          "endEpochSeconds": 1795689000,
+          "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795689000000:fei ride",
+          "title": "FEI Ride",
+          "description": "",
+          "start": "2026-11-26T10:30:00.000Z",
+          "end": "2026-11-26T11:00:00.000Z",
+          "startEpochSeconds": 1795689000,
+          "endEpochSeconds": 1795690800,
+          "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795690800000:boundless",
+          "title": "Boundless",
+          "description": "",
+          "start": "2026-11-26T11:00:00.000Z",
+          "end": "2026-11-26T12:00:00.000Z",
+          "startEpochSeconds": 1795690800,
+          "endEpochSeconds": 1795694400,
+          "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795694400000:boundless",
+          "title": "Boundless",
+          "description": "",
+          "start": "2026-11-26T12:00:00.000Z",
+          "end": "2026-11-26T13:00:00.000Z",
+          "startEpochSeconds": 1795694400,
+          "endEpochSeconds": 1795698000,
+          "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795698000000:boundless",
+          "title": "Boundless",
+          "description": "",
+          "start": "2026-11-26T13:00:00.000Z",
+          "end": "2026-11-26T14:00:00.000Z",
+          "startEpochSeconds": 1795698000,
+          "endEpochSeconds": 1795701600,
+          "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795701600000:boundless",
+          "title": "Boundless",
+          "description": "",
+          "start": "2026-11-26T14:00:00.000Z",
+          "end": "2026-11-26T15:00:00.000Z",
+          "startEpochSeconds": 1795701600,
+          "endEpochSeconds": 1795705200,
+          "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795705200000:boundless",
+          "title": "Boundless",
+          "description": "",
+          "start": "2026-11-26T15:00:00.000Z",
+          "end": "2026-11-26T16:00:00.000Z",
+          "startEpochSeconds": 1795705200,
+          "endEpochSeconds": 1795708800,
+          "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795708800000:boundless",
+          "title": "Boundless",
+          "description": "",
+          "start": "2026-11-26T16:00:00.000Z",
+          "end": "2026-11-26T17:00:00.000Z",
+          "startEpochSeconds": 1795708800,
+          "endEpochSeconds": 1795712400,
+          "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795712400000:boundless",
+          "title": "Boundless",
+          "description": "",
+          "start": "2026-11-26T17:00:00.000Z",
+          "end": "2026-11-26T18:00:00.000Z",
+          "startEpochSeconds": 1795712400,
+          "endEpochSeconds": 1795716000,
+          "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795716000000:boundless",
+          "title": "Boundless",
+          "description": "",
+          "start": "2026-11-26T18:00:00.000Z",
+          "end": "2026-11-26T19:00:00.000Z",
+          "startEpochSeconds": 1795716000,
+          "endEpochSeconds": 1795719600,
+          "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795719600000:2026 world taekwondo grand prix series",
+          "title": "2026 World Taekwondo Grand Prix Series",
+          "description": "Paris Final 8, Women's Over 67kg",
+          "start": "2026-11-26T19:00:00.000Z",
+          "end": "2026-11-26T20:00:00.000Z",
+          "startEpochSeconds": 1795719600,
+          "endEpochSeconds": 1795723200,
+          "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795723200000:fiba 3x3 basketball world tour",
+          "title": "FIBA 3x3 Basketball World Tour",
+          "description": "Zaisan Masters, Semifinal",
+          "start": "2026-11-26T20:00:00.000Z",
+          "end": "2026-11-26T20:30:00.000Z",
+          "startEpochSeconds": 1795723200,
+          "endEpochSeconds": 1795725000,
+          "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795725000000:fiba 3x3 basketball world tour",
+          "title": "FIBA 3x3 Basketball World Tour",
+          "description": "Zaisan Masters, Final",
+          "start": "2026-11-26T20:30:00.000Z",
+          "end": "2026-11-26T21:00:00.000Z",
+          "startEpochSeconds": 1795725000,
+          "endEpochSeconds": 1795726800,
+          "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795726800000:mass participation series",
+          "title": "Mass Participation Series",
+          "description": "2026 Cardiff Half Marathon",
+          "start": "2026-11-26T21:00:00.000Z",
+          "end": "2026-11-26T21:30:00.000Z",
+          "startEpochSeconds": 1795726800,
+          "endEpochSeconds": 1795728600,
+          "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795728600000:the sports rundown",
+          "title": "The Sports Rundown",
+          "description": "",
+          "start": "2026-11-26T21:30:00.000Z",
+          "end": "2026-11-26T22:00:00.000Z",
+          "startEpochSeconds": 1795728600,
+          "endEpochSeconds": 1795730400,
+          "source": "bein_us"
+        },
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375:1795730400000:premier padel",
+          "title": "Premier Padel",
+          "description": "Mexico, Round of 16",
+          "start": "2026-11-26T22:00:00.000Z",
+          "end": "2026-11-27T04:00:00.000Z",
+          "startEpochSeconds": 1795730400,
+          "endEpochSeconds": 1795752000,
+          "source": "bein_us"
         }
       ]
     },
@@ -1731,276 +1661,6 @@
       "name": "BEINSSC",
       "region": "en-us",
       "programmes": [
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795219200000:gt world challenge america",
-          "title": "GT World Challenge America",
-          "description": "McLaren Trophy North America: Carrera 2",
-          "start": "2026-11-21T00:00:00.000Z",
-          "end": "2026-11-21T01:00:00.000Z",
-          "startEpochSeconds": 1795219200,
-          "endEpochSeconds": 1795222800,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795222800000:fútbol conmebol copa sudamericana",
-          "title": "Fútbol CONMEBOL Copa Sudamericana",
-          "description": "Vasco da Gama vs. Boca Juniors",
-          "start": "2026-11-21T01:00:00.000Z",
-          "end": "2026-11-21T03:00:00.000Z",
-          "startEpochSeconds": 1795222800,
-          "endEpochSeconds": 1795230000,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795230000000:the xtra",
-          "title": "The Xtra",
-          "description": "",
-          "start": "2026-11-21T03:00:00.000Z",
-          "end": "2026-11-21T04:00:00.000Z",
-          "startEpochSeconds": 1795230000,
-          "endEpochSeconds": 1795233600,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795233600000:fútbol copa de portugal",
-          "title": "Fútbol Copa de Portugal",
-          "description": "Porto vs. Paredes",
-          "start": "2026-11-21T04:00:00.000Z",
-          "end": "2026-11-21T06:00:00.000Z",
-          "startEpochSeconds": 1795233600,
-          "endEpochSeconds": 1795240800,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795240800000:sailgp",
-          "title": "SailGP",
-          "description": "Bermudas: Día 1",
-          "start": "2026-11-21T06:00:00.000Z",
-          "end": "2026-11-21T07:30:00.000Z",
-          "startEpochSeconds": 1795240800,
-          "endEpochSeconds": 1795246200,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795246200000:el mejor box de la historia",
-          "title": "El mejor box de la historia",
-          "description": "",
-          "start": "2026-11-21T07:30:00.000Z",
-          "end": "2026-11-21T08:00:00.000Z",
-          "startEpochSeconds": 1795246200,
-          "endEpochSeconds": 1795248000,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795248000000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T08:00:00.000Z",
-          "end": "2026-11-21T08:30:00.000Z",
-          "startEpochSeconds": 1795248000,
-          "endEpochSeconds": 1795249800,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795249800000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T08:30:00.000Z",
-          "end": "2026-11-21T09:00:00.000Z",
-          "startEpochSeconds": 1795249800,
-          "endEpochSeconds": 1795251600,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795251600000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T09:00:00.000Z",
-          "end": "2026-11-21T09:30:00.000Z",
-          "startEpochSeconds": 1795251600,
-          "endEpochSeconds": 1795253400,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795253400000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T09:30:00.000Z",
-          "end": "2026-11-21T10:00:00.000Z",
-          "startEpochSeconds": 1795253400,
-          "endEpochSeconds": 1795255200,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795255200000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T10:00:00.000Z",
-          "end": "2026-11-21T10:30:00.000Z",
-          "startEpochSeconds": 1795255200,
-          "endEpochSeconds": 1795257000,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795257000000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T10:30:00.000Z",
-          "end": "2026-11-21T11:00:00.000Z",
-          "startEpochSeconds": 1795257000,
-          "endEpochSeconds": 1795258800,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795258800000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T11:00:00.000Z",
-          "end": "2026-11-21T11:30:00.000Z",
-          "startEpochSeconds": 1795258800,
-          "endEpochSeconds": 1795260600,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795260600000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T11:30:00.000Z",
-          "end": "2026-11-21T12:00:00.000Z",
-          "startEpochSeconds": 1795260600,
-          "endEpochSeconds": 1795262400,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795262400000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T12:00:00.000Z",
-          "end": "2026-11-21T12:30:00.000Z",
-          "startEpochSeconds": 1795262400,
-          "endEpochSeconds": 1795264200,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795264200000:los mejores goles",
-          "title": "Los mejores goles",
-          "description": "UEFA Eurocopa",
-          "start": "2026-11-21T12:30:00.000Z",
-          "end": "2026-11-21T12:55:00.000Z",
-          "startEpochSeconds": 1795264200,
-          "endEpochSeconds": 1795265700,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795265700000:fútbol turco superliga",
-          "title": "Fútbol Turco Superliga",
-          "description": "Galatasaray vs. Samsunspor",
-          "start": "2026-11-21T12:55:00.000Z",
-          "end": "2026-11-21T15:00:00.000Z",
-          "startEpochSeconds": 1795265700,
-          "endEpochSeconds": 1795273200,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795273200000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
-          "description": "2026-27: Matchday 10",
-          "start": "2026-11-21T15:00:00.000Z",
-          "end": "2026-11-21T15:30:00.000Z",
-          "startEpochSeconds": 1795273200,
-          "endEpochSeconds": 1795275000,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795275000000:this is paris",
-          "title": "This is Paris",
-          "description": "Ligue 1 2026-27: Paris Saint-Germain vs. Troyes",
-          "start": "2026-11-21T15:30:00.000Z",
-          "end": "2026-11-21T16:00:00.000Z",
-          "startEpochSeconds": 1795275000,
-          "endEpochSeconds": 1795276800,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795276800000:the express preview",
-          "title": "The Express Preview",
-          "description": "",
-          "start": "2026-11-21T16:00:00.000Z",
-          "end": "2026-11-21T16:05:00.000Z",
-          "startEpochSeconds": 1795276800,
-          "endEpochSeconds": 1795277100,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795277100000:fútbol ligue 1",
-          "title": "Fútbol Ligue 1",
-          "description": "OGC Nice vs. Paris Saint-Germain",
-          "start": "2026-11-21T16:05:00.000Z",
-          "end": "2026-11-21T18:15:00.000Z",
-          "startEpochSeconds": 1795277100,
-          "endEpochSeconds": 1795284900,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795284900000:best of bein",
-          "title": "Best of beIN",
-          "description": "",
-          "start": "2026-11-21T18:15:00.000Z",
-          "end": "2026-11-21T18:30:00.000Z",
-          "startEpochSeconds": 1795284900,
-          "endEpochSeconds": 1795285800,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795285800000:90 in 30",
-          "title": "90 in 30",
-          "description": "Copa Sudamericana 2025: Lanús vs. Atletico Mineiro",
-          "start": "2026-11-21T18:30:00.000Z",
-          "end": "2026-11-21T19:00:00.000Z",
-          "startEpochSeconds": 1795285800,
-          "endEpochSeconds": 1795287600,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795287600000:copa sudamericana highlight show",
-          "title": "Copa Sudamericana Highlight Show",
-          "description": "Camino a la final",
-          "start": "2026-11-21T19:00:00.000Z",
-          "end": "2026-11-21T19:30:00.000Z",
-          "startEpochSeconds": 1795287600,
-          "endEpochSeconds": 1795289400,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795289400000:the express preview",
-          "title": "The Express Preview",
-          "description": "",
-          "start": "2026-11-21T19:30:00.000Z",
-          "end": "2026-11-21T19:35:00.000Z",
-          "startEpochSeconds": 1795289400,
-          "endEpochSeconds": 1795289700,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795289700000:fútbol ligue 1",
-          "title": "Fútbol Ligue 1",
-          "description": "Lille OSC vs. Olympique Lyonnais",
-          "start": "2026-11-21T19:35:00.000Z",
-          "end": "2026-11-21T21:45:00.000Z",
-          "startEpochSeconds": 1795289700,
-          "endEpochSeconds": 1795297500,
-          "source": "bein_us"
-        },
-        {
-          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795297500000:the express preview",
-          "title": "The Express Preview",
-          "description": "",
-          "start": "2026-11-21T21:45:00.000Z",
-          "end": "2026-11-21T22:20:00.000Z",
-          "startEpochSeconds": 1795297500,
-          "endEpochSeconds": 1795299600,
-          "source": "bein_us"
-        },
         {
           "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795299600000:copa sudamericana soccer",
           "title": "Copa Sudamericana Soccer",
@@ -2940,6 +2600,216 @@
           "startEpochSeconds": 1795640400,
           "endEpochSeconds": 1795667400,
           "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795667400000:fútbol conmebol copa libertadores",
+          "title": "Fútbol CONMEBOL Copa Libertadores",
+          "description": "Fluminense vs. Palmeiras",
+          "start": "2026-11-26T04:30:00.000Z",
+          "end": "2026-11-26T06:30:00.000Z",
+          "startEpochSeconds": 1795667400,
+          "endEpochSeconds": 1795674600,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795674600000:sailgp",
+          "title": "SailGP",
+          "description": "Halifax: Día 1",
+          "start": "2026-11-26T06:30:00.000Z",
+          "end": "2026-11-26T08:00:00.000Z",
+          "startEpochSeconds": 1795674600,
+          "endEpochSeconds": 1795680000,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795680000000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T08:00:00.000Z",
+          "end": "2026-11-26T08:30:00.000Z",
+          "startEpochSeconds": 1795680000,
+          "endEpochSeconds": 1795681800,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795681800000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T08:30:00.000Z",
+          "end": "2026-11-26T09:00:00.000Z",
+          "startEpochSeconds": 1795681800,
+          "endEpochSeconds": 1795683600,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795683600000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T09:00:00.000Z",
+          "end": "2026-11-26T09:30:00.000Z",
+          "startEpochSeconds": 1795683600,
+          "endEpochSeconds": 1795685400,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795685400000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T09:30:00.000Z",
+          "end": "2026-11-26T10:00:00.000Z",
+          "startEpochSeconds": 1795685400,
+          "endEpochSeconds": 1795687200,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795687200000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T10:00:00.000Z",
+          "end": "2026-11-26T10:30:00.000Z",
+          "startEpochSeconds": 1795687200,
+          "endEpochSeconds": 1795689000,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795689000000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T10:30:00.000Z",
+          "end": "2026-11-26T11:00:00.000Z",
+          "startEpochSeconds": 1795689000,
+          "endEpochSeconds": 1795690800,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795690800000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T11:00:00.000Z",
+          "end": "2026-11-26T11:30:00.000Z",
+          "startEpochSeconds": 1795690800,
+          "endEpochSeconds": 1795692600,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795692600000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T11:30:00.000Z",
+          "end": "2026-11-26T12:00:00.000Z",
+          "startEpochSeconds": 1795692600,
+          "endEpochSeconds": 1795694400,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795694400000:the xtra",
+          "title": "The Xtra",
+          "description": "",
+          "start": "2026-11-26T12:00:00.000Z",
+          "end": "2026-11-26T13:00:00.000Z",
+          "startEpochSeconds": 1795694400,
+          "endEpochSeconds": 1795698000,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795698000000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T13:00:00.000Z",
+          "end": "2026-11-26T13:30:00.000Z",
+          "startEpochSeconds": 1795698000,
+          "endEpochSeconds": 1795699800,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795699800000:sailgp",
+          "title": "SailGP",
+          "description": "Dubái, Día 1",
+          "start": "2026-11-26T13:30:00.000Z",
+          "end": "2026-11-26T15:00:00.000Z",
+          "startEpochSeconds": 1795699800,
+          "endEpochSeconds": 1795705200,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795705200000:90 in 30",
+          "title": "90 in 30",
+          "description": "Ligue 1 2026-27: Nice vs. Paris Saint-Germain",
+          "start": "2026-11-26T15:00:00.000Z",
+          "end": "2026-11-26T15:30:00.000Z",
+          "startEpochSeconds": 1795705200,
+          "endEpochSeconds": 1795707000,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795707000000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T15:30:00.000Z",
+          "end": "2026-11-26T16:00:00.000Z",
+          "startEpochSeconds": 1795707000,
+          "endEpochSeconds": 1795708800,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795708800000:premier padel tennis",
+          "title": "Premier Padel Tennis",
+          "description": "Dubái: Final masculina",
+          "start": "2026-11-26T16:00:00.000Z",
+          "end": "2026-11-26T18:00:00.000Z",
+          "startEpochSeconds": 1795708800,
+          "endEpochSeconds": 1795716000,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795716000000:fútbol conmebol copa libertadores",
+          "title": "Fútbol CONMEBOL Copa Libertadores",
+          "description": "Flamengo vs. Estudiantes",
+          "start": "2026-11-26T18:00:00.000Z",
+          "end": "2026-11-26T20:00:00.000Z",
+          "startEpochSeconds": 1795716000,
+          "endEpochSeconds": 1795723200,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795723200000:copa sudamericana highlight show",
+          "title": "Copa Sudamericana Highlight Show",
+          "description": "Final",
+          "start": "2026-11-26T20:00:00.000Z",
+          "end": "2026-11-26T20:30:00.000Z",
+          "startEpochSeconds": 1795723200,
+          "endEpochSeconds": 1795725000,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795725000000:copa libertadores highlights",
+          "title": "Copa Libertadores Highlights",
+          "description": "Road to the Final",
+          "start": "2026-11-26T20:30:00.000Z",
+          "end": "2026-11-26T21:00:00.000Z",
+          "startEpochSeconds": 1795725000,
+          "endEpochSeconds": 1795726800,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795726800000:the xtra",
+          "title": "The Xtra",
+          "description": "",
+          "start": "2026-11-26T21:00:00.000Z",
+          "end": "2026-11-26T22:00:00.000Z",
+          "startEpochSeconds": 1795726800,
+          "endEpochSeconds": 1795730400,
+          "source": "bein_us"
+        },
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE:1795730400000:premier padel",
+          "title": "Premier Padel",
+          "description": "México, Octavos de final",
+          "start": "2026-11-26T22:00:00.000Z",
+          "end": "2026-11-27T04:00:00.000Z",
+          "startEpochSeconds": 1795730400,
+          "endEpochSeconds": 1795752000,
+          "source": "bein_us"
         }
       ]
     },
@@ -2948,306 +2818,6 @@
       "name": "beIN SPORTS XTRA",
       "region": "en-us",
       "programmes": [
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795219200000:copa sudamericana soccer",
-          "title": "Copa Sudamericana Soccer",
-          "description": "Lanús vs. Atlético Mineiro",
-          "start": "2026-11-21T00:00:00.000Z",
-          "end": "2026-11-21T02:00:00.000Z",
-          "startEpochSeconds": 1795219200,
-          "endEpochSeconds": 1795226400,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795226400000:gearing up",
-          "title": "Gearing Up",
-          "description": "",
-          "start": "2026-11-21T02:00:00.000Z",
-          "end": "2026-11-21T02:30:00.000Z",
-          "startEpochSeconds": 1795226400,
-          "endEpochSeconds": 1795228200,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795228200000:gearing up",
-          "title": "Gearing Up",
-          "description": "",
-          "start": "2026-11-21T02:30:00.000Z",
-          "end": "2026-11-21T03:00:00.000Z",
-          "startEpochSeconds": 1795228200,
-          "endEpochSeconds": 1795230000,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795230000000:mass participation series",
-          "title": "Mass Participation Series",
-          "description": "2026: Trans Sahara Marathon",
-          "start": "2026-11-21T03:00:00.000Z",
-          "end": "2026-11-21T03:30:00.000Z",
-          "startEpochSeconds": 1795230000,
-          "endEpochSeconds": 1795231800,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795231800000:outdoor sports show",
-          "title": "Outdoor Sports Show",
-          "description": "",
-          "start": "2026-11-21T03:30:00.000Z",
-          "end": "2026-11-21T04:00:00.000Z",
-          "startEpochSeconds": 1795231800,
-          "endEpochSeconds": 1795233600,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795233600000:this is paris",
-          "title": "This is Paris",
-          "description": "",
-          "start": "2026-11-21T04:00:00.000Z",
-          "end": "2026-11-21T04:30:00.000Z",
-          "startEpochSeconds": 1795233600,
-          "endEpochSeconds": 1795235400,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795235400000:the knockout room",
-          "title": "The Knockout Room",
-          "description": "",
-          "start": "2026-11-21T04:30:00.000Z",
-          "end": "2026-11-21T05:00:00.000Z",
-          "startEpochSeconds": 1795235400,
-          "endEpochSeconds": 1795237200,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795237200000:brave cf",
-          "title": "BRAVE CF",
-          "description": "Veterans & Title Chasers",
-          "start": "2026-11-21T05:00:00.000Z",
-          "end": "2026-11-21T07:00:00.000Z",
-          "startEpochSeconds": 1795237200,
-          "endEpochSeconds": 1795244400,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795244400000:footvolley",
-          "title": "Footvolley",
-          "description": "Pro Tour: Nations Cup from Ocean City, Md.",
-          "start": "2026-11-21T07:00:00.000Z",
-          "end": "2026-11-21T08:00:00.000Z",
-          "startEpochSeconds": 1795244400,
-          "endEpochSeconds": 1795248000,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795248000000:gearing up",
-          "title": "Gearing Up",
-          "description": "",
-          "start": "2026-11-21T08:00:00.000Z",
-          "end": "2026-11-21T08:30:00.000Z",
-          "startEpochSeconds": 1795248000,
-          "endEpochSeconds": 1795249800,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795249800000:gearing up",
-          "title": "Gearing Up",
-          "description": "",
-          "start": "2026-11-21T08:30:00.000Z",
-          "end": "2026-11-21T09:00:00.000Z",
-          "startEpochSeconds": 1795249800,
-          "endEpochSeconds": 1795251600,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795251600000:fei eventing nations cup",
-          "title": "FEI Eventing Nations Cup",
-          "description": "France",
-          "start": "2026-11-21T09:00:00.000Z",
-          "end": "2026-11-21T09:30:00.000Z",
-          "startEpochSeconds": 1795251600,
-          "endEpochSeconds": 1795253400,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795253400000:fei eventing nations cup",
-          "title": "FEI Eventing Nations Cup",
-          "description": "Netherlands",
-          "start": "2026-11-21T09:30:00.000Z",
-          "end": "2026-11-21T10:00:00.000Z",
-          "startEpochSeconds": 1795253400,
-          "endEpochSeconds": 1795255200,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795255200000:fei western european league show",
-          "title": "FEI Western European League Show",
-          "description": "Oslo",
-          "start": "2026-11-21T10:00:00.000Z",
-          "end": "2026-11-21T11:00:00.000Z",
-          "startEpochSeconds": 1795255200,
-          "endEpochSeconds": 1795258800,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795258800000:footvolley",
-          "title": "Footvolley",
-          "description": "Pro Tour: Nations Cup from Ocean City, Md.",
-          "start": "2026-11-21T11:00:00.000Z",
-          "end": "2026-11-21T12:00:00.000Z",
-          "startEpochSeconds": 1795258800,
-          "endEpochSeconds": 1795262400,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795262400000:fiba 3x3 basketball world tour",
-          "title": "FIBA 3x3 Basketball World Tour",
-          "description": "Utsunomiya: Final, Liman vs Skyliners",
-          "start": "2026-11-21T12:00:00.000Z",
-          "end": "2026-11-21T12:30:00.000Z",
-          "startEpochSeconds": 1795262400,
-          "endEpochSeconds": 1795264200,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795264200000:fiba 3x3 basketball world tour",
-          "title": "FIBA 3x3 Basketball World Tour",
-          "description": "Chengdu, Final: Ub vs. Liman",
-          "start": "2026-11-21T12:30:00.000Z",
-          "end": "2026-11-21T13:00:00.000Z",
-          "startEpochSeconds": 1795264200,
-          "endEpochSeconds": 1795266000,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795266000000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
-          "description": "2026-27: Matchday 10",
-          "start": "2026-11-21T13:00:00.000Z",
-          "end": "2026-11-21T13:30:00.000Z",
-          "startEpochSeconds": 1795266000,
-          "endEpochSeconds": 1795267800,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795267800000:best of bein sports",
-          "title": "Best of beIN Sports",
-          "description": "",
-          "start": "2026-11-21T13:30:00.000Z",
-          "end": "2026-11-21T13:40:00.000Z",
-          "startEpochSeconds": 1795267800,
-          "endEpochSeconds": 1795268400,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795268400000:ekstraklasa soccer",
-          "title": "Ekstraklasa Soccer",
-          "description": "Cracovia vs. Jagiellonia Bialystok",
-          "start": "2026-11-21T13:40:00.000Z",
-          "end": "2026-11-21T15:45:00.000Z",
-          "startEpochSeconds": 1795268400,
-          "endEpochSeconds": 1795275900,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795275900000:best of bein sports",
-          "title": "Best of beIN Sports",
-          "description": "",
-          "start": "2026-11-21T15:45:00.000Z",
-          "end": "2026-11-21T16:00:00.000Z",
-          "startEpochSeconds": 1795275900,
-          "endEpochSeconds": 1795276800,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795276800000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
-          "description": "2026-27: Matchday 10",
-          "start": "2026-11-21T16:00:00.000Z",
-          "end": "2026-11-21T16:25:00.000Z",
-          "startEpochSeconds": 1795276800,
-          "endEpochSeconds": 1795278300,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795278300000:ekstraklasa soccer",
-          "title": "Ekstraklasa Soccer",
-          "description": "Zaglebie Lubin vs. Górnik Zabrze",
-          "start": "2026-11-21T16:25:00.000Z",
-          "end": "2026-11-21T18:30:00.000Z",
-          "startEpochSeconds": 1795278300,
-          "endEpochSeconds": 1795285800,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795285800000:gt world challenge europe",
-          "title": "GT World Challenge Europe",
-          "description": "Portimao: Race",
-          "start": "2026-11-21T18:30:00.000Z",
-          "end": "2026-11-21T19:30:00.000Z",
-          "startEpochSeconds": 1795285800,
-          "endEpochSeconds": 1795289400,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795289400000:best of bein sports",
-          "title": "Best of beIN Sports",
-          "description": "",
-          "start": "2026-11-21T19:30:00.000Z",
-          "end": "2026-11-21T19:35:00.000Z",
-          "startEpochSeconds": 1795289400,
-          "endEpochSeconds": 1795289700,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795289700000:fútbol ligue 1",
-          "title": "Fútbol Ligue 1",
-          "description": "RC Lens vs. Toulouse FC",
-          "start": "2026-11-21T19:35:00.000Z",
-          "end": "2026-11-21T21:45:00.000Z",
-          "startEpochSeconds": 1795289700,
-          "endEpochSeconds": 1795297500,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795297500000:best of bein sports",
-          "title": "Best of beIN Sports",
-          "description": "",
-          "start": "2026-11-21T21:45:00.000Z",
-          "end": "2026-11-21T22:00:00.000Z",
-          "startEpochSeconds": 1795297500,
-          "endEpochSeconds": 1795298400,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795298400000:inside sailing",
-          "title": "Inside Sailing",
-          "description": "",
-          "start": "2026-11-21T22:00:00.000Z",
-          "end": "2026-11-21T22:30:00.000Z",
-          "startEpochSeconds": 1795298400,
-          "endEpochSeconds": 1795300200,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795300200000:canoe highlights",
-          "title": "Canoe Highlights",
-          "description": "Dragon Boat World Championships",
-          "start": "2026-11-21T22:30:00.000Z",
-          "end": "2026-11-21T23:00:00.000Z",
-          "startEpochSeconds": 1795300200,
-          "endEpochSeconds": 1795302000,
-          "source": "bein_us"
-        },
-        {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795302000000:footvolley",
-          "title": "Footvolley",
-          "description": "Nations Cup from Ocean City, Md.",
-          "start": "2026-11-21T23:00:00.000Z",
-          "end": "2026-11-22T00:00:00.000Z",
-          "startEpochSeconds": 1795302000,
-          "endEpochSeconds": 1795305600,
-          "source": "bein_us"
-        },
         {
           "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795305600000:fútbol turco superliga",
           "title": "Fútbol Turco Superliga",
@@ -4337,6 +3907,286 @@
           "startEpochSeconds": 1795649400,
           "endEpochSeconds": 1795651200,
           "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795651200000:fútbol ligue 1",
+          "title": "Fútbol Ligue 1",
+          "description": "OGC Nice vs. Paris Saint-Germain",
+          "start": "2026-11-26T00:00:00.000Z",
+          "end": "2026-11-26T02:00:00.000Z",
+          "startEpochSeconds": 1795651200,
+          "endEpochSeconds": 1795658400,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795658400000:2026 goodwood festival of speed",
+          "title": "2026 Goodwood Festival of Speed",
+          "description": "",
+          "start": "2026-11-26T02:00:00.000Z",
+          "end": "2026-11-26T03:00:00.000Z",
+          "startEpochSeconds": 1795658400,
+          "endEpochSeconds": 1795662000,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795662000000:world downhill skateboarding championships",
+          "title": "World Downhill Skateboarding Championships",
+          "description": "",
+          "start": "2026-11-26T03:00:00.000Z",
+          "end": "2026-11-26T03:30:00.000Z",
+          "startEpochSeconds": 1795662000,
+          "endEpochSeconds": 1795663800,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795663800000:world downhill skateboarding championships",
+          "title": "World Downhill Skateboarding Championships",
+          "description": "",
+          "start": "2026-11-26T03:30:00.000Z",
+          "end": "2026-11-26T04:00:00.000Z",
+          "startEpochSeconds": 1795663800,
+          "endEpochSeconds": 1795665600,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795665600000:90 in 30",
+          "title": "90 in 30",
+          "description": "Copa Libertadores 2026-27: Fluminense vs. Palmeiras",
+          "start": "2026-11-26T04:00:00.000Z",
+          "end": "2026-11-26T04:30:00.000Z",
+          "startEpochSeconds": 1795665600,
+          "endEpochSeconds": 1795667400,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795667400000:90 in 30",
+          "title": "90 in 30",
+          "description": "Copa Libertadores 2026: Estudiantes vs. Flamengo",
+          "start": "2026-11-26T04:30:00.000Z",
+          "end": "2026-11-26T05:00:00.000Z",
+          "startEpochSeconds": 1795667400,
+          "endEpochSeconds": 1795669200,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795669200000:fútbol ligue 1",
+          "title": "Fútbol Ligue 1",
+          "description": "OGC Nice vs. Paris Saint-Germain",
+          "start": "2026-11-26T05:00:00.000Z",
+          "end": "2026-11-26T07:00:00.000Z",
+          "startEpochSeconds": 1795669200,
+          "endEpochSeconds": 1795676400,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795676400000:fiba 3x3 basketball world tour",
+          "title": "FIBA 3x3 Basketball World Tour",
+          "description": "Dubai, Cibona Ph.Classic vs. Baskets Bonn",
+          "start": "2026-11-26T07:00:00.000Z",
+          "end": "2026-11-26T07:30:00.000Z",
+          "startEpochSeconds": 1795676400,
+          "endEpochSeconds": 1795678200,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795678200000:fiba 3x3 basketball world tour",
+          "title": "FIBA 3x3 Basketball World Tour",
+          "description": "Dubai, Amsterdam Rabobank vs. Ub",
+          "start": "2026-11-26T07:30:00.000Z",
+          "end": "2026-11-26T08:00:00.000Z",
+          "startEpochSeconds": 1795678200,
+          "endEpochSeconds": 1795680000,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795680000000:2026 goodwood festival of speed",
+          "title": "2026 Goodwood Festival of Speed",
+          "description": "",
+          "start": "2026-11-26T08:00:00.000Z",
+          "end": "2026-11-26T09:00:00.000Z",
+          "startEpochSeconds": 1795680000,
+          "endEpochSeconds": 1795683600,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795683600000:skateboarding",
+          "title": "Skateboarding",
+          "description": "Jackalope, Men's Final",
+          "start": "2026-11-26T09:00:00.000Z",
+          "end": "2026-11-26T11:00:00.000Z",
+          "startEpochSeconds": 1795683600,
+          "endEpochSeconds": 1795690800,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795690800000:footvolley",
+          "title": "Footvolley",
+          "description": "Pro Tour: All-Star Footvolley",
+          "start": "2026-11-26T11:00:00.000Z",
+          "end": "2026-11-26T12:00:00.000Z",
+          "startEpochSeconds": 1795690800,
+          "endEpochSeconds": 1795694400,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795694400000:tour mundial de baloncesto 3x3 de la fiba",
+          "title": "Tour Mundial de Baloncesto 3x3 de la FIBA",
+          "description": "Deqing, Final: Ub vs. Antwerp",
+          "start": "2026-11-26T12:00:00.000Z",
+          "end": "2026-11-26T12:30:00.000Z",
+          "startEpochSeconds": 1795694400,
+          "endEpochSeconds": 1795696200,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795696200000:tour mundial de baloncesto 3x3 de la fiba",
+          "title": "Tour Mundial de Baloncesto 3x3 de la FIBA",
+          "description": "Bucharest: Fuengirola vs. Amsterdam RABOBANK",
+          "start": "2026-11-26T12:30:00.000Z",
+          "end": "2026-11-26T13:00:00.000Z",
+          "startEpochSeconds": 1795696200,
+          "endEpochSeconds": 1795698000,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795698000000:premier padel tennis",
+          "title": "Premier Padel Tennis",
+          "description": "Dubai, Women's Final",
+          "start": "2026-11-26T13:00:00.000Z",
+          "end": "2026-11-26T15:00:00.000Z",
+          "startEpochSeconds": 1795698000,
+          "endEpochSeconds": 1795705200,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795705200000:2026 goodwood festival of speed",
+          "title": "2026 Goodwood Festival of Speed",
+          "description": "",
+          "start": "2026-11-26T15:00:00.000Z",
+          "end": "2026-11-26T16:00:00.000Z",
+          "startEpochSeconds": 1795705200,
+          "endEpochSeconds": 1795708800,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795708800000:ferrari challenge uk",
+          "title": "Ferrari Challenge UK",
+          "description": "Donington - Race 1",
+          "start": "2026-11-26T16:00:00.000Z",
+          "end": "2026-11-26T17:00:00.000Z",
+          "startEpochSeconds": 1795708800,
+          "endEpochSeconds": 1795712400,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795712400000:skateboarding",
+          "title": "Skateboarding",
+          "description": "World Downhill Championships, Isle of Man",
+          "start": "2026-11-26T17:00:00.000Z",
+          "end": "2026-11-26T17:30:00.000Z",
+          "startEpochSeconds": 1795712400,
+          "endEpochSeconds": 1795714200,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795714200000:skateboarding",
+          "title": "Skateboarding",
+          "description": "World Downhill Championships, Isle of Man",
+          "start": "2026-11-26T17:30:00.000Z",
+          "end": "2026-11-26T18:00:00.000Z",
+          "startEpochSeconds": 1795714200,
+          "endEpochSeconds": 1795716000,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795716000000:fei ride",
+          "title": "FEI Ride",
+          "description": "",
+          "start": "2026-11-26T18:00:00.000Z",
+          "end": "2026-11-26T18:30:00.000Z",
+          "startEpochSeconds": 1795716000,
+          "endEpochSeconds": 1795717800,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795717800000:fei ride",
+          "title": "FEI Ride",
+          "description": "",
+          "start": "2026-11-26T18:30:00.000Z",
+          "end": "2026-11-26T19:00:00.000Z",
+          "startEpochSeconds": 1795717800,
+          "endEpochSeconds": 1795719600,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795719600000:90 in 30",
+          "title": "90 in 30",
+          "description": "Copa Libertadores 2026: Palmeiras vs. Fluminense",
+          "start": "2026-11-26T19:00:00.000Z",
+          "end": "2026-11-26T19:30:00.000Z",
+          "startEpochSeconds": 1795719600,
+          "endEpochSeconds": 1795721400,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795721400000:90 in 30",
+          "title": "90 in 30",
+          "description": "Copa Libertadores 2026: Flamengo vs. Estudiantes",
+          "start": "2026-11-26T19:30:00.000Z",
+          "end": "2026-11-26T20:00:00.000Z",
+          "startEpochSeconds": 1795721400,
+          "endEpochSeconds": 1795723200,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795723200000:skateboarding",
+          "title": "Skateboarding",
+          "description": "Jackalope, Women's Final",
+          "start": "2026-11-26T20:00:00.000Z",
+          "end": "2026-11-26T22:00:00.000Z",
+          "startEpochSeconds": 1795723200,
+          "endEpochSeconds": 1795730400,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795730400000:fei ride",
+          "title": "FEI Ride",
+          "description": "",
+          "start": "2026-11-26T22:00:00.000Z",
+          "end": "2026-11-26T22:30:00.000Z",
+          "startEpochSeconds": 1795730400,
+          "endEpochSeconds": 1795732200,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795732200000:fei ride",
+          "title": "FEI Ride",
+          "description": "",
+          "start": "2026-11-26T22:30:00.000Z",
+          "end": "2026-11-26T23:00:00.000Z",
+          "startEpochSeconds": 1795732200,
+          "endEpochSeconds": 1795734000,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795734000000:fiba 3x3 basketball world tour",
+          "title": "FIBA 3x3 Basketball World Tour",
+          "description": "Dubai, Final: Baskets Bonn vs. Ub",
+          "start": "2026-11-26T23:00:00.000Z",
+          "end": "2026-11-26T23:30:00.000Z",
+          "startEpochSeconds": 1795734000,
+          "endEpochSeconds": 1795735800,
+          "source": "bein_us"
+        },
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795735800000:fiba 3x3 basketball world tour",
+          "title": "FIBA 3x3 Basketball World Tour",
+          "description": "Macau, Final: Ub vs. Shanghai",
+          "start": "2026-11-26T23:30:00.000Z",
+          "end": "2026-11-27T00:00:00.000Z",
+          "startEpochSeconds": 1795735800,
+          "endEpochSeconds": 1795737600,
+          "source": "bein_us"
         }
       ]
     },
@@ -4345,106 +4195,6 @@
       "name": "beIN SPORTS 5",
       "region": "en-us",
       "programmes": [
-        {
-          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795210200000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-20T21:30:00.000Z",
-          "end": "2026-11-21T03:00:00.000Z",
-          "startEpochSeconds": 1795210200,
-          "endEpochSeconds": 1795230000,
-          "source": "bein_us"
-        },
-        {
-          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795230000000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T03:00:00.000Z",
-          "end": "2026-11-21T03:25:00.000Z",
-          "startEpochSeconds": 1795230000,
-          "endEpochSeconds": 1795231500,
-          "source": "bein_us"
-        },
-        {
-          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795231500000:fia f4 world cup",
-          "title": "FIA F4 World Cup",
-          "description": "Macau Grand Prix",
-          "start": "2026-11-21T03:25:00.000Z",
-          "end": "2026-11-21T05:00:00.000Z",
-          "startEpochSeconds": 1795231500,
-          "endEpochSeconds": 1795237200,
-          "source": "bein_us"
-        },
-        {
-          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795237200000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T05:00:00.000Z",
-          "end": "2026-11-21T07:00:00.000Z",
-          "startEpochSeconds": 1795237200,
-          "endEpochSeconds": 1795244400,
-          "source": "bein_us"
-        },
-        {
-          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795244400000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T07:00:00.000Z",
-          "end": "2026-11-21T11:00:00.000Z",
-          "startEpochSeconds": 1795244400,
-          "endEpochSeconds": 1795258800,
-          "source": "bein_us"
-        },
-        {
-          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795258800000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T11:00:00.000Z",
-          "end": "2026-11-21T13:40:00.000Z",
-          "startEpochSeconds": 1795258800,
-          "endEpochSeconds": 1795268400,
-          "source": "bein_us"
-        },
-        {
-          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795268400000:ekstraklasa soccer",
-          "title": "Ekstraklasa Soccer",
-          "description": "Cracovia vs. Jagiellonia Bialystok",
-          "start": "2026-11-21T13:40:00.000Z",
-          "end": "2026-11-21T15:45:00.000Z",
-          "startEpochSeconds": 1795268400,
-          "endEpochSeconds": 1795275900,
-          "source": "bein_us"
-        },
-        {
-          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795275900000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T15:45:00.000Z",
-          "end": "2026-11-21T18:55:00.000Z",
-          "startEpochSeconds": 1795275900,
-          "endEpochSeconds": 1795287300,
-          "source": "bein_us"
-        },
-        {
-          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795287300000:french ligue 2 soccer",
-          "title": "French Ligue 2 Soccer",
-          "description": "Stade de Reims vs. AS Saint-Etienne",
-          "start": "2026-11-21T18:55:00.000Z",
-          "end": "2026-11-21T21:00:00.000Z",
-          "startEpochSeconds": 1795287300,
-          "endEpochSeconds": 1795294800,
-          "source": "bein_us"
-        },
-        {
-          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795294800000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T21:00:00.000Z",
-          "end": "2026-11-21T23:00:00.000Z",
-          "startEpochSeconds": 1795294800,
-          "endEpochSeconds": 1795302000,
-          "source": "bein_us"
-        },
         {
           "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795302000000:sign off",
           "title": "SIGN OFF",
@@ -4724,6 +4474,66 @@
           "startEpochSeconds": 1795647600,
           "endEpochSeconds": 1795662000,
           "source": "bein_us"
+        },
+        {
+          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795662000000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T03:00:00.000Z",
+          "end": "2026-11-26T07:00:00.000Z",
+          "startEpochSeconds": 1795662000,
+          "endEpochSeconds": 1795676400,
+          "source": "bein_us"
+        },
+        {
+          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795676400000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T07:00:00.000Z",
+          "end": "2026-11-26T11:00:00.000Z",
+          "startEpochSeconds": 1795676400,
+          "endEpochSeconds": 1795690800,
+          "source": "bein_us"
+        },
+        {
+          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795690800000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T11:00:00.000Z",
+          "end": "2026-11-26T15:00:00.000Z",
+          "startEpochSeconds": 1795690800,
+          "endEpochSeconds": 1795705200,
+          "source": "bein_us"
+        },
+        {
+          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795705200000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T15:00:00.000Z",
+          "end": "2026-11-26T19:00:00.000Z",
+          "startEpochSeconds": 1795705200,
+          "endEpochSeconds": 1795719600,
+          "source": "bein_us"
+        },
+        {
+          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795719600000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T19:00:00.000Z",
+          "end": "2026-11-26T23:00:00.000Z",
+          "startEpochSeconds": 1795719600,
+          "endEpochSeconds": 1795734000,
+          "source": "bein_us"
+        },
+        {
+          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830:1795734000000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T23:00:00.000Z",
+          "end": "2026-11-27T03:00:00.000Z",
+          "startEpochSeconds": 1795734000,
+          "endEpochSeconds": 1795748400,
+          "source": "bein_us"
         }
       ]
     },
@@ -4732,276 +4542,6 @@
       "name": "beIN SPORTS Español",
       "region": "en-us",
       "programmes": [
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795219200000:gt world challenge america",
-          "title": "GT World Challenge America",
-          "description": "McLaren Trophy North America: Carrera 2",
-          "start": "2026-11-21T00:00:00.000Z",
-          "end": "2026-11-21T01:00:00.000Z",
-          "startEpochSeconds": 1795219200,
-          "endEpochSeconds": 1795222800,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795222800000:fútbol conmebol copa sudamericana",
-          "title": "Fútbol CONMEBOL Copa Sudamericana",
-          "description": "Vasco da Gama vs. Boca Juniors",
-          "start": "2026-11-21T01:00:00.000Z",
-          "end": "2026-11-21T03:00:00.000Z",
-          "startEpochSeconds": 1795222800,
-          "endEpochSeconds": 1795230000,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795230000000:the xtra",
-          "title": "The Xtra",
-          "description": "",
-          "start": "2026-11-21T03:00:00.000Z",
-          "end": "2026-11-21T04:00:00.000Z",
-          "startEpochSeconds": 1795230000,
-          "endEpochSeconds": 1795233600,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795233600000:fútbol copa de portugal",
-          "title": "Fútbol Copa de Portugal",
-          "description": "Porto vs. Paredes",
-          "start": "2026-11-21T04:00:00.000Z",
-          "end": "2026-11-21T06:00:00.000Z",
-          "startEpochSeconds": 1795233600,
-          "endEpochSeconds": 1795240800,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795240800000:sailgp",
-          "title": "SailGP",
-          "description": "Bermudas: Día 1",
-          "start": "2026-11-21T06:00:00.000Z",
-          "end": "2026-11-21T07:30:00.000Z",
-          "startEpochSeconds": 1795240800,
-          "endEpochSeconds": 1795246200,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795246200000:el mejor box de la historia",
-          "title": "El mejor box de la historia",
-          "description": "",
-          "start": "2026-11-21T07:30:00.000Z",
-          "end": "2026-11-21T08:00:00.000Z",
-          "startEpochSeconds": 1795246200,
-          "endEpochSeconds": 1795248000,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795248000000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T08:00:00.000Z",
-          "end": "2026-11-21T08:30:00.000Z",
-          "startEpochSeconds": 1795248000,
-          "endEpochSeconds": 1795249800,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795249800000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T08:30:00.000Z",
-          "end": "2026-11-21T09:00:00.000Z",
-          "startEpochSeconds": 1795249800,
-          "endEpochSeconds": 1795251600,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795251600000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T09:00:00.000Z",
-          "end": "2026-11-21T09:30:00.000Z",
-          "startEpochSeconds": 1795251600,
-          "endEpochSeconds": 1795253400,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795253400000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T09:30:00.000Z",
-          "end": "2026-11-21T10:00:00.000Z",
-          "startEpochSeconds": 1795253400,
-          "endEpochSeconds": 1795255200,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795255200000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T10:00:00.000Z",
-          "end": "2026-11-21T10:30:00.000Z",
-          "startEpochSeconds": 1795255200,
-          "endEpochSeconds": 1795257000,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795257000000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T10:30:00.000Z",
-          "end": "2026-11-21T11:00:00.000Z",
-          "startEpochSeconds": 1795257000,
-          "endEpochSeconds": 1795258800,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795258800000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T11:00:00.000Z",
-          "end": "2026-11-21T11:30:00.000Z",
-          "startEpochSeconds": 1795258800,
-          "endEpochSeconds": 1795260600,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795260600000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T11:30:00.000Z",
-          "end": "2026-11-21T12:00:00.000Z",
-          "startEpochSeconds": 1795260600,
-          "endEpochSeconds": 1795262400,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795262400000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T12:00:00.000Z",
-          "end": "2026-11-21T12:30:00.000Z",
-          "startEpochSeconds": 1795262400,
-          "endEpochSeconds": 1795264200,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795264200000:los mejores goles",
-          "title": "Los mejores goles",
-          "description": "UEFA Eurocopa",
-          "start": "2026-11-21T12:30:00.000Z",
-          "end": "2026-11-21T12:55:00.000Z",
-          "startEpochSeconds": 1795264200,
-          "endEpochSeconds": 1795265700,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795265700000:fútbol turco superliga",
-          "title": "Fútbol Turco Superliga",
-          "description": "Galatasaray vs. Samsunspor",
-          "start": "2026-11-21T12:55:00.000Z",
-          "end": "2026-11-21T15:00:00.000Z",
-          "startEpochSeconds": 1795265700,
-          "endEpochSeconds": 1795273200,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795273200000:ligue 1 -- highlight show",
-          "title": "Ligue 1 -- Highlight Show",
-          "description": "2026-27: Matchday 10",
-          "start": "2026-11-21T15:00:00.000Z",
-          "end": "2026-11-21T15:30:00.000Z",
-          "startEpochSeconds": 1795273200,
-          "endEpochSeconds": 1795275000,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795275000000:this is paris",
-          "title": "This is Paris",
-          "description": "Ligue 1 2026-27: Paris Saint-Germain vs. Troyes",
-          "start": "2026-11-21T15:30:00.000Z",
-          "end": "2026-11-21T16:00:00.000Z",
-          "startEpochSeconds": 1795275000,
-          "endEpochSeconds": 1795276800,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795276800000:the express preview",
-          "title": "The Express Preview",
-          "description": "",
-          "start": "2026-11-21T16:00:00.000Z",
-          "end": "2026-11-21T16:05:00.000Z",
-          "startEpochSeconds": 1795276800,
-          "endEpochSeconds": 1795277100,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795277100000:fútbol ligue 1",
-          "title": "Fútbol Ligue 1",
-          "description": "OGC Nice vs. Paris Saint-Germain",
-          "start": "2026-11-21T16:05:00.000Z",
-          "end": "2026-11-21T18:15:00.000Z",
-          "startEpochSeconds": 1795277100,
-          "endEpochSeconds": 1795284900,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795284900000:best of bein",
-          "title": "Best of beIN",
-          "description": "",
-          "start": "2026-11-21T18:15:00.000Z",
-          "end": "2026-11-21T18:30:00.000Z",
-          "startEpochSeconds": 1795284900,
-          "endEpochSeconds": 1795285800,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795285800000:90 in 30",
-          "title": "90 in 30",
-          "description": "Copa Sudamericana 2025: Lanús vs. Atletico Mineiro",
-          "start": "2026-11-21T18:30:00.000Z",
-          "end": "2026-11-21T19:00:00.000Z",
-          "startEpochSeconds": 1795285800,
-          "endEpochSeconds": 1795287600,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795287600000:copa sudamericana highlight show",
-          "title": "Copa Sudamericana Highlight Show",
-          "description": "Camino a la final",
-          "start": "2026-11-21T19:00:00.000Z",
-          "end": "2026-11-21T19:30:00.000Z",
-          "startEpochSeconds": 1795287600,
-          "endEpochSeconds": 1795289400,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795289400000:the express preview",
-          "title": "The Express Preview",
-          "description": "",
-          "start": "2026-11-21T19:30:00.000Z",
-          "end": "2026-11-21T19:35:00.000Z",
-          "startEpochSeconds": 1795289400,
-          "endEpochSeconds": 1795289700,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795289700000:fútbol ligue 1",
-          "title": "Fútbol Ligue 1",
-          "description": "Lille OSC vs. Olympique Lyonnais",
-          "start": "2026-11-21T19:35:00.000Z",
-          "end": "2026-11-21T21:45:00.000Z",
-          "startEpochSeconds": 1795289700,
-          "endEpochSeconds": 1795297500,
-          "source": "bein_us"
-        },
-        {
-          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795297500000:the express preview",
-          "title": "The Express Preview",
-          "description": "",
-          "start": "2026-11-21T21:45:00.000Z",
-          "end": "2026-11-21T22:20:00.000Z",
-          "startEpochSeconds": 1795297500,
-          "endEpochSeconds": 1795299600,
-          "source": "bein_us"
-        },
         {
           "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795299600000:copa sudamericana soccer",
           "title": "Copa Sudamericana Soccer",
@@ -5941,6 +5481,216 @@
           "startEpochSeconds": 1795640400,
           "endEpochSeconds": 1795667400,
           "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795667400000:fútbol conmebol copa libertadores",
+          "title": "Fútbol CONMEBOL Copa Libertadores",
+          "description": "Fluminense vs. Palmeiras",
+          "start": "2026-11-26T04:30:00.000Z",
+          "end": "2026-11-26T06:30:00.000Z",
+          "startEpochSeconds": 1795667400,
+          "endEpochSeconds": 1795674600,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795674600000:sailgp",
+          "title": "SailGP",
+          "description": "Halifax: Día 1",
+          "start": "2026-11-26T06:30:00.000Z",
+          "end": "2026-11-26T08:00:00.000Z",
+          "startEpochSeconds": 1795674600,
+          "endEpochSeconds": 1795680000,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795680000000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T08:00:00.000Z",
+          "end": "2026-11-26T08:30:00.000Z",
+          "startEpochSeconds": 1795680000,
+          "endEpochSeconds": 1795681800,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795681800000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T08:30:00.000Z",
+          "end": "2026-11-26T09:00:00.000Z",
+          "startEpochSeconds": 1795681800,
+          "endEpochSeconds": 1795683600,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795683600000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T09:00:00.000Z",
+          "end": "2026-11-26T09:30:00.000Z",
+          "startEpochSeconds": 1795683600,
+          "endEpochSeconds": 1795685400,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795685400000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T09:30:00.000Z",
+          "end": "2026-11-26T10:00:00.000Z",
+          "startEpochSeconds": 1795685400,
+          "endEpochSeconds": 1795687200,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795687200000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T10:00:00.000Z",
+          "end": "2026-11-26T10:30:00.000Z",
+          "startEpochSeconds": 1795687200,
+          "endEpochSeconds": 1795689000,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795689000000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T10:30:00.000Z",
+          "end": "2026-11-26T11:00:00.000Z",
+          "startEpochSeconds": 1795689000,
+          "endEpochSeconds": 1795690800,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795690800000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T11:00:00.000Z",
+          "end": "2026-11-26T11:30:00.000Z",
+          "startEpochSeconds": 1795690800,
+          "endEpochSeconds": 1795692600,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795692600000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T11:30:00.000Z",
+          "end": "2026-11-26T12:00:00.000Z",
+          "startEpochSeconds": 1795692600,
+          "endEpochSeconds": 1795694400,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795694400000:the xtra",
+          "title": "The Xtra",
+          "description": "",
+          "start": "2026-11-26T12:00:00.000Z",
+          "end": "2026-11-26T13:00:00.000Z",
+          "startEpochSeconds": 1795694400,
+          "endEpochSeconds": 1795698000,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795698000000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T13:00:00.000Z",
+          "end": "2026-11-26T13:30:00.000Z",
+          "startEpochSeconds": 1795698000,
+          "endEpochSeconds": 1795699800,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795699800000:sailgp",
+          "title": "SailGP",
+          "description": "Dubái, Día 1",
+          "start": "2026-11-26T13:30:00.000Z",
+          "end": "2026-11-26T15:00:00.000Z",
+          "startEpochSeconds": 1795699800,
+          "endEpochSeconds": 1795705200,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795705200000:90 in 30",
+          "title": "90 in 30",
+          "description": "Ligue 1 2026-27: Nice vs. Paris Saint-Germain",
+          "start": "2026-11-26T15:00:00.000Z",
+          "end": "2026-11-26T15:30:00.000Z",
+          "startEpochSeconds": 1795705200,
+          "endEpochSeconds": 1795707000,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795707000000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T15:30:00.000Z",
+          "end": "2026-11-26T16:00:00.000Z",
+          "startEpochSeconds": 1795707000,
+          "endEpochSeconds": 1795708800,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795708800000:premier padel tennis",
+          "title": "Premier Padel Tennis",
+          "description": "Dubái: Final masculina",
+          "start": "2026-11-26T16:00:00.000Z",
+          "end": "2026-11-26T18:00:00.000Z",
+          "startEpochSeconds": 1795708800,
+          "endEpochSeconds": 1795716000,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795716000000:fútbol conmebol copa libertadores",
+          "title": "Fútbol CONMEBOL Copa Libertadores",
+          "description": "Flamengo vs. Estudiantes",
+          "start": "2026-11-26T18:00:00.000Z",
+          "end": "2026-11-26T20:00:00.000Z",
+          "startEpochSeconds": 1795716000,
+          "endEpochSeconds": 1795723200,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795723200000:copa sudamericana highlight show",
+          "title": "Copa Sudamericana Highlight Show",
+          "description": "Final",
+          "start": "2026-11-26T20:00:00.000Z",
+          "end": "2026-11-26T20:30:00.000Z",
+          "startEpochSeconds": 1795723200,
+          "endEpochSeconds": 1795725000,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795725000000:copa libertadores highlights",
+          "title": "Copa Libertadores Highlights",
+          "description": "Road to the Final",
+          "start": "2026-11-26T20:30:00.000Z",
+          "end": "2026-11-26T21:00:00.000Z",
+          "startEpochSeconds": 1795725000,
+          "endEpochSeconds": 1795726800,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795726800000:the xtra",
+          "title": "The Xtra",
+          "description": "",
+          "start": "2026-11-26T21:00:00.000Z",
+          "end": "2026-11-26T22:00:00.000Z",
+          "startEpochSeconds": 1795726800,
+          "endEpochSeconds": 1795730400,
+          "source": "bein_us"
+        },
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB:1795730400000:premier padel",
+          "title": "Premier Padel",
+          "description": "México, Octavos de final",
+          "start": "2026-11-26T22:00:00.000Z",
+          "end": "2026-11-27T04:00:00.000Z",
+          "startEpochSeconds": 1795730400,
+          "endEpochSeconds": 1795752000,
+          "source": "bein_us"
         }
       ]
     },
@@ -5949,256 +5699,6 @@
       "name": "beIN SPORTS XTRA ñ",
       "region": "en-us",
       "programmes": [
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795219200000:clasificación para la copa africana de naciones 2027",
-          "title": "Clasificación para la Copa Africana de Naciones 2027",
-          "description": "Ruanda vs. Malí",
-          "start": "2026-11-21T00:00:00.000Z",
-          "end": "2026-11-21T02:00:00.000Z",
-          "startEpochSeconds": 1795219200,
-          "endEpochSeconds": 1795226400,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795226400000:the knockout room",
-          "title": "The Knockout Room",
-          "description": "",
-          "start": "2026-11-21T02:00:00.000Z",
-          "end": "2026-11-21T02:30:00.000Z",
-          "startEpochSeconds": 1795226400,
-          "endEpochSeconds": 1795228200,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795228200000:los 100 mejores knockouts de la historia",
-          "title": "Los 100 mejores knockouts de la historia",
-          "description": "",
-          "start": "2026-11-21T02:30:00.000Z",
-          "end": "2026-11-21T03:00:00.000Z",
-          "startEpochSeconds": 1795228200,
-          "endEpochSeconds": 1795230000,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795230000000:copa sudamericana highlight show",
-          "title": "Copa Sudamericana Highlight Show",
-          "description": "Semifinales: Partidos de ida",
-          "start": "2026-11-21T03:00:00.000Z",
-          "end": "2026-11-21T03:30:00.000Z",
-          "startEpochSeconds": 1795230000,
-          "endEpochSeconds": 1795231800,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795231800000:copa sudamericana highlight show",
-          "title": "Copa Sudamericana Highlight Show",
-          "description": "Semifinales: Partidos de vuelta",
-          "start": "2026-11-21T03:30:00.000Z",
-          "end": "2026-11-21T04:00:00.000Z",
-          "startEpochSeconds": 1795231800,
-          "endEpochSeconds": 1795233600,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795233600000:90 in 30",
-          "title": "90 in 30",
-          "description": "Ligue 1 2026-27: AS Monaco vs. Lens",
-          "start": "2026-11-21T04:00:00.000Z",
-          "end": "2026-11-21T04:30:00.000Z",
-          "startEpochSeconds": 1795233600,
-          "endEpochSeconds": 1795235400,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795235400000:90 in 30",
-          "title": "90 in 30",
-          "description": "Clasificación para la Copa Africana de Naciones 2027: Argelia vs. Togo",
-          "start": "2026-11-21T04:30:00.000Z",
-          "end": "2026-11-21T05:00:00.000Z",
-          "startEpochSeconds": 1795235400,
-          "endEpochSeconds": 1795237200,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795237200000:the xtra",
-          "title": "The Xtra",
-          "description": "",
-          "start": "2026-11-21T05:00:00.000Z",
-          "end": "2026-11-21T06:00:00.000Z",
-          "startEpochSeconds": 1795237200,
-          "endEpochSeconds": 1795240800,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795240800000:fiba 3x3 americup 2026",
-          "title": "FIBA 3x3 AmeriCup 2026",
-          "description": "masculino y femenino: Tercer lugar",
-          "start": "2026-11-21T06:00:00.000Z",
-          "end": "2026-11-21T06:30:00.000Z",
-          "startEpochSeconds": 1795240800,
-          "endEpochSeconds": 1795242600,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795242600000:fiba 3x3 americup 2026",
-          "title": "FIBA 3x3 AmeriCup 2026",
-          "description": "El Salvador: Finales",
-          "start": "2026-11-21T06:30:00.000Z",
-          "end": "2026-11-21T07:00:00.000Z",
-          "startEpochSeconds": 1795242600,
-          "endEpochSeconds": 1795244400,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795244400000:premier padel tennis",
-          "title": "Premier Padel Tennis",
-          "description": "Dubái: Final masculina",
-          "start": "2026-11-21T07:00:00.000Z",
-          "end": "2026-11-21T09:00:00.000Z",
-          "startEpochSeconds": 1795244400,
-          "endEpochSeconds": 1795251600,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795251600000:90 in 60",
-          "title": "90 in 60",
-          "description": "Corinthians vs. Independiente del Valle",
-          "start": "2026-11-21T09:00:00.000Z",
-          "end": "2026-11-21T10:00:00.000Z",
-          "startEpochSeconds": 1795251600,
-          "endEpochSeconds": 1795255200,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795255200000:pro footvolley tour",
-          "title": "Pro Footvolley Tour",
-          "description": "Winter Series The Arrival of the Dream Team",
-          "start": "2026-11-21T10:00:00.000Z",
-          "end": "2026-11-21T11:00:00.000Z",
-          "startEpochSeconds": 1795255200,
-          "endEpochSeconds": 1795258800,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795258800000:the xtra",
-          "title": "The Xtra",
-          "description": "",
-          "start": "2026-11-21T11:00:00.000Z",
-          "end": "2026-11-21T12:00:00.000Z",
-          "startEpochSeconds": 1795258800,
-          "endEpochSeconds": 1795262400,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795262400000:premier padel tennis",
-          "title": "Premier Padel Tennis",
-          "description": "Pretoria P1: Final femenina",
-          "start": "2026-11-21T12:00:00.000Z",
-          "end": "2026-11-21T14:00:00.000Z",
-          "startEpochSeconds": 1795262400,
-          "endEpochSeconds": 1795269600,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795269600000:fútbol ligue 1",
-          "title": "Fútbol Ligue 1",
-          "description": "Le Havre AC vs. Paris Saint-Germain",
-          "start": "2026-11-21T14:00:00.000Z",
-          "end": "2026-11-21T16:00:00.000Z",
-          "startEpochSeconds": 1795269600,
-          "endEpochSeconds": 1795276800,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795276800000:copa sudamericana highlight show",
-          "title": "Copa Sudamericana Highlight Show",
-          "description": "Road to the final",
-          "start": "2026-11-21T16:00:00.000Z",
-          "end": "2026-11-21T16:30:00.000Z",
-          "startEpochSeconds": 1795276800,
-          "endEpochSeconds": 1795278600,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795278600000:sailgp",
-          "title": "SailGP",
-          "description": "Río de Janeiro, Día 2",
-          "start": "2026-11-21T16:30:00.000Z",
-          "end": "2026-11-21T18:00:00.000Z",
-          "startEpochSeconds": 1795278600,
-          "endEpochSeconds": 1795284000,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795284000000:the knockout room",
-          "title": "The Knockout Room",
-          "description": "",
-          "start": "2026-11-21T18:00:00.000Z",
-          "end": "2026-11-21T18:30:00.000Z",
-          "startEpochSeconds": 1795284000,
-          "endEpochSeconds": 1795285800,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795285800000:tour mundial de baloncesto 3x3 de la fiba",
-          "title": "Tour Mundial de Baloncesto 3x3 de la FIBA",
-          "description": "Deqing, semifinal 2: Antwerp vs. Vienna",
-          "start": "2026-11-21T18:30:00.000Z",
-          "end": "2026-11-21T19:00:00.000Z",
-          "startEpochSeconds": 1795285800,
-          "endEpochSeconds": 1795287600,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795287600000:tour mundial de baloncesto 3x3 de la fiba",
-          "title": "Tour Mundial de Baloncesto 3x3 de la FIBA",
-          "description": "Deqing, final: Ub vs. Antwerp",
-          "start": "2026-11-21T19:00:00.000Z",
-          "end": "2026-11-21T19:30:00.000Z",
-          "startEpochSeconds": 1795287600,
-          "endEpochSeconds": 1795289400,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795289400000:best of bein",
-          "title": "Best of beIN",
-          "description": "",
-          "start": "2026-11-21T19:30:00.000Z",
-          "end": "2026-11-21T19:35:00.000Z",
-          "startEpochSeconds": 1795289400,
-          "endEpochSeconds": 1795289700,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795289700000:fútbol ligue 1",
-          "title": "Fútbol Ligue 1",
-          "description": "RC Lens vs. Toulouse FC",
-          "start": "2026-11-21T19:35:00.000Z",
-          "end": "2026-11-21T21:45:00.000Z",
-          "startEpochSeconds": 1795289700,
-          "endEpochSeconds": 1795297500,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795297500000:best of bein",
-          "title": "Best of beIN",
-          "description": "",
-          "start": "2026-11-21T21:45:00.000Z",
-          "end": "2026-11-21T22:00:00.000Z",
-          "startEpochSeconds": 1795297500,
-          "endEpochSeconds": 1795298400,
-          "source": "bein_us"
-        },
-        {
-          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795298400000:fútbol turco superliga",
-          "title": "Fútbol Turco Superliga",
-          "description": "Galatasaray vs. Fenerbahçe",
-          "start": "2026-11-21T22:00:00.000Z",
-          "end": "2026-11-22T00:00:00.000Z",
-          "startEpochSeconds": 1795298400,
-          "endEpochSeconds": 1795305600,
-          "source": "bein_us"
-        },
         {
           "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795305600000:el mejor box de la historia",
           "title": "El mejor box de la historia",
@@ -7118,6 +6618,266 @@
           "startEpochSeconds": 1795649400,
           "endEpochSeconds": 1795651200,
           "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795651200000:fútbol turco superliga",
+          "title": "Fútbol Turco Superliga",
+          "description": "Konyaspor vs. Be?ikta?",
+          "start": "2026-11-26T00:00:00.000Z",
+          "end": "2026-11-26T02:00:00.000Z",
+          "startEpochSeconds": 1795651200,
+          "endEpochSeconds": 1795658400,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795658400000:the knockout room",
+          "title": "The Knockout Room",
+          "description": "",
+          "start": "2026-11-26T02:00:00.000Z",
+          "end": "2026-11-26T02:30:00.000Z",
+          "startEpochSeconds": 1795658400,
+          "endEpochSeconds": 1795660200,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795660200000:el mejor box de la historia",
+          "title": "El mejor box de la historia",
+          "description": "",
+          "start": "2026-11-26T02:30:00.000Z",
+          "end": "2026-11-26T03:00:00.000Z",
+          "startEpochSeconds": 1795660200,
+          "endEpochSeconds": 1795662000,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795662000000:this is paris",
+          "title": "This is Paris",
+          "description": "Ligue 1 2026-27: Paris Saint-Germain vs. Troyes",
+          "start": "2026-11-26T03:00:00.000Z",
+          "end": "2026-11-26T03:30:00.000Z",
+          "startEpochSeconds": 1795662000,
+          "endEpochSeconds": 1795663800,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795663800000:copa libertadores highlights",
+          "title": "Copa Libertadores Highlights",
+          "description": "Semifinales: Partidos de ida",
+          "start": "2026-11-26T03:30:00.000Z",
+          "end": "2026-11-26T04:00:00.000Z",
+          "startEpochSeconds": 1795663800,
+          "endEpochSeconds": 1795665600,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795665600000:90 in 30",
+          "title": "90 in 30",
+          "description": "Ligue 1, 2026-27: Lens vs. Toulouse",
+          "start": "2026-11-26T04:00:00.000Z",
+          "end": "2026-11-26T04:30:00.000Z",
+          "startEpochSeconds": 1795665600,
+          "endEpochSeconds": 1795667400,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795667400000:90 in 30",
+          "title": "90 in 30",
+          "description": "Copa Sudamericana 2026, Final: Atlético Mineiro vs. Boca Juniors",
+          "start": "2026-11-26T04:30:00.000Z",
+          "end": "2026-11-26T05:00:00.000Z",
+          "startEpochSeconds": 1795667400,
+          "endEpochSeconds": 1795669200,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795669200000:the xtra",
+          "title": "The Xtra",
+          "description": "",
+          "start": "2026-11-26T05:00:00.000Z",
+          "end": "2026-11-26T06:00:00.000Z",
+          "startEpochSeconds": 1795669200,
+          "endEpochSeconds": 1795672800,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795672800000:fiba 3x3 basketball world tour",
+          "title": "FIBA 3x3 Basketball World Tour",
+          "description": "Macau, Shanghai vs. Miami",
+          "start": "2026-11-26T06:00:00.000Z",
+          "end": "2026-11-26T06:30:00.000Z",
+          "startEpochSeconds": 1795672800,
+          "endEpochSeconds": 1795674600,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795674600000:fiba 3x3 basketball world tour",
+          "title": "FIBA 3x3 Basketball World Tour",
+          "description": "Macau, Final: Ub vs. Shanghai",
+          "start": "2026-11-26T06:30:00.000Z",
+          "end": "2026-11-26T07:00:00.000Z",
+          "startEpochSeconds": 1795674600,
+          "endEpochSeconds": 1795676400,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795676400000:premier padel tennis",
+          "title": "Premier Padel Tennis",
+          "description": "Madrid P1: Final femenina",
+          "start": "2026-11-26T07:00:00.000Z",
+          "end": "2026-11-26T09:00:00.000Z",
+          "startEpochSeconds": 1795676400,
+          "endEpochSeconds": 1795683600,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795683600000:90 in 60",
+          "title": "90 in 60",
+          "description": "Copa Libertadores 2012: Corinthians vs. Boca",
+          "start": "2026-11-26T09:00:00.000Z",
+          "end": "2026-11-26T10:00:00.000Z",
+          "startEpochSeconds": 1795683600,
+          "endEpochSeconds": 1795687200,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795687200000:pro footvolley tour",
+          "title": "Pro Footvolley Tour",
+          "description": "Episodio 9: Sergio Menezes vs. Young Stars",
+          "start": "2026-11-26T10:00:00.000Z",
+          "end": "2026-11-26T11:00:00.000Z",
+          "startEpochSeconds": 1795687200,
+          "endEpochSeconds": 1795690800,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795690800000:90 in 30",
+          "title": "90 in 30",
+          "description": "Ligue 1, 2026-27: Paris FC vs. Angers",
+          "start": "2026-11-26T11:00:00.000Z",
+          "end": "2026-11-26T11:30:00.000Z",
+          "startEpochSeconds": 1795690800,
+          "endEpochSeconds": 1795692600,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795692600000:90 in 30",
+          "title": "90 in 30",
+          "description": "Superliga 2026-27: Trabzonspor vs. Eyupspor",
+          "start": "2026-11-26T11:30:00.000Z",
+          "end": "2026-11-26T12:00:00.000Z",
+          "startEpochSeconds": 1795692600,
+          "endEpochSeconds": 1795694400,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795694400000:premier padel tennis",
+          "title": "Premier Padel Tennis",
+          "description": "París Major: Final masculina",
+          "start": "2026-11-26T12:00:00.000Z",
+          "end": "2026-11-26T14:00:00.000Z",
+          "startEpochSeconds": 1795694400,
+          "endEpochSeconds": 1795701600,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795701600000:the xtra",
+          "title": "The Xtra",
+          "description": "",
+          "start": "2026-11-26T14:00:00.000Z",
+          "end": "2026-11-26T15:00:00.000Z",
+          "startEpochSeconds": 1795701600,
+          "endEpochSeconds": 1795705200,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795705200000:90 in 60",
+          "title": "90 in 60",
+          "description": "Copa Libertadores 2010: Internacional vs. Guadalajara",
+          "start": "2026-11-26T15:00:00.000Z",
+          "end": "2026-11-26T16:00:00.000Z",
+          "startEpochSeconds": 1795705200,
+          "endEpochSeconds": 1795708800,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795708800000:fútbol ligue 1",
+          "title": "Fútbol Ligue 1",
+          "description": "OGC Nice vs. Paris Saint-Germain",
+          "start": "2026-11-26T16:00:00.000Z",
+          "end": "2026-11-26T18:00:00.000Z",
+          "startEpochSeconds": 1795708800,
+          "endEpochSeconds": 1795716000,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795716000000:pro footvolley tour",
+          "title": "Pro Footvolley Tour",
+          "description": "Episode 10: Team USA Footvolley's Will 'SuperBoy' returns",
+          "start": "2026-11-26T18:00:00.000Z",
+          "end": "2026-11-26T19:00:00.000Z",
+          "startEpochSeconds": 1795716000,
+          "endEpochSeconds": 1795719600,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795719600000:fútbol conmebol copa libertadores",
+          "title": "Fútbol CONMEBOL Copa Libertadores",
+          "description": "Flamengo vs. Estudiantes",
+          "start": "2026-11-26T19:00:00.000Z",
+          "end": "2026-11-26T21:00:00.000Z",
+          "startEpochSeconds": 1795719600,
+          "endEpochSeconds": 1795726800,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795726800000:the xtra",
+          "title": "The Xtra",
+          "description": "",
+          "start": "2026-11-26T21:00:00.000Z",
+          "end": "2026-11-26T22:00:00.000Z",
+          "startEpochSeconds": 1795726800,
+          "endEpochSeconds": 1795730400,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795730400000:fiba 3x3 americup 2026",
+          "title": "FIBA 3x3 AmeriCup 2026",
+          "description": "masculino y femenino: Semifinales",
+          "start": "2026-11-26T22:00:00.000Z",
+          "end": "2026-11-26T22:30:00.000Z",
+          "startEpochSeconds": 1795730400,
+          "endEpochSeconds": 1795732200,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795732200000:fiba 3x3 americup 2026",
+          "title": "FIBA 3x3 AmeriCup 2026",
+          "description": "masculino y femenino: Semifinales",
+          "start": "2026-11-26T22:30:00.000Z",
+          "end": "2026-11-26T23:00:00.000Z",
+          "startEpochSeconds": 1795732200,
+          "endEpochSeconds": 1795734000,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795734000000:90 in 30",
+          "title": "90 in 30",
+          "description": "Ligue 1, 2026-27: Lorient vs. Stade Rennes",
+          "start": "2026-11-26T23:00:00.000Z",
+          "end": "2026-11-26T23:30:00.000Z",
+          "startEpochSeconds": 1795734000,
+          "endEpochSeconds": 1795735800,
+          "source": "bein_us"
+        },
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795735800000:90 in 30",
+          "title": "90 in 30",
+          "description": "Superliga 2026-27: Trabzonspor vs. Eyupspor",
+          "start": "2026-11-26T23:30:00.000Z",
+          "end": "2026-11-27T00:00:00.000Z",
+          "startEpochSeconds": 1795735800,
+          "endEpochSeconds": 1795737600,
+          "source": "bein_us"
         }
       ]
     },
@@ -7126,86 +6886,6 @@
       "name": "beIN SPORTS 8",
       "region": "en-us",
       "programmes": [
-        {
-          "id": "9A424246-EC89-43C3-9239-AA3A40540F94:1795215600000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-20T23:00:00.000Z",
-          "end": "2026-11-21T03:00:00.000Z",
-          "startEpochSeconds": 1795215600,
-          "endEpochSeconds": 1795230000,
-          "source": "bein_us"
-        },
-        {
-          "id": "9A424246-EC89-43C3-9239-AA3A40540F94:1795230000000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T03:00:00.000Z",
-          "end": "2026-11-21T07:00:00.000Z",
-          "startEpochSeconds": 1795230000,
-          "endEpochSeconds": 1795244400,
-          "source": "bein_us"
-        },
-        {
-          "id": "9A424246-EC89-43C3-9239-AA3A40540F94:1795244400000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T07:00:00.000Z",
-          "end": "2026-11-21T11:00:00.000Z",
-          "startEpochSeconds": 1795244400,
-          "endEpochSeconds": 1795258800,
-          "source": "bein_us"
-        },
-        {
-          "id": "9A424246-EC89-43C3-9239-AA3A40540F94:1795258800000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T11:00:00.000Z",
-          "end": "2026-11-21T13:15:00.000Z",
-          "startEpochSeconds": 1795258800,
-          "endEpochSeconds": 1795266900,
-          "source": "bein_us"
-        },
-        {
-          "id": "9A424246-EC89-43C3-9239-AA3A40540F94:1795266900000:fiba 3x3 basketball world tour",
-          "title": "FIBA 3x3 Basketball World Tour",
-          "description": "Manama",
-          "start": "2026-11-21T13:15:00.000Z",
-          "end": "2026-11-21T18:00:00.000Z",
-          "startEpochSeconds": 1795266900,
-          "endEpochSeconds": 1795284000,
-          "source": "bein_us"
-        },
-        {
-          "id": "9A424246-EC89-43C3-9239-AA3A40540F94:1795284000000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T18:00:00.000Z",
-          "end": "2026-11-21T19:00:00.000Z",
-          "startEpochSeconds": 1795284000,
-          "endEpochSeconds": 1795287600,
-          "source": "bein_us"
-        },
-        {
-          "id": "9A424246-EC89-43C3-9239-AA3A40540F94:1795287600000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T19:00:00.000Z",
-          "end": "2026-11-21T19:35:00.000Z",
-          "startEpochSeconds": 1795287600,
-          "endEpochSeconds": 1795289700,
-          "source": "bein_us"
-        },
-        {
-          "id": "9A424246-EC89-43C3-9239-AA3A40540F94:1795289700000:fútbol ligue 1",
-          "title": "Fútbol Ligue 1",
-          "description": "Lille OSC vs. Olympique Lyonnais",
-          "start": "2026-11-21T19:35:00.000Z",
-          "end": "2026-11-21T21:45:00.000Z",
-          "startEpochSeconds": 1795289700,
-          "endEpochSeconds": 1795297500,
-          "source": "bein_us"
-        },
         {
           "id": "9A424246-EC89-43C3-9239-AA3A40540F94:1795297500000:sign off",
           "title": "SIGN OFF",
@@ -7465,6 +7145,66 @@
           "startEpochSeconds": 1795647600,
           "endEpochSeconds": 1795662000,
           "source": "bein_us"
+        },
+        {
+          "id": "9A424246-EC89-43C3-9239-AA3A40540F94:1795662000000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T03:00:00.000Z",
+          "end": "2026-11-26T07:00:00.000Z",
+          "startEpochSeconds": 1795662000,
+          "endEpochSeconds": 1795676400,
+          "source": "bein_us"
+        },
+        {
+          "id": "9A424246-EC89-43C3-9239-AA3A40540F94:1795676400000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T07:00:00.000Z",
+          "end": "2026-11-26T11:00:00.000Z",
+          "startEpochSeconds": 1795676400,
+          "endEpochSeconds": 1795690800,
+          "source": "bein_us"
+        },
+        {
+          "id": "9A424246-EC89-43C3-9239-AA3A40540F94:1795690800000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T11:00:00.000Z",
+          "end": "2026-11-26T15:00:00.000Z",
+          "startEpochSeconds": 1795690800,
+          "endEpochSeconds": 1795705200,
+          "source": "bein_us"
+        },
+        {
+          "id": "9A424246-EC89-43C3-9239-AA3A40540F94:1795705200000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T15:00:00.000Z",
+          "end": "2026-11-26T19:00:00.000Z",
+          "startEpochSeconds": 1795705200,
+          "endEpochSeconds": 1795719600,
+          "source": "bein_us"
+        },
+        {
+          "id": "9A424246-EC89-43C3-9239-AA3A40540F94:1795719600000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T19:00:00.000Z",
+          "end": "2026-11-26T23:00:00.000Z",
+          "startEpochSeconds": 1795719600,
+          "endEpochSeconds": 1795734000,
+          "source": "bein_us"
+        },
+        {
+          "id": "9A424246-EC89-43C3-9239-AA3A40540F94:1795734000000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T23:00:00.000Z",
+          "end": "2026-11-27T03:00:00.000Z",
+          "startEpochSeconds": 1795734000,
+          "endEpochSeconds": 1795748400,
+          "source": "bein_us"
         }
       ]
     },
@@ -7473,96 +7213,6 @@
       "name": "beIN SPORTS 4",
       "region": "en-us",
       "programmes": [
-        {
-          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795211100000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-20T21:45:00.000Z",
-          "end": "2026-11-21T03:00:00.000Z",
-          "startEpochSeconds": 1795211100,
-          "endEpochSeconds": 1795230000,
-          "source": "bein_us"
-        },
-        {
-          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795230000000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T03:00:00.000Z",
-          "end": "2026-11-21T07:00:00.000Z",
-          "startEpochSeconds": 1795230000,
-          "endEpochSeconds": 1795244400,
-          "source": "bein_us"
-        },
-        {
-          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795244400000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T07:00:00.000Z",
-          "end": "2026-11-21T11:00:00.000Z",
-          "startEpochSeconds": 1795244400,
-          "endEpochSeconds": 1795258800,
-          "source": "bein_us"
-        },
-        {
-          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795258800000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T11:00:00.000Z",
-          "end": "2026-11-21T12:55:00.000Z",
-          "startEpochSeconds": 1795258800,
-          "endEpochSeconds": 1795265700,
-          "source": "bein_us"
-        },
-        {
-          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795265700000:french ligue 2 soccer",
-          "title": "French Ligue 2 Soccer",
-          "description": "Stade Lavallois vs. Montpellier HSC",
-          "start": "2026-11-21T12:55:00.000Z",
-          "end": "2026-11-21T15:00:00.000Z",
-          "startEpochSeconds": 1795265700,
-          "endEpochSeconds": 1795273200,
-          "source": "bein_us"
-        },
-        {
-          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795273200000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T15:00:00.000Z",
-          "end": "2026-11-21T17:55:00.000Z",
-          "startEpochSeconds": 1795273200,
-          "endEpochSeconds": 1795283700,
-          "source": "bein_us"
-        },
-        {
-          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795283700000:taça de portugal",
-          "title": "Taça de Portugal",
-          "description": "Sporting Lisbon vs. Uniao D Serra",
-          "start": "2026-11-21T17:55:00.000Z",
-          "end": "2026-11-21T20:00:00.000Z",
-          "startEpochSeconds": 1795283700,
-          "endEpochSeconds": 1795291200,
-          "source": "bein_us"
-        },
-        {
-          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795291200000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T20:00:00.000Z",
-          "end": "2026-11-21T20:25:00.000Z",
-          "startEpochSeconds": 1795291200,
-          "endEpochSeconds": 1795292700,
-          "source": "bein_us"
-        },
-        {
-          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795292700000:taça de portugal",
-          "title": "Taça de Portugal",
-          "description": "Vitória Guimarães vs. SC Braga",
-          "start": "2026-11-21T20:25:00.000Z",
-          "end": "2026-11-21T22:30:00.000Z",
-          "startEpochSeconds": 1795292700,
-          "endEpochSeconds": 1795300200,
-          "source": "bein_us"
-        },
         {
           "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795300200000:sign off",
           "title": "SIGN OFF",
@@ -7852,6 +7502,66 @@
           "startEpochSeconds": 1795640100,
           "endEpochSeconds": 1795667400,
           "source": "bein_us"
+        },
+        {
+          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795667400000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T04:30:00.000Z",
+          "end": "2026-11-26T07:00:00.000Z",
+          "startEpochSeconds": 1795667400,
+          "endEpochSeconds": 1795676400,
+          "source": "bein_us"
+        },
+        {
+          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795676400000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T07:00:00.000Z",
+          "end": "2026-11-26T11:00:00.000Z",
+          "startEpochSeconds": 1795676400,
+          "endEpochSeconds": 1795690800,
+          "source": "bein_us"
+        },
+        {
+          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795690800000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T11:00:00.000Z",
+          "end": "2026-11-26T15:00:00.000Z",
+          "startEpochSeconds": 1795690800,
+          "endEpochSeconds": 1795705200,
+          "source": "bein_us"
+        },
+        {
+          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795705200000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T15:00:00.000Z",
+          "end": "2026-11-26T19:00:00.000Z",
+          "startEpochSeconds": 1795705200,
+          "endEpochSeconds": 1795719600,
+          "source": "bein_us"
+        },
+        {
+          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795719600000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T19:00:00.000Z",
+          "end": "2026-11-26T21:55:00.000Z",
+          "startEpochSeconds": 1795719600,
+          "endEpochSeconds": 1795730100,
+          "source": "bein_us"
+        },
+        {
+          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7:1795730100000:premier padel tennis",
+          "title": "Premier Padel Tennis",
+          "description": "Mexico, Men's & Women's Round of 16 (Secondary Court)",
+          "start": "2026-11-26T21:55:00.000Z",
+          "end": "2026-11-27T04:00:00.000Z",
+          "startEpochSeconds": 1795730100,
+          "endEpochSeconds": 1795752000,
+          "source": "bein_us"
         }
       ]
     },
@@ -7860,276 +7570,6 @@
       "name": "beIN SPORTS",
       "region": "en-us",
       "programmes": [
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795219200000:gt world challenge america",
-          "title": "GT World Challenge America",
-          "description": "Road Atlanta",
-          "start": "2026-11-21T00:00:00.000Z",
-          "end": "2026-11-21T01:00:00.000Z",
-          "startEpochSeconds": 1795219200,
-          "endEpochSeconds": 1795222800,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795222800000:2026 commonwealth games",
-          "title": "2026 Commonwealth Games",
-          "description": "Women's Judo 70kg",
-          "start": "2026-11-21T01:00:00.000Z",
-          "end": "2026-11-21T01:30:00.000Z",
-          "startEpochSeconds": 1795222800,
-          "endEpochSeconds": 1795224600,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795224600000:2026 commonwealth games",
-          "title": "2026 Commonwealth Games",
-          "description": "Men's Judo 66kg",
-          "start": "2026-11-21T01:30:00.000Z",
-          "end": "2026-11-21T02:00:00.000Z",
-          "startEpochSeconds": 1795224600,
-          "endEpochSeconds": 1795226400,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795226400000:french ligue 1 soccer",
-          "title": "French Ligue 1 Soccer",
-          "description": "ESTAC Troyes vs. Le Havre AC",
-          "start": "2026-11-21T02:00:00.000Z",
-          "end": "2026-11-21T04:00:00.000Z",
-          "startEpochSeconds": 1795226400,
-          "endEpochSeconds": 1795233600,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795233600000:one friday fights 178",
-          "title": "ONE Friday Fights 178",
-          "description": "",
-          "start": "2026-11-21T04:00:00.000Z",
-          "end": "2026-11-21T07:00:00.000Z",
-          "startEpochSeconds": 1795233600,
-          "endEpochSeconds": 1795244400,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795244400000:one vault",
-          "title": "ONE Vault",
-          "description": "Volume 43",
-          "start": "2026-11-21T07:00:00.000Z",
-          "end": "2026-11-21T08:00:00.000Z",
-          "startEpochSeconds": 1795244400,
-          "endEpochSeconds": 1795248000,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795248000000:one weekly",
-          "title": "One Weekly",
-          "description": "",
-          "start": "2026-11-21T08:00:00.000Z",
-          "end": "2026-11-21T08:30:00.000Z",
-          "startEpochSeconds": 1795248000,
-          "endEpochSeconds": 1795249800,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795249800000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T08:30:00.000Z",
-          "end": "2026-11-21T09:00:00.000Z",
-          "startEpochSeconds": 1795249800,
-          "endEpochSeconds": 1795251600,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795251600000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T09:00:00.000Z",
-          "end": "2026-11-21T09:30:00.000Z",
-          "startEpochSeconds": 1795251600,
-          "endEpochSeconds": 1795253400,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795253400000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T09:30:00.000Z",
-          "end": "2026-11-21T10:00:00.000Z",
-          "startEpochSeconds": 1795253400,
-          "endEpochSeconds": 1795255200,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795255200000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T10:00:00.000Z",
-          "end": "2026-11-21T10:30:00.000Z",
-          "startEpochSeconds": 1795255200,
-          "endEpochSeconds": 1795257000,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795257000000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T10:30:00.000Z",
-          "end": "2026-11-21T11:00:00.000Z",
-          "startEpochSeconds": 1795257000,
-          "endEpochSeconds": 1795258800,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795258800000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T11:00:00.000Z",
-          "end": "2026-11-21T11:30:00.000Z",
-          "startEpochSeconds": 1795258800,
-          "endEpochSeconds": 1795260600,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795260600000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T11:30:00.000Z",
-          "end": "2026-11-21T12:00:00.000Z",
-          "startEpochSeconds": 1795260600,
-          "endEpochSeconds": 1795262400,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795262400000:programa pagado",
-          "title": "Programa pagado",
-          "description": "",
-          "start": "2026-11-21T12:00:00.000Z",
-          "end": "2026-11-21T12:30:00.000Z",
-          "startEpochSeconds": 1795262400,
-          "endEpochSeconds": 1795264200,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795264200000:ligue 1 preview show",
-          "title": "Ligue 1 Preview Show",
-          "description": "",
-          "start": "2026-11-21T12:30:00.000Z",
-          "end": "2026-11-21T12:55:00.000Z",
-          "startEpochSeconds": 1795264200,
-          "endEpochSeconds": 1795265700,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795265700000:turkish super lig soccer",
-          "title": "Turkish Super Lig Soccer",
-          "description": "Galatasaray vs. Samsunspor",
-          "start": "2026-11-21T12:55:00.000Z",
-          "end": "2026-11-21T15:00:00.000Z",
-          "startEpochSeconds": 1795265700,
-          "endEpochSeconds": 1795273200,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795273200000:ligue 1 preview show",
-          "title": "Ligue 1 Preview Show",
-          "description": "",
-          "start": "2026-11-21T15:00:00.000Z",
-          "end": "2026-11-21T15:30:00.000Z",
-          "startEpochSeconds": 1795273200,
-          "endEpochSeconds": 1795275000,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795275000000:this is paris",
-          "title": "This is Paris",
-          "description": "Ligue 1 2026-27: Paris Saint-Germain vs. Troyes",
-          "start": "2026-11-21T15:30:00.000Z",
-          "end": "2026-11-21T16:00:00.000Z",
-          "startEpochSeconds": 1795275000,
-          "endEpochSeconds": 1795276800,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795276800000:the express preview",
-          "title": "The Express Preview",
-          "description": "",
-          "start": "2026-11-21T16:00:00.000Z",
-          "end": "2026-11-21T16:05:00.000Z",
-          "startEpochSeconds": 1795276800,
-          "endEpochSeconds": 1795277100,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795277100000:fútbol ligue 1",
-          "title": "Fútbol Ligue 1",
-          "description": "OGC Nice vs. Paris Saint-Germain",
-          "start": "2026-11-21T16:05:00.000Z",
-          "end": "2026-11-21T18:15:00.000Z",
-          "startEpochSeconds": 1795277100,
-          "endEpochSeconds": 1795284900,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795284900000:best of bein sports",
-          "title": "Best of beIN Sports",
-          "description": "",
-          "start": "2026-11-21T18:15:00.000Z",
-          "end": "2026-11-21T18:30:00.000Z",
-          "startEpochSeconds": 1795284900,
-          "endEpochSeconds": 1795285800,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795285800000:90 in 30",
-          "title": "90 in 30",
-          "description": "Copa Sudamericana 2025: Lanús vs. Atletico Mineiro",
-          "start": "2026-11-21T18:30:00.000Z",
-          "end": "2026-11-21T19:00:00.000Z",
-          "startEpochSeconds": 1795285800,
-          "endEpochSeconds": 1795287600,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795287600000:copa sudamericana: highlights",
-          "title": "Copa Sudamericana: Highlights",
-          "description": "Road to the Final",
-          "start": "2026-11-21T19:00:00.000Z",
-          "end": "2026-11-21T19:30:00.000Z",
-          "startEpochSeconds": 1795287600,
-          "endEpochSeconds": 1795289400,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795289400000:the express preview",
-          "title": "The Express Preview",
-          "description": "",
-          "start": "2026-11-21T19:30:00.000Z",
-          "end": "2026-11-21T19:35:00.000Z",
-          "startEpochSeconds": 1795289400,
-          "endEpochSeconds": 1795289700,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795289700000:french ligue 1 soccer",
-          "title": "French Ligue 1 Soccer",
-          "description": "AS Monaco vs. AJ Auxerre",
-          "start": "2026-11-21T19:35:00.000Z",
-          "end": "2026-11-21T21:45:00.000Z",
-          "startEpochSeconds": 1795289700,
-          "endEpochSeconds": 1795297500,
-          "source": "bein_us"
-        },
-        {
-          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795297500000:the express preview",
-          "title": "The Express Preview",
-          "description": "",
-          "start": "2026-11-21T21:45:00.000Z",
-          "end": "2026-11-21T22:20:00.000Z",
-          "startEpochSeconds": 1795297500,
-          "endEpochSeconds": 1795299600,
-          "source": "bein_us"
-        },
         {
           "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795299600000:copa sudamericana soccer",
           "title": "Copa Sudamericana Soccer",
@@ -9279,6 +8719,286 @@
           "startEpochSeconds": 1795640400,
           "endEpochSeconds": 1795667400,
           "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795667400000:copa libertadores highlights",
+          "title": "Copa Libertadores Highlights",
+          "description": "Road to the Final",
+          "start": "2026-11-26T04:30:00.000Z",
+          "end": "2026-11-26T05:00:00.000Z",
+          "startEpochSeconds": 1795667400,
+          "endEpochSeconds": 1795669200,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795669200000:one friday fights 158",
+          "title": "ONE Friday Fights 158",
+          "description": "",
+          "start": "2026-11-26T05:00:00.000Z",
+          "end": "2026-11-26T08:00:00.000Z",
+          "startEpochSeconds": 1795669200,
+          "endEpochSeconds": 1795680000,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795680000000:the knockout room",
+          "title": "The Knockout Room",
+          "description": "",
+          "start": "2026-11-26T08:00:00.000Z",
+          "end": "2026-11-26T08:30:00.000Z",
+          "startEpochSeconds": 1795680000,
+          "endEpochSeconds": 1795681800,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795681800000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T08:30:00.000Z",
+          "end": "2026-11-26T09:00:00.000Z",
+          "startEpochSeconds": 1795681800,
+          "endEpochSeconds": 1795683600,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795683600000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T09:00:00.000Z",
+          "end": "2026-11-26T09:30:00.000Z",
+          "startEpochSeconds": 1795683600,
+          "endEpochSeconds": 1795685400,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795685400000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T09:30:00.000Z",
+          "end": "2026-11-26T10:00:00.000Z",
+          "startEpochSeconds": 1795685400,
+          "endEpochSeconds": 1795687200,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795687200000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T10:00:00.000Z",
+          "end": "2026-11-26T10:30:00.000Z",
+          "startEpochSeconds": 1795687200,
+          "endEpochSeconds": 1795689000,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795689000000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T10:30:00.000Z",
+          "end": "2026-11-26T11:00:00.000Z",
+          "startEpochSeconds": 1795689000,
+          "endEpochSeconds": 1795690800,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795690800000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T11:00:00.000Z",
+          "end": "2026-11-26T11:30:00.000Z",
+          "startEpochSeconds": 1795690800,
+          "endEpochSeconds": 1795692600,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795692600000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T11:30:00.000Z",
+          "end": "2026-11-26T12:00:00.000Z",
+          "startEpochSeconds": 1795692600,
+          "endEpochSeconds": 1795694400,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795694400000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T12:00:00.000Z",
+          "end": "2026-11-26T12:30:00.000Z",
+          "startEpochSeconds": 1795694400,
+          "endEpochSeconds": 1795696200,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795696200000:outdoor sports show",
+          "title": "Outdoor Sports Show",
+          "description": "",
+          "start": "2026-11-26T12:30:00.000Z",
+          "end": "2026-11-26T13:00:00.000Z",
+          "startEpochSeconds": 1795696200,
+          "endEpochSeconds": 1795698000,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795698000000:inside sailing",
+          "title": "Inside Sailing",
+          "description": "",
+          "start": "2026-11-26T13:00:00.000Z",
+          "end": "2026-11-26T13:30:00.000Z",
+          "startEpochSeconds": 1795698000,
+          "endEpochSeconds": 1795699800,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795699800000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T13:30:00.000Z",
+          "end": "2026-11-26T14:00:00.000Z",
+          "startEpochSeconds": 1795699800,
+          "endEpochSeconds": 1795701600,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795701600000:t100 triathlon world tour",
+          "title": "T100 Triathlon World Tour",
+          "description": "San Francisco",
+          "start": "2026-11-26T14:00:00.000Z",
+          "end": "2026-11-26T14:30:00.000Z",
+          "startEpochSeconds": 1795701600,
+          "endEpochSeconds": 1795703400,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795703400000:modern pentathlon highlights",
+          "title": "Modern Pentathlon Highlights",
+          "description": "2026 UIPM World Cup Final",
+          "start": "2026-11-26T14:30:00.000Z",
+          "end": "2026-11-26T15:00:00.000Z",
+          "startEpochSeconds": 1795703400,
+          "endEpochSeconds": 1795705200,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795705200000:programa pagado",
+          "title": "Programa pagado",
+          "description": "",
+          "start": "2026-11-26T15:00:00.000Z",
+          "end": "2026-11-26T15:30:00.000Z",
+          "startEpochSeconds": 1795705200,
+          "endEpochSeconds": 1795707000,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795707000000:mass participation series",
+          "title": "Mass Participation Series",
+          "description": "Ultra Gobi 2025",
+          "start": "2026-11-26T15:30:00.000Z",
+          "end": "2026-11-26T16:00:00.000Z",
+          "startEpochSeconds": 1795707000,
+          "endEpochSeconds": 1795708800,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795708800000:fei world championships",
+          "title": "FEI World Championships",
+          "description": "FEI World Championships, Dressage",
+          "start": "2026-11-26T16:00:00.000Z",
+          "end": "2026-11-26T17:00:00.000Z",
+          "startEpochSeconds": 1795708800,
+          "endEpochSeconds": 1795712400,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795712400000:going pro",
+          "title": "Going Pro",
+          "description": "",
+          "start": "2026-11-26T17:00:00.000Z",
+          "end": "2026-11-26T17:30:00.000Z",
+          "startEpochSeconds": 1795712400,
+          "endEpochSeconds": 1795714200,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795714200000:gearing up",
+          "title": "Gearing Up",
+          "description": "",
+          "start": "2026-11-26T17:30:00.000Z",
+          "end": "2026-11-26T18:00:00.000Z",
+          "startEpochSeconds": 1795714200,
+          "endEpochSeconds": 1795716000,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795716000000:90 in 30",
+          "title": "90 in 30",
+          "description": "Copa Libertadores 2026: Palmeiras vs. Fluminense",
+          "start": "2026-11-26T18:00:00.000Z",
+          "end": "2026-11-26T18:30:00.000Z",
+          "startEpochSeconds": 1795716000,
+          "endEpochSeconds": 1795717800,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795717800000:90 in 30",
+          "title": "90 in 30",
+          "description": "Copa Libertadores 2026: Flamengo vs. Estudiantes",
+          "start": "2026-11-26T18:30:00.000Z",
+          "end": "2026-11-26T19:00:00.000Z",
+          "startEpochSeconds": 1795717800,
+          "endEpochSeconds": 1795719600,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795719600000:2026 world taekwondo grand prix series",
+          "title": "2026 World Taekwondo Grand Prix Series",
+          "description": "Paris Final 8, Women's Over 67kg",
+          "start": "2026-11-26T19:00:00.000Z",
+          "end": "2026-11-26T20:00:00.000Z",
+          "startEpochSeconds": 1795719600,
+          "endEpochSeconds": 1795723200,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795723200000:tour mundial de baloncesto 3x3 de la fiba",
+          "title": "Tour Mundial de Baloncesto 3x3 de la FIBA",
+          "description": "Zaisan Masters, Second Semifinal: Amsterdam RABOBANK vs. Liman",
+          "start": "2026-11-26T20:00:00.000Z",
+          "end": "2026-11-26T20:30:00.000Z",
+          "startEpochSeconds": 1795723200,
+          "endEpochSeconds": 1795725000,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795725000000:tour mundial de baloncesto 3x3 de la fiba",
+          "title": "Tour Mundial de Baloncesto 3x3 de la FIBA",
+          "description": "Zaisan Masters, Final: DeQing vs. Amsterdam RABOBANK",
+          "start": "2026-11-26T20:30:00.000Z",
+          "end": "2026-11-26T21:00:00.000Z",
+          "startEpochSeconds": 1795725000,
+          "endEpochSeconds": 1795726800,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795726800000:equestrian",
+          "title": "Equestrian",
+          "description": "FEI Jumping World Cup: Western European League, Verona",
+          "start": "2026-11-26T21:00:00.000Z",
+          "end": "2026-11-26T22:00:00.000Z",
+          "startEpochSeconds": 1795726800,
+          "endEpochSeconds": 1795730400,
+          "source": "bein_us"
+        },
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267:1795730400000:premier padel",
+          "title": "Premier Padel",
+          "description": "Mexico, Round of 16",
+          "start": "2026-11-26T22:00:00.000Z",
+          "end": "2026-11-27T04:00:00.000Z",
+          "startEpochSeconds": 1795730400,
+          "endEpochSeconds": 1795752000,
+          "source": "bein_us"
         }
       ]
     },
@@ -9287,106 +9007,6 @@
       "name": "beIN SPORTS 6",
       "region": "en-us",
       "programmes": [
-        {
-          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795215600000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-20T23:00:00.000Z",
-          "end": "2026-11-21T03:00:00.000Z",
-          "startEpochSeconds": 1795215600,
-          "endEpochSeconds": 1795230000,
-          "source": "bein_us"
-        },
-        {
-          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795230000000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T03:00:00.000Z",
-          "end": "2026-11-21T06:15:00.000Z",
-          "startEpochSeconds": 1795230000,
-          "endEpochSeconds": 1795241700,
-          "source": "bein_us"
-        },
-        {
-          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795241700000:fia f4 world cup",
-          "title": "FIA F4 World Cup",
-          "description": "Macau Grand Prix",
-          "start": "2026-11-21T06:15:00.000Z",
-          "end": "2026-11-21T09:35:00.000Z",
-          "startEpochSeconds": 1795241700,
-          "endEpochSeconds": 1795253700,
-          "source": "bein_us"
-        },
-        {
-          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795253700000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T09:35:00.000Z",
-          "end": "2026-11-21T11:00:00.000Z",
-          "startEpochSeconds": 1795253700,
-          "endEpochSeconds": 1795258800,
-          "source": "bein_us"
-        },
-        {
-          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795258800000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T11:00:00.000Z",
-          "end": "2026-11-21T13:55:00.000Z",
-          "startEpochSeconds": 1795258800,
-          "endEpochSeconds": 1795269300,
-          "source": "bein_us"
-        },
-        {
-          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795269300000:taça de portugal",
-          "title": "Taça de Portugal",
-          "description": "CD Mafra vs. FC Arouca",
-          "start": "2026-11-21T13:55:00.000Z",
-          "end": "2026-11-21T16:00:00.000Z",
-          "startEpochSeconds": 1795269300,
-          "endEpochSeconds": 1795276800,
-          "source": "bein_us"
-        },
-        {
-          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795276800000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T16:00:00.000Z",
-          "end": "2026-11-21T16:25:00.000Z",
-          "startEpochSeconds": 1795276800,
-          "endEpochSeconds": 1795278300,
-          "source": "bein_us"
-        },
-        {
-          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795278300000:ekstraklasa soccer",
-          "title": "Ekstraklasa Soccer",
-          "description": "Zaglebie Lubin vs. Górnik Zabrze",
-          "start": "2026-11-21T16:25:00.000Z",
-          "end": "2026-11-21T18:30:00.000Z",
-          "startEpochSeconds": 1795278300,
-          "endEpochSeconds": 1795285800,
-          "source": "bein_us"
-        },
-        {
-          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795285800000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T18:30:00.000Z",
-          "end": "2026-11-21T19:35:00.000Z",
-          "startEpochSeconds": 1795285800,
-          "endEpochSeconds": 1795289700,
-          "source": "bein_us"
-        },
-        {
-          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795289700000:french ligue 1 soccer",
-          "title": "French Ligue 1 Soccer",
-          "description": "AS Monaco vs. AJ Auxerre",
-          "start": "2026-11-21T19:35:00.000Z",
-          "end": "2026-11-21T21:45:00.000Z",
-          "startEpochSeconds": 1795289700,
-          "endEpochSeconds": 1795297500,
-          "source": "bein_us"
-        },
         {
           "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795297500000:sign off",
           "title": "SIGN OFF",
@@ -9666,6 +9286,66 @@
           "startEpochSeconds": 1795647600,
           "endEpochSeconds": 1795662000,
           "source": "bein_us"
+        },
+        {
+          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795662000000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T03:00:00.000Z",
+          "end": "2026-11-26T07:00:00.000Z",
+          "startEpochSeconds": 1795662000,
+          "endEpochSeconds": 1795676400,
+          "source": "bein_us"
+        },
+        {
+          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795676400000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T07:00:00.000Z",
+          "end": "2026-11-26T11:00:00.000Z",
+          "startEpochSeconds": 1795676400,
+          "endEpochSeconds": 1795690800,
+          "source": "bein_us"
+        },
+        {
+          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795690800000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T11:00:00.000Z",
+          "end": "2026-11-26T15:00:00.000Z",
+          "startEpochSeconds": 1795690800,
+          "endEpochSeconds": 1795705200,
+          "source": "bein_us"
+        },
+        {
+          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795705200000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T15:00:00.000Z",
+          "end": "2026-11-26T19:00:00.000Z",
+          "startEpochSeconds": 1795705200,
+          "endEpochSeconds": 1795719600,
+          "source": "bein_us"
+        },
+        {
+          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795719600000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T19:00:00.000Z",
+          "end": "2026-11-26T23:00:00.000Z",
+          "startEpochSeconds": 1795719600,
+          "endEpochSeconds": 1795734000,
+          "source": "bein_us"
+        },
+        {
+          "id": "E56B0905-F99F-4DB1-931E-E6002B530867:1795734000000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T23:00:00.000Z",
+          "end": "2026-11-27T03:00:00.000Z",
+          "startEpochSeconds": 1795734000,
+          "endEpochSeconds": 1795748400,
+          "source": "bein_us"
         }
       ]
     },
@@ -9674,106 +9354,6 @@
       "name": "beIN SPORTS 3",
       "region": "en-us",
       "programmes": [
-        {
-          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795214700000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-20T22:45:00.000Z",
-          "end": "2026-11-21T03:00:00.000Z",
-          "startEpochSeconds": 1795214700,
-          "endEpochSeconds": 1795230000,
-          "source": "bein_us"
-        },
-        {
-          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795230000000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T03:00:00.000Z",
-          "end": "2026-11-21T07:30:00.000Z",
-          "startEpochSeconds": 1795230000,
-          "endEpochSeconds": 1795246200,
-          "source": "bein_us"
-        },
-        {
-          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795246200000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T07:30:00.000Z",
-          "end": "2026-11-21T11:00:00.000Z",
-          "startEpochSeconds": 1795246200,
-          "endEpochSeconds": 1795258800,
-          "source": "bein_us"
-        },
-        {
-          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795258800000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T11:00:00.000Z",
-          "end": "2026-11-21T12:55:00.000Z",
-          "startEpochSeconds": 1795258800,
-          "endEpochSeconds": 1795265700,
-          "source": "bein_us"
-        },
-        {
-          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795265700000:fútbol turco superliga",
-          "title": "Fútbol Turco Superliga",
-          "description": "Galatasaray vs. Samsunspor",
-          "start": "2026-11-21T12:55:00.000Z",
-          "end": "2026-11-21T15:00:00.000Z",
-          "startEpochSeconds": 1795265700,
-          "endEpochSeconds": 1795273200,
-          "source": "bein_us"
-        },
-        {
-          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795273200000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T15:00:00.000Z",
-          "end": "2026-11-21T16:05:00.000Z",
-          "startEpochSeconds": 1795273200,
-          "endEpochSeconds": 1795277100,
-          "source": "bein_us"
-        },
-        {
-          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795277100000:fútbol ligue 1",
-          "title": "Fútbol Ligue 1",
-          "description": "OGC Nice vs. Paris Saint-Germain",
-          "start": "2026-11-21T16:05:00.000Z",
-          "end": "2026-11-21T18:15:00.000Z",
-          "startEpochSeconds": 1795277100,
-          "endEpochSeconds": 1795284900,
-          "source": "bein_us"
-        },
-        {
-          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795284900000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T18:15:00.000Z",
-          "end": "2026-11-21T19:35:00.000Z",
-          "startEpochSeconds": 1795284900,
-          "endEpochSeconds": 1795289700,
-          "source": "bein_us"
-        },
-        {
-          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795289700000:fútbol ligue 1",
-          "title": "Fútbol Ligue 1",
-          "description": "RC Lens vs. Toulouse FC",
-          "start": "2026-11-21T19:35:00.000Z",
-          "end": "2026-11-21T21:45:00.000Z",
-          "startEpochSeconds": 1795289700,
-          "endEpochSeconds": 1795297500,
-          "source": "bein_us"
-        },
-        {
-          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795297500000:sign off",
-          "title": "SIGN OFF",
-          "description": "",
-          "start": "2026-11-21T21:45:00.000Z",
-          "end": "2026-11-21T22:20:00.000Z",
-          "startEpochSeconds": 1795297500,
-          "endEpochSeconds": 1795299600,
-          "source": "bein_us"
-        },
         {
           "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795299600000:copa sudamericana soccer",
           "title": "Copa Sudamericana Soccer",
@@ -10072,6 +9652,66 @@
           "end": "2026-11-26T04:30:00.000Z",
           "startEpochSeconds": 1795640100,
           "endEpochSeconds": 1795667400,
+          "source": "bein_us"
+        },
+        {
+          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795667400000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T04:30:00.000Z",
+          "end": "2026-11-26T07:30:00.000Z",
+          "startEpochSeconds": 1795667400,
+          "endEpochSeconds": 1795678200,
+          "source": "bein_us"
+        },
+        {
+          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795678200000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T07:30:00.000Z",
+          "end": "2026-11-26T11:00:00.000Z",
+          "startEpochSeconds": 1795678200,
+          "endEpochSeconds": 1795690800,
+          "source": "bein_us"
+        },
+        {
+          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795690800000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T11:00:00.000Z",
+          "end": "2026-11-26T15:00:00.000Z",
+          "startEpochSeconds": 1795690800,
+          "endEpochSeconds": 1795705200,
+          "source": "bein_us"
+        },
+        {
+          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795705200000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T15:00:00.000Z",
+          "end": "2026-11-26T19:00:00.000Z",
+          "startEpochSeconds": 1795705200,
+          "endEpochSeconds": 1795719600,
+          "source": "bein_us"
+        },
+        {
+          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795719600000:sign off",
+          "title": "SIGN OFF",
+          "description": "",
+          "start": "2026-11-26T19:00:00.000Z",
+          "end": "2026-11-26T21:55:00.000Z",
+          "startEpochSeconds": 1795719600,
+          "endEpochSeconds": 1795730100,
+          "source": "bein_us"
+        },
+        {
+          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76:1795730100000:premier padel tennis",
+          "title": "Premier Padel Tennis",
+          "description": "Mexico, Men's & Women's Round of 16 (Center Court)",
+          "start": "2026-11-26T21:55:00.000Z",
+          "end": "2026-11-27T04:00:00.000Z",
+          "startEpochSeconds": 1795730100,
+          "endEpochSeconds": 1795752000,
           "source": "bein_us"
         }
       ]
