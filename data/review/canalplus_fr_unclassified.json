@@ -5,7 +5,7 @@
   "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
   "region": "FR",
   "timezone": "UTC",
-  "generatedAt": "2026-11-23T07:37:42.943Z",
+  "generatedAt": "2026-11-23T23:56:45.450Z",
   "coverage": {
     "daysRequested": 1,
     "channelsFound": 7,
@@ -28,7 +28,7 @@
         {
           "id": "3b0c76fc9a8704e22b8e2223",
           "title": "Bonjour ! La Matinale TF1",
-          "description": "Philippe Ballard",
+          "description": "Bonjour ! La matinale TF1 du 23 ...",
           "start": "2026-11-23T05:55:00.000Z",
           "end": "2026-11-23T09:00:00.000Z",
           "startEpochSeconds": 1795413300,
@@ -37,7 +37,7 @@
           "sourceEventId": "32381519_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -52,7 +52,7 @@
           "sourceEventId": "32381717_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -67,7 +67,7 @@
           "sourceEventId": "32372324_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -82,7 +82,7 @@
           "sourceEventId": "48201494_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -97,7 +97,7 @@
           "sourceEventId": "32381730_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -112,7 +112,7 @@
           "sourceEventId": "48201472_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -127,7 +127,7 @@
           "sourceEventId": "32381834_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -142,7 +142,7 @@
           "sourceEventId": "48201452_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -157,7 +157,7 @@
           "sourceEventId": "32271014_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -172,7 +172,7 @@
           "sourceEventId": "32381856_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -187,7 +187,7 @@
           "sourceEventId": "30301046_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -202,7 +202,7 @@
           "sourceEventId": "32381926_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -217,7 +217,7 @@
           "sourceEventId": "32270785_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -232,7 +232,7 @@
           "sourceEventId": "32270937_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -247,7 +247,7 @@
           "sourceEventId": "32383748_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -262,7 +262,7 @@
           "sourceEventId": "48201433_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -277,7 +277,7 @@
           "sourceEventId": "32383749_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -292,7 +292,7 @@
           "sourceEventId": "32383765_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -307,7 +307,7 @@
           "sourceEventId": "32383778_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -322,7 +322,7 @@
           "sourceEventId": "29166853_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -337,7 +337,7 @@
           "sourceEventId": "23326653_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -352,7 +352,7 @@
           "sourceEventId": "653888_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -367,7 +367,7 @@
           "sourceEventId": "3790646_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -382,7 +382,7 @@
           "sourceEventId": "48201463_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -397,7 +397,7 @@
           "sourceEventId": "48201421_50061",
           "sourceChannelName": "TF1",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         }
       ]
@@ -420,7 +420,7 @@
           "sourceEventId": "32384756_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -435,7 +435,7 @@
           "sourceEventId": "32384753_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -450,7 +450,7 @@
           "sourceEventId": "32384758_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -465,7 +465,7 @@
           "sourceEventId": "48201050_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -480,7 +480,7 @@
           "sourceEventId": "32384760_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -495,7 +495,7 @@
           "sourceEventId": "32384761_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -510,7 +510,7 @@
           "sourceEventId": "32373824_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -525,7 +525,7 @@
           "sourceEventId": "32381163_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -540,7 +540,7 @@
           "sourceEventId": "32384763_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -555,7 +555,7 @@
           "sourceEventId": "32384765_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -570,7 +570,7 @@
           "sourceEventId": "48201086_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -585,7 +585,7 @@
           "sourceEventId": "32384769_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -600,7 +600,7 @@
           "sourceEventId": "48200821_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -615,7 +615,7 @@
           "sourceEventId": "32384771_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -630,7 +630,7 @@
           "sourceEventId": "32384774_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -645,7 +645,7 @@
           "sourceEventId": "32384776_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -660,7 +660,7 @@
           "sourceEventId": "32381183_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -675,7 +675,7 @@
           "sourceEventId": "32381174_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -690,7 +690,7 @@
           "sourceEventId": "32384779_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -705,7 +705,7 @@
           "sourceEventId": "32384780_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -720,7 +720,7 @@
           "sourceEventId": "48201085_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -735,7 +735,7 @@
           "sourceEventId": "48201084_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -750,7 +750,7 @@
           "sourceEventId": "32384785_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -765,13 +765,13 @@
           "sourceEventId": "48200872_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
           "id": "a3d3a394ff4201256eff125d",
           "title": "Basique, l'essentiel de la musique",
-          "description": "Pamela",
+          "description": "Les essentiels",
           "start": "2026-11-23T20:05:00.000Z",
           "end": "2026-11-23T20:10:00.000Z",
           "startEpochSeconds": 1795464300,
@@ -780,7 +780,7 @@
           "sourceEventId": "48734452_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -795,7 +795,7 @@
           "sourceEventId": "32384257_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -810,7 +810,7 @@
           "sourceEventId": "32384268_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -825,7 +825,7 @@
           "sourceEventId": "32384269_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -840,7 +840,7 @@
           "sourceEventId": "32384272_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -855,7 +855,7 @@
           "sourceEventId": "32384273_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -870,7 +870,7 @@
           "sourceEventId": "29582695_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -885,7 +885,7 @@
           "sourceEventId": "20431921_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -900,7 +900,7 @@
           "sourceEventId": "32384774_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -915,7 +915,7 @@
           "sourceEventId": "32384761_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -930,7 +930,7 @@
           "sourceEventId": "24574576_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -945,7 +945,7 @@
           "sourceEventId": "18789633_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -960,7 +960,7 @@
           "sourceEventId": "32384763_50026",
           "sourceChannelName": "FRANCE 2",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         }
       ]
@@ -983,7 +983,7 @@
           "sourceEventId": "29720191_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -998,7 +998,7 @@
           "sourceEventId": "48201299_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1013,7 +1013,7 @@
           "sourceEventId": "48201292_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1028,7 +1028,7 @@
           "sourceEventId": "32384771_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1043,7 +1043,7 @@
           "sourceEventId": "32384797_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1058,7 +1058,7 @@
           "sourceEventId": "30729555_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1073,7 +1073,7 @@
           "sourceEventId": "28184967_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1088,7 +1088,7 @@
           "sourceEventId": "32384799_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1103,7 +1103,7 @@
           "sourceEventId": "32384771_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1118,11 +1118,11 @@
           "sourceEventId": "48751128_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
-          "id": "c7946dad211cf6f00ef114cc",
+          "id": "ff8ef15c5cbf8adcbfab2acb",
           "title": "ICI 12/13",
           "description": "Emission du 23 nov. 2026",
           "start": "2026-11-23T11:26:00.000Z",
@@ -1130,10 +1130,10 @@
           "startEpochSeconds": 1795433160,
           "endEpochSeconds": 1795434900,
           "source": "canalplus_fr",
-          "sourceEventId": "48201305_50027",
+          "sourceEventId": "32388640_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1148,7 +1148,7 @@
           "sourceEventId": "32384804_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1163,7 +1163,7 @@
           "sourceEventId": "32384800_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1178,7 +1178,7 @@
           "sourceEventId": "13940738_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1193,7 +1193,7 @@
           "sourceEventId": "13982922_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1208,7 +1208,7 @@
           "sourceEventId": "13982923_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1223,7 +1223,7 @@
           "sourceEventId": "32384802_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1238,7 +1238,7 @@
           "sourceEventId": "32384801_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1253,7 +1253,7 @@
           "sourceEventId": "32384805_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1268,7 +1268,7 @@
           "sourceEventId": "48751128_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1283,7 +1283,7 @@
           "sourceEventId": "48751130_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1298,7 +1298,7 @@
           "sourceEventId": "48201267_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1313,7 +1313,7 @@
           "sourceEventId": "48751129_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1328,7 +1328,7 @@
           "sourceEventId": "32384808_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1343,7 +1343,7 @@
           "sourceEventId": "32384806_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1358,7 +1358,7 @@
           "sourceEventId": "48201309_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1373,7 +1373,7 @@
           "sourceEventId": "48585925_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1388,7 +1388,7 @@
           "sourceEventId": "32270980_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1403,7 +1403,7 @@
           "sourceEventId": "32270981_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1418,7 +1418,7 @@
           "sourceEventId": "1135279_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1433,7 +1433,7 @@
           "sourceEventId": "32384047_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1448,7 +1448,7 @@
           "sourceEventId": "32384258_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1463,7 +1463,7 @@
           "sourceEventId": "26729675_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1478,7 +1478,7 @@
           "sourceEventId": "32364522_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1493,7 +1493,7 @@
           "sourceEventId": "32385960_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1508,7 +1508,7 @@
           "sourceEventId": "32311138_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1523,7 +1523,7 @@
           "sourceEventId": "32315711_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1538,7 +1538,7 @@
           "sourceEventId": "32384771_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1553,7 +1553,7 @@
           "sourceEventId": "48201277_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1568,7 +1568,7 @@
           "sourceEventId": "48201298_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1583,7 +1583,7 @@
           "sourceEventId": "48201258_50027",
           "sourceChannelName": "FRANCE 3",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         }
       ]
@@ -1595,33 +1595,33 @@
       "canonicalChannelId": "",
       "programmes": [
         {
-          "id": "76cf9124051109682746c4fc",
+          "id": "8b2d2f4cd3cb0804bbd4e980",
           "title": "Clique",
           "description": "Kyan Khojandi",
-          "start": "2026-11-23T05:51:00.000Z",
-          "end": "2026-11-23T06:44:00.000Z",
-          "startEpochSeconds": 1795413060,
-          "endEpochSeconds": 1795416240,
+          "start": "2026-11-23T05:52:00.000Z",
+          "end": "2026-11-23T06:45:00.000Z",
+          "startEpochSeconds": 1795413120,
+          "endEpochSeconds": 1795416300,
           "source": "canalplus_fr",
           "sourceEventId": "32346125_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
-          "id": "621e582c9d220023c9ff9c52",
+          "id": "5514c6e8dfb19c623089e13a",
           "title": "En aparté",
           "description": "Best of",
-          "start": "2026-11-23T06:44:00.000Z",
+          "start": "2026-11-23T06:45:00.000Z",
           "end": "2026-11-23T07:17:00.000Z",
-          "startEpochSeconds": 1795416240,
+          "startEpochSeconds": 1795416300,
           "endEpochSeconds": 1795418220,
           "source": "canalplus_fr",
           "sourceEventId": "32351355_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1629,74 +1629,74 @@
           "title": "Les génies de la nature - Saison 3",
           "description": "En Slovénie",
           "start": "2026-11-23T07:17:00.000Z",
-          "end": "2026-11-23T08:11:00.000Z",
+          "end": "2026-11-23T08:12:00.000Z",
           "startEpochSeconds": 1795418220,
-          "endEpochSeconds": 1795421460,
+          "endEpochSeconds": 1795421520,
           "source": "canalplus_fr",
           "sourceEventId": "32328888_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
-          "id": "d832c1d65ebfa89d26bf1b26",
+          "id": "a4f6f499cf4662ca18d83f37",
           "title": "Têtàtête(s)",
           "description": "Emission du 21 nov. 2026",
-          "start": "2026-11-23T08:11:00.000Z",
-          "end": "2026-11-23T08:26:00.000Z",
-          "startEpochSeconds": 1795421460,
-          "endEpochSeconds": 1795422360,
+          "start": "2026-11-23T08:12:00.000Z",
+          "end": "2026-11-23T08:27:00.000Z",
+          "startEpochSeconds": 1795421520,
+          "endEpochSeconds": 1795422420,
           "source": "canalplus_fr",
           "sourceEventId": "32351724_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
-          "id": "01b87a222873b1c7bb73ae6d",
+          "id": "c801a01154da0a6522a1b28c",
           "title": "L'Agent secret",
           "description": "Film Drame",
-          "start": "2026-11-23T08:26:00.000Z",
-          "end": "2026-11-23T11:01:00.000Z",
-          "startEpochSeconds": 1795422360,
-          "endEpochSeconds": 1795431660,
+          "start": "2026-11-23T08:27:00.000Z",
+          "end": "2026-11-23T11:02:00.000Z",
+          "startEpochSeconds": 1795422420,
+          "endEpochSeconds": 1795431720,
           "source": "canalplus_fr",
           "sourceEventId": "30884578_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
-          "id": "87cfc836e6c2f0045345141b",
+          "id": "b4cbb29523726ec62a8798b1",
           "title": "La boîte à questions",
           "description": "Best of",
-          "start": "2026-11-23T11:01:00.000Z",
-          "end": "2026-11-23T11:05:00.000Z",
-          "startEpochSeconds": 1795431660,
-          "endEpochSeconds": 1795431900,
+          "start": "2026-11-23T11:02:00.000Z",
+          "end": "2026-11-23T11:06:00.000Z",
+          "startEpochSeconds": 1795431720,
+          "endEpochSeconds": 1795431960,
           "source": "canalplus_fr",
           "sourceEventId": "32314140_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
-          "id": "d2699519f7c31b2f7ae0bb57",
+          "id": "78da6250fa762d5ffe47f9dd",
           "title": "La boîte à questions",
           "description": "Best of",
-          "start": "2026-11-23T11:05:00.000Z",
+          "start": "2026-11-23T11:06:00.000Z",
           "end": "2026-11-23T11:10:00.000Z",
-          "startEpochSeconds": 1795431900,
+          "startEpochSeconds": 1795431960,
           "endEpochSeconds": 1795432200,
           "source": "canalplus_fr",
           "sourceEventId": "32351356_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1711,7 +1711,7 @@
           "sourceEventId": "32351355_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1719,110 +1719,110 @@
           "title": "Clique",
           "description": "Kyan Khojandi",
           "start": "2026-11-23T11:42:00.000Z",
-          "end": "2026-11-23T12:35:00.000Z",
+          "end": "2026-11-23T12:34:00.000Z",
           "startEpochSeconds": 1795434120,
-          "endEpochSeconds": 1795437300,
+          "endEpochSeconds": 1795437240,
           "source": "canalplus_fr",
           "sourceEventId": "32346125_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
-          "id": "90af683931979c1980f2a392",
+          "id": "4772d6f2d4655ee5b7ec1dd2",
           "title": "Marseille, la révolution Tapie",
           "description": "Doc. Sport",
-          "start": "2026-11-23T12:35:00.000Z",
-          "end": "2026-11-23T14:19:00.000Z",
-          "startEpochSeconds": 1795437300,
-          "endEpochSeconds": 1795443540,
+          "start": "2026-11-23T12:34:00.000Z",
+          "end": "2026-11-23T14:18:00.000Z",
+          "startEpochSeconds": 1795437240,
+          "endEpochSeconds": 1795443480,
           "source": "canalplus_fr",
           "sourceEventId": "32300949_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
-          "id": "997654bef299db183781e763",
+          "id": "42baaca85ae91f5f40779687",
           "title": "Cash Out 3",
           "description": "Téléfilm Action",
-          "start": "2026-11-23T14:19:00.000Z",
-          "end": "2026-11-23T15:53:00.000Z",
-          "startEpochSeconds": 1795443540,
-          "endEpochSeconds": 1795449180,
+          "start": "2026-11-23T14:18:00.000Z",
+          "end": "2026-11-23T15:52:00.000Z",
+          "startEpochSeconds": 1795443480,
+          "endEpochSeconds": 1795449120,
           "source": "canalplus_fr",
           "sourceEventId": "32333153_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
-          "id": "fe7ed791fc9700e9d812a6ed",
+          "id": "e78293bd2e8789f8c7cc63e8",
           "title": "Bugonia",
           "description": "Film Comédie",
-          "start": "2026-11-23T15:53:00.000Z",
-          "end": "2026-11-23T17:48:00.000Z",
-          "startEpochSeconds": 1795449180,
-          "endEpochSeconds": 1795456080,
+          "start": "2026-11-23T15:52:00.000Z",
+          "end": "2026-11-23T17:47:00.000Z",
+          "startEpochSeconds": 1795449120,
+          "endEpochSeconds": 1795456020,
           "source": "canalplus_fr",
           "sourceEventId": "30621061_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
-          "id": "71c968296700ecfdf509e68d",
+          "id": "819400cb7073b87defca7831",
           "title": "La boîte à questions",
-          "description": "Emission du 23 nov. 2026",
-          "start": "2026-11-23T17:48:00.000Z",
-          "end": "2026-11-23T17:52:00.000Z",
-          "startEpochSeconds": 1795456080,
-          "endEpochSeconds": 1795456320,
+          "description": "Romeo Beckham & Paul Kircher en ...",
+          "start": "2026-11-23T17:47:00.000Z",
+          "end": "2026-11-23T17:51:00.000Z",
+          "startEpochSeconds": 1795456020,
+          "endEpochSeconds": 1795456260,
           "source": "canalplus_fr",
           "sourceEventId": "32356764_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
-          "id": "350198dc880fa2622fa3d64c",
+          "id": "c4e014dd2748ecd69b4a44d1",
           "title": "En aparté",
           "description": "Michael Jones",
-          "start": "2026-11-23T17:52:00.000Z",
-          "end": "2026-11-23T18:27:00.000Z",
-          "startEpochSeconds": 1795456320,
-          "endEpochSeconds": 1795458420,
+          "start": "2026-11-23T17:51:00.000Z",
+          "end": "2026-11-23T18:26:00.000Z",
+          "startEpochSeconds": 1795456260,
+          "endEpochSeconds": 1795458360,
           "source": "canalplus_fr",
           "sourceEventId": "32348449_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
-          "id": "7b29ebec52f7a333b07bc433",
+          "id": "62a6cceee7db53df4fc25bce",
           "title": "Un Clique par jour",
           "description": "Tootsie",
-          "start": "2026-11-23T18:27:00.000Z",
+          "start": "2026-11-23T18:26:00.000Z",
           "end": "2026-11-23T18:33:00.000Z",
-          "startEpochSeconds": 1795458420,
+          "startEpochSeconds": 1795458360,
           "endEpochSeconds": 1795458780,
           "source": "canalplus_fr",
           "sourceEventId": "32355972_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
           "id": "f28ba4c2681db74031582431",
           "title": "Clique",
-          "description": "Emission du 23 nov. 2026",
+          "description": "Laurent Lafitte",
           "start": "2026-11-23T18:33:00.000Z",
           "end": "2026-11-23T19:32:00.000Z",
           "startEpochSeconds": 1795458780,
@@ -1831,7 +1831,7 @@
           "sourceEventId": "32357400_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1846,7 +1846,7 @@
           "sourceEventId": "32357402_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1861,7 +1861,7 @@
           "sourceEventId": "32230529_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1876,7 +1876,7 @@
           "sourceEventId": "32172595_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1891,7 +1891,7 @@
           "sourceEventId": "32172596_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1906,7 +1906,7 @@
           "sourceEventId": "31399311_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -1921,52 +1921,52 @@
           "sourceEventId": "30267276_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
-          "id": "c5ca92b9b50dce78842f3888",
-          "title": "Dans le ventre du Leviathan",
-          "description": "Festival Gerardmer 2026",
+          "id": "b454243a88c34bec0e3ecfdd",
+          "title": "Champs célestes",
+          "description": "Film Court métrage",
           "start": "2026-11-24T02:52:00.000Z",
-          "end": "2026-11-24T03:15:00.000Z",
+          "end": "2026-11-24T03:14:00.000Z",
           "startEpochSeconds": 1795488720,
-          "endEpochSeconds": 1795490100,
+          "endEpochSeconds": 1795490040,
           "source": "canalplus_fr",
-          "sourceEventId": "32314831_50001",
+          "sourceEventId": "31578016_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
-          "id": "be7e9f65816af58c6d7c214f",
+          "id": "5bf1371f2d3edd2e88ce9e99",
           "title": "Le cercle",
           "description": "Wild Horse Nine, Il faut brûler ...",
-          "start": "2026-11-24T03:15:00.000Z",
-          "end": "2026-11-24T04:02:00.000Z",
-          "startEpochSeconds": 1795490100,
-          "endEpochSeconds": 1795492920,
+          "start": "2026-11-24T03:14:00.000Z",
+          "end": "2026-11-24T04:01:00.000Z",
+          "startEpochSeconds": 1795490040,
+          "endEpochSeconds": 1795492860,
           "source": "canalplus_fr",
           "sourceEventId": "32333891_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
-          "id": "ab30fd2d11a401bfae02edad",
+          "id": "be7d4dc425c9e579889b9133",
           "title": "Saturday Night Live",
           "description": "John Mulaney & Phoebe Bridgers -...",
-          "start": "2026-11-24T04:02:00.000Z",
-          "end": "2026-11-24T05:12:00.000Z",
-          "startEpochSeconds": 1795492920,
-          "endEpochSeconds": 1795497120,
+          "start": "2026-11-24T04:01:00.000Z",
+          "end": "2026-11-24T05:10:00.000Z",
+          "startEpochSeconds": 1795492860,
+          "endEpochSeconds": 1795497000,
           "source": "canalplus_fr",
           "sourceEventId": "32268367_50001",
           "sourceChannelName": "CANAL+",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         }
       ]
@@ -1989,7 +1989,7 @@
           "sourceEventId": "21480727_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2004,7 +2004,7 @@
           "sourceEventId": "30446555_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2019,7 +2019,7 @@
           "sourceEventId": "30446556_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2034,7 +2034,7 @@
           "sourceEventId": "31620723_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2049,7 +2049,7 @@
           "sourceEventId": "31109331_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2064,7 +2064,7 @@
           "sourceEventId": "31109335_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2079,7 +2079,7 @@
           "sourceEventId": "12692162_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2094,7 +2094,7 @@
           "sourceEventId": "13033777_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2109,7 +2109,7 @@
           "sourceEventId": "13339027_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2124,7 +2124,7 @@
           "sourceEventId": "15686985_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2139,7 +2139,7 @@
           "sourceEventId": "20186003_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2154,7 +2154,7 @@
           "sourceEventId": "13312899_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2169,7 +2169,7 @@
           "sourceEventId": "20230384_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2184,7 +2184,7 @@
           "sourceEventId": "17491404_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2199,7 +2199,7 @@
           "sourceEventId": "15711831_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2214,7 +2214,7 @@
           "sourceEventId": "30148412_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2229,7 +2229,7 @@
           "sourceEventId": "32216218_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2244,7 +2244,7 @@
           "sourceEventId": "32237167_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2259,7 +2259,7 @@
           "sourceEventId": "3217571_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2274,7 +2274,7 @@
           "sourceEventId": "10488191_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2289,7 +2289,7 @@
           "sourceEventId": "811798_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2304,7 +2304,7 @@
           "sourceEventId": "23118585_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2319,7 +2319,7 @@
           "sourceEventId": "32304220_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2334,7 +2334,7 @@
           "sourceEventId": "31912637_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2349,7 +2349,7 @@
           "sourceEventId": "32378553_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2364,7 +2364,7 @@
           "sourceEventId": "31935634_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2379,7 +2379,7 @@
           "sourceEventId": "30511404_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2394,7 +2394,7 @@
           "sourceEventId": "32371953_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2409,7 +2409,7 @@
           "sourceEventId": "22196380_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2424,7 +2424,7 @@
           "sourceEventId": "32384771_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2439,7 +2439,7 @@
           "sourceEventId": "30223235_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2454,7 +2454,7 @@
           "sourceEventId": "48202399_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2469,7 +2469,7 @@
           "sourceEventId": "32312555_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2484,7 +2484,7 @@
           "sourceEventId": "32384775_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2499,7 +2499,7 @@
           "sourceEventId": "28184395_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2514,7 +2514,7 @@
           "sourceEventId": "26619992_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2529,7 +2529,7 @@
           "sourceEventId": "20445446_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2544,13 +2544,13 @@
           "sourceEventId": "32384783_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
           "id": "6f2973f4e6b6d6e0dd99414e",
           "title": "C pas si loin",
-          "description": "Emission du 23 nov. 2026",
+          "description": "Guyane : une sécheresse historique",
           "start": "2026-11-23T15:55:00.000Z",
           "end": "2026-11-23T16:20:00.000Z",
           "startEpochSeconds": 1795449300,
@@ -2559,7 +2559,7 @@
           "sourceEventId": "32384790_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2574,7 +2574,7 @@
           "sourceEventId": "32384346_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2589,7 +2589,7 @@
           "sourceEventId": "32384773_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2604,7 +2604,7 @@
           "sourceEventId": "32384786_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2619,7 +2619,7 @@
           "sourceEventId": "32384789_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2634,7 +2634,7 @@
           "sourceEventId": "32384781_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2649,7 +2649,7 @@
           "sourceEventId": "31279348_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2664,7 +2664,7 @@
           "sourceEventId": "32384792_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2679,7 +2679,7 @@
           "sourceEventId": "30737371_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2694,7 +2694,7 @@
           "sourceEventId": "32384794_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2709,7 +2709,7 @@
           "sourceEventId": "32384771_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2724,7 +2724,7 @@
           "sourceEventId": "32384786_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2739,7 +2739,7 @@
           "sourceEventId": "32384789_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2754,7 +2754,7 @@
           "sourceEventId": "32384781_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2769,7 +2769,7 @@
           "sourceEventId": "26521318_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2784,7 +2784,7 @@
           "sourceEventId": "32312553_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2799,7 +2799,7 @@
           "sourceEventId": "48202394_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2814,7 +2814,7 @@
           "sourceEventId": "30928220_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2829,7 +2829,7 @@
           "sourceEventId": "30557076_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2844,7 +2844,7 @@
           "sourceEventId": "30557075_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2859,7 +2859,7 @@
           "sourceEventId": "30556734_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2874,7 +2874,7 @@
           "sourceEventId": "30556733_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2889,7 +2889,7 @@
           "sourceEventId": "28703196_50074",
           "sourceChannelName": "FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         }
       ]
@@ -2912,7 +2912,7 @@
           "sourceEventId": "30148421_50074",
           "sourceChannelName": "un petit nuage, Sur FRANCE 5",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         }
       ]
@@ -2935,7 +2935,7 @@
           "sourceEventId": "32359057_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2950,7 +2950,7 @@
           "sourceEventId": "32359049_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2965,7 +2965,7 @@
           "sourceEventId": "32359050_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2980,7 +2980,7 @@
           "sourceEventId": "32359051_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -2995,7 +2995,7 @@
           "sourceEventId": "32359055_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -3010,7 +3010,7 @@
           "sourceEventId": "32359058_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -3025,7 +3025,7 @@
           "sourceEventId": "32359059_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -3040,7 +3040,7 @@
           "sourceEventId": "32359056_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -3055,7 +3055,7 @@
           "sourceEventId": "32359085_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -3070,7 +3070,7 @@
           "sourceEventId": "32359060_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -3085,7 +3085,7 @@
           "sourceEventId": "32359086_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -3100,7 +3100,7 @@
           "sourceEventId": "32359054_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -3115,7 +3115,7 @@
           "sourceEventId": "32359082_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -3130,7 +3130,7 @@
           "sourceEventId": "32359053_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -3145,7 +3145,7 @@
           "sourceEventId": "32359089_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -3160,7 +3160,7 @@
           "sourceEventId": "32359118_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -3175,7 +3175,7 @@
           "sourceEventId": "32359119_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -3190,7 +3190,7 @@
           "sourceEventId": "32359083_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -3205,7 +3205,7 @@
           "sourceEventId": "29864368_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -3220,7 +3220,7 @@
           "sourceEventId": "29924684_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         },
         {
@@ -3235,7 +3235,7 @@
           "sourceEventId": "32359092_50035",
           "sourceChannelName": "M6",
           "sourceUrl": "https://www.canalplus.com/live-tv/programme-tv/",
-          "fetchedAt": "2026-11-23T07:37:42.943Z",
+          "fetchedAt": "2026-11-23T23:56:45.450Z",
           "sourceTimezone": "Europe/Paris"
         }
       ]

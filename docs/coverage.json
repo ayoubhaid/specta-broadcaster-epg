@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-23T07:40:33.000Z",
+  "generatedAt": "2026-11-23T23:59:58.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-23T05:40:33.000Z",
-    "to": "2026-11-24T23:40:33.000Z",
+    "from": "2026-11-23T21:59:58.000Z",
+    "to": "2026-11-25T15:59:58.000Z",
     "maxPerChannel": 80
   },
   "totals": {
     "channels": 202,
-    "programmes": 8002
+    "programmes": 7800
   },
   "providers": [
     {
@@ -52,9 +52,9 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2535,
+      "programmes": 2568,
       "publishedChannels": 30,
-      "publishedProgrammes": 1701,
+      "publishedProgrammes": 1734,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -105,10 +105,10 @@
       "provider": "dazn",
       "providerName": "DAZN",
       "file": "data/review/dazn_unclassified.json",
-      "channels": 74,
-      "programmes": 5018,
+      "channels": 81,
+      "programmes": 5332,
       "publishedChannels": 11,
-      "publishedProgrammes": 591,
+      "publishedProgrammes": 422,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -123,10 +123,10 @@
       "provider": "elcinema",
       "providerName": "elCinema Arabic TV Guide",
       "file": "data/review/elcinema_ar_unclassified.json",
-      "channels": 106,
-      "programmes": 3386,
+      "channels": 108,
+      "programmes": 3766,
       "publishedChannels": 21,
-      "publishedProgrammes": 1044,
+      "publishedProgrammes": 1033,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -142,9 +142,9 @@
       "providerName": "Golf Channel US",
       "file": "data/review/golfchannel_us_unclassified.json",
       "channels": 1,
-      "programmes": 19,
+      "programmes": 18,
       "publishedChannels": 1,
-      "publishedProgrammes": 19,
+      "publishedProgrammes": 18,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -178,9 +178,9 @@
       "providerName": "Sky Sports UK",
       "file": "data/review/sky_uk_unclassified.json",
       "channels": 21,
-      "programmes": 2887,
+      "programmes": 2852,
       "publishedChannels": 21,
-      "publishedProgrammes": 2887,
+      "publishedProgrammes": 2852,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -214,9 +214,9 @@
       "providerName": "SuperSport",
       "file": "data/review/supersport_unclassified.json",
       "channels": 62,
-      "programmes": 7578,
+      "programmes": 7595,
       "publishedChannels": 17,
-      "publishedProgrammes": 2387,
+      "publishedProgrammes": 2397,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -1878,6 +1878,13 @@
         "candidates": []
       },
       {
+        "key": "dazn:de:m98yufkk9nz71t5n79tco06ih",
+        "provider": "dazn",
+        "name": "FIBA TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "dazn:de:jr0lzor3xjhq1e2rotqdu3zhh",
         "provider": "dazn",
         "name": "Red Bull TV",
@@ -1934,6 +1941,13 @@
         "candidates": []
       },
       {
+        "key": "dazn:gb:vw8hmigiqrrq1u36t37xvfa4n",
+        "provider": "dazn",
+        "name": "FIBA TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "dazn:gb:vsz8lglomdep1o9juz8ixwrpc",
         "provider": "dazn",
         "name": "Unbeaten: 24/7 Global Sports Channel",
@@ -1972,6 +1986,13 @@
         "key": "dazn:us:1owzb99m9mnzy15hjxolpukwul",
         "provider": "dazn",
         "name": "DAZN 1 USA",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:us:12i1n7jvrdydc15bt11ckpt5i8",
+        "provider": "dazn",
+        "name": "FIBA TV",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2102,6 +2123,13 @@
         "candidates": []
       },
       {
+        "key": "dazn:it:x9iy2tju1xdz13ikrdmtgs659",
+        "provider": "dazn",
+        "name": "FIBA TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "dazn:it:19oeo2wgzq1vj1rpi9oh86yhbh",
         "provider": "dazn",
         "name": "Unbeaten",
@@ -2151,6 +2179,13 @@
         "candidates": []
       },
       {
+        "key": "dazn:es:aabd7nbrgwuw1cz4utgkd4bvu",
+        "provider": "dazn",
+        "name": "FIBA TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "dazn:es:1drhnrh91tkv1fwzqxaj1tbrc",
         "provider": "dazn",
         "name": "Red Bull TV",
@@ -2182,6 +2217,13 @@
         "key": "dazn:fr:ndozfjboh3z617ww4zdvm4f3h",
         "provider": "dazn",
         "name": "Ligue 1+ : Émissions et Matches en Direct",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "dazn:fr:ld2x2rpb3ne419tk0pr2kpuut",
+        "provider": "dazn",
+        "name": "FIBA TV",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2235,6 +2277,13 @@
         "candidates": []
       },
       {
+        "key": "dazn:pt:jpi1gwjj516h12j7v8jv9bkt5",
+        "provider": "dazn",
+        "name": "FIBA TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "dazn:pt:dkczmujpfh1n1sf8vlz8mrhw7",
         "provider": "dazn",
         "name": "NFL Network",
@@ -2277,23 +2326,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1137",
+        "key": "elcinema:1308",
         "provider": "elcinema",
-        "name": "Alhayat TV",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1390",
-        "provider": "elcinema",
-        "name": "OSN TV Yahala Bil Arabi",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1393",
-        "provider": "elcinema",
-        "name": "OSN TV One",
+        "name": "Watania1",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2305,9 +2340,30 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1392",
+        "key": "elcinema:1323",
         "provider": "elcinema",
-        "name": "OSN TV Movies Family",
+        "name": "BEIN MOVIES ACTION",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1304",
+        "provider": "elcinema",
+        "name": "Nessma",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1390",
+        "provider": "elcinema",
+        "name": "OSN TV Yahala Bil Arabi",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1329",
+        "provider": "elcinema",
+        "name": "Star World",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2319,30 +2375,16 @@
         "candidates": []
       },
       {
+        "key": "elcinema:1395",
+        "provider": "elcinema",
+        "name": "OSN TV Crime",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "elcinema:1257",
         "provider": "elcinema",
         "name": "OSN TV Comedy",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1299",
-        "provider": "elcinema",
-        "name": "Roya",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1264",
-        "provider": "elcinema",
-        "name": "Al Dafrah",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1261",
-        "provider": "elcinema",
-        "name": "Zee alwan",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2473,6 +2515,13 @@
         "candidates": []
       },
       {
+        "key": "elcinema:1261",
+        "provider": "elcinema",
+        "name": "Zee alwan",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "elcinema:1314",
         "provider": "elcinema",
         "name": "Jordan TV",
@@ -2529,9 +2578,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1323",
+        "key": "elcinema:1137",
         "provider": "elcinema",
-        "name": "BEIN MOVIES ACTION",
+        "name": "Alhayat TV",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2539,6 +2588,13 @@
         "key": "elcinema:1374",
         "provider": "elcinema",
         "name": "Hadhramaut TV",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1264",
+        "provider": "elcinema",
+        "name": "Al Dafrah",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2613,6 +2669,13 @@
         "candidates": []
       },
       {
+        "key": "elcinema:1392",
+        "provider": "elcinema",
+        "name": "OSN TV Movies Family",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "elcinema:1315",
         "provider": "elcinema",
         "name": "Echorouk TV",
@@ -2641,13 +2704,6 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1395",
-        "provider": "elcinema",
-        "name": "OSN TV Crime",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "elcinema:1349",
         "provider": "elcinema",
         "name": "Iraqia TV",
@@ -2669,6 +2725,13 @@
         "candidates": []
       },
       {
+        "key": "elcinema:1299",
+        "provider": "elcinema",
+        "name": "Roya",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "elcinema:1404",
         "provider": "elcinema",
         "name": "One Movies",
@@ -2683,23 +2746,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1329",
-        "provider": "elcinema",
-        "name": "Star World",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "elcinema:1336",
         "provider": "elcinema",
         "name": "Maspero Zaman",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1159",
-        "provider": "elcinema",
-        "name": "Nile Life",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2714,6 +2763,13 @@
         "key": "elcinema:1371",
         "provider": "elcinema",
         "name": "Mix Bel Araby",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1159",
+        "provider": "elcinema",
+        "name": "Nile Life",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2774,6 +2830,13 @@
         "candidates": []
       },
       {
+        "key": "elcinema:1393",
+        "provider": "elcinema",
+        "name": "OSN TV One",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "elcinema:1127",
         "provider": "elcinema",
         "name": "MBC",
@@ -2784,13 +2847,6 @@
         "key": "elcinema:1297",
         "provider": "elcinema",
         "name": "SBC",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1304",
-        "provider": "elcinema",
-        "name": "Nessma",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2833,6 +2889,13 @@
         "key": "elcinema:1223",
         "provider": "elcinema",
         "name": "Al Nahar Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1296",
+        "provider": "elcinema",
+        "name": "MTV",
         "reason": "unmapped",
         "candidates": []
       },
