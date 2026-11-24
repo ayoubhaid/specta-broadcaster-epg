@@ -6,7 +6,7 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "en-us",
   "timezone": "UTC",
-  "generatedAt": "2026-11-24T09:53:48.681Z",
+  "generatedAt": "2026-11-24T22:27:46.019Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 13,
@@ -3369,8 +3369,8 @@
           "source": "bein_us"
         },
         {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795651200000:fútbol ligue 1",
-          "title": "Fútbol Ligue 1",
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795651200000:french ligue 1 soccer",
+          "title": "French Ligue 1 Soccer",
           "description": "OGC Nice vs. Paris Saint-Germain",
           "start": "2026-11-26T00:00:00.000Z",
           "end": "2026-11-26T02:00:00.000Z",
@@ -3429,8 +3429,8 @@
           "source": "bein_us"
         },
         {
-          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795669200000:fútbol ligue 1",
-          "title": "Fútbol Ligue 1",
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D:1795669200000:french ligue 1 soccer",
+          "title": "French Ligue 1 Soccer",
           "description": "OGC Nice vs. Paris Saint-Germain",
           "start": "2026-11-26T05:00:00.000Z",
           "end": "2026-11-26T07:00:00.000Z",
@@ -6342,7 +6342,7 @@
         {
           "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795708800000:fútbol ligue 1",
           "title": "Fútbol Ligue 1",
-          "description": "OGC Nice vs. Paris Saint-Germain",
+          "description": "Le Havre AC vs. Paris Saint-Germain",
           "start": "2026-11-26T16:00:00.000Z",
           "end": "2026-11-26T18:00:00.000Z",
           "startEpochSeconds": 1795708800,
@@ -6422,7 +6422,7 @@
         {
           "id": "5223E3D7-FB4E-4155-885A-9165996B22FA:1795737600000:fútbol ligue 1",
           "title": "Fútbol Ligue 1",
-          "description": "OGC Nice vs. Paris Saint-Germain",
+          "description": "Paris Saint-Germain vs. ESTAC Troyes",
           "start": "2026-11-27T00:00:00.000Z",
           "end": "2026-11-27T02:00:00.000Z",
           "startEpochSeconds": 1795737600,

@@ -6,11 +6,11 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "fr-fr",
   "timezone": "UTC",
-  "generatedAt": "2026-11-24T09:53:01.544Z",
+  "generatedAt": "2026-11-24T22:26:53.507Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 10,
-    "programmesFound": 486,
+    "programmesFound": 487,
     "successfulRequests": 50,
     "failedRequests": 0
   },
@@ -418,12 +418,22 @@
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795530600000:made in england",
-          "title": "Made in England",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795530600000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
           "description": "",
           "start": "2026-11-24T14:30:00.000Z",
-          "end": "2026-11-24T15:00:00.000Z",
+          "end": "2026-11-24T14:45:00.000Z",
           "startEpochSeconds": 1795530600,
+          "endEpochSeconds": 1795531500,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795531500000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-11-24T14:45:00.000Z",
+          "end": "2026-11-24T15:00:00.000Z",
+          "startEpochSeconds": 1795531500,
           "endEpochSeconds": 1795532400,
           "source": "bein_fr"
         },
@@ -438,12 +448,22 @@
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795533300000:basket-ball : euroligue masculine - anadolu efes istanbul / lyon-villeurbanne",
-          "title": "Basket-ball : Euroligue masculine - Anadolu Efes Istanbul / Lyon-Villeurbanne",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795533300000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
           "description": "",
           "start": "2026-11-24T15:15:00.000Z",
-          "end": "2026-11-24T17:00:00.000Z",
+          "end": "2026-11-24T15:30:00.000Z",
           "startEpochSeconds": 1795533300,
+          "endEpochSeconds": 1795534200,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795534200000:handball : daikin starligue - toulouse / montpellier",
+          "title": "Handball : Daikin StarLigue - Toulouse / Montpellier",
+          "description": "",
+          "start": "2026-11-24T15:30:00.000Z",
+          "end": "2026-11-24T17:00:00.000Z",
+          "startEpochSeconds": 1795534200,
           "endEpochSeconds": 1795539600,
           "source": "bein_fr"
         },
@@ -928,32 +948,22 @@
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795712400000:terrains d'espoirs",
-          "title": "Terrains d'espoirs",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795712400000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
           "description": "",
           "start": "2026-11-26T17:00:00.000Z",
-          "end": "2026-11-26T17:30:00.000Z",
+          "end": "2026-11-26T17:15:00.000Z",
           "startEpochSeconds": 1795712400,
-          "endEpochSeconds": 1795714200,
+          "endEpochSeconds": 1795713300,
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795714200000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795713300000:nfl extra",
+          "title": "NFL Extra",
           "description": "",
-          "start": "2026-11-26T17:30:00.000Z",
-          "end": "2026-11-26T17:45:00.000Z",
-          "startEpochSeconds": 1795714200,
-          "endEpochSeconds": 1795715100,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795715100000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-26T17:45:00.000Z",
+          "start": "2026-11-26T17:15:00.000Z",
           "end": "2026-11-26T18:00:00.000Z",
-          "startEpochSeconds": 1795715100,
+          "startEpochSeconds": 1795713300,
           "endEpochSeconds": 1795716000,
           "source": "bein_fr"
         },
@@ -2076,28 +2086,18 @@
           "title": "beIN SPORTS, le plus grand des spectacles",
           "description": "",
           "start": "2026-11-28T16:30:00.000Z",
-          "end": "2026-11-28T20:25:00.000Z",
+          "end": "2026-11-28T20:30:00.000Z",
           "startEpochSeconds": 1795883400,
-          "endEpochSeconds": 1795897500,
+          "endEpochSeconds": 1795897800,
           "source": "bein_fr"
         },
         {
-          "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A:1795897500000:football : championnat du portugal - vitoria guimaraes / estrela amadora",
-          "title": "Football : Championnat du Portugal - Vitoria Guimaraes / Estrela Amadora",
-          "description": "",
-          "start": "2026-11-28T20:25:00.000Z",
-          "end": "2026-11-28T22:30:00.000Z",
-          "startEpochSeconds": 1795897500,
-          "endEpochSeconds": 1795905000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A:1795905000000:bein sports, le plus grand des spectacles",
+          "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A:1795897800000:bein sports, le plus grand des spectacles",
           "title": "beIN SPORTS, le plus grand des spectacles",
           "description": "",
-          "start": "2026-11-28T22:30:00.000Z",
+          "start": "2026-11-28T20:30:00.000Z",
           "end": "2026-11-29T00:00:00.000Z",
-          "startEpochSeconds": 1795905000,
+          "startEpochSeconds": 1795897800,
           "endEpochSeconds": 1795910400,
           "source": "bein_fr"
         }
@@ -2149,8 +2149,8 @@
           "source": "bein_fr"
         },
         {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795518000000:tennis : billie jean king cup - france / australie",
-          "title": "Tennis : Billie Jean King Cup - France / Australie",
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795518000000:tennis : billie jean king cup - elsa jacquemot / maya joint",
+          "title": "Tennis : Billie Jean King Cup - Elsa Jacquemot / Maya Joint",
           "description": "",
           "start": "2026-11-24T11:00:00.000Z",
           "end": "2026-11-24T12:30:00.000Z",
@@ -3483,8 +3483,8 @@
           "source": "bein_fr"
         },
         {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795710600000:foot fauteuil électrique : championnat de france division 1 - upsilon - nanterre",
-          "title": "Foot fauteuil électrique : Championnat de France Division 1 - Upsilon - Nanterre",
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795710600000:foot fauteuil électrique : championnat de france division 1 - douai - kerpape",
+          "title": "Foot fauteuil électrique : Championnat de France Division 1 - Douai - Kerpape",
           "description": "",
           "start": "2026-11-26T16:30:00.000Z",
           "end": "2026-11-26T17:30:00.000Z",
@@ -4621,9 +4621,19 @@
           "title": "beIN SPORTS, le plus grand des spectacles",
           "description": "",
           "start": "2026-11-28T20:00:00.000Z",
-          "end": "2026-11-29T00:00:00.000Z",
+          "end": "2026-11-28T20:30:00.000Z",
           "startEpochSeconds": 1795896000,
-          "endEpochSeconds": 1795910400,
+          "endEpochSeconds": 1795897800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1795897800000:football américain : ncaa - georgia / georgia tech",
+          "title": "Football américain : NCAA - Georgia / Georgia Tech",
+          "description": "",
+          "start": "2026-11-28T20:30:00.000Z",
+          "end": "2026-11-29T00:30:00.000Z",
+          "startEpochSeconds": 1795897800,
+          "endEpochSeconds": 1795912200,
           "source": "bein_fr"
         }
       ]
