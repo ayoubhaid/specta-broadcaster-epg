@@ -6,11 +6,11 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "en-au",
   "timezone": "UTC",
-  "generatedAt": "2026-11-23T23:56:06.341Z",
+  "generatedAt": "2026-11-24T09:54:03.044Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 4,
-    "programmesFound": 463,
+    "programmesFound": 443,
     "successfulRequests": 20,
     "failedRequests": 0
   },
@@ -20,396 +20,6 @@
       "name": "beIN SPORTS XTRA",
       "region": "en-au",
       "programmes": [
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795389000000:everton vs newcastle - rd 4",
-          "title": "Everton vs Newcastle - RD 4",
-          "description": "Get ready for the 2025/26 Carabao Cup, the EFL knockout cup, where teams from the EFL and Premier League compete fiercely for a coveted spot at the iconic Wembley Stadium.Get ready for the 2026/27 Carabao Cup, the EFL knockout cup, where teams from the EFL and Premier League compete fiercely for a coveted spot at the iconic Wembley Stadium.",
-          "start": "2026-11-22T23:10:00.000Z",
-          "end": "2026-11-23T01:00:00.000Z",
-          "startEpochSeconds": 1795389000,
-          "endEpochSeconds": 1795395600,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795395600000:roma vs napoli - 2016/17",
-          "title": "Roma vs Napoli - 2016/17",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T01:00:00.000Z",
-          "end": "2026-11-23T01:30:00.000Z",
-          "startEpochSeconds": 1795395600,
-          "endEpochSeconds": 1795397400,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795397400000:juventus vs napoli - 2016/17",
-          "title": "Juventus vs Napoli - 2016/17",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T01:30:00.000Z",
-          "end": "2026-11-23T02:00:00.000Z",
-          "startEpochSeconds": 1795397400,
-          "endEpochSeconds": 1795399200,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795399200000:sampdoria vs napoli - 2016/17",
-          "title": "Sampdoria vs Napoli - 2016/17",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T02:00:00.000Z",
-          "end": "2026-11-23T02:30:00.000Z",
-          "startEpochSeconds": 1795399200,
-          "endEpochSeconds": 1795401000,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795401000000:inter vs juventus - 2018/19",
-          "title": "Inter vs Juventus - 2018/19",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T02:30:00.000Z",
-          "end": "2026-11-23T03:00:00.000Z",
-          "startEpochSeconds": 1795401000,
-          "endEpochSeconds": 1795402800,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795402800000:roma vs lazio - 2018/19",
-          "title": "Roma vs Lazio - 2018/19",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T03:00:00.000Z",
-          "end": "2026-11-23T03:30:00.000Z",
-          "startEpochSeconds": 1795402800,
-          "endEpochSeconds": 1795404600,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795404600000:lazio vs inter - 2020/21",
-          "title": "Lazio vs Inter - 2020/21",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T03:30:00.000Z",
-          "end": "2026-11-23T04:00:00.000Z",
-          "startEpochSeconds": 1795404600,
-          "endEpochSeconds": 1795406400,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795406400000:milan vs inter - 2020/21",
-          "title": "Milan vs Inter - 2020/21",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T04:00:00.000Z",
-          "end": "2026-11-23T04:30:00.000Z",
-          "startEpochSeconds": 1795406400,
-          "endEpochSeconds": 1795408200,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795408200000:roma vs inter - 2021/22",
-          "title": "Roma vs Inter - 2021/22",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T04:30:00.000Z",
-          "end": "2026-11-23T05:00:00.000Z",
-          "startEpochSeconds": 1795408200,
-          "endEpochSeconds": 1795410000,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795410000000:juventus vs torino - 2021/22",
-          "title": "Juventus vs Torino - 2021/22",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T05:00:00.000Z",
-          "end": "2026-11-23T05:30:00.000Z",
-          "startEpochSeconds": 1795410000,
-          "endEpochSeconds": 1795411800,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795411800000:fiorentina vs roma - 2017/18",
-          "title": "Fiorentina vs Roma - 2017/18",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T05:30:00.000Z",
-          "end": "2026-11-23T06:00:00.000Z",
-          "startEpochSeconds": 1795411800,
-          "endEpochSeconds": 1795413600,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795413600000:fiorentina vs inter - 2016/17",
-          "title": "Fiorentina vs Inter - 2016/17",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T06:00:00.000Z",
-          "end": "2026-11-23T06:30:00.000Z",
-          "startEpochSeconds": 1795413600,
-          "endEpochSeconds": 1795415400,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795415400000:inter vs roma - 2017/18",
-          "title": "Inter vs Roma - 2017/18",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T06:30:00.000Z",
-          "end": "2026-11-23T07:00:00.000Z",
-          "startEpochSeconds": 1795415400,
-          "endEpochSeconds": 1795417200,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795417200000:independiente vs goias - final 2010",
-          "title": "Independiente vs Goias - Final 2010",
-          "description": "2010: Independiente vs Goias",
-          "start": "2026-11-23T07:00:00.000Z",
-          "end": "2026-11-23T07:50:00.000Z",
-          "startEpochSeconds": 1795417200,
-          "endEpochSeconds": 1795420200,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795420200000:internacional vs estudiantes - final 2008",
-          "title": "Internacional vs Estudiantes - Final 2008",
-          "description": "2008: Internacional vs Estudiantes",
-          "start": "2026-11-23T07:50:00.000Z",
-          "end": "2026-11-23T08:40:00.000Z",
-          "startEpochSeconds": 1795420200,
-          "endEpochSeconds": 1795423200,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795423200000:sao paulo vs tigre - final 2012",
-          "title": "Sao Paulo vs Tigre - Final 2012",
-          "description": "2012: Sao Paulo vs Tigre",
-          "start": "2026-11-23T08:40:00.000Z",
-          "end": "2026-11-23T09:30:00.000Z",
-          "startEpochSeconds": 1795423200,
-          "endEpochSeconds": 1795426200,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795426200000:chapecoense vs san lorenzo - sf 2016",
-          "title": "Chapecoense vs San Lorenzo - SF 2016",
-          "description": "2016 1st Leg: Chapecoense vs San Lorenzo",
-          "start": "2026-11-23T09:30:00.000Z",
-          "end": "2026-11-23T10:20:00.000Z",
-          "startEpochSeconds": 1795426200,
-          "endEpochSeconds": 1795429200,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795429200000:flamengo vs independiente - final 2017",
-          "title": "Flamengo vs Independiente - Final 2017",
-          "description": "2017: Flamengo vs Independiente",
-          "start": "2026-11-23T10:20:00.000Z",
-          "end": "2026-11-23T11:10:00.000Z",
-          "startEpochSeconds": 1795429200,
-          "endEpochSeconds": 1795432200,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795432200000:atletico pr vs junior - final 2018",
-          "title": "Atletico PR vs Junior - Final 2018",
-          "description": "2018: Atletico PR vs Junior",
-          "start": "2026-11-23T11:10:00.000Z",
-          "end": "2026-11-23T12:00:00.000Z",
-          "startEpochSeconds": 1795432200,
-          "endEpochSeconds": 1795435200,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795435200000:road to the final",
-          "title": "Road to the Final",
-          "description": "All the thrilling highlights from the 2026 edition of the Copa Sudamericana.All the thrilling highlights from the 2026 edition of the Copa Sudamericana.",
-          "start": "2026-11-23T12:00:00.000Z",
-          "end": "2026-11-23T12:30:00.000Z",
-          "startEpochSeconds": 1795435200,
-          "endEpochSeconds": 1795437000,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795437000000:final",
-          "title": "Final",
-          "description": "All the thrilling highlights from the 2026 edition of the Copa Sudamericana.All the thrilling highlights from the 2026 edition of the Copa Sudamericana.",
-          "start": "2026-11-23T12:30:00.000Z",
-          "end": "2026-11-23T13:00:00.000Z",
-          "startEpochSeconds": 1795437000,
-          "endEpochSeconds": 1795438800,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795438800000:roma vs napoli - 2016/17",
-          "title": "Roma vs Napoli - 2016/17",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T13:00:00.000Z",
-          "end": "2026-11-23T13:30:00.000Z",
-          "startEpochSeconds": 1795438800,
-          "endEpochSeconds": 1795440600,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795440600000:juventus vs napoli - 2016/17",
-          "title": "Juventus vs Napoli - 2016/17",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T13:30:00.000Z",
-          "end": "2026-11-23T14:00:00.000Z",
-          "startEpochSeconds": 1795440600,
-          "endEpochSeconds": 1795442400,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795442400000:sampdoria vs napoli - 2016/17",
-          "title": "Sampdoria vs Napoli - 2016/17",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T14:00:00.000Z",
-          "end": "2026-11-23T14:30:00.000Z",
-          "startEpochSeconds": 1795442400,
-          "endEpochSeconds": 1795444200,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795444200000:inter vs juventus - 2018/19",
-          "title": "Inter vs Juventus - 2018/19",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T14:30:00.000Z",
-          "end": "2026-11-23T15:00:00.000Z",
-          "startEpochSeconds": 1795444200,
-          "endEpochSeconds": 1795446000,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795446000000:roma vs lazio - 2018/19",
-          "title": "Roma vs Lazio - 2018/19",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T15:00:00.000Z",
-          "end": "2026-11-23T15:30:00.000Z",
-          "startEpochSeconds": 1795446000,
-          "endEpochSeconds": 1795447800,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795447800000:lazio vs inter - 2020/21",
-          "title": "Lazio vs Inter - 2020/21",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T15:30:00.000Z",
-          "end": "2026-11-23T16:00:00.000Z",
-          "startEpochSeconds": 1795447800,
-          "endEpochSeconds": 1795449600,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795449600000:milan vs inter - 2020/21",
-          "title": "Milan vs Inter - 2020/21",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T16:00:00.000Z",
-          "end": "2026-11-23T16:30:00.000Z",
-          "startEpochSeconds": 1795449600,
-          "endEpochSeconds": 1795451400,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795451400000:roma vs inter - 2021/22",
-          "title": "Roma vs Inter - 2021/22",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T16:30:00.000Z",
-          "end": "2026-11-23T17:00:00.000Z",
-          "startEpochSeconds": 1795451400,
-          "endEpochSeconds": 1795453200,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795453200000:juventus vs torino - 2021/22",
-          "title": "Juventus vs Torino - 2021/22",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T17:00:00.000Z",
-          "end": "2026-11-23T17:30:00.000Z",
-          "startEpochSeconds": 1795453200,
-          "endEpochSeconds": 1795455000,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795455000000:fiorentina vs roma - 2017/18",
-          "title": "Fiorentina vs Roma - 2017/18",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T17:30:00.000Z",
-          "end": "2026-11-23T18:00:00.000Z",
-          "startEpochSeconds": 1795455000,
-          "endEpochSeconds": 1795456800,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795456800000:fiorentina vs inter - 2016/17",
-          "title": "Fiorentina vs Inter - 2016/17",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T18:00:00.000Z",
-          "end": "2026-11-23T18:30:00.000Z",
-          "startEpochSeconds": 1795456800,
-          "endEpochSeconds": 1795458600,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795458600000:inter vs roma - 2017/18",
-          "title": "Inter vs Roma - 2017/18",
-          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
-          "start": "2026-11-23T18:30:00.000Z",
-          "end": "2026-11-23T19:00:00.000Z",
-          "startEpochSeconds": 1795458600,
-          "endEpochSeconds": 1795460400,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795460400000:independiente vs goias - final 2010",
-          "title": "Independiente vs Goias - Final 2010",
-          "description": "2010: Independiente vs Goias",
-          "start": "2026-11-23T19:00:00.000Z",
-          "end": "2026-11-23T19:50:00.000Z",
-          "startEpochSeconds": 1795460400,
-          "endEpochSeconds": 1795463400,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795463400000:internacional vs estudiantes - final 2008",
-          "title": "Internacional vs Estudiantes - Final 2008",
-          "description": "2008: Internacional vs Estudiantes",
-          "start": "2026-11-23T19:50:00.000Z",
-          "end": "2026-11-23T20:40:00.000Z",
-          "startEpochSeconds": 1795463400,
-          "endEpochSeconds": 1795466400,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795466400000:sao paulo vs tigre - final 2012",
-          "title": "Sao Paulo vs Tigre - Final 2012",
-          "description": "2012: Sao Paulo vs Tigre",
-          "start": "2026-11-23T20:40:00.000Z",
-          "end": "2026-11-23T21:30:00.000Z",
-          "startEpochSeconds": 1795466400,
-          "endEpochSeconds": 1795469400,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795469400000:chapecoense vs san lorenzo - sf 2016",
-          "title": "Chapecoense vs San Lorenzo - SF 2016",
-          "description": "2016 1st Leg: Chapecoense vs San Lorenzo",
-          "start": "2026-11-23T21:30:00.000Z",
-          "end": "2026-11-23T22:20:00.000Z",
-          "startEpochSeconds": 1795469400,
-          "endEpochSeconds": 1795472400,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795472400000:flamengo vs independiente - final 2017",
-          "title": "Flamengo vs Independiente - Final 2017",
-          "description": "2017: Flamengo vs Independiente",
-          "start": "2026-11-23T22:20:00.000Z",
-          "end": "2026-11-23T23:10:00.000Z",
-          "startEpochSeconds": 1795472400,
-          "endEpochSeconds": 1795475400,
-          "source": "bein_au"
-        },
-        {
-          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795475400000:atletico pr vs junior - final 2018",
-          "title": "Atletico PR vs Junior - Final 2018",
-          "description": "2018: Atletico PR vs Junior",
-          "start": "2026-11-23T23:10:00.000Z",
-          "end": "2026-11-24T00:00:00.000Z",
-          "startEpochSeconds": 1795475400,
-          "endEpochSeconds": 1795478400,
-          "source": "bein_au"
-        },
         {
           "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795478400000:road to the final",
           "title": "Road to the Final",
@@ -1709,6 +1319,256 @@
           "startEpochSeconds": 1795820400,
           "endEpochSeconds": 1795827000,
           "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795827000000:lazio vs roma - 2019/20",
+          "title": "Lazio vs Roma - 2019/20",
+          "description": "Rewind the clock and enjoy some of the classics from Europe's premier club football competitions.Rewind the clock and enjoy some of the classic matches from Serie A",
+          "start": "2026-11-28T00:50:00.000Z",
+          "end": "2026-11-28T01:00:00.000Z",
+          "startEpochSeconds": 1795827000,
+          "endEpochSeconds": 1795827600,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795827600000:millwall vs qpr",
+          "title": "Millwall vs QPR",
+          "description": "The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.",
+          "start": "2026-11-28T01:00:00.000Z",
+          "end": "2026-11-28T02:50:00.000Z",
+          "startEpochSeconds": 1795827600,
+          "endEpochSeconds": 1795834200,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795834200000:wolves vs charlton",
+          "title": "Wolves vs Charlton",
+          "description": "The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.",
+          "start": "2026-11-28T02:50:00.000Z",
+          "end": "2026-11-28T04:40:00.000Z",
+          "startEpochSeconds": 1795834200,
+          "endEpochSeconds": 1795840800,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795840800000:burnley vs blackburn",
+          "title": "Burnley vs Blackburn",
+          "description": "The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.",
+          "start": "2026-11-28T04:40:00.000Z",
+          "end": "2026-11-28T06:30:00.000Z",
+          "startEpochSeconds": 1795840800,
+          "endEpochSeconds": 1795847400,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795847400000:matchday 17",
+          "title": "Matchday 17",
+          "description": "Don't miss out on the thrilling action and highlights from the latest games in the 2026/27 season of the EFL Championship, League One, and League Two.Don't miss out on the thrilling action and highlights from the latest games in the 2026/27 season of the EFL Championship, League One, and League Two.",
+          "start": "2026-11-28T06:30:00.000Z",
+          "end": "2026-11-28T07:00:00.000Z",
+          "startEpochSeconds": 1795847400,
+          "endEpochSeconds": 1795849200,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795849200000:matchday 14",
+          "title": "Matchday 14",
+          "description": "Your weekly preview of all the upcoming games from LaLiga EA Sports, Spain's top division of football.",
+          "start": "2026-11-28T07:00:00.000Z",
+          "end": "2026-11-28T07:30:00.000Z",
+          "startEpochSeconds": 1795849200,
+          "endEpochSeconds": 1795851000,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795851000000:episode number 14",
+          "title": "Episode Number 14",
+          "description": "Weekly preview show with all relevant information on upcoming matches and the latest news from the BundesligaWeekly preview show with all relevant information on upcoming matches and the latest news from the Bundesliga",
+          "start": "2026-11-28T07:30:00.000Z",
+          "end": "2026-11-28T08:00:00.000Z",
+          "startEpochSeconds": 1795851000,
+          "endEpochSeconds": 1795852800,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795852800000:matchday 13",
+          "title": "Matchday 13",
+          "description": "A preview to the forthcoming round of Serie A matches featuring exclusive interviews with players and coaches.A preview to the forthcoming round of Serie A matches featuring exclusive interviews with players and coaches.",
+          "start": "2026-11-28T08:00:00.000Z",
+          "end": "2026-11-28T08:30:00.000Z",
+          "startEpochSeconds": 1795852800,
+          "endEpochSeconds": 1795854600,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795854600000:matchday 16",
+          "title": "Matchday 16",
+          "description": "Don't miss out on the thrilling action and highlights from the latest games in the 2026/27 season of the EFL Championship, League One, and League Two.Don't miss out on the thrilling action and highlights from the latest games in the 2026/27 season of the EFL Championship, League One, and League Two.",
+          "start": "2026-11-28T08:30:00.000Z",
+          "end": "2026-11-28T09:00:00.000Z",
+          "startEpochSeconds": 1795854600,
+          "endEpochSeconds": 1795856400,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795856400000:matchday 10",
+          "title": "Matchday 10",
+          "description": "All the action from the latest round of games in the German Bundesliga, Germany's top division of football.All the action from the latest round of games in the German Bundesliga, Germany's top division of football.",
+          "start": "2026-11-28T09:00:00.000Z",
+          "end": "2026-11-28T10:00:00.000Z",
+          "startEpochSeconds": 1795856400,
+          "endEpochSeconds": 1795860000,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795860000000:final",
+          "title": "Final",
+          "description": "All the thrilling highlights from the 2026 edition of the Copa Sudamericana.All the thrilling highlights from the 2026 edition of the Copa Sudamericana.",
+          "start": "2026-11-28T10:00:00.000Z",
+          "end": "2026-11-28T10:30:00.000Z",
+          "startEpochSeconds": 1795860000,
+          "endEpochSeconds": 1795861800,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795861800000:matchday 12",
+          "title": "Matchday 12",
+          "description": "Full Impact captures the excitement and tension of the weekend highlights, delivering an unparalleled review of Serie A.",
+          "start": "2026-11-28T10:30:00.000Z",
+          "end": "2026-11-28T11:00:00.000Z",
+          "startEpochSeconds": 1795861800,
+          "endEpochSeconds": 1795863600,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795863600000:matchday 13",
+          "title": "Matchday 13",
+          "description": "Catch all the highlights from the latest round of games in LaLiga EA Sports, Spain's top division of football.Catch all the highlights from the latest round of games in LaLiga EA Sports, Spain's top division of football.",
+          "start": "2026-11-28T11:00:00.000Z",
+          "end": "2026-11-28T11:30:00.000Z",
+          "startEpochSeconds": 1795863600,
+          "endEpochSeconds": 1795865400,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795865400000:matchday 14",
+          "title": "Matchday 14",
+          "description": "Your weekly preview of all the upcoming games from LaLiga EA Sports, Spain's top division of football.",
+          "start": "2026-11-28T11:30:00.000Z",
+          "end": "2026-11-28T12:00:00.000Z",
+          "startEpochSeconds": 1795865400,
+          "endEpochSeconds": 1795867200,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795867200000:episode number 14",
+          "title": "Episode Number 14",
+          "description": "Weekly preview show with all relevant information on upcoming matches and the latest news from the BundesligaWeekly preview show with all relevant information on upcoming matches and the latest news from the Bundesliga",
+          "start": "2026-11-28T12:00:00.000Z",
+          "end": "2026-11-28T12:30:00.000Z",
+          "startEpochSeconds": 1795867200,
+          "endEpochSeconds": 1795869000,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795869000000:matchday 13",
+          "title": "Matchday 13",
+          "description": "A preview to the forthcoming round of Serie A matches featuring exclusive interviews with players and coaches.A preview to the forthcoming round of Serie A matches featuring exclusive interviews with players and coaches.",
+          "start": "2026-11-28T12:30:00.000Z",
+          "end": "2026-11-28T13:00:00.000Z",
+          "startEpochSeconds": 1795869000,
+          "endEpochSeconds": 1795870800,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795870800000:millwall vs qpr",
+          "title": "Millwall vs QPR",
+          "description": "The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.",
+          "start": "2026-11-28T13:00:00.000Z",
+          "end": "2026-11-28T14:50:00.000Z",
+          "startEpochSeconds": 1795870800,
+          "endEpochSeconds": 1795877400,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795877400000:wolves vs charlton",
+          "title": "Wolves vs Charlton",
+          "description": "The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.",
+          "start": "2026-11-28T14:50:00.000Z",
+          "end": "2026-11-28T16:40:00.000Z",
+          "startEpochSeconds": 1795877400,
+          "endEpochSeconds": 1795884000,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795884000000:burnley vs blackburn",
+          "title": "Burnley vs Blackburn",
+          "description": "The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.",
+          "start": "2026-11-28T16:40:00.000Z",
+          "end": "2026-11-28T18:30:00.000Z",
+          "startEpochSeconds": 1795884000,
+          "endEpochSeconds": 1795890600,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795890600000:matchday 17",
+          "title": "Matchday 17",
+          "description": "Don't miss out on the thrilling action and highlights from the latest games in the 2026/27 season of the EFL Championship, League One, and League Two.Don't miss out on the thrilling action and highlights from the latest games in the 2026/27 season of the EFL Championship, League One, and League Two.",
+          "start": "2026-11-28T18:30:00.000Z",
+          "end": "2026-11-28T19:00:00.000Z",
+          "startEpochSeconds": 1795890600,
+          "endEpochSeconds": 1795892400,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795892400000:matchday 14",
+          "title": "Matchday 14",
+          "description": "Your weekly preview of all the upcoming games from LaLiga EA Sports, Spain's top division of football.",
+          "start": "2026-11-28T19:00:00.000Z",
+          "end": "2026-11-28T19:30:00.000Z",
+          "startEpochSeconds": 1795892400,
+          "endEpochSeconds": 1795894200,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795894200000:episode number 14",
+          "title": "Episode Number 14",
+          "description": "Weekly preview show with all relevant information on upcoming matches and the latest news from the BundesligaWeekly preview show with all relevant information on upcoming matches and the latest news from the Bundesliga",
+          "start": "2026-11-28T19:30:00.000Z",
+          "end": "2026-11-28T20:00:00.000Z",
+          "startEpochSeconds": 1795894200,
+          "endEpochSeconds": 1795896000,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795896000000:matchday 13",
+          "title": "Matchday 13",
+          "description": "A preview to the forthcoming round of Serie A matches featuring exclusive interviews with players and coaches.A preview to the forthcoming round of Serie A matches featuring exclusive interviews with players and coaches.",
+          "start": "2026-11-28T20:00:00.000Z",
+          "end": "2026-11-28T20:30:00.000Z",
+          "startEpochSeconds": 1795896000,
+          "endEpochSeconds": 1795897800,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795897800000:italy vs france",
+          "title": "Italy vs France",
+          "description": "The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027",
+          "start": "2026-11-28T20:30:00.000Z",
+          "end": "2026-11-28T22:20:00.000Z",
+          "startEpochSeconds": 1795897800,
+          "endEpochSeconds": 1795904400,
+          "source": "bein_au"
+        },
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07:1795904400000:england vs croatia",
+          "title": "England vs Croatia",
+          "description": "The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027The UEFA Nations League 2026/27 is the fifth edition of the European international football competition. It features 54 national teams divided into four leagues. The league phase takes place in the fall of 2026, with the title decided at the Nations League Finals in June 2027",
+          "start": "2026-11-28T22:20:00.000Z",
+          "end": "2026-11-29T00:10:00.000Z",
+          "startEpochSeconds": 1795904400,
+          "endEpochSeconds": 1795911000,
+          "source": "bein_au"
         }
       ]
     },
@@ -1717,206 +1577,6 @@
       "name": "beIN SPORTS 2",
       "region": "en-au",
       "programmes": [
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795391400000:milan vs frosinone",
-          "title": "Milan vs Frosinone",
-          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
-          "start": "2026-11-22T23:50:00.000Z",
-          "end": "2026-11-23T01:40:00.000Z",
-          "startEpochSeconds": 1795391400,
-          "endEpochSeconds": 1795398000,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795398000000:atalanta vs inter",
-          "title": "Atalanta vs Inter",
-          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
-          "start": "2026-11-23T01:40:00.000Z",
-          "end": "2026-11-23T03:30:00.000Z",
-          "startEpochSeconds": 1795398000,
-          "endEpochSeconds": 1795404600,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795404600000:bayern vs cologne",
-          "title": "Bayern vs Cologne",
-          "description": "Exclusive coverage from the highest tier and premier professional football league in Germany, the German Bundesliga.",
-          "start": "2026-11-23T03:30:00.000Z",
-          "end": "2026-11-23T04:00:00.000Z",
-          "startEpochSeconds": 1795404600,
-          "endEpochSeconds": 1795406400,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795406400000:leverkusen vs paderborn",
-          "title": "Leverkusen vs Paderborn",
-          "description": "Exclusive coverage from the highest tier and premier professional football league in Germany, the German Bundesliga.",
-          "start": "2026-11-23T04:00:00.000Z",
-          "end": "2026-11-23T04:30:00.000Z",
-          "startEpochSeconds": 1795406400,
-          "endEpochSeconds": 1795408200,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795408200000:monchengladbach vs dortmund",
-          "title": "Monchengladbach vs Dortmund",
-          "description": "Exclusive coverage from the highest tier and premier professional football league in Germany, the German Bundesliga.",
-          "start": "2026-11-23T04:30:00.000Z",
-          "end": "2026-11-23T05:00:00.000Z",
-          "startEpochSeconds": 1795408200,
-          "endEpochSeconds": 1795410000,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795410000000:luis diaz - all goals & assist 2025/26",
-          "title": "Luis Diaz - All Goals & Assist 2025/26",
-          "description": "Bundesliga Goals features how to score the perfect goal and sublime moments of the game that has captivated audiences around the world.What does the perfect goal look like? We show you how Bundesliga teams manage to score the perfect goals.",
-          "start": "2026-11-23T05:00:00.000Z",
-          "end": "2026-11-23T05:10:00.000Z",
-          "startEpochSeconds": 1795410000,
-          "endEpochSeconds": 1795410600,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795410600000:liverpool vs man united",
-          "title": "Liverpool vs Man United",
-          "description": "Enjoy every Liverpool match from the Premier League, FA Cup and Carabao Cup and friendlies, from LFCTV on beIN SPORTSEnjoy every Liverpool match from the Premier League, FA Cup and Carabao Cup and friendlies, from LFCTV on beIN SPORTS",
-          "start": "2026-11-23T05:10:00.000Z",
-          "end": "2026-11-23T07:10:00.000Z",
-          "startEpochSeconds": 1795410600,
-          "endEpochSeconds": 1795417800,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795417800000:episode number 14",
-          "title": "Episode Number 14",
-          "description": "The official LFCTV weekly magazine program featuring news, stories, videos and social media highlights from across Liverpool football club, its players and supportersThe official LFCTV weekly magazine program featuring news, stories, videos and social media highlights from across Liverpool football club, its players and supporters",
-          "start": "2026-11-23T07:10:00.000Z",
-          "end": "2026-11-23T08:10:00.000Z",
-          "startEpochSeconds": 1795417800,
-          "endEpochSeconds": 1795421400,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795421400000:motherwell vs rangers",
-          "title": "Motherwell vs Rangers",
-          "description": "Join us for exclusive coverage of the Scottish Premiership 2026/27 season as Scotland's elite teams battle for the title.Join us for exclusive coverage of the Scottish Premiership 2026/27 season as Scotland's elite teams battle for the title.",
-          "start": "2026-11-23T08:10:00.000Z",
-          "end": "2026-11-23T10:00:00.000Z",
-          "startEpochSeconds": 1795421400,
-          "endEpochSeconds": 1795428000,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795428000000:ronaldo",
-          "title": "Ronaldo",
-          "description": "Enjoy exclusive access to programming related to the Red Devils as part of MUTV, only on beIN SportsIn this MUTV special, enjoy every goal from this United legend, from 1 yard tap-ins to 30 yard screamers and everything in between.",
-          "start": "2026-11-23T10:00:00.000Z",
-          "end": "2026-11-23T11:00:00.000Z",
-          "startEpochSeconds": 1795428000,
-          "endEpochSeconds": 1795431600,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795431600000:liverpool vs man united",
-          "title": "Liverpool vs Man United",
-          "description": "Enjoy every Manchester United match from the Premier League, FA Cup and Carabao Cup and friendlies, from MUTV on beIN SPORTSEnjoy every Manchester United match from the Premier League, FA Cup and Carabao Cup and friendlies, from MUTV on beIN SPORTS",
-          "start": "2026-11-23T11:00:00.000Z",
-          "end": "2026-11-23T13:00:00.000Z",
-          "startEpochSeconds": 1795431600,
-          "endEpochSeconds": 1795438800,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795438800000:liverpool vs man united",
-          "title": "Liverpool vs Man United",
-          "description": "Directly after the final whistle of every Manchester United match the MUTV team review the game and all the talking points.Directly after the final whistle of every Manchester United match the MUTV team review the game and all the talking points.",
-          "start": "2026-11-23T13:00:00.000Z",
-          "end": "2026-11-23T13:30:00.000Z",
-          "startEpochSeconds": 1795438800,
-          "endEpochSeconds": 1795440600,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795440600000:juventus vs venezia",
-          "title": "Juventus vs Venezia",
-          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
-          "start": "2026-11-23T13:30:00.000Z",
-          "end": "2026-11-23T15:20:00.000Z",
-          "startEpochSeconds": 1795440600,
-          "endEpochSeconds": 1795447200,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795447200000:napoli vs torino",
-          "title": "Napoli vs Torino",
-          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
-          "start": "2026-11-23T15:20:00.000Z",
-          "end": "2026-11-23T17:10:00.000Z",
-          "startEpochSeconds": 1795447200,
-          "endEpochSeconds": 1795453800,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795453800000:atalanta vs inter",
-          "title": "Atalanta vs Inter",
-          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
-          "start": "2026-11-23T17:10:00.000Z",
-          "end": "2026-11-23T19:05:00.000Z",
-          "startEpochSeconds": 1795453800,
-          "endEpochSeconds": 1795460700,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795460700000:atalanta",
-          "title": "Atalanta",
-          "description": "Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.",
-          "start": "2026-11-23T19:05:00.000Z",
-          "end": "2026-11-23T19:20:00.000Z",
-          "startEpochSeconds": 1795460700,
-          "endEpochSeconds": 1795461600,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795461600000:inter",
-          "title": "Inter",
-          "description": "Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.",
-          "start": "2026-11-23T19:20:00.000Z",
-          "end": "2026-11-23T19:35:00.000Z",
-          "startEpochSeconds": 1795461600,
-          "endEpochSeconds": 1795462500,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795462680000:monza vs fiorentina",
-          "title": "Monza vs Fiorentina",
-          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
-          "start": "2026-11-23T19:38:00.000Z",
-          "end": "2026-11-23T21:45:00.000Z",
-          "startEpochSeconds": 1795462680,
-          "endEpochSeconds": 1795470300,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795470300000:fiorentina",
-          "title": "Fiorentina",
-          "description": "Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.",
-          "start": "2026-11-23T21:45:00.000Z",
-          "end": "2026-11-23T22:00:00.000Z",
-          "startEpochSeconds": 1795470300,
-          "endEpochSeconds": 1795471200,
-          "source": "bein_au"
-        },
-        {
-          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795471200000:liverpool vs man united",
-          "title": "Liverpool vs Man United",
-          "description": "Enjoy every Manchester United match from the Premier League, FA Cup and Carabao Cup and friendlies, from MUTV on beIN SPORTSEnjoy every Manchester United match from the Premier League, FA Cup and Carabao Cup and friendlies, from MUTV on beIN SPORTS",
-          "start": "2026-11-23T22:00:00.000Z",
-          "end": "2026-11-24T00:00:00.000Z",
-          "startEpochSeconds": 1795471200,
-          "endEpochSeconds": 1795478400,
-          "source": "bein_au"
-        },
         {
           "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795478400000:liverpool vs man united",
           "title": "Liverpool vs Man United",
@@ -2736,6 +2396,266 @@
           "startEpochSeconds": 1795820400,
           "endEpochSeconds": 1795827600,
           "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795827600000:episode number 33",
+          "title": "Episode Number 33",
+          "description": "Covering everything from prototypes to endurance racing, karting to airplanes and even some real oddities.Covering everything from prototypes to endurance racing, karting to airplanes and even some real oddities.",
+          "start": "2026-11-28T01:00:00.000Z",
+          "end": "2026-11-28T01:30:00.000Z",
+          "startEpochSeconds": 1795827600,
+          "endEpochSeconds": 1795829400,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795829400000:inter vs monza 2024/25",
+          "title": "Inter vs Monza 2024/25",
+          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
+          "start": "2026-11-28T01:30:00.000Z",
+          "end": "2026-11-28T02:00:00.000Z",
+          "startEpochSeconds": 1795829400,
+          "endEpochSeconds": 1795831200,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795831200000:milan vs inter 2024/25",
+          "title": "Milan vs Inter 2024/25",
+          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
+          "start": "2026-11-28T02:00:00.000Z",
+          "end": "2026-11-28T02:30:00.000Z",
+          "startEpochSeconds": 1795831200,
+          "endEpochSeconds": 1795833000,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795833000000:inter vs juventus 2025/26",
+          "title": "Inter vs Juventus 2025/26",
+          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
+          "start": "2026-11-28T02:30:00.000Z",
+          "end": "2026-11-28T03:00:00.000Z",
+          "startEpochSeconds": 1795833000,
+          "endEpochSeconds": 1795834800,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795834800000:inter vs pisa 2025/26",
+          "title": "Inter vs Pisa 2025/26",
+          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
+          "start": "2026-11-28T03:00:00.000Z",
+          "end": "2026-11-28T03:30:00.000Z",
+          "startEpochSeconds": 1795834800,
+          "endEpochSeconds": 1795836600,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795836600000:inter vs roma 2025/26",
+          "title": "Inter vs Roma 2025/26",
+          "description": "Rewind the clock and enjoy some of the classic matches from Serie ARewind the clock and enjoy some of the classic matches from Serie A.",
+          "start": "2026-11-28T03:30:00.000Z",
+          "end": "2026-11-28T04:00:00.000Z",
+          "startEpochSeconds": 1795836600,
+          "endEpochSeconds": 1795838400,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795838400000:atletico madrid vs barcelona - 2023/24",
+          "title": "Atletico Madrid vs Barcelona - 2023/24",
+          "description": "Relive the best and memorable LaLiga matches over the years in this series of classics.Relive the best and memorable LaLiga matches over the years in this series of classics.",
+          "start": "2026-11-28T04:00:00.000Z",
+          "end": "2026-11-28T04:30:00.000Z",
+          "startEpochSeconds": 1795838400,
+          "endEpochSeconds": 1795840200,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795840200000:atletico madrid vs getafe - 2023/24",
+          "title": "Atletico Madrid vs Getafe - 2023/24",
+          "description": "Relive the best and memorable LaLiga matches over the years in this series of classics.Relive the best and memorable LaLiga matches over the years in this series of classics.",
+          "start": "2026-11-28T04:30:00.000Z",
+          "end": "2026-11-28T05:00:00.000Z",
+          "startEpochSeconds": 1795840200,
+          "endEpochSeconds": 1795842000,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795842000000:atletico madrid vs real madrid - 2023/24",
+          "title": "Atletico Madrid vs Real Madrid - 2023/24",
+          "description": "Relive the best and memorable LaLiga matches over the years in this series of classics.Relive the best and memorable LaLiga matches over the years in this series of classics.",
+          "start": "2026-11-28T05:00:00.000Z",
+          "end": "2026-11-28T05:30:00.000Z",
+          "startEpochSeconds": 1795842000,
+          "endEpochSeconds": 1795843800,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795843800000:barcelona vs atletico madrid - 2023/24",
+          "title": "Barcelona vs Atletico Madrid - 2023/24",
+          "description": "Relive the best and memorable LaLiga matches over the years in this series of classics.Relive the best and memorable LaLiga matches over the years in this series of classics.",
+          "start": "2026-11-28T05:30:00.000Z",
+          "end": "2026-11-28T06:00:00.000Z",
+          "startEpochSeconds": 1795843800,
+          "endEpochSeconds": 1795845600,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795845600000:barcelona vs girona - 2023/24",
+          "title": "Barcelona vs Girona - 2023/24",
+          "description": "Relive the best and memorable LaLiga matches over the years in this series of classics.Relive the best and memorable LaLiga matches over the years in this series of classics.",
+          "start": "2026-11-28T06:00:00.000Z",
+          "end": "2026-11-28T06:30:00.000Z",
+          "startEpochSeconds": 1795845600,
+          "endEpochSeconds": 1795847400,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795847400000:barcelona vs granada - 2023/24",
+          "title": "Barcelona vs Granada - 2023/24",
+          "description": "Relive the best and memorable LaLiga matches over the years in this series of classics.Relive the best and memorable LaLiga matches over the years in this series of classics.",
+          "start": "2026-11-28T06:30:00.000Z",
+          "end": "2026-11-28T07:00:00.000Z",
+          "startEpochSeconds": 1795847400,
+          "endEpochSeconds": 1795849200,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795849200000:liverpool vs man united",
+          "title": "Liverpool vs Man United",
+          "description": "Enjoy every Liverpool match from the Premier League, FA Cup and Carabao Cup and friendlies, from LFCTV on beIN SPORTSEnjoy every Liverpool match from the Premier League, FA Cup and Carabao Cup and friendlies, from LFCTV on beIN SPORTS",
+          "start": "2026-11-28T07:00:00.000Z",
+          "end": "2026-11-28T09:00:00.000Z",
+          "startEpochSeconds": 1795849200,
+          "endEpochSeconds": 1795856400,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795856400000:episode number 14",
+          "title": "Episode Number 14",
+          "description": "The official LFCTV weekly magazine program featuring news, stories, videos and social media highlights from across Liverpool football club, its players and supportersThe official LFCTV weekly magazine program featuring news, stories, videos and social media highlights from across Liverpool football club, its players and supporters",
+          "start": "2026-11-28T09:00:00.000Z",
+          "end": "2026-11-28T10:00:00.000Z",
+          "startEpochSeconds": 1795856400,
+          "endEpochSeconds": 1795860000,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795860000000:southampton vs middlesbrough",
+          "title": "Southampton vs Middlesbrough",
+          "description": "The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.",
+          "start": "2026-11-28T10:00:00.000Z",
+          "end": "2026-11-28T11:50:00.000Z",
+          "startEpochSeconds": 1795860000,
+          "endEpochSeconds": 1795866600,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795866600000:matchday 17",
+          "title": "Matchday 17",
+          "description": "Don't miss out on the thrilling action and highlights from the latest games in the 2026/27 season of the EFL Championship, League One, and League Two.Don't miss out on the thrilling action and highlights from the latest games in the 2026/27 season of the EFL Championship, League One, and League Two.",
+          "start": "2026-11-28T11:50:00.000Z",
+          "end": "2026-11-28T12:22:00.000Z",
+          "startEpochSeconds": 1795866600,
+          "endEpochSeconds": 1795868520,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795868520000:preston vs norwich",
+          "title": "Preston vs Norwich",
+          "description": "The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.",
+          "start": "2026-11-28T12:22:00.000Z",
+          "end": "2026-11-28T14:40:00.000Z",
+          "startEpochSeconds": 1795868520,
+          "endEpochSeconds": 1795876800,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795876800000:millwall vs blackburn - 2022/23",
+          "title": "Millwall vs Blackburn - 2022/23",
+          "description": "Rewind the clock and enjoy some of the classic matches from the EFL Championship.Rewind the clock and enjoy some of the classic matches from the EFL Championship.",
+          "start": "2026-11-28T14:40:00.000Z",
+          "end": "2026-11-28T14:52:00.000Z",
+          "startEpochSeconds": 1795876800,
+          "endEpochSeconds": 1795877520,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795877520000:west brom vs bristol city",
+          "title": "West Brom vs Bristol City",
+          "description": "The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.",
+          "start": "2026-11-28T14:52:00.000Z",
+          "end": "2026-11-28T17:10:00.000Z",
+          "startEpochSeconds": 1795877520,
+          "endEpochSeconds": 1795885800,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795885800000:millwall vs blackburn - 2022/23",
+          "title": "Millwall vs Blackburn - 2022/23",
+          "description": "Rewind the clock and enjoy some of the classic matches from the EFL Championship.Rewind the clock and enjoy some of the classic matches from the EFL Championship.",
+          "start": "2026-11-28T17:10:00.000Z",
+          "end": "2026-11-28T17:25:00.000Z",
+          "startEpochSeconds": 1795885800,
+          "endEpochSeconds": 1795886700,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795886700000:elche vs atletico madrid",
+          "title": "Elche vs Atletico Madrid",
+          "description": "Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.",
+          "start": "2026-11-28T17:25:00.000Z",
+          "end": "2026-11-28T19:30:00.000Z",
+          "startEpochSeconds": 1795886700,
+          "endEpochSeconds": 1795894200,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795894200000:barcelona vs real madrid - 2018/19",
+          "title": "Barcelona vs Real Madrid - 2018/19",
+          "description": "Rewind the clock and witness LaLiga's greatest moments.Rewind the clock and witness LaLiga's greatest moments.",
+          "start": "2026-11-28T19:30:00.000Z",
+          "end": "2026-11-28T19:45:00.000Z",
+          "startEpochSeconds": 1795894200,
+          "endEpochSeconds": 1795895100,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795895100000:real madrid vs barcelona - 2022/23",
+          "title": "Real Madrid vs Barcelona - 2022/23",
+          "description": "Rewind the clock and witness LaLiga's greatest moments.Rewind the clock and witness LaLiga's greatest moments.",
+          "start": "2026-11-28T19:45:00.000Z",
+          "end": "2026-11-28T19:55:00.000Z",
+          "startEpochSeconds": 1795895100,
+          "endEpochSeconds": 1795895700,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795895700000:real madrid vs alaves",
+          "title": "Real Madrid vs Alaves",
+          "description": "Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.",
+          "start": "2026-11-28T19:55:00.000Z",
+          "end": "2026-11-28T22:00:00.000Z",
+          "startEpochSeconds": 1795895700,
+          "endEpochSeconds": 1795903200,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795903200000:real madrid vs barcelona - 2023/24",
+          "title": "Real Madrid vs Barcelona - 2023/24",
+          "description": "Rewind the clock and witness LaLiga's greatest moments.Rewind the clock and witness LaLiga's greatest moments.",
+          "start": "2026-11-28T22:00:00.000Z",
+          "end": "2026-11-28T22:10:00.000Z",
+          "startEpochSeconds": 1795903200,
+          "endEpochSeconds": 1795903800,
+          "source": "bein_au"
+        },
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A:1795903800000:preston vs norwich",
+          "title": "Preston vs Norwich",
+          "description": "The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.",
+          "start": "2026-11-28T22:10:00.000Z",
+          "end": "2026-11-29T00:00:00.000Z",
+          "startEpochSeconds": 1795903800,
+          "endEpochSeconds": 1795910400,
+          "source": "bein_au"
         }
       ]
     },
@@ -2744,206 +2664,6 @@
       "name": "beIN SPORTS 3",
       "region": "en-au",
       "programmes": [
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795392000000:barcelona vs villarreal",
-          "title": "Barcelona vs Villarreal",
-          "description": "Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.",
-          "start": "2026-11-23T00:00:00.000Z",
-          "end": "2026-11-23T01:50:00.000Z",
-          "startEpochSeconds": 1795392000,
-          "endEpochSeconds": 1795398600,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795398600000:real madrid vs barcelona - 2022/23",
-          "title": "Real Madrid vs Barcelona - 2022/23",
-          "description": "Rewind the clock and witness LaLiga's greatest moments.Rewind the clock and witness LaLiga's greatest moments.",
-          "start": "2026-11-23T01:50:00.000Z",
-          "end": "2026-11-23T02:00:00.000Z",
-          "startEpochSeconds": 1795398600,
-          "endEpochSeconds": 1795399200,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795399200000:racing de santander vs real sociedad",
-          "title": "Racing de Santander vs Real Sociedad",
-          "description": "Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.",
-          "start": "2026-11-23T02:00:00.000Z",
-          "end": "2026-11-23T03:50:00.000Z",
-          "startEpochSeconds": 1795399200,
-          "endEpochSeconds": 1795405800,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795405800000:real madrid vs celta vigo",
-          "title": "Real Madrid vs Celta Vigo",
-          "description": "Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.",
-          "start": "2026-11-23T03:50:00.000Z",
-          "end": "2026-11-23T05:40:00.000Z",
-          "startEpochSeconds": 1795405800,
-          "endEpochSeconds": 1795412400,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795412400000:burnley vs blackburn",
-          "title": "Burnley vs Blackburn",
-          "description": "The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.",
-          "start": "2026-11-23T05:40:00.000Z",
-          "end": "2026-11-23T07:30:00.000Z",
-          "startEpochSeconds": 1795412400,
-          "endEpochSeconds": 1795419000,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795419000000:atalanta vs inter",
-          "title": "Atalanta vs Inter",
-          "description": "Exclusive coverage from every round of the Serie A, Italy's top division of football.Exclusive coverage from every round of the Serie A, Italy's top division of football.",
-          "start": "2026-11-23T07:30:00.000Z",
-          "end": "2026-11-23T08:00:00.000Z",
-          "startEpochSeconds": 1795419000,
-          "endEpochSeconds": 1795420800,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795420800000:matchday 16",
-          "title": "Matchday 16",
-          "description": "Don't miss out on the thrilling action and highlights from the latest games in the 2026/27 season of the EFL Championship, League One, and League Two.Don't miss out on the thrilling action and highlights from the latest games in the 2026/27 season of the EFL Championship, League One, and League Two.",
-          "start": "2026-11-23T08:00:00.000Z",
-          "end": "2026-11-23T08:30:00.000Z",
-          "startEpochSeconds": 1795420800,
-          "endEpochSeconds": 1795422600,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795422600000:barcelona vs villarreal",
-          "title": "Barcelona vs Villarreal",
-          "description": "Exclusive coverage from the Spanish LaLiga, Spain's top division of football, with the world's biggest teams and best players.Exclusive coverage from the Spanish LaLiga, Spain's top division of football, with the world's biggest teams and best players.",
-          "start": "2026-11-23T08:30:00.000Z",
-          "end": "2026-11-23T09:00:00.000Z",
-          "startEpochSeconds": 1795422600,
-          "endEpochSeconds": 1795424400,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795424400000:real madrid vs celta vigo",
-          "title": "Real Madrid vs Celta Vigo",
-          "description": "Exclusive coverage from the Spanish LaLiga, Spain's top division of football, with the world's biggest teams and best players.Exclusive coverage from the Spanish LaLiga, Spain's top division of football, with the world's biggest teams and best players.",
-          "start": "2026-11-23T09:00:00.000Z",
-          "end": "2026-11-23T09:30:00.000Z",
-          "startEpochSeconds": 1795424400,
-          "endEpochSeconds": 1795426200,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795426200000:matchday 10",
-          "title": "Matchday 10",
-          "description": "All the action from the latest round of games in the German Bundesliga, Germany's top division of football.All the action from the latest round of games in the German Bundesliga, Germany's top division of football.",
-          "start": "2026-11-23T09:30:00.000Z",
-          "end": "2026-11-23T10:30:00.000Z",
-          "startEpochSeconds": 1795426200,
-          "endEpochSeconds": 1795429800,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795429800000:matchday 16",
-          "title": "Matchday 16",
-          "description": "Don't miss out on the thrilling action and highlights from the latest games in the 2026/27 season of the EFL Championship, League One, and League Two.Don't miss out on the thrilling action and highlights from the latest games in the 2026/27 season of the EFL Championship, League One, and League Two.",
-          "start": "2026-11-23T10:30:00.000Z",
-          "end": "2026-11-23T11:00:00.000Z",
-          "startEpochSeconds": 1795429800,
-          "endEpochSeconds": 1795431600,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795431600000:barcelona vs villarreal",
-          "title": "Barcelona vs Villarreal",
-          "description": "Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.",
-          "start": "2026-11-23T11:00:00.000Z",
-          "end": "2026-11-23T12:50:00.000Z",
-          "startEpochSeconds": 1795431600,
-          "endEpochSeconds": 1795438200,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795438200000:thierno barry",
-          "title": "Thierno Barry",
-          "description": "Relive every goal from the best players in 2024/25 season.Relive every goal from the best players in 2024/25 season.",
-          "start": "2026-11-23T12:50:00.000Z",
-          "end": "2026-11-23T13:00:00.000Z",
-          "startEpochSeconds": 1795438200,
-          "endEpochSeconds": 1795438800,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795438800000:matchday 10",
-          "title": "Matchday 10",
-          "description": "All the action from the latest round of games in the German Bundesliga, Germany's top division of football.All the action from the latest round of games in the German Bundesliga, Germany's top division of football.",
-          "start": "2026-11-23T13:00:00.000Z",
-          "end": "2026-11-23T14:00:00.000Z",
-          "startEpochSeconds": 1795438800,
-          "endEpochSeconds": 1795442400,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795442400000:alaves vs deportivo",
-          "title": "Alaves vs Deportivo",
-          "description": "Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.",
-          "start": "2026-11-23T14:00:00.000Z",
-          "end": "2026-11-23T15:50:00.000Z",
-          "startEpochSeconds": 1795442400,
-          "endEpochSeconds": 1795449000,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795449000000:rayo vallecano vs valencia",
-          "title": "Rayo Vallecano vs Valencia",
-          "description": "Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.",
-          "start": "2026-11-23T15:50:00.000Z",
-          "end": "2026-11-23T17:40:00.000Z",
-          "startEpochSeconds": 1795449000,
-          "endEpochSeconds": 1795455600,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795455600000:getafe vs atletico madrid",
-          "title": "Getafe vs Atletico Madrid",
-          "description": "Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.",
-          "start": "2026-11-23T17:40:00.000Z",
-          "end": "2026-11-23T19:30:00.000Z",
-          "startEpochSeconds": 1795455600,
-          "endEpochSeconds": 1795462200,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795462200000:kylian mbappe",
-          "title": "Kylian Mbappe",
-          "description": "Relive every goal from the best players in 2024/25 season.Relive every goal from the best players in 2024/25 season.",
-          "start": "2026-11-23T19:30:00.000Z",
-          "end": "2026-11-23T19:55:00.000Z",
-          "startEpochSeconds": 1795462200,
-          "endEpochSeconds": 1795463700,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795463700000:levante vs elche",
-          "title": "Levante vs Elche",
-          "description": "Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.Extensive coverage from every round of the Spanish LaLiga, Spain's top division of football with the World's biggest teams.",
-          "start": "2026-11-23T19:55:00.000Z",
-          "end": "2026-11-23T22:00:00.000Z",
-          "startEpochSeconds": 1795463700,
-          "endEpochSeconds": 1795471200,
-          "source": "bein_au"
-        },
-        {
-          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795471200000:matchday 10",
-          "title": "Matchday 10",
-          "description": "All the action from the latest round of games in the German Bundesliga, Germany's top division of football.All the action from the latest round of games in the German Bundesliga, Germany's top division of football.",
-          "start": "2026-11-23T22:00:00.000Z",
-          "end": "2026-11-23T23:00:00.000Z",
-          "startEpochSeconds": 1795471200,
-          "endEpochSeconds": 1795474800,
-          "source": "bein_au"
-        },
         {
           "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795474800000:juventus vs venezia",
           "title": "Juventus vs Venezia",
@@ -3953,6 +3673,206 @@
           "startEpochSeconds": 1795822200,
           "endEpochSeconds": 1795828800,
           "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795828800000:southampton vs middlesbrough",
+          "title": "Southampton vs Middlesbrough",
+          "description": "The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.",
+          "start": "2026-11-28T01:20:00.000Z",
+          "end": "2026-11-28T03:10:00.000Z",
+          "startEpochSeconds": 1795828800,
+          "endEpochSeconds": 1795835400,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795835400000:javi puado",
+          "title": "Javi Puado",
+          "description": "Relive every goal from the best players in 2024/25 season.Relive every goal from the best players in 2024/25 season.",
+          "start": "2026-11-28T03:10:00.000Z",
+          "end": "2026-11-28T03:20:00.000Z",
+          "startEpochSeconds": 1795835400,
+          "endEpochSeconds": 1795836000,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795836000000:venezia vs bologna",
+          "title": "Venezia vs Bologna",
+          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
+          "start": "2026-11-28T03:20:00.000Z",
+          "end": "2026-11-28T05:10:00.000Z",
+          "startEpochSeconds": 1795836000,
+          "endEpochSeconds": 1795842600,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795842600000:werder bremen vs monchengladbach",
+          "title": "Werder Bremen vs Monchengladbach",
+          "description": "Watch every game of the season live as the top German football clubs battle it out in the Bundesliga, Germany's top division of football.Watch every game of the season live as the top German football clubs battle it out in the Bundesliga, Germany's top division of football.",
+          "start": "2026-11-28T05:10:00.000Z",
+          "end": "2026-11-28T07:00:00.000Z",
+          "startEpochSeconds": 1795842600,
+          "endEpochSeconds": 1795849200,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795849200000:vini jr",
+          "title": "Vini Jr",
+          "description": "Relive every goal from the best players in 2024/25 season.Relive every goal from the best players in 2024/25 season.",
+          "start": "2026-11-28T07:00:00.000Z",
+          "end": "2026-11-28T07:10:00.000Z",
+          "startEpochSeconds": 1795849200,
+          "endEpochSeconds": 1795849800,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795849800000:southampton vs middlesbrough",
+          "title": "Southampton vs Middlesbrough",
+          "description": "The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.The EFL Championship 2026/27 season sees some of biggest teams in English football compete fiercely for a spot in the Premier League.",
+          "start": "2026-11-28T07:10:00.000Z",
+          "end": "2026-11-28T09:00:00.000Z",
+          "startEpochSeconds": 1795849800,
+          "endEpochSeconds": 1795856400,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795856400000:werder bremen vs monchengladbach",
+          "title": "Werder Bremen vs Monchengladbach",
+          "description": "Watch every game of the season live as the top German football clubs battle it out in the Bundesliga, Germany's top division of football.Watch every game of the season live as the top German football clubs battle it out in the Bundesliga, Germany's top division of football.",
+          "start": "2026-11-28T09:00:00.000Z",
+          "end": "2026-11-28T10:50:00.000Z",
+          "startEpochSeconds": 1795856400,
+          "endEpochSeconds": 1795863000,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795863000000:matchday 14",
+          "title": "Matchday 14",
+          "description": "Your weekly preview of all the upcoming games from LaLiga EA Sports, Spain's top division of football.",
+          "start": "2026-11-28T10:50:00.000Z",
+          "end": "2026-11-28T11:20:00.000Z",
+          "startEpochSeconds": 1795863000,
+          "endEpochSeconds": 1795864800,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795864800000:episode number 14",
+          "title": "Episode Number 14",
+          "description": "Weekly preview show with all relevant information on upcoming matches and the latest news from the BundesligaWeekly preview show with all relevant information on upcoming matches and the latest news from the Bundesliga",
+          "start": "2026-11-28T11:20:00.000Z",
+          "end": "2026-11-28T11:50:00.000Z",
+          "startEpochSeconds": 1795864800,
+          "endEpochSeconds": 1795866600,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795866600000:dynamo dresden vs st. pauli",
+          "title": "Dynamo Dresden vs St. Pauli",
+          "description": "Tune in for the coverage of Bundesliga 2, where some of the most prominent teams in German football vie for a coveted spot in the Bundesliga.Tune in for the coverage of Bundesliga 2, where some of the most prominent teams in German football vie for a coveted spot in the Bundesliga.",
+          "start": "2026-11-28T11:50:00.000Z",
+          "end": "2026-11-28T14:05:00.000Z",
+          "startEpochSeconds": 1795866600,
+          "endEpochSeconds": 1795874700,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795874700000:dortmund vs bayern - 2023/24",
+          "title": "Dortmund vs Bayern - 2023/24",
+          "description": "Rewind the clock and enjoy some of the classic matches from the Bundesliga.Rewind the clock and enjoy some of the classic matches from the Bundesliga.",
+          "start": "2026-11-28T14:05:00.000Z",
+          "end": "2026-11-28T14:20:00.000Z",
+          "startEpochSeconds": 1795874700,
+          "endEpochSeconds": 1795875600,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795875600000:hamburg vs bayern",
+          "title": "Hamburg vs Bayern",
+          "description": "Watch every game of the season live as the top German football clubs battle it out in the Bundesliga, Germany's top division of football.Watch every game of the season live as the top German football clubs battle it out in the Bundesliga, Germany's top division of football.",
+          "start": "2026-11-28T14:20:00.000Z",
+          "end": "2026-11-28T16:35:00.000Z",
+          "startEpochSeconds": 1795875600,
+          "endEpochSeconds": 1795883700,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795883700000:lazio",
+          "title": "Lazio",
+          "description": "Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.",
+          "start": "2026-11-28T16:35:00.000Z",
+          "end": "2026-11-28T16:53:00.000Z",
+          "startEpochSeconds": 1795883700,
+          "endEpochSeconds": 1795884780,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795884780000:torino vs lazio",
+          "title": "Torino vs Lazio",
+          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
+          "start": "2026-11-28T16:53:00.000Z",
+          "end": "2026-11-28T19:05:00.000Z",
+          "startEpochSeconds": 1795884780,
+          "endEpochSeconds": 1795892700,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795892700000:torino",
+          "title": "Torino",
+          "description": "Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.",
+          "start": "2026-11-28T19:05:00.000Z",
+          "end": "2026-11-28T19:20:00.000Z",
+          "startEpochSeconds": 1795892700,
+          "endEpochSeconds": 1795893600,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795893600000:genoa",
+          "title": "Genoa",
+          "description": "Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.",
+          "start": "2026-11-28T19:20:00.000Z",
+          "end": "2026-11-28T19:38:00.000Z",
+          "startEpochSeconds": 1795893600,
+          "endEpochSeconds": 1795894680,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795894680000:inter vs genoa",
+          "title": "Inter vs Genoa",
+          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
+          "start": "2026-11-28T19:38:00.000Z",
+          "end": "2026-11-28T21:45:00.000Z",
+          "startEpochSeconds": 1795894680,
+          "endEpochSeconds": 1795902300,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795902300000:inter",
+          "title": "Inter",
+          "description": "Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.Made in Italy series returns, producing dedicated videos for each of the 20 Serie A clubs that showcase their home cities and local industries, linking football with Italian culture and highlighting each club's community and economic identity.",
+          "start": "2026-11-28T21:45:00.000Z",
+          "end": "2026-11-28T22:00:00.000Z",
+          "startEpochSeconds": 1795902300,
+          "endEpochSeconds": 1795903200,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795903200000:torino vs lazio",
+          "title": "Torino vs Lazio",
+          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
+          "start": "2026-11-28T22:00:00.000Z",
+          "end": "2026-11-28T23:50:00.000Z",
+          "startEpochSeconds": 1795903200,
+          "endEpochSeconds": 1795909800,
+          "source": "bein_au"
+        },
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746:1795909800000:inter vs genoa",
+          "title": "Inter vs Genoa",
+          "description": "The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.The giants of Italian football go head to head for the Serie A scudetto, Italy's top division of football.",
+          "start": "2026-11-28T23:50:00.000Z",
+          "end": "2026-11-29T01:40:00.000Z",
+          "startEpochSeconds": 1795909800,
+          "endEpochSeconds": 1795916400,
+          "source": "bein_au"
         }
       ]
     },
@@ -3961,236 +3881,6 @@
       "name": "beIN SPORTS 1",
       "region": "en-au",
       "programmes": [
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795390200000:paris",
-          "title": "Paris",
-          "description": "A look back at the best of the action from the tournament.A look back at the best of the action from the tournament.",
-          "start": "2026-11-22T23:30:00.000Z",
-          "end": "2026-11-23T00:30:00.000Z",
-          "startEpochSeconds": 1795390200,
-          "endEpochSeconds": 1795393800,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795393800000:episode number 45",
-          "title": "Episode Number 45",
-          "description": "Catch behind the scenes, interviews, tournament recaps, highlights of the ATP Tour on this weekly show.Catch behind the scenes, interviews, tournament recaps, highlights of the ATP Tour on this weekly show.",
-          "start": "2026-11-23T00:30:00.000Z",
-          "end": "2026-11-23T01:00:00.000Z",
-          "startEpochSeconds": 1795393800,
-          "endEpochSeconds": 1795395600,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795395600000:doubles final",
-          "title": "Doubles Final",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-23T01:00:00.000Z",
-          "end": "2026-11-23T02:30:00.000Z",
-          "startEpochSeconds": 1795395600,
-          "endEpochSeconds": 1795401000,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795401000000:singles final",
-          "title": "Singles Final",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-23T02:30:00.000Z",
-          "end": "2026-11-23T04:00:00.000Z",
-          "startEpochSeconds": 1795401000,
-          "endEpochSeconds": 1795406400,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795406400000:paris",
-          "title": "Paris",
-          "description": "A look back at the best of the action from the tournament.A look back at the best of the action from the tournament.",
-          "start": "2026-11-23T04:00:00.000Z",
-          "end": "2026-11-23T05:00:00.000Z",
-          "startEpochSeconds": 1795406400,
-          "endEpochSeconds": 1795410000,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795410000000:episode number 45",
-          "title": "Episode Number 45",
-          "description": "Catch behind the scenes, interviews, tournament recaps, highlights of the ATP Tour on this weekly show.Catch behind the scenes, interviews, tournament recaps, highlights of the ATP Tour on this weekly show.",
-          "start": "2026-11-23T05:00:00.000Z",
-          "end": "2026-11-23T05:30:00.000Z",
-          "startEpochSeconds": 1795410000,
-          "endEpochSeconds": 1795411800,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795411800000:doubles final",
-          "title": "Doubles Final",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-23T05:30:00.000Z",
-          "end": "2026-11-23T07:00:00.000Z",
-          "startEpochSeconds": 1795411800,
-          "endEpochSeconds": 1795417200,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795417200000:singles final",
-          "title": "Singles Final",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-23T07:00:00.000Z",
-          "end": "2026-11-23T08:30:00.000Z",
-          "startEpochSeconds": 1795417200,
-          "endEpochSeconds": 1795422600,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795422600000:paris",
-          "title": "Paris",
-          "description": "A look back at the best of the action from the tournament.A look back at the best of the action from the tournament.",
-          "start": "2026-11-23T08:30:00.000Z",
-          "end": "2026-11-23T09:30:00.000Z",
-          "startEpochSeconds": 1795422600,
-          "endEpochSeconds": 1795426200,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795426200000:episode number 45",
-          "title": "Episode Number 45",
-          "description": "Catch behind the scenes, interviews, tournament recaps, highlights of the ATP Tour on this weekly show.Catch behind the scenes, interviews, tournament recaps, highlights of the ATP Tour on this weekly show.",
-          "start": "2026-11-23T09:30:00.000Z",
-          "end": "2026-11-23T10:00:00.000Z",
-          "startEpochSeconds": 1795426200,
-          "endEpochSeconds": 1795428000,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795428000000:doubles final",
-          "title": "Doubles Final",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-23T10:00:00.000Z",
-          "end": "2026-11-23T11:30:00.000Z",
-          "startEpochSeconds": 1795428000,
-          "endEpochSeconds": 1795433400,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795433400000:singles final",
-          "title": "Singles Final",
-          "description": "Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.Nitto ATP Finals 2026  features only the world's best eight male players and doubles teams battle it out in Turin to reach the top.",
-          "start": "2026-11-23T11:30:00.000Z",
-          "end": "2026-11-23T13:00:00.000Z",
-          "startEpochSeconds": 1795433400,
-          "endEpochSeconds": 1795438800,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795438800000:agassi & djokovic at miami",
-          "title": "Agassi & Djokovic at Miami",
-          "description": "In this series of features, we look back at some of the most memorable moments, rivalries and achievements at ATP Masters events.In this series of features, we look back at some of the most memorable moments, rivalries and achievements at ATP Masters events.",
-          "start": "2026-11-23T13:00:00.000Z",
-          "end": "2026-11-23T14:00:00.000Z",
-          "startEpochSeconds": 1795438800,
-          "endEpochSeconds": 1795442400,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795442400000:federer v nadal at miami",
-          "title": "Federer v Nadal at Miami",
-          "description": "In this series of features, we look back at some of the most memorable moments, rivalries and achievements at ATP Masters events.In this series of features, we look back at some of the most memorable moments, rivalries and achievements at ATP Masters events.",
-          "start": "2026-11-23T14:00:00.000Z",
-          "end": "2026-11-23T15:00:00.000Z",
-          "startEpochSeconds": 1795442400,
-          "endEpochSeconds": 1795446000,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795446000000:nadal v djokovic at monte carlo",
-          "title": "Nadal v Djokovic at Monte Carlo",
-          "description": "In this series of features, we look back at some of the most memorable moments, rivalries and achievements at ATP Masters events.In this series of features, we look back at some of the most memorable moments, rivalries and achievements at ATP Masters events.",
-          "start": "2026-11-23T15:00:00.000Z",
-          "end": "2026-11-23T16:00:00.000Z",
-          "startEpochSeconds": 1795446000,
-          "endEpochSeconds": 1795449600,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795449600000:nadal v djokovic at rome",
-          "title": "Nadal v Djokovic at Rome",
-          "description": "In this series of features, we look back at some of the most memorable moments, rivalries and achievements at ATP Masters events.In this series of features, we look back at some of the most memorable moments, rivalries and achievements at ATP Masters events.",
-          "start": "2026-11-23T16:00:00.000Z",
-          "end": "2026-11-23T17:00:00.000Z",
-          "startEpochSeconds": 1795449600,
-          "endEpochSeconds": 1795453200,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795453200000:miami moments",
-          "title": "Miami Moments",
-          "description": "In this series of features, we look back at some of the most memorable moments, rivalries and achievements at ATP Masters events.In this series of features, we look back at some of the most memorable moments, rivalries and achievements at ATP Masters events.",
-          "start": "2026-11-23T17:00:00.000Z",
-          "end": "2026-11-23T18:00:00.000Z",
-          "startEpochSeconds": 1795453200,
-          "endEpochSeconds": 1795456800,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795456800000:monte carlo moments",
-          "title": "Monte Carlo Moments",
-          "description": "In this series of features, we look back at some of the most memorable moments, rivalries and achievements at ATP Masters events.In this series of features, we look back at some of the most memorable moments, rivalries and achievements at ATP Masters events.",
-          "start": "2026-11-23T18:00:00.000Z",
-          "end": "2026-11-23T19:00:00.000Z",
-          "startEpochSeconds": 1795456800,
-          "endEpochSeconds": 1795460400,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795460400000:tokyo",
-          "title": "Tokyo",
-          "description": "A look back at the best of the action from the tournament.A look back at the best of the action from the tournament.",
-          "start": "2026-11-23T19:00:00.000Z",
-          "end": "2026-11-23T20:00:00.000Z",
-          "startEpochSeconds": 1795460400,
-          "endEpochSeconds": 1795464000,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795464000000:beijing",
-          "title": "Beijing",
-          "description": "A look back at the best of the action from the tournament.A look back at the best of the action from the tournament.",
-          "start": "2026-11-23T20:00:00.000Z",
-          "end": "2026-11-23T21:00:00.000Z",
-          "startEpochSeconds": 1795464000,
-          "endEpochSeconds": 1795467600,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795467600000:shanghai",
-          "title": "Shanghai",
-          "description": "A look back at the best of the action from the tournament.A look back at the best of the action from the tournament.",
-          "start": "2026-11-23T21:00:00.000Z",
-          "end": "2026-11-23T22:00:00.000Z",
-          "startEpochSeconds": 1795467600,
-          "endEpochSeconds": 1795471200,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795471200000:basel",
-          "title": "Basel",
-          "description": "A look back at the best of the action from the tournament.A look back at the best of the action from the tournament.",
-          "start": "2026-11-23T22:00:00.000Z",
-          "end": "2026-11-23T23:00:00.000Z",
-          "startEpochSeconds": 1795471200,
-          "endEpochSeconds": 1795474800,
-          "source": "bein_au"
-        },
-        {
-          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795474800000:vienna",
-          "title": "Vienna",
-          "description": "A look back at the best of the action from the tournament.A look back at the best of the action from the tournament.",
-          "start": "2026-11-23T23:00:00.000Z",
-          "end": "2026-11-24T00:00:00.000Z",
-          "startEpochSeconds": 1795474800,
-          "endEpochSeconds": 1795478400,
-          "source": "bein_au"
-        },
         {
           "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795478400000:paris",
           "title": "Paris",
@@ -4669,6 +4359,116 @@
           "end": "2026-11-28T00:00:00.000Z",
           "startEpochSeconds": 1795820400,
           "endEpochSeconds": 1795824000,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795824000000:djokovic v federer 2018",
+          "title": "Djokovic v Federer 2018",
+          "description": "We delve into the ATP archives for another classic encounter when Novak Djokovic met Roger Federer in the final at Cincinnati in 2018.Watch classic matches, moment and highlights of ATP Tour from tournaments around the world.",
+          "start": "2026-11-28T00:00:00.000Z",
+          "end": "2026-11-28T01:00:00.000Z",
+          "startEpochSeconds": 1795824000,
+          "endEpochSeconds": 1795827600,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795827600000:semi final 1",
+          "title": "Semi Final 1",
+          "description": "The world's best tennis players unite under their country's flag, vying for a coveted spot in the Final 8. The ultimate showdown awaits in Bologna, Italy.The world's best tennis players unite under their country's flag, vying for a coveted spot in the Final 8. The ultimate showdown awaits in Bologna, Italy.",
+          "start": "2026-11-28T01:00:00.000Z",
+          "end": "2026-11-28T05:30:00.000Z",
+          "startEpochSeconds": 1795827600,
+          "endEpochSeconds": 1795843800,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795843800000:episode number 46",
+          "title": "Episode Number 46",
+          "description": "Catch behind the scenes, interviews, tournament recaps, highlights of the ATP Tour on this weekly show.Catch behind the scenes, interviews, tournament recaps, highlights of the ATP Tour on this weekly show.",
+          "start": "2026-11-28T05:30:00.000Z",
+          "end": "2026-11-28T06:00:00.000Z",
+          "startEpochSeconds": 1795843800,
+          "endEpochSeconds": 1795845600,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795845600000:semi final 1",
+          "title": "Semi Final 1",
+          "description": "The world's best tennis players unite under their country's flag, vying for a coveted spot in the Final 8. The ultimate showdown awaits in Bologna, Italy.The world's best tennis players unite under their country's flag, vying for a coveted spot in the Final 8. The ultimate showdown awaits in Bologna, Italy.",
+          "start": "2026-11-28T06:00:00.000Z",
+          "end": "2026-11-28T10:30:00.000Z",
+          "startEpochSeconds": 1795845600,
+          "endEpochSeconds": 1795861800,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795861800000:episode number 46",
+          "title": "Episode Number 46",
+          "description": "Catch behind the scenes, interviews, tournament recaps, highlights of the ATP Tour on this weekly show.Catch behind the scenes, interviews, tournament recaps, highlights of the ATP Tour on this weekly show.",
+          "start": "2026-11-28T10:30:00.000Z",
+          "end": "2026-11-28T11:00:00.000Z",
+          "startEpochSeconds": 1795861800,
+          "endEpochSeconds": 1795863600,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795863600000:semi final 2",
+          "title": "Semi Final 2",
+          "description": "The world's best tennis players unite under their country's flag, vying for a coveted spot in the Final 8. The ultimate showdown awaits in Bologna, Italy.The world's best tennis players unite under their country's flag, vying for a coveted spot in the Final 8. The ultimate showdown awaits in Bologna, Italy.",
+          "start": "2026-11-28T11:00:00.000Z",
+          "end": "2026-11-28T18:00:00.000Z",
+          "startEpochSeconds": 1795863600,
+          "endEpochSeconds": 1795888800,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795888800000:djokovic v federer 2018",
+          "title": "Djokovic v Federer 2018",
+          "description": "We delve into the ATP archives for another classic encounter when Novak Djokovic met Roger Federer in the final at Cincinnati in 2018.Watch classic matches, moment and highlights of ATP Tour from tournaments around the world.",
+          "start": "2026-11-28T18:00:00.000Z",
+          "end": "2026-11-28T19:00:00.000Z",
+          "startEpochSeconds": 1795888800,
+          "endEpochSeconds": 1795892400,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795892400000:the ring master - alexander bublik",
+          "title": "The Ring Master - Alexander Bublik",
+          "description": "An exclusive look at the man behind \"The Ringmaster.\" Bublik opens up about his personal philosophy and his journey to tennis's Top 10 in this in-depth feature.Player documentary from the ATP Tour",
+          "start": "2026-11-28T19:00:00.000Z",
+          "end": "2026-11-28T19:50:00.000Z",
+          "startEpochSeconds": 1795892400,
+          "endEpochSeconds": 1795895400,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795895400000:palmeiras vs estudiantes - final",
+          "title": "Palmeiras vs Estudiantes - Final",
+          "description": "Watch live and exclusive coverage of the 2025 Copa Libertadores, South America's premier club competition.Watch live and exclusive coverage of the 2025 Copa Libertadores, South America's premier club competition.",
+          "start": "2026-11-28T19:50:00.000Z",
+          "end": "2026-11-28T22:30:00.000Z",
+          "startEpochSeconds": 1795895400,
+          "endEpochSeconds": 1795905000,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795905000000:episode number 46",
+          "title": "Episode Number 46",
+          "description": "Catch behind the scenes, interviews, tournament recaps, highlights of the ATP Tour on this weekly show.Catch behind the scenes, interviews, tournament recaps, highlights of the ATP Tour on this weekly show.",
+          "start": "2026-11-28T22:30:00.000Z",
+          "end": "2026-11-28T23:00:00.000Z",
+          "startEpochSeconds": 1795905000,
+          "endEpochSeconds": 1795906800,
+          "source": "bein_au"
+        },
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F:1795906800000:semi final 2",
+          "title": "Semi Final 2",
+          "description": "The world's best tennis players unite under their country's flag, vying for a coveted spot in the Final 8. The ultimate showdown awaits in Bologna, Italy.The world's best tennis players unite under their country's flag, vying for a coveted spot in the Final 8. The ultimate showdown awaits in Bologna, Italy.",
+          "start": "2026-11-28T23:00:00.000Z",
+          "end": "2026-11-29T03:30:00.000Z",
+          "startEpochSeconds": 1795906800,
+          "endEpochSeconds": 1795923000,
           "source": "bein_au"
         }
       ]
