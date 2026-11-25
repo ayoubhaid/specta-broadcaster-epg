@@ -6,11 +6,11 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "fr-fr",
   "timezone": "UTC",
-  "generatedAt": "2026-11-25T08:31:19.944Z",
+  "generatedAt": "2026-11-25T21:41:33.079Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 10,
-    "programmesFound": 493,
+    "programmesFound": 496,
     "successfulRequests": 50,
     "failedRequests": 0
   },
@@ -428,8 +428,8 @@
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795611600000:basket-ball : ncaa",
-          "title": "Basket-ball : NCAA",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795611600000:basket-ball : ncaa - brigham young university / ole miss",
+          "title": "Basket-ball : NCAA - Brigham Young University / Ole Miss",
           "description": "",
           "start": "2026-11-25T13:00:00.000Z",
           "end": "2026-11-25T14:45:00.000Z",
@@ -918,32 +918,62 @@
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795806000000:basket-ball : nba - portland trail blazers / san antonio spurs",
-          "title": "Basket-ball : NBA - Portland Trail Blazers / San Antonio Spurs",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795806000000:bein zap",
+          "title": "beIN Zap",
           "description": "",
           "start": "2026-11-27T19:00:00.000Z",
-          "end": "2026-11-27T20:45:00.000Z",
+          "end": "2026-11-27T19:30:00.000Z",
           "startEpochSeconds": 1795806000,
-          "endEpochSeconds": 1795812300,
+          "endEpochSeconds": 1795807800,
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795812300000:basket-ball : euroligue masculine - lyon-villeurbanne / olimpia milan",
-          "title": "Basket-ball : Euroligue masculine - Lyon-Villeurbanne / Olimpia Milan",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795807800000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
           "description": "",
-          "start": "2026-11-27T20:45:00.000Z",
-          "end": "2026-11-27T22:45:00.000Z",
-          "startEpochSeconds": 1795812300,
-          "endEpochSeconds": 1795819500,
+          "start": "2026-11-27T19:30:00.000Z",
+          "end": "2026-11-27T19:45:00.000Z",
+          "startEpochSeconds": 1795807800,
+          "endEpochSeconds": 1795808700,
           "source": "bein_fr"
         },
         {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795819500000:football : ligue 2 bkt - reims / saint-etienne",
-          "title": "Football : Ligue 2 BKT - Reims / Saint-Etienne",
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795808700000:nfl extra",
+          "title": "NFL Extra",
           "description": "",
-          "start": "2026-11-27T22:45:00.000Z",
+          "start": "2026-11-27T19:45:00.000Z",
+          "end": "2026-11-27T20:30:00.000Z",
+          "startEpochSeconds": 1795808700,
+          "endEpochSeconds": 1795811400,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795811400000:football américain : ncaa - florida state / florida",
+          "title": "Football américain : NCAA - Florida State / Florida",
+          "description": "",
+          "start": "2026-11-27T20:30:00.000Z",
+          "end": "2026-11-28T00:00:00.000Z",
+          "startEpochSeconds": 1795811400,
+          "endEpochSeconds": 1795824000,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795824000000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-11-28T00:00:00.000Z",
+          "end": "2026-11-28T00:15:00.000Z",
+          "startEpochSeconds": 1795824000,
+          "endEpochSeconds": 1795824900,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795824900000:raid des alizées",
+          "title": "Raid des Alizées",
+          "description": "",
+          "start": "2026-11-28T00:15:00.000Z",
           "end": "2026-11-28T00:45:00.000Z",
-          "startEpochSeconds": 1795819500,
+          "startEpochSeconds": 1795824900,
           "endEpochSeconds": 1795826700,
           "source": "bein_fr"
         },
@@ -2229,8 +2259,8 @@
           "source": "bein_fr"
         },
         {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795649400000:basket-ball : ncaa",
-          "title": "Basket-ball : NCAA",
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795649400000:basket-ball : ncaa - brigham young university / ole miss",
+          "title": "Basket-ball : NCAA - Brigham Young University / Ole Miss",
           "description": "",
           "start": "2026-11-25T23:30:00.000Z",
           "end": "2026-11-26T01:15:00.000Z",
@@ -3463,8 +3493,8 @@
           "source": "bein_fr"
         },
         {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795784400000:foot fauteuil électrique : championnat de france division 1 - upsilon - nanterre",
-          "title": "Foot fauteuil électrique : Championnat de France Division 1 - Upsilon - Nanterre",
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795784400000:foot fauteuil électrique : championnat de france division 1 - douai - kerpape",
+          "title": "Foot fauteuil électrique : Championnat de France Division 1 - Douai - Kerpape",
           "description": "",
           "start": "2026-11-27T13:00:00.000Z",
           "end": "2026-11-27T14:00:00.000Z",
