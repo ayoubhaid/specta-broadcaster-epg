@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-27T08:30:30.000Z",
+  "generatedAt": "2026-11-27T21:22:33.000Z",
   "diagnostic": false,
   "window": {
-    "from": "2026-11-27T06:30:30.000Z",
-    "to": "2026-11-29T00:30:30.000Z",
+    "from": "2026-11-27T19:22:33.000Z",
+    "to": "2026-11-29T13:22:33.000Z",
     "maxPerChannel": 80
   },
   "totals": {
-    "channels": 201,
-    "programmes": 7792
+    "channels": 200,
+    "programmes": 7559
   },
   "providers": [
     {
@@ -34,9 +34,9 @@
       "providerName": "beIN SPORTS France",
       "file": "data/source-feeds/bein_fr.json",
       "channels": 10,
-      "programmes": 511,
+      "programmes": 510,
       "publishedChannels": 9,
-      "publishedProgrammes": 394,
+      "publishedProgrammes": 393,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -52,16 +52,16 @@
       "providerName": "beIN SPORTS MENA",
       "file": "data/source-feeds/bein_mena.json",
       "channels": 40,
-      "programmes": 2557,
+      "programmes": 2643,
       "publishedChannels": 30,
-      "publishedProgrammes": 1718,
+      "publishedProgrammes": 1808,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
         "title": 0,
         "time": 0,
         "range": 0,
-        "duration": 4
+        "duration": 0
       },
       "error": null
     },
@@ -106,9 +106,9 @@
       "providerName": "DAZN",
       "file": "data/review/dazn_unclassified.json",
       "channels": 82,
-      "programmes": 6048,
+      "programmes": 5082,
       "publishedChannels": 11,
-      "publishedProgrammes": 589,
+      "publishedProgrammes": 474,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -123,10 +123,10 @@
       "provider": "elcinema",
       "providerName": "elCinema Arabic TV Guide",
       "file": "data/review/elcinema_ar_unclassified.json",
-      "channels": 105,
-      "programmes": 3684,
+      "channels": 104,
+      "programmes": 3491,
       "publishedChannels": 21,
-      "publishedProgrammes": 934,
+      "publishedProgrammes": 864,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -178,9 +178,9 @@
       "providerName": "Sky Sports UK",
       "file": "data/review/sky_uk_unclassified.json",
       "channels": 21,
-      "programmes": 2754,
+      "programmes": 2743,
       "publishedChannels": 21,
-      "publishedProgrammes": 2754,
+      "publishedProgrammes": 2743,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -196,9 +196,9 @@
       "providerName": "SNRT Morocco",
       "file": "data/source-feeds/snrt_ma.json",
       "channels": 7,
-      "programmes": 1922,
+      "programmes": 1845,
       "publishedChannels": 7,
-      "publishedProgrammes": 1892,
+      "publishedProgrammes": 1815,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -213,10 +213,10 @@
       "provider": "supersport",
       "providerName": "SuperSport",
       "file": "data/review/supersport_unclassified.json",
-      "channels": 62,
-      "programmes": 7936,
+      "channels": 63,
+      "programmes": 8000,
       "publishedChannels": 17,
-      "publishedProgrammes": 2522,
+      "publishedProgrammes": 2511,
       "autoResolved": 0,
       "rejected": {
         "row": 0,
@@ -2333,16 +2333,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1399",
+        "key": "elcinema:1323",
         "provider": "elcinema",
-        "name": "MBC Masr Drama",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1304",
-        "provider": "elcinema",
-        "name": "Nessma",
+        "name": "BEIN MOVIES ACTION",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2354,30 +2347,44 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1323",
+        "key": "elcinema:1211",
         "provider": "elcinema",
-        "name": "BEIN MOVIES ACTION",
+        "name": "OSN TV Movies Action",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1127",
+        "key": "elcinema:1315",
         "provider": "elcinema",
-        "name": "MBC",
+        "name": "Echorouk TV",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1394",
+        "key": "elcinema:1405",
         "provider": "elcinema",
-        "name": "OSN TV Showcase",
+        "name": "One Drama",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1242",
+        "key": "elcinema:1390",
         "provider": "elcinema",
-        "name": "Network Arabic",
+        "name": "OSN TV Yahala Bil Arabi",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1393",
+        "provider": "elcinema",
+        "name": "OSN TV One",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1304",
+        "provider": "elcinema",
+        "name": "Nessma",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2634,6 +2641,20 @@
         "candidates": []
       },
       {
+        "key": "elcinema:1399",
+        "provider": "elcinema",
+        "name": "MBC Masr Drama",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
+        "key": "elcinema:1394",
+        "provider": "elcinema",
+        "name": "OSN TV Showcase",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "elcinema:1246",
         "provider": "elcinema",
         "name": "LDC",
@@ -2648,23 +2669,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1405",
-        "provider": "elcinema",
-        "name": "One Drama",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "elcinema:1392",
         "provider": "elcinema",
         "name": "OSN TV Movies Family",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1315",
-        "provider": "elcinema",
-        "name": "Echorouk TV",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2711,16 +2718,16 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1299",
+        "key": "elcinema:1242",
         "provider": "elcinema",
-        "name": "Roya",
+        "name": "Network Arabic",
         "reason": "unmapped",
         "candidates": []
       },
       {
-        "key": "elcinema:1404",
+        "key": "elcinema:1299",
         "provider": "elcinema",
-        "name": "One Movies",
+        "name": "Roya",
         "reason": "unmapped",
         "candidates": []
       },
@@ -2774,13 +2781,6 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1390",
-        "provider": "elcinema",
-        "name": "OSN TV Yahala Bil Arabi",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
         "key": "elcinema:1203",
         "provider": "elcinema",
         "name": "ON E",
@@ -2830,16 +2830,9 @@
         "candidates": []
       },
       {
-        "key": "elcinema:1211",
+        "key": "elcinema:1127",
         "provider": "elcinema",
-        "name": "OSN TV Movies Action",
-        "reason": "unmapped",
-        "candidates": []
-      },
-      {
-        "key": "elcinema:1393",
-        "provider": "elcinema",
-        "name": "OSN TV One",
+        "name": "MBC",
         "reason": "unmapped",
         "candidates": []
       },
@@ -4685,6 +4678,13 @@
         "candidates": []
       },
       {
+        "key": "supersport:ss1",
+        "provider": "supersport",
+        "name": "SuperSport One",
+        "reason": "unmapped",
+        "candidates": []
+      },
+      {
         "key": "supersport:vr2",
         "provider": "supersport",
         "name": "SuperSport Variety 2",
@@ -4707,6 +4707,6 @@
     "title": 0,
     "time": 0,
     "range": 0,
-    "duration": 34
+    "duration": 30
   }
 }
