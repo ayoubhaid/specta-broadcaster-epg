@@ -6,11 +6,11 @@
   "apiBase": "https://www.beinsports.com/api/opta",
   "region": "fr-fr",
   "timezone": "UTC",
-  "generatedAt": "2026-11-27T21:17:31.414Z",
+  "generatedAt": "2026-11-28T07:47:21.144Z",
   "coverage": {
     "daysRequested": 5,
     "channelsFound": 10,
-    "programmesFound": 510,
+    "programmesFound": 518,
     "successfulRequests": 50,
     "failedRequests": 0
   },
@@ -20,66 +20,6 @@
       "name": "beIN SPORTS MAX 9",
       "region": "fr-fr",
       "programmes": [
-        {
-          "id": "FB208953-1C70-4D1E-B918-103AB02AB181:1795752000000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T04:00:00.000Z",
-          "end": "2026-11-27T08:00:00.000Z",
-          "startEpochSeconds": 1795752000,
-          "endEpochSeconds": 1795766400,
-          "source": "bein_fr"
-        },
-        {
-          "id": "FB208953-1C70-4D1E-B918-103AB02AB181:1795766400000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T08:00:00.000Z",
-          "end": "2026-11-27T12:00:00.000Z",
-          "startEpochSeconds": 1795766400,
-          "endEpochSeconds": 1795780800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "FB208953-1C70-4D1E-B918-103AB02AB181:1795780800000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T12:00:00.000Z",
-          "end": "2026-11-27T16:00:00.000Z",
-          "startEpochSeconds": 1795780800,
-          "endEpochSeconds": 1795795200,
-          "source": "bein_fr"
-        },
-        {
-          "id": "FB208953-1C70-4D1E-B918-103AB02AB181:1795795200000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T16:00:00.000Z",
-          "end": "2026-11-27T20:00:00.000Z",
-          "startEpochSeconds": 1795795200,
-          "endEpochSeconds": 1795809600,
-          "source": "bein_fr"
-        },
-        {
-          "id": "FB208953-1C70-4D1E-B918-103AB02AB181:1795809600000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T20:00:00.000Z",
-          "end": "2026-11-28T00:00:00.000Z",
-          "startEpochSeconds": 1795809600,
-          "endEpochSeconds": 1795824000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "FB208953-1C70-4D1E-B918-103AB02AB181:1795824000000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-28T00:00:00.000Z",
-          "end": "2026-11-28T04:00:00.000Z",
-          "startEpochSeconds": 1795824000,
-          "endEpochSeconds": 1795838400,
-          "source": "bein_fr"
-        },
         {
           "id": "FB208953-1C70-4D1E-B918-103AB02AB181:1795838400000:bein sports, le plus grand des spectacles",
           "title": "beIN SPORTS, le plus grand des spectacles",
@@ -329,6 +269,66 @@
           "startEpochSeconds": 1796155200,
           "endEpochSeconds": 1796169600,
           "source": "bein_fr"
+        },
+        {
+          "id": "FB208953-1C70-4D1E-B918-103AB02AB181:1796169600000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T00:00:00.000Z",
+          "end": "2026-12-02T04:00:00.000Z",
+          "startEpochSeconds": 1796169600,
+          "endEpochSeconds": 1796184000,
+          "source": "bein_fr"
+        },
+        {
+          "id": "FB208953-1C70-4D1E-B918-103AB02AB181:1796184000000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T04:00:00.000Z",
+          "end": "2026-12-02T08:00:00.000Z",
+          "startEpochSeconds": 1796184000,
+          "endEpochSeconds": 1796198400,
+          "source": "bein_fr"
+        },
+        {
+          "id": "FB208953-1C70-4D1E-B918-103AB02AB181:1796198400000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T08:00:00.000Z",
+          "end": "2026-12-02T12:00:00.000Z",
+          "startEpochSeconds": 1796198400,
+          "endEpochSeconds": 1796212800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "FB208953-1C70-4D1E-B918-103AB02AB181:1796212800000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T12:00:00.000Z",
+          "end": "2026-12-02T16:00:00.000Z",
+          "startEpochSeconds": 1796212800,
+          "endEpochSeconds": 1796227200,
+          "source": "bein_fr"
+        },
+        {
+          "id": "FB208953-1C70-4D1E-B918-103AB02AB181:1796227200000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T16:00:00.000Z",
+          "end": "2026-12-02T20:00:00.000Z",
+          "startEpochSeconds": 1796227200,
+          "endEpochSeconds": 1796241600,
+          "source": "bein_fr"
+        },
+        {
+          "id": "FB208953-1C70-4D1E-B918-103AB02AB181:1796241600000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T20:00:00.000Z",
+          "end": "2026-12-03T00:00:00.000Z",
+          "startEpochSeconds": 1796241600,
+          "endEpochSeconds": 1796256000,
+          "source": "bein_fr"
         }
       ]
     },
@@ -337,246 +337,6 @@
       "name": "beIN SPORTS 1",
       "region": "fr-fr",
       "programmes": [
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795728600000:football américain : nfl - dallas cowboys / philadelphia eagles",
-          "title": "Football américain : NFL - Dallas Cowboys / Philadelphia Eagles",
-          "description": "",
-          "start": "2026-11-26T21:30:00.000Z",
-          "end": "2026-11-27T00:30:00.000Z",
-          "startEpochSeconds": 1795728600,
-          "endEpochSeconds": 1795739400,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795752900000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-27T04:15:00.000Z",
-          "end": "2026-11-27T04:30:00.000Z",
-          "startEpochSeconds": 1795752900,
-          "endEpochSeconds": 1795753800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795753800000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-27T04:30:00.000Z",
-          "end": "2026-11-27T04:45:00.000Z",
-          "startEpochSeconds": 1795753800,
-          "endEpochSeconds": 1795754700,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795754700000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-27T04:45:00.000Z",
-          "end": "2026-11-27T05:00:00.000Z",
-          "startEpochSeconds": 1795754700,
-          "endEpochSeconds": 1795755600,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795755600000:football : ligue 2 bkt - laval / montpellier",
-          "title": "Football : Ligue 2 BKT - Laval / Montpellier",
-          "description": "",
-          "start": "2026-11-27T05:00:00.000Z",
-          "end": "2026-11-27T07:00:00.000Z",
-          "startEpochSeconds": 1795755600,
-          "endEpochSeconds": 1795762800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795762800000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-27T07:00:00.000Z",
-          "end": "2026-11-27T07:15:00.000Z",
-          "startEpochSeconds": 1795762800,
-          "endEpochSeconds": 1795763700,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795763700000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-27T07:15:00.000Z",
-          "end": "2026-11-27T07:30:00.000Z",
-          "startEpochSeconds": 1795763700,
-          "endEpochSeconds": 1795764600,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795764600000:bein story",
-          "title": "beIN STORY",
-          "description": "Au coeur de la WNBA (épisodes 4, 5 et 6)",
-          "start": "2026-11-27T07:30:00.000Z",
-          "end": "2026-11-27T09:15:00.000Z",
-          "startEpochSeconds": 1795764600,
-          "endEpochSeconds": 1795770900,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795770900000:nfl extra",
-          "title": "NFL Extra",
-          "description": "",
-          "start": "2026-11-27T09:15:00.000Z",
-          "end": "2026-11-27T10:00:00.000Z",
-          "startEpochSeconds": 1795770900,
-          "endEpochSeconds": 1795773600,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795773600000:football américain : nfl - detroit lions / chicago bears",
-          "title": "Football américain : NFL - Detroit Lions / Chicago Bears",
-          "description": "",
-          "start": "2026-11-27T10:00:00.000Z",
-          "end": "2026-11-27T12:30:00.000Z",
-          "startEpochSeconds": 1795773600,
-          "endEpochSeconds": 1795782600,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795782600000:football : bundesliga - mönchengladbach / borussia dortmund",
-          "title": "Football : Bundesliga - Mönchengladbach / Borussia Dortmund",
-          "description": "",
-          "start": "2026-11-27T12:30:00.000Z",
-          "end": "2026-11-27T14:30:00.000Z",
-          "startEpochSeconds": 1795782600,
-          "endEpochSeconds": 1795789800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795789800000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-27T14:30:00.000Z",
-          "end": "2026-11-27T14:45:00.000Z",
-          "startEpochSeconds": 1795789800,
-          "endEpochSeconds": 1795790700,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795790700000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-27T14:45:00.000Z",
-          "end": "2026-11-27T15:00:00.000Z",
-          "startEpochSeconds": 1795790700,
-          "endEpochSeconds": 1795791600,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795791600000:football : ligue 2 bkt - laval / montpellier",
-          "title": "Football : Ligue 2 BKT - Laval / Montpellier",
-          "description": "",
-          "start": "2026-11-27T15:00:00.000Z",
-          "end": "2026-11-27T17:00:00.000Z",
-          "startEpochSeconds": 1795791600,
-          "endEpochSeconds": 1795798800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795798800000:basket-ball : qualifications à la coupe du monde masculine - estonie / france",
-          "title": "Basket-ball : Qualifications à la Coupe du monde masculine - Estonie / France",
-          "description": "",
-          "start": "2026-11-27T17:00:00.000Z",
-          "end": "2026-11-27T19:00:00.000Z",
-          "startEpochSeconds": 1795798800,
-          "endEpochSeconds": 1795806000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795806000000:bein zap",
-          "title": "beIN Zap",
-          "description": "",
-          "start": "2026-11-27T19:00:00.000Z",
-          "end": "2026-11-27T19:30:00.000Z",
-          "startEpochSeconds": 1795806000,
-          "endEpochSeconds": 1795807800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795807800000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-27T19:30:00.000Z",
-          "end": "2026-11-27T19:45:00.000Z",
-          "startEpochSeconds": 1795807800,
-          "endEpochSeconds": 1795808700,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795808700000:nfl extra",
-          "title": "NFL Extra",
-          "description": "",
-          "start": "2026-11-27T19:45:00.000Z",
-          "end": "2026-11-27T20:30:00.000Z",
-          "startEpochSeconds": 1795808700,
-          "endEpochSeconds": 1795811400,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795811400000:football américain : ncaa - florida state / florida",
-          "title": "Football américain : NCAA - Florida State / Florida",
-          "description": "",
-          "start": "2026-11-27T20:30:00.000Z",
-          "end": "2026-11-28T00:00:00.000Z",
-          "startEpochSeconds": 1795811400,
-          "endEpochSeconds": 1795824000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795824000000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-28T00:00:00.000Z",
-          "end": "2026-11-28T00:15:00.000Z",
-          "startEpochSeconds": 1795824000,
-          "endEpochSeconds": 1795824900,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795824900000:raid des alizées",
-          "title": "Raid des Alizées",
-          "description": "",
-          "start": "2026-11-28T00:15:00.000Z",
-          "end": "2026-11-28T00:45:00.000Z",
-          "startEpochSeconds": 1795824900,
-          "endEpochSeconds": 1795826700,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795826700000:football : ligue 2 bkt - nantes / grenoble",
-          "title": "Football : Ligue 2 BKT - Nantes / Grenoble",
-          "description": "",
-          "start": "2026-11-28T00:45:00.000Z",
-          "end": "2026-11-28T02:45:00.000Z",
-          "startEpochSeconds": 1795826700,
-          "endEpochSeconds": 1795833900,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795833900000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-28T02:45:00.000Z",
-          "end": "2026-11-28T03:00:00.000Z",
-          "startEpochSeconds": 1795833900,
-          "endEpochSeconds": 1795834800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795834800000:football : ligue 2 bkt - sochaux / dunkerque",
-          "title": "Football : Ligue 2 BKT - Sochaux / Dunkerque",
-          "description": "",
-          "start": "2026-11-28T03:00:00.000Z",
-          "end": "2026-11-28T05:00:00.000Z",
-          "startEpochSeconds": 1795834800,
-          "endEpochSeconds": 1795842000,
-          "source": "bein_fr"
-        },
         {
           "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1795842000000:football : bundesliga - werder brême / mönchengladbach",
           "title": "Football : Bundesliga - Werder Brême / Mönchengladbach",
@@ -1506,6 +1266,276 @@
           "startEpochSeconds": 1796168700,
           "endEpochSeconds": 1796169600,
           "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796169600000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "NBA",
+          "start": "2026-12-02T00:00:00.000Z",
+          "end": "2026-12-02T00:15:00.000Z",
+          "startEpochSeconds": 1796169600,
+          "endEpochSeconds": 1796170500,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796170500000:nba extra",
+          "title": "NBA Extra",
+          "description": "",
+          "start": "2026-12-02T00:15:00.000Z",
+          "end": "2026-12-02T01:00:00.000Z",
+          "startEpochSeconds": 1796170500,
+          "endEpochSeconds": 1796173200,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796173200000:basket-ball : nba",
+          "title": "Basket-ball : NBA",
+          "description": "",
+          "start": "2026-12-02T01:00:00.000Z",
+          "end": "2026-12-02T03:45:00.000Z",
+          "startEpochSeconds": 1796173200,
+          "endEpochSeconds": 1796183100,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796183100000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "NBA",
+          "start": "2026-12-02T03:45:00.000Z",
+          "end": "2026-12-02T04:00:00.000Z",
+          "startEpochSeconds": 1796183100,
+          "endEpochSeconds": 1796184000,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796184000000:basket-ball : nba - portland trail blazers / minnesota timberwolves",
+          "title": "Basket-ball : NBA - Portland Trail Blazers / Minnesota Timberwolves",
+          "description": "",
+          "start": "2026-12-02T04:00:00.000Z",
+          "end": "2026-12-02T06:45:00.000Z",
+          "startEpochSeconds": 1796184000,
+          "endEpochSeconds": 1796193900,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796193900000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T06:45:00.000Z",
+          "end": "2026-12-02T07:00:00.000Z",
+          "startEpochSeconds": 1796193900,
+          "endEpochSeconds": 1796194800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796194800000:nfl extra",
+          "title": "NFL Extra",
+          "description": "",
+          "start": "2026-12-02T07:00:00.000Z",
+          "end": "2026-12-02T07:45:00.000Z",
+          "startEpochSeconds": 1796194800,
+          "endEpochSeconds": 1796197500,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796197500000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "NBA",
+          "start": "2026-12-02T07:45:00.000Z",
+          "end": "2026-12-02T08:00:00.000Z",
+          "startEpochSeconds": 1796197500,
+          "endEpochSeconds": 1796198400,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796198400000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "NBA",
+          "start": "2026-12-02T08:00:00.000Z",
+          "end": "2026-12-02T08:15:00.000Z",
+          "startEpochSeconds": 1796198400,
+          "endEpochSeconds": 1796199300,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796199300000:basket-ball : nba",
+          "title": "Basket-ball : NBA",
+          "description": "",
+          "start": "2026-12-02T08:15:00.000Z",
+          "end": "2026-12-02T10:00:00.000Z",
+          "startEpochSeconds": 1796199300,
+          "endEpochSeconds": 1796205600,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796205600000:basket-ball : nba - portland trail blazers / minnesota timberwolves",
+          "title": "Basket-ball : NBA - Portland Trail Blazers / Minnesota Timberwolves",
+          "description": "",
+          "start": "2026-12-02T10:00:00.000Z",
+          "end": "2026-12-02T11:45:00.000Z",
+          "startEpochSeconds": 1796205600,
+          "endEpochSeconds": 1796211900,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796211900000:nba extra",
+          "title": "NBA Extra",
+          "description": "",
+          "start": "2026-12-02T11:45:00.000Z",
+          "end": "2026-12-02T12:30:00.000Z",
+          "startEpochSeconds": 1796211900,
+          "endEpochSeconds": 1796214600,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796214600000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T12:30:00.000Z",
+          "end": "2026-12-02T12:45:00.000Z",
+          "startEpochSeconds": 1796214600,
+          "endEpochSeconds": 1796215500,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796215500000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T12:45:00.000Z",
+          "end": "2026-12-02T13:00:00.000Z",
+          "startEpochSeconds": 1796215500,
+          "endEpochSeconds": 1796216400,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796216400000:basket-ball : ncaa - north carolina / arkansas",
+          "title": "Basket-ball : NCAA - North Carolina / Arkansas",
+          "description": "",
+          "start": "2026-12-02T13:00:00.000Z",
+          "end": "2026-12-02T14:45:00.000Z",
+          "startEpochSeconds": 1796216400,
+          "endEpochSeconds": 1796222700,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796222700000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T14:45:00.000Z",
+          "end": "2026-12-02T15:00:00.000Z",
+          "startEpochSeconds": 1796222700,
+          "endEpochSeconds": 1796223600,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796223600000:football : coupe d'allemagne - bayern munich / hertha berlin",
+          "title": "Football : Coupe d'Allemagne - Bayern Munich / Hertha Berlin",
+          "description": "",
+          "start": "2026-12-02T15:00:00.000Z",
+          "end": "2026-12-02T17:00:00.000Z",
+          "startEpochSeconds": 1796223600,
+          "endEpochSeconds": 1796230800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796230800000:football : coupe d'allemagne - bayer leverkusen / leipzig",
+          "title": "Football : Coupe d'Allemagne - Bayer Leverkusen / Leipzig",
+          "description": "",
+          "start": "2026-12-02T17:00:00.000Z",
+          "end": "2026-12-02T19:00:00.000Z",
+          "startEpochSeconds": 1796230800,
+          "endEpochSeconds": 1796238000,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796238000000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T19:00:00.000Z",
+          "end": "2026-12-02T19:15:00.000Z",
+          "startEpochSeconds": 1796238000,
+          "endEpochSeconds": 1796238900,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796238900000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T19:15:00.000Z",
+          "end": "2026-12-02T19:30:00.000Z",
+          "startEpochSeconds": 1796238900,
+          "endEpochSeconds": 1796239800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796239800000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T19:30:00.000Z",
+          "end": "2026-12-02T19:45:00.000Z",
+          "startEpochSeconds": 1796239800,
+          "endEpochSeconds": 1796240700,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796240700000:football : coupe d'allemagne - eintracht francfort / borussia dortmund",
+          "title": "Football : Coupe d'Allemagne - Eintracht Francfort / Borussia Dortmund",
+          "description": "",
+          "start": "2026-12-02T19:45:00.000Z",
+          "end": "2026-12-02T21:45:00.000Z",
+          "startEpochSeconds": 1796240700,
+          "endEpochSeconds": 1796247900,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796247900000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T21:45:00.000Z",
+          "end": "2026-12-02T22:00:00.000Z",
+          "startEpochSeconds": 1796247900,
+          "endEpochSeconds": 1796248800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796248800000:nfl extra",
+          "title": "NFL Extra",
+          "description": "",
+          "start": "2026-12-02T22:00:00.000Z",
+          "end": "2026-12-02T22:45:00.000Z",
+          "startEpochSeconds": 1796248800,
+          "endEpochSeconds": 1796251500,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796251500000:salon vip",
+          "title": "Salon VIP",
+          "description": "",
+          "start": "2026-12-02T22:45:00.000Z",
+          "end": "2026-12-02T23:15:00.000Z",
+          "startEpochSeconds": 1796251500,
+          "endEpochSeconds": 1796253300,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796253300000:bein zap",
+          "title": "beIN Zap",
+          "description": "",
+          "start": "2026-12-02T23:15:00.000Z",
+          "end": "2026-12-02T23:45:00.000Z",
+          "startEpochSeconds": 1796253300,
+          "endEpochSeconds": 1796255100,
+          "source": "bein_fr"
+        },
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED:1796255100000:nba extra",
+          "title": "NBA Extra",
+          "description": "",
+          "start": "2026-12-02T23:45:00.000Z",
+          "end": "2026-12-03T00:30:00.000Z",
+          "startEpochSeconds": 1796255100,
+          "endEpochSeconds": 1796257800,
+          "source": "bein_fr"
         }
       ]
     },
@@ -1514,86 +1544,6 @@
       "name": "beIN SPORTS MAX 5",
       "region": "fr-fr",
       "programmes": [
-        {
-          "id": "A4425E44-B004-4137-ACB4-458BA4D710F8:1795752000000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T04:00:00.000Z",
-          "end": "2026-11-27T08:00:00.000Z",
-          "startEpochSeconds": 1795752000,
-          "endEpochSeconds": 1795766400,
-          "source": "bein_fr"
-        },
-        {
-          "id": "A4425E44-B004-4137-ACB4-458BA4D710F8:1795766400000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T08:00:00.000Z",
-          "end": "2026-11-27T12:00:00.000Z",
-          "startEpochSeconds": 1795766400,
-          "endEpochSeconds": 1795780800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "A4425E44-B004-4137-ACB4-458BA4D710F8:1795780800000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T12:00:00.000Z",
-          "end": "2026-11-27T16:00:00.000Z",
-          "startEpochSeconds": 1795780800,
-          "endEpochSeconds": 1795795200,
-          "source": "bein_fr"
-        },
-        {
-          "id": "A4425E44-B004-4137-ACB4-458BA4D710F8:1795795200000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T16:00:00.000Z",
-          "end": "2026-11-27T17:25:00.000Z",
-          "startEpochSeconds": 1795795200,
-          "endEpochSeconds": 1795800300,
-          "source": "bein_fr"
-        },
-        {
-          "id": "A4425E44-B004-4137-ACB4-458BA4D710F8:1795800300000:football : bundesliga 2 - heidenheim / nuremberg",
-          "title": "Football : Bundesliga 2 - Heidenheim / Nuremberg",
-          "description": "",
-          "start": "2026-11-27T17:25:00.000Z",
-          "end": "2026-11-27T19:30:00.000Z",
-          "startEpochSeconds": 1795800300,
-          "endEpochSeconds": 1795807800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "A4425E44-B004-4137-ACB4-458BA4D710F8:1795807800000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T19:30:00.000Z",
-          "end": "2026-11-27T21:00:00.000Z",
-          "startEpochSeconds": 1795807800,
-          "endEpochSeconds": 1795813200,
-          "source": "bein_fr"
-        },
-        {
-          "id": "A4425E44-B004-4137-ACB4-458BA4D710F8:1795813200000:hockey sur glace : nhl - anaheim ducks / los angeles kings",
-          "title": "Hockey sur glace : NHL - Anaheim Ducks / Los Angeles Kings",
-          "description": "",
-          "start": "2026-11-27T21:00:00.000Z",
-          "end": "2026-11-28T00:00:00.000Z",
-          "startEpochSeconds": 1795813200,
-          "endEpochSeconds": 1795824000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "A4425E44-B004-4137-ACB4-458BA4D710F8:1795824000000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-28T00:00:00.000Z",
-          "end": "2026-11-28T05:30:00.000Z",
-          "startEpochSeconds": 1795824000,
-          "endEpochSeconds": 1795843800,
-          "source": "bein_fr"
-        },
         {
           "id": "A4425E44-B004-4137-ACB4-458BA4D710F8:1795843800000:bein sports, le plus grand des spectacles",
           "title": "beIN SPORTS, le plus grand des spectacles",
@@ -1863,6 +1813,76 @@
           "startEpochSeconds": 1796155200,
           "endEpochSeconds": 1796169600,
           "source": "bein_fr"
+        },
+        {
+          "id": "A4425E44-B004-4137-ACB4-458BA4D710F8:1796169600000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T00:00:00.000Z",
+          "end": "2026-12-02T01:00:00.000Z",
+          "startEpochSeconds": 1796169600,
+          "endEpochSeconds": 1796173200,
+          "source": "bein_fr"
+        },
+        {
+          "id": "A4425E44-B004-4137-ACB4-458BA4D710F8:1796173200000:hockey sur glace : nhl - boston bruins / colorado avalanche",
+          "title": "Hockey sur glace : NHL - Boston Bruins / Colorado Avalanche",
+          "description": "",
+          "start": "2026-12-02T01:00:00.000Z",
+          "end": "2026-12-02T04:00:00.000Z",
+          "startEpochSeconds": 1796173200,
+          "endEpochSeconds": 1796184000,
+          "source": "bein_fr"
+        },
+        {
+          "id": "A4425E44-B004-4137-ACB4-458BA4D710F8:1796184000000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T04:00:00.000Z",
+          "end": "2026-12-02T08:00:00.000Z",
+          "startEpochSeconds": 1796184000,
+          "endEpochSeconds": 1796198400,
+          "source": "bein_fr"
+        },
+        {
+          "id": "A4425E44-B004-4137-ACB4-458BA4D710F8:1796198400000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T08:00:00.000Z",
+          "end": "2026-12-02T12:00:00.000Z",
+          "startEpochSeconds": 1796198400,
+          "endEpochSeconds": 1796212800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "A4425E44-B004-4137-ACB4-458BA4D710F8:1796212800000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T12:00:00.000Z",
+          "end": "2026-12-02T16:00:00.000Z",
+          "startEpochSeconds": 1796212800,
+          "endEpochSeconds": 1796227200,
+          "source": "bein_fr"
+        },
+        {
+          "id": "A4425E44-B004-4137-ACB4-458BA4D710F8:1796227200000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T16:00:00.000Z",
+          "end": "2026-12-02T20:00:00.000Z",
+          "startEpochSeconds": 1796227200,
+          "endEpochSeconds": 1796241600,
+          "source": "bein_fr"
+        },
+        {
+          "id": "A4425E44-B004-4137-ACB4-458BA4D710F8:1796241600000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T20:00:00.000Z",
+          "end": "2026-12-03T00:00:00.000Z",
+          "startEpochSeconds": 1796241600,
+          "endEpochSeconds": 1796256000,
+          "source": "bein_fr"
         }
       ]
     },
@@ -1871,66 +1891,6 @@
       "name": "beIN SPORTS MAX 7",
       "region": "fr-fr",
       "programmes": [
-        {
-          "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A:1795752000000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T04:00:00.000Z",
-          "end": "2026-11-27T08:00:00.000Z",
-          "startEpochSeconds": 1795752000,
-          "endEpochSeconds": 1795766400,
-          "source": "bein_fr"
-        },
-        {
-          "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A:1795766400000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T08:00:00.000Z",
-          "end": "2026-11-27T12:00:00.000Z",
-          "startEpochSeconds": 1795766400,
-          "endEpochSeconds": 1795780800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A:1795780800000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T12:00:00.000Z",
-          "end": "2026-11-27T16:00:00.000Z",
-          "startEpochSeconds": 1795780800,
-          "endEpochSeconds": 1795795200,
-          "source": "bein_fr"
-        },
-        {
-          "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A:1795795200000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T16:00:00.000Z",
-          "end": "2026-11-27T20:00:00.000Z",
-          "startEpochSeconds": 1795795200,
-          "endEpochSeconds": 1795809600,
-          "source": "bein_fr"
-        },
-        {
-          "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A:1795809600000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T20:00:00.000Z",
-          "end": "2026-11-28T00:00:00.000Z",
-          "startEpochSeconds": 1795809600,
-          "endEpochSeconds": 1795824000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A:1795824000000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-28T00:00:00.000Z",
-          "end": "2026-11-28T04:00:00.000Z",
-          "startEpochSeconds": 1795824000,
-          "endEpochSeconds": 1795838400,
-          "source": "bein_fr"
-        },
         {
           "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A:1795838400000:bein sports, le plus grand des spectacles",
           "title": "beIN SPORTS, le plus grand des spectacles",
@@ -2180,6 +2140,66 @@
           "startEpochSeconds": 1796155200,
           "endEpochSeconds": 1796169600,
           "source": "bein_fr"
+        },
+        {
+          "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A:1796169600000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T00:00:00.000Z",
+          "end": "2026-12-02T04:00:00.000Z",
+          "startEpochSeconds": 1796169600,
+          "endEpochSeconds": 1796184000,
+          "source": "bein_fr"
+        },
+        {
+          "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A:1796184000000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T04:00:00.000Z",
+          "end": "2026-12-02T08:00:00.000Z",
+          "startEpochSeconds": 1796184000,
+          "endEpochSeconds": 1796198400,
+          "source": "bein_fr"
+        },
+        {
+          "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A:1796198400000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T08:00:00.000Z",
+          "end": "2026-12-02T12:00:00.000Z",
+          "startEpochSeconds": 1796198400,
+          "endEpochSeconds": 1796212800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A:1796212800000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T12:00:00.000Z",
+          "end": "2026-12-02T16:00:00.000Z",
+          "startEpochSeconds": 1796212800,
+          "endEpochSeconds": 1796227200,
+          "source": "bein_fr"
+        },
+        {
+          "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A:1796227200000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T16:00:00.000Z",
+          "end": "2026-12-02T20:00:00.000Z",
+          "startEpochSeconds": 1796227200,
+          "endEpochSeconds": 1796241600,
+          "source": "bein_fr"
+        },
+        {
+          "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A:1796241600000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T20:00:00.000Z",
+          "end": "2026-12-03T00:00:00.000Z",
+          "startEpochSeconds": 1796241600,
+          "endEpochSeconds": 1796256000,
+          "source": "bein_fr"
         }
       ]
     },
@@ -2189,116 +2209,6 @@
       "region": "fr-fr",
       "programmes": [
         {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795733100000:basket-ball : nba - portland trail blazers / san antonio spurs",
-          "title": "Basket-ball : NBA - Portland Trail Blazers / San Antonio Spurs",
-          "description": "",
-          "start": "2026-11-26T22:45:00.000Z",
-          "end": "2026-11-27T00:30:00.000Z",
-          "startEpochSeconds": 1795733100,
-          "endEpochSeconds": 1795739400,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795755600000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-27T05:00:00.000Z",
-          "end": "2026-11-27T07:00:00.000Z",
-          "startEpochSeconds": 1795755600,
-          "endEpochSeconds": 1795762800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795762800000:basket-ball : euroligue masculine - besiktas / paris basketball",
-          "title": "Basket-ball : Euroligue masculine - Besiktas / Paris Basketball",
-          "description": "",
-          "start": "2026-11-27T07:00:00.000Z",
-          "end": "2026-11-27T09:00:00.000Z",
-          "startEpochSeconds": 1795762800,
-          "endEpochSeconds": 1795770000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795770000000:volley-ball : alterna volstar - tours / montpellier",
-          "title": "Volley-ball : Alterna VOLSTAR - Tours / Montpellier",
-          "description": "",
-          "start": "2026-11-27T09:00:00.000Z",
-          "end": "2026-11-27T11:00:00.000Z",
-          "startEpochSeconds": 1795770000,
-          "endEpochSeconds": 1795777200,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795777200000:xxi, le sport des solutions",
-          "title": "XXI, le sport des solutions",
-          "description": "",
-          "start": "2026-11-27T11:00:00.000Z",
-          "end": "2026-11-27T12:00:00.000Z",
-          "startEpochSeconds": 1795777200,
-          "endEpochSeconds": 1795780800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795780800000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-27T12:00:00.000Z",
-          "end": "2026-11-27T12:15:00.000Z",
-          "startEpochSeconds": 1795780800,
-          "endEpochSeconds": 1795781700,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795781700000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-27T12:15:00.000Z",
-          "end": "2026-11-27T12:30:00.000Z",
-          "startEpochSeconds": 1795781700,
-          "endEpochSeconds": 1795782600,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795782600000:football américain : nfl - dallas cowboys / philadelphia eagles",
-          "title": "Football américain : NFL - Dallas Cowboys / Philadelphia Eagles",
-          "description": "",
-          "start": "2026-11-27T12:30:00.000Z",
-          "end": "2026-11-27T15:00:00.000Z",
-          "startEpochSeconds": 1795782600,
-          "endEpochSeconds": 1795791600,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795791600000:tennis : phase finale de coupe davis - italie / république tchèque",
-          "title": "Tennis : Phase finale de Coupe Davis - Italie / République tchèque",
-          "description": "",
-          "start": "2026-11-27T15:00:00.000Z",
-          "end": "2026-11-27T19:00:00.000Z",
-          "startEpochSeconds": 1795791600,
-          "endEpochSeconds": 1795806000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795806000000:tennis : phase finale de coupe davis - italie / république tchèque",
-          "title": "Tennis : Phase finale de Coupe Davis - Italie / République tchèque",
-          "description": "",
-          "start": "2026-11-27T19:00:00.000Z",
-          "end": "2026-11-27T21:45:00.000Z",
-          "startEpochSeconds": 1795806000,
-          "endEpochSeconds": 1795815900,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795815900000:handball : match amical féminin - allemagne / france",
-          "title": "Handball : Match amical féminin - Allemagne / France",
-          "description": "",
-          "start": "2026-11-27T21:45:00.000Z",
-          "end": "2026-11-27T23:15:00.000Z",
-          "startEpochSeconds": 1795815900,
-          "endEpochSeconds": 1795821300,
-          "source": "bein_fr"
-        },
-        {
           "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795821300000:volley-ball : alterna volstar - tours / montpellier",
           "title": "Volley-ball : Alterna VOLSTAR - Tours / Montpellier",
           "description": "",
@@ -2306,16 +2216,6 @@
           "end": "2026-11-28T01:15:00.000Z",
           "startEpochSeconds": 1795821300,
           "endEpochSeconds": 1795828500,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1795828500000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-28T01:15:00.000Z",
-          "end": "2026-11-28T05:00:00.000Z",
-          "startEpochSeconds": 1795828500,
-          "endEpochSeconds": 1795842000,
           "source": "bein_fr"
         },
         {
@@ -2877,6 +2777,186 @@
           "startEpochSeconds": 1796165100,
           "endEpochSeconds": 1796174100,
           "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796174100000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T01:15:00.000Z",
+          "end": "2026-12-02T05:00:00.000Z",
+          "startEpochSeconds": 1796174100,
+          "endEpochSeconds": 1796187600,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796187600000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T05:00:00.000Z",
+          "end": "2026-12-02T07:00:00.000Z",
+          "startEpochSeconds": 1796187600,
+          "endEpochSeconds": 1796194800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796194800000:basket-ball : qualifications à la coupe du monde masculine - france / suède",
+          "title": "Basket-ball : Qualifications à la Coupe du monde masculine - France / Suède",
+          "description": "",
+          "start": "2026-12-02T07:00:00.000Z",
+          "end": "2026-12-02T08:45:00.000Z",
+          "startEpochSeconds": 1796194800,
+          "endEpochSeconds": 1796201100,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796201100000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T08:45:00.000Z",
+          "end": "2026-12-02T09:00:00.000Z",
+          "startEpochSeconds": 1796201100,
+          "endEpochSeconds": 1796202000,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796202000000:made in england",
+          "title": "Made in England",
+          "description": "",
+          "start": "2026-12-02T09:00:00.000Z",
+          "end": "2026-12-02T09:30:00.000Z",
+          "startEpochSeconds": 1796202000,
+          "endEpochSeconds": 1796203800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796203800000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T09:30:00.000Z",
+          "end": "2026-12-02T09:45:00.000Z",
+          "startEpochSeconds": 1796203800,
+          "endEpochSeconds": 1796204700,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796204700000:football américain : nfl - tampa bay buccaneers / carolina panthers",
+          "title": "Football américain : NFL - Tampa Bay Buccaneers / Carolina Panthers",
+          "description": "",
+          "start": "2026-12-02T09:45:00.000Z",
+          "end": "2026-12-02T12:15:00.000Z",
+          "startEpochSeconds": 1796204700,
+          "endEpochSeconds": 1796213700,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796213700000:nfl extra",
+          "title": "NFL Extra",
+          "description": "",
+          "start": "2026-12-02T12:15:00.000Z",
+          "end": "2026-12-02T13:15:00.000Z",
+          "startEpochSeconds": 1796213700,
+          "endEpochSeconds": 1796217300,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796217300000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "NBA",
+          "start": "2026-12-02T13:15:00.000Z",
+          "end": "2026-12-02T13:30:00.000Z",
+          "startEpochSeconds": 1796217300,
+          "endEpochSeconds": 1796218200,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796218200000:basket-ball : nba",
+          "title": "Basket-ball : NBA",
+          "description": "",
+          "start": "2026-12-02T13:30:00.000Z",
+          "end": "2026-12-02T15:15:00.000Z",
+          "startEpochSeconds": 1796218200,
+          "endEpochSeconds": 1796224500,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796224500000:basket-ball : nba - portland trail blazers / minnesota timberwolves",
+          "title": "Basket-ball : NBA - Portland Trail Blazers / Minnesota Timberwolves",
+          "description": "",
+          "start": "2026-12-02T15:15:00.000Z",
+          "end": "2026-12-02T17:00:00.000Z",
+          "startEpochSeconds": 1796224500,
+          "endEpochSeconds": 1796230800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796230800000:nba extra",
+          "title": "NBA Extra",
+          "description": "",
+          "start": "2026-12-02T17:00:00.000Z",
+          "end": "2026-12-02T17:45:00.000Z",
+          "startEpochSeconds": 1796230800,
+          "endEpochSeconds": 1796233500,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796233500000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T17:45:00.000Z",
+          "end": "2026-12-02T18:00:00.000Z",
+          "startEpochSeconds": 1796233500,
+          "endEpochSeconds": 1796234400,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796234400000:salon vip",
+          "title": "Salon VIP",
+          "description": "",
+          "start": "2026-12-02T18:00:00.000Z",
+          "end": "2026-12-02T18:30:00.000Z",
+          "startEpochSeconds": 1796234400,
+          "endEpochSeconds": 1796236200,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796236200000:volley-ball : alterna volstar - tours / montpellier",
+          "title": "Volley-ball : Alterna VOLSTAR - Tours / Montpellier",
+          "description": "",
+          "start": "2026-12-02T18:30:00.000Z",
+          "end": "2026-12-02T20:30:00.000Z",
+          "startEpochSeconds": 1796236200,
+          "endEpochSeconds": 1796243400,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796243400000:handball : daikin starligue - chambéry / limoges",
+          "title": "Handball : Daikin StarLigue - Chambéry / Limoges",
+          "description": "",
+          "start": "2026-12-02T20:30:00.000Z",
+          "end": "2026-12-02T22:00:00.000Z",
+          "startEpochSeconds": 1796243400,
+          "endEpochSeconds": 1796248800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796248800000:tennis : phase finale de coupe davis",
+          "title": "Tennis : Phase finale de Coupe Davis",
+          "description": "",
+          "start": "2026-12-02T22:00:00.000Z",
+          "end": "2026-12-02T23:45:00.000Z",
+          "startEpochSeconds": 1796248800,
+          "endEpochSeconds": 1796255100,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174:1796255100000:football américain : nfl - cleveland browns / las vegas raiders",
+          "title": "Football américain : NFL - Cleveland Browns / Las Vegas Raiders",
+          "description": "",
+          "start": "2026-12-02T23:45:00.000Z",
+          "end": "2026-12-03T02:15:00.000Z",
+          "startEpochSeconds": 1796255100,
+          "endEpochSeconds": 1796264100,
+          "source": "bein_fr"
         }
       ]
     },
@@ -2885,66 +2965,6 @@
       "name": "beIN SPORTS MAX 10",
       "region": "fr-fr",
       "programmes": [
-        {
-          "id": "6F425028-14F0-4E38-B776-71A9DB3F3493:1795752000000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T04:00:00.000Z",
-          "end": "2026-11-27T08:00:00.000Z",
-          "startEpochSeconds": 1795752000,
-          "endEpochSeconds": 1795766400,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6F425028-14F0-4E38-B776-71A9DB3F3493:1795766400000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T08:00:00.000Z",
-          "end": "2026-11-27T12:00:00.000Z",
-          "startEpochSeconds": 1795766400,
-          "endEpochSeconds": 1795780800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6F425028-14F0-4E38-B776-71A9DB3F3493:1795780800000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T12:00:00.000Z",
-          "end": "2026-11-27T16:00:00.000Z",
-          "startEpochSeconds": 1795780800,
-          "endEpochSeconds": 1795795200,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6F425028-14F0-4E38-B776-71A9DB3F3493:1795795200000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T16:00:00.000Z",
-          "end": "2026-11-27T20:00:00.000Z",
-          "startEpochSeconds": 1795795200,
-          "endEpochSeconds": 1795809600,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6F425028-14F0-4E38-B776-71A9DB3F3493:1795809600000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T20:00:00.000Z",
-          "end": "2026-11-28T00:00:00.000Z",
-          "startEpochSeconds": 1795809600,
-          "endEpochSeconds": 1795824000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "6F425028-14F0-4E38-B776-71A9DB3F3493:1795824000000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-28T00:00:00.000Z",
-          "end": "2026-11-28T04:00:00.000Z",
-          "startEpochSeconds": 1795824000,
-          "endEpochSeconds": 1795838400,
-          "source": "bein_fr"
-        },
         {
           "id": "6F425028-14F0-4E38-B776-71A9DB3F3493:1795838400000:bein sports, le plus grand des spectacles",
           "title": "beIN SPORTS, le plus grand des spectacles",
@@ -3194,6 +3214,66 @@
           "startEpochSeconds": 1796155200,
           "endEpochSeconds": 1796169600,
           "source": "bein_fr"
+        },
+        {
+          "id": "6F425028-14F0-4E38-B776-71A9DB3F3493:1796169600000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T00:00:00.000Z",
+          "end": "2026-12-02T04:00:00.000Z",
+          "startEpochSeconds": 1796169600,
+          "endEpochSeconds": 1796184000,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6F425028-14F0-4E38-B776-71A9DB3F3493:1796184000000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T04:00:00.000Z",
+          "end": "2026-12-02T08:00:00.000Z",
+          "startEpochSeconds": 1796184000,
+          "endEpochSeconds": 1796198400,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6F425028-14F0-4E38-B776-71A9DB3F3493:1796198400000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T08:00:00.000Z",
+          "end": "2026-12-02T12:00:00.000Z",
+          "startEpochSeconds": 1796198400,
+          "endEpochSeconds": 1796212800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6F425028-14F0-4E38-B776-71A9DB3F3493:1796212800000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T12:00:00.000Z",
+          "end": "2026-12-02T16:00:00.000Z",
+          "startEpochSeconds": 1796212800,
+          "endEpochSeconds": 1796227200,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6F425028-14F0-4E38-B776-71A9DB3F3493:1796227200000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T16:00:00.000Z",
+          "end": "2026-12-02T20:00:00.000Z",
+          "startEpochSeconds": 1796227200,
+          "endEpochSeconds": 1796241600,
+          "source": "bein_fr"
+        },
+        {
+          "id": "6F425028-14F0-4E38-B776-71A9DB3F3493:1796241600000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T20:00:00.000Z",
+          "end": "2026-12-03T00:00:00.000Z",
+          "startEpochSeconds": 1796241600,
+          "endEpochSeconds": 1796256000,
+          "source": "bein_fr"
         }
       ]
     },
@@ -3203,146 +3283,6 @@
       "region": "fr-fr",
       "programmes": [
         {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795755600000:football : süper lig - konyaspor / besiktas",
-          "title": "Football : Süper Lig - Konyaspor / Besiktas",
-          "description": "",
-          "start": "2026-11-27T05:00:00.000Z",
-          "end": "2026-11-27T07:00:00.000Z",
-          "startEpochSeconds": 1795755600,
-          "endEpochSeconds": 1795762800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795762800000:football : bundesliga - fc union berlin / leipzig",
-          "title": "Football : Bundesliga - FC Union Berlin / Leipzig",
-          "description": "",
-          "start": "2026-11-27T07:00:00.000Z",
-          "end": "2026-11-27T09:00:00.000Z",
-          "startEpochSeconds": 1795762800,
-          "endEpochSeconds": 1795770000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795770000000:football : ligue 2 bkt - nantes / grenoble",
-          "title": "Football : Ligue 2 BKT - Nantes / Grenoble",
-          "description": "",
-          "start": "2026-11-27T09:00:00.000Z",
-          "end": "2026-11-27T11:00:00.000Z",
-          "startEpochSeconds": 1795770000,
-          "endEpochSeconds": 1795777200,
-          "source": "bein_fr"
-        },
-        {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795777200000:football : süper lig - galatasaray / samsunspor",
-          "title": "Football : Süper Lig - Galatasaray / Samsunspor",
-          "description": "",
-          "start": "2026-11-27T11:00:00.000Z",
-          "end": "2026-11-27T13:00:00.000Z",
-          "startEpochSeconds": 1795777200,
-          "endEpochSeconds": 1795784400,
-          "source": "bein_fr"
-        },
-        {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795784400000:foot fauteuil électrique : championnat de france division 1 - douai - kerpape",
-          "title": "Foot fauteuil électrique : Championnat de France Division 1 - Douai - Kerpape",
-          "description": "",
-          "start": "2026-11-27T13:00:00.000Z",
-          "end": "2026-11-27T14:00:00.000Z",
-          "startEpochSeconds": 1795784400,
-          "endEpochSeconds": 1795788000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795788000000:this is paris",
-          "title": "This is Paris",
-          "description": "",
-          "start": "2026-11-27T14:00:00.000Z",
-          "end": "2026-11-27T14:30:00.000Z",
-          "startEpochSeconds": 1795788000,
-          "endEpochSeconds": 1795789800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795789800000:salon vip",
-          "title": "Salon VIP",
-          "description": "",
-          "start": "2026-11-27T14:30:00.000Z",
-          "end": "2026-11-27T15:00:00.000Z",
-          "startEpochSeconds": 1795789800,
-          "endEpochSeconds": 1795791600,
-          "source": "bein_fr"
-        },
-        {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795791600000:football : bundesliga - bayern munich / cologne",
-          "title": "Football : Bundesliga - Bayern Munich / Cologne",
-          "description": "",
-          "start": "2026-11-27T15:00:00.000Z",
-          "end": "2026-11-27T17:00:00.000Z",
-          "startEpochSeconds": 1795791600,
-          "endEpochSeconds": 1795798800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795798800000:handball : match amical féminin - allemagne / france",
-          "title": "Handball : Match amical féminin - Allemagne / France",
-          "description": "",
-          "start": "2026-11-27T17:00:00.000Z",
-          "end": "2026-11-27T18:30:00.000Z",
-          "startEpochSeconds": 1795798800,
-          "endEpochSeconds": 1795804200,
-          "source": "bein_fr"
-        },
-        {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795804200000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-27T18:30:00.000Z",
-          "end": "2026-11-27T18:45:00.000Z",
-          "startEpochSeconds": 1795804200,
-          "endEpochSeconds": 1795805100,
-          "source": "bein_fr"
-        },
-        {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795805100000:handball : avant-match",
-          "title": "Handball : avant-match",
-          "description": "",
-          "start": "2026-11-27T18:45:00.000Z",
-          "end": "2026-11-27T19:00:00.000Z",
-          "startEpochSeconds": 1795805100,
-          "endEpochSeconds": 1795806000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795806000000:handball : daikin starligue - chambéry / limoges",
-          "title": "Handball : Daikin StarLigue - Chambéry / Limoges",
-          "description": "",
-          "start": "2026-11-27T19:00:00.000Z",
-          "end": "2026-11-27T20:45:00.000Z",
-          "startEpochSeconds": 1795806000,
-          "endEpochSeconds": 1795812300,
-          "source": "bein_fr"
-        },
-        {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795812300000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-27T20:45:00.000Z",
-          "end": "2026-11-27T21:00:00.000Z",
-          "startEpochSeconds": 1795812300,
-          "endEpochSeconds": 1795813200,
-          "source": "bein_fr"
-        },
-        {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795813200000:nfl extra",
-          "title": "NFL Extra",
-          "description": "",
-          "start": "2026-11-27T21:00:00.000Z",
-          "end": "2026-11-27T21:45:00.000Z",
-          "startEpochSeconds": 1795813200,
-          "endEpochSeconds": 1795815900,
-          "source": "bein_fr"
-        },
-        {
           "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795815900000:football américain : nfl - buffalo bills / kansas city chiefs",
           "title": "Football américain : NFL - Buffalo Bills / Kansas City Chiefs",
           "description": "",
@@ -3350,46 +3290,6 @@
           "end": "2026-11-28T00:15:00.000Z",
           "startEpochSeconds": 1795815900,
           "endEpochSeconds": 1795824900,
-          "source": "bein_fr"
-        },
-        {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795824900000:ça se passe sur bein sports",
-          "title": "Ça se passe sur beIN SPORTS",
-          "description": "",
-          "start": "2026-11-28T00:15:00.000Z",
-          "end": "2026-11-28T00:30:00.000Z",
-          "startEpochSeconds": 1795824900,
-          "endEpochSeconds": 1795825800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795825800000:michael olise, when the game speaks",
-          "title": "Michael Olise, When the Game Speaks",
-          "description": "",
-          "start": "2026-11-28T00:30:00.000Z",
-          "end": "2026-11-28T01:00:00.000Z",
-          "startEpochSeconds": 1795825800,
-          "endEpochSeconds": 1795827600,
-          "source": "bein_fr"
-        },
-        {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795827600000:football : süper lig - kocaelispor / fenerbahçe",
-          "title": "Football : Süper Lig - Kocaelispor / Fenerbahçe",
-          "description": "",
-          "start": "2026-11-28T01:00:00.000Z",
-          "end": "2026-11-28T03:00:00.000Z",
-          "startEpochSeconds": 1795827600,
-          "endEpochSeconds": 1795834800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1795834800000:football : süper lig - trabzonspor / eyüpspor",
-          "title": "Football : Süper Lig - Trabzonspor / Eyüpspor",
-          "description": "",
-          "start": "2026-11-28T03:00:00.000Z",
-          "end": "2026-11-28T05:00:00.000Z",
-          "startEpochSeconds": 1795834800,
-          "endEpochSeconds": 1795842000,
           "source": "bein_fr"
         },
         {
@@ -4141,6 +4041,206 @@
           "startEpochSeconds": 1796162400,
           "endEpochSeconds": 1796169600,
           "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796169600000:made in england",
+          "title": "Made in England",
+          "description": "",
+          "start": "2026-12-02T00:00:00.000Z",
+          "end": "2026-12-02T00:30:00.000Z",
+          "startEpochSeconds": 1796169600,
+          "endEpochSeconds": 1796171400,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796171400000:this is paris",
+          "title": "This is Paris",
+          "description": "",
+          "start": "2026-12-02T00:30:00.000Z",
+          "end": "2026-12-02T01:00:00.000Z",
+          "startEpochSeconds": 1796171400,
+          "endEpochSeconds": 1796173200,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796173200000:football : süper lig - alanyaspor / konyaspor",
+          "title": "Football : Süper Lig - Alanyaspor / Konyaspor",
+          "description": "",
+          "start": "2026-12-02T01:00:00.000Z",
+          "end": "2026-12-02T03:00:00.000Z",
+          "startEpochSeconds": 1796173200,
+          "endEpochSeconds": 1796180400,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796180400000:football : championnat du portugal - benfica lisbonne / famalicao",
+          "title": "Football : Championnat du Portugal - Benfica Lisbonne / Famalicao",
+          "description": "",
+          "start": "2026-12-02T03:00:00.000Z",
+          "end": "2026-12-02T05:00:00.000Z",
+          "startEpochSeconds": 1796180400,
+          "endEpochSeconds": 1796187600,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796187600000:football : bundesliga - borussia dortmund / bayer leverkusen",
+          "title": "Football : Bundesliga - Borussia Dortmund / Bayer Leverkusen",
+          "description": "",
+          "start": "2026-12-02T05:00:00.000Z",
+          "end": "2026-12-02T07:00:00.000Z",
+          "startEpochSeconds": 1796187600,
+          "endEpochSeconds": 1796194800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796194800000:football : süper lig - besiktas / galatasaray",
+          "title": "Football : Süper Lig - Besiktas / Galatasaray",
+          "description": "",
+          "start": "2026-12-02T07:00:00.000Z",
+          "end": "2026-12-02T09:00:00.000Z",
+          "startEpochSeconds": 1796194800,
+          "endEpochSeconds": 1796202000,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796202000000:football : coupe d'allemagne - bayern munich / hertha berlin",
+          "title": "Football : Coupe d'Allemagne - Bayern Munich / Hertha Berlin",
+          "description": "",
+          "start": "2026-12-02T09:00:00.000Z",
+          "end": "2026-12-02T11:00:00.000Z",
+          "startEpochSeconds": 1796202000,
+          "endEpochSeconds": 1796209200,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796209200000:football : championnat du portugal - benfica lisbonne / famalicao",
+          "title": "Football : Championnat du Portugal - Benfica Lisbonne / Famalicao",
+          "description": "",
+          "start": "2026-12-02T11:00:00.000Z",
+          "end": "2026-12-02T13:00:00.000Z",
+          "startEpochSeconds": 1796209200,
+          "endEpochSeconds": 1796216400,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796216400000:a point",
+          "title": "A point",
+          "description": "",
+          "start": "2026-12-02T13:00:00.000Z",
+          "end": "2026-12-02T14:00:00.000Z",
+          "startEpochSeconds": 1796216400,
+          "endEpochSeconds": 1796220000,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796220000000:salon vip",
+          "title": "Salon VIP",
+          "description": "",
+          "start": "2026-12-02T14:00:00.000Z",
+          "end": "2026-12-02T14:30:00.000Z",
+          "startEpochSeconds": 1796220000,
+          "endEpochSeconds": 1796221800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796221800000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T14:30:00.000Z",
+          "end": "2026-12-02T14:45:00.000Z",
+          "startEpochSeconds": 1796221800,
+          "endEpochSeconds": 1796222700,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796222700000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T14:45:00.000Z",
+          "end": "2026-12-02T15:00:00.000Z",
+          "startEpochSeconds": 1796222700,
+          "endEpochSeconds": 1796223600,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796223600000:football : championnat du portugal - fc porto / sporting club portugal",
+          "title": "Football : Championnat du Portugal - FC Porto / Sporting Club Portugal",
+          "description": "",
+          "start": "2026-12-02T15:00:00.000Z",
+          "end": "2026-12-02T17:00:00.000Z",
+          "startEpochSeconds": 1796223600,
+          "endEpochSeconds": 1796230800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796230800000:football : coupe d'allemagne - kaiserslautern / fribourg",
+          "title": "Football : Coupe d'Allemagne - Kaiserslautern / Fribourg",
+          "description": "",
+          "start": "2026-12-02T17:00:00.000Z",
+          "end": "2026-12-02T19:00:00.000Z",
+          "startEpochSeconds": 1796230800,
+          "endEpochSeconds": 1796238000,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796238000000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T19:00:00.000Z",
+          "end": "2026-12-02T19:15:00.000Z",
+          "startEpochSeconds": 1796238000,
+          "endEpochSeconds": 1796238900,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796238900000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T19:15:00.000Z",
+          "end": "2026-12-02T19:30:00.000Z",
+          "startEpochSeconds": 1796238900,
+          "endEpochSeconds": 1796239800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796239800000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T19:30:00.000Z",
+          "end": "2026-12-02T19:45:00.000Z",
+          "startEpochSeconds": 1796239800,
+          "endEpochSeconds": 1796240700,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796240700000:football : coupe d'allemagne - bochum / augsbourg",
+          "title": "Football : Coupe d'Allemagne - Bochum / Augsbourg",
+          "description": "",
+          "start": "2026-12-02T19:45:00.000Z",
+          "end": "2026-12-02T21:45:00.000Z",
+          "startEpochSeconds": 1796240700,
+          "endEpochSeconds": 1796247900,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796247900000:ça se passe sur bein sports",
+          "title": "Ça se passe sur beIN SPORTS",
+          "description": "",
+          "start": "2026-12-02T21:45:00.000Z",
+          "end": "2026-12-02T22:00:00.000Z",
+          "startEpochSeconds": 1796247900,
+          "endEpochSeconds": 1796248800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A:1796248800000:football : coupe d'allemagne - bayern munich / hertha berlin",
+          "title": "Football : Coupe d'Allemagne - Bayern Munich / Hertha Berlin",
+          "description": "",
+          "start": "2026-12-02T22:00:00.000Z",
+          "end": "2026-12-03T00:00:00.000Z",
+          "startEpochSeconds": 1796248800,
+          "endEpochSeconds": 1796256000,
+          "source": "bein_fr"
         }
       ]
     },
@@ -4149,76 +4249,6 @@
       "name": "beIN SPORTS MAX 6",
       "region": "fr-fr",
       "programmes": [
-        {
-          "id": "BBD26D71-897D-4799-87A1-A87120130D48:1795752000000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T04:00:00.000Z",
-          "end": "2026-11-27T08:00:00.000Z",
-          "startEpochSeconds": 1795752000,
-          "endEpochSeconds": 1795766400,
-          "source": "bein_fr"
-        },
-        {
-          "id": "BBD26D71-897D-4799-87A1-A87120130D48:1795766400000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T08:00:00.000Z",
-          "end": "2026-11-27T12:00:00.000Z",
-          "startEpochSeconds": 1795766400,
-          "endEpochSeconds": 1795780800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "BBD26D71-897D-4799-87A1-A87120130D48:1795780800000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T12:00:00.000Z",
-          "end": "2026-11-27T16:00:00.000Z",
-          "startEpochSeconds": 1795780800,
-          "endEpochSeconds": 1795795200,
-          "source": "bein_fr"
-        },
-        {
-          "id": "BBD26D71-897D-4799-87A1-A87120130D48:1795795200000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T16:00:00.000Z",
-          "end": "2026-11-27T19:55:00.000Z",
-          "startEpochSeconds": 1795795200,
-          "endEpochSeconds": 1795809300,
-          "source": "bein_fr"
-        },
-        {
-          "id": "BBD26D71-897D-4799-87A1-A87120130D48:1795809300000:football : efl championship - southampton / middlesbrough",
-          "title": "Football : EFL Championship - Southampton / Middlesbrough",
-          "description": "",
-          "start": "2026-11-27T19:55:00.000Z",
-          "end": "2026-11-27T22:00:00.000Z",
-          "startEpochSeconds": 1795809300,
-          "endEpochSeconds": 1795816800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "BBD26D71-897D-4799-87A1-A87120130D48:1795816800000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T22:00:00.000Z",
-          "end": "2026-11-28T00:00:00.000Z",
-          "startEpochSeconds": 1795816800,
-          "endEpochSeconds": 1795824000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "BBD26D71-897D-4799-87A1-A87120130D48:1795824000000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-28T00:00:00.000Z",
-          "end": "2026-11-28T05:30:00.000Z",
-          "startEpochSeconds": 1795824000,
-          "endEpochSeconds": 1795843800,
-          "source": "bein_fr"
-        },
         {
           "id": "BBD26D71-897D-4799-87A1-A87120130D48:1795843800000:bein sports, le plus grand des spectacles",
           "title": "beIN SPORTS, le plus grand des spectacles",
@@ -4468,6 +4498,66 @@
           "startEpochSeconds": 1796155200,
           "endEpochSeconds": 1796169600,
           "source": "bein_fr"
+        },
+        {
+          "id": "BBD26D71-897D-4799-87A1-A87120130D48:1796169600000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T00:00:00.000Z",
+          "end": "2026-12-02T04:00:00.000Z",
+          "startEpochSeconds": 1796169600,
+          "endEpochSeconds": 1796184000,
+          "source": "bein_fr"
+        },
+        {
+          "id": "BBD26D71-897D-4799-87A1-A87120130D48:1796184000000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T04:00:00.000Z",
+          "end": "2026-12-02T08:00:00.000Z",
+          "startEpochSeconds": 1796184000,
+          "endEpochSeconds": 1796198400,
+          "source": "bein_fr"
+        },
+        {
+          "id": "BBD26D71-897D-4799-87A1-A87120130D48:1796198400000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T08:00:00.000Z",
+          "end": "2026-12-02T12:00:00.000Z",
+          "startEpochSeconds": 1796198400,
+          "endEpochSeconds": 1796212800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "BBD26D71-897D-4799-87A1-A87120130D48:1796212800000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T12:00:00.000Z",
+          "end": "2026-12-02T16:00:00.000Z",
+          "startEpochSeconds": 1796212800,
+          "endEpochSeconds": 1796227200,
+          "source": "bein_fr"
+        },
+        {
+          "id": "BBD26D71-897D-4799-87A1-A87120130D48:1796227200000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T16:00:00.000Z",
+          "end": "2026-12-02T20:00:00.000Z",
+          "startEpochSeconds": 1796227200,
+          "endEpochSeconds": 1796241600,
+          "source": "bein_fr"
+        },
+        {
+          "id": "BBD26D71-897D-4799-87A1-A87120130D48:1796241600000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T20:00:00.000Z",
+          "end": "2026-12-03T00:00:00.000Z",
+          "startEpochSeconds": 1796241600,
+          "endEpochSeconds": 1796256000,
+          "source": "bein_fr"
         }
       ]
     },
@@ -4476,86 +4566,6 @@
       "name": "beIN SPORTS MAX 4",
       "region": "fr-fr",
       "programmes": [
-        {
-          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1795752000000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T04:00:00.000Z",
-          "end": "2026-11-27T08:00:00.000Z",
-          "startEpochSeconds": 1795752000,
-          "endEpochSeconds": 1795766400,
-          "source": "bein_fr"
-        },
-        {
-          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1795766400000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T08:00:00.000Z",
-          "end": "2026-11-27T12:00:00.000Z",
-          "startEpochSeconds": 1795766400,
-          "endEpochSeconds": 1795780800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1795780800000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T12:00:00.000Z",
-          "end": "2026-11-27T16:55:00.000Z",
-          "startEpochSeconds": 1795780800,
-          "endEpochSeconds": 1795798500,
-          "source": "bein_fr"
-        },
-        {
-          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1795798500000:football : süper lig - alanyaspor / konyaspor",
-          "title": "Football : Süper Lig - Alanyaspor / Konyaspor",
-          "description": "",
-          "start": "2026-11-27T16:55:00.000Z",
-          "end": "2026-11-27T19:00:00.000Z",
-          "startEpochSeconds": 1795798500,
-          "endEpochSeconds": 1795806000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1795806000000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T19:00:00.000Z",
-          "end": "2026-11-27T19:24:00.000Z",
-          "startEpochSeconds": 1795806000,
-          "endEpochSeconds": 1795807440,
-          "source": "bein_fr"
-        },
-        {
-          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1795807440000:football : bundesliga - werder brême / mönchengladbach",
-          "title": "Football : Bundesliga - Werder Brême / Mönchengladbach",
-          "description": "",
-          "start": "2026-11-27T19:24:00.000Z",
-          "end": "2026-11-27T21:30:00.000Z",
-          "startEpochSeconds": 1795807440,
-          "endEpochSeconds": 1795815000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1795815000000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T21:30:00.000Z",
-          "end": "2026-11-28T00:00:00.000Z",
-          "startEpochSeconds": 1795815000,
-          "endEpochSeconds": 1795824000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1795824000000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-28T00:00:00.000Z",
-          "end": "2026-11-28T04:00:00.000Z",
-          "startEpochSeconds": 1795824000,
-          "endEpochSeconds": 1795838400,
-          "source": "bein_fr"
-        },
         {
           "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1795838400000:bein sports, le plus grand des spectacles",
           "title": "beIN SPORTS, le plus grand des spectacles",
@@ -4855,6 +4865,76 @@
           "startEpochSeconds": 1796166000,
           "endEpochSeconds": 1796171400,
           "source": "bein_fr"
+        },
+        {
+          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1796171400000:basket-ball : ncaa - north carolina / arkansas",
+          "title": "Basket-ball : NCAA - North Carolina / Arkansas",
+          "description": "",
+          "start": "2026-12-02T00:30:00.000Z",
+          "end": "2026-12-02T02:30:00.000Z",
+          "startEpochSeconds": 1796171400,
+          "endEpochSeconds": 1796178600,
+          "source": "bein_fr"
+        },
+        {
+          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1796178600000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T02:30:00.000Z",
+          "end": "2026-12-02T08:00:00.000Z",
+          "startEpochSeconds": 1796178600,
+          "endEpochSeconds": 1796198400,
+          "source": "bein_fr"
+        },
+        {
+          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1796198400000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T08:00:00.000Z",
+          "end": "2026-12-02T12:00:00.000Z",
+          "startEpochSeconds": 1796198400,
+          "endEpochSeconds": 1796212800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1796212800000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T12:00:00.000Z",
+          "end": "2026-12-02T16:00:00.000Z",
+          "startEpochSeconds": 1796212800,
+          "endEpochSeconds": 1796227200,
+          "source": "bein_fr"
+        },
+        {
+          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1796227200000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T16:00:00.000Z",
+          "end": "2026-12-02T20:00:00.000Z",
+          "startEpochSeconds": 1796227200,
+          "endEpochSeconds": 1796241600,
+          "source": "bein_fr"
+        },
+        {
+          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1796241600000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T20:00:00.000Z",
+          "end": "2026-12-02T23:00:00.000Z",
+          "startEpochSeconds": 1796241600,
+          "endEpochSeconds": 1796252400,
+          "source": "bein_fr"
+        },
+        {
+          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3:1796252400000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T23:00:00.000Z",
+          "end": "2026-12-03T00:30:00.000Z",
+          "startEpochSeconds": 1796252400,
+          "endEpochSeconds": 1796257800,
+          "source": "bein_fr"
         }
       ]
     },
@@ -4863,66 +4943,6 @@
       "name": "beIN SPORTS MAX 8",
       "region": "fr-fr",
       "programmes": [
-        {
-          "id": "76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A:1795752000000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T04:00:00.000Z",
-          "end": "2026-11-27T08:00:00.000Z",
-          "startEpochSeconds": 1795752000,
-          "endEpochSeconds": 1795766400,
-          "source": "bein_fr"
-        },
-        {
-          "id": "76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A:1795766400000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T08:00:00.000Z",
-          "end": "2026-11-27T12:00:00.000Z",
-          "startEpochSeconds": 1795766400,
-          "endEpochSeconds": 1795780800,
-          "source": "bein_fr"
-        },
-        {
-          "id": "76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A:1795780800000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T12:00:00.000Z",
-          "end": "2026-11-27T16:00:00.000Z",
-          "startEpochSeconds": 1795780800,
-          "endEpochSeconds": 1795795200,
-          "source": "bein_fr"
-        },
-        {
-          "id": "76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A:1795795200000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T16:00:00.000Z",
-          "end": "2026-11-27T20:00:00.000Z",
-          "startEpochSeconds": 1795795200,
-          "endEpochSeconds": 1795809600,
-          "source": "bein_fr"
-        },
-        {
-          "id": "76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A:1795809600000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-27T20:00:00.000Z",
-          "end": "2026-11-28T00:00:00.000Z",
-          "startEpochSeconds": 1795809600,
-          "endEpochSeconds": 1795824000,
-          "source": "bein_fr"
-        },
-        {
-          "id": "76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A:1795824000000:bein sports, le plus grand des spectacles",
-          "title": "beIN SPORTS, le plus grand des spectacles",
-          "description": "",
-          "start": "2026-11-28T00:00:00.000Z",
-          "end": "2026-11-28T04:00:00.000Z",
-          "startEpochSeconds": 1795824000,
-          "endEpochSeconds": 1795838400,
-          "source": "bein_fr"
-        },
         {
           "id": "76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A:1795838400000:bein sports, le plus grand des spectacles",
           "title": "beIN SPORTS, le plus grand des spectacles",
@@ -5181,6 +5201,66 @@
           "end": "2026-12-02T00:00:00.000Z",
           "startEpochSeconds": 1796155200,
           "endEpochSeconds": 1796169600,
+          "source": "bein_fr"
+        },
+        {
+          "id": "76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A:1796169600000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T00:00:00.000Z",
+          "end": "2026-12-02T04:00:00.000Z",
+          "startEpochSeconds": 1796169600,
+          "endEpochSeconds": 1796184000,
+          "source": "bein_fr"
+        },
+        {
+          "id": "76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A:1796184000000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T04:00:00.000Z",
+          "end": "2026-12-02T08:00:00.000Z",
+          "startEpochSeconds": 1796184000,
+          "endEpochSeconds": 1796198400,
+          "source": "bein_fr"
+        },
+        {
+          "id": "76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A:1796198400000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T08:00:00.000Z",
+          "end": "2026-12-02T12:00:00.000Z",
+          "startEpochSeconds": 1796198400,
+          "endEpochSeconds": 1796212800,
+          "source": "bein_fr"
+        },
+        {
+          "id": "76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A:1796212800000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T12:00:00.000Z",
+          "end": "2026-12-02T16:00:00.000Z",
+          "startEpochSeconds": 1796212800,
+          "endEpochSeconds": 1796227200,
+          "source": "bein_fr"
+        },
+        {
+          "id": "76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A:1796227200000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T16:00:00.000Z",
+          "end": "2026-12-02T20:00:00.000Z",
+          "startEpochSeconds": 1796227200,
+          "endEpochSeconds": 1796241600,
+          "source": "bein_fr"
+        },
+        {
+          "id": "76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A:1796241600000:bein sports, le plus grand des spectacles",
+          "title": "beIN SPORTS, le plus grand des spectacles",
+          "description": "",
+          "start": "2026-12-02T20:00:00.000Z",
+          "end": "2026-12-03T00:00:00.000Z",
+          "startEpochSeconds": 1796241600,
+          "endEpochSeconds": 1796256000,
           "source": "bein_fr"
         }
       ]
